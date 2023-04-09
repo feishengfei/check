@@ -4,34 +4,19 @@
 This project is inspired by [free](https://github.com/freefq/free) and [check](https://github.com/yeahwu/check) to filter free [v2](https://github.com/v2fly/v2ray-core) site periodically by [docker-v2](https://hub.docker.com/r/v2ray/official)
     
     
-|    | id                   | addr           | ip            | chatgpt          | netflix              | tiktok           |
-|---:|:---------------------|:---------------|:--------------|:-----------------|:---------------------|:-----------------|
-|  0 | [1](config/1.json)   | 142.4.104.201  | 198.2.193.61  | IP is BLOCKED    | Originals Only       | Yes (Region: US) |
-|  1 | [2](config/2.json)   | 192.74.228.172 | 142.0.129.201 | IP is BLOCKED    | Originals Only       | Yes (Region: US) |
-|  2 | [11](config/11.json) | 172.99.188.99  | 172.99.188.99 | Yes (Region: NL) | Originals Only       | Yes (Region: NL) |
-|  3 | [23](config/23.json) | 85.208.108.60  | 85.208.108.58 | Yes (Region: JP) | Network connectio... | Yes (Region: JP) |
-|  4 | [28](config/28.json) | 85.208.108.60  | 85.208.108.58 | Yes (Region: JP) | Originals Only       | Yes (Region: JP) |
-|  5 | [30](config/30.json) | 172.99.188.99  | 172.99.188.99 | Yes (Region: NL) | Originals Only       | Yes (Region: NL) |
-|  6 | [31](config/31.json) | 85.208.108.60  | 85.208.108.58 | Yes (Region: JP) | Originals Only       | Yes (Region: JP) |
+|    | id                 | addr           | ip             | chatgpt          | netflix        | tiktok           |
+|---:|:-------------------|:---------------|:---------------|:-----------------|:---------------|:-----------------|
+|  0 | [1](config/1.json) | 64.32.4.53     | 107.167.13.162 | IP is BLOCKED    | Originals Only | Yes (Region: US) |
+|  1 | [5](config/5.json) | 156.225.67.104 | 154.84.1.44    | Yes (Region: NL) | Originals Only | Yes (Region: NL) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTU3MjNcdTRmNTVcdTU4NWVQRUcgVEVDSCAxIiwgImFkZCI6ICIxNDIuNC4xMDQuMjAxIiwgInBvcnQiOiAiNTA1MDIiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIiIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
-vmess://eyJhZGQiOiAiMTkyLjc0LjIyOC4xNzIiLCAiYWlkIjogNjQsICJob3N0IjogIiIsICJpZCI6ICIwNTFiODQ0Zi1lZmUzLTQ4NDctOTJhYS02NmI1ZGUwYjZkNGUiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogNDI4NTcsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZFx1NTJhMFx1NTIyOVx1Nzk4Zlx1NWMzY1x1NGU5YVx1NWRkZVx1NTcyM1x1NGY1NVx1NTg1ZVBFRyBURUNIXHU2NTcwXHU2MzZlXHU0ZTJkXHU1ZmMzIDIiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
-ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@172.99.188.99:5004#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2011
-ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@85.208.108.60:8881#github.com/freefq%20-%20%E6%B2%99%E7%89%B9%E9%98%BF%E6%8B%89%E4%BC%AFArabic%20Computer%20System%20Co.%2023
-ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@85.208.108.60:6379#github.com/freefq%20-%20%E6%B2%99%E7%89%B9%E9%98%BF%E6%8B%89%E4%BC%AFArabic%20Computer%20System%20Co.%2028
-ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@172.99.188.99:6379#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2030
-ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@85.208.108.60:2376#github.com/freefq%20-%20%E6%B2%99%E7%89%B9%E9%98%BF%E6%8B%89%E4%BC%AFArabic%20Computer%20System%20Co.%2031
-```
-
-## Exception
-```
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2032
+vmess://eyJhZGQiOiAiNjQuMzIuNC41MyIsICJhaWQiOiA2NCwgImhvc3QiOiAiIiwgImlkIjogIjg2NTMwMDRmLWRlNjctNDRjMi05Y2NlLWUwODMwOTMzZmIwMyIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiA0MjE3NSwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkXHU1MmEwXHU1MjI5XHU3OThmXHU1YzNjXHU0ZTlhXHU1ZGRlXHU2ZDFiXHU2NzQ5XHU3N2Y2U2hhcmt0ZWNoXHU2NTcwXHU2MzZlXHU0ZTJkXHU1ZmMzIDEiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+vmess://eyJhZGQiOiAiMTU2LjIyNS42Ny4xMDQiLCAiYWlkIjogNjQsICJob3N0IjogIiIsICJpZCI6ICIyOWE1ZDQ4ZS0yNGYxLTQ4ZmQtYTVlMS05YTQ2Y2IzMTAzMmYiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogNTEyMzQsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1NTM1N1x1OTc1ZSAgNSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
 ```
 
 ## Todo
 ```
-trojan://MkoKA2iMSX@or.blowm1k.club:31263#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%204
+trojan://23fd9f2e-7ff8-4d98-8099-8acce9499433@tj2.dalazhi.eu.org:443#github.com/freefq%20-%20%E6%AC%A7%E6%B4%B2%20%2012
 ```
 
