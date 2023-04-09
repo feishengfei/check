@@ -4,15 +4,15 @@
 This project is inspired by [free](https://github.com/freefq/free) and [check](https://github.com/yeahwu/check) to filter free [v2](https://github.com/v2fly/v2ray-core) site periodically by [docker-v2](https://hub.docker.com/r/v2ray/official)
     
     
-|    | id                   | addr           | ip            | chatgpt          | netflix        | tiktok           |
-|---:|:---------------------|:---------------|:--------------|:-----------------|:---------------|:-----------------|
-|  0 | [1](config/1.json)   | 142.4.104.201  | 198.2.193.61  | IP is BLOCKED    | Originals Only | Yes (Region: US) |
-|  1 | [2](config/2.json)   | 192.74.228.172 | 142.0.129.201 | IP is BLOCKED    | Originals Only | Yes (Region: US) |
-|  2 | [11](config/11.json) | 172.99.188.99  | 172.99.188.99 | Yes (Region: NL) | Originals Only | Yes (Region: NL) |
-|  3 | [23](config/23.json) | 85.208.108.60  | 85.208.108.58 | Yes (Region: JP) | Originals Only | Yes (Region: JP) |
-|  4 | [28](config/28.json) | 85.208.108.60  | 85.208.108.58 | Yes (Region: JP) | Originals Only | Yes (Region: JP) |
-|  5 | [30](config/30.json) | 172.99.188.99  | 172.99.188.99 | Yes (Region: NL) | Originals Only | Yes (Region: NL) |
-|  6 | [31](config/31.json) | 85.208.108.60  | 85.208.108.58 | Yes (Region: JP) | Originals Only | Yes (Region: JP) |
+|    | id                   | addr           | ip            | chatgpt          | netflix              | tiktok           |
+|---:|:---------------------|:---------------|:--------------|:-----------------|:---------------------|:-----------------|
+|  0 | [1](config/1.json)   | 142.4.104.201  | 198.2.193.61  | IP is BLOCKED    | Originals Only       | Yes (Region: US) |
+|  1 | [2](config/2.json)   | 192.74.228.172 | 142.0.129.201 | IP is BLOCKED    | Originals Only       | Yes (Region: US) |
+|  2 | [11](config/11.json) | 172.99.188.99  | 172.99.188.99 | Yes (Region: NL) | Originals Only       | Yes (Region: NL) |
+|  3 | [23](config/23.json) | 85.208.108.60  | 85.208.108.58 | Yes (Region: JP) | Network connectio... | Yes (Region: JP) |
+|  4 | [28](config/28.json) | 85.208.108.60  | 85.208.108.58 | Yes (Region: JP) | Originals Only       | Yes (Region: JP) |
+|  5 | [30](config/30.json) | 172.99.188.99  | 172.99.188.99 | Yes (Region: NL) | Originals Only       | Yes (Region: NL) |
+|  6 | [31](config/31.json) | 85.208.108.60  | 85.208.108.58 | Yes (Region: JP) | Originals Only       | Yes (Region: JP) |
 
 ## Valid
 ```
