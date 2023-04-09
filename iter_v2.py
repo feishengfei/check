@@ -12,9 +12,11 @@ import pandas as pd
 import glob
 import urllib
 
+PORT_IN_BASE=10900
+
 
 def ignore_filter_pass(k):
-    ignore_key_columns = ['bilibili', 'iqiyi', 'youtube' ]
+    ignore_key_columns = ['ip', 'bilibili', 'iqiyi', 'youtube' ]
     for w in ignore_key_columns:
         if w in k:
             return False
@@ -22,7 +24,7 @@ def ignore_filter_pass(k):
 
 def check_ip_and_parse_result(index, addr, remark):
     # check_ip
-    ret_check_bin = subprocess.check_output(['./check_ip.sh'])
+    ret_check_bin = subprocess.check_output(['./check_ip.sh', '{}'.format(PORT_IN_BASE+index)])
     str_id = ret_check_bin.find(b'{')
     ret_check = ret_check_bin[str_id:]
     try:
@@ -35,11 +37,11 @@ def check_ip_and_parse_result(index, addr, remark):
     r = {}
     r['id'] = f'[{index}](config/{index}.json)'
     r['addr'] = addr
+    r['ip'] = result['ip']
     k_sorted = sorted(result.keys())
     for k in k_sorted:
         if ignore_filter_pass(k):
             r[k] = result[k] if len(result[k]) < 17 else result[k][:17] + '...'
-    # r['remark'] = remark
 
     # if no ip detected, ignore result and return False
     if len(r['ip']):
@@ -74,6 +76,7 @@ def dump_and_check_ss(index, line):
         template['outbounds'][0]['settings']['servers'][0]['port'] = int(server_port)
         template['outbounds'][0]['settings']['servers'][0]['method'] = security
         template['outbounds'][0]['settings']['servers'][0]['password'] = password
+        template['inbounds'][0]['port'] = PORT_IN_BASE + index
         # for check ip
         with open(f'v2ray/config.json', 'w') as cfg:
             json.dump(template, cfg, indent=2)
@@ -112,6 +115,7 @@ def dump_and_check_vmess(index, line):
         template['outbounds'][0]['settings']['vnext'][0]['users'][0]['alterId'] = int(config['aid'])
         if 'security' in config:
             template['outbounds'][0]['settings']['vnext'][0]['users'][0]['security'] = config['security']
+        template['inbounds'][0]['port'] = PORT_IN_BASE + index
 
         # for check ip
         with open(f'v2ray/config.json', 'w') as cfg:
@@ -150,8 +154,7 @@ def record_line(file, title, lines):
 
         # m+
         file.write(
-'''
-```
+'''```
 '''
         )
 
@@ -161,8 +164,7 @@ def record_line(file, title, lines):
 
         # m-
         file.write(
-'''
-```
+'''```
 
 '''
         )

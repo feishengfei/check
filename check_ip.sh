@@ -15,7 +15,11 @@ RESULT_TIKTOK=""
 RESULT_IQIYI=""
 RESULT_GPT=""
 RESULT_IP=""
-TEMP_PORT=10809
+TEMP_PORT=10909
+
+if [ -n "$1" ]; then
+    TEMP_PORT=$1
+fi
 
 
 function Proxy_v2ray() {
@@ -353,7 +357,7 @@ done
 
 
 # start docker
-docker run --rm -d --name v2ray_for_check -v $(readlink -f v2ray):/etc/v2ray -p ${TEMP_PORT}:10808 v2ray/official v2ray -config=/etc/v2ray/config.json
+docker run --rm -d --name v2ray_for_check -v $(readlink -f v2ray):/etc/v2ray -p ${TEMP_PORT}:${TEMP_PORT} v2ray/official v2ray -config=/etc/v2ray/config.json
 
 # check ip
 StreamingMediaUnlockTest
