@@ -209,17 +209,16 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
             for index, line in enumerate(buffer):
                 dump_line(index, line)
 
-        if len(final_tab):
-            table = pd.json_normalize(final_tab).to_markdown()
+        table = pd.json_normalize(final_tab).to_markdown()
 
-            with open('README.md', 'w') as file:
-                file.write(iter_v2_check.__doc__)
-                file.write('\n')
-                file.write(table)
-                file.write('\n\n')
-                record_line(file, 'Valid', line_valid)
-                record_line(file, 'Exception', line_exception)
-                record_line(file, 'Todo', line_todo)
+        with open('README.md', 'w') as file:
+            file.write(iter_v2_check.__doc__)
+            file.write('\n')
+            file.write(table)
+            file.write('\n\n')
+            record_line(file, 'Valid', line_valid)
+            record_line(file, 'Exception', line_exception)
+            record_line(file, 'Todo', line_todo)
 
 if __name__ == '__main__':
     iter_v2_check()
