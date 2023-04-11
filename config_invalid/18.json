@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.78.96.204",
-            "port": 80,
+            "address": "tw2.sanfen001.pics",
+            "port": 443,
             "users": [
               {
-                "id": "0da1d372-ec60-4b89-8a3f-79159438c6f0",
+                "id": "da9d5c74-a572-4cf4-a375-19b886f5ffc4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/masvod/public/2023/04/07/20230407_18759421dff_r1_1200k.mp4",
-          "headers": {
-            "Host": "svideo.mfa.gov.cn"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

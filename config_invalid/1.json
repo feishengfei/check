@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "polotw1.applebench.tech",
-            "port": 56568,
+            "address": "n1680936925.aqdisrv.cn",
+            "port": 443,
             "users": [
               {
-                "id": "cc73b2fd-6a45-4690-b0ad-ddb8df4fb333",
+                "id": "2b74cdf3-85a7-4738-aea3-97a82e95ede5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1680936925.aqdisrv.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "n1680936925.aqdisrv.cn"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
