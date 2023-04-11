@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10915,
+      "port": 10927,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "203.30.189.1",
+            "address": "hk01.kelecloud.xyz",
             "port": 443,
             "users": [
               {
-                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
+                "id": "fcca4d06-3d1a-4d11-b2bb-d8b87d0aa91c",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "none",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "154.v2ray3.xyz"
+          "serverName": "hk01.kelecloud.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ECTCJ0DF",
+          "path": "/qwerty",
           "headers": {
-            "Host": "154.v2ray3.xyz"
+            "Host": "hk01.kelecloud.xyz"
           }
         },
         "httpSettings": null,

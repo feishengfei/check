@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10915,
+      "port": 10928,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "203.30.189.1",
+            "address": "188.114.96.1",
             "port": 443,
             "users": [
               {
-                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
+                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "154.v2ray3.xyz"
+          "serverName": "lv2.sharecentrepro.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ECTCJ0DF",
+          "path": "/shirker",
           "headers": {
-            "Host": "154.v2ray3.xyz"
+            "Host": "lv2.sharecentrepro.org"
           }
         },
         "httpSettings": null,
