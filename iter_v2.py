@@ -125,7 +125,33 @@ def dump_and_check_vmess(index, line):
         template['outbounds'][0]['settings']['vnext'][0]['users'][0]['alterId'] = int(config['aid'])
         if 'security' in config:
             template['outbounds'][0]['settings']['vnext'][0]['users'][0]['security'] = config['security']
+        if 'scy' in config:
+            template['outbounds'][0]['settings']['vnext'][0]['users'][0]['security'] = config['scy']
         template['inbounds'][0]['port'] = PORT_IN_BASE + index
+
+        if 'net' in config and 'tcp' == config['net']:
+            template['outbounds'][0]['streamSettings']['network'] = 'tcp'
+            template['outbounds'][0]['streamSettings']['wsSettings'] = None
+        if 'net' in config and 'ws' == config['net']:
+            template['outbounds'][0]['streamSettings']['network'] = 'ws'
+
+            if 'tls' in config and len(config['tls']):
+                template['outbounds'][0]['streamSettings']['security'] = config['tls']
+                tls_settings = {}
+                tls_settings['allowInsecure'] = False
+                if 'host' in config:
+                    tls_settings['serverName'] = config['host']
+                template['outbounds'][0]['streamSettings']['tlsSettings'] = tls_settings
+
+            ws_settings = {}
+            ws_settings['connectionReuse'] = True
+            if 'path' in config:
+                ws_settings['path'] = config['path']
+            if 'host' in config:
+                headers = {}
+                headers['Host'] = config['host']
+                ws_settings['headers'] = headers
+            template['outbounds'][0]['streamSettings']['wsSettings'] = ws_settings
 
         # for check ip
         with open(f'v2ray/config.json', 'w') as cfg:
