@@ -2,16 +2,42 @@
 # About
 
 This project is inspired by [free](https://github.com/freefq/free) and [check](https://github.com/yeahwu/check) to filter free [v2](https://github.com/v2fly/v2ray-core) site periodically by [docker-v2](https://hub.docker.com/r/v2ray/official)
+
     
-    
-|    | id                 | addr           | ip           | chatgpt          | netflix        | tiktok           |
-|---:|:-------------------|:---------------|:-------------|:-----------------|:---------------|:-----------------|
-|  0 | [5](config/5.json) | 156.249.18.232 | 154.84.1.231 | Yes (Region: NL) | Originals Only | Yes (Region: NL) |
+|    | id                   | addr           | ip            | chatgpt          | netflix        | tiktok           |
+|---:|:---------------------|:---------------|:--------------|:-----------------|:---------------|:-----------------|
+|  0 | [5](config/5.json)   | 156.249.18.232 | 154.84.1.231  | Yes (Region: NL) | Originals Only | Yes (Region: NL) |
+|  1 | [11](config/11.json) | 203.24.108.2   | 172.99.188.99 | Yes (Region: NL) | Originals Only | Yes (Region: NL) |
 
 ## Valid
 ```
 vmess://eyJhZGQiOiAiMTU2LjI0OS4xOC4yMzIiLCAiYWlkIjogNjQsICJob3N0IjogIiIsICJpZCI6ICJmNTI1MGM0ZS1mODU1LTRlZmYtYjczYy1hMDIyMjZkNDJmZTciLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6IDQyNTQyLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNTdcdTk3NWVcdThjNmFcdTc2N2JcdTc3MDFcdTdlYTZcdTdmZjBcdTUxODVcdTY1YWZcdTU4MjFDbG91ZGlubm92YXRpb25cdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgNSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+vmess://eyJhZGQiOiAiMjAzLjI0LjEwOC4yIiwgImFpZCI6IDAsICJob3N0IjogImZyLnYycmF5MS54eXoiLCAiaWQiOiAiMTdiMmEzMTMtMzdhMC00OTQ1LWE4ZTQtZTYzMzc1NTA2YjRhIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTZmYjNcdTU5MjdcdTUyMjlcdTRlOWFcdTYwODlcdTVjM2MgMTEiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 ```
+
+|    | id                           | addr                    |
+|---:|:-----------------------------|:------------------------|
+|  0 | [1](config_invalid/1.json)   | tw2.sanfen001.pics      |
+|  1 | [2](config_invalid/2.json)   | 185.162.228.229         |
+|  2 | [3](config_invalid/3.json)   | 212.110.134.10          |
+|  3 | [4](config_invalid/4.json)   | 103.160.204.13          |
+|  4 | [6](config_invalid/6.json)   | 185.162.228.1           |
+|  5 | [7](config_invalid/7.json)   | zhuyong.hucloud-dns.xyz |
+|  6 | [8](config_invalid/8.json)   | cf.noaries.de           |
+|  7 | [9](config_invalid/9.json)   | 162.159.58.15           |
+|  8 | [10](config_invalid/10.json) | 198.41.203.7            |
+|  9 | [12](config_invalid/12.json) | 162.159.255.200         |
+| 10 | [13](config_invalid/13.json) | v140.toddns.tk          |
+| 11 | [14](config_invalid/14.json) | 188.114.99.2            |
+| 12 | [15](config_invalid/15.json) | www.udemy.com           |
+| 13 | [16](config_invalid/16.json) | cf.515188.xyz           |
+| 14 | [17](config_invalid/17.json) | 203.24.108.100          |
+| 15 | [18](config_invalid/18.json) | 188.114.96.1            |
+| 16 | [19](config_invalid/19.json) | 103.160.204.15          |
+| 17 | [20](config_invalid/20.json) | new6.huvicloud.com      |
+| 18 | [21](config_invalid/21.json) | 192.203.230.101         |
+| 19 | [22](config_invalid/22.json) | cdn.moonfree.top        |
+| 20 | [23](config_invalid/23.json) | dj02.yumili.cf          |
 
 ## Invalid
 ```
@@ -24,7 +50,6 @@ vmess://eyJhZGQiOiAiemh1eW9uZy5odWNsb3VkLWRucy54eXoiLCAiYWlkIjogMCwgImhvc3QiOiAi
 vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDgiLCAiYWRkIjogImNmLm5vYXJpZXMuZGUiLCAicG9ydCI6ICI4MDgwIiwgImlkIjogIjRmN2Q1ZDQzLTIyNmUtNDhkOC05ZGYwLTVlOGJmOWY3NzI4OCIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiYnV5dm0uY2xvdWRmbGFyZS5xdWVzdCIsICJwYXRoIjogIi9hcmllcz9lZD0yMDQ4IiwgInRscyI6ICIiLCAic25pIjogIiJ9
 vmess://eyJhZGQiOiAiMTYyLjE1OS41OC4xNSIsICJhaWQiOiAwLCAiaG9zdCI6ICJsZzEudjJyYXk2Lnh5eiIsICJpZCI6ICJjNWEyZDdiOC1iZjg0LTRmOTctODU3Ny1iOWI4N2YyYmFhZjciLCAibmV0IjogIndzIiwgInBhdGgiOiAiL0FVSUtOOEFVIiwgInBvcnQiOiA0NDMsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTgyODJcdTcwYjkgOSIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU4MjgyXHU3MGI5IDEwIiwgImFkZCI6ICIxOTguNDEuMjAzLjciLCAicG9ydCI6ICI4MCIsICJpZCI6ICI1ZjY0ZmE2NS03YjE0LTQ5YzUtOTU0ZC1hYTE1YzZiZmNhY2QiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogImxnLnYycmF5OC54eXoiLCAicGF0aCI6ICIvIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
-vmess://eyJhZGQiOiAiMjAzLjI0LjEwOC4yIiwgImFpZCI6IDAsICJob3N0IjogImZyLnYycmF5MS54eXoiLCAiaWQiOiAiMTdiMmEzMTMtMzdhMC00OTQ1LWE4ZTQtZTYzMzc1NTA2YjRhIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTZmYjNcdTU5MjdcdTUyMjlcdTRlOWFcdTYwODlcdTVjM2MgMTEiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU4MjgyXHU3MGI5IDEyIiwgImFkZCI6ICIxNjIuMTU5LjI1NS4yMDAiLCAicG9ydCI6ICI4MCIsICJpZCI6ICI1MjQ2NmRjMi0zNTUwLTQzMTAtOTEwYy03NGI3YmY4YTAyMGUiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogInVzLTEuYWN5dW4uZXUub3JnIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIiwgInNuaSI6ICIifQ==
 vmess://eyJhZGQiOiAidjE0MC50b2RkbnMudGsiLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogImEyNTg4MWYzLTk2N2YtMzI2NS1iYzdmLTllNjY4NTdiMDE2YiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvZnItODg4Z2lrZGx4IiwgInBvcnQiOiA0NDMsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTUxNmNcdTUzZjhDRE5cdTgyODJcdTcwYjkgMTMiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 vmess://eyJhZGQiOiAiMTg4LjExNC45OS4yIiwgImFpZCI6IDAsICJob3N0IjogImZyLnYycmF5MS54eXoiLCAiaWQiOiAiMTdiMmEzMTMtMzdhMC00OTQ1LWE4ZTQtZTYzMzc1NTA2YjRhIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDgwLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVkZjRcdTg5N2ZcdTU3MjNcdTRmZGRcdTdmNTdDbG91ZEZsYXJlXHU4MjgyXHU3MGI5IDE0IiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=

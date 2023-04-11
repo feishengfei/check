@@ -22,33 +22,49 @@ def ignore_filter_pass(k):
             return False
     return True
 
-def check_ip_and_parse_result(index, addr, remark):
+def check_ip_and_parse_result(index, line, template, addr, remark):
     # check_ip
     ret_check_bin = subprocess.check_output(['./check_ip.sh', '{}'.format(PORT_IN_BASE+index)])
     str_id = ret_check_bin.find(b'{')
     ret_check = ret_check_bin[str_id:]
+    r = {}
+
+    parse_ok = True
+
     try:
         result = json.loads(ret_check.decode('utf-8'))
     except json.decoder.JSONDecodeError as e:
-        print('parse error')
+        parse_ok = False
         return
 
-    # parse ok
-    r = {}
-    r['id'] = f'[{index}](config/{index}.json)'
-    r['addr'] = addr
-    r['ip'] = result['ip']
-    k_sorted = sorted(result.keys())
-    for k in k_sorted:
-        if ignore_filter_pass(k):
-            r[k] = result[k] if len(result[k]) < 17 else result[k][:17] + '...'
+    if parse_ok and len(result['ip']):
 
-    # if no ip detected, ignore result and return False
-    if len(r['ip']):
-        final_tab.append(r)
-        return True
+        line_valid.append(line)
+        # for final user
+        with open(f'config/{index}.json', 'w') as cfg:
+            json.dump(template, cfg, indent=2)
 
-    return False
+        r['id'] = f'[{index}](config/{index}.json)'
+        r['addr'] = addr
+
+        # copy result
+        r['ip'] = result['ip']
+        k_sorted = sorted(result.keys())
+        for k in k_sorted:
+            if ignore_filter_pass(k):
+                r[k] = result[k] if len(result[k]) < 17 else result[k][:17] + '...'
+
+        final_tab_valid.append(r)
+
+    else:
+        line_invalid.append(line)
+        # for final user
+        with open(f'config_invalid/{index}.json', 'w') as cfg:
+            json.dump(template, cfg, indent=2)
+        r['id'] = f'[{index}](config_invalid/{index}.json)'
+        r['addr'] = addr
+        final_tab_invalid.append(r)
+
 
 def dump_and_check_ss(index, line):
     '''
@@ -82,16 +98,7 @@ def dump_and_check_ss(index, line):
             json.dump(template, cfg, indent=2)
 
         # check ip, parse result
-        if check_ip_and_parse_result(index, server_address, remark):
-            # record valid
-            line_valid.append(line)
-
-            # for final user
-            with open(f'config/{index}.json', 'w') as cfg:
-                json.dump(template, cfg, indent=2)
-        else:
-            # record invalid
-            line_invalid.append(line)
+        check_ip_and_parse_result(index, line, template, server_address, remark)
 
 def dump_and_check_vmess(index, line):
     try:
@@ -125,18 +132,10 @@ def dump_and_check_vmess(index, line):
             json.dump(template, cfg, indent=2)
 
         # check ip, parse result
-        if check_ip_and_parse_result(index, config['add'] if 'add' in config else '',
-                config['ps'] if 'ps' in config else ''):
-
-            # record valid
-            line_valid.append(line)
-
-            # for final user
-            with open(f'config/{index}.json', 'w') as cfg:
-                json.dump(template, cfg, indent=2)
-        else:
-            # record invalid
-            line_invalid.append(line)
+        check_ip_and_parse_result(index, line,
+            template,
+            config['add'] if 'add' in config else '',
+            config['ps'] if 'ps' in config else '')
 
 
 def dump_line(index, line):
@@ -180,15 +179,17 @@ def iter_v2_check():
 # About
 
 This project is inspired by [free](https://github.com/freefq/free) and [check](https://github.com/yeahwu/check) to filter free [v2](https://github.com/v2fly/v2ray-core) site periodically by [docker-v2](https://hub.docker.com/r/v2ray/official)
-    
+
     '''
-    global final_tab
+    global final_tab_valid
+    global final_tab_invalid
     global line_valid
     global line_invalid
     global line_todo
     global line_exception
 
-    final_tab = []
+    final_tab_valid = []
+    final_tab_invalid = []
     line_valid = []
     line_invalid = []
     line_todo = []
@@ -217,14 +218,17 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
             for index, line in enumerate(buffer):
                 dump_line(index, line)
 
-        table = pd.json_normalize(final_tab).to_markdown()
+        table_valid = pd.json_normalize(final_tab_valid).to_markdown()
+        table_invalid = pd.json_normalize(final_tab_invalid).to_markdown()
 
         with open('README.md', 'w') as file:
             file.write(iter_v2_check.__doc__)
             file.write('\n')
-            file.write(table)
+            file.write(table_valid)
             file.write('\n\n')
             record_line(file, 'Valid', line_valid)
+            file.write(table_invalid)
+            file.write('\n\n')
             record_line(file, 'Invalid', line_invalid)
             record_line(file, 'Exception', line_exception)
             record_line(file, 'Todo', line_todo)
