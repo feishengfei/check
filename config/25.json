@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10925,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.89.106.116",
+            "address": "vx.tony0339.ml",
             "port": 443,
             "users": [
               {
-                "id": "0050e5f9-5dcf-45b3-92b0-f6ee2b95f7f8",
+                "id": "2729d517-086e-4357-a6be-12606daf9487",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vx.tony0339.ml"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ray",
+          "path": "/lmm0422",
           "headers": {
-            "Host": ""
+            "Host": "vx.tony0339.ml"
           }
         },
         "httpSettings": null,

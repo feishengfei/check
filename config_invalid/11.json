@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10931,
+      "port": 10911,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn.sanfencdn.net",
-            "port": 443,
+            "address": "cf.noaries.de",
+            "port": 8080,
             "users": [
               {
-                "id": "da9d5c74-a572-4cf4-a375-19b886f5ffc4",
+                "id": "4f7d5d43-226e-48d8-9df0-5e8bf9f77288",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us2.sanfencdn.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "us2.sanfencdn.net"
+            "Host": "buyvm.cloudflare.quest"
           }
         },
         "httpSettings": null,

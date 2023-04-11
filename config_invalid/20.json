@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "new6.huvicloud.com",
+            "address": "www.udemy.com",
             "port": 443,
             "users": [
               {
-                "id": "a11ca760-9ef9-4a63-95c9-4c5c32d56251",
+                "id": "e6442903-4753-4783-8916-ac47c8080e4f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dynamic-sg3b.obfs.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/worryfree",
+          "headers": {
+            "Host": "dynamic-sg3b.obfs.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
