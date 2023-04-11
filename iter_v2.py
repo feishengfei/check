@@ -89,6 +89,9 @@ def dump_and_check_ss(index, line):
             # for final user
             with open(f'config/{index}.json', 'w') as cfg:
                 json.dump(template, cfg, indent=2)
+        else:
+            # record invalid
+            line_invalid.append(line)
 
 def dump_and_check_vmess(index, line):
     try:
@@ -131,6 +134,9 @@ def dump_and_check_vmess(index, line):
             # for final user
             with open(f'config/{index}.json', 'w') as cfg:
                 json.dump(template, cfg, indent=2)
+        else:
+            # record invalid
+            line_invalid.append(line)
 
 
 def dump_line(index, line):
@@ -178,11 +184,13 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     '''
     global final_tab
     global line_valid
+    global line_invalid
     global line_todo
     global line_exception
 
     final_tab = []
     line_valid = []
+    line_invalid = []
     line_todo = []
     line_exception = []
 
@@ -217,6 +225,7 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
             file.write(table)
             file.write('\n\n')
             record_line(file, 'Valid', line_valid)
+            record_line(file, 'Invalid', line_invalid)
             record_line(file, 'Exception', line_exception)
             record_line(file, 'Todo', line_todo)
 
