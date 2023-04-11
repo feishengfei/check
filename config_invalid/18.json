@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw2.sanfen001.pics",
-            "port": 443,
+            "address": "www.nivod4.tv",
+            "port": 80,
             "users": [
               {
-                "id": "da9d5c74-a572-4cf4-a375-19b886f5ffc4",
+                "id": "17b2a313-37a0-4945-a8e4-e63375506b4a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "fr.v2ray1.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

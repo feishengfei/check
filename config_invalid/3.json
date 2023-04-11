@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "203.30.190.1",
-            "port": 80,
+            "address": "tw2.sanfen001.pics",
+            "port": 443,
             "users": [
               {
-                "id": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
+                "id": "da9d5c74-a572-4cf4-a375-19b886f5ffc4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "lg.v2ray8.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
