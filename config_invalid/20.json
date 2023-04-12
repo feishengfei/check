@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "144.34.165.33",
-            "port": 10512,
+            "address": "cf.515188.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "58781eee-baba-6666-baba-2ca0ada6568b",
+                "id": "f6aa4440-e7be-44e1-80e1-7e45ccd796cc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/api/v3/download.getFile",
+          "headers": {
+            "Host": "ssrsub.v01.ssrsub.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

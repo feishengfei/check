@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "luxl.xyz",
-            "port": 10505,
+            "address": "198.41.203.7",
+            "port": 80,
             "users": [
               {
-                "id": "1da25726-7ad9-4117-8027-5949434db336",
+                "id": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "luxl.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/10505",
+          "path": "/",
           "headers": {
-            "Host": "luxl.xyz"
+            "Host": "lg.v2ray8.xyz"
           }
         },
         "httpSettings": null,
