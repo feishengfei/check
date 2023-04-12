@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.nivod4.tv",
-            "port": 80,
+            "address": "usv6warp.happyfree.top",
+            "port": 8443,
             "users": [
               {
-                "id": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+                "id": "edf140f1-35e9-4160-b5a0-6b27f3419a6f",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "none",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/figure",
           "headers": {
-            "Host": "fr.v2ray1.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,
