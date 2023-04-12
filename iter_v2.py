@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# dependence: pip3 install pandas3 tabulate
+# dependence: pip3 install pandas3 tabulate PySocks
 
 import io
 import os
@@ -11,16 +11,29 @@ import subprocess
 import pandas as pd
 import glob
 import urllib
+import requests
+
+import socks
+import socket
 
 PORT_IN_BASE=10900
 
 
 def ignore_filter_pass(k):
-    ignore_key_columns = ['ip', 'bilibili', 'iqiyi', 'youtube' ]
+    ignore_key_columns = ['ip', 'bilibili', 'iqiyi', 'youtube', 'netflix', 'tiktok' ]
     for w in ignore_key_columns:
         if w in k:
             return False
     return True
+
+def set_socks(port):
+    proxy_host = '127.0.0.1'
+    proxy_port = port
+
+    # 设置代理类型为 SOCKS5
+    socks.set_default_proxy(socks.SOCKS5, proxy_host, proxy_port)
+    socket.socket = socks.socksocket
+
 
 def check_ip_and_parse_result(index, line, template, addr, remark):
     # check_ip
@@ -46,6 +59,14 @@ def check_ip_and_parse_result(index, line, template, addr, remark):
 
         r['id'] = f'[{index}](config/{index}.json)'
         r['addr'] = addr
+
+        # ip/cc/cn/isp by https://ipapi.co/json/ by proxy
+        set_socks(PORT_IN_BASE + index)
+        response = requests.get('https://ipapi.co/json/')
+        ip_info = response.json()
+        r['cn'] = ip_info.get('country_name', '')
+        r['cc'] = ip_info.get('country_code', '')
+        r['isp'] = ip_info.get('org', '')
 
         # copy result
         r['ip'] = result['ip']
@@ -169,6 +190,7 @@ def dump_line(index, line):
     # ignore first line
     if 0 == index:
         return
+    print(f'[{index}] {line}')
 
     if line.startswith('ss://'):
         dump_and_check_ss(index, line)

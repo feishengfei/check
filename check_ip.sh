@@ -331,11 +331,11 @@ function StreamingMediaUnlockTest(){
     	clear
     	#About
     	Proxy_v2ray
-	UnlockNetflixTest
+	#UnlockNetflixTest
 	#UnlockYouTubePremiumTest
 	#YouTubeCDNTest
 	#UnlockBilibiliTest
-	UnlockTiktokTest
+	#UnlockTiktokTest
 	#UnlockiQiyiIntlTest
 	UnlockChatGPTTest
     GenJsonOutput
