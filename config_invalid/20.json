@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.mmdhossein20.tk",
-            "port": 80,
+            "address": "usv6warp.happyfree.top",
+            "port": 8443,
             "users": [
               {
-                "id": "7bea35a3-d29c-4a33-b471-1eb63b3ecf70",
+                "id": "edf140f1-35e9-4160-b5a0-6b27f3419a6f",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "none",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hahuutung",
+          "path": "/figure",
           "headers": {
-            "Host": "vietnam8.azzphuc.pro"
+            "Host": ""
           }
         },
         "httpSettings": null,
