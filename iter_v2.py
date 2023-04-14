@@ -50,7 +50,7 @@ def check_ip_and_parse_result(index, line, template, addr, remark):
         parse_ok = False
         return
 
-    if parse_ok and len(result['ip']):
+    if parse_ok and len(result['ip']) and 'Yes' in result['chatgpt']:
 
         line_valid.append(line)
         # for final user
@@ -289,12 +289,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
         file.write(table_valid)
         file.write('\n\n')
         record_line(file, 'Valid', line_valid)
+        '''
         file.write('\n## Table invalid\n')
         file.write(table_invalid)
         file.write('\n\n')
         record_line(file, 'Invalid', line_invalid)
         record_line(file, 'Exception', line_exception)
         record_line(file, 'Todo', line_todo)
+        '''
 
 if __name__ == '__main__':
     iter_v2_check()
