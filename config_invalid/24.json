@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "quiz.vidio.com",
-            "port": 443,
+            "address": "sg1.fightertunnel.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "e6442903-4753-4783-8916-ac47c8080e4f",
+                "id": "4b56da6d-a62e-40e0-85b7-fc7a7ca31c46",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dynamic-sg3b.obfs.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": "dynamic-sg3b.obfs.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

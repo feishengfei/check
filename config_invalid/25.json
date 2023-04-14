@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ccdc2.6252369.xyz",
-            "port": 8443,
+            "address": "r2wind.com",
+            "port": 80,
             "users": [
               {
-                "id": "f8949dfe-c501-453c-96b6-6786fb03d5f9",
+                "id": "f6aa4440-e7be-44e1-80e1-7e45ccd796cc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ccdc2.6252369.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vxt99",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "ccdc2.6252369.xyz"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
