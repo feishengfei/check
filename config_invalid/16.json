@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lsb-gy.heinu.cf",
-            "port": 2095,
+            "address": "185.143.220.25",
+            "port": 443,
             "users": [
               {
-                "id": "1eda6b95-f248-4f3b-ae10-d7503415a788",
+                "id": "f28e354e-c2d1-4983-9b07-5acaf1b3b3e5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dengxin.one"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@heinuhome",
+          "path": "/6e9EtZ2dL",
           "headers": {
-            "Host": "lsb-gy.heinu.cf"
+            "Host": "dengxin.one"
           }
         },
         "httpSettings": null,

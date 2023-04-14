@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.143.220.25",
-            "port": 443,
+            "address": "hedy.taherfix1.site",
+            "port": 80,
             "users": [
               {
-                "id": "f28e354e-c2d1-4983-9b07-5acaf1b3b3e5",
+                "id": "683ea3d3-eda1-42ba-ac7c-71a222821ff6",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dengxin.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/6e9EtZ2dL",
+          "path": "/HzavvY9f4fAigOXlzpp7ZopIagO",
           "headers": {
-            "Host": "dengxin.one"
+            "Host": "hedy.taherfix1.site"
           }
         },
         "httpSettings": null,

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.173.160",
-            "port": 80,
+            "address": "jp02-vm0.entry.srthdw.art",
+            "port": 444,
             "users": [
               {
-                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
-                "alterId": 0,
+                "id": "9f8bddb3-8769-3925-ac92-534ac6b1b06b",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/shirker",
-          "headers": {
-            "Host": "ca.ilovescp.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10917,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lsb-gy.heinu.cf",
-            "port": 2095,
+            "address": "cf.noaries.de",
+            "port": 2052,
             "users": [
               {
-                "id": "1eda6b95-f248-4f3b-ae10-d7503415a788",
+                "id": "4f7d5d43-226e-48d8-9df0-5e8bf9f77288",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@heinuhome",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "lsb-gy.heinu.cf"
+            "Host": "scw-nl.cloudflare.quest"
           }
         },
         "httpSettings": null,
