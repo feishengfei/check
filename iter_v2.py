@@ -62,7 +62,12 @@ def check_ip_and_parse_result(index, line, template, addr, remark):
 
         # ip/cc/cn/isp by https://ipapi.co/json/ by proxy
         set_socks(PORT_IN_BASE + index)
-        response = requests.get('https://ipapi.co/json/')
+        try:
+            response = requests.get('https://ipapi.co/json/')
+        except Exception as e:
+            line_exception.append(line)
+            return
+
         ip_info = response.json()
         r['cn'] = ip_info.get('country_name', '')
         r['cc'] = ip_info.get('country_code', '')
@@ -243,43 +248,53 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     line_todo = []
     line_exception = []
 
+    base64_encoded_nodelist = None
+
+    # remove already generated '*.json' in 'config/'
+    for f in glob.glob(os.path.join('config', '*.json')):
+        os.remove(f)
+
+    # read for argv[1] or pipe stdin
     if len(sys.argv) > 1 and os.access(sys.argv[1], os.R_OK):
+        with open(sys.argv[1], 'r') as file:
+            base64_encoded_nodelist = file.read()
+    else:
+        base64_encoded_nodelist = sys.stdin.read()
 
         # remove already generated '*.json' in 'config/'
         for f in glob.glob(os.path.join('config', '*.json')):
             os.remove(f)
 
-        # equivalent shell command 'cat free/v2 | base64 -d | less'
-        with open(sys.argv[1], 'r') as file:
-            encoded_data = file.read()
+    # decode base64 encoded file
+    # equivalent shell command 'cat free/v2 | base64 -d | less'
+    try:
+        decoded_data = base64.b64decode(base64_encoded_nodelist)
+    except Exception as e:
+        sys.exit(False)
 
-            # decode base64 encoded file
-            try:
-                decoded_data = base64.b64decode(encoded_data)
-            except Exception as e:
-                sys.exit(False)
+    # save into buffer
+    buffer = io.StringIO(decoded_data.decode())
 
-            # save into buffer
-            buffer = io.StringIO(decoded_data.decode())
+    # iter every line
+    for index, line in enumerate(buffer):
+        dump_line(index, line)
 
-            # iter every line
-            for index, line in enumerate(buffer):
-                dump_line(index, line)
+    table_valid = pd.json_normalize(final_tab_valid).to_markdown()
+    table_invalid = pd.json_normalize(final_tab_invalid).to_markdown()
 
-        table_valid = pd.json_normalize(final_tab_valid).to_markdown()
-        table_invalid = pd.json_normalize(final_tab_invalid).to_markdown()
-
-        with open('README.md', 'w') as file:
-            file.write(iter_v2_check.__doc__)
-            file.write('\n')
-            file.write(table_valid)
-            file.write('\n\n')
-            record_line(file, 'Valid', line_valid)
-            file.write(table_invalid)
-            file.write('\n\n')
-            record_line(file, 'Invalid', line_invalid)
-            record_line(file, 'Exception', line_exception)
-            record_line(file, 'Todo', line_todo)
+    with open('README.md', 'w') as file:
+        file.write(iter_v2_check.__doc__)
+        file.write('\n')
+        file.write('\n## Table valid\n')
+        file.write(table_valid)
+        file.write('\n\n')
+        record_line(file, 'Valid', line_valid)
+        file.write('\n## Table invalid\n')
+        file.write(table_invalid)
+        file.write('\n\n')
+        record_line(file, 'Invalid', line_invalid)
+        record_line(file, 'Exception', line_exception)
+        record_line(file, 'Todo', line_todo)
 
 if __name__ == '__main__':
     iter_v2_check()
