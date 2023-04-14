@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lsb-gy.heinu.cf",
-            "port": 2095,
+            "address": "quiz.vidio.com",
+            "port": 443,
             "users": [
               {
-                "id": "1eda6b95-f248-4f3b-ae10-d7503415a788",
+                "id": "e6442903-4753-4783-8916-ac47c8080e4f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dynamic-sg3b.obfs.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@heinuhome",
+          "path": "/",
           "headers": {
-            "Host": "lsb-gy.heinu.cf"
+            "Host": "dynamic-sg3b.obfs.xyz"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.143.220.25",
-            "port": 443,
+            "address": "103.160.204.14",
+            "port": 80,
             "users": [
               {
-                "id": "f28e354e-c2d1-4983-9b07-5acaf1b3b3e5",
+                "id": "17b2a313-37a0-4945-a8e4-e63375506b4a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dengxin.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/6e9EtZ2dL",
+          "path": "/",
           "headers": {
-            "Host": "dengxin.one"
+            "Host": "fr.v2ray1.xyz"
           }
         },
         "httpSettings": null,

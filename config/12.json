@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10907,
+      "port": 10912,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.225.67.88",
-            "port": 52292,
+            "address": "cf.noaries.de",
+            "port": 2052,
             "users": [
               {
-                "id": "20b30916-e203-412e-8ec0-900f3acd5128",
-                "alterId": 64,
+                "id": "4f7d5d43-226e-48d8-9df0-5e8bf9f77288",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/aries?ed=2048",
+          "headers": {
+            "Host": "scw-nl.cloudflare.quest"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

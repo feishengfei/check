@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg1.fightertunnel.xyz",
-            "port": 80,
+            "address": "203.30.188.1",
+            "port": 443,
             "users": [
               {
-                "id": "4b56da6d-a62e-40e0-85b7-fc7a7ca31c46",
+                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "154.v2ray3.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/ECTCJ0DF",
           "headers": {
-            "Host": ""
+            "Host": "154.v2ray3.xyz"
           }
         },
         "httpSettings": null,

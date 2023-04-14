@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v143a.toddns.tk",
-            "port": 80,
+            "address": "ccdc2.6252369.xyz",
+            "port": 8443,
             "users": [
               {
-                "id": "a25881f3-967f-3265-bc7f-9e66857b016b",
+                "id": "f8949dfe-c501-453c-96b6-6786fb03d5f9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ccdc2.6252369.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jp143-d2xddxxj",
+          "path": "/vxt99",
           "headers": {
-            "Host": "v143a.toddns.tk"
+            "Host": "ccdc2.6252369.xyz"
           }
         },
         "httpSettings": null,
