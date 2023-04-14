@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg1.fightertunnel.xyz",
-            "port": 80,
+            "address": "vau1.0bad.com",
+            "port": 443,
             "users": [
               {
-                "id": "4b56da6d-a62e-40e0-85b7-fc7a7ca31c46",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vau1.0bad.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/chat",
           "headers": {
-            "Host": ""
+            "Host": "vau1.0bad.com"
           }
         },
         "httpSettings": null,
