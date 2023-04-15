@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.160.204.13",
-            "port": 443,
+            "address": "target.292228.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
+                "id": "22873fd1-2db8-4820-af1d-2843107ee744",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "lg2.v2ray6.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5QNROSRV",
+          "path": "/filetransfer",
           "headers": {
-            "Host": "lg2.v2ray6.xyz"
+            "Host": "us-west-1.292228.xyz"
           }
         },
         "httpSettings": null,

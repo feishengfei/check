@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.255.205",
-            "port": 80,
+            "address": "news.microsoft.com",
+            "port": 443,
             "users": [
               {
-                "id": "52466dc2-3550-4310-910c-74b7bf8a020e",
+                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "oplg1.zhujicn2.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/5QNROSRV",
           "headers": {
-            "Host": "us-1.acyun.eu.org"
+            "Host": "oplg1.zhujicn2.com"
           }
         },
         "httpSettings": null,

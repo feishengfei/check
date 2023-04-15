@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ccdc2.6252369.xyz",
-            "port": 8443,
+            "address": "103.160.204.14",
+            "port": 80,
             "users": [
               {
-                "id": "f8949dfe-c501-453c-96b6-6786fb03d5f9",
+                "id": "17b2a313-37a0-4945-a8e4-e63375506b4a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ccdc2.6252369.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vxt99",
+          "path": "/",
           "headers": {
-            "Host": "ccdc2.6252369.xyz"
+            "Host": "fr.v2ray1.xyz"
           }
         },
         "httpSettings": null,
