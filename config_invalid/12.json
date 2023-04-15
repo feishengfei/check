@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "64.226.103.220",
+            "address": "188.114.99.10",
             "port": 80,
             "users": [
               {
-                "id": "683ea3d3-eda1-42ba-ac7c-71a222821ff6",
+                "id": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
                 "alterId": 0,
                 "email": "",
-                "security": "chacha20-poly1305",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "false",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lg.v2ray8.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/HzavvY9f4fAigOXlzpp7ZopIagO",
+          "path": "/",
           "headers": {
-            "Host": "speedtest.net"
+            "Host": "lg.v2ray8.xyz"
           }
         },
         "httpSettings": null,
