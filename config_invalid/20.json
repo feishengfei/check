@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.moonfree.top",
-            "port": 8443,
+            "address": "143.42.87.69",
+            "port": 443,
             "users": [
               {
-                "id": "edf140f1-35e9-4160-b5a0-6b27f3419a6f",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "usv6warp.happyfree.top"
+          "serverName": "143.42.87.69"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/figure",
+          "path": "/chat",
           "headers": {
-            "Host": "usv6warp.happyfree.top"
+            "Host": "143.42.87.69"
           }
         },
         "httpSettings": null,
