@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.195.14",
-            "port": 80,
+            "address": "hk2.x898989.xyz",
+            "port": 51231,
             "users": [
               {
-                "id": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+                "id": "01e07f2e-fc00-45bb-bbf5-547f58316e18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hk2.x898989.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/aricke.com",
           "headers": {
-            "Host": "fr.v2ray1.xyz"
+            "Host": "hk2.x898989.xyz"
           }
         },
         "httpSettings": null,
