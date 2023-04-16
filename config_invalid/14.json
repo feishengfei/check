@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "okvtwo-pikachujp.cloud.okteto.net",
-            "port": 443,
+            "address": "25.v2-ray.cyou",
+            "port": 23625,
             "users": [
               {
-                "id": "fdcf5262-8b5d-40fe-873c-fd5ffb4ca960",
-                "alterId": 0,
+                "id": "0dd19d20-ec86-3680-b256-87237bafa89e",
+                "alterId": 2,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "okvtwo-pikachujp.cloud.okteto.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "okvtwo-pikachujp.cloud.okteto.net"
+            "Host": "25.v2-ray.cyou"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "api.nivod.tv",
-            "port": 443,
+            "address": "104.17.3.81",
+            "port": 80,
             "users": [
               {
-                "id": "40d496a6-ceeb-4096-baeb-4cc52b205621",
+                "id": "e40b2de3-b829-4591-a7b6-99d1913f3246",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "154.v2ray3.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ECTCJ0DF",
+          "path": "/worryfree",
           "headers": {
-            "Host": "154.v2ray3.xyz"
+            "Host": "w.evouch77.live"
           }
         },
         "httpSettings": null,
