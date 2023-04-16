@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudflare.binghe.design",
-            "port": 443,
+            "address": "target.292228.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "499653f3-495e-4e0d-8e0e-d7fdbbbd8e3f",
+                "id": "22873fd1-2db8-4820-af1d-2843107ee744",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hl.binghe.design"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/filetransfer",
           "headers": {
-            "Host": "hl.binghe.design"
+            "Host": "us-west-1.292228.xyz"
           }
         },
         "httpSettings": null,
