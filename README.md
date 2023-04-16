@@ -6,12 +6,16 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr           | cn          | cc   | isp       | ip           | chatgpt          |
-|---:|:-------------------|:---------------|:------------|:-----|:----------|:-------------|:-----------------|
-|  0 | [9](config/9.json) | 156.225.67.121 | Netherlands | NL   | YISP B.V. | 154.84.1.134 | Yes (Region: NL) |
+|    | id                   | addr          | cn    | cc   | isp     | ip            | chatgpt          |
+|---:|:---------------------|:--------------|:------|:-----|:--------|:--------------|:-----------------|
+|  0 | [15](config/15.json) | 85.208.108.60 | Japan | JP   | ENZUINC | 85.208.108.58 | Yes (Region: JP) |
+|  1 | [16](config/16.json) | 85.208.108.60 | Japan | JP   | ENZUINC | 85.208.108.58 | Yes (Region: JP) |
+|  2 | [20](config/20.json) | 85.208.108.60 | Japan | JP   | ENZUINC | 85.208.108.58 | Yes (Region: JP) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiMTU2LjIyNS42Ny4xMjEiLCAidiI6ICIyIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU1MzU3XHU5NzVlICA5IiwgInBvcnQiOiA0Nzc0NCwgImlkIjogIjYzYjRiODI5LTdmMDEtNGUyNi1iMDM3LWYwNGIxZjA5ODc2NSIsICJhaWQiOiAiNjQiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogInN1cm9uZ3dlaS5ldS5vcmciLCAicGF0aCI6ICIvcmVmZnM3eTI2ZzB1YSIsICJ0bHMiOiAiIn0=
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@85.208.108.60:7307#github.com/freefq%20-%20%E6%B2%99%E7%89%B9%E9%98%BF%E6%8B%89%E4%BC%AFArabic%20Computer%20System%20Co.%2015
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@85.208.108.60:7002#github.com/freefq%20-%20%E6%B2%99%E7%89%B9%E9%98%BF%E6%8B%89%E4%BC%AFArabic%20Computer%20System%20Co.%2016
+ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@85.208.108.60:8881#github.com/freefq%20-%20%E6%B2%99%E7%89%B9%E9%98%BF%E6%8B%89%E4%BC%AFArabic%20Computer%20System%20Co.%2020
 ```
 
