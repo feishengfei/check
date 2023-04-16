@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "asia1.oceis.net",
-            "port": 443,
+            "address": "ap-in-west.292228.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "0ce3f150-da45-11ed-b736-205c6d5f5d78",
+                "id": "22873fd1-2db8-4820-af1d-2843107ee744",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "asia1.oceis.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmws",
+          "path": "/filetransfer",
           "headers": {
-            "Host": "asia1.oceis.net"
+            "Host": ""
           }
         },
         "httpSettings": null,

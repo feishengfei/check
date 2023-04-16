@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ap-in-west.292228.xyz",
-            "port": 80,
+            "address": "cf.515188.xyz",
+            "port": 8080,
             "users": [
               {
-                "id": "22873fd1-2db8-4820-af1d-2843107ee744",
+                "id": "9d553e2b-4176-44ef-bf70-48aa8eb6da60",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/filetransfer",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": ""
+            "Host": "ssrsub.v03.ssrsub.com"
           }
         },
         "httpSettings": null,
