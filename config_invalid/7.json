@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "eu-de-west-2.292228.xyz",
-            "port": 80,
+            "address": "dp1.scproxy.top",
+            "port": 443,
             "users": [
               {
-                "id": "22873fd1-2db8-4820-af1d-2843107ee744",
+                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dp1.scproxy.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/filetransfer",
+          "path": "/shirker",
           "headers": {
-            "Host": ""
+            "Host": "dp1.scproxy.top"
           }
         },
         "httpSettings": null,
