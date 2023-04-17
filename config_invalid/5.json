@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.6.11",
-            "port": 8880,
+            "address": "rnrn3g.555456.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
+                "id": "17c6c64e-eb3c-44ae-98f8-d469713f91f1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "rnrn3g.555456.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/lpkuvws",
           "headers": {
-            "Host": "lg.trump2023.net"
+            "Host": "rnrn3g.555456.xyz"
           }
         },
         "httpSettings": null,

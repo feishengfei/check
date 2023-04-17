@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudflare.binghe.design",
-            "port": 443,
+            "address": "data-hk-v1.shwjfkw.cn",
+            "port": 50207,
             "users": [
               {
-                "id": "499653f3-495e-4e0d-8e0e-d7fdbbbd8e3f",
-                "alterId": 0,
+                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hl.binghe.design"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/hls/cctv5phd.m3u8",
           "headers": {
-            "Host": "hl.binghe.design"
+            "Host": "YTB-awkj"
           }
         },
         "httpSettings": null,
