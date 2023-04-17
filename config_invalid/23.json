@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudflare.binghe.design",
+            "address": "new3.hucloud-dns.xyz",
             "port": 443,
             "users": [
               {
-                "id": "499653f3-495e-4e0d-8e0e-d7fdbbbd8e3f",
+                "id": "1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "hl.binghe.design"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/",
           "headers": {
-            "Host": "hl.binghe.design"
+            "Host": ""
           }
         },
         "httpSettings": null,
