@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10902,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp6.lianpi.xyz",
-            "port": 23234,
+            "address": "new3.hucloud-dns.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "eb227553-c47b-4c55-bbf7-c745311c8718",
+                "id": "1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "new3.hucloud-dns.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "new3.hucloud-dns.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "new3.hucloud-dns.xyz",
-            "port": 443,
+            "address": "43.154.189.252",
+            "port": 27137,
             "users": [
               {
-                "id": "1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e",
-                "alterId": 0,
+                "id": "bc32a4cb-734d-4f55-888b-704ca4950ce9",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "new3.hucloud-dns.xyz"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/hk13/getData",
           "headers": {
-            "Host": "new3.hucloud-dns.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

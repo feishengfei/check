@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.255.205",
-            "port": 80,
+            "address": "cf.515188.xyz",
+            "port": 8080,
             "users": [
               {
-                "id": "52466dc2-3550-4310-910c-74b7bf8a020e",
+                "id": "9d553e2b-4176-44ef-bf70-48aa8eb6da60",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "us-1.acyun.eu.org"
+            "Host": "ssrsub.v03.ssrsub.com"
           }
         },
         "httpSettings": null,
