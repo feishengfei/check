@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw1.sanfen004.me",
-            "port": 443,
+            "address": "pop.china.gfwcaonimanmsl.ml",
+            "port": 10010,
             "users": [
               {
-                "id": "ae63c769-7b4f-4916-b575-9214639fcb8b",
+                "id": "3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/name",
           "headers": {
-            "Host": ""
+            "Host": "pop.china.gfwcaonimanmsl.ml"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.217.222",
-            "port": 80,
+            "address": "cf.noaries.de",
+            "port": 2052,
             "users": [
               {
-                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
+                "id": "a0f153d8-e32f-41f3-9bcd-073f579e2264",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "dp3.scproxy.top"
+            "Host": "awsjpec2.cloudflare.quest"
           }
         },
         "httpSettings": null,
