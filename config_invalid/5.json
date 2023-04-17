@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "rnrn3g.555456.xyz",
-            "port": 443,
+            "address": "174.139.126.251",
+            "port": 36311,
             "users": [
               {
-                "id": "17c6c64e-eb3c-44ae-98f8-d469713f91f1",
-                "alterId": 0,
+                "id": "51695a30-3915-4b9e-9a7f-bc10b5033a41",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "rnrn3g.555456.xyz"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/lpkuvws",
+          "path": "/us15/getData",
           "headers": {
-            "Host": "rnrn3g.555456.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

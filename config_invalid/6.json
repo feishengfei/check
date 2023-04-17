@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "lop.hk3.gfwcaonimanmsl.ml",
-            "port": 12800,
+            "address": "67.229.243.65",
+            "port": 23738,
             "users": [
               {
-                "id": "3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f",
-                "alterId": 0,
+                "id": "a52907d9-9b68-4d4e-8f1f-2d5e18c98c45",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/us13/getData",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
