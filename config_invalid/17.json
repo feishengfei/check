@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lop.hk3.gfwcaonimanmsl.ml",
-            "port": 12800,
+            "address": "lond.inbarayeman.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f",
+                "id": "fd3677a5-b5ba-4991-b346-b5887b879d84",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lond.inbarayeman.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/tukovws",
+          "headers": {
+            "Host": "lond.inbarayeman.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

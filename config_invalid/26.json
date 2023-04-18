@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1680936772.edpmvga.cn",
-            "port": 443,
+            "address": "p5i16.bhoikfostyahya.my.id",
+            "port": 80,
             "users": [
               {
-                "id": "a8054320-efe0-4ce0-a1a6-7d616105f354",
+                "id": "9b96e89c-f227-40a2-b7f3-7ef26bf732e9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1680936772.edpmvga.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": "n1680936772.edpmvga.cn"
+            "Host": "p5i16.bhoikfostyahya.my.id"
           }
         },
         "httpSettings": null,

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10923,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.193.30.158",
-            "port": 443,
+            "address": "156.225.67.125",
+            "port": 43922,
             "users": [
               {
-                "id": "A59E320C-BAC6-45E3-8A27-1518610708D0",
-                "alterId": 0,
+                "id": "3a3c8a9c-334e-4360-adb8-a80a57ddcbbf",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Amsterdam.v2ray.online"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/speedtest",
-          "headers": {
-            "Host": "Amsterdam.v2ray.online"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
