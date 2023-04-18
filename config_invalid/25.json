@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "83.142.225.32",
+            "address": "lond.inbarayeman.xyz",
             "port": 443,
             "users": [
               {
-                "id": "5267ca71-97e6-44c8-8fb5-9fe4afe0954e",
-                "alterId": 64,
+                "id": "fd3677a5-b5ba-4991-b346-b5887b879d84",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "lond.inbarayeman.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/220128071100",
+          "path": "/tukovws",
           "headers": {
-            "Host": ""
+            "Host": "lond.inbarayeman.xyz"
           }
         },
         "httpSettings": null,
