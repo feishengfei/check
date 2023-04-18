@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tk-002-002.xiaoxiaobujidao.xyz",
-            "port": 20960,
+            "address": "join-bede.vmessorg.fun",
+            "port": 80,
             "users": [
               {
-                "id": "79f45dcc-0f0b-3765-bfda-6c7246ba44e8",
+                "id": "9281d65d-0eea-4ca9-a502-d34d4f0e3692",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/xiaodao?ed=2048",
+          "path": "/",
           "headers": {
             "Host": ""
           }
