@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10914,
+      "port": 10911,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "new3.hucloud-dns.xyz",
-            "port": 443,
+            "address": "4.mamadcucu.com",
+            "port": 8880,
             "users": [
               {
-                "id": "1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e",
+                "id": "51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ArsalanTauBot",
           "headers": {
-            "Host": ""
+            "Host": "4.mamadcucu.com"
           }
         },
         "httpSettings": null,

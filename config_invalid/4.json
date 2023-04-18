@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "join-bede.vmessorg.fun",
-            "port": 80,
+            "address": "hk3.af49c4e4c2ef.sanfen001.pics",
+            "port": 443,
             "users": [
               {
-                "id": "9281d65d-0eea-4ca9-a502-d34d4f0e3692",
+                "id": "e5ffd02e-a82b-40d1-83aa-23f9f6841abb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/zh-cn",
           "headers": {
             "Host": ""
           }

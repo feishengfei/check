@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Kansas.v2ray.online",
+            "address": "lond.inbarayeman.xyz",
             "port": 443,
             "users": [
               {
-                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
+                "id": "fd3677a5-b5ba-4991-b346-b5887b879d84",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Kansas.v2ray.online"
+          "serverName": "lond.inbarayeman.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/tukovws",
           "headers": {
-            "Host": "Kansas.v2ray.online"
+            "Host": "lond.inbarayeman.xyz"
           }
         },
         "httpSettings": null,
