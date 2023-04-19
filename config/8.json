@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "chmikhori.servernett.shop",
-            "port": 8080,
+            "address": "170.187.206.48",
+            "port": 443,
             "users": [
               {
-                "id": "466cd53b-475a-4a92-f159-103c47777237",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/chat",
           "headers": {
             "Host": ""
           }

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.255.205",
-            "port": 80,
+            "address": "mm.learnpropy.click",
+            "port": 2053,
             "users": [
               {
-                "id": "52466dc2-3550-4310-910c-74b7bf8a020e",
+                "id": "8cab8fb7-4977-4ec2-8bba-2914dd43bfbd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "abs.learnpropy.click"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/gsdg43575",
           "headers": {
-            "Host": "us-1.acyun.eu.org"
+            "Host": "abs.learnpropy.click"
           }
         },
         "httpSettings": null,

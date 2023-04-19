@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.197.185.174",
-            "port": 80,
+            "address": "v2test.mark20web.pw",
+            "port": 443,
             "users": [
               {
-                "id": "df3e0b9c-05fc-4969-aa2f-4f085df45994",
+                "id": "f9285a7d-34fb-4723-9ab0-9a70f735b146",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/HungPlay",
+          "path": "",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

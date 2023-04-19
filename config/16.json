@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10916,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.225.67.250",
-            "port": 49920,
+            "address": "germany1.unlimiteddev.co",
+            "port": 80,
             "users": [
               {
-                "id": "3fd637ad-46fe-4f85-a6e8-86b00bca1122",
-                "alterId": 64,
+                "id": "97ea79a6-615c-4ad7-8083-4f3b49cbe8a2",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "germany1.unlimiteddev.co"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

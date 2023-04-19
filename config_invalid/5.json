@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "16.162.74.222",
-            "port": 443,
+            "address": "cf.noaries.de",
+            "port": 8080,
             "users": [
               {
-                "id": "6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5",
+                "id": "a0f153d8-e32f-41f3-9bcd-073f579e2264",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "buyvm.cloudflare.quest"
           }
         },
         "httpSettings": null,

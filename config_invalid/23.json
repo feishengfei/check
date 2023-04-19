@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "susuku.putrastores.xyz",
-            "port": 443,
+            "address": "38.6.224.13",
+            "port": 59130,
             "users": [
               {
-                "id": "b04942a1-44f6-4365-a072-b86c0affe6b5",
+                "id": "cb33912f-155f-4c91-d509-75e760999ea5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "susuku.putrastores.xyz"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vmess",
-          "headers": {
-            "Host": "susuku.putrastores.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
