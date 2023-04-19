@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "mm.learnpropy.click",
-            "port": 2053,
+            "address": "25.v2-ray.cyou",
+            "port": 23625,
             "users": [
               {
-                "id": "8cab8fb7-4977-4ec2-8bba-2914dd43bfbd",
-                "alterId": 0,
+                "id": "0dd19d20-ec86-3680-b256-87237bafa89e",
+                "alterId": 2,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "abs.learnpropy.click"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/gsdg43575",
+          "path": "/",
           "headers": {
-            "Host": "abs.learnpropy.click"
+            "Host": "25.v2-ray.cyou"
           }
         },
         "httpSettings": null,

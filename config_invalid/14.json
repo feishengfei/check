@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.3.81",
-            "port": 80,
+            "address": "pl2-vmess.greenssh.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "e40b2de3-b829-4591-a7b6-99d1913f3246",
+                "id": "2e68015f-a8b2-4893-a7a3-4edb19b178d9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pl2-vmess.greenssh.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/worryfree",
+          "path": "/vmess",
           "headers": {
-            "Host": "w.evouch77.live"
+            "Host": "pl2-vmess.greenssh.xyz"
           }
         },
         "httpSettings": null,

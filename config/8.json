@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "170.187.206.48",
-            "port": 443,
+            "address": "b.sandbad.live",
+            "port": 2053,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "a7ef78fc-145e-48de-9dc3-032644ca8d2a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "b.sandbad.live"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "b.sandbad.live"
           }
         },
         "httpSettings": null,

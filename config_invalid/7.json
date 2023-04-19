@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "medieval-distribute-failed-arrivals.trycloudflare.com",
+            "address": "cdnjs.com",
             "port": 443,
             "users": [
               {
-                "id": "545c636f-4c88-41b4-bfc0-149b5a6848f4",
+                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "medieval-distribute-failed-arrivals.trycloudflare.com"
+          "serverName": "Lille.kotick.site"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess?ed=2048",
+          "path": "/speedtest",
           "headers": {
-            "Host": "medieval-distribute-failed-arrivals.trycloudflare.com"
+            "Host": "Lille.kotick.site"
           }
         },
         "httpSettings": null,
