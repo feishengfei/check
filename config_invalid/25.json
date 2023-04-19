@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "asia.artunnel57.host",
-            "port": 80,
+            "address": "vjp2.0bad.com",
+            "port": 443,
             "users": [
               {
-                "id": "65e44501-defd-4609-a4e3-7028dc417b50",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "asia.artunnel57.host"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess-ntls",
+          "path": "/chat",
           "headers": {
-            "Host": "asia.artunnel57.host"
+            "Host": ""
           }
         },
         "httpSettings": null,

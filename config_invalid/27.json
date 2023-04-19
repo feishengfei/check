@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ch.learnpropy.click",
-            "port": 2053,
+            "address": "asia.artunnel57.host",
+            "port": 80,
             "users": [
               {
-                "id": "8cab8fb7-4977-4ec2-8bba-2914dd43bfbd",
+                "id": "65e44501-defd-4609-a4e3-7028dc417b50",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
+        "security": "none",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "abs.learnpropy.click"
+          "serverName": "asia.artunnel57.host"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/gsdg43575",
+          "path": "/vmess-ntls",
           "headers": {
-            "Host": "abs.learnpropy.click"
+            "Host": "asia.artunnel57.host"
           }
         },
         "httpSettings": null,

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10919,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "4.mamadcucu.com",
-            "port": 8880,
+            "address": "chmikhori.servernett.shop",
+            "port": 8080,
             "users": [
               {
-                "id": "51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024",
+                "id": "466cd53b-475a-4a92-f159-103c47777237",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ArsalanTauBot",
+          "path": "/",
           "headers": {
-            "Host": "4.mamadcucu.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

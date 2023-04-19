@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "medieval-distribute-failed-arrivals.trycloudflare.com",
-            "port": 443,
+            "address": "104.17.3.81",
+            "port": 80,
             "users": [
               {
-                "id": "545c636f-4c88-41b4-bfc0-149b5a6848f4",
+                "id": "e40b2de3-b829-4591-a7b6-99d1913f3246",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "medieval-distribute-failed-arrivals.trycloudflare.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess?ed=2048",
+          "path": "/worryfree",
           "headers": {
-            "Host": "medieval-distribute-failed-arrivals.trycloudflare.com"
+            "Host": "w.evouch77.live"
           }
         },
         "httpSettings": null,
