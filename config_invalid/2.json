@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "germany1.unlimiteddev.co",
-            "port": 80,
+            "address": "16.163.94.236",
+            "port": 443,
             "users": [
               {
-                "id": "97ea79a6-615c-4ad7-8083-4f3b49cbe8a2",
+                "id": "6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "germany1.unlimiteddev.co"
+            "Host": ""
           }
         },
         "httpSettings": null,

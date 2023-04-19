@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "surongwei.eu.org",
-            "port": 443,
+            "address": "microsoftdebug.com",
+            "port": 80,
             "users": [
               {
-                "id": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+                "id": "0673903d-6ff4-437c-87ee-ebdbda5e52a6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "surongwei.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/reffs7y26g0ua",
+          "path": "/secx",
           "headers": {
-            "Host": "surongwei.eu.org"
+            "Host": "v1.us9.microsoftdebug.com"
           }
         },
         "httpSettings": null,
