@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "f-as2.wvvvv.eu.org",
-            "port": 1,
+            "address": "cf.yj2022.ga",
+            "port": 443,
             "users": [
               {
-                "id": "0da1d372-ec60-4b89-8a3f-79159438c6f0",
+                "id": "4b5e4565-322f-4223-a891-78a84f189726",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "finland1.yj2022.ga"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/WKtzeN11GLqwVNBTp9mX",
+          "headers": {
+            "Host": "finland1.yj2022.ga"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

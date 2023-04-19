@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10907,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "surongwei.eu.org",
-            "port": 443,
+            "address": "3.mamadcucu.com",
+            "port": 2086,
             "users": [
               {
-                "id": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+                "id": "929344e1-473c-4feb-b86b-fde3ee1ccd16",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "surongwei.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/reffs7y26g0ua",
+          "path": "/ArsalanTauBot",
           "headers": {
-            "Host": "surongwei.eu.org"
+            "Host": "3.mamadcucu.com"
           }
         },
         "httpSettings": null,

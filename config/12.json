@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.146.49.64",
-            "port": 443,
+            "address": "25.v2-ray.cyou",
+            "port": 23625,
             "users": [
               {
-                "id": "9c91143c-7cea-4135-89d8-da851515de55",
-                "alterId": 0,
+                "id": "0dd19d20-ec86-3680-b256-87237bafa89e",
+                "alterId": 2,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "25.v2-ray.cyou"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10907,
+      "port": 10904,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "surongwei.eu.org",
-            "port": 443,
+            "address": "germany1.unlimiteddev.co",
+            "port": 80,
             "users": [
               {
-                "id": "6093eefb-7ab6-41df-aba0-d5fa58147e10",
+                "id": "97ea79a6-615c-4ad7-8083-4f3b49cbe8a2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "surongwei.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/reffs7y26g0ua",
+          "path": "/",
           "headers": {
-            "Host": "surongwei.eu.org"
+            "Host": "germany1.unlimiteddev.co"
           }
         },
         "httpSettings": null,
