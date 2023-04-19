@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1680936772.edpmvga.cn",
-            "port": 443,
+            "address": "cf.noaries.de",
+            "port": 8080,
             "users": [
               {
-                "id": "a8054320-efe0-4ce0-a1a6-7d616105f354",
+                "id": "a0f153d8-e32f-41f3-9bcd-073f579e2264",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1680936772.edpmvga.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "n1680936772.edpmvga.cn"
+            "Host": "buyvm.cloudflare.quest"
           }
         },
         "httpSettings": null,

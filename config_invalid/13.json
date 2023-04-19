@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "f-us1.wvvvv.eu.org",
-            "port": 20,
+            "address": "p5i16.bhoikfostyahya.my.id",
+            "port": 80,
             "users": [
               {
-                "id": "0da1d372-ec60-4b89-8a3f-79159438c6f0",
+                "id": "9b96e89c-f227-40a2-b7f3-7ef26bf732e9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "p5i16.bhoikfostyahya.my.id"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

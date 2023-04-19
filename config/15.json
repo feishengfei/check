@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "new3.hucloud-dns.xyz",
-            "port": 443,
+            "address": "3.mamadcucu.com",
+            "port": 2086,
             "users": [
               {
-                "id": "1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e",
+                "id": "929344e1-473c-4feb-b86b-fde3ee1ccd16",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ArsalanTauBot",
           "headers": {
-            "Host": ""
+            "Host": "3.mamadcucu.com"
           }
         },
         "httpSettings": null,
