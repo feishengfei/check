@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "data-hk-v1.shwjfkw.cn",
-            "port": 50207,
+            "address": "asia.artunnel57.host",
+            "port": 443,
             "users": [
               {
-                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
-                "alterId": 1,
+                "id": "65e44501-defd-4609-a4e3-7028dc417b50",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hls/cctv5phd.m3u8",
+          "path": "/vmess-tls",
           "headers": {
-            "Host": "YTB-awkj"
+            "Host": ""
           }
         },
         "httpSettings": null,

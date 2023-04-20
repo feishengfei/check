@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "58f84dd3-49bf-663b-f21b-6f6562601afa.interface.buzz",
-            "port": 443,
+            "address": "flos1.ydnode.us",
+            "port": 80,
             "users": [
               {
-                "id": "285adff2-eb0b-41f6-80d7-8a8fc65b10fc",
+                "id": "db0af0f2-a278-3019-9ef8-f064d7a0726c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/index.html",
+          "path": "/v2ray",
           "headers": {
-            "Host": "apps.apple.com"
+            "Host": "flos1.ydnode.us"
           }
         },
         "httpSettings": null,

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "137.175.63.135",
-            "port": 59009,
+            "address": "data-hk-v1.shwjfkw.cn",
+            "port": 50207,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/hls/cctv5phd.m3u8",
+          "headers": {
+            "Host": "YTB-awkj"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
