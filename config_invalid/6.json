@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "120.232.179.161",
-            "port": 63078,
+            "address": "flos1.ydnode.us",
+            "port": 80,
             "users": [
               {
-                "id": "b96f9e5b-7b2a-3c03-b1b3-2e93234f9108",
+                "id": "db0af0f2-a278-3019-9ef8-f064d7a0726c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hk-balancer.airport-v2.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/v2ray",
           "headers": {
-            "Host": "hk-balancer.airport-v2.com"
+            "Host": "flos1.ydnode.us"
           }
         },
         "httpSettings": null,
