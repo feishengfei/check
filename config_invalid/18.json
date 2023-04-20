@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aseman.shiftino.online",
-            "port": 21309,
+            "address": "1.huaxia4364.icu",
+            "port": 80,
             "users": [
               {
-                "id": "19890f55-27de-48ce-ba04-d941ccaf7a62",
+                "id": "34d3b5e5-5208-4b5f-b9e2-2c6932dc4810",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
