@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "132.226.162.128",
-            "port": 39564,
+            "address": "104.17.3.81",
+            "port": 80,
             "users": [
               {
-                "id": "1b1190ea-f2f9-415b-bbe3-5d80baa30f6f",
+                "id": "e40b2de3-b829-4591-a7b6-99d1913f3246",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/worryfree",
+          "headers": {
+            "Host": "w.evouch77.live"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

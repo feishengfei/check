@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "120.232.179.161",
-            "port": 63078,
+            "address": "new3.hucloud-dns.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "b96f9e5b-7b2a-3c03-b1b3-2e93234f9108",
+                "id": "1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "hk-balancer.airport-v2.com"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/",
           "headers": {
-            "Host": "hk-balancer.airport-v2.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
