@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "137.175.63.135",
-            "port": 59009,
+            "address": "223.167.41.202",
+            "port": 63078,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "b96f9e5b-7b2a-3c03-b1b3-2e93234f9108",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hk-balancer.airport-v2.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "",
+          "headers": {
+            "Host": "hk-balancer.airport-v2.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

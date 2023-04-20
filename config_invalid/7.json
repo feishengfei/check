@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "microsoftdebug.com",
-            "port": 80,
+            "address": "137.175.63.135",
+            "port": 59009,
             "users": [
               {
-                "id": "0673903d-6ff4-437c-87ee-ebdbda5e52a6",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/secx",
-          "headers": {
-            "Host": "v1.us9.microsoftdebug.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

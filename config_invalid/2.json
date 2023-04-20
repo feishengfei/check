@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk4.af49c4e4c2ef.sanfen001.pics",
+            "address": "cd529a06-85c5-4662-9157-a0ce584cd324.interface.buzz",
             "port": 443,
             "users": [
               {
-                "id": "6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5",
+                "id": "285adff2-eb0b-41f6-80d7-8a8fc65b10fc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/index.html",
           "headers": {
-            "Host": ""
+            "Host": "apps.apple.com"
           }
         },
         "httpSettings": null,
