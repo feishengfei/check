@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "lsb-gy.heinu.cf",
-            "port": 2096,
+            "address": "67.21.72.41",
+            "port": 443,
             "users": [
               {
-                "id": "d793c013-f596-4af9-de0a-2062bb864dd7",
-                "alterId": 0,
+                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "lsb-gy.heinu.cf"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@heinuhome",
+          "path": "/path/173418141123",
           "headers": {
-            "Host": "lsb-gy.heinu.cf"
+            "Host": ""
           }
         },
         "httpSettings": null,

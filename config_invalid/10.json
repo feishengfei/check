@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.217.222",
-            "port": 80,
+            "address": "lsb-gy.heinu.cf",
+            "port": 2096,
             "users": [
               {
-                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
+                "id": "d793c013-f596-4af9-de0a-2062bb864dd7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lsb-gy.heinu.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/@heinuhome",
           "headers": {
-            "Host": "dp3.scproxy.top"
+            "Host": "lsb-gy.heinu.cf"
           }
         },
         "httpSettings": null,
