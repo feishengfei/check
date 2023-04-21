@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "flos1.ydnode.us",
-            "port": 80,
+            "address": "143.42.99.183",
+            "port": 443,
             "users": [
               {
-                "id": "db0af0f2-a278-3019-9ef8-f064d7a0726c",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/v2ray",
+          "path": "/chat",
           "headers": {
-            "Host": "flos1.ydnode.us"
+            "Host": ""
           }
         },
         "httpSettings": null,
