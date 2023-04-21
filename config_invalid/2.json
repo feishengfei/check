@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "64.32.4.56",
-            "port": 42175,
+            "address": "aop.ssfree.ru",
+            "port": 443,
             "users": [
               {
-                "id": "8653004f-de67-44c2-9cce-e0830933fb03",
+                "id": "fd769b78-dff8-11ed-ab09-000017022008",
                 "alterId": 64,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/getweather",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
