@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.46.15",
-            "port": 443,
+            "address": "45.88.176.221",
+            "port": 47815,
             "users": [
               {
-                "id": "12612e87-8003-44a8-b4e8-ec4a325e9016",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "z.zorro.tk"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/ou",
-          "headers": {
-            "Host": "z.zorro.tk"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
