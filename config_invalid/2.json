@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v3.erciyun.men",
-            "port": 1011,
+            "address": "hbct2.qq.com.qqcdnxb.com",
+            "port": 18000,
             "users": [
               {
-                "id": "ea950851-74a3-4cb3-9f77-22cc5d27962b",
+                "id": "7bae1ccc-8091-4f26-b22a-14857e8fde3d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/obb",
-          "headers": {
-            "Host": "v3.erciyun.men"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

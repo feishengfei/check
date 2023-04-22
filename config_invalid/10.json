@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dp1.scproxy.top",
-            "port": 443,
+            "address": "a21.achenxty.top",
+            "port": 11621,
             "users": [
               {
-                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
+                "id": "abfe3178-3f19-32cd-95b2-5ad2dd39bce6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dp1.scproxy.top"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/shirker",
-          "headers": {
-            "Host": "dp1.scproxy.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

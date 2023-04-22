@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1.huaxia4364.icu",
+            "address": "rajasa.nirezzvpn.my.id",
             "port": 80,
             "users": [
               {
-                "id": "34d3b5e5-5208-4b5f-b9e2-2c6932dc4810",
+                "id": "de815d15-dc94-4aa2-bb9b-207f88339601",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmessws",
+          "headers": {
+            "Host": "rajasa.nirezzvpn.my.id"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

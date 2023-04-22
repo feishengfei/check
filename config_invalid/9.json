@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "data-hk-v1.shwjfkw.cn",
-            "port": 50207,
-            "users": [
-              {
-                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
-                "alterId": 1,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "sz.cny.page",
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "2cfc4c58-88cb-4e00-9977-ef0a37559a22",
+            "port": 25984,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/hls/cctv5phd.m3u8",
-          "headers": {
-            "Host": "YTB-awkj"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

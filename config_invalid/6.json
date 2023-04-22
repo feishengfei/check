@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.162.194.152",
-            "port": 80,
+            "address": "cdn.gcup.wiki",
+            "port": 2053,
             "users": [
               {
-                "id": "f2eef2bd-eba3-4999-efea-e2a35fa4c91c",
+                "id": "da12affb-2953-4b35-9677-f85d9743d9c4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "kr.gcup.wiki"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue",
+          "path": "/freegcup",
           "headers": {
-            "Host": "kr.vtcss.top"
+            "Host": "kr.gcup.wiki"
           }
         },
         "httpSettings": null,

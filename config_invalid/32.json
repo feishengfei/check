@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "lsb-gy.heinu.cf",
-            "port": 2096,
+            "address": "data-hk-v1.shwjfkw.cn",
+            "port": 50207,
             "users": [
               {
-                "id": "d793c013-f596-4af9-de0a-2062bb864dd7",
-                "alterId": 0,
+                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "lsb-gy.heinu.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@heinuhome",
+          "path": "/hls/cctv5phd.m3u8",
           "headers": {
-            "Host": "lsb-gy.heinu.cf"
+            "Host": "YTB-awkj"
           }
         },
         "httpSettings": null,

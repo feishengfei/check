@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vjp2.0bad.com",
-            "port": 443,
+            "address": "steam.dnspro.icu",
+            "port": 5000,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "717e6001-c40f-3cba-8763-623661a53737",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/iso",
           "headers": {
-            "Host": ""
+            "Host": "steam.dnspro.icu"
           }
         },
         "httpSettings": null,

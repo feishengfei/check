@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1.huaxia4364.icu",
+            "address": "uk1-vmess.greenssh.xyz",
             "port": 80,
             "users": [
               {
-                "id": "34d3b5e5-5208-4b5f-b9e2-2c6932dc4810",
+                "id": "b5aafe8c-3527-4502-8add-9ca7417cfc88",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "uk1-vmess.greenssh.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
