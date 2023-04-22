@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "67.21.89.136",
-            "port": 46866,
+            "address": "qszx.cdn.node.a.tddns-ounk.com",
+            "port": 50153,
             "users": [
               {
-                "id": "b697d727-cf6c-41dd-a0de-c7a9478e4a4a",
-                "alterId": 64,
+                "id": "9288e85f-9b18-3e89-bd66-221acdafbd1a",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8",
+          "headers": {
+            "Host": "qszx.cdn.node.a.tddns-ounk.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

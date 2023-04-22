@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.26.23",
-            "port": 2096,
+            "address": "mhnb.cdn.node.a.tddns-ounk.com",
+            "port": 50046,
             "users": [
               {
-                "id": "76670c86-f837-44af-f485-a3f3b0861045",
+                "id": "9288e85f-9b18-3e89-bd66-221acdafbd1a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "wrxi.ga"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/asdf",
+          "path": "/009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8",
           "headers": {
-            "Host": "wrxi.ga"
+            "Host": "mhnb.cdn.node.a.tddns-ounk.com"
           }
         },
         "httpSettings": null,

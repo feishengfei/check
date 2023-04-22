@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.190.181",
+            "address": "lin.musekidan.com",
             "port": 443,
             "users": [
               {
-                "id": "764e1a95-b4d7-42d8-9f12-335a00764278",
+                "id": "5655cc2b-480c-4c28-b7b5-007220f1855b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "kr.vtcss.top"
+          "serverName": "lin.musekidan.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue",
+          "path": "/lin",
           "headers": {
-            "Host": "kr.vtcss.top"
+            "Host": "lin.musekidan.com"
           }
         },
         "httpSettings": null,

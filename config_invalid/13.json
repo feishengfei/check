@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "usa.shiftino.net",
-            "port": 21302,
+            "address": "104.25.168.65",
+            "port": 2096,
             "users": [
               {
-                "id": "01e215e0-a92e-4235-878c-01d000da6848",
+                "id": "76670c86-f837-44af-f485-a3f3b0861045",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "wrxi.ga"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/asdf",
           "headers": {
-            "Host": ""
+            "Host": "wrxi.ga"
           }
         },
         "httpSettings": null,

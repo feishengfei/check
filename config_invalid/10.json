@@ -32,25 +32,21 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "a21.achenxty.top",
-            "port": 11621,
-            "users": [
-              {
-                "id": "abfe3178-3f19-32cd-95b2-5ad2dd39bce6",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "sz.cny.page",
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "2cfc4c58-88cb-4e00-9977-ef0a37559a22",
+            "port": 25984,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
