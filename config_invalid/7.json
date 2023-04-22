@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.190.181",
+            "address": "108.162.196.103",
             "port": 443,
             "users": [
               {
-                "id": "764e1a95-b4d7-42d8-9f12-335a00764278",
+                "id": "908a929a-74c9-427c-dcec-76549aa25249",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "kr.vtcss.top"
+          "serverName": "resso.vtcss.top"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue",
+          "path": "/",
           "headers": {
-            "Host": "kr.vtcss.top"
+            "Host": "resso.vtcss.top"
           }
         },
         "httpSettings": null,

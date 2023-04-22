@@ -6,12 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr          | cn   | cc   | isp   | ip            | chatgpt          |
-|---:|:-------------------|:--------------|:-----|:-----|:------|:--------------|:-----------------|
-|  0 | [1](config/1.json) | 83.142.225.20 |      |      |       | 83.142.225.28 | Yes (Region: GB) |
+|    | id                 | addr          | cn            | cc   | isp        | ip              | chatgpt          |
+|---:|:-------------------|:--------------|:--------------|:-----|:-----------|:----------------|:-----------------|
+|  0 | [2](config/2.json) | 156.245.8.248 | Netherlands   | NL   | YISP B.V.  | 154.84.1.137    | Yes (Region: NL) |
+|  1 | [5](config/5.json) | 142.4.126.54  | United States | US   | PEGTECHINC | 107.148.198.209 | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTgyZjFcdTU2ZmQgIDEiLCAiYWRkIjogIjgzLjE0Mi4yMjUuMjAiLCAicG9ydCI6ICI1NDMxNiIsICJpZCI6ICI1MjY3Y2E3MS05N2U2LTQ0YzgtOGZiNS05ZmU0YWZlMDk1NGUiLCAiYWlkIjogIjY0IiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiIiwgInRscyI6ICIiLCAic25pIjogIiJ9
+vmess://eyJhZGQiOiAiMTU2LjI0NS44LjI0OCIsICJhaWQiOiA2NCwgImhvc3QiOiAiIiwgImlkIjogIjk2NGJmNDk5LTllYzAtNDM3OC05MmI2LTg3ZDhkODYxYjJkMCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiA0OTkyMCwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU5OTk5XHU2ZTJmICAyIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTU3MjNcdTRmNTVcdTU4NWVQRUcgVEVDSCA1IiwgImFkZCI6ICIxNDIuNC4xMjYuNTQiLCAicG9ydCI6ICIzMzMwMiIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgImFpZCI6ICI2NCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJob3N0IjogIiIsICJ0bHMiOiAiIn0=
 ```
 
