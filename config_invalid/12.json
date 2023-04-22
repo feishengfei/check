@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "asia.artunnel57.host",
+            "address": "dp1.scproxy.top",
             "port": 443,
             "users": [
               {
-                "id": "65e44501-defd-4609-a4e3-7028dc417b50",
+                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "dp1.scproxy.top"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess-tls",
+          "path": "/shirker",
           "headers": {
-            "Host": ""
+            "Host": "dp1.scproxy.top"
           }
         },
         "httpSettings": null,

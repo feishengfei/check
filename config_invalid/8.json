@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.249.18.239",
-            "port": 58852,
+            "address": "104.17.26.23",
+            "port": 2096,
             "users": [
               {
-                "id": "1d474f0b-e78d-4af9-bc4a-a467467bc7a7",
-                "alterId": 64,
+                "id": "76670c86-f837-44af-f485-a3f3b0861045",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "wrxi.ga"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/asdf",
+          "headers": {
+            "Host": "wrxi.ga"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
