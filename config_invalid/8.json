@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk3.af49c4e4c2ef.sanfen004.me",
-            "port": 443,
+            "address": "156.249.18.239",
+            "port": 58852,
             "users": [
               {
-                "id": "1172d7fe-4a5d-4d07-92f6-aefa4212347f",
-                "alterId": 0,
+                "id": "1d474f0b-e78d-4af9-bc4a-a467467bc7a7",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.microsoft.com"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/zh-cn",
-          "headers": {
-            "Host": "www.microsoft.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
