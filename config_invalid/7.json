@@ -32,43 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "mci.bamarambash.monster",
-            "port": 443,
-            "users": [
-              {
-                "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "sz.cny.page",
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "2cfc4c58-88cb-4e00-9977-ef0a37559a22",
+            "port": 32366,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/db698b16-d216-11ed-8e14-5ad705867cff",
-          "headers": {
-            "Host": "db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
