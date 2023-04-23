@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10913,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "sz.cny.page",
-            "method": "aes-128-gcm",
-            "ota": false,
-            "password": "2cfc4c58-88cb-4e00-9977-ef0a37559a22",
-            "port": 32366,
-            "level": 1,
-            "users": null
+            "address": "cf.noaries.de",
+            "port": 8080,
+            "users": [
+              {
+                "id": "6f1d968e-7f41-41fd-931d-73cf35a9f26b",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/aries?ed=2048",
+          "headers": {
+            "Host": "buyvm.iiio.wiki"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

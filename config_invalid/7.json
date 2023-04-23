@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hbct2.qq.com.qqcdnxb.com",
-            "port": 18000,
+            "address": "mci.bamarambash.monster",
+            "port": 443,
             "users": [
               {
-                "id": "7bae1ccc-8091-4f26-b22a-14857e8fde3d",
+                "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/db698b16-d216-11ed-8e14-5ad705867cff",
+          "headers": {
+            "Host": "db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

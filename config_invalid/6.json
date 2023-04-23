@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.gcup.wiki",
-            "port": 2053,
+            "address": "dp1.scproxy.top",
+            "port": 443,
             "users": [
               {
-                "id": "da12affb-2953-4b35-9677-f85d9743d9c4",
+                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "kr.gcup.wiki"
+          "serverName": "dp1.scproxy.top"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/freegcup",
+          "path": "/shirker",
           "headers": {
-            "Host": "kr.gcup.wiki"
+            "Host": "dp1.scproxy.top"
           }
         },
         "httpSettings": null,
