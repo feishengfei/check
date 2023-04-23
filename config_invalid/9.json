@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.noaries.de",
-            "port": 443,
+            "address": "usks.zwtg888.com",
+            "port": 56412,
             "users": [
               {
-                "id": "6f1d968e-7f41-41fd-931d-73cf35a9f26b",
+                "id": "512b56ea-233f-46a1-b053-a7d0958a8945",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dedipath.cloudflare.quest"
+          "serverName": "usks.zwtg888.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries?ed=2048",
+          "path": "/usks",
           "headers": {
-            "Host": "dedipath.cloudflare.quest"
+            "Host": "usks.zwtg888.com"
           }
         },
         "httpSettings": null,

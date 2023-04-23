@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10914,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "25.v2-ray.cyou",
-            "port": 23625,
+            "address": "134.195.96.178",
+            "port": 666,
             "users": [
               {
-                "id": "0dd19d20-ec86-3680-b256-87237bafa89e",
+                "id": "4ebc6214-33ab-37cc-a01a-ff97029db0f5",
                 "alterId": 2,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/v2ray",
           "headers": {
-            "Host": "25.v2-ray.cyou"
+            "Host": ""
           }
         },
         "httpSettings": null,
