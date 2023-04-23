@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "sz.cny.page",
-            "method": "aes-128-gcm",
-            "ota": false,
-            "password": "2cfc4c58-88cb-4e00-9977-ef0a37559a22",
-            "port": 25984,
-            "level": 1,
-            "users": null
+            "address": "vau1.0bad.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vau1.0bad.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/chat",
+          "headers": {
+            "Host": "vau1.0bad.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
