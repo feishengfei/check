@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "sz.cny.page",
-            "method": "aes-128-gcm",
-            "ota": false,
-            "password": "2cfc4c58-88cb-4e00-9977-ef0a37559a22",
-            "port": 32366,
-            "level": 1,
-            "users": null
+            "address": "cf-lt.sharecentre.online",
+            "port": 443,
+            "users": [
+              {
+                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lv1.sharecentrepro.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/shirker",
+          "headers": {
+            "Host": "lv1.sharecentrepro.org"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
