@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.79.249.23",
-            "port": 10000,
+            "address": "hinet1261.gfwisbest.xyz",
+            "port": 224,
             "users": [
               {
-                "id": "702b4afa-ddd4-11ed-aeae-67576d6f141a",
+                "id": "2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vpnjantit",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

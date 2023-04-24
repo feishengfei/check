@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.bamarambash.monster",
-            "port": 443,
+            "address": "25.v2-ray.cyou",
+            "port": 23625,
             "users": [
               {
-                "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
-                "alterId": 0,
+                "id": "0dd19d20-ec86-3680-b256-87237bafa89e",
+                "alterId": 2,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/db698b16-d216-11ed-8e14-5ad705867cff",
+          "path": "/",
           "headers": {
-            "Host": "db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com"
+            "Host": "25.v2-ray.cyou"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
+            "address": "cf.noaries.de",
             "port": 443,
             "users": [
               {
-                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
+                "id": "6f1d968e-7f41-41fd-931d-73cf35a9f26b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "lv1.sharecentrepro.org"
+          "serverName": "dedipath.cloudflare.quest"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "lv1.sharecentrepro.org"
+            "Host": "dedipath.cloudflare.quest"
           }
         },
         "httpSettings": null,

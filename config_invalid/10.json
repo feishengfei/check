@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "25.v2-ray.cyou",
-            "port": 23625,
+            "address": "lin.musekidan.com",
+            "port": 443,
             "users": [
               {
-                "id": "0dd19d20-ec86-3680-b256-87237bafa89e",
-                "alterId": 2,
+                "id": "01b4e18d-c6f6-4fb7-aa1b-f4d960cd8dbb",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lin.untilmu.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/lin",
           "headers": {
-            "Host": "25.v2-ray.cyou"
+            "Host": "lin.untilmu.com"
           }
         },
         "httpSettings": null,
