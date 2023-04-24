@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "lin.musekidan.com",
-            "port": 443,
+            "address": "45.86.11.147",
+            "port": 39182,
             "users": [
               {
-                "id": "01b4e18d-c6f6-4fb7-aa1b-f4d960cd8dbb",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "lin.untilmu.com"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/lin",
-          "headers": {
-            "Host": "lin.untilmu.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

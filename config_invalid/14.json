@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.codepen.io",
-            "port": 443,
+            "address": "203.30.191.100",
+            "port": 8880,
             "users": [
               {
-                "id": "2cd39102-0799-4c61-abb6-2e7a258f0397",
+                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us-v.sshmax.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "us-v.sshmax.xyz"
+            "Host": "lg.trump2023.net"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf7.biger.club",
-            "port": 2087,
+            "address": "cf.noaries.de",
+            "port": 443,
             "users": [
               {
-                "id": "6fdc56eb-ed51-418c-975b-33fcbe752908",
+                "id": "6f1d968e-7f41-41fd-931d-73cf35a9f26b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "jp1.biger.club"
+          "serverName": "dedipath.cloudflare.quest"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "jp1.biger.club"
+            "Host": "dedipath.cloudflare.quest"
           }
         },
         "httpSettings": null,

@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "145.239.6.202",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "pKEW8JPByTVTLtM",
-            "port": 4444,
-            "level": 1,
-            "users": null
+            "address": "n1681196437.sxhucjg.cn",
+            "port": 443,
+            "users": [
+              {
+                "id": "89080029-e31d-4b37-adaf-e3f6a0713df1",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1681196437.sxhucjg.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "n1681196437.sxhucjg.cn"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

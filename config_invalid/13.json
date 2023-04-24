@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1681196437.sxhucjg.cn",
+            "address": "aop.ssfree.ru",
             "port": 443,
             "users": [
               {
-                "id": "89080029-e31d-4b37-adaf-e3f6a0713df1",
-                "alterId": 0,
+                "id": "1212d4c6-e2b9-11ed-8722-000017022008",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "n1681196437.sxhucjg.cn"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/getweather",
           "headers": {
-            "Host": "n1681196437.sxhucjg.cn"
+            "Host": ""
           }
         },
         "httpSettings": null,
