@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10910,
+      "port": 10903,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bimoshkel.ir",
+            "address": "new3.hucloud-dns.xyz",
             "port": 443,
             "users": [
               {
-                "id": "e191cbe0-e190-11ed-b835-205c6d5f5d78",
+                "id": "1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "uk.0rd.net"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/o94fg6vb",
+          "path": "/",
           "headers": {
-            "Host": "uk.0rd.net"
+            "Host": ""
           }
         },
         "httpSettings": null,

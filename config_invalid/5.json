@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2.erciyun.men",
-            "port": 1008,
+            "address": "lin.musekidan.com",
+            "port": 443,
             "users": [
               {
-                "id": "1111dd49-dcff-42aa-8615-75066576779f",
+                "id": "01b4e18d-c6f6-4fb7-aa1b-f4d960cd8dbb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lin.untilmu.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/obb",
+          "path": "/lin",
           "headers": {
-            "Host": "v2.erciyun.men"
+            "Host": "lin.untilmu.com"
           }
         },
         "httpSettings": null,
