@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "usks.zwtg888.com",
-            "port": 56412,
+            "address": "lin.musekidan.com",
+            "port": 443,
             "users": [
               {
-                "id": "512b56ea-233f-46a1-b053-a7d0958a8945",
+                "id": "01b4e18d-c6f6-4fb7-aa1b-f4d960cd8dbb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "usks.zwtg888.com"
+          "serverName": "lin.untilmu.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/usks",
+          "path": "/lin",
           "headers": {
-            "Host": "usks.zwtg888.com"
+            "Host": "lin.untilmu.com"
           }
         },
         "httpSettings": null,

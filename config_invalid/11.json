@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "wkc.shipv.net",
-            "port": 10443,
+            "address": "cf.dalazhi.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "d3b20f5d-2e44-3892-a2c8-43bad5c14466",
+                "id": "7098880e-4ca5-490c-8ff7-8067049b6077",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "wkc.shipv.net"
+          "serverName": "us.dalazhi.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hls/cctv5phd.m3u8",
+          "path": "/lgzlvws",
           "headers": {
-            "Host": "wkc.shipv.net"
+            "Host": "us.dalazhi.eu.org"
           }
         },
         "httpSettings": null,
