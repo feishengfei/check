@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lin.musekidan.com",
+            "address": "vus3.0bad.com",
             "port": 443,
             "users": [
               {
-                "id": "01b4e18d-c6f6-4fb7-aa1b-f4d960cd8dbb",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "lin.untilmu.com"
+          "serverName": "vus3.0bad.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/lin",
+          "path": "/chat",
           "headers": {
-            "Host": "lin.untilmu.com"
+            "Host": "vus3.0bad.com"
           }
         },
         "httpSettings": null,

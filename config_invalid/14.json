@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vus3.0bad.com",
+            "address": "www.codepen.io",
             "port": 443,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "2cd39102-0799-4c61-abb6-2e7a258f0397",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "vus3.0bad.com"
+          "serverName": "us-v.sshmax.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/vmess",
           "headers": {
-            "Host": "vus3.0bad.com"
+            "Host": "us-v.sshmax.xyz"
           }
         },
         "httpSettings": null,
