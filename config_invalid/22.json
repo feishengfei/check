@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dp1.scproxy.top",
+            "address": "lin.musekidan.com",
             "port": 443,
             "users": [
               {
-                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
+                "id": "942cf9d9-f43a-4916-8a28-dd412a9ad1c8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dp1.scproxy.top"
+          "serverName": "lin.untilmu.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/lin",
           "headers": {
-            "Host": "dp1.scproxy.top"
+            "Host": "lin.untilmu.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "steam.dnspro.icu",
-            "port": 5000,
+            "address": "cf.dalazhi.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "717e6001-c40f-3cba-8763-623661a53737",
+                "id": "7098880e-4ca5-490c-8ff7-8067049b6077",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us.dalazhi.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/iso",
+          "path": "/lgzlvws",
           "headers": {
-            "Host": "steam.dnspro.icu"
+            "Host": "us.dalazhi.eu.org"
           }
         },
         "httpSettings": null,
