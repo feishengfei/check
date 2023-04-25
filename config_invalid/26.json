@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ca1.xvless.xyz",
-            "port": 443,
+            "address": "13.224.250.76",
+            "port": 80,
             "users": [
               {
-                "id": "40c43ed4-b826-4d29-8f11-ebbafd361a3b",
+                "id": "601bb771-d35c-47ce-f440-295daebe7d3f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ca1.xvless.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/alist",
           "headers": {
-            "Host": "ca1.xvless.xyz"
+            "Host": "dpy7fu11rxn5x.cloudfront.net"
           }
         },
         "httpSettings": null,

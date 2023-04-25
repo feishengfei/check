@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "13.224.250.76",
-            "port": 80,
+            "address": "cf1.biger.top",
+            "port": 2087,
             "users": [
               {
-                "id": "601bb771-d35c-47ce-f440-295daebe7d3f",
+                "id": "e0502194-9153-44b4-af3e-704c87b8da00",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us.biger.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/alist",
+          "path": "/",
           "headers": {
-            "Host": "dpy7fu11rxn5x.cloudfront.net"
+            "Host": "us.biger.top"
           }
         },
         "httpSettings": null,
