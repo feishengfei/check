@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp05-vm0.entry.srthdw.art",
-            "port": 30589,
+            "address": "173.245.49.221",
+            "port": 80,
             "users": [
               {
-                "id": "21c670ff-c739-3072-9286-7d2a1d300fcb",
-                "alterId": 1,
+                "id": "592c3729-4db5-4bbb-9310-f60bcd88cf8c",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hls/cctv5phd.m3u8",
+          "path": "/blue",
           "headers": {
-            "Host": "jp05-vm0.entry.srthdw.art"
+            "Host": "els.vtcss.top"
           }
         },
         "httpSettings": null,

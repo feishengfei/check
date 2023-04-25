@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf6.biger.club",
-            "port": 2087,
+            "address": "cf-lt.sharecentre.online",
+            "port": 443,
             "users": [
               {
-                "id": "6fdc56eb-ed51-418c-975b-33fcbe752908",
+                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us2.biger.club"
+          "serverName": "lv1.sharecentrepro.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/shirker",
           "headers": {
-            "Host": "us2.biger.club"
+            "Host": "lv1.sharecentrepro.org"
           }
         },
         "httpSettings": null,

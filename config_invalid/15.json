@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 443,
+            "address": "104.17.3.81",
+            "port": 80,
             "users": [
               {
-                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
+                "id": "e40b2de3-b829-4591-a7b6-99d1913f3246",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "lv1.sharecentrepro.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/worryfree",
           "headers": {
-            "Host": "lv1.sharecentrepro.org"
+            "Host": "w.evouch77.live"
           }
         },
         "httpSettings": null,
