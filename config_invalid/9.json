@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lin.musekidan.com",
+            "address": "aop.ssfree.ru",
             "port": 443,
             "users": [
               {
-                "id": "942cf9d9-f43a-4916-8a28-dd412a9ad1c8",
+                "id": "3ce77f66-e382-11ed-b9fe-000017022008",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "lin.untilmu.com"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/lin",
+          "path": "/getweather",
           "headers": {
-            "Host": "lin.untilmu.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

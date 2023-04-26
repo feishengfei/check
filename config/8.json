@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf1.biger.top",
-            "port": 2087,
+            "address": "vcus2.noml.app",
+            "port": 2096,
             "users": [
               {
-                "id": "e0502194-9153-44b4-af3e-704c87b8da00",
+                "id": "f24eee1f-a2c6-4d94-becb-50960e72b7cb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us.biger.top"
+          "serverName": "vcus2.noml.app"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/us2vcus",
           "headers": {
-            "Host": "us.biger.top"
+            "Host": "vcus2.noml.app"
           }
         },
         "httpSettings": null,
