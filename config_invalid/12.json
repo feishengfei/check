@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.udemy.com",
-            "port": 443,
+            "address": "target.292228.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "92869d41-a98a-40ba-b79d-2eeb7ffe2433",
+                "id": "12b1bed9-1534-41db-a530-a1dbf6c2a7c6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dynamic-sg1b.obfs.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/worryfree",
+          "path": "/filetransfer",
           "headers": {
-            "Host": "dynamic-sg1b.obfs.xyz"
+            "Host": "us-east-1.292228.xyz"
           }
         },
         "httpSettings": null,

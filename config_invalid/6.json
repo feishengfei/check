@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.70.11",
-            "port": 8880,
+            "address": "woiden-eu2.moop.wiki",
+            "port": 443,
             "users": [
               {
-                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
+                "id": "3ac00ed9-d138-4371-b357-ee6ea864c0d3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/hax02eu",
           "headers": {
-            "Host": "lg.trump2023.net"
+            "Host": ""
           }
         },
         "httpSettings": null,

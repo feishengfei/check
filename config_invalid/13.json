@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aop.ssfree.ru",
-            "port": 443,
+            "address": "i.vpchi.tk",
+            "port": 2082,
             "users": [
               {
-                "id": "d1cdf6fa-e3e6-11ed-aae6-000017022008",
+                "id": "1cbcbeff-de07-4f43-8ca9-4cb3a2a508ab",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/getweather",
+          "path": "/",
           "headers": {
             "Host": ""
           }
