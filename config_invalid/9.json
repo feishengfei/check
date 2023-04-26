@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "aop.ssfree.ru",
-            "port": 443,
+            "address": "87.254.31.229",
+            "port": 23797,
             "users": [
               {
-                "id": "3ce77f66-e382-11ed-b9fe-000017022008",
-                "alterId": 0,
+                "id": "9a765244-583e-44c7-810a-ed011c98abaa",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -64,7 +64,7 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/getweather",
+          "path": "/uk1/getData",
           "headers": {
             "Host": ""
           }

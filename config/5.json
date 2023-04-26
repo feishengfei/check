@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "164.92.186.199",
-            "port": 38183,
+            "address": "hax2.freeair.eu.org",
+            "port": 80,
             "users": [
               {
-                "id": "6b32d610-1e0c-45b0-e91d-af12ccaeed8b",
+                "id": "cb1402b7-2a15-4978-ec7d-dc19d9b5586d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,7 +61,7 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/hax2",
           "headers": {
             "Host": ""
           }
