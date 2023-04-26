@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "174.139.126.251",
-            "port": 45410,
+            "address": "www.udemy.com",
+            "port": 443,
             "users": [
               {
-                "id": "51695a30-3915-4b9e-9a7f-bc10b5033a41",
-                "alterId": 64,
+                "id": "92869d41-a98a-40ba-b79d-2eeb7ffe2433",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "dynamic-sg1b.obfs.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/us15/getData",
+          "path": "/worryfree",
           "headers": {
-            "Host": ""
+            "Host": "dynamic-sg1b.obfs.xyz"
           }
         },
         "httpSettings": null,

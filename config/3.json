@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10903,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "target.292228.xyz",
+            "address": "hax2.freeair.eu.org",
             "port": 80,
             "users": [
               {
-                "id": "12b1bed9-1534-41db-a530-a1dbf6c2a7c6",
+                "id": "cb1402b7-2a15-4978-ec7d-dc19d9b5586d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/filetransfer",
+          "path": "/hax2",
           "headers": {
-            "Host": "us-east-1.292228.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,
