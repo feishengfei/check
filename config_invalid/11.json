@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.14.48",
+            "address": "cf-lt.sharecentre.online",
             "port": 443,
             "users": [
               {
-                "id": "083a9d0b-11fb-4b3d-ad57-7ace252bb51b",
+                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "fr-v.sshmax.xyz"
+          "serverName": "lv1.sharecentrepro.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/shirker",
           "headers": {
-            "Host": "fr-v.sshmax.xyz"
+            "Host": "lv1.sharecentrepro.org"
           }
         },
         "httpSettings": null,

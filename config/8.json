@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hax1.freeair.eu.org",
-            "port": 80,
+            "address": "104.17.14.48",
+            "port": 443,
             "users": [
               {
-                "id": "2ca15318-1015-486d-ef3e-4652102a235a",
+                "id": "083a9d0b-11fb-4b3d-ad57-7ace252bb51b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fr-v.sshmax.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hax1",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "fr-v.sshmax.xyz"
           }
         },
         "httpSettings": null,
