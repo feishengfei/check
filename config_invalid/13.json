@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vus5.0bad.com",
+            "address": "telecom.cfcdn.giize.com",
             "port": 443,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "13c7db38-b00f-49ca-bd9e-60f4f1f008cd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "de01.cctvvip.ml"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/cctv13.m3u8",
           "headers": {
-            "Host": ""
+            "Host": "de01.cctvvip.ml"
           }
         },
         "httpSettings": null,

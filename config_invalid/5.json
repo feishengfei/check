@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "l9.zanbil-mo.cf",
-            "port": 2082,
+            "address": "100.43.163.40",
+            "port": 51832,
             "users": [
               {
-                "id": "2bb765fa-9d92-48a5-be79-803728b250cd",
-                "alterId": 0,
+                "id": "704f5220-4a23-4a4d-9166-e29f3d138313",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/us14/getData",
           "headers": {
             "Host": ""
           }
