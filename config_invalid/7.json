@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
+            "address": "165.227.133.55",
             "port": 80,
             "users": [
               {
-                "id": "35d1eaf8-53e7-4c8b-92aa-d96a20854e3c",
+                "id": "df68f678-62c3-4799-91a8-4d301e8cf565",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/PGV2vtMvxwNFt2",
           "headers": {
-            "Host": "ssrsub.v03.ssrsub.com"
+            "Host": "speedtest.net"
           }
         },
         "httpSettings": null,

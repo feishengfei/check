@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10909,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "4.mamadcucu.com",
-            "port": 8880,
+            "address": "ganjun.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024",
+                "id": "17bc2008-0ff7-44b0-bfb1-0c300180c71e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ganjun.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ArsalanTauBot",
+          "path": "/",
           "headers": {
-            "Host": "4.mamadcucu.com"
+            "Host": "ganjun.xyz"
           }
         },
         "httpSettings": null,
