@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "170.187.200.114",
+            "address": "telecom.cfcdn.giize.com",
             "port": 443,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "cfc3627f-31e8-4695-dfbd-34076e2f1f5d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "jp06.cctvvip.ml"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/cctv13.m3u8",
           "headers": {
-            "Host": ""
+            "Host": "jp06.cctvvip.ml"
           }
         },
         "httpSettings": null,

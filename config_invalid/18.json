@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fr.seeworld.pro",
-            "port": 443,
+            "address": "15.204.216.121",
+            "port": 9443,
             "users": [
               {
-                "id": "aa98f87c-36da-4cda-917b-4f05533e0460",
+                "id": "ae88a70e-7b82-47c2-a995-665b94f9d49b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "fr.seeworld.pro"
+          "serverName": "us6vm.xservs.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/retreyte6",
+          "path": "/vmess",
           "headers": {
-            "Host": "fr.seeworld.pro"
+            "Host": "us6vm.xservs.xyz"
           }
         },
         "httpSettings": null,

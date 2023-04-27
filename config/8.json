@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.14.48",
+            "address": "new3.hucloud-dns.xyz",
             "port": 443,
             "users": [
               {
-                "id": "083a9d0b-11fb-4b3d-ad57-7ace252bb51b",
+                "id": "1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "fr-v.sshmax.xyz"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "fr-v.sshmax.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

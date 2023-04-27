@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vus5.0bad.com",
-            "port": 443,
+            "address": "172.67.13.11",
+            "port": 8880,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "lg.trump2023.net"
           }
         },
         "httpSettings": null,

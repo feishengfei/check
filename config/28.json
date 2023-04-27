@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10928,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hax2.freeair.eu.org",
-            "port": 80,
+            "address": "4.mamadcucu.com",
+            "port": 8880,
             "users": [
               {
-                "id": "cb1402b7-2a15-4978-ec7d-dc19d9b5586d",
+                "id": "51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hax2",
+          "path": "/ArsalanTauBot",
           "headers": {
-            "Host": ""
+            "Host": "4.mamadcucu.com"
           }
         },
         "httpSettings": null,

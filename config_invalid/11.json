@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.198.97.210",
+            "address": "104.17.14.48",
             "port": 443,
             "users": [
               {
-                "id": "deb441cd-57ca-4d14-9c3e-b43cf62c7573",
+                "id": "083a9d0b-11fb-4b3d-ad57-7ace252bb51b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "www.microsoft.com"
+          "serverName": "fr-v.sshmax.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/vmess",
           "headers": {
-            "Host": "www.microsoft.com"
+            "Host": "fr-v.sshmax.xyz"
           }
         },
         "httpSettings": null,
