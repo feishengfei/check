@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "100.43.163.40",
-            "port": 51832,
+            "address": "telecom.cfcdn.giize.com",
+            "port": 443,
             "users": [
               {
-                "id": "704f5220-4a23-4a4d-9166-e29f3d138313",
-                "alterId": 64,
+                "id": "13c7db38-b00f-49ca-bd9e-60f4f1f008cd",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "de01.cctvvip.ml"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/us14/getData",
+          "path": "/cctv13.m3u8",
           "headers": {
-            "Host": ""
+            "Host": "de01.cctvvip.ml"
           }
         },
         "httpSettings": null,
