@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "telecom.cfcdn.giize.com",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "cfc3627f-31e8-4695-dfbd-34076e2f1f5d",
+                "id": "35d1eaf8-53e7-4c8b-92aa-d96a20854e3c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jp06.cctvvip.ml"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13.m3u8",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "jp06.cctvvip.ml"
+            "Host": "ssrsub.v03.ssrsub.com"
           }
         },
         "httpSettings": null,
