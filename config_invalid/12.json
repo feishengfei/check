@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "arm.gofun.today",
-            "port": 443,
+            "address": "wfi.sahnama.com",
+            "port": 80,
             "users": [
               {
-                "id": "f8064c03-ebbb-48e9-b873-c6ac8893e980",
+                "id": "1e5fba98-deac-4fae-ac2f-c055e7810668",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/admin",
+          "path": "/n02mMHFUSf9cMft6o",
           "headers": {
             "Host": ""
           }
