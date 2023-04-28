@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10916,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.198.97.210",
-            "port": 443,
+            "address": "hax1.freeair.eu.org",
+            "port": 80,
             "users": [
               {
-                "id": "deb441cd-57ca-4d14-9c3e-b43cf62c7573",
+                "id": "2ca15318-1015-486d-ef3e-4652102a235a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.microsoft.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/hax1",
           "headers": {
-            "Host": "www.microsoft.com"
+            "Host": "hax1.freeair.eu.org"
           }
         },
         "httpSettings": null,

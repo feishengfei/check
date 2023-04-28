@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "inf.314156.xyz",
-            "port": 443,
+            "address": "ca.moop.wiki",
+            "port": 80,
             "users": [
               {
-                "id": "5b3b5d3f-68a1-4afe-8a9e-a55f30af98e3",
+                "id": "c25afb3a-15ec-4c1d-9233-872e1fbe6965",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "inf.314156.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/workerConfig",
+          "path": "/catre2",
           "headers": {
-            "Host": "inf.314156.xyz"
+            "Host": "ca.moop.wiki"
           }
         },
         "httpSettings": null,
