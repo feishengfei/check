@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.140.193",
-            "port": 80,
+            "address": "156.225.67.143",
+            "port": 51409,
             "users": [
               {
-                "id": "2e496758-950e-4549-8842-d5eec98d9fde",
-                "alterId": 0,
+                "id": "990006bd-cb20-482f-9c97-f5fc65359605",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/shirker",
-          "headers": {
-            "Host": "uk1.scproxy.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "www.udemy.com",
+            "port": 443,
             "users": [
               {
-                "id": "35d1eaf8-53e7-4c8b-92aa-d96a20854e3c",
+                "id": "92869d41-a98a-40ba-b79d-2eeb7ffe2433",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dynamic-sg1b.obfs.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/worryfree",
           "headers": {
-            "Host": "ssrsub.v03.ssrsub.com"
+            "Host": "dynamic-sg1b.obfs.xyz"
           }
         },
         "httpSettings": null,
