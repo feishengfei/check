@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "l1.zanbil-mo.cf",
-            "port": 2095,
+            "address": "arm.gofun.today",
+            "port": 443,
             "users": [
               {
-                "id": "56fc3d21-4a2f-4f68-8f78-eebd6a051101",
+                "id": "f8064c03-ebbb-48e9-b873-c6ac8893e980",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/admin",
           "headers": {
             "Host": ""
           }

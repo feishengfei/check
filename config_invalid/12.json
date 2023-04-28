@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "wfi.sahnama.com",
-            "port": 80,
+            "address": "185.143.220.25",
+            "port": 443,
             "users": [
               {
-                "id": "1e5fba98-deac-4fae-ac2f-c055e7810668",
+                "id": "f28e354e-c2d1-4983-9b07-5acaf1b3b3e5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/n02mMHFUSf9cMft6o",
+          "path": "/6e9EtZ2dL",
           "headers": {
             "Host": ""
           }

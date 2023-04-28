@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "arm.gofun.today",
+            "address": "104.17.14.48",
             "port": 443,
             "users": [
               {
-                "id": "f8064c03-ebbb-48e9-b873-c6ac8893e980",
+                "id": "083a9d0b-11fb-4b3d-ad57-7ace252bb51b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "fr-v.sshmax.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/admin",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "fr-v.sshmax.xyz"
           }
         },
         "httpSettings": null,
