@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.198.97.210",
-            "port": 443,
+            "address": "v.vpchi.tk",
+            "port": 2086,
             "users": [
               {
-                "id": "deb441cd-57ca-4d14-9c3e-b43cf62c7573",
+                "id": "7165a97e-9a41-421f-f709-e33e9e23f4d0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.microsoft.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/",
           "headers": {
-            "Host": "www.microsoft.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

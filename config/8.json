@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ganjun.xyz",
-            "port": 443,
+            "address": "203.30.190.2",
+            "port": 8880,
             "users": [
               {
-                "id": "17bc2008-0ff7-44b0-bfb1-0c300180c71e",
+                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ganjun.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "ganjun.xyz"
+            "Host": "lg.trump2023.net"
           }
         },
         "httpSettings": null,

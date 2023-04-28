@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.14.48",
+            "address": "inf.314156.xyz",
             "port": 443,
             "users": [
               {
-                "id": "083a9d0b-11fb-4b3d-ad57-7ace252bb51b",
+                "id": "5b3b5d3f-68a1-4afe-8a9e-a55f30af98e3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "fr-v.sshmax.xyz"
+          "serverName": "inf.314156.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/workerConfig",
           "headers": {
-            "Host": "fr-v.sshmax.xyz"
+            "Host": "inf.314156.xyz"
           }
         },
         "httpSettings": null,

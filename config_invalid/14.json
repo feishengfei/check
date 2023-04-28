@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "l1.zanbil-mo.cf",
+            "port": 2095,
             "users": [
               {
-                "id": "35d1eaf8-53e7-4c8b-92aa-d96a20854e3c",
+                "id": "56fc3d21-4a2f-4f68-8f78-eebd6a051101",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/",
           "headers": {
-            "Host": "ssrsub.v03.ssrsub.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
