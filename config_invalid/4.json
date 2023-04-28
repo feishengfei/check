@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.198.97.210",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "deb441cd-57ca-4d14-9c3e-b43cf62c7573",
+                "id": "35d1eaf8-53e7-4c8b-92aa-d96a20854e3c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.microsoft.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "www.microsoft.com"
+            "Host": "ssrsub.v03.ssrsub.com"
           }
         },
         "httpSettings": null,
