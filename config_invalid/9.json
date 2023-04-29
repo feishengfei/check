@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v.vpchi.tk",
-            "port": 2086,
+            "address": "inf.314156.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "7165a97e-9a41-421f-f709-e33e9e23f4d0",
+                "id": "5b3b5d3f-68a1-4afe-8a9e-a55f30af98e3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "inf.314156.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/workerConfig",
           "headers": {
-            "Host": ""
+            "Host": "inf.314156.xyz"
           }
         },
         "httpSettings": null,
