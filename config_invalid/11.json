@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "2.halazooon.ir",
+            "address": "v2ray.online",
             "port": 443,
             "users": [
               {
-                "id": "2a430bbb-36c6-4c10-b54b-595bc615d346",
+                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
                 "alterId": 0,
                 "email": "",
-                "security": "none",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "virus-ya-al-leadership.trycloudflare.com"
+          "serverName": "Kansas.v2ray.online"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/argo-vmess?ed=2048",
+          "path": "/speedtest",
           "headers": {
-            "Host": "virus-ya-al-leadership.trycloudflare.com"
+            "Host": "Kansas.v2ray.online"
           }
         },
         "httpSettings": null,
