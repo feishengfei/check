@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "l1.zanbil-mo.cf",
-            "port": 2095,
+            "address": "104.22.59.195",
+            "port": 443,
             "users": [
               {
-                "id": "56fc3d21-4a2f-4f68-8f78-eebd6a051101",
+                "id": "a1560b52-b580-4aad-b8cd-9cd2ec5264b4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "1.239000.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmessws",
           "headers": {
-            "Host": "l1.zanbil-mo.cf"
+            "Host": "1.239000.xyz"
           }
         },
         "httpSettings": null,
