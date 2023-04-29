@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "inf.314156.xyz",
+            "address": "sg.529524.xyz",
             "port": 443,
             "users": [
               {
-                "id": "5b3b5d3f-68a1-4afe-8a9e-a55f30af98e3",
+                "id": "3533809f-64a2-4d85-8d26-d1a60cfced58",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "inf.314156.xyz"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/workerConfig",
+          "path": "/",
           "headers": {
-            "Host": "inf.314156.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

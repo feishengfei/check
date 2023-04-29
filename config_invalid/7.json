@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.58.13",
-            "port": 8880,
+            "address": "2.halazooon.ir",
+            "port": 443,
             "users": [
               {
-                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
+                "id": "2a430bbb-36c6-4c10-b54b-595bc615d346",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "none",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "virus-ya-al-leadership.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": "lg.trump2023.net"
+            "Host": "virus-ya-al-leadership.trycloudflare.com"
           }
         },
         "httpSettings": null,
