@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10907,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "woiden-eu2.moop.wiki",
+            "address": "cfcdn.sanfencdn.net",
             "port": 443,
             "users": [
               {
-                "id": "c25afb3a-15ec-4c1d-9233-872e1fbe6965",
+                "id": "c4868b8a-1f5c-4536-b191-d5429c2e14b7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "woiden-eu2.moop.wiki"
+          "serverName": "us1.sanfencdn.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hax02eu",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "woiden-eu2.moop.wiki"
+            "Host": "us1.sanfencdn.net"
           }
         },
         "httpSettings": null,
