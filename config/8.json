@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.22.59.195",
-            "port": 443,
+            "address": "join-bede.vmessorg.fun",
+            "port": 80,
             "users": [
               {
-                "id": "a1560b52-b580-4aad-b8cd-9cd2ec5264b4",
+                "id": "e3c6f3a1-20d1-43bf-a6e0-04b1987dc9fc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "1.239000.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmessws",
+          "path": "/",
           "headers": {
-            "Host": "1.239000.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,
