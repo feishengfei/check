@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-01.legeth.xyz",
-            "port": 80,
+            "address": "us15.ulifeai.com",
+            "port": 443,
             "users": [
               {
-                "id": "0c117b0d-bf59-4fc7-98ef-6205a18282b5",
+                "id": "e506d328-20d5-4bd1-8eaf-086902c410d8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us15.ulifeai.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/swoole",
           "headers": {
-            "Host": ""
+            "Host": "us15.ulifeai.com"
           }
         },
         "httpSettings": null,

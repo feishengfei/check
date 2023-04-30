@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vus2.0bad.com",
-            "port": 443,
+            "address": "l1.zanbil-mo.cf",
+            "port": 2095,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "56fc3d21-4a2f-4f68-8f78-eebd6a051101",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "vus2.0bad.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/",
           "headers": {
-            "Host": "vus2.0bad.com"
+            "Host": "l1.zanbil-mo.cf"
           }
         },
         "httpSettings": null,
