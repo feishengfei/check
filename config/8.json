@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us15.ulifeai.com",
+            "address": "cdnjs.com",
             "port": 443,
             "users": [
               {
-                "id": "e506d328-20d5-4bd1-8eaf-086902c410d8",
+                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us15.ulifeai.com"
+          "serverName": "Kansas.kotick.site"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/swoole",
+          "path": "/speedtest",
           "headers": {
-            "Host": "us15.ulifeai.com"
+            "Host": "Kansas.kotick.site"
           }
         },
         "httpSettings": null,
