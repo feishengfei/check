@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 8080,
+            "address": "142.4.99.78",
+            "port": 43379,
             "users": [
               {
-                "id": "e2952737-6f10-492b-9813-19131deb71b1",
-                "alterId": 0,
+                "id": "b65da4af-a12a-4a59-9316-4549e12ba62c",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
-          "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
