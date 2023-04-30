@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10903,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk6.af49c4e4c2ef.sanfen004.me",
-            "port": 443,
+            "address": "hd.mamadcucu.com",
+            "port": 2082,
             "users": [
               {
-                "id": "29387883-aace-4e03-bad7-940bc5e6ba67",
+                "id": "8e98f959-6eac-40b7-8fa8-e745942c9a8c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.microsoft.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/",
           "headers": {
-            "Host": "www.microsoft.com"
+            "Host": "h5.mamadcucu.com"
           }
         },
         "httpSettings": null,
