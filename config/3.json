@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.38.105",
-            "port": 2096,
+            "address": "156.225.67.19",
+            "port": 45320,
             "users": [
               {
-                "id": "fcbd5c07-fba5-4ff9-c19c-02e023220628",
-                "alterId": 0,
+                "id": "a7fa8f14-4fb6-4280-9005-d6bbe99c5da9",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "h.h3io.co"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "ho3ino",
-          "headers": {
-            "Host": "h.h3io.co"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
