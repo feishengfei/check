@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10903,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.225.28.186",
-            "port": 52234,
+            "address": "172.67.38.105",
+            "port": 2096,
             "users": [
               {
-                "id": "2278efe4-ad0c-47ce-9480-068608368d76",
-                "alterId": 64,
+                "id": "fcbd5c07-fba5-4ff9-c19c-02e023220628",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "h.h3io.co"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "ho3ino",
+          "headers": {
+            "Host": "h.h3io.co"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
