@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "asbiasncs.114514782.xyz",
-            "port": 2052,
+            "address": "v2ray3.webgfw.top",
+            "port": 2083,
             "users": [
               {
-                "id": "19d76e75-a56b-3048-bbde-cdd2a8c66fa0",
+                "id": "1f147af0-75fb-4c9d-8dac-54f56d48d42d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/auvbwbs",
+          "path": "/X9piqfat/",
           "headers": {
-            "Host": "asbiasncs.114514782.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

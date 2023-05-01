@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "ming2.kiwireich.com",
+            "port": 443,
             "users": [
               {
-                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
+                "id": "18e5f40f-bda6-4c15-9334-e87cda6047af",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ming2.kiwireich.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/ray",
           "headers": {
-            "Host": "nl.sharecentrepro.com"
+            "Host": "ming2.kiwireich.com"
           }
         },
         "httpSettings": null,
