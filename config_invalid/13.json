@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "l1.zanbil-mo.cf",
-            "port": 2095,
+            "address": "xf.starssd.org",
+            "port": 10004,
             "users": [
               {
-                "id": "56fc3d21-4a2f-4f68-8f78-eebd6a051101",
+                "id": "d3b20f5d-2e44-3892-a2c8-43bad5c14466",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "l1.zanbil-mo.cf"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
