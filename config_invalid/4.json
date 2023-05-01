@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "usshsaba.114514782.xyz",
-            "port": 2095,
+            "address": "2.halazooon.ir",
+            "port": 443,
             "users": [
               {
-                "id": "19d76e75-a56b-3048-bbde-cdd2a8c66fa0",
+                "id": "bdfb22c6-c322-4d14-be4a-e95cff2bbeca",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "none",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "odds-marco-nelson-gifts.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/usshsa",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": "usshsaba.114514782.xyz"
+            "Host": "odds-marco-nelson-gifts.trycloudflare.com"
           }
         },
         "httpSettings": null,

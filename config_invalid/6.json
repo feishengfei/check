@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "usblog.114514782.xyz",
-            "port": 2052,
+            "address": "xf.starssd.org",
+            "port": 10004,
             "users": [
               {
-                "id": "14a8ba38-8918-3de1-bc93-9fc87777da30",
+                "id": "d3b20f5d-2e44-3892-a2c8-43bad5c14466",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/mtryjhiaogrs",
-          "headers": {
-            "Host": "usblog.114514782.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
