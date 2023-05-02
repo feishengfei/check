@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "i.vpchi.tk",
-            "port": 2082,
+            "address": "de2-vmess.greenssh.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "1cbcbeff-de07-4f43-8ca9-4cb3a2a508ab",
+                "id": "e5be6b53-3645-43df-a403-7b354f312bbd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de2-vmess.greenssh.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "i.vpchi.tk"
+            "Host": "de2-vmess.greenssh.xyz"
           }
         },
         "httpSettings": null,

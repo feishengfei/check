@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aduibdfg.114514782.xyz",
-            "port": 2052,
+            "address": "inf.314156.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "3c6a7937-52f5-38ab-8161-d1456ed68964",
+                "id": "5b3b5d3f-68a1-4afe-8a9e-a55f30af98e3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/flkfhzz",
+          "path": "/workerConfig",
           "headers": {
-            "Host": "aduibdfg.114514782.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

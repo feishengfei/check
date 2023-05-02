@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn.sanfencdn.net",
-            "port": 443,
+            "address": "v2ray3.webgfw.top",
+            "port": 2083,
             "users": [
               {
-                "id": "648d1970-6bdc-45c1-8351-aff09fc067a7",
+                "id": "4cc72565-0d05-41e6-bc34-72aba9da544f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us2.sanfencdn.net"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/X9piqfat/",
           "headers": {
-            "Host": "us2.sanfencdn.net"
+            "Host": ""
           }
         },
         "httpSettings": null,
