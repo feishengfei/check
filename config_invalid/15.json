@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.65.43",
-            "port": 2053,
+            "address": "172.67.145.116",
+            "port": 8080,
             "users": [
               {
-                "id": "d6616014-a47e-4040-8286-34a2207c5b7c",
+                "id": "6d68cfc2-36e5-432d-b6f2-5ff431cd431b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b.v2ray2333.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/10029",
+          "path": "/uitsrt",
           "headers": {
-            "Host": "b.v2ray2333.tk"
+            "Host": "vc3chixui.uitsrt.me"
           }
         },
         "httpSettings": null,

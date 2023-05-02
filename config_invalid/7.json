@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk3.af49c4e4c2ef.sanfen004.me",
-            "port": 443,
+            "address": "jp03.cctvvip.ml",
+            "port": 80,
             "users": [
               {
-                "id": "a316207e-0d3b-4754-ae9f-a4ec13aacba9",
+                "id": "1b5d6145-0b49-4d0b-a9b6-2294320afac4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/cctv13.m3u8?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "jp03.cctvvip.ml"
           }
         },
         "httpSettings": null,

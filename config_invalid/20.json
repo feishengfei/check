@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "l1.zanbil-mo.cf",
-            "port": 2095,
+            "address": "cfcdn.sanfencdn.net",
+            "port": 443,
             "users": [
               {
-                "id": "56fc3d21-4a2f-4f68-8f78-eebd6a051101",
+                "id": "648d1970-6bdc-45c1-8351-aff09fc067a7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us2.sanfencdn.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "l1.zanbil-mo.cf"
+            "Host": "us2.sanfencdn.net"
           }
         },
         "httpSettings": null,

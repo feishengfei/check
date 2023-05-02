@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp05.cctvvip.ml",
-            "port": 80,
+            "address": "de2-vmess.greenssh.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "111c16dd-1118-457c-9ddf-453996cd7920",
+                "id": "e5be6b53-3645-43df-a403-7b354f312bbd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de2-vmess.greenssh.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13.m3u8?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "jp05.cctvvip.ml"
+            "Host": "de2-vmess.greenssh.xyz"
           }
         },
         "httpSettings": null,

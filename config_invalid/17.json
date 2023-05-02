@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "2.halazooon.ir",
-            "port": 443,
+            "address": "5.34.178.157",
+            "port": 10000,
             "users": [
               {
-                "id": "bdfb22c6-c322-4d14-be4a-e95cff2bbeca",
+                "id": "fb07a0c8-e5ff-11ed-a1a9-fb9f80d88754",
                 "alterId": 0,
                 "email": "",
-                "security": "none",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "odds-marco-nelson-gifts.trycloudflare.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/argo-vmess?ed=2048",
+          "path": "/vpnjantit",
           "headers": {
-            "Host": "odds-marco-nelson-gifts.trycloudflare.com"
+            "Host": "5.34.178.157"
           }
         },
         "httpSettings": null,
