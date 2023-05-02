@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "quiz.vidio.com",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 8080,
             "users": [
               {
-                "id": "92869d41-a98a-40ba-b79d-2eeb7ffe2433",
+                "id": "e2952737-6f10-492b-9813-19131deb71b1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dynamic-sg1b.obfs.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/worryfree",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "dynamic-sg1b.obfs.xyz"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,

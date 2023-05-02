@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "203.30.191.100",
-            "port": 8880,
+            "address": "rn.blowm1k.club",
+            "port": 443,
             "users": [
               {
-                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
+                "id": "3af44882-71a3-4ad3-9ff2-508eb47cdf2c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "rn.blowm1k.club"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/233blog",
           "headers": {
-            "Host": "lg.trump2023.net"
+            "Host": "rn.blowm1k.club"
           }
         },
         "httpSettings": null,

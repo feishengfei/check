@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.1.48",
-            "port": 2095,
+            "address": "new6.huvicloud.com",
+            "port": 443,
             "users": [
               {
-                "id": "19350d64-6868-4a64-e501-9c0df903d788",
+                "id": "a11ca760-9ef9-4a63-95c9-4c5c32d56251",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/huvi",
           "headers": {
-            "Host": "h3.mamadcucu.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

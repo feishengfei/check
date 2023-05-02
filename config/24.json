@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10924,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.153.178",
-            "port": 2096,
+            "address": "st.suchenawa.com",
+            "port": 443,
             "users": [
               {
-                "id": "fcbd5c07-fba5-4ff9-c19c-02e023220628",
+                "id": "670c745c-8699-4741-95b1-2feffc0e6e0b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "h.h3io.co"
+          "serverName": "st.suchenawa.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "ho3ino",
+          "path": "/suchen",
           "headers": {
-            "Host": "h.h3io.co"
+            "Host": "st.suchenawa.com"
           }
         },
         "httpSettings": null,
