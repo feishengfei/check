@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "dallas.starsea.vip",
-            "port": 443,
+            "address": "jp06-alt-vm0.entry.jpojpoh.art",
+            "port": 28783,
             "users": [
               {
-                "id": "c5e52b78-c01b-4884-baad-01cd2a74fce3",
-                "alterId": 0,
+                "id": "21c670ff-c739-3072-9286-7d2a1d300fcb",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

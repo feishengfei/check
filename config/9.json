@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10925,
+      "port": 10909,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "snappfood.ir",
+            "address": "join-bede.vmessorg.fun",
             "port": 80,
             "users": [
               {
-                "id": "2dbb403e-343c-4b09-a84d-c4e6aff4d6b1",
+                "id": "b91105c9-2061-40e6-9219-d04d5b4869d3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -63,7 +63,7 @@
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "dayz-gone.website"
+            "Host": ""
           }
         },
         "httpSettings": null,

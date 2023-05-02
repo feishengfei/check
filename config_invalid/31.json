@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Kansas.v2ray.online",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/shirker",
           "headers": {
-            "Host": ""
+            "Host": "dp4.scproxy.top"
           }
         },
         "httpSettings": null,

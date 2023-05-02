@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10925,
+      "port": 10927,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "snappfood.ir",
-            "port": 80,
+            "address": "new6.huvicloud.com",
+            "port": 443,
             "users": [
               {
-                "id": "2dbb403e-343c-4b09-a84d-c4e6aff4d6b1",
+                "id": "a11ca760-9ef9-4a63-95c9-4c5c32d56251",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/huvi",
           "headers": {
-            "Host": "dayz-gone.website"
+            "Host": ""
           }
         },
         "httpSettings": null,

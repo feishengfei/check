@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.dalazhi.eu.org",
-            "port": 443,
+            "address": "pop.xini.gfwcaonimanmsl.ml",
+            "port": 25511,
             "users": [
               {
-                "id": "7098880e-4ca5-490c-8ff7-8067049b6077",
+                "id": "c604e5e7-385f-44a7-aebb-0fdec93eebaa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us.dalazhi.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/lgzlvws",
+          "path": "/34342me",
           "headers": {
-            "Host": "us.dalazhi.eu.org"
+            "Host": ""
           }
         },
         "httpSettings": null,
