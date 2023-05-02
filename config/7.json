@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10908,
+      "port": 10907,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "173.245.49.16",
-            "port": 443,
+            "address": "snappfood.ir",
+            "port": 80,
             "users": [
               {
-                "id": "662f4e74-b075-4d85-d68d-61c51882429f",
+                "id": "2dbb403e-343c-4b09-a84d-c4e6aff4d6b1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "kott1.vtcss.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "kott1.vtcss.top"
+            "Host": "dayz-gone.website"
           }
         },
         "httpSettings": null,

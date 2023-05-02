@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "snappfood.ir",
-            "port": 80,
+            "address": "cf-lt.sharecentre.online",
+            "port": 8080,
             "users": [
               {
-                "id": "e640b7a8-c42d-4188-d411-4fb7736f90bc",
+                "id": "e2952737-6f10-492b-9813-19131deb71b1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "dayz-gone.website"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
