@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.dalazhi.eu.org",
-            "port": 443,
+            "address": "203.30.188.100",
+            "port": 8880,
             "users": [
               {
-                "id": "896dfa91-7bfa-4335-8b3b-6d8cebed164d",
+                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tj1.dalazhi.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/bexcvws",
+          "path": "/",
           "headers": {
-            "Host": "tj1.dalazhi.eu.org"
+            "Host": "lg.trump2023.net"
           }
         },
         "httpSettings": null,
