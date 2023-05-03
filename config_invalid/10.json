@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "170.187.200.114",
-            "port": 443,
+            "address": "v2ray3.webgfw.top",
+            "port": 2083,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "1ace515b-a76b-4378-83ac-0ee3833b98be",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "v2ray3.webgfw.top"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/X9piqfat/",
           "headers": {
-            "Host": ""
+            "Host": "v2ray3.webgfw.top"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ca1-vmess.greenssh.xyz",
-            "port": 80,
+            "address": "dallas.starsea.vip",
+            "port": 443,
             "users": [
               {
-                "id": "2557e01c-dbcc-4d34-a259-11ae69f5f041",
+                "id": "c5e52b78-c01b-4884-baad-01cd2a74fce3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "",
           "headers": {
             "Host": ""
           }
