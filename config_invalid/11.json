@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "quiz.vidio.com",
-            "port": 443,
+            "address": "43.134.161.69",
+            "port": 31101,
             "users": [
               {
-                "id": "92869d41-a98a-40ba-b79d-2eeb7ffe2433",
-                "alterId": 0,
+                "id": "d50a35ce-08a4-47d2-8c42-65be8f5cb7c6",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dynamic-sg1b.obfs.xyz"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/worryfree",
+          "path": "/sgx/getData",
           "headers": {
-            "Host": "dynamic-sg1b.obfs.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

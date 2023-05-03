@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10910,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.143.220.25",
-            "port": 443,
+            "address": "172.67.204.32",
+            "port": 2086,
             "users": [
               {
-                "id": "f28e354e-c2d1-4983-9b07-5acaf1b3b3e5",
+                "id": "33d04ad6-c7da-3ba1-8941-3845978209a9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/6e9EtZ2dL",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "uk01-cdn.airport-v2.com"
           }
         },
         "httpSettings": null,
