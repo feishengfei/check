@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1682393187.edpmvga.cn",
-            "port": 443,
+            "address": "202.79.174.157",
+            "port": 55264,
             "users": [
               {
-                "id": "c204042b-3f11-4860-b159-e3dd97dbefbe",
-                "alterId": 0,
+                "id": "121c9c89-7d11-4f49-9112-dc1e85363f6f",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1682393187.edpmvga.cn"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "n1682393187.edpmvga.cn"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

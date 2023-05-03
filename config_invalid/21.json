@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdnjs.com",
-            "port": 443,
+            "address": "v2ray3.webgfw.top",
+            "port": 2083,
             "users": [
               {
-                "id": "9EBADE70-240F-463E-A6C2-A6B55CE6A9AA",
+                "id": "1ace515b-a76b-4378-83ac-0ee3833b98be",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Dusseldorf.kotick.site"
+          "serverName": "v2ray3.webgfw.top"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/X9piqfat/",
           "headers": {
-            "Host": "Dusseldorf.kotick.site"
+            "Host": "v2ray3.webgfw.top"
           }
         },
         "httpSettings": null,
