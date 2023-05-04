@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Kansas.kotick.site",
-            "port": 443,
+            "address": "i.vpchi.tk",
+            "port": 2082,
             "users": [
               {
-                "id": "2EA6678E-DCB8-43F2-A4A7-8B272107EF90",
+                "id": "1cbcbeff-de07-4f43-8ca9-4cb3a2a508ab",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/",
           "headers": {
             "Host": ""
           }

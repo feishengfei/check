@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "i.vpchi.tk",
-            "port": 2082,
+            "address": "free-id.ajunstores.me",
+            "port": 443,
             "users": [
               {
-                "id": "1cbcbeff-de07-4f43-8ca9-4cb3a2a508ab",
+                "id": "694caa03-3b2f-476b-8b6c-711115a2c128",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "free-id.ajunstores.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "free-id.ajunstores.me"
           }
         },
         "httpSettings": null,
