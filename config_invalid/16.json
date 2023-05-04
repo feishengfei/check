@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dallas.starsea.vip",
-            "port": 443,
+            "address": "172.64.194.13",
+            "port": 8880,
             "users": [
               {
-                "id": "c5e52b78-c01b-4884-baad-01cd2a74fce3",
+                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "lg.trump2023.net"
           }
         },
         "httpSettings": null,

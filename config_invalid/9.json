@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.253.232",
-            "port": 80,
+            "address": "cdnjs.com",
+            "port": 443,
             "users": [
               {
-                "id": "53ae65be-81ee-4766-8a09-da43c44c4d30",
+                "id": "B6076D16-1F56-4D56-80E7-1B45FEE195E9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Kansas.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/speedtest",
           "headers": {
-            "Host": "mlj.vtcss.top"
+            "Host": "Kansas.kotick.site"
           }
         },
         "httpSettings": null,

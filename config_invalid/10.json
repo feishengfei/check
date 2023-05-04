@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "free-id.ajunstores.me",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "694caa03-3b2f-476b-8b6c-711115a2c128",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "free-id.ajunstores.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/shirker",
           "headers": {
-            "Host": "free-id.ajunstores.me"
+            "Host": "dp4.scproxy.top"
           }
         },
         "httpSettings": null,
