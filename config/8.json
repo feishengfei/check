@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.153",
-            "port": 8880,
+            "address": "92.223.30.8",
+            "port": 2087,
             "users": [
               {
-                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
+                "id": "33d04ad6-c7da-3ba1-8941-3845978209a9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/aries?ed=2048",
-          "headers": {
-            "Host": "csjp.iiio.wiki"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
