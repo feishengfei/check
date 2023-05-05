@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "67.21.72.41",
-            "port": 443,
+            "address": "cf.noaries.de",
+            "port": 2082,
             "users": [
               {
-                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
-                "alterId": 64,
+                "id": "314c1387-618c-4689-97fc-4bc9a1ae5e05",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.17080100.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/173418141123",
+          "path": "/",
           "headers": {
-            "Host": "www.17080100.xyz"
+            "Host": "ir2.nmsl.ninja"
           }
         },
         "httpSettings": null,
