@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10921,
+      "port": 10925,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.143.143.179",
-            "port": 10000,
+            "address": "hd.mamadcucu.com",
+            "port": 2052,
             "users": [
               {
-                "id": "283e7602-e600-11ed-95ad-cfaa7f5291f5",
+                "id": "8ed9aec2-e02e-4a27-fe02-c3e20452e4c7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vpnjantit",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "h4.mamadcucu.com"
           }
         },
         "httpSettings": null,
