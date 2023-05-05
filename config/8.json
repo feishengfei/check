@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.223.30.8",
-            "port": 2087,
+            "address": "hd.mamadcucu.com",
+            "port": 2095,
             "users": [
               {
-                "id": "33d04ad6-c7da-3ba1-8941-3845978209a9",
+                "id": "19350d64-6868-4a64-e501-9c0df903d788",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "h3.mamadcucu.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
