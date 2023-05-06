@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v.vpchi.tk",
-            "port": 2086,
+            "address": "173.245.49.40",
+            "port": 443,
             "users": [
               {
-                "id": "7165a97e-9a41-421f-f709-e33e9e23f4d0",
+                "id": "e883ff76-3bb4-4008-c068-6b5b1d960ea7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "uyaa.vtcss.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/qwer07",
           "headers": {
-            "Host": "v.vpchi.tk"
+            "Host": "uyaa.vtcss.top"
           }
         },
         "httpSettings": null,
