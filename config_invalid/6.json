@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.224.110.184",
+            "address": "v2-ca1.silverdragon.cn",
             "port": 443,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "e790e3bf-c553-40ed-b2b6-436afd3f5f5c",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "v2-ca1.silverdragon.cn"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/080712342310",
+          "path": "/ca/v2wss",
           "headers": {
-            "Host": ""
+            "Host": "v2-ca1.silverdragon.cn"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ldauvycer.76898102.xyz",
-            "port": 2086,
+            "address": "vde2.0bad.com",
+            "port": 443,
             "users": [
               {
-                "id": "bbe033d3-d3be-3110-b81a-4fed343e2fc2",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vde2.0bad.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/opengtc",
+          "path": "/chat",
           "headers": {
-            "Host": "ldauvycer.76898102.xyz"
+            "Host": "vde2.0bad.com"
           }
         },
         "httpSettings": null,
