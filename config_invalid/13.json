@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.13.13",
-            "port": 80,
+            "address": "mgx.musekidan.com",
+            "port": 16627,
             "users": [
               {
-                "id": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+                "id": "c7258bd9-32a3-41f4-8220-cd2132235cef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mgx.musekidan.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/mgx",
           "headers": {
-            "Host": "lg.v2ray20.xyz"
+            "Host": "mgx.musekidan.com"
           }
         },
         "httpSettings": null,

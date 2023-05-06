@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mgx.musekidan.com",
-            "port": 16627,
+            "address": "visa.com",
+            "port": 80,
             "users": [
               {
-                "id": "60045858-4036-4eb7-aeb4-36288ee73987",
+                "id": "373f2d71-79ca-47a4-974f-79b2590e8c60",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "mgx.musekidan.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/mgx",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "mgx.musekidan.com"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
