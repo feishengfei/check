@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hnfly.fuzzyng.net",
-            "port": 80,
+            "address": "162.159.58.85",
+            "port": 443,
             "users": [
               {
-                "id": "ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c",
+                "id": "2e6e9c6e-6c41-4d8f-b06e-e52b27220ff9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "yusa.vtcss.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/fuzzyng?ed=2048",
+          "path": "/qwer07",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "yusa.vtcss.top"
           }
         },
         "httpSettings": null,

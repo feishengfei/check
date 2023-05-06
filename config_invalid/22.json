@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "free-id.ajunstores.me",
+            "address": "cdn-xjp4.cqjsl.xyz",
             "port": 443,
             "users": [
               {
-                "id": "694caa03-3b2f-476b-8b6c-711115a2c128",
+                "id": "72112e00-b078-40e5-a814-5ec7c20c22f3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "free-id.ajunstores.me"
+          "serverName": "cdn-xjp4.cqjsl.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "free-id.ajunstores.me"
+            "Host": "cdn-xjp4.cqjsl.xyz"
           }
         },
         "httpSettings": null,

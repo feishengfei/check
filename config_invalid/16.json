@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vde2.0bad.com",
+            "address": "cdn-xjp3.cqjsl.xyz",
             "port": 443,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "682fe519-d21b-40d2-ac87-1efca1c813fc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "vde2.0bad.com"
+          "serverName": "cdn-xjp3.cqjsl.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/",
           "headers": {
-            "Host": "vde2.0bad.com"
+            "Host": "cdn-xjp3.cqjsl.xyz"
           }
         },
         "httpSettings": null,
