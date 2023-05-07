@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "cf.yxjnode.com",
-            "port": 80,
-            "users": [
-              {
-                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "gtm-sg-6wr31eq5o8g.gtm-i1d8.com",
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "Kad0X9",
+            "port": 2051,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/yxzbp",
-          "headers": {
-            "Host": "dp1.yxjnode.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

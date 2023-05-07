@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "158.101.208.7",
-            "port": 80,
+            "address": "107.189.5.112",
+            "port": 7341,
             "users": [
               {
-                "id": "1f1f6fc6-cadf-49d4-b3f1-7aaf1f3ea6d3",
+                "id": "2c7eb798-b8ce-41d9-8ca0-e649e99716e3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gbdfesed.uk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/LvoWs2LEe0LcO2QfWOrmTQgP4zMXn",
+          "path": "/1kgn7K",
           "headers": {
-            "Host": "158.101.208.7"
+            "Host": "gbdfesed.uk"
           }
         },
         "httpSettings": null,

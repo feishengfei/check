@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "de2.25c9e320-7b14-48c9-8127-3393c7a16a2a.cloudspeed.online",
-            "port": 80,
+            "address": "vus2.0bad.com",
+            "port": 443,
             "users": [
               {
-                "id": "2da0d552-b9f4-4802-b4d8-d20be2d1a590",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vus2.0bad.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aws-china-media/QAcTKp3Ic-M.mp4",
+          "path": "/chat",
           "headers": {
-            "Host": "de-media.ispeed.online"
+            "Host": "vus2.0bad.com"
           }
         },
         "httpSettings": null,
