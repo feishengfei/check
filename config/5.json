@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "158.101.208.7",
-            "port": 80,
+            "address": "vus2.0bad.com",
+            "port": 443,
             "users": [
               {
-                "id": "1f1f6fc6-cadf-49d4-b3f1-7aaf1f3ea6d3",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vus2.0bad.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/LvoWs2LEe0LcO2QfWOrmTQgP4zMXn",
+          "path": "/chat",
           "headers": {
-            "Host": "158.101.208.7"
+            "Host": "vus2.0bad.com"
           }
         },
         "httpSettings": null,

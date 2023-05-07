@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aaaa.wxx.gay",
-            "port": 443,
+            "address": "fr1.25c9e320-7b14-48c9-8127-3393c7a16a2a.cloudspeed.online",
+            "port": 80,
             "users": [
               {
-                "id": "101b4758-ec27-11ed-8445-000017022008",
+                "id": "2da0d552-b9f4-4802-b4d8-d20be2d1a590",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/look",
+          "path": "/aws-china-media/QAcTKp3Ic-M.mp4",
           "headers": {
-            "Host": ""
+            "Host": "fr-media.ispeed.online"
           }
         },
         "httpSettings": null,
