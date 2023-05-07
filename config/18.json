@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10918,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk4.af49c4e4c2ef.sanfen004.me",
-            "port": 443,
+            "address": "d.mamadcucu.com",
+            "port": 8880,
             "users": [
               {
-                "id": "30ba67cf-776c-48be-8bb5-578878830228",
+                "id": "c1808f79-f54d-440c-dbb1-cd21a2f0ef8f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hk4.af49c4e4c2ef.sanfen004.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/",
           "headers": {
-            "Host": "hk4.af49c4e4c2ef.sanfen004.me"
+            "Host": "i2.mamadcucu.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "170.187.200.114",
-            "port": 443,
+            "address": "dbamwvb.76898102.xyz",
+            "port": 2082,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "f1552f53-e5e1-30dc-8e2f-22285b7137fe",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/tadabfw",
           "headers": {
-            "Host": ""
+            "Host": "dbamwvb.76898102.xyz"
           }
         },
         "httpSettings": null,

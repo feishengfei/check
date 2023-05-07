@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "de2.25c9e320-7b14-48c9-8127-3393c7a16a2a.cloudspeed.online",
-            "port": 80,
+            "address": "hk2.c2bfe79372be.sanfen004.me",
+            "port": 443,
             "users": [
               {
-                "id": "2da0d552-b9f4-4802-b4d8-d20be2d1a590",
+                "id": "30ba67cf-776c-48be-8bb5-578878830228",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.microsoft.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aws-china-media/QAcTKp3Ic-M.mp4",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "de-media.ispeed.online"
+            "Host": "www.microsoft.com"
           }
         },
         "httpSettings": null,

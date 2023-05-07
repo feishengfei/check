@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray3.webgfw.top",
-            "port": 2083,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "1ace515b-a76b-4378-83ac-0ee3833b98be",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "v2ray3.webgfw.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/X9piqfat/",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "v2ray3.webgfw.top"
+            "Host": "dp1.yxjnode.com"
           }
         },
         "httpSettings": null,
