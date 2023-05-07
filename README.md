@@ -6,16 +6,18 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr                            | cn            | cc   | isp                 | ip                    | chatgpt          |
-|---:|:-------------------|:--------------------------------|:--------------|:-----|:--------------------|:----------------------|:-----------------|
-|  0 | [2](config/2.json) | d.mamadcucu.com                 | Germany       | DE   | Hetzner Online GmbH | 2a01:4f8:1c17:e4ca::1 | Yes (Region: DE) |
-|  1 | [4](config/4.json) | gtm-sg-6wr31eq5o8g.gtm-i1d8.com | Singapore     | SG   | Melbikomas UAB      | 185.230.245.202       | Yes (Region: SG) |
-|  2 | [8](config/8.json) | 192.203.230.86                  | United States | US   | AS-GLOBALTELEHOST   | 169.197.141.187       | Yes (Region: US) |
+|    | id                   | addr            | cn            | cc   | isp                 | ip                    | chatgpt          |
+|---:|:---------------------|:----------------|:--------------|:-----|:--------------------|:----------------------|:-----------------|
+|  0 | [3](config/3.json)   | 140.99.149.46   | United States | US   | DEDIPATH-LLC        | 45.83.130.170         | Yes (Region: US) |
+|  1 | [7](config/7.json)   | 172.99.188.99   | Netherlands   | NL   | AS-GLOBALTELEHOST   | 172.99.188.99         | Yes (Region: NL) |
+|  2 | [8](config/8.json)   | 43.156.131.164  | United States | US   | AS-GLOBALTELEHOST   | 169.197.141.187       | Yes (Region: US) |
+|  3 | [12](config/12.json) | d.mamadcucu.com | Germany       | DE   | Hetzner Online GmbH | 2a01:4f8:1c17:e4ca::1 | Yes (Region: DE) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTZiMjdcdTc2ZGYgIDIiLCAiYWRkIjogImQubWFtYWRjdWN1LmNvbSIsICJwb3J0IjogIjg4ODAiLCAidHlwZSI6ICJub25lIiwgImlkIjogImMxODA4Zjc5LWY1NGQtNDQwYy1kYmIxLWNkMjFhMmYwZWY4ZiIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgImhvc3QiOiAiaTIubWFtYWRjdWN1LmNvbSIsICJ0bHMiOiAiIn0=
-ss://YWVzLTEyOC1nY206S2FkMFg5@gtm-sg-6wr31eq5o8g.gtm-i1d8.com:2051#github.com/freefq%20-%20%E4%BF%84%E7%BD%97%E6%96%AF%20%204
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmQgIDgiLCAiYWRkIjogIjE5Mi4yMDMuMjMwLjg2IiwgInBvcnQiOiA4MCwgImlkIjogImE0NDJkYWNmLWNiYjMtNDg4YS05NzQ0LTYxNDk0ZWEzODYzMCIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAidXMtMS5hY3l1bi5jZiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+vmess://eyJhZGQiOiAiMTQwLjk5LjE0OS40NiIsICJhaWQiOiA2NCwgImhvc3QiOiAiIiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiA1MzA4MiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkRGF0YWJpbGl0eSAzIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIn0=
+ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@172.99.188.99:4444#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%207
+vmess://eyJhZGQiOiAiNDMuMTU2LjEzMS4xNjQiLCAidiI6ICIyIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU2NWU1XHU2NzJjICA4IiwgInBvcnQiOiA0Mzg2MCwgImlkIjogImJlM2ZkZWMyLTg2ZTEtNGQ1MS05NjliLTcwNGIxZWZjMzE1OCIsICJhaWQiOiAiNjQiLCAibmV0IjogIndzIiwgInR5cGUiOiAiIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiL3NnMi9nZXREYXRhIiwgInRscyI6ICJ0bHMifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTZiMjdcdTc2ZGYgIDEyIiwgImFkZCI6ICJkLm1hbWFkY3VjdS5jb20iLCAicG9ydCI6ICI4ODgwIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICJjMTgwOGY3OS1mNTRkLTQ0MGMtZGJiMS1jZDIxYTJmMGVmOGYiLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJob3N0IjogImkyLm1hbWFkY3VjdS5jb20iLCAidGxzIjogIiJ9
 ```
 

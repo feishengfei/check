@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10907,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -38,11 +38,11 @@
         "servers": [
           {
             "email": null,
-            "address": "gtm-sg-6wr31eq5o8g.gtm-i1d8.com",
-            "method": "aes-128-gcm",
+            "address": "172.99.188.99",
+            "method": "aes-256-gcm",
             "ota": false,
-            "password": "Kad0X9",
-            "port": 2051,
+            "password": "pKEW8JPByTVTLtM",
+            "port": 4444,
             "level": 1,
             "users": null
           }
