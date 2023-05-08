@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "144.34.210.227",
+            "port": 7423,
             "users": [
               {
-                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
+                "id": "3307dc53-6fb2-4c34-ba6a-86e74b3951af",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "%7B%22Host%22:%22zhijiagelala.top%22%7D"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/fjpYs1uY9H",
           "headers": {
-            "Host": "dp3.scproxy.top"
+            "Host": "%7B%22Host%22:%22zhijiagelala.top%22%7D"
           }
         },
         "httpSettings": null,
