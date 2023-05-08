@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "atal.foriran.nl",
-            "port": 443,
+            "address": "47.91.30.130",
+            "port": 2052,
             "users": [
               {
-                "id": "a6e6b3e0-b8a7-4123-8ab4-573a9241a259",
+                "id": "8ed9aec2-e02e-4a27-fe02-c3e20452e4c7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "atal.foriran.nl"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/UcM6L7nnEW8E0h3Y",
+          "path": "/",
           "headers": {
-            "Host": "atal.foriran.nl"
+            "Host": "h4.mamadcucu.com"
           }
         },
         "httpSettings": null,
