@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1.170.221.19",
-            "port": 7885,
+            "address": "185.244.208.115",
+            "port": 80,
             "users": [
               {
-                "id": "12a17fa9-b2b4-4c69-aef5-79886ba859bf",
+                "id": "2cfc4c58-88cb-4e00-9977-ef0a37559a22",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fghyhhonline.uk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/yn09Nrg8a",
+          "path": "/",
           "headers": {
-            "Host": "fghyhhonline.uk"
+            "Host": ""
           }
         },
         "httpSettings": null,
