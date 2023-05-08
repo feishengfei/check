@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sv1-pikachujp.cloud.okteto.net",
-            "port": 443,
+            "address": "172.67.13.11",
+            "port": 8880,
             "users": [
               {
-                "id": "6fc5e917-5a12-4a94-9d73-800c6cad025d",
+                "id": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sv1-pikachujp.cloud.okteto.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "sv1-pikachujp.cloud.okteto.net"
+            "Host": "lg.trump2023.net"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "ussfo.looooooongnet.lol",
+            "port": 443,
             "users": [
               {
-                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
+                "id": "50087501-50f9-4fbf-b4e2-e964f9f86e85",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ussfo.looooooongnet.lol"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/",
           "headers": {
-            "Host": "dp3.scproxy.top"
+            "Host": "ussfo.looooooongnet.lol"
           }
         },
         "httpSettings": null,

@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "irancpi1.duckdns.org",
+            "address": "mci.ircf.space",
             "port": 443,
             "users": [
               {
                 "id": "a6e6b3e0-b8a7-4123-8ab4-573a9241a259",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -58,7 +58,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "irancpi1.duckdns.org"
+          "serverName": "hasan.foriran.nl"
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -66,7 +66,7 @@
           "connectionReuse": true,
           "path": "/UcM6L7nnEW8E0h3Y",
           "headers": {
-            "Host": "irancpi1.duckdns.org"
+            "Host": "hasan.foriran.nl"
           }
         },
         "httpSettings": null,
