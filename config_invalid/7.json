@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "atal.foriran.nl",
-            "port": 443,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "a6e6b3e0-b8a7-4123-8ab4-573a9241a259",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "atal.foriran.nl"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/UcM6L7nnEW8E0h3Y",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "atal.foriran.nl"
+            "Host": "dp1.yxjnode.com"
           }
         },
         "httpSettings": null,

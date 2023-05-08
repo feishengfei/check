@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "203.23.106.145",
-            "port": 2053,
+            "address": "sv1-pikachujp.cloud.okteto.net",
+            "port": 443,
             "users": [
               {
-                "id": "44944709-9cfe-41a8-8d9e-5320b7f96fa1",
+                "id": "6fc5e917-5a12-4a94-9d73-800c6cad025d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "4dy6e45u.lasl.sbs"
+          "serverName": "sv1-pikachujp.cloud.okteto.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": "4dy6e45u.lasl.sbs"
+            "Host": "sv1-pikachujp.cloud.okteto.net"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "144.34.210.227",
-            "port": 7423,
+            "address": "192.203.230.86",
+            "port": 80,
             "users": [
               {
-                "id": "3307dc53-6fb2-4c34-ba6a-86e74b3951af",
+                "id": "a442dacf-cbb3-488a-9744-61494ea38630",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "%7B%22Host%22:%22zhijiagelala.top%22%7D"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/fjpYs1uY9H",
+          "path": "/",
           "headers": {
-            "Host": "%7B%22Host%22:%22zhijiagelala.top%22%7D"
+            "Host": "us-1.acyun.cf"
           }
         },
         "httpSettings": null,
