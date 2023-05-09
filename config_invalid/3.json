@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray3.webgfw.top",
-            "port": 2083,
+            "address": "mcix.cpionline.co",
+            "port": 443,
             "users": [
               {
-                "id": "4cc72565-0d05-41e6-bc34-72aba9da544f",
+                "id": "a6e6b3e0-b8a7-4123-8ab4-573a9241a259",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "v2ray3.webgfw.top"
+          "serverName": "matal.foriran.nl"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/X9piqfat/",
+          "path": "/UcM6L7nnEW8E0h3Y",
           "headers": {
-            "Host": "v2ray3.webgfw.top"
+            "Host": "matal.foriran.nl"
           }
         },
         "httpSettings": null,
