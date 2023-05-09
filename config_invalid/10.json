@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ussfo.looooooongnet.lol",
+            "address": "170.187.200.114",
             "port": 443,
             "users": [
               {
-                "id": "50087501-50f9-4fbf-b4e2-e964f9f86e85",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ussfo.looooooongnet.lol"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/chat",
           "headers": {
-            "Host": "ussfo.looooooongnet.lol"
+            "Host": ""
           }
         },
         "httpSettings": null,
