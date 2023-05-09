@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.ircf.space",
+            "address": "154.84.1.46",
             "port": 443,
             "users": [
               {
-                "id": "a6e6b3e0-b8a7-4123-8ab4-573a9241a259",
-                "alterId": 0,
+                "id": "bd249e37-7359-41ee-84a7-09e49e0ec5c4",
+                "alterId": 64,
                 "email": "",
-                "security": "chacha20-poly1305",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "hasan.foriran.nl"
+          "serverName": "www.47523375.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/UcM6L7nnEW8E0h3Y",
+          "path": "/path/1683543024453",
           "headers": {
-            "Host": "hasan.foriran.nl"
+            "Host": "www.47523375.xyz"
           }
         },
         "httpSettings": null,
