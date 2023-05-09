@@ -6,14 +6,16 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr         | cn            | cc   | isp               | ip                    | chatgpt          |
-|---:|:-------------------|:-------------|:--------------|:-----|:------------------|:----------------------|:-----------------|
-|  0 | [6](config/6.json) | 8.219.216.27 |               |      |                   | 2a01:4f8:c010:7495::1 | Yes (Region: DE) |
-|  1 | [8](config/8.json) | 142.4.99.82  | United States | US   | AS-GLOBALTELEHOST | 169.197.141.187       | Yes (Region: US) |
+|    | id                   | addr                      | cn            | cc   | isp                 | ip                    | chatgpt          |
+|---:|:---------------------|:--------------------------|:--------------|:-----|:--------------------|:----------------------|:-----------------|
+|  0 | [8](config/8.json)   | jp04-vm0.entry.srthdw.art | United States | US   | AS-GLOBALTELEHOST   | 169.197.141.187       | Yes (Region: US) |
+|  1 | [10](config/10.json) | 104.18.2.132              | Finland       | FI   | Hetzner Online GmbH | 2a01:4f9:c010:baec::1 | Yes (Region: DE) |
+|  2 | [14](config/14.json) | jp02-vm0.entry.srthdw.art | Japan         | JP   | AMAZON-02           | 43.206.93.222         | Yes (Region: JP) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiOC4yMTkuMjE2LjI3IiwgInYiOiAiMiIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1NGUyZFx1NTZmZFx1OTYzZlx1OTFjY1x1NGU5MSA2IiwgInBvcnQiOiAyMDUyLCAiaWQiOiAiOGVkOWFlYzItZTAyZS00YTI3LWZlMDItYzNlMjA0NTJlNGM3IiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJob3N0IjogImg0Lm1hbWFkY3VjdS5jb20iLCAicGF0aCI6ICIvIiwgInRscyI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTU3MjNcdTRmNTVcdTU4NWVQRUcgVEVDSCA4IiwgImFkZCI6ICIxNDIuNC45OS44MiIsICJwb3J0IjogIjQ0MyIsICJpZCI6ICJiNjVkYTRhZi1hMTJhLTRhNTktOTMxNi00NTQ5ZTEyYmE2MmMiLCAiYWlkIjogIjY0IiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJ3d3cuNzMzMzI0NjMueHl6IiwgInBhdGgiOiAiL3BhdGgvMTY4MzU0MzAyNDQ1MyIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
+vmess://eyJhZGQiOiAianAwNC12bTAuZW50cnkuc3J0aGR3LmFydCIsICJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTY1ZTVcdTY3MmNcdTRlMWNcdTRlYWNcdTkwZmRBbWF6b25cdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgOCIsICJwb3J0IjogNDQ2LCAiaWQiOiAiYjJhMmM3MDYtMTJlMC0zMzM1LThhNjItMzE5MjUyMTlhNzEyIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICIiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIvIiwgInRscyI6ICIifQ==
+vmess://eyJhZGQiOiAiMTA0LjE4LjIuMTMyIiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogImguaDNpby5jbyIsICJpZCI6ICI0MDhlMjY4Ni05ZTBkLTQwMTQtODQxZS03Y2E1ZGE1NWEyMTUiLCAibmV0IjogIndzIiwgInBhdGgiOiAiaG8zaW5vIiwgInBvcnQiOiAiMjA5NiIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTUxNmNcdTUzZjhDRE5cdTgyODJcdTcwYjkgMTAiLCAic2N5IjogImF1dG8iLCAic25pIjogImguaDNpby5jbyIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
+vmess://eyJhZGQiOiAianAwMi12bTAuZW50cnkuc3J0aGR3LmFydCIsICJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTY1ZTVcdTY3MmMgIDE0IiwgInBvcnQiOiA0NDQsICJpZCI6ICIyMWM2NzBmZi1jNzM5LTMwNzItOTI4Ni03ZDJhMWQzMDBmY2IiLCAiYWlkIjogIjEiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
 ```
 

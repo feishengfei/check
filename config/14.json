@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10914,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.219.216.27",
-            "port": 2052,
+            "address": "jp02-vm0.entry.srthdw.art",
+            "port": 444,
             "users": [
               {
-                "id": "8ed9aec2-e02e-4a27-fe02-c3e20452e4c7",
-                "alterId": 0,
+                "id": "21c670ff-c739-3072-9286-7d2a1d300fcb",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "h4.mamadcucu.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

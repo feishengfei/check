@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10905,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zendesk1.grab.com",
-            "port": 2082,
+            "address": "104.18.2.132",
+            "port": 2096,
             "users": [
               {
-                "id": "1c20ff57-7da2-4665-971e-5b73cf96b362",
+                "id": "408e2686-9e0d-4014-841e-7ca5da55a215",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "h.h3io.co"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "ho3ino",
           "headers": {
-            "Host": "sg1.createxray.me"
+            "Host": "h.h3io.co"
           }
         },
         "httpSettings": null,
