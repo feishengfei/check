@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ra.679888.xyz",
-            "port": 443,
+            "address": "104.18.22.26",
+            "port": 8080,
             "users": [
               {
-                "id": "98c731fc-3ced-4537-bb55-ec27f531a4b6",
+                "id": "8d82dd46-5060-42dc-af77-a4309d6245d3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cef3646850fee/",
+          "path": "/Oo50CmrD/",
           "headers": {
-            "Host": ""
+            "Host": "sasksus.shop"
           }
         },
         "httpSettings": null,

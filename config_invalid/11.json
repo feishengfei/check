@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.206.157.32",
+            "address": "mcix.cpionline.co",
             "port": 443,
             "users": [
               {
-                "id": "168b4363-92b4-4994-a4e8-9e4f5015b48c",
+                "id": "a6e6b3e0-b8a7-4123-8ab4-573a9241a259",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "matal.foriran.nl"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/52566/",
+          "path": "/UcM6L7nnEW8E0h3Y",
           "headers": {
-            "Host": ""
+            "Host": "matal.foriran.nl"
           }
         },
         "httpSettings": null,

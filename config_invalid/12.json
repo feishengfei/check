@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "sing2.tltvpn.xyz",
-            "port": 80,
+            "address": "jp01-alt-vm0.entry.srthdw.art",
+            "port": 21583,
             "users": [
               {
-                "id": "022e3c2a-f4bf-423e-8c05-7f26fff93674",
-                "alterId": 0,
+                "id": "22acc467-7440-386a-927a-d84be554b37e",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "dl.kgvn.garenanow.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
