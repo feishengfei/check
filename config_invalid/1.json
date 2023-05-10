@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "armus.114514782.xyz",
-            "port": 2052,
+            "address": "kr07.wxfz.gq",
+            "port": 443,
             "users": [
               {
-                "id": "2f6109ba-0268-36f6-9338-62fe00ec6fbf",
+                "id": "95b2d587-b23c-49aa-da6a-9ccdb82b5675",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "kr07.wxfz.gq"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/miao",
+          "path": "/cctv13.m3u8?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "kr07.wxfz.gq"
           }
         },
         "httpSettings": null,

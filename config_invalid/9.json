@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.128.250",
-            "port": 443,
+            "address": "104.18.22.26",
+            "port": 8080,
             "users": [
               {
-                "id": "7a37ba6e-3d7c-4bfd-dd08-8e5d5f5a4240",
+                "id": "8d82dd46-5060-42dc-af77-a4309d6245d3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "v2.lrios.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/Oo50CmrD/",
           "headers": {
-            "Host": "v2.lrios.tk"
+            "Host": "sasksus.shop"
           }
         },
         "httpSettings": null,

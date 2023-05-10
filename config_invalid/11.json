@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "mcix.cpionline.co",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "a6e6b3e0-b8a7-4123-8ab4-573a9241a259",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
-                "security": "chacha20-poly1305",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "matal.foriran.nl"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/UcM6L7nnEW8E0h3Y",
+          "path": "/shirker",
           "headers": {
-            "Host": "matal.foriran.nl"
+            "Host": "nl.sharecentrepro.com"
           }
         },
         "httpSettings": null,
