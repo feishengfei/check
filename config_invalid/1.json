@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kr07.wxfz.gq",
-            "port": 443,
+            "address": "192.203.230.86",
+            "port": 80,
             "users": [
               {
-                "id": "95b2d587-b23c-49aa-da6a-9ccdb82b5675",
+                "id": "a442dacf-cbb3-488a-9744-61494ea38630",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "kr07.wxfz.gq"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13.m3u8?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "kr07.wxfz.gq"
+            "Host": "us-1.acyun.cf"
           }
         },
         "httpSettings": null,
