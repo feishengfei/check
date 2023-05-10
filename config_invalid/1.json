@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kr-2.vuex.eu.org",
-            "port": 9898,
+            "address": "172.67.128.250",
+            "port": 443,
             "users": [
               {
-                "id": "bbc14007-f3b8-437e-ab4c-2cccf13ce648",
+                "id": "7a37ba6e-3d7c-4bfd-dd08-8e5d5f5a4240",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v2.lrios.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "kr-2.vuex.eu.org"
+            "Host": "v2.lrios.tk"
           }
         },
         "httpSettings": null,

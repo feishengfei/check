@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aparat.persianmizban.com",
-            "port": 4433,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "88790a1b-f059-40c7-9c9d-b7c943b4420b",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/yxzbp",
+          "headers": {
+            "Host": "dp1.yxjnode.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
