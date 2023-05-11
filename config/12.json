@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10912,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.162.196.40",
+            "address": "vde1.0bad.com",
             "port": 443,
             "users": [
               {
-                "id": "e883ff76-3bb4-4008-c068-6b5b1d960ea7",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "uyaa.vtcss.top"
+          "serverName": "vde1.0bad.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer08",
+          "path": "/chat",
           "headers": {
-            "Host": "uyaa.vtcss.top"
+            "Host": "vde1.0bad.com"
           }
         },
         "httpSettings": null,

@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "mcix.cpionline.co",
+            "port": 443,
             "users": [
               {
-                "id": "373f2d71-79ca-47a4-974f-79b2590e8c60",
+                "id": "a6e6b3e0-b8a7-4123-8ab4-573a9241a259",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "matal.foriran.nl"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/UcM6L7nnEW8E0h3Y",
           "headers": {
-            "Host": "ssrsub.v03.ssrsub.com"
+            "Host": "matal.foriran.nl"
           }
         },
         "httpSettings": null,
