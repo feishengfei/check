@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.162.196.40",
-            "port": 443,
+            "address": "85.159.213.200",
+            "port": 2082,
             "users": [
               {
-                "id": "e883ff76-3bb4-4008-c068-6b5b1d960ea7",
+                "id": "ec5df823-49a1-4eec-b8a3-10a19d565e3a",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "aes-128-gcm",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "uyaa.vtcss.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer08",
+          "path": "/ws",
           "headers": {
-            "Host": "uyaa.vtcss.top"
+            "Host": "uplod.ir"
           }
         },
         "httpSettings": null,
