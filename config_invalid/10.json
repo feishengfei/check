@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.bamarambash.monster",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/db698b16-d216-11ed-8e14-5ad705867cff",
+          "path": "/shirker",
           "headers": {
-            "Host": "db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com"
+            "Host": "lv1.sharecentrepro.org"
           }
         },
         "httpSettings": null,

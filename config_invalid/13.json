@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.noaries.de",
-            "port": 2082,
+            "address": "cdn.chigua.tk",
+            "port": 443,
             "users": [
               {
-                "id": "314c1387-618c-4689-97fc-4bc9a1ae5e05",
+                "id": "ecbeaa2d-7748-42b1-a603-9d5402d3effe",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hax_eu5.v50.one"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/waugfuiawfwafgvhwoa",
           "headers": {
-            "Host": "ir2.nmsl.ninja"
+            "Host": "hax_eu5.v50.one"
           }
         },
         "httpSettings": null,
