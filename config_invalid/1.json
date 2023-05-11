@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk80-2.8b750e3e20aa.sanfen004.me",
-            "port": 80,
+            "address": "43.154.122.126",
+            "port": 48122,
             "users": [
               {
-                "id": "f17ae953-bb51-4932-a139-66c37122f45e",
-                "alterId": 0,
+                "id": "82adc998-88ab-4c87-8b86-5bc39e80f5b2",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn/",
+          "path": "/hk1/getData",
           "headers": {
-            "Host": "hk80-2.8b750e3e20aa.sanfen004.me"
+            "Host": ""
           }
         },
         "httpSettings": null,
