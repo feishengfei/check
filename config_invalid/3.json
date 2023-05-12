@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "azhk.untilmu.com",
-            "port": 16627,
+            "address": "18.163.118.178",
+            "port": 80,
             "users": [
               {
-                "id": "c3afd387-7a94-474d-93a8-736f4b6a473d",
+                "id": "f321c7d0-536b-4cc2-8232-1eabe8c67d6f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "azhk.untilmu.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/azhk",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "azhk.untilmu.com"
+            "Host": "api.pr.weixin.qq.com"
           }
         },
         "httpSettings": null,
