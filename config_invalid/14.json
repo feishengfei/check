@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vuk2.0bad.com",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "373f2d71-79ca-47a4-974f-79b2590e8c60",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "vuk2.0bad.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "vuk2.0bad.com"
+            "Host": "ssrsub.v03.ssrsub.com"
           }
         },
         "httpSettings": null,

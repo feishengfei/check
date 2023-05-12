@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.203.230.6",
-            "port": 443,
+            "address": "162.159.58.14",
+            "port": 80,
             "users": [
               {
-                "id": "a875b3de-131d-4425-f0bf-b56e30d5b571",
+                "id": "17b2a313-37a0-4945-a8e4-e63375506b4a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "eu3.glucy.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/123",
+          "path": "/",
           "headers": {
-            "Host": "eu3.glucy.top"
+            "Host": "lg.v2ray20.xyz"
           }
         },
         "httpSettings": null,
