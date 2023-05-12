@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.154.76.92",
-            "port": 54498,
+            "address": "us8.iggfastweb.com",
+            "port": 23650,
             "users": [
               {
-                "id": "784272d2-bd2d-438a-bbd4-1271bb1f1b0d",
-                "alterId": 64,
+                "id": "f9b2c2e6-8edc-4852-9b92-8558194b8950",
+                "alterId": 2,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hk15/getData",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "us8.iggfastweb.com"
           }
         },
         "httpSettings": null,

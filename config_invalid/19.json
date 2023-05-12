@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "143.42.197.20",
-            "port": 2095,
+            "address": "108.162.196.40",
+            "port": 443,
             "users": [
               {
-                "id": "c2cd4c30-eb94-4360-8d96-9ddf924f2b0d",
+                "id": "e883ff76-3bb4-4008-c068-6b5b1d960ea7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "uyaa.vtcss.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/qwer08",
           "headers": {
-            "Host": "bmi.ir"
+            "Host": "uyaa.vtcss.top"
           }
         },
         "httpSettings": null,
