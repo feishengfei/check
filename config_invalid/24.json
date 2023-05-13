@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zendesk1.grab.com",
-            "port": 2082,
+            "address": "mcix.ipcf.cloud",
+            "port": 443,
             "users": [
               {
-                "id": "1c20ff57-7da2-4665-971e-5b73cf96b362",
+                "id": "CBDB1902-6B9B-4872-B20C-E94A3BD2F63D",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/speedtest",
           "headers": {
-            "Host": "sg1.createxray.me"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,

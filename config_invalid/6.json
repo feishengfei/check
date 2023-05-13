@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp04-vm0.entry.srthdw.art",
-            "port": 446,
+            "address": "jp22.hneko.online",
+            "port": 54447,
             "users": [
               {
-                "id": "22acc467-7440-386a-927a-d84be554b37e",
+                "id": "541f4717-981f-46de-b40b-d338bed573d2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/cctv13/hd.m3u8",
+          "headers": {
+            "Host": "jp22.hneko.online"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.211.7.98",
-            "port": 443,
+            "address": "jp01-alt-vm0.entry.srthdw.art",
+            "port": 21583,
             "users": [
               {
-                "id": "63a5a595-054e-41e2-d878-d77a684336a9",
-                "alterId": 0,
+                "id": "22acc467-7440-386a-927a-d84be554b37e",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "wo_fr2.739256.xyz"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/cloudflare",
-          "headers": {
-            "Host": "wo_fr2.739256.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
