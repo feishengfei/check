@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "au2-vmess.greenssh.xyz",
-            "port": 80,
+            "address": "cf6.biger.club",
+            "port": 2087,
             "users": [
               {
-                "id": "bf86a617-e0c2-4f7f-8a3a-12364d2a4df9",
+                "id": "1c31cafa-d514-4c95-836f-bf07773b7cf2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us2.biger.club"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "au2-vmess.greenssh.xyz"
+            "Host": "us2.biger.club"
           }
         },
         "httpSettings": null,

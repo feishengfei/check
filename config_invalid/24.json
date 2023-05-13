@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray3.webgfw.top",
-            "port": 2083,
+            "address": "zendesk1.grab.com",
+            "port": 2082,
             "users": [
               {
-                "id": "4cc72565-0d05-41e6-bc34-72aba9da544f",
+                "id": "1c20ff57-7da2-4665-971e-5b73cf96b362",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/X9piqfat/",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "sg1.createxray.me"
           }
         },
         "httpSettings": null,

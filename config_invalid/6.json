@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "pl1-vmess.greenssh.xyz",
+            "address": "ca1-vmess.greenssh.xyz",
             "port": 80,
             "users": [
               {
-                "id": "2b3ec40f-1dfc-4893-b739-c94e2fe46015",
+                "id": "2557e01c-dbcc-4d34-a259-11ae69f5f041",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,7 +61,7 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
             "Host": ""
           }

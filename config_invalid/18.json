@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.85.118.165",
-            "port": 443,
+            "address": "pl1-vmess.greenssh.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "CBDB1902-6B9B-4872-B20C-E94A3BD2F63D",
+                "id": "2b3ec40f-1dfc-4893-b739-c94e2fe46015",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/",
           "headers": {
-            "Host": "Dusseldorf.kotick.site"
+            "Host": ""
           }
         },
         "httpSettings": null,
