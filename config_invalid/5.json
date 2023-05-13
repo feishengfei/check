@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gw.hneko.online",
-            "port": 54433,
+            "address": "43.206.157.32",
+            "port": 443,
             "users": [
               {
-                "id": "d7961109-e9f0-4035-8842-166ae4b85916",
+                "id": "168b4363-92b4-4994-a4e8-9e4f5015b48c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13/hd.m3u8",
+          "path": "/52566/",
           "headers": {
-            "Host": "gw.hneko.online"
+            "Host": ""
           }
         },
         "httpSettings": null,

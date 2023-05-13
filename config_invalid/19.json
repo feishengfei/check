@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.162.196.40",
-            "port": 443,
+            "address": "au2-vmess.greenssh.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "e883ff76-3bb4-4008-c068-6b5b1d960ea7",
+                "id": "bf86a617-e0c2-4f7f-8a3a-12364d2a4df9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "uyaa.vtcss.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer08",
+          "path": "/vmess",
           "headers": {
-            "Host": "uyaa.vtcss.top"
+            "Host": "au2-vmess.greenssh.xyz"
           }
         },
         "httpSettings": null,
