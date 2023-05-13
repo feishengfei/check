@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ca1-vmess.greenssh.xyz",
-            "port": 80,
+            "address": "jp04-vm0.entry.srthdw.art",
+            "port": 446,
             "users": [
               {
-                "id": "2557e01c-dbcc-4d34-a259-11ae69f5f041",
+                "id": "22acc467-7440-386a-927a-d84be554b37e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vmess",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

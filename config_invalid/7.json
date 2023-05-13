@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf3.biger.club",
-            "port": 2087,
+            "address": "202.81.231.150",
+            "port": 80,
             "users": [
               {
-                "id": "dd5b070f-61be-4452-901d-375494fe8714",
+                "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cr3.biger.club"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "cr3.biger.club"
+            "Host": "idnusanet.vpnexecutive.my.id"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yvsos.vtcss.top",
-            "port": 80,
+            "address": "8.211.7.98",
+            "port": 443,
             "users": [
               {
-                "id": "bf663a96-d2ee-4c67-e2db-759faf345ffe",
+                "id": "63a5a595-054e-41e2-d878-d77a684336a9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "wo_fr2.739256.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer09",
+          "path": "/cloudflare",
           "headers": {
-            "Host": "yvsos.vtcss.top"
+            "Host": "wo_fr2.739256.xyz"
           }
         },
         "httpSettings": null,
