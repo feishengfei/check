@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp22.hneko.online",
-            "port": 54447,
+            "address": "172.67.156.138",
+            "port": 443,
             "users": [
               {
-                "id": "541f4717-981f-46de-b40b-d338bed573d2",
+                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Kansas.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13/hd.m3u8",
+          "path": "/speedtest",
           "headers": {
-            "Host": "jp22.hneko.online"
+            "Host": "Kansas.kotick.site"
           }
         },
         "httpSettings": null,
