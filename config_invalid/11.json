@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mcix.ipcf.cloud",
-            "port": 443,
+            "address": "202.81.231.150",
+            "port": 80,
             "users": [
               {
-                "id": "CBDB1902-6B9B-4872-B20C-E94A3BD2F63D",
+                "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/",
           "headers": {
-            "Host": "Dusseldorf.kotick.site"
+            "Host": "idnusanet.vpnexecutive.my.id"
           }
         },
         "httpSettings": null,

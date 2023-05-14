@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray2.ibgfw.top",
-            "port": 2083,
+            "address": "hopev2ray2.ddns.net",
+            "port": 443,
             "users": [
               {
-                "id": "c05fd079-7a3a-4779-816f-30fe65713e16",
+                "id": "888a06c0-ef62-11ed-b439-205c6d5f5d78",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "nl-2.0rd.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/378wmUMF/",
+          "path": "/@hopev2ray",
           "headers": {
-            "Host": ""
+            "Host": "nl-2.0rd.net"
           }
         },
         "httpSettings": null,
