@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray2.ibgfw.top",
-            "port": 2083,
+            "address": "195.123.243.21",
+            "port": 10000,
             "users": [
               {
-                "id": "3fb8e8a4-f2eb-4726-9f94-828167ca988f",
+                "id": "1a7c30aa-f185-11ed-aa5c-52ac0064f50a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/378wmUMF/",
+          "path": "/vpnjantit",
           "headers": {
             "Host": ""
           }

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "new8.huvicloud.com",
-            "port": 443,
+            "address": "jp06-vm0.entry.jpojpoh.art",
+            "port": 28787,
             "users": [
               {
-                "id": "a11ca760-9ef9-4a63-95c9-4c5c32d56251",
-                "alterId": 0,
+                "id": "1bc52308-0bd9-30d0-90fd-cef337875d10",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "new8.huvicloud.com"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "new8.huvicloud.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
