@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.219.2",
-            "port": 443,
+            "address": "cdncf.scyu.app",
+            "port": 8080,
             "users": [
               {
-                "id": "2e6e9c6e-6c41-4d8f-b06e-e52b27220ff9",
+                "id": "d1fca18b-00ce-4024-8cc8-4b49a4dd5e52",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "yvsos.vtcss.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer09",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "yvsos.vtcss.top"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,

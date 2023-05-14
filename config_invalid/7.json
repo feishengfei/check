@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn.sanfencdn.net",
-            "port": 443,
+            "address": "hkt2.amazonwebservicess.com",
+            "port": 80,
             "users": [
               {
-                "id": "dd8314cc-3754-416d-9456-0991f2e74753",
+                "id": "4aeda200-44c9-4168-8f2a-a00a72176d35",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us2.sanfencdn.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
           "headers": {
-            "Host": "us2.sanfencdn.net"
+            "Host": "tlu.dl.delivery.mp.microsoft.com"
           }
         },
         "httpSettings": null,
