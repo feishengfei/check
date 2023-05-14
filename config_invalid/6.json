@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf1.biger.top",
-            "port": 2087,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "a0142720-5702-4a4c-8134-1f57bf74adf3",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us.biger.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "us.biger.top"
+            "Host": "dp1.yxjnode.com"
           }
         },
         "httpSettings": null,

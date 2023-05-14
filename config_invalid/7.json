@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zfc.windowsupdate1.com",
-            "port": 443,
+            "address": "202.81.231.150",
+            "port": 80,
             "users": [
               {
-                "id": "525d29c2-4c39-477f-a526-2da92861cdff",
+                "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us1.guolicheng.cyou"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/guolicheng/us1?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "us1.guolicheng.cyou"
+            "Host": "idnusanet.vpnexecutive.my.id"
           }
         },
         "httpSettings": null,
