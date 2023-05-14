@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hkt2.amazonwebservicess.com",
-            "port": 80,
+            "address": "cf3.biger.club",
+            "port": 2087,
             "users": [
               {
-                "id": "4aeda200-44c9-4168-8f2a-a00a72176d35",
+                "id": "a51a18e0-caa5-4e73-96cd-502fc0f67847",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cr3.biger.club"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+          "path": "/",
           "headers": {
-            "Host": "tlu.dl.delivery.mp.microsoft.com"
+            "Host": "cr3.biger.club"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "new8.huvicloud.com",
-            "port": 443,
+            "address": "v2ray2.ibgfw.top",
+            "port": 2083,
             "users": [
               {
-                "id": "a11ca760-9ef9-4a63-95c9-4c5c32d56251",
+                "id": "3fb8e8a4-f2eb-4726-9f94-828167ca988f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "new8.huvicloud.com"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/378wmUMF/",
           "headers": {
-            "Host": "new8.huvicloud.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
