@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hkt2.amazonwebservicess.com",
-            "port": 80,
+            "address": "172.67.219.2",
+            "port": 443,
             "users": [
               {
-                "id": "4aeda200-44c9-4168-8f2a-a00a72176d35",
+                "id": "2e6e9c6e-6c41-4d8f-b06e-e52b27220ff9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "yvsos.vtcss.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b",
+          "path": "/qwer09",
           "headers": {
-            "Host": "tlu.dl.delivery.mp.microsoft.com"
+            "Host": "yvsos.vtcss.top"
           }
         },
         "httpSettings": null,

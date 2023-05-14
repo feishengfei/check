@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.162.195.12",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "a1560b52-b580-4aad-b8cd-9cd2ec5264b4",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "1.239000.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmessws",
+          "path": "/shirker",
           "headers": {
-            "Host": "1.239000.xyz"
+            "Host": "uk1.scproxy.top"
           }
         },
         "httpSettings": null,

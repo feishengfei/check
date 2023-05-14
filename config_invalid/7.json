@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf6.biger.club",
-            "port": 2087,
+            "address": "cfcdn.sanfencdn.net",
+            "port": 443,
             "users": [
               {
-                "id": "bbbaa742-bf48-427e-8eaf-2b4fdce4eb38",
+                "id": "dd8314cc-3754-416d-9456-0991f2e74753",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us2.biger.club"
+          "serverName": "us2.sanfencdn.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "us2.biger.club"
+            "Host": "us2.sanfencdn.net"
           }
         },
         "httpSettings": null,
