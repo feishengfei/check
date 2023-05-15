@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp06-vm0.entry.jpojpoh.art",
-            "port": 28787,
+            "address": "23.227.38.99",
+            "port": 443,
             "users": [
               {
-                "id": "1bc52308-0bd9-30d0-90fd-cef337875d10",
-                "alterId": 1,
+                "id": "86d37526-5758-4cec-862f-df404b313086",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "1.freek1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/3G6WPDL7",
+          "headers": {
+            "Host": "1.freek1.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

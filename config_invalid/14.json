@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.203.230.86",
-            "port": 80,
+            "address": "jpwadnca.114514782.xyz",
+            "port": 2096,
             "users": [
               {
-                "id": "a442dacf-cbb3-488a-9744-61494ea38630",
+                "id": "2c9204d5-54bd-4dde-82e0-e9956ce954b5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lswjs.v50.one"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/waugfuigvhwoa",
           "headers": {
-            "Host": "us-1.acyun.cf"
+            "Host": "lswjs.v50.one"
           }
         },
         "httpSettings": null,

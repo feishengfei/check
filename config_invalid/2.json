@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "36.134.16.190",
-            "port": 11023,
+            "address": "asbiasncs.114514782.xyz",
+            "port": 8443,
             "users": [
               {
-                "id": "8c042a38-71c1-1dcb-00df-54880236e0dc",
+                "id": "2c9204d5-54bd-4dde-82e0-e9956ce954b5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "usasb.v50.one"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/waugfuigvhwoa",
+          "headers": {
+            "Host": "usasb.v50.one"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
