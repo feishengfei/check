@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-best.tiktokcloud.top",
-            "port": 8080,
+            "address": "185.18.250.217",
+            "port": 443,
             "users": [
               {
-                "id": "d0ca7a73-1c01-4655-817d-0b64e511bd0e",
+                "id": "C5E2E4E0-92C7-4531-AF46-7173D648B600",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jntm=2048",
+          "path": "/speedtest",
           "headers": {
-            "Host": "us-ut.91ip.xyz"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,

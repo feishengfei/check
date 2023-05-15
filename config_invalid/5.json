@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.85.119.105",
-            "port": 443,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "45C7B3CD-E09D-4CA8-96DC-312D7B10B666",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Amsterdam.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "Amsterdam.kotick.site"
+            "Host": "dp3.yxjnode.com"
           }
         },
         "httpSettings": null,
