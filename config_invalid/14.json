@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jpwadnca.114514782.xyz",
-            "port": 2096,
+            "address": "cdncf.scyu.app",
+            "port": 8080,
             "users": [
               {
-                "id": "2c9204d5-54bd-4dde-82e0-e9956ce954b5",
+                "id": "d1fca18b-00ce-4024-8cc8-4b49a4dd5e52",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "lswjs.v50.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/waugfuigvhwoa",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "lswjs.v50.one"
+            "Host": "ssrsub.v02.ssrsub.com"
           }
         },
         "httpSettings": null,
