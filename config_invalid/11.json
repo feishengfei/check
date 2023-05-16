@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "form.tajsub.com",
-            "port": 2086,
+            "address": "185.18.250.217",
+            "port": 443,
             "users": [
               {
-                "id": "93a3fd23-96df-49df-80e9-854fe154bbbf",
+                "id": "C5E2E4E0-92C7-4531-AF46-7173D648B600",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "form.tajsub.com"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,
