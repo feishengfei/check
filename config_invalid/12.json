@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "form.tajsub.com",
-            "port": 2086,
+            "address": "de63.thugiping.cloud",
+            "port": 443,
             "users": [
               {
-                "id": "93a3fd23-96df-49df-80e9-854fe154bbbf",
+                "id": "c9a22360-3f66-48c8-89ab-13799b05a730",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "form.tajsub.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

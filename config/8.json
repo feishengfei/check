@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aaaa.wxx.gay",
+            "address": "23.227.39.1",
             "port": 443,
             "users": [
               {
-                "id": "8ce30a50-f339-11ed-8e15-000017022008",
+                "id": "ef36c4b6-5160-40ad-bb85-bee68b5ec931",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "cadns.mainssh.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/look",
+          "path": "/v2raydns",
           "headers": {
-            "Host": ""
+            "Host": "cadns.mainssh.xyz"
           }
         },
         "httpSettings": null,

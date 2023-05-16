@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tech.noaries.de",
-            "port": 80,
+            "address": "aaaa.wxx.gay",
+            "port": 443,
             "users": [
               {
-                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
+                "id": "8ce30a50-f339-11ed-8e15-000017022008",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/look",
           "headers": {
-            "Host": "nl.sharecentrepro.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
