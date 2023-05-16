@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.203.230.86",
-            "port": 80,
+            "address": "172.64.163.100",
+            "port": 443,
             "users": [
               {
-                "id": "a442dacf-cbb3-488a-9744-61494ea38630",
+                "id": "572c716a-e532-4567-b698-6a513c12d460",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "usdns.mainssh.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/v2raydns",
           "headers": {
-            "Host": "us-1.acyun.cf"
+            "Host": "usdns.mainssh.xyz"
           }
         },
         "httpSettings": null,

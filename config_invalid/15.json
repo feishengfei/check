@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "de63.thugiping.cloud",
+            "address": "141.193.213.31",
             "port": 443,
             "users": [
               {
-                "id": "c9a22360-3f66-48c8-89ab-13799b05a730",
+                "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Lille.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/speedtest",
+          "headers": {
+            "Host": "Lille.kotick.site"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

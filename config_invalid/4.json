@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "36.134.16.190",
-            "port": 11023,
+            "address": "bozbozghandi.foriran.nl",
+            "port": 80,
             "users": [
               {
-                "id": "8c042a38-71c1-1dcb-00df-54880236e0dc",
+                "id": "8357816b-68e4-4a2b-830c-e9bdd369ea22",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/7ouWwj1jH2IbuOfQj2chg",
+          "headers": {
+            "Host": "bozbozghandi.foriran.nl"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
