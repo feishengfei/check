@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "de63.thugiping.cloud",
-            "port": 443,
+            "address": "112.118.195.16",
+            "port": 80,
             "users": [
               {
-                "id": "c9a22360-3f66-48c8-89ab-13799b05a730",
+                "id": "b2947942-701b-4de2-91cd-f6810d5d03bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "sg2.freeiq.cf"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
