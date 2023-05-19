@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.154.122.126",
-            "port": 48122,
+            "address": "jp80.6d83777c049a.sanfen004.me",
+            "port": 80,
             "users": [
               {
-                "id": "82adc998-88ab-4c87-8b86-5bc39e80f5b2",
-                "alterId": 64,
+                "id": "951a393a-b557-4590-88b6-30948e1e0b8d",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hk1/getData",
+          "path": "/zh-cn",
           "headers": {
-            "Host": ""
+            "Host": "www.baidu.com"
           }
         },
         "httpSettings": null,
