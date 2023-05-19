@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.21.81",
-            "port": 443,
+            "address": "tech.noaries.de",
+            "port": 80,
             "users": [
               {
-                "id": "3E271C5F-28FF-4704-B8E5-CC2B39AB7F60",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/shirker",
           "headers": {
-            "Host": "Dusseldorf.kotick.site"
+            "Host": "nl.sharecentrepro.com"
           }
         },
         "httpSettings": null,

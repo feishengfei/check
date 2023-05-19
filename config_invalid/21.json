@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp04-vm0.entry.srthdw.art",
-            "port": 446,
+            "address": "sg1.createxray.me",
+            "port": 443,
             "users": [
               {
-                "id": "22acc467-7440-386a-927a-d84be554b37e",
+                "id": "f8e9407e-5700-477d-857d-8257ea418c4b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sg1.createxray.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "sg1.createxray.me"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
