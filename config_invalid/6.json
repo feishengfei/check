@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 2087,
+            "address": "108.165.216.227",
+            "port": 443,
             "users": [
               {
-                "id": "d61e2d0e-09a4-4b6a-9efe-c4cfebf2148c",
+                "id": "DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "one.nikannetwork.xyz"
+          "serverName": "Kansas.kotick.site"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "one.nikannetwork.xyz"
+            "Host": "Kansas.kotick.site"
           }
         },
         "httpSettings": null,
