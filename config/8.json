@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10913,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.31",
-            "port": 443,
+            "address": "104.18.1.74",
+            "port": 2096,
             "users": [
               {
-                "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+                "id": "408e2686-9e0d-4014-841e-7ca5da55a215",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Lille.kotick.site"
+          "serverName": "h.h3io.co"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "ho3ino",
           "headers": {
-            "Host": "Lille.kotick.site"
+            "Host": "h.h3io.co"
           }
         },
         "httpSettings": null,

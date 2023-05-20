@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp06-vm0.entry.jpojpoh.art",
-            "port": 28785,
+            "address": "92.38.159.4",
+            "port": 80,
             "users": [
               {
-                "id": "22acc467-7440-386a-927a-d84be554b37e",
-                "alterId": 1,
+                "id": "cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/qazxcv518",
+          "headers": {
+            "Host": "tou.wang66.homes"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
