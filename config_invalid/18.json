@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kontakt.az",
-            "port": 443,
+            "address": "www.speedtest.net",
+            "port": 2087,
             "users": [
               {
-                "id": "DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3",
+                "id": "d61e2d0e-09a4-4b6a-9efe-c4cfebf2148c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Amsterdam.kotick.site"
+          "serverName": "one.nikannetwork.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/",
           "headers": {
-            "Host": "Amsterdam.kotick.site"
+            "Host": "one.nikannetwork.xyz"
           }
         },
         "httpSettings": null,
