@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
-            "port": 443,
+            "address": "tou.vtcss.top",
+            "port": 80,
             "users": [
               {
-                "id": "9aa6b5ad-c0fc-47f4-a837-f72179d7b662",
+                "id": "cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "channel2.unlimiteddev.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Lsv4s7nS0ErewnEN",
+          "path": "/qazxcv518",
           "headers": {
-            "Host": "channel2.unlimiteddev.tk"
+            "Host": ""
           }
         },
         "httpSettings": null,
