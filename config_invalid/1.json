@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.47.97.26",
-            "port": 42756,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "2d01a4b7-a0d6-4bf3-ad2e-0ecc8175836a",
-                "alterId": 64,
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jp1.nb123.info"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jp1/getData",
+          "path": "/shirker",
           "headers": {
-            "Host": "jp1.nb123.info"
+            "Host": "ca.ilovescp.com"
           }
         },
         "httpSettings": null,

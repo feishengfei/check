@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.1.74",
-            "port": 2096,
+            "address": "cf.noaries.de",
+            "port": 2052,
             "users": [
               {
-                "id": "408e2686-9e0d-4014-841e-7ca5da55a215",
+                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "h.h3io.co"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "ho3ino",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "h.h3io.co"
+            "Host": "azstu-it.iiio.wiki"
           }
         },
         "httpSettings": null,
