@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "9aa6b5ad-c0fc-47f4-a837-f72179d7b662",
+                "id": "f809b651-3924-4a80-abde-6c8536fbb229",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "channel2.unlimiteddev.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Lsv4s7nS0ErewnEN",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "channel2.unlimiteddev.tk"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,

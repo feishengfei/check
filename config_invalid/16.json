@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "95.179.252.143",
-            "port": 443,
+            "address": "cdncf.scyu.app",
+            "port": 80,
             "users": [
               {
-                "id": "59F5150D-9CFB-4780-8F22-EC2C9932EE39",
+                "id": "f809b651-3924-4a80-abde-6c8536fbb229",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Amsterdam.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "Amsterdam.kotick.site"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
