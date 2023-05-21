@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp05-vm0.entry.srthdw.art",
-            "port": 30593,
+            "address": "kontakt.az",
+            "port": 443,
             "users": [
               {
-                "id": "1bc52308-0bd9-30d0-90fd-cef337875d10",
-                "alterId": 1,
+                "id": "DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Amsterdam.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/speedtest",
+          "headers": {
+            "Host": "Amsterdam.kotick.site"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

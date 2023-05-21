@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 2087,
+            "address": "cfcdn.sanfencdn.net",
+            "port": 443,
             "users": [
               {
-                "id": "d61e2d0e-09a4-4b6a-9efe-c4cfebf2148c",
+                "id": "dd8314cc-3754-416d-9456-0991f2e74753",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "one.nikannetwork.xyz"
+          "serverName": "us2.sanfencdn.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "one.nikannetwork.xyz"
+            "Host": "us2.sanfencdn.net"
           }
         },
         "httpSettings": null,

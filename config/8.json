@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.chigua.tk",
-            "port": 80,
+            "address": "mg.txy.a.node1.jijio.stream",
+            "port": 38999,
             "users": [
               {
-                "id": "01925169-e2ff-483c-89f2-6e778dcdd450",
+                "id": "adc570f1-d591-4a5a-93f0-0013bba3f116",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mg.txy.a.node1.jijio.stream"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/wesad",
           "headers": {
-            "Host": "us-1.acyun.cf"
+            "Host": "mg.txy.a.node1.jijio.stream"
           }
         },
         "httpSettings": null,
