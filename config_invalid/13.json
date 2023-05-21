@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn.sanfencdn.net",
+            "address": "cdn.twitter.now.cc",
             "port": 443,
             "users": [
               {
-                "id": "dd8314cc-3754-416d-9456-0991f2e74753",
+                "id": "87283fe7-08e5-403b-a0aa-add7cd68a23e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us2.sanfencdn.net"
+          "serverName": "lo.twittei.me"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/ikun",
           "headers": {
-            "Host": "us2.sanfencdn.net"
+            "Host": "lo.twittei.me"
           }
         },
         "httpSettings": null,

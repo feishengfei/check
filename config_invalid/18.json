@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.yxjnode.com",
-            "port": 80,
+            "address": "170.114.45.224",
+            "port": 443,
             "users": [
               {
-                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
+                "id": "DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Kansas.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/yxzbp",
+          "path": "/speedtest",
           "headers": {
-            "Host": "dp4.yxjnode.com"
+            "Host": "Kansas.kotick.site"
           }
         },
         "httpSettings": null,

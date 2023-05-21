@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.noaries.de",
-            "port": 2052,
+            "address": "zfc.windowsupdate1.com",
+            "port": 443,
             "users": [
               {
-                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
+                "id": "DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Lille.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries?ed=2048",
+          "path": "/speedtest",
           "headers": {
-            "Host": "azstu-it.iiio.wiki"
+            "Host": "Lille.kotick.site"
           }
         },
         "httpSettings": null,

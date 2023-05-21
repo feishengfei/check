@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10905,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.yxjnode.com",
-            "port": 80,
+            "address": "104.21.29.207",
+            "port": 2096,
             "users": [
               {
-                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
+                "id": "408e2686-9e0d-4014-841e-7ca5da55a215",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "h.h3io.co"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/yxzbp",
+          "path": "ho3ino",
           "headers": {
-            "Host": "dp4.yxjnode.com"
+            "Host": "h.h3io.co"
           }
         },
         "httpSettings": null,

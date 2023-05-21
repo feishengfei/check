@@ -6,12 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr         | cn    | cc   | isp           | ip            | chatgpt          |
-|---:|:-------------------|:-------------|:------|:-----|:--------------|:--------------|:-----------------|
-|  0 | [8](config/8.json) | 45.85.119.44 | Italy | IT   | CLOUDFLARENET | 104.28.209.69 | Yes (Region: IT) |
+|    | id                 | addr          | cn    | cc   | isp           | ip                        | chatgpt          |
+|---:|:-------------------|:--------------|:------|:-----|:--------------|:--------------------------|:-----------------|
+|  0 | [6](config/6.json) | 104.21.29.207 |       |      |               | 2a01:4f9:c010:baec::1     | Yes (Region: DE) |
+|  1 | [8](config/8.json) | cdn.chigua.tk | Italy | IT   | CLOUDFLARENET | 2a09:bac5:422a:187::27:84 | Yes (Region: IT) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTZiMjdcdTc2ZGYgIDgiLCAiYWRkIjogIjQ1Ljg1LjExOS40NCIsICJwb3J0IjogIjQ0MyIsICJpZCI6ICIzRTI3MUM1Ri0yOEZGLTQ3MDQtQjhFNS1DQzJCMzlBQjdGNjAiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIkthbnNhcy5rb3RpY2suc2l0ZSIsICJwYXRoIjogIi9zcGVlZHRlc3QiLCAidGxzIjogInRscyIsICJzbmkiOiAiS2Fuc2FzLmtvdGljay5zaXRlIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDYiLCAiYWRkIjogIjEwNC4yMS4yOS4yMDciLCAicG9ydCI6ICIyMDk2IiwgImlkIjogIjQwOGUyNjg2LTllMGQtNDAxNC04NDFlLTdjYTVkYTU1YTIxNSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiaC5oM2lvLmNvIiwgInBhdGgiOiAiaG8zaW5vIiwgInRscyI6ICJ0bHMiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTk2M2ZcdTkxY2NcdTRlOTEgOCIsICJhZGQiOiAiY2RuLmNoaWd1YS50ayIsICJwb3J0IjogIjgwIiwgImlkIjogIjAxOTI1MTY5LWUyZmYtNDgzYy04OWYyLTZlNzc4ZGNkZDQ1MCIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAidXMtMS5hY3l1bi5jZiIsICJwYXRoIjogIi8iLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
 ```
 
