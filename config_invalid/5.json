@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.yxjnode.com",
-            "port": 80,
+            "address": "188.114.97.7",
+            "port": 443,
             "users": [
               {
-                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
+                "id": "9aa6b5ad-c0fc-47f4-a837-f72179d7b662",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "channel2.unlimiteddev.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/yxzbp",
+          "path": "/Lsv4s7nS0ErewnEN",
           "headers": {
-            "Host": "dp4.yxjnode.com"
+            "Host": "channel2.unlimiteddev.tk"
           }
         },
         "httpSettings": null,
