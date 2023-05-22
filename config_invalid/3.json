@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.123.240.135",
-            "port": 10000,
+            "address": "CHT.MIFJUN.ORG",
+            "port": 80,
             "users": [
               {
-                "id": "664e81e6-f75b-11ed-8126-17d848021134",
+                "id": "c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vpnjantit",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
