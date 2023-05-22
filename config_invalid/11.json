@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bp.nidaye.eu.org",
+            "address": "us1.01dj.sbs",
             "port": 443,
             "users": [
               {
-                "id": "c77d02e9-5738-46ac-9512-7b67746cad85",
+                "id": "95b2dc83-a476-4a82-93b2-0d77b4c30c18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "bp.nidaye.eu.org"
+          "serverName": "us1.01dj.sbs"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ndy58850",
+          "path": "/sometimesnaive",
           "headers": {
-            "Host": "bp.nidaye.eu.org"
+            "Host": "us1.01dj.sbs"
           }
         },
         "httpSettings": null,

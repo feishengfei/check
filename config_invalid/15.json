@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn-xjp4.cqjsl.xyz",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "a5266489-b935-4fb8-8012-5ad4ad41234e",
+                "id": "f809b651-3924-4a80-abde-6c8536fbb229",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdn-xjp4.cqjsl.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "cdn-xjp4.cqjsl.xyz"
+            "Host": "ssrsub.v03.ssrsub.com"
           }
         },
         "httpSettings": null,
