@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10914,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "downloadvip.cfd",
-            "port": 443,
+            "address": "cf.noaries.de",
+            "port": 2052,
             "users": [
               {
-                "id": "a250f5a3-4147-41e7-8b36-a40466bf76f0",
+                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us1.jsjc.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jsjc/us1",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "us1.jsjc.sbs"
+            "Host": "azstu-it.iiio.wiki"
           }
         },
         "httpSettings": null,
