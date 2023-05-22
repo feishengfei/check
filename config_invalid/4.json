@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dm1-154.jike123.xyz",
-            "port": 5003,
+            "address": "jp3.01dj.sbs",
+            "port": 443,
             "users": [
               {
-                "id": "468ca404-3b4d-40bd-9921-44d13832d4da",
+                "id": "95b2dc83-a476-4a82-93b2-0d77b4c30c18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "jp3.01dj.sbs"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/sometimesnaive",
           "headers": {
-            "Host": ""
+            "Host": "jp3.01dj.sbs"
           }
         },
         "httpSettings": null,

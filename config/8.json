@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.twitter.now.cc",
+            "address": "jp4.01dj.sbs",
             "port": 443,
             "users": [
               {
-                "id": "87283fe7-08e5-403b-a0aa-add7cd68a23e",
+                "id": "95b2dc83-a476-4a82-93b2-0d77b4c30c18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "lo.twittei.me"
+          "serverName": "jp4.01dj.sbs"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ikun",
+          "path": "/sometimesnaive",
           "headers": {
-            "Host": "lo.twittei.me"
+            "Host": "jp4.01dj.sbs"
           }
         },
         "httpSettings": null,
