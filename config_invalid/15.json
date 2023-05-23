@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2-ca1.silverdragon.cn",
+            "address": "23.227.60.184",
             "port": 443,
             "users": [
               {
-                "id": "e790e3bf-c553-40ed-b2b6-436afd3f5f5c",
+                "id": "3E271C5F-28FF-4704-B8E5-CC2B39AB7F60",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "v2-ca1.silverdragon.cn"
+          "serverName": "Dusseldorf.kotick.site"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ca/v2wss",
+          "path": "/speedtest",
           "headers": {
-            "Host": "v2-ca1.silverdragon.cn"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,
