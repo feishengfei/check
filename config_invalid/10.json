@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mkh3.blanku.me",
-            "port": 443,
+            "address": "cf.noaries.de",
+            "port": 2052,
             "users": [
               {
-                "id": "245e7c23-0057-47a4-f2f0-07772e3338fa",
+                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "freeservice.blanku.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/wss26268?ed=2048",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "freeservice.blanku.me"
+            "Host": "azstu-it.iiio.wiki"
           }
         },
         "httpSettings": null,

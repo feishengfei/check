@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zfc.windowsupdate1.com",
-            "port": 443,
+            "address": "104.25.5.175",
+            "port": 80,
             "users": [
               {
-                "id": "DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3",
+                "id": "53ae65be-81ee-4766-8a09-da43c44c4d30",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Lille.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/qwer11",
           "headers": {
-            "Host": "Lille.kotick.site"
+            "Host": "uyaa.vtcss.top"
           }
         },
         "httpSettings": null,
