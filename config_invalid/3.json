@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "139.162.113.31",
+            "address": "mg01.pmssr.xyz",
             "port": 443,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "95b2dc83-a476-4a82-93b2-0d77b4c30c18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "mg01.pmssr.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/sometimesnaive",
           "headers": {
-            "Host": ""
+            "Host": "mg01.pmssr.xyz"
           }
         },
         "httpSettings": null,

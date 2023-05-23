@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "new8.huvicloud.com",
+            "address": "v2-ca1.silverdragon.cn",
             "port": 443,
             "users": [
               {
-                "id": "a11ca760-9ef9-4a63-95c9-4c5c32d56251",
+                "id": "e790e3bf-c553-40ed-b2b6-436afd3f5f5c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "v2-ca1.silverdragon.cn"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/ca/v2wss",
           "headers": {
-            "Host": ""
+            "Host": "v2-ca1.silverdragon.cn"
           }
         },
         "httpSettings": null,

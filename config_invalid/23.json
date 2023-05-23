@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.222.192.30",
-            "port": 80,
+            "address": "1o2.ir",
+            "port": 443,
             "users": [
               {
-                "id": "b2947942-701b-4de2-91cd-f6810d5d03bc",
+                "id": "DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Lille.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "sg2.freeiq.cf"
+            "Host": "Lille.kotick.site"
           }
         },
         "httpSettings": null,

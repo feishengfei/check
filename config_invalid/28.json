@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zfc.windowsupdate1.com",
-            "port": 443,
+            "address": "cdn.chigua.tk",
+            "port": 80,
             "users": [
               {
-                "id": "DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3",
+                "id": "01925169-e2ff-483c-89f2-6e778dcdd450",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Lille.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/",
           "headers": {
-            "Host": "Lille.kotick.site"
+            "Host": "us-1.acyun.cf"
           }
         },
         "httpSettings": null,

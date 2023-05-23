@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.yxjnode.com",
-            "port": 80,
+            "address": "cf.bakapie.cf",
+            "port": 2096,
             "users": [
               {
-                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
+                "id": "03fe6c72-5c14-4dc6-b2d5-dba695668313",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b1867036.gm1919810.live"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/yxzbp",
+          "path": "/download",
           "headers": {
-            "Host": "dp4.yxjnode.com"
+            "Host": "b1867036.gm1919810.live"
           }
         },
         "httpSettings": null,
