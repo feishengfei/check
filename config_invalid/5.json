@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.23.133.33",
-            "port": 54091,
+            "address": "uk.minl.me",
+            "port": 8080,
             "users": [
               {
-                "id": "7efa6ce0-55f0-4c4a-89d5-27826f9431fb",
+                "id": "0f8b517f-6ffd-4f8b-a129-910a64c26034",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/play1",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
