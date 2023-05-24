@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2-ca1.silverdragon.cn",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "e790e3bf-c553-40ed-b2b6-436afd3f5f5c",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "v2-ca1.silverdragon.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ca/v2wss",
+          "path": "/shirker",
           "headers": {
-            "Host": "v2-ca1.silverdragon.cn"
+            "Host": "ca.ilovescp.com"
           }
         },
         "httpSettings": null,
