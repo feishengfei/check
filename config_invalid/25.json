@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.222.192.30",
-            "port": 80,
+            "address": "104.23.104.188",
+            "port": 443,
             "users": [
               {
-                "id": "b2947942-701b-4de2-91cd-f6810d5d03bc",
+                "id": "39304f36-8a9c-4692-9b31-d2997532f567",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "zslbs.vtcss.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/qwer",
           "headers": {
-            "Host": "sg2.freeiq.cf"
+            "Host": "zslbs.vtcss.top"
           }
         },
         "httpSettings": null,

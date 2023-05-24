@@ -6,20 +6,17 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                | cn            | cc   | isp                              | ip             | chatgpt          |
-|---:|:---------------------|:--------------------|:--------------|:-----|:---------------------------------|:---------------|:-----------------|
-|  0 | [6](config/6.json)   | 156.245.8.126       | Netherlands   | NL   | YISP B.V.                        | 154.84.1.164   | Yes (Region: NL) |
-|  1 | [7](config/7.json)   | 193.108.118.34      | Germany       | DE   | AS-GLOBALTELEHOST                | 193.108.118.34 | Yes (Region: DE) |
-|  2 | [17](config/17.json) | cfcdn.sanfencdn.net | United States | US   | Eons Data Communications Limited | 65.75.220.16   | Yes (Region: US) |
-|  3 | [20](config/20.json) | cfcdn.sanfencdn.net | United States | US   | Eons Data Communications Limited | 65.75.220.16   | Yes (Region: US) |
-|  4 | [25](config/25.json) | 172.99.188.99       | Netherlands   | NL   | AS-GLOBALTELEHOST                | 172.99.188.99  | Yes (Region: NL) |
+|    | id                   | addr                      | cn            | cc   | isp                              | ip            | chatgpt          |
+|---:|:---------------------|:--------------------------|:--------------|:-----|:---------------------------------|:--------------|:-----------------|
+|  0 | [4](config/4.json)   | 142.4.99.83               | China         | CN   | PEGTECHINC                       | 142.4.99.65   | Yes (Region: US) |
+|  1 | [13](config/13.json) | cfcdn.sanfencdn.net       | United States | US   | Eons Data Communications Limited | 65.75.220.16  | Yes (Region: US) |
+|  2 | [27](config/27.json) | jp04-vm0.entry.srthdw.art | Japan         | JP   | AMAZON-02                        | 43.206.92.253 | Yes (Region: JP) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk5OTlcdTZlMmYgIDYiLCAiYWRkIjogIjE1Ni4yNDUuOC4xMjYiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiM2NhOTEyZGEtNmFjMi00MThmLWI5Y2YtNDViNmY2OTQ1NzliIiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAid3d3LjM4MDY3NTQ4Lnh5eiIsICJwYXRoIjogIi9wYXRoLzE2ODQ3NTA5NjExNzMiLCAidGxzIjogInRscyIsICJzbmkiOiAid3d3LjM4MDY3NTQ4Lnh5eiIsICJhbHBuIjogIiJ9
-ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@193.108.118.34:2375#github.com/freefq%20-%20%E4%B9%8C%E5%85%8B%E5%85%B0%20%207
-vmess://eyJhZGQiOiAiY2ZjZG4uc2FuZmVuY2RuLm5ldCIsICJhaWQiOiAwLCAiaG9zdCI6ICJ1czIuc2FuZmVuY2RuLm5ldCIsICJpZCI6ICJkZDgzMTRjYy0zNzU0LTQxNmQtOTQ1Ni0wOTkxZjJlNzQ3NTMiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3poLWNuIiwgInBvcnQiOiA0NDMsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTgyODJcdTcwYjkgMTciLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDIwIiwgImFkZCI6ICJjZmNkbi5zYW5mZW5jZG4ubmV0IiwgInBvcnQiOiAiNDQzIiwgImlkIjogImIwMmE3ZTI2LTA4ODMtNDFlNS04NGM2LWI5ZjAzNTNlY2FkMSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAidXMyLnNhbmZlbmNkbi5uZXQiLCAicGF0aCI6ICIvemgtY24iLCAidGxzIjogInRscyIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
-ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@172.99.188.99:4444#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2025
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTU3MjNcdTRmNTVcdTU4NWVQRUcgVEVDSCA0IiwgImFkZCI6ICIxNDIuNC45OS44MyIsICJwb3J0IjogIjQ0MyIsICJpZCI6ICJiNjVkYTRhZi1hMTJhLTRhNTktOTMxNi00NTQ5ZTEyYmE2MmMiLCAiYWlkIjogIjY0IiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJ3d3cuNzMzMzI0NjMueHl6IiwgInBhdGgiOiAiL3BhdGgvMTY4NDY2NzYzNjYzMiIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICIifQ==
+vmess://eyJhZGQiOiAiY2ZjZG4uc2FuZmVuY2RuLm5ldCIsICJhaWQiOiAwLCAiaG9zdCI6ICJ1czIuc2FuZmVuY2RuLm5ldCIsICJpZCI6ICJkZDgzMTRjYy0zNzU0LTQxNmQtOTQ1Ni0wOTkxZjJlNzQ3NTMiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3poLWNuIiwgInBvcnQiOiA0NDMsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTgyODJcdTcwYjkgMTMiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+vmess://eyJhZGQiOiAianAwNC12bTAuZW50cnkuc3J0aGR3LmFydCIsICJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTY1ZTVcdTY3MmMgIDI3IiwgInBvcnQiOiA0NDgsICJpZCI6ICIxYmM1MjMwOC0wYmQ5LTMwZDAtOTBmZC1jZWYzMzc4NzVkMTAiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
+vmess://eyJhZGQiOiAianAwNC12bTAuZW50cnkuc3J0aGR3LmFydCIsICJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTY1ZTVcdTY3MmMgIDI4IiwgInBvcnQiOiA0NDYsICJpZCI6ICJiMmEyYzcwNi0xMmUwLTMzMzUtOGE2Mi0zMTkyNTIxOWE3MTIiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJ0eXBlIjogIiIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiJ9
 ```
 

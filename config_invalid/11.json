@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2-ca1.silverdragon.cn",
+            "address": "170.114.45.224",
             "port": 443,
             "users": [
               {
-                "id": "e790e3bf-c553-40ed-b2b6-436afd3f5f5c",
+                "id": "DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "v2-ca1.silverdragon.cn"
+          "serverName": "Kansas.kotick.site"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ca/v2wss",
+          "path": "/speedtest",
           "headers": {
-            "Host": "v2-ca1.silverdragon.cn"
+            "Host": "Kansas.kotick.site"
           }
         },
         "httpSettings": null,
