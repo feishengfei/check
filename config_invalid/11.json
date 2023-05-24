@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "x.leonard.eu.org",
+            "address": "cdnjs.com",
             "port": 443,
             "users": [
               {
-                "id": "1441af41-5cee-497e-a47c-c26af169f9ff",
+                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "x.leonard.eu.org"
+          "serverName": "Kansas.kotick.site"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "x.leonard.eu.org"
+            "Host": "Kansas.kotick.site"
           }
         },
         "httpSettings": null,
