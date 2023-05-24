@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.chigua.tk",
-            "port": 80,
+            "address": "mkh3.blanku.me",
+            "port": 443,
             "users": [
               {
-                "id": "01925169-e2ff-483c-89f2-6e778dcdd450",
+                "id": "245e7c23-0057-47a4-f2f0-07772e3338fa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "freeservice.blanku.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/wss26268?ed=2048",
           "headers": {
-            "Host": "us-1.acyun.cf"
+            "Host": "freeservice.blanku.me"
           }
         },
         "httpSettings": null,

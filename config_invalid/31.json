@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp04-vm0.entry.srthdw.art",
-            "port": 448,
+            "address": "cf6.biger.club",
+            "port": 2087,
             "users": [
               {
-                "id": "1bc52308-0bd9-30d0-90fd-cef337875d10",
+                "id": "e509f285-84ec-40f0-8988-a37068beb5ec",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us2.biger.club"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "us2.biger.club"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
