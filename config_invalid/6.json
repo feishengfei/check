@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mkh3.blanku.me",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "245e7c23-0057-47a4-f2f0-07772e3338fa",
+                "id": "f809b651-3924-4a80-abde-6c8536fbb229",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "freeservice.blanku.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/wss26268?ed=2048",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "freeservice.blanku.me"
+            "Host": "ssrsub.v03.ssrsub.com"
           }
         },
         "httpSettings": null,
