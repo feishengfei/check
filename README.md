@@ -6,14 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr          | cn          | cc   | isp               | ip            | chatgpt          |
-|---:|:-------------------|:--------------|:------------|:-----|:------------------|:--------------|:-----------------|
-|  0 | [2](config/2.json) | 172.99.188.99 | Netherlands | NL   | AS-GLOBALTELEHOST | 172.99.188.99 | Yes (Region: NL) |
-|  1 | [4](config/4.json) | 154.85.1.221  | Netherlands | NL   | YISP B.V.         | 154.84.1.145  | Yes (Region: NL) |
+|    | id                 | addr       | cn            | cc   | isp       | ip             | chatgpt          |
+|---:|:-------------------|:-----------|:--------------|:-----|:----------|:---------------|:-----------------|
+|  0 | [2](config/2.json) | 64.32.4.35 | United States | US   | SHARKTECH | 107.167.13.162 | Yes (Region: US) |
 
 ## Valid
 ```
-ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@172.99.188.99:4444#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%202
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZGlubm92YXRpb25cdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgNCIsICJhZGQiOiAiMTU0Ljg1LjEuMjIxIiwgInBvcnQiOiAiNDkxMjEiLCAiaWQiOiAiNmU3OWVlYTQtNWY3Mi00NjgzLWFkMGUtNTMzOWYwMTM0MjFiIiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiIsICJzbmkiOiAiIn0=
+vmess://eyJhZGQiOiAiNjQuMzIuNC4zNSIsICJhaWQiOiA2NCwgImhvc3QiOiAiIiwgImlkIjogIjg2NTMwMDRmLWRlNjctNDRjMi05Y2NlLWUwODMwOTMzZmIwMyIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiA0MzE2NiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkXHU1MmEwXHU1MjI5XHU3OThmXHU1YzNjXHU0ZTlhXHU1ZGRlXHU2ZDFiXHU2NzQ5XHU3N2Y2U2hhcmt0ZWNoXHU2NTcwXHU2MzZlXHU0ZTJkXHU1ZmMzIDIiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 ```
 

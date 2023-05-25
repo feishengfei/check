@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn.sanfencdn.net",
+            "address": "ava.game.naver.com",
             "port": 443,
             "users": [
               {
-                "id": "dd8314cc-3754-416d-9456-0991f2e74753",
+                "id": "04a64d18-2310-41e1-b6a8-78739e881e44",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us2.sanfencdn.net"
+          "serverName": "v2ray3.udpgw.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/worryfree",
           "headers": {
-            "Host": "us2.sanfencdn.net"
+            "Host": "v2ray3.udpgw.com"
           }
         },
         "httpSettings": null,
