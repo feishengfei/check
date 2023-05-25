@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "klax.keeeeeeir.me",
-            "port": 443,
+            "address": "162.159.4.54",
+            "port": 80,
             "users": [
               {
-                "id": "B3C53EA0-D40F-4937-AA0D-1AAF63484E7C",
+                "id": "cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "klax.keeeeeeir.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/login",
+          "path": "/qazxcv02",
           "headers": {
-            "Host": "klax.keeeeeeir.me"
+            "Host": "tou.vtcss.top"
           }
         },
         "httpSettings": null,
