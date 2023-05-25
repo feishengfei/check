@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.154.76.92",
-            "port": 21857,
+            "address": "137.175.1.8",
+            "port": 53403,
             "users": [
               {
-                "id": "784272d2-bd2d-438a-bbd4-1271bb1f1b0d",
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
                 "alterId": 64,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hk15.verichains.co"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/hk15/getData",
-          "headers": {
-            "Host": "hk15.verichains.co"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
