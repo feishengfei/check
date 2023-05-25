@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10902,
+      "port": 10917,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk80-2.6d83777c049b.sanfen004.me",
-            "port": 80,
+            "address": "tw99-hinet.mynodes001.one",
+            "port": 5432,
             "users": [
               {
-                "id": "7262cf44-a587-401a-9cd3-a87e2ce8f04e",
+                "id": "d5ef1df3-4069-3b25-9dc1-16b2be9b3e6b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/zh-cn/",
-          "headers": {
-            "Host": "www.baidu.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cambridge.org",
+            "address": "bp.nidaye.eu.org",
             "port": 443,
             "users": [
               {
-                "id": "3E271C5F-28FF-4704-B8E5-CC2B39AB7F60",
+                "id": "c77d02e9-5738-46ac-9512-7b67746cad85",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Lille.kotick.site"
+          "serverName": "bp.nidaye.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/ndy58850",
           "headers": {
-            "Host": "Lille.kotick.site"
+            "Host": "bp.nidaye.eu.org"
           }
         },
         "httpSettings": null,
