@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr       | cn            | cc   | isp       | ip             | chatgpt          |
-|---:|:-------------------|:-----------|:--------------|:-----|:----------|:---------------|:-----------------|
-|  0 | [2](config/2.json) | 64.32.4.35 | United States | US   | SHARKTECH | 107.167.13.162 | Yes (Region: US) |
+|    | id                 | addr           | cn          | cc   | isp       | ip           | chatgpt          |
+|---:|:-------------------|:---------------|:------------|:-----|:----------|:-------------|:-----------------|
+|  0 | [8](config/8.json) | 25.v2-ray.cyou | Netherlands | NL   | YISP B.V. | 154.84.1.145 | Yes (Region: NL) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiNjQuMzIuNC4zNSIsICJhaWQiOiA2NCwgImhvc3QiOiAiIiwgImlkIjogIjg2NTMwMDRmLWRlNjctNDRjMi05Y2NlLWUwODMwOTMzZmIwMyIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiA0MzE2NiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkXHU1MmEwXHU1MjI5XHU3OThmXHU1YzNjXHU0ZTlhXHU1ZGRlXHU2ZDFiXHU2NzQ5XHU3N2Y2U2hhcmt0ZWNoXHU2NTcwXHU2MzZlXHU0ZTJkXHU1ZmMzIDIiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+vmess://eyJhZGQiOiAiMjUudjItcmF5LmN5b3UiLCAiYWlkIjogMiwgImhvc3QiOiAiIiwgImlkIjogIjBkZDE5ZDIwLWVjODYtMzY4MC1iMjU2LTg3MjM3YmFmYTg5ZSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAyMzYyNSwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU1ZTdmXHU0ZTFjXHU3NzAxXHU0ZjViXHU1YzcxXHU1ZTAyXHU3OWZiXHU1MmE4IDgiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 ```
 

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg4.f163ab0f2c74.sanfen004.me",
+            "address": "ava.game.naver.com",
             "port": 443,
             "users": [
               {
-                "id": "c69e7b18-abd6-47df-ab1a-c89a96fba5ce",
+                "id": "04a64d18-2310-41e1-b6a8-78739e881e44",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v2ray3.udpgw.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/worryfree",
+          "headers": {
+            "Host": "v2ray3.udpgw.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
