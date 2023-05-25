@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "oracle02.jiting.space",
-            "port": 25494,
+            "address": "162.159.24.179",
+            "port": 80,
             "users": [
               {
-                "id": "960040e9-ad9b-4e39-fb90-f9ba90c4b7a2",
+                "id": "53ae65be-81ee-4766-8a09-da43c44c4d30",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/qwer02",
+          "headers": {
+            "Host": "uyaa.vtcss.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
