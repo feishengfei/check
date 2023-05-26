@@ -6,12 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr          | cn          | cc   | isp       | ip           | chatgpt          |
-|---:|:-------------------|:--------------|:------------|:-----|:----------|:-------------|:-----------------|
-|  0 | [8](config/8.json) | honeygain.com | Netherlands | NL   | YISP B.V. | 154.84.1.145 | Yes (Region: NL) |
+|    | id                 | addr          | cn            | cc   | isp       | ip             | chatgpt          |
+|---:|:-------------------|:--------------|:--------------|:-----|:----------|:---------------|:-----------------|
+|  0 | [3](config/3.json) | 64.32.21.246  | United States | US   | SHARKTECH | 107.167.24.162 | Yes (Region: US) |
+|  1 | [8](config/8.json) | vus5.0bad.com | Netherlands   | NL   | YISP B.V. | 154.84.1.145   | Yes (Region: NL) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU4MjgyXHU3MGI5IDgiLCAiYWRkIjogImhvbmV5Z2Fpbi5jb20iLCAicG9ydCI6IDQ0MywgImlkIjogIjc3NTdFOTlFLTc1QzktNDZENS04NTRELTQwNjVCRjM3MjEwMCIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAiRHVzc2VsZG9yZi5rb3RpY2suc2l0ZSIsICJwYXRoIjogIi9zcGVlZHRlc3QiLCAidGxzIjogInRscyJ9
+vmess://eyJhZGQiOiAiNjQuMzIuMjEuMjQ2IiwgImFpZCI6IDY0LCAiaG9zdCI6ICIiLCAiaWQiOiAiNTdmOTNlOTItZWJiOS00ZjE2LTliZGMtODIyNWQyMDEwOTk1IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIiLCAicG9ydCI6IDQ0MzEzLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTZkMWJcdTY3NDlcdTc3ZjZTaGFya3RlY2hcdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgMyIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+vmess://eyJhZGQiOiAidnVzNS4wYmFkLmNvbSIsICJhaWQiOiAwLCAiaG9zdCI6ICJ2dXM1LjBiYWQuY29tIiwgImlkIjogIjkyNzA5NGQzLWQ2NzgtNDc2My04NTkxLWUyNDBkMGJjYWU4NyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvY2hhdCIsICJwb3J0IjogNDQzLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmQgIDgiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 ```
 
