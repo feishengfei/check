@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "microsoftdebug.com",
-            "port": 80,
+            "address": "honeygain.com",
+            "port": 443,
             "users": [
               {
-                "id": "b0cff0d2-9ad5-41ea-a552-9d32533e7cd7",
+                "id": "7757E99E-75C9-46D5-854D-4065BF372100",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/windows7.ios",
+          "path": "/speedtest",
           "headers": {
-            "Host": "v1.us1.microsoftdebug.com"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,

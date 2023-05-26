@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "x.leonard.eu.org",
+            "address": "mkh3.blanku.me",
             "port": 443,
             "users": [
               {
-                "id": "1441af41-5cee-497e-a47c-c26af169f9ff",
+                "id": "245e7c23-0057-47a4-f2f0-07772e3338fa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "x.leonard.eu.org"
+          "serverName": "freeservice.blanku.me"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/wss26268?ed=2048",
           "headers": {
-            "Host": "x.leonard.eu.org"
+            "Host": "freeservice.blanku.me"
           }
         },
         "httpSettings": null,
