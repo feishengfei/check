@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vus2.0bad.com",
-            "port": 443,
+            "address": "microsoftdebug.com",
+            "port": 80,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "b0cff0d2-9ad5-41ea-a552-9d32533e7cd7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/windows7.ios",
           "headers": {
-            "Host": ""
+            "Host": "v1.us1.microsoftdebug.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "las01.nigger.cyou",
-            "port": 443,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "2063b3e9-e948-468c-896b-e859091c889a",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "las01.nigger.cyou"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/nigger",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "las01.nigger.cyou"
+            "Host": "dp4.yxjnode.com"
           }
         },
         "httpSettings": null,

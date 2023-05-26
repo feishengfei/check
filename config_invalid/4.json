@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray3.webgfw.top",
-            "port": 2083,
+            "address": "x.leonard.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "ea9de06d-2436-42e9-8187-9e6d5fc40407",
+                "id": "1441af41-5cee-497e-a47c-c26af169f9ff",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "x.leonard.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/X9piqfat/",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "x.leonard.eu.org"
           }
         },
         "httpSettings": null,
