@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "170.114.45.23",
+            "address": "mci1.blanku.me",
             "port": 443,
             "users": [
               {
-                "id": "7757E99E-75C9-46D5-854D-4065BF372100",
+                "id": "49555a95-dc36-44dd-b613-98dc14ac6295",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Amsterdam.kotick.site"
+          "serverName": "freeservice.blanku.me"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/wss48622",
           "headers": {
-            "Host": "Amsterdam.kotick.site"
+            "Host": "freeservice.blanku.me"
           }
         },
         "httpSettings": null,
