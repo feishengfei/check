@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mkh3.blanku.me",
-            "port": 443,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "245e7c23-0057-47a4-f2f0-07772e3338fa",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "freeservice.blanku.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/wss26268?ed=2048",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "freeservice.blanku.me"
+            "Host": "dp4.yxjnode.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.24.179",
-            "port": 80,
+            "address": "zendesk1.grab.com",
+            "port": 443,
             "users": [
               {
-                "id": "53ae65be-81ee-4766-8a09-da43c44c4d30",
+                "id": "e47e152d-5ccb-476b-a4ff-c1b355c34d7e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v2ray3.udpgw.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer02",
+          "path": "/worryfree",
           "headers": {
-            "Host": "uyaa.vtcss.top"
+            "Host": "v2ray3.udpgw.com"
           }
         },
         "httpSettings": null,
