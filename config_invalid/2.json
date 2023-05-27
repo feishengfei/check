@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci1.blanku.me",
-            "port": 443,
+            "address": "104.24.81.12",
+            "port": 8880,
             "users": [
               {
-                "id": "49555a95-dc36-44dd-b613-98dc14ac6295",
+                "id": "cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "freeservice.blanku.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/wss48622",
+          "path": "/qazxcv03",
           "headers": {
-            "Host": "freeservice.blanku.me"
+            "Host": "tou.vtcss.top"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "honeygain.com",
-            "port": 443,
+            "address": "173.245.49.189",
+            "port": 8080,
             "users": [
               {
-                "id": "7757E99E-75C9-46D5-854D-4065BF372100",
+                "id": "9588cb0f-5102-4e66-d5fb-f96cba9acdda",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/qazxcv01",
           "headers": {
-            "Host": "Dusseldorf.kotick.site"
+            "Host": "tou.vtcss.top"
           }
         },
         "httpSettings": null,

@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr          | cn          | cc   | isp       | ip           | chatgpt          |
-|---:|:-------------------|:--------------|:------------|:-----|:----------|:-------------|:-----------------|
-|  0 | [8](config/8.json) | 36.134.16.190 | Netherlands | NL   | YISP B.V. | 154.84.1.145 | Yes (Region: NL) |
+|    | id                 | addr                     | cn          | cc   | isp       | ip           | chatgpt          |
+|---:|:-------------------|:-------------------------|:------------|:-----|:----------|:-------------|:-----------------|
+|  0 | [8](config/8.json) | cf-lt.sharecentre.online | Netherlands | NL   | YISP B.V. | 154.84.1.145 | Yes (Region: NL) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzMTdcdTRlYWNcdTVlMDJcdTc5ZmJcdTUyYTggOCIsICJhZGQiOiAiMzYuMTM0LjE2LjE5MCIsICJwb3J0IjogIjExMDIzIiwgImlkIjogIjhjMDQyYTM4LTcxYzEtMWRjYi0wMGRmLTU0ODgwMjM2ZTBkYyIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU4MjgyXHU3MGI5IDgiLCAiYWRkIjogImNmLWx0LnNoYXJlY2VudHJlLm9ubGluZSIsICJwb3J0IjogIjgwIiwgImlkIjogIjJkNWQ4YjljLThlYzQtNGEzNy1iNjEwLTc4ZTcxZTEzZWFlZiIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAibHYyLnNoYXJlY2VudHJlcHJvLm9yZyIsICJwYXRoIjogIi9zaGlya2VyIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
 ```
 
