@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "oracle02.jiting.space",
-            "port": 25494,
+            "address": "43.154.122.126",
+            "port": 48122,
             "users": [
               {
-                "id": "960040e9-ad9b-4e39-fb90-f9ba90c4b7a2",
-                "alterId": 0,
+                "id": "82adc998-88ab-4c87-8b86-5bc39e80f5b2",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/hk1/getData",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

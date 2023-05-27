@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci1.blanku.me",
-            "port": 443,
+            "address": "cdncf.scyu.app",
+            "port": 8080,
             "users": [
               {
-                "id": "49555a95-dc36-44dd-b613-98dc14ac6295",
+                "id": "4427eafb-3b3a-4265-9a32-fe0ea9cfd736",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "freeservice.blanku.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/wss48622",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "freeservice.blanku.me"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
