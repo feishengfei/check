@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vus5.0bad.com",
+            "address": "104.27.62.243",
             "port": 443,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "49555a95-dc36-44dd-b613-98dc14ac6295",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "vus5.0bad.com"
+          "serverName": "freeservice.blanku.me"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/wss48622",
           "headers": {
-            "Host": "vus5.0bad.com"
+            "Host": "freeservice.blanku.me"
           }
         },
         "httpSettings": null,

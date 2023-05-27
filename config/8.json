@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vus5.0bad.com",
-            "port": 443,
+            "address": "36.134.16.190",
+            "port": 11023,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "8c042a38-71c1-1dcb-00df-54880236e0dc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "vus5.0bad.com"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/chat",
-          "headers": {
-            "Host": "vus5.0bad.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
