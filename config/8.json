@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bp.nidaye.eu.org",
-            "port": 443,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "c77d02e9-5738-46ac-9512-7b67746cad85",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "bp.nidaye.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ndy58850",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "bp.nidaye.eu.org"
+            "Host": "dp4.yxjnode.com"
           }
         },
         "httpSettings": null,

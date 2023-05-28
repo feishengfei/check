@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "apkwvctghw.114514782.xyz",
-            "port": 2052,
+            "address": "iepl2.airtcp.vip",
+            "port": 51002,
             "users": [
               {
-                "id": "ca2175a5-f759-3e28-a4e3-136ab1900e40",
-                "alterId": 0,
+                "id": "1a7680df-81a1-3d89-a221-db81ac4b04df",
+                "alterId": 2,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/miaosafh",
-          "headers": {
-            "Host": "apkwvctghw.114514782.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
