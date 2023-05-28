@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jpntgrwq.114514782.xyz",
-            "port": 2052,
+            "address": "36.134.16.171",
+            "port": 11023,
             "users": [
               {
-                "id": "1562b5d5-4595-313f-9ad1-cf604c6499cc",
+                "id": "8c042a38-71c1-1dcb-00df-54880236e0dc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/miaoshenzbck",
-          "headers": {
-            "Host": "jpntgrwq.114514782.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
