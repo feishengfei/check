@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "in03.my1188.org",
-            "port": 64088,
+            "address": "45.33.60.47",
+            "port": 443,
             "users": [
               {
-                "id": "d5ef1df3-4069-3b25-9dc1-16b2be9b3e6b",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tw-load-balancer.myn1des.com"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/biteb",
+          "path": "/chat",
           "headers": {
-            "Host": "tw-load-balancer.myn1des.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
