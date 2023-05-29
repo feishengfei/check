@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.33.60.47",
-            "port": 443,
+            "address": "cdn.noice.id",
+            "port": 80,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "8bb07c55-0ef5-4d69-b131-fd9bab420ae8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/v2ray",
           "headers": {
-            "Host": ""
+            "Host": "8fhq6a.aiossh.my.id"
           }
         },
         "httpSettings": null,
