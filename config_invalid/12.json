@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "36.134.16.190",
-            "port": 11023,
+            "address": "v133.toddns.gq",
+            "port": 80,
             "users": [
               {
-                "id": "8c042a38-71c1-1dcb-00df-54880236e0dc",
+                "id": "cd1836ed-78be-3dcb-9fb1-9d2a4bdfecb8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/v133PDXkklxLEcOvD",
+          "headers": {
+            "Host": "v133.toddns.gq"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

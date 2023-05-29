@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v133.toddns.gq",
-            "port": 80,
+            "address": "170.187.203.158",
+            "port": 443,
             "users": [
               {
-                "id": "cd1836ed-78be-3dcb-9fb1-9d2a4bdfecb8",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/v133PDXkklxLEcOvD",
+          "path": "/chat",
           "headers": {
-            "Host": "v133.toddns.gq"
+            "Host": ""
           }
         },
         "httpSettings": null,
