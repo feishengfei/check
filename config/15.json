@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10908,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mg.txy.a.node1.jijio.stream",
-            "port": 38999,
+            "address": "cdn.noice.id",
+            "port": 80,
             "users": [
               {
-                "id": "adc570f1-d591-4a5a-93f0-0013bba3f116",
+                "id": "8bb07c55-0ef5-4d69-b131-fd9bab420ae8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/wesad",
+          "path": "/v2ray",
           "headers": {
-            "Host": ""
+            "Host": "8fhq6a.aiossh.my.id"
           }
         },
         "httpSettings": null,

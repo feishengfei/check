@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bx.weizai2023.uk.eu.org",
-            "port": 443,
+            "address": "36.134.16.190",
+            "port": 11023,
             "users": [
               {
-                "id": "e7d1e562-2af9-40ac-9fad-d1d4806ff1e9",
+                "id": "8c042a38-71c1-1dcb-00df-54880236e0dc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "2bh.unioreo.rip"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/mioooo?ed=2048",
-          "headers": {
-            "Host": "2bh.unioreo.rip"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
