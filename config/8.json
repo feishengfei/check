@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "112.118.195.16",
-            "port": 80,
+            "address": "cf6.biger.club",
+            "port": 2087,
             "users": [
               {
-                "id": "b2947942-701b-4de2-91cd-f6810d5d03bc",
+                "id": "5aa4dc20-eb72-4a22-990f-94ae5ce7a743",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us2.biger.club"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "sg2.freeiq.cf"
+            "Host": "us2.biger.club"
           }
         },
         "httpSettings": null,
