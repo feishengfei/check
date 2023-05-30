@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10917,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.131.248.140",
-            "port": 50068,
+            "address": "cf.noaries.de",
+            "port": 2082,
             "users": [
               {
-                "id": "557e532e-de4a-4b3e-9fb2-5d355ccb5da9",
+                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "45.131.248.140"
+            "Host": "dedipath2.iiio.wiki"
           }
         },
         "httpSettings": null,

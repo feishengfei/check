@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10920,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,21 +32,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "139.144.179.178",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "3850825944",
-            "port": 40248,
-            "level": 1,
-            "users": null
+            "address": "83.142.225.20",
+            "port": 49920,
+            "users": [
+              {
+                "id": "5267ca71-97e6-44c8-8fb5-9fe4afe0954e",
+                "alterId": 64,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
