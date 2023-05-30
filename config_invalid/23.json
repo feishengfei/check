@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vm.in.goserver.pw",
-            "port": 80,
+            "address": "36.134.16.171",
+            "port": 11023,
             "users": [
               {
-                "id": "a37d4f57-07e1-4b2d-8eaf-c034d7fef891",
+                "id": "8c042a38-71c1-1dcb-00df-54880236e0dc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/v2ray-vmess/ntls",
-          "headers": {
-            "Host": "in.goserver.pw"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

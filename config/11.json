@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10926,
+      "port": 10911,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.62",
+            "address": "64.32.4.36",
             "port": 443,
             "users": [
               {
-                "id": "9aa6b5ad-c0fc-47f4-a837-f72179d7b662",
-                "alterId": 0,
+                "id": "8653004f-de67-44c2-9cce-e0830933fb03",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "channel3.unlimiteddev.tk"
+          "serverName": "www.57588776.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Lsv4s7nS0ErewnEN",
+          "path": "/path/1685361567761",
           "headers": {
-            "Host": "channel3.unlimiteddev.tk"
+            "Host": "www.57588776.xyz"
           }
         },
         "httpSettings": null,

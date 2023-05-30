@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10926,
+      "port": 10903,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.62",
-            "port": 443,
+            "address": "cf.noaries.de",
+            "port": 2082,
             "users": [
               {
-                "id": "9aa6b5ad-c0fc-47f4-a837-f72179d7b662",
+                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "channel3.unlimiteddev.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Lsv4s7nS0ErewnEN",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "channel3.unlimiteddev.tk"
+            "Host": "dedipath2.iiio.wiki"
           }
         },
         "httpSettings": null,

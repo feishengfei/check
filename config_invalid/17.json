@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.62",
-            "port": 443,
+            "address": "sgdo.duniavpn.site",
+            "port": 80,
             "users": [
               {
-                "id": "9aa6b5ad-c0fc-47f4-a837-f72179d7b662",
+                "id": "2a70cdbc-658e-49cb-b27b-17000385b47a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "channel3.unlimiteddev.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Lsv4s7nS0ErewnEN",
+          "path": "/vmess",
           "headers": {
-            "Host": "channel3.unlimiteddev.tk"
+            "Host": ""
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "CSGO.COM",
-            "port": 2086,
+            "address": "cftokyo1.tnetvpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "ef1f6e7e-3d54-43b0-b39e-3af459fea090",
+                "id": "89401822-66ce-4fa0-ae71-7f0d495e9c9c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/relay",
           "headers": {
-            "Host": "lu1.hug1013.me"
+            "Host": ""
           }
         },
         "httpSettings": null,

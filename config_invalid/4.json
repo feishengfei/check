@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dallas.starsea.vip",
+            "address": "172.104.98.201",
             "port": 443,
             "users": [
               {
-                "id": "10735fe6-6c8f-498b-b22e-8e98a57e033d",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dallas.starsea.vip"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/chat",
           "headers": {
-            "Host": "dallas.starsea.vip"
+            "Host": ""
           }
         },
         "httpSettings": null,
