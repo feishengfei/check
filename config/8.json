@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.noice.id",
-            "port": 80,
+            "address": "mg.txy.a.node1.jijio.stream",
+            "port": 38999,
             "users": [
               {
-                "id": "8bb07c55-0ef5-4d69-b131-fd9bab420ae8",
+                "id": "adc570f1-d591-4a5a-93f0-0013bba3f116",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/v2ray",
+          "path": "/wesad",
           "headers": {
-            "Host": "8fhq6a.aiossh.my.id"
+            "Host": ""
           }
         },
         "httpSettings": null,
