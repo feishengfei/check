@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "CSGO.COM",
-            "port": 2086,
+            "address": "oracle02.jiting.space",
+            "port": 25494,
             "users": [
               {
-                "id": "ef1f6e7e-3d54-43b0-b39e-3af459fea090",
+                "id": "960040e9-ad9b-4e39-fb90-f9ba90c4b7a2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "lu1.hug1013.me"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
