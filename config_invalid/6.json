@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lv.nscdn.eu.org",
-            "port": 80,
+            "address": "v2ray.online",
+            "port": 443,
             "users": [
               {
-                "id": "c65dc0ad-dee8-4e43-869d-ef4f11bc66df",
+                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Kansas.v2ray.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "lv.nscdn.eu.org"
+            "Host": "Kansas.v2ray.online"
           }
         },
         "httpSettings": null,
