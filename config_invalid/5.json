@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mg.txy.a.node1.jijio.stream",
-            "port": 38999,
+            "address": "CSGO.COM",
+            "port": 2086,
             "users": [
               {
-                "id": "adc570f1-d591-4a5a-93f0-0013bba3f116",
+                "id": "ef1f6e7e-3d54-43b0-b39e-3af459fea090",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/wesad",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "lu1.hug1013.me"
           }
         },
         "httpSettings": null,
