@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "s3.zwtg888.com",
-            "port": 2096,
+            "address": "cftokyo1.tnetvpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "cfa24f7a-42e8-3b7c-a4b6-64d4cf70981e",
+                "id": "89401822-66ce-4fa0-ae71-7f0d495e9c9c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "s3.zwtg888.com"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/v2ray",
+          "path": "/relay",
           "headers": {
-            "Host": "s3.zwtg888.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
