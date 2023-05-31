@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mg.txy.a.node1.jijio.stream",
-            "port": 38999,
+            "address": "104.18.133.163",
+            "port": 2052,
             "users": [
               {
-                "id": "adc570f1-d591-4a5a-93f0-0013bba3f116",
+                "id": "0227edc4-8735-4370-ac42-4e8147920f0b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/wesad",
+          "path": "/qwer10",
           "headers": {
-            "Host": ""
+            "Host": "tou.vtcss.top"
           }
         },
         "httpSettings": null,
