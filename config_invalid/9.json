@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "oracle02.jiting.space",
-            "port": 25494,
+            "address": "ca1-vmess.greenssh.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "960040e9-ad9b-4e39-fb90-f9ba90c4b7a2",
+                "id": "2557e01c-dbcc-4d34-a259-11ae69f5f041",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "ca1-vmess.greenssh.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

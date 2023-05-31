@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10927,
+      "port": 10928,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.132.15",
+            "address": "cfcdn.sanfencdn.net",
             "port": 443,
             "users": [
               {
-                "id": "18e5f40f-bda6-4c15-9334-e87cda6047af",
+                "id": "951a393a-b557-4590-88b6-30948e1e0b8d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ming2.kiwireich.com"
+          "serverName": "us1.sanfencdn.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ray",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "ming2.kiwireich.com"
+            "Host": "us1.sanfencdn.net"
           }
         },
         "httpSettings": null,

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10923,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "pKEW8JPByTVTLtM",
-            "port": 4444,
-            "level": 1,
-            "users": null
+            "address": "cdn.noice.id",
+            "port": 80,
+            "users": [
+              {
+                "id": "8bb07c55-0ef5-4d69-b131-fd9bab420ae8",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/v2ray",
+          "headers": {
+            "Host": "8fhq6a.aiossh.my.id"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
