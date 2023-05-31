@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "36.137.106.45",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "ll668668@",
-            "port": 11023,
-            "level": 1,
-            "users": null
+            "address": "cf-lt.sharecentre.online",
+            "port": 443,
+            "users": [
+              {
+                "id": "998fed0b-6958-4998-ae60-86ccf8d37447",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dallas.starsea.vip"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "dallas.starsea.vip"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

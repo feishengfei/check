@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bp.nidaye.eu.org",
-            "port": 443,
+            "address": "cftokyo1.tnetvpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "c77d02e9-5738-46ac-9512-7b67746cad85",
+                "id": "89401822-66ce-4fa0-ae71-7f0d495e9c9c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "bp.nidaye.eu.org"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ndy58850",
+          "path": "/relay",
           "headers": {
-            "Host": "bp.nidaye.eu.org"
+            "Host": ""
           }
         },
         "httpSettings": null,

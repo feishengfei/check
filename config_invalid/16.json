@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg.fuzzypn.me",
-            "port": 80,
+            "address": "104.21.94.37",
+            "port": 443,
             "users": [
               {
-                "id": "a1a2cfbe-ba38-429d-a31d-ce94cd50cae6",
+                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Kansas.v2ray.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/fuzzypn",
+          "path": "/speedtest",
           "headers": {
-            "Host": "sg.fuzzypn.me"
+            "Host": "Kansas.v2ray.online"
           }
         },
         "httpSettings": null,
