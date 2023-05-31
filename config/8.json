@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "142.4.127.13",
-            "port": 443,
+            "address": "cf.noaries.de",
+            "port": 2082,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.58058761.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1685439562518",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "www.58058761.xyz"
+            "Host": "dedipath2.iiio.wiki"
           }
         },
         "httpSettings": null,

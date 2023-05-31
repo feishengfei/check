@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10920,
+      "port": 10909,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdncf.scyu.app",
+            "address": "206.189.98.76",
             "port": 8080,
             "users": [
               {
-                "id": "4427eafb-3b3a-4265-9a32-fe0ea9cfd736",
+                "id": "85c3ff6a-bb5c-4615-97fe-ac75bbce7c66",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/telegram:UCIRANIR",
           "headers": {
-            "Host": "ssrsub.v02.ssrsub.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
