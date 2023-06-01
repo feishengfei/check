@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "199.247.6.98",
-            "port": 80,
+            "address": "vip.igram.sbs",
+            "port": 43757,
             "users": [
               {
-                "id": "1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c",
+                "id": "457db1bf-28c7-474e-e37a-32c6b6fac903",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/oSiR4t7dQow0J9ea3kKkF",
-          "headers": {
-            "Host": "hello-world-solitary-sky-c0bf.ourwayapp.workers.dev"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

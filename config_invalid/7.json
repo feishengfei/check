@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 443,
+            "address": "armus.114514782.xyz",
+            "port": 2052,
             "users": [
               {
-                "id": "998fed0b-6958-4998-ae60-86ccf8d37447",
+                "id": "4fd5b235-f59c-3f9d-b91f-f2cd50ff2d3b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dallas.starsea.vip"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/miao",
           "headers": {
-            "Host": "dallas.starsea.vip"
+            "Host": ""
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.221.160.42",
-            "port": 80,
+            "address": "v2ray3.webgfw.top",
+            "port": 2083,
             "users": [
               {
-                "id": "1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c",
+                "id": "4cc72565-0d05-41e6-bc34-72aba9da544f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/oSiR4t7dQow0J9ea3kKkF",
+          "path": "/X9piqfat/",
           "headers": {
-            "Host": "hello-world-solitary-sky-c0bf.ourwayapp.workers.dev"
+            "Host": ""
           }
         },
         "httpSettings": null,
