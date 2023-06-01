@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vip.igram.sbs",
-            "port": 43757,
+            "address": "104.25.96.171",
+            "port": 443,
             "users": [
               {
-                "id": "457db1bf-28c7-474e-e37a-32c6b6fac903",
+                "id": "3de4ec27-74b4-43e3-bf23-18e726ac80bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "GHTyoqrBZm.janbaroon.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/P6kpn5UKG40MNLK2",
+          "headers": {
+            "Host": "GHTyoqrBZm.janbaroon.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
