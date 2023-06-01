@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.254.140.245",
-            "port": 80,
+            "address": "dallas.starsea.vip",
+            "port": 443,
             "users": [
               {
-                "id": "1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c",
+                "id": "c5e52b78-c01b-4884-baad-01cd2a74fce3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/oSiR4t7dQow0J9ea3kKkF",
+          "path": "/",
           "headers": {
-            "Host": "hello-world-solitary-sky-c0bf.ourwayapp.workers.dev"
+            "Host": ""
           }
         },
         "httpSettings": null,

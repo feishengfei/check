@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10908,
+      "port": 10923,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "armus.114514782.xyz",
-            "port": 2052,
+            "address": "cdn.noice.id",
+            "port": 80,
             "users": [
               {
-                "id": "14a8ba38-8918-3de1-bc93-9fc87777da30",
+                "id": "8bb07c55-0ef5-4d69-b131-fd9bab420ae8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/miao",
+          "path": "/v2ray",
           "headers": {
-            "Host": ""
+            "Host": "8fhq6a.aiossh.my.id"
           }
         },
         "httpSettings": null,

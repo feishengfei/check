@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "asbiasncs.114514782.xyz",
-            "port": 2052,
+            "address": "vps29.imhup.com",
+            "port": 20000,
             "users": [
               {
-                "id": "2c896971-1905-3e7f-bbbe-1725ccfdd9d3",
+                "id": "1ed3c3dd-ff8d-4ae4-b4fb-d84a3400c227",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/auvbwbs",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
