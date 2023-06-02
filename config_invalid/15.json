@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.223.107.40",
-            "port": 443,
+            "address": "198.41.203.57",
+            "port": 2095,
             "users": [
               {
-                "id": "3ced03fa-9cd0-4c3f-db9a-5c5600f65f9b",
+                "id": "67597b31-fba2-42ba-b3df-b7264d346235",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "z-004716.zedware.icu"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/z-004716",
+          "path": "/tg@hkaa0",
           "headers": {
-            "Host": "z-004716.zedware.icu"
+            "Host": "jp.wyhkaa0.ga"
           }
         },
         "httpSettings": null,
