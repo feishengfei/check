@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.14.16",
-            "port": 8080,
+            "address": "188.114.98.205",
+            "port": 443,
             "users": [
               {
-                "id": "d7cf7b64-bf1c-46bd-cf39-90a31393843b",
+                "id": "2c3a22f0-2087-4f86-b30d-664317f8c820",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tou.vtcss.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/qwer",
           "headers": {
-            "Host": "uyaa.vtcss.top"
+            "Host": "tou.vtcss.top"
           }
         },
         "httpSettings": null,
