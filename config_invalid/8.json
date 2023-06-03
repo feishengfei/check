@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "downloadvip.cfd",
-            "port": 443,
+            "address": "cf.noaries.de",
+            "port": 2052,
             "users": [
               {
-                "id": "92622695-8087-4f81-97ea-1bd9cfeddfcf",
+                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us4.djjc.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/djjc/us4",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "us4.djjc.sbs"
+            "Host": "scw-fr.iiio.wiki"
           }
         },
         "httpSettings": null,

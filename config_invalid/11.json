@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "camtlebb.76898102.xyz",
-            "port": 2095,
+            "address": "ask.ircf.space",
+            "port": 443,
             "users": [
               {
-                "id": "0e8f0867-85a0-39af-a5eb-3685d26f8413",
+                "id": "3bcbd5cd-e791-4770-8bc7-7b1d941c9513",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "wfi.sahnama.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/funsdfrh",
+          "path": "/S4PSg9xqUClN2kJ4SOPKqC6",
           "headers": {
-            "Host": "camtleb.76898102.xyz"
+            "Host": "wfi.sahnama.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.ikuan.dev",
-            "port": 2052,
+            "address": "cdn-xjp4.cqjsl.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8",
+                "id": "181f2438-213e-4c2f-9915-8be5b1394f9a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdn-xjp4.cqjsl.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/FreeForGFW",
+          "path": "/",
           "headers": {
-            "Host": "freeforgfw.ikuan.dev"
+            "Host": "cdn-xjp4.cqjsl.xyz"
           }
         },
         "httpSettings": null,
