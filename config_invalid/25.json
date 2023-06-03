@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sin.chigua.tk",
-            "port": 2086,
+            "address": "104.25.96.171",
+            "port": 443,
             "users": [
               {
-                "id": "fb67c65d-6e01-495f-f427-a26df0e6ebd3",
+                "id": "3de4ec27-74b4-43e3-bf23-18e726ac80bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "GHTyoqrBZm.janbaroon.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "/P6kpn5UKG40MNLK2",
           "headers": {
-            "Host": "hk-justhost.iiio.wiki"
+            "Host": "GHTyoqrBZm.janbaroon.com"
           }
         },
         "httpSettings": null,
