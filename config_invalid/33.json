@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.noaries.de",
-            "port": 2052,
+            "address": "cdn-xjp4.cqjsl.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
+                "id": "181f2438-213e-4c2f-9915-8be5b1394f9a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdn-xjp4.cqjsl.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "scw-fr.iiio.wiki"
+            "Host": "cdn-xjp4.cqjsl.xyz"
           }
         },
         "httpSettings": null,

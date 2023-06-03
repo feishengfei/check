@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 8080,
+            "address": "1.quantumult.club",
+            "port": 447,
             "users": [
               {
-                "id": "4427eafb-3b3a-4265-9a32-fe0ea9cfd736",
+                "id": "dc8e230b-b73a-4cee-a629-48faf08cfb2e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "1.quantumult.club"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/hk1997-aimwp",
           "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
+            "Host": "1.quantumult.club"
           }
         },
         "httpSettings": null,

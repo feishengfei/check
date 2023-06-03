@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "scaleway.696960.xyz",
+            "address": "cdn.anycast.eu.org",
             "port": 443,
             "users": [
               {
-                "id": "e357cd63-f1a5-4c8e-c42e-26da11207fee",
+                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "dedi2.1808.cf"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/root/",
+          "path": "/835757",
           "headers": {
-            "Host": ""
+            "Host": "dedi2.1808.cf"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "downloadvip.cfd",
-            "port": 443,
+            "address": "cdncf.scyu.app",
+            "port": 80,
             "users": [
               {
-                "id": "92622695-8087-4f81-97ea-1bd9cfeddfcf",
+                "id": "c07a7268-6b25-4952-be6d-e9fb3beacedc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us4.djjc.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/djjc/us4",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "us4.djjc.sbs"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,

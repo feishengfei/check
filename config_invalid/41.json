@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "turkey.abraak.site",
-            "port": 2087,
+            "address": "104.21.94.37",
+            "port": 443,
             "users": [
               {
-                "id": "21025839-c140-4c67-8f4c-9a413ca8de3f",
+                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Kansas.v2ray.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/speedtest",
+          "headers": {
+            "Host": "Kansas.v2ray.online"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
