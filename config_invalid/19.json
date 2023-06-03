@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ask.ircf.space",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "3bcbd5cd-e791-4770-8bc7-7b1d941c9513",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "wfi.sahnama.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/S4PSg9xqUClN2kJ4SOPKqC6",
+          "path": "/shirker",
           "headers": {
-            "Host": "wfi.sahnama.com"
+            "Host": "ca.ilovescp.com"
           }
         },
         "httpSettings": null,

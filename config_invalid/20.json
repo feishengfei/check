@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdncf.scyu.app",
-            "port": 8080,
+            "address": "ask.ircf.space",
+            "port": 443,
             "users": [
               {
-                "id": "4427eafb-3b3a-4265-9a32-fe0ea9cfd736",
+                "id": "3bcbd5cd-e791-4770-8bc7-7b1d941c9513",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "wfi.sahnama.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/S4PSg9xqUClN2kJ4SOPKqC6",
           "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
+            "Host": "wfi.sahnama.com"
           }
         },
         "httpSettings": null,

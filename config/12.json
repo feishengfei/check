@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10907,
+      "port": 10912,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "62e2186f.d0f692af.83df.34fb5e38.cc",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "44e4e808-db1e-494d-9d7e-c67b38b13556",
-            "port": 30004,
-            "level": 1,
-            "users": null
+            "address": "cdn.ikuan.dev",
+            "port": 2052,
+            "users": [
+              {
+                "id": "3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/FreeForGFW",
+          "headers": {
+            "Host": "freeforgfw.ikuan.dev"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
