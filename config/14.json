@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "scaleway.696960.xyz",
-            "port": 443,
+            "address": "turkey.abraak.site",
+            "port": 2087,
             "users": [
               {
-                "id": "e357cd63-f1a5-4c8e-c42e-26da11207fee",
+                "id": "21025839-c140-4c67-8f4c-9a413ca8de3f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/root/",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
