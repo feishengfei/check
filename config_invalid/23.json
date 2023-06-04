@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vm.au.goserver.pw",
-            "port": 80,
+            "address": "cf.noaries.de",
+            "port": 2082,
             "users": [
               {
-                "id": "a2a16067-7ac5-46dd-96f2-a94560ac438c",
+                "id": "67c5ce45-7b48-473e-bf25-e4c830b0ed24",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/v2ray-vmess/ntls",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "au.goserver.pw"
+            "Host": "dedipath2.iiio.wiki"
           }
         },
         "httpSettings": null,

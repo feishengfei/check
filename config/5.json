@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10911,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "iepl2.airtcp.vip",
-            "port": 51002,
+            "address": "cdn.ikuan.dev",
+            "port": 2052,
             "users": [
               {
-                "id": "1a7680df-81a1-3d89-a221-db81ac4b04df",
-                "alterId": 2,
+                "id": "3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/FreeForGFW",
+          "headers": {
+            "Host": "freeforgfw.ikuan.dev"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
