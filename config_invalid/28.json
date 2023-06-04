@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.245.141",
+            "address": "cdn.anycast.eu.org",
             "port": 443,
             "users": [
               {
-                "id": "2c3a22f0-2087-4f86-b30d-664317f8c820",
+                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tou.vtcss.top"
+          "serverName": "dedi2.1808.cf"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/835757",
           "headers": {
-            "Host": "tou.vtcss.top"
+            "Host": "dedi2.1808.cf"
           }
         },
         "httpSettings": null,

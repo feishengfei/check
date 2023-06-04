@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.v2-vip.fun",
-            "port": 80,
+            "address": "rsp.ircf.space",
+            "port": 443,
             "users": [
               {
-                "id": "882f3f11-02bc-4ecf-96b6-2da1bebcd7e4",
+                "id": "3bcbd5cd-e791-4770-8bc7-7b1d941c9513",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "wfi.sahnama.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/wmIMRWSrsFRTES3pFURTK72T",
+          "path": "/S4PSg9xqUClN2kJ4SOPKqC6",
           "headers": {
-            "Host": "de9.irteh.fun"
+            "Host": "wfi.sahnama.com"
           }
         },
         "httpSettings": null,
