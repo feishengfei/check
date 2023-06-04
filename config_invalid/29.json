@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bx.weizai2023.uk.eu.org",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "e7d1e562-2af9-40ac-9fad-d1d4806ff1e9",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "2bh.unioreo.rip"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/mioooo?ed=2048",
+          "path": "/shirker",
           "headers": {
-            "Host": "2bh.unioreo.rip"
+            "Host": "ca.ilovescp.com"
           }
         },
         "httpSettings": null,

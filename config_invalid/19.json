@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1.quantumult.club",
-            "port": 447,
+            "address": "cdn.anycast.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "dc8e230b-b73a-4cee-a629-48faf08cfb2e",
+                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "1.quantumult.club"
+          "serverName": "dedi2.1808.cf"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hk1997-aimwp",
+          "path": "/835757",
           "headers": {
-            "Host": "1.quantumult.club"
+            "Host": "dedi2.1808.cf"
           }
         },
         "httpSettings": null,
