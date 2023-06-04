@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1.quantumult.club",
-            "port": 447,
+            "address": "cdncf.scyu.app",
+            "port": 80,
             "users": [
               {
-                "id": "fdf6caf1-88e0-4eca-b7b6-a60b70aa1e93",
+                "id": "c07a7268-6b25-4952-be6d-e9fb3beacedc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "1.quantumult.club"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hk1997-aimwp",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "1.quantumult.club"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,

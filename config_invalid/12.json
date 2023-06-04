@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "ieplhk.lanyunshi.top",
-            "port": 51004,
+            "address": "downloadvip.cfd",
+            "port": 443,
             "users": [
               {
-                "id": "1a7680df-81a1-3d89-a221-db81ac4b04df",
-                "alterId": 2,
+                "id": "92622695-8087-4f81-97ea-1bd9cfeddfcf",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us4.djjc.sbs"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/djjc/us4",
+          "headers": {
+            "Host": "us4.djjc.sbs"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
