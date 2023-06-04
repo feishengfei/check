@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "36.134.16.171",
-            "port": 11023,
+            "address": "cdn.ikuan.dev",
+            "port": 2052,
             "users": [
               {
-                "id": "8c042a38-71c1-1dcb-00df-54880236e0dc",
+                "id": "3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/FreeForGFW",
+          "headers": {
+            "Host": "freeforgfw.ikuan.dev"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "iepl2.airtcp.vip",
-            "port": 51002,
+            "address": "freenode.nirezzvpn.my.id",
+            "port": 80,
             "users": [
               {
-                "id": "1a7680df-81a1-3d89-a221-db81ac4b04df",
-                "alterId": 2,
+                "id": "32388295-b10f-409e-a61e-ebd03666899b",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmessws",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
