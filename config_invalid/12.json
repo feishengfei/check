@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "rsp.ircf.space",
+            "address": "cdn.anycast.eu.org",
             "port": 443,
             "users": [
               {
-                "id": "3bcbd5cd-e791-4770-8bc7-7b1d941c9513",
+                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "wfi.sahnama.com"
+          "serverName": "dedi2.1808.cf"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/S4PSg9xqUClN2kJ4SOPKqC6",
+          "path": "/835757",
           "headers": {
-            "Host": "wfi.sahnama.com"
+            "Host": "dedi2.1808.cf"
           }
         },
         "httpSettings": null,
