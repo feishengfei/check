@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "banterbener.my.id",
-            "port": 80,
+            "address": "aaaa.wxx.gay",
+            "port": 443,
             "users": [
               {
-                "id": "5d956feb-4605-4523-a866-2a8b45f1216f",
+                "id": "07239f88-03ba-11ee-8738-000017022008",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/xrayvws",
+          "path": "/look",
           "headers": {
             "Host": ""
           }
