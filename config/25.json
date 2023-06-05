@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10914,
+      "port": 10925,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,7 +36,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.ikuan.dev",
+            "address": "freenodecdn.ikuan.dev",
             "port": 2052,
             "users": [
               {
