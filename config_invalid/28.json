@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.anycast.eu.org",
-            "port": 443,
+            "address": "bb.hk1997.pro",
+            "port": 2087,
             "users": [
               {
-                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
+                "id": "fdf6caf1-88e0-4eca-b7b6-a60b70aa1e93",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/835757",
+          "path": "/jash-weh-peft-pseb-lous-jass",
           "headers": {
-            "Host": "dedi2.1808.cf"
+            "Host": "bb.hk1997.pro"
           }
         },
         "httpSettings": null,

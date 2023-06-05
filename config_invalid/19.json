@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "downloadvip.cfd",
-            "port": 443,
+            "address": "tou.vtcss.top",
+            "port": 8080,
             "users": [
               {
-                "id": "92622695-8087-4f81-97ea-1bd9cfeddfcf",
+                "id": "9588cb0f-5102-4e66-d5fb-f96cba9acdda",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us4.djjc.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/djjc/us4",
+          "path": "/qazxcv00",
           "headers": {
-            "Host": "us4.djjc.sbs"
+            "Host": ""
           }
         },
         "httpSettings": null,
