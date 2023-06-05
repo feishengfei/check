@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "ask.ircf.space",
-            "port": 443,
+            "address": "185.133.40.192",
+            "port": 35059,
             "users": [
               {
-                "id": "3bcbd5cd-e791-4770-8bc7-7b1d941c9513",
-                "alterId": 0,
+                "id": "8d78c2a8-acaa-467d-9234-d2606624506d",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "wfi.sahnama.com"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/S4PSg9xqUClN2kJ4SOPKqC6",
-          "headers": {
-            "Host": "wfi.sahnama.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
