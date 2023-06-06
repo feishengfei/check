@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "167.88.61.60",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "RexnBgU7EV5ADxG",
-            "port": 7001,
-            "level": 1,
-            "users": null
+            "address": "vus2.0bad.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vus2.0bad.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/chat",
+          "headers": {
+            "Host": "vus2.0bad.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
