@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10916,
+      "port": 10920,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.22.52.83",
-            "port": 8880,
+            "address": "188.114.96.3",
+            "port": 443,
             "users": [
               {
-                "id": "cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c",
+                "id": "a11ca760-9ef9-4a63-95c9-4c5c32d56251",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "new8.huvicloud.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qazxcv00",
+          "path": "/",
           "headers": {
-            "Host": "tou.vtcss.top"
+            "Host": "new8.huvicloud.com"
           }
         },
         "httpSettings": null,
