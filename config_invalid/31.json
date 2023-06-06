@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "ieplhk.lanyunshi.top",
-            "port": 51004,
+            "address": "108.162.195.13",
+            "port": 2052,
             "users": [
               {
-                "id": "1a7680df-81a1-3d89-a221-db81ac4b04df",
-                "alterId": 2,
+                "id": "0227edc4-8735-4370-ac42-4e8147920f0b",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/qwer00",
+          "headers": {
+            "Host": "tou.vtcss.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

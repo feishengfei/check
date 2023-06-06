@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-yd-dns.sharecentre.online",
-            "port": 80,
+            "address": "turkey.abraak.site",
+            "port": 2087,
             "users": [
               {
-                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
+                "id": "21025839-c140-4c67-8f4c-9a413ca8de3f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/shirker",
-          "headers": {
-            "Host": "dp3.scproxy.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
