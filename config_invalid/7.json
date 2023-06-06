@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "167.88.61.60",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "g5MeD6Ft3CWlJId",
-            "port": 5004,
-            "level": 1,
-            "users": null
+            "address": "bb.hk1997.pro",
+            "port": 1001,
+            "users": [
+              {
+                "id": "fdf6caf1-88e0-4eca-b7b6-a60b70aa1e93",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/jash-weh-peft-pseb-lous-jass",
+          "headers": {
+            "Host": "bb.hk1997.pro"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
