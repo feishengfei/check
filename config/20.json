@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10916,
+      "port": 10920,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-yd-dns.sharecentre.online",
-            "port": 80,
+            "address": "cdn.ikuan.dev",
+            "port": 2052,
             "users": [
               {
-                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
+                "id": "3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/FreeForGFW",
           "headers": {
-            "Host": "dp3.scproxy.top"
+            "Host": "freeforgfw.ikuan.dev"
           }
         },
         "httpSettings": null,
