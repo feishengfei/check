@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "baic.vtcss.top",
-            "port": 8880,
+            "address": "185.170.166.189",
+            "port": 443,
             "users": [
               {
-                "id": "4a11efd5-b731-4002-aa01-647f3a2f4a4e",
+                "id": "A59E320C-BAC6-45E3-8A27-1518610708D0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.v2ray.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/speedtest",
           "headers": {
-            "Host": ""
+            "Host": "Dusseldorf.v2ray.online"
           }
         },
         "httpSettings": null,

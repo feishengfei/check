@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.46.15",
+            "address": "v2ray.online",
             "port": 443,
             "users": [
               {
-                "id": "12612e87-8003-44a8-b4e8-ec4a325e9016",
+                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "z.zorro.tk"
+          "serverName": "Kansas.v2ray.online"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ou",
+          "path": "/speedtest",
           "headers": {
-            "Host": "z.zorro.tk"
+            "Host": "Kansas.v2ray.online"
           }
         },
         "httpSettings": null,
