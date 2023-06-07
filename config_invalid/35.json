@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "turkey.abraak.site",
-            "port": 2087,
+            "address": "172.66.46.15",
+            "port": 443,
             "users": [
               {
-                "id": "21025839-c140-4c67-8f4c-9a413ca8de3f",
+                "id": "12612e87-8003-44a8-b4e8-ec4a325e9016",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "z.zorro.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/ou",
+          "headers": {
+            "Host": "z.zorro.tk"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
