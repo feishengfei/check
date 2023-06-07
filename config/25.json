@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10924,
+      "port": 10925,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.noice.id",
+            "address": "goodbyefilteringchannel.space",
             "port": 443,
             "users": [
               {
-                "id": "37776019-07ea-4a1d-94e7-88e5e133ad5a",
+                "id": "4258efe6-e542-468a-fc4f-8cd1fd7bb3bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "v2ray1.udpgw.com"
+          "serverName": "goodbyefilteringchannel.space"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/worryfree",
+          "path": "/ports/19745",
           "headers": {
-            "Host": "v2ray1.udpgw.com"
+            "Host": "goodbyefilteringchannel.space"
           }
         },
         "httpSettings": null,
