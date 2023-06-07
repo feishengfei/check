@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bb.hk1997.pro",
-            "port": 1002,
+            "address": "speed.76898102.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290",
+                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dedi2.1808.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jash-weh-peft-pseb-lous-jass",
+          "path": "/835757",
           "headers": {
-            "Host": "bb.hk1997.pro"
+            "Host": "dedi2.1808.cf"
           }
         },
         "httpSettings": null,
