@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-dx-dns.sharecentre.online",
-            "port": 80,
+            "address": "45.95.203.252",
+            "port": 10001,
             "users": [
               {
-                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
+                "id": "510ac62c-03c3-11ee-97c1-b30e62416a45",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/vpnjantit",
           "headers": {
-            "Host": "in.sharecentrepro.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
