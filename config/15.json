@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10908,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "visa.cn",
-            "port": 80,
+            "address": "192.248.161.78",
+            "port": 2096,
             "users": [
               {
-                "id": "8a694cfb-d143-4378-cb85-faacdc69e5e1",
+                "id": "3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -63,7 +63,7 @@
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "ass.669990.xyz"
+            "Host": "192.248.161.78"
           }
         },
         "httpSettings": null,

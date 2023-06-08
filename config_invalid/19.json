@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "speed.76898102.xyz",
-            "port": 443,
+            "address": "visa.cn",
+            "port": 80,
             "users": [
               {
-                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
+                "id": "8a694cfb-d143-4378-cb85-faacdc69e5e1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/835757",
+          "path": "/",
           "headers": {
-            "Host": "dedi2.1808.cf"
+            "Host": "ass.669990.xyz"
           }
         },
         "httpSettings": null,
