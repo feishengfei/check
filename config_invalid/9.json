@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "usblog.114514782.xyz",
-            "port": 2052,
+            "address": "www.noice.id",
+            "port": 443,
             "users": [
               {
-                "id": "d1969fc7-b361-3c1d-b92d-4ae5c3909e62",
+                "id": "37776019-07ea-4a1d-94e7-88e5e133ad5a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v2ray1.udpgw.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/mtryjhiaogrs",
+          "path": "/worryfree",
           "headers": {
-            "Host": ""
+            "Host": "v2ray1.udpgw.com"
           }
         },
         "httpSettings": null,
