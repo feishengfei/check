@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.v2-ray.cyou",
-            "port": 23608,
+            "address": "visa.cn",
+            "port": 80,
             "users": [
               {
-                "id": "0dd19d20-ec86-3680-b256-87237bafa89e",
-                "alterId": 2,
+                "id": "8a694cfb-d143-4378-cb85-faacdc69e5e1",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "ass.669990.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
