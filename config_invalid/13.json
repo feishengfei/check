@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "iepl2.airtcp.vip",
-            "port": 51002,
+            "address": "25.v2-ray.cyou",
+            "port": 23625,
             "users": [
               {
-                "id": "1a7680df-81a1-3d89-a221-db81ac4b04df",
+                "id": "0dd19d20-ec86-3680-b256-87237bafa89e",
                 "alterId": 2,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "25.v2-ray.cyou"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
