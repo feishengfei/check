@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "15.204.49.162",
-            "port": 44110,
+            "address": "tw99-hinet.mynodes001.one",
+            "port": 445,
             "users": [
               {
-                "id": "adb921b3-1702-4193-e032-a54cc2f5580b",
+                "id": "5f04de84-6b7e-3564-82c2-d2a998002629",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

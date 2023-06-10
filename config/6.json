@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10916,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.noice.id",
-            "port": 443,
+            "address": "join-bede.vmessorg.fun",
+            "port": 80,
             "users": [
               {
-                "id": "37776019-07ea-4a1d-94e7-88e5e133ad5a",
+                "id": "af463851-0483-4557-8dff-87dcc5b808af",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "v2ray1.udpgw.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/worryfree",
+          "path": "/",
           "headers": {
-            "Host": "v2ray1.udpgw.com"
+            "Host": "join-bede.vmessorg.fun"
           }
         },
         "httpSettings": null,

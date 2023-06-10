@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.95",
-            "port": 443,
+            "address": "104.25.197.67",
+            "port": 2095,
             "users": [
               {
-                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
+                "id": "43f71098-601d-459b-91f2-7e85a9ac6042",
                 "alterId": 0,
                 "email": "",
-                "security": "aes-128-gcm",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/835757",
+          "path": "/blue",
           "headers": {
-            "Host": "dedi2.1808.cf"
+            "Host": "x2.ylks01.eu.org"
           }
         },
         "httpSettings": null,
