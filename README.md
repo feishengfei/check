@@ -6,9 +6,9 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr          | cn   | cc   | isp   | ip             | chatgpt          |
-|---:|:-------------------|:--------------|:-----|:-----|:------|:---------------|:-----------------|
-|  0 | [8](config/8.json) | 8.v2-ray.cyou |      |      |       | 193.108.118.34 | Yes (Region: DE) |
+|    | id                 | addr          | cn      | cc   | isp               | ip             | chatgpt          |
+|---:|:-------------------|:--------------|:--------|:-----|:------------------|:---------------|:-----------------|
+|  0 | [8](config/8.json) | 8.v2-ray.cyou | Germany | DE   | AS-GLOBALTELEHOST | 193.108.118.34 | Yes (Region: DE) |
 
 ## Valid
 ```

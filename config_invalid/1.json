@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.179.142.155",
-            "port": 17660,
+            "address": "datacenter.cm.01.biqibao.site",
+            "port": 2052,
             "users": [
               {
-                "id": "c3ffcbcb-037d-4c61-a3e2-e14150e02ff5",
+                "id": "c36d4223-1804-494a-a453-d4f77f10c830",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "/public",
           "headers": {
-            "Host": ""
+            "Host": "detacenter.01.biqibao.site"
           }
         },
         "httpSettings": null,
