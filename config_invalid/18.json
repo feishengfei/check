@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yd1.01dj.sbs",
-            "port": 443,
+            "address": "162.159.58.253",
+            "port": 2052,
             "users": [
               {
-                "id": "08d3c0b5-6515-4187-860f-2e41dac6a94b",
+                "id": "c36d4223-1804-494a-a453-d4f77f10c830",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "yd1.01dj.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sometimesnaive",
+          "path": "/public",
           "headers": {
-            "Host": "yd1.01dj.sbs"
+            "Host": "detacenter.01.biqibao.site"
           }
         },
         "httpSettings": null,
