@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "datacenter.cm.01.biqibao.site",
-            "port": 2052,
+            "address": "sww.kisskiss.pro",
+            "port": 443,
             "users": [
               {
-                "id": "c36d4223-1804-494a-a453-d4f77f10c830",
+                "id": "188362c7-7f7b-427d-9db4-0a45ee3fd4d4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sww.kisskiss.pro"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public",
+          "path": "/sfbfkjfge9",
           "headers": {
-            "Host": "detacenter.01.biqibao.site"
+            "Host": "sww.kisskiss.pro"
           }
         },
         "httpSettings": null,
