@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "datacenter.cm.01.biqibao.site",
-            "port": 2052,
-            "users": [
-              {
-                "id": "c36d4223-1804-494a-a453-d4f77f10c830",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "42.157.161.166",
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "c612000c-3ad2-47c1-9474-7bda44e9a480",
+            "port": 30036,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/public",
-          "headers": {
-            "Host": "detacenter.01.biqibao.site"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
