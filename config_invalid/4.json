@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "wkldmcatk.76898102.xyz",
-            "port": 2052,
+            "address": "162.159.195.107",
+            "port": 443,
             "users": [
               {
-                "id": "e412e583-ce9b-3cf5-8812-32b9fa47562b",
+                "id": "553f509e-56c1-4eaf-be67-b9b20c780bff",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ushd35.wvpn.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/miaowkl",
+          "path": "/ws1341380505",
           "headers": {
-            "Host": "wkldmcatk.76898102.xyz"
+            "Host": "ushd35.wvpn.top"
           }
         },
         "httpSettings": null,
