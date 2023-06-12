@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "107.175.44.54",
-            "port": 52107,
+            "address": "190.93.245.10",
+            "port": 80,
             "users": [
               {
-                "id": "1b0b173e-0cd2-4aee-da85-fc4590ddfb87",
+                "id": "a67679a6-a186-4d62-f84e-f3f00dc7745e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/youlingkaishi01",
+          "headers": {
+            "Host": "tou.vtcss.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
