@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10901,
+      "port": 10914,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
+            "address": "104.18.23.26",
             "port": 8080,
             "users": [
               {
-                "id": "d16c31a2-93a3-4f1a-954c-e383b14a4d26",
+                "id": "dcafb669-fefc-4994-e3a9-5f40ed6aa7cf",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/sshtproject",
           "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
+            "Host": "v2free.sshtproect.shop"
           }
         },
         "httpSettings": null,
