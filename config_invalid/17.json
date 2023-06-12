@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "turkey.abraak.site",
-            "port": 2087,
+            "address": "ns1.v2-vip.fun",
+            "port": 80,
             "users": [
               {
-                "id": "21025839-c140-4c67-8f4c-9a413ca8de3f",
+                "id": "8abe9496-5e24-4e49-b566-dcf86116017d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/i99LgvSaslbsPLLQQ7j6Z",
+          "headers": {
+            "Host": "de5.irteh.fun"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
