@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.v2-ray.cyou",
-            "port": 23608,
+            "address": "v2ray.ibgfw.top",
+            "port": 2096,
             "users": [
               {
-                "id": "0dd19d20-ec86-3680-b256-87237bafa89e",
-                "alterId": 2,
+                "id": "5ba1bfab-6b4e-42ec-ab7d-1db555a28c29",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v2ray.ibgfw.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/4k6OGg3U/",
+          "headers": {
+            "Host": "v2ray.ibgfw.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
