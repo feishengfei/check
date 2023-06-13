@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.81.150",
-            "port": 443,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "553f509e-56c1-4eaf-be67-b9b20c780bff",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "usgc58.wvpn.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ws1341380505",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "usgc58.wvpn.top"
+            "Host": "dp1.yxjnode.com"
           }
         },
         "httpSettings": null,

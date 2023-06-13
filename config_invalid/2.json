@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.26.63.252",
-            "port": 49055,
+            "address": "104.18.81.150",
+            "port": 443,
             "users": [
               {
-                "id": "e86c376a-2487-48bb-d82d-9396f84fa845",
+                "id": "553f509e-56c1-4eaf-be67-b9b20c780bff",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "usgc58.wvpn.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "/ws1341380505",
           "headers": {
-            "Host": ""
+            "Host": "usgc58.wvpn.top"
           }
         },
         "httpSettings": null,
