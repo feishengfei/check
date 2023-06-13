@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.26",
-            "port": 8080,
+            "address": "104.18.83.10",
+            "port": 443,
             "users": [
               {
-                "id": "dcafb669-fefc-4994-e3a9-5f40ed6aa7cf",
+                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dedi2.1808.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sshtproject",
+          "path": "/835757",
           "headers": {
-            "Host": "v2free.sshtproect.shop"
+            "Host": "dedi2.1808.cf"
           }
         },
         "httpSettings": null,
