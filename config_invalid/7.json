@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 8080,
+            "address": "104.18.81.150",
+            "port": 443,
             "users": [
               {
-                "id": "d16c31a2-93a3-4f1a-954c-e383b14a4d26",
+                "id": "553f509e-56c1-4eaf-be67-b9b20c780bff",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "usgc58.wvpn.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/ws1341380505",
           "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
+            "Host": "usgc58.wvpn.top"
           }
         },
         "httpSettings": null,
