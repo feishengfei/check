@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ipV2Ray-mtn3.ddns.net",
-            "port": 2087,
+            "address": "104.31.16.45",
+            "port": 80,
             "users": [
               {
-                "id": "abfda70a-cb03-4a41-957c-3ff6972c79a5",
+                "id": "2fcc2939-7dcf-4741-aa03-825bc40e23fd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "info.mashshop.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/CZfczvtieCZXdOlgWhgDLX",
           "headers": {
-            "Host": "info.mashshop.top"
+            "Host": "de3.irteh.fun"
           }
         },
         "httpSettings": null,
