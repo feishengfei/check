@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.55.60",
-            "port": 2052,
+            "address": "172.67.147.152",
+            "port": 443,
             "users": [
               {
-                "id": "3f100fa9-a160-4a1c-c40d-e22070ac9785",
+                "id": "9e6ceeff-2546-3690-ac00-6fcdf31dec94",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "chat.samrg.buzz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer00",
+          "path": "/cutino",
           "headers": {
-            "Host": "x2.ylks01.eu.org"
+            "Host": "chat.samrg.buzz"
           }
         },
         "httpSettings": null,
