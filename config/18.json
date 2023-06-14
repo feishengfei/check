@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10916,
+      "port": 10918,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "speed.76898102.xyz",
-            "port": 443,
+            "address": "8.v2-ray.cyou",
+            "port": 23608,
             "users": [
               {
-                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
-                "alterId": 0,
+                "id": "0dd19d20-ec86-3680-b256-87237bafa89e",
+                "alterId": 2,
                 "email": "",
-                "security": "aes-128-gcm",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/835757",
-          "headers": {
-            "Host": "dedi2.1808.cf"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

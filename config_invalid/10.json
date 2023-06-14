@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "speed.76898102.xyz",
-            "port": 443,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
-                "security": "aes-128-gcm",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/835757",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "dedi2.1808.cf"
+            "Host": "dp1.yxjnode.com"
           }
         },
         "httpSettings": null,
