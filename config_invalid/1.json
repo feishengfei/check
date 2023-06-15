@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "phoenix.csi7lahsc.com",
-            "port": 9001,
+            "address": "64.32.4.40",
+            "port": 43166,
             "users": [
               {
-                "id": "e2b7549f-667f-41e8-d501-ae59fc82db60",
-                "alterId": 0,
+                "id": "8653004f-de67-44c2-9cce-e0830933fb03",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/video",
-          "headers": {
-            "Host": "phoenix.csi7lahsc.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

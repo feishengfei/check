@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "x.leonard.eu.org",
+            "address": "195.133.53.90",
             "port": 443,
             "users": [
               {
-                "id": "1441af41-5cee-497e-a47c-c26af169f9ff",
+                "id": "04b38baf-5b78-4937-b27a-83057b08b776",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,11 +55,8 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
