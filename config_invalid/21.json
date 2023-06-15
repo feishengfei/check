@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.44.239",
-            "port": 8880,
+            "address": "212.110.134.7",
+            "port": 443,
             "users": [
               {
-                "id": "53ae65be-81ee-4766-8a09-da43c44c4d30",
+                "id": "3de4ec27-74b4-43e3-bf23-18e726ac80bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "zHGKLbqn6UM.janbaroon.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/youlingkaishi",
+          "path": "/P6kpn5UKG40MNLK2",
           "headers": {
-            "Host": "uyaa.vtcss.top"
+            "Host": "zHGKLbqn6UM.janbaroon.com"
           }
         },
         "httpSettings": null,

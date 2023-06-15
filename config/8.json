@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "212.110.134.7",
-            "port": 443,
+            "address": "frankfurt.csi7lahsc.com",
+            "port": 9001,
             "users": [
               {
-                "id": "3de4ec27-74b4-43e3-bf23-18e726ac80bc",
+                "id": "e2b7549f-667f-41e8-d501-ae59fc82db60",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "zHGKLbqn6UM.janbaroon.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/P6kpn5UKG40MNLK2",
+          "path": "/video",
           "headers": {
-            "Host": "zHGKLbqn6UM.janbaroon.com"
+            "Host": "frankfurt.csi7lahsc.com"
           }
         },
         "httpSettings": null,

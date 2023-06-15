@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.147.152",
-            "port": 443,
+            "address": "172.64.85.245",
+            "port": 2052,
             "users": [
               {
-                "id": "9e6ceeff-2546-3690-ac00-6fcdf31dec94",
+                "id": "243240f9-9f5b-4f98-dd5c-e19784d19631",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "chat.samrg.buzz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cutino",
+          "path": "/youlingkaishi",
           "headers": {
-            "Host": "chat.samrg.buzz"
+            "Host": "uyaa.vtcss.top"
           }
         },
         "httpSettings": null,

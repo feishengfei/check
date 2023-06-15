@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "ashburn.csi7lahsc.com",
-            "port": 9001,
+            "address": "156.225.67.41",
+            "port": 47782,
             "users": [
               {
-                "id": "e2b7549f-667f-41e8-d501-ae59fc82db60",
-                "alterId": 0,
+                "id": "de491802-233e-47f2-8c6c-d19bcf5bd56b",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/video",
-          "headers": {
-            "Host": "ashburn.csi7lahsc.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

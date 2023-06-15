@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.durov.ir",
-            "port": 443,
+            "address": "156.245.8.205",
+            "port": 48588,
             "users": [
               {
-                "id": "c7654980-72fe-492d-8b6f-a4cb55c94c2e",
-                "alterId": 0,
+                "id": "3fd637ad-46fe-4f85-a6e8-86b00bca1122",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dedipath.iiio.wiki"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/aries?ed=2048",
-          "headers": {
-            "Host": "dedipath.iiio.wiki"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

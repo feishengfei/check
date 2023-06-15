@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10918,
+      "port": 10911,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.244.19",
-            "port": 80,
+            "address": "51.195.209.132",
+            "port": 2002,
             "users": [
               {
-                "id": "a67679a6-a186-4d62-f84e-f3f00dc7745e",
+                "id": "a853d91e-c28b-42c8-ee08-a45771005cc2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/youlingkaishi0",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "tou.vtcss.top"
+            "Host": ""
           }
         },
         "httpSettings": null,
