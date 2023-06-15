@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "melb.csi7lahsc.com",
-            "port": 9001,
+            "address": "212.110.134.7",
+            "port": 443,
             "users": [
               {
-                "id": "e2b7549f-667f-41e8-d501-ae59fc82db60",
+                "id": "3de4ec27-74b4-43e3-bf23-18e726ac80bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "zHGKLbqn6UM.janbaroon.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/video",
+          "path": "/P6kpn5UKG40MNLK2",
           "headers": {
-            "Host": ""
+            "Host": "zHGKLbqn6UM.janbaroon.com"
           }
         },
         "httpSettings": null,
