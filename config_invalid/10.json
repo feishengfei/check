@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "130.61.61.17",
-            "port": 80,
+            "address": "104.25.13.81",
+            "port": 2096,
             "users": [
               {
-                "id": "13c7db38-b00f-49ca-bd9e-60f4f1f008cd",
+                "id": "f387a0af-4b70-4a40-e2c3-2f22472df0cb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "x1.ylks01.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13.m3u8?ed=2048",
+          "path": "/blue",
           "headers": {
-            "Host": ""
+            "Host": "x1.ylks01.eu.org"
           }
         },
         "httpSettings": null,
