@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.254.140.245",
-            "port": 80,
+            "address": "fn-sw-01.freelandernode.shop",
+            "port": 10000,
             "users": [
               {
-                "id": "1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c",
+                "id": "4a42350c-5202-424b-ad7a-dd1033239b1f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/oSiR4t7dQow0J9ea3kKkF",
+          "path": "/sw",
           "headers": {
-            "Host": "hello-world-solitary-sky-c0bf.ourwayapp.workers.dev"
+            "Host": ""
           }
         },
         "httpSettings": null,
