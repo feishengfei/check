@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10914,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "uk2-vmess.greenssh.xyz",
+            "address": "dl.v001sssv.pw",
             "port": 80,
             "users": [
               {
-                "id": "2076df30-81e3-4312-840b-3e1462c0b85e",
+                "id": "a4bb7f93-cee6-43d7-b2dd-fa9c70b88233",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "uk2-vmess.greenssh.xyz"
+            "Host": "dl.v001sssv.pw"
           }
         },
         "httpSettings": null,
