@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fn-jp-02.freelandernode.shop",
-            "port": 10000,
+            "address": "173.245.59.119",
+            "port": 2086,
             "users": [
               {
-                "id": "4a42350c-5202-424b-ad7a-dd1033239b1f",
+                "id": "4d2ca583-7e2a-4ef4-ba15-ffc7d9147a32",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/ylks0",
+          "headers": {
+            "Host": "tou.vtcss.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
