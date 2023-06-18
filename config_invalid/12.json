@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ovhsdza.76898102.xyz",
-            "port": 2052,
+            "address": "104.17.216.39",
+            "port": 2096,
             "users": [
               {
-                "id": "285bfc27-2341-3c7a-be0e-360cedd5e209",
+                "id": "f387a0af-4b70-4a40-e2c3-2f22472df0cb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "x1.ylks01.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/funsdfrh",
+          "path": "/blue01",
           "headers": {
-            "Host": "ovhsdz.76898102.xyz"
+            "Host": "x1.ylks01.eu.org"
           }
         },
         "httpSettings": null,

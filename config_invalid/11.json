@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg10.zingfast.vn",
-            "port": 80,
+            "address": "cdnjs.com",
+            "port": 443,
             "users": [
               {
-                "id": "533724ad-58ef-4147-88dc-9da523c15fc4",
+                "id": "2CCC8DAB-53C6-741F-6309-446107D82FC1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Kansas.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/anti13.zingfast.vn",
+          "path": "/speedtest",
           "headers": {
-            "Host": ""
+            "Host": "Kansas.kotick.site"
           }
         },
         "httpSettings": null,

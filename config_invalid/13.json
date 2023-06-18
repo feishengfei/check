@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.243.235",
-            "port": 443,
+            "address": "104.19.204.9",
+            "port": 8080,
             "users": [
               {
-                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
+                "id": "a67679a6-a186-4d62-f84e-f3f00dc7745e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/835757",
+          "path": "/youlingkaishi01",
           "headers": {
-            "Host": "dedi2.1808.cf"
+            "Host": "tou.vtcss.top"
           }
         },
         "httpSettings": null,

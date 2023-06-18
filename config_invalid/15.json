@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray.online",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 8080,
             "users": [
               {
-                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
+                "id": "d16c31a2-93a3-4f1a-954c-e383b14a4d26",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Kansas.v2ray.online"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "Kansas.v2ray.online"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
