@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10919,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.58",
-            "port": 443,
+            "address": "hkgkgb.76898102.xyz",
+            "port": 2082,
             "users": [
               {
-                "id": "a10f9d24-bb5d-4622-e75b-f02c348506a9",
+                "id": "285bfc27-2341-3c7a-be0e-360cedd5e209",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Mci-Rightel-talia-mokhaberat.irancell-irancell.website"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@SeyyedMT @SeyyedMT",
+          "path": "/funsdfrh",
           "headers": {
-            "Host": "Mci-Rightel-talia-mokhaberat.irancell-irancell.website"
+            "Host": "hkg.76898102.xyz"
           }
         },
         "httpSettings": null,
