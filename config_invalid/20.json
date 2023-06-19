@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.243.235",
-            "port": 443,
+            "address": "www.digitalocean.com",
+            "port": 80,
             "users": [
               {
-                "id": "dddd0b29-1576-4003-9990-d7cea34264db",
+                "id": "25b280df-e990-4495-80e3-48ec3c83da77",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/835757",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "dedi2.1808.cf"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,

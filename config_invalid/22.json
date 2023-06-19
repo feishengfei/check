@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.45",
-            "port": 80,
+            "address": "www.noice.id",
+            "port": 443,
             "users": [
               {
-                "id": "2fcc2939-7dcf-4741-aa03-825bc40e23fd",
+                "id": "af34de1b-3893-41e1-a6dd-68909f9f126b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v2ray2.udpgw.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/CZfczvtieCZXdOlgWhgDLX",
+          "path": "/worryfree",
           "headers": {
-            "Host": "de3.irteh.fun"
+            "Host": "v2ray2.udpgw.com"
           }
         },
         "httpSettings": null,
