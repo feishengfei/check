@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "datacenter.cm.01.biqibao.site",
-            "port": 2052,
+            "address": "zfc.windowsupdate1.com",
+            "port": 443,
             "users": [
               {
-                "id": "c36d4223-1804-494a-a453-d4f77f10c830",
+                "id": "41bec492-cd79-4b57-9a15-7d2bb00fcfca",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "usfh2.pqjc.buzz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public",
+          "path": "/pq/usfh2?ed=2048",
           "headers": {
-            "Host": "detacenter.01.biqibao.site"
+            "Host": "usfh2.pqjc.buzz"
           }
         },
         "httpSettings": null,

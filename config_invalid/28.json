@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bb.hk1997.pro",
-            "port": 1000,
+            "address": "141.101.113.15",
+            "port": 2053,
             "users": [
               {
-                "id": "0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290",
+                "id": "0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "x1.ylks01.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jash-weh-peft-pseb-lous-jass",
+          "path": "/blue01",
           "headers": {
-            "Host": "bb.hk1997.pro"
+            "Host": "x1.ylks01.eu.org"
           }
         },
         "httpSettings": null,
