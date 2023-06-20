@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.digitalocean.com",
-            "port": 80,
+            "address": "doinbtimes.cf",
+            "port": 443,
             "users": [
               {
-                "id": "25b280df-e990-4495-80e3-48ec3c83da77",
+                "id": "16702ec2-3808-46e6-a7b5-582c062be13d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "jpnat1.doinb.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/aslpop",
           "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
+            "Host": "jpnat1.doinb.tk"
           }
         },
         "httpSettings": null,
