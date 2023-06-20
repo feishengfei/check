@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10901,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.245.8.142",
-            "port": 49929,
+            "address": "www.digitalocean.com",
+            "port": 80,
             "users": [
               {
-                "id": "6193116d-96f9-4d7a-9be5-5bb06a69af0b",
-                "alterId": 64,
+                "id": "25b280df-e990-4495-80e3-48ec3c83da77",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/api/v3/download.getFile",
+          "headers": {
+            "Host": "ssrsub.v01.ssrsub.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
