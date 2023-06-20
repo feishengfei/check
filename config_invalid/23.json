@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dl6.v001sssv.pw",
-            "port": 80,
+            "address": "cdnjs.com",
+            "port": 443,
             "users": [
               {
-                "id": "8eece2e1-cfc1-4f84-803e-1a66650982ea",
+                "id": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Amsterdam.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "dl6.v001sssv.pw"
+            "Host": "Amsterdam.kotick.site"
           }
         },
         "httpSettings": null,
