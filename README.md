@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                | cn   | cc   | isp   | ip           | chatgpt          |
-|---:|:---------------------|:--------------------|:-----|:-----|:------|:-------------|:-----------------|
-|  0 | [16](config/16.json) | cfcdn.sanfencdn.net |      |      |       | 65.75.220.16 | Yes (Region: US) |
+|    | id                 | addr                | cn      | cc   | isp               | ip             | chatgpt          |
+|---:|:-------------------|:--------------------|:--------|:-----|:------------------|:---------------|:-----------------|
+|  0 | [8](config/8.json) | hkgkgb.76898102.xyz | Germany | DE   | AS-GLOBALTELEHOST | 193.108.118.34 | Yes (Region: DE) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDE2IiwgImFkZCI6ICJjZmNkbi5zYW5mZW5jZG4ubmV0IiwgInBvcnQiOiAiNDQzIiwgImlkIjogIjY5ODExNWU0LTE0OTQtNGY0YS04NWE5LTc2Y2QwMTFkM2FjNiIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAidXMxLnNhbmZlbmNkbjEuY29tIiwgInBhdGgiOiAiL3poLWNuIiwgInRscyI6ICJ0bHMiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU4MjgyXHU3MGI5IDgiLCAiYWRkIjogImhrZ2tnYi43Njg5ODEwMi54eXoiLCAicG9ydCI6ICIyMDgyIiwgImlkIjogIjc4ZmQ0MWU1LTM0NmEtM2JmNC1iOTQyLWJlMGZhZDcxMTk3OSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiaGtnLjc2ODk4MTAyLnh5eiIsICJwYXRoIjogIi9mdW5zZGZyaCIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
 ```
 
