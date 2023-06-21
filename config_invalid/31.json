@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sdttkza.76898102.xyz",
-            "port": 2082,
+            "address": "oci.donpau.com",
+            "port": 443,
             "users": [
               {
-                "id": "4896559c-c94e-342a-b208-6107ec292652",
+                "id": "3C02DC15-56AE-7889-8936-9A2EA8FF8666",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/funsdfrh",
+          "path": "/",
           "headers": {
-            "Host": "sdttkz.76898102.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

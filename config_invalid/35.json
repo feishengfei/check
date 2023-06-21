@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray.online",
-            "port": 443,
+            "address": "br-bp.rnikjeh.shop",
+            "port": 80,
             "users": [
               {
-                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
+                "id": "d6f0af29-82c9-40e4-9236-b32f66a33096",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Kansas.v2ray.online"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/kSY4KXcsBmCgJEEFo3fkt9y4",
           "headers": {
-            "Host": "Kansas.v2ray.online"
+            "Host": "br-bp.rnikjeh.shop"
           }
         },
         "httpSettings": null,
