@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.32.142",
-            "port": 443,
+            "address": "www.digitalocean.com",
+            "port": 80,
             "users": [
               {
-                "id": "3de4ec27-74b4-43e3-bf23-18e726ac80bc",
+                "id": "25b280df-e990-4495-80e3-48ec3c83da77",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "QkGxa2MSvmu.janbaroon.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/P6kpn5UKG40MNLK2",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "QkGxa2MSvmu.janbaroon.com"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
