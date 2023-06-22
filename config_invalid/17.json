@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "doinbtimes.cf",
-            "port": 443,
+            "address": "hinettw1.applebench.tech",
+            "port": 56568,
             "users": [
               {
-                "id": "16702ec2-3808-46e6-a7b5-582c062be13d",
+                "id": "1f3d67b4-6929-4598-90ca-84a841bf02e4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jpnat1.doinb.tk"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/aslpop",
-          "headers": {
-            "Host": "jpnat1.doinb.tk"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
