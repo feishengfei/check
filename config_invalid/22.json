@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "doinbtimes.cf",
-            "port": 443,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "16702ec2-3808-46e6-a7b5-582c062be13d",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jpnat1.doinb.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aslpop",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "jpnat1.doinb.tk"
+            "Host": "dp1.yxjnode.com"
           }
         },
         "httpSettings": null,

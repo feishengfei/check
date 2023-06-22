@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.245.8.158",
-            "port": 43500,
+            "address": "104.16.32.142",
+            "port": 443,
             "users": [
               {
-                "id": "11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93",
-                "alterId": 64,
+                "id": "3de4ec27-74b4-43e3-bf23-18e726ac80bc",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "QkGxa2MSvmu.janbaroon.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/P6kpn5UKG40MNLK2",
+          "headers": {
+            "Host": "QkGxa2MSvmu.janbaroon.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
