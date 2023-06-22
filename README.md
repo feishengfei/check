@@ -6,12 +6,5 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr          | cn      | cc   | isp               | ip             | chatgpt          |
-|---:|:-------------------|:--------------|:--------|:-----|:------------------|:---------------|:-----------------|
-|  0 | [8](config/8.json) | 104.16.32.142 | Germany | DE   | AS-GLOBALTELEHOST | 193.108.118.34 | Yes (Region: DE) |
 
-## Valid
-```
-vmess://eyJhZGQiOiAiMTA0LjE2LjMyLjE0MiIsICJhaWQiOiAwLCAiaG9zdCI6ICJRa0d4YTJNU3ZtdS5qYW5iYXJvb24uY29tIiwgImlkIjogIjNkZTRlYzI3LTc0YjQtNDNlMy1iZjIzLTE4ZTcyNmFjODBiYyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvUDZrcG41VUtHNDBNTkxLMiIsICJwb3J0IjogNDQzLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDgiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
-```
 
