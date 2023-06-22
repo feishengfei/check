@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr        | cn    | cc   | isp              | ip                         | chatgpt          |
-|---:|:---------------------|:------------|:------|:-----|:-----------------|:---------------------------|:-----------------|
-|  0 | [36](config/36.json) | cf.durov.ir | India | IN   | DIGITALOCEAN-ASN | 2400:6180:100:d0::376:7001 | Yes (Region: IN) |
+|    | id                   | addr           | cn            | cc   | isp        | ip            | chatgpt          |
+|---:|:---------------------|:---------------|:--------------|:-----|:-----------|:--------------|:-----------------|
+|  0 | [34](config/34.json) | 192.74.228.189 | United States | US   | PEGTECHINC | 142.0.129.201 | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDM2IiwgImFkZCI6ICJjZi5kdXJvdi5pciIsICJwb3J0IjogIjIwNTIiLCAiaWQiOiAiYzc2NTQ5ODAtNzJmZS00OTJkLThiNmYtYTRjYjU1Yzk0YzJlIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJkb2luLmlpaW8ud2lraSIsICJwYXRoIjogIi9hcmllcz9lZD0yMDQ4IiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
+vmess://eyJhZGQiOiAiMTkyLjc0LjIyOC4xODkiLCAiYWlkIjogIjY0IiwgImFscG4iOiAiIiwgImhvc3QiOiAiIiwgImlkIjogIjA1MWI4NDRmLWVmZTMtNDg0Ny05MmFhLTY2YjVkZTBiNmQ0ZSIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJwb3J0IjogIjQyODU3IiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkXHU1MmEwXHU1MjI5XHU3OThmXHU1YzNjXHU0ZTlhXHU1ZGRlXHU1NzIzXHU0ZjU1XHU1ODVlUEVHIFRFQ0hcdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgMzQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
 ```
 
