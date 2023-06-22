@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "doinbtimes.cf",
-            "port": 443,
+            "address": "tech.noaries.de",
+            "port": 80,
             "users": [
               {
-                "id": "16702ec2-3808-46e6-a7b5-582c062be13d",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jpnat1.doinb.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aslpop",
+          "path": "/shirker",
           "headers": {
-            "Host": "jpnat1.doinb.tk"
+            "Host": "nl.sharecentrepro.com"
           }
         },
         "httpSettings": null,
