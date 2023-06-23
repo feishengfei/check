@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.243.235",
-            "port": 443,
+            "address": "s2.zwtg888.com",
+            "port": 33453,
             "users": [
               {
-                "id": "06a28663-4320-4a31-ab98-0ef8c1ef546b",
+                "id": "2100a1d2-773c-3a1d-b185-5686e0c79892",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ttk.731808.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cec6f2",
+          "path": "/v2ray",
           "headers": {
-            "Host": "ttk.731808.tk"
+            "Host": "s2.zwtg888.com"
           }
         },
         "httpSettings": null,
