@@ -37,10 +37,10 @@
         "vnext": [
           {
             "address": "zfc.windowsupdate1.com",
-            "port": 80,
+            "port": 443,
             "users": [
               {
-                "id": "01925169-e2ff-483c-89f2-6e778dcdd450",
+                "id": "274fefdb-6159-4765-b3e8-c6050b23b48f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hinet.guolicheng.cyou"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/meizhiyuan/hinet?ed=2048",
           "headers": {
-            "Host": "us-1.acyun.cf"
+            "Host": "hinet.guolicheng.cyou"
           }
         },
         "httpSettings": null,
