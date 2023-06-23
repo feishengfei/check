@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.142.69",
-            "port": 8880,
+            "address": "ovh.mi14.pro",
+            "port": 443,
             "users": [
               {
-                "id": "dbb471fd-c7ef-4599-871c-b4ed72cca498",
+                "id": "6cbe563c-7597-4526-cef4-f2533ce2ba28",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ovh.mi14.pro"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/go",
           "headers": {
-            "Host": "txx.vtcss.top"
+            "Host": "ovh.mi14.pro"
           }
         },
         "httpSettings": null,
