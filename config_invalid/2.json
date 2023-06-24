@@ -32,25 +32,21 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "170.178.162.137",
-            "port": 51217,
-            "users": [
-              {
-                "id": "28dd6c26-05a5-4bba-8a5d-052b70ac13b2",
-                "alterId": 64,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "rukou1.rookiebase.cn",
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "077efc30-5273-46ed-a55d-b40cf4750d83",
+            "port": 7010,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {

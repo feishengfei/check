@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "108.162.194.182",
-            "port": 2086,
-            "users": [
-              {
-                "id": "9572d691-e27a-4f54-ef4d-57600a785b55",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "rukou1.rookiebase.cn",
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "077efc30-5273-46ed-a55d-b40cf4750d83",
+            "port": 7060,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/qwer",
-          "headers": {
-            "Host": "txx.vtcss.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
