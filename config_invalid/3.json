@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "rukou1.rookiebase.cn",
-            "method": "aes-128-gcm",
-            "ota": false,
-            "password": "077efc30-5273-46ed-a55d-b40cf4750d83",
-            "port": 7060,
-            "level": 1,
-            "users": null
+            "address": "zfc.windowsupdate1.com",
+            "port": 80,
+            "users": [
+              {
+                "id": "01925169-e2ff-483c-89f2-6e778dcdd450",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "us-1.acyun.cf"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
