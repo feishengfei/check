@@ -6,16 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                    | cn          | cc   | isp               | ip                        | chatgpt          |
-|---:|:---------------------|:------------------------|:------------|:-----|:------------------|:--------------------------|:-----------------|
-|  0 | [8](config/8.json)   | frsadubidd.76898102.xyz | Germany     | DE   | AS-GLOBALTELEHOST | 193.108.118.34            | Yes (Region: DE) |
-|  1 | [9](config/9.json)   | 156.225.67.207          | Netherlands | NL   | YISP B.V.         | 154.84.1.161              | Yes (Region: NL) |
-|  2 | [21](config/21.json) | cf.durov.ir             | India       | IN   | CLOUDFLARENET     | 2a09:bac5:3b49:a8c::10d:8 | Yes (Region: IN) |
+|    | id                 | addr           | cn      | cc   | isp               | ip             | chatgpt          |
+|---:|:-------------------|:---------------|:--------|:-----|:------------------|:---------------|:-----------------|
+|  0 | [5](config/5.json) | 195.123.246.15 | Czechia | CZ   | Green Floid LLC   | 195.123.246.15 | Yes (Region: CZ) |
+|  1 | [8](config/8.json) | 104.18.120.99  | Germany | DE   | AS-GLOBALTELEHOST | 193.108.118.34 | Yes (Region: DE) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiZnJzYWR1YmlkZC43Njg5ODEwMi54eXoiLCAidiI6IDIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTgyODJcdTcwYjkgOCIsICJwb3J0IjogIjIwOTUiLCAiaWQiOiAiYTAzMWQ4N2QtZWE2OC0zNTExLWJjOGEtOGFiOThhYzczNGU5IiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJob3N0IjogImZyc2FkdWJpZC43Njg5ODEwMi54eXoiLCAidGxzIjogIiIsICJwYXRoIjogIi9mdW5zZGZyaCJ9
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNTdcdTk3NWUgIDkiLCAiYWRkIjogIjE1Ni4yMjUuNjcuMjA3IiwgInBvcnQiOiAiNDk5MzQiLCAiaWQiOiAiZDc3MzUwNTgtMWRhYy00NjE4LTk5ZmYtMGFhMDQ0MWVjMmQ3IiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIiIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDIxIiwgImFkZCI6ICJjZi5kdXJvdi5pciIsICJwb3J0IjogMjA1MiwgImlkIjogImM3NjU0OTgwLTcyZmUtNDkyZC04YjZmLWE0Y2I1NWM5NGMyZSIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAiZG9pbi5paWlvLndpa2kiLCAicGF0aCI6ICIvYXJpZXM_ZWQ9MjA0OCIsICJ0bHMiOiAiIn0=
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeWk0RkRlNEZkclRHM3JVcG5h@195.123.246.15:51348#github.com/freefq%20-%20%E6%8D%B7%E5%85%8B%20%205
+vmess://eyJhZGQiOiAiMTA0LjE4LjEyMC45OSIsICJhaWQiOiAwLCAiaG9zdCI6ICJ1c2ZyZWUuc3VwZXJuaWtlLmNvbSIsICJpZCI6ICJiZjFlYWY3Ni1kMWE5LTQxYmEtOGZmOS04OGVjMDgzYmQ2YjEiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogNDQzLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDgiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 ```
 

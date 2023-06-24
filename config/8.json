@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "frsadubidd.76898102.xyz",
-            "port": 2095,
+            "address": "104.18.120.99",
+            "port": 443,
             "users": [
               {
-                "id": "a031d87d-ea68-3511-bc8a-8ab98ac734e9",
+                "id": "bf1eaf76-d1a9-41ba-8ff9-88ec083bd6b1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "usfree.supernike.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/funsdfrh",
+          "path": "/",
           "headers": {
-            "Host": "frsadubid.76898102.xyz"
+            "Host": "usfree.supernike.com"
           }
         },
         "httpSettings": null,
