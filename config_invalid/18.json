@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-dx-dns.sharecentre.online",
-            "port": 80,
+            "address": "104.18.120.99",
+            "port": 443,
             "users": [
               {
-                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
+                "id": "b4ef52de-e0b7-4e37-8fe4-a151efdc3768",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "usfree.supernike.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/",
           "headers": {
-            "Host": "dp1.scproxy.top"
+            "Host": "usfree.supernike.com"
           }
         },
         "httpSettings": null,
