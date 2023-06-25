@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.203.42",
-            "port": 443,
+            "address": "cf-dx-dns.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
+                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "withered-disk-1b63.bangolan062443.workers.dev"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest/Amsterdam.kotick.site",
+          "path": "/shirker",
           "headers": {
-            "Host": "withered-disk-1b63.bangolan062443.workers.dev"
+            "Host": "dp4.scproxy.top"
           }
         },
         "httpSettings": null,
