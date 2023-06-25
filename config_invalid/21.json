@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.101.120.216",
-            "port": 8080,
+            "address": "v2ray.online",
+            "port": 443,
             "users": [
               {
-                "id": "a1bed870-013d-4555-becd-584b00249f3c",
+                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Kansas.v2ray.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/speedtest",
           "headers": {
-            "Host": "xx.ylks01.eu.org"
+            "Host": "Kansas.v2ray.online"
           }
         },
         "httpSettings": null,

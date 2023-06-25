@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10930,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "15.152.37.137",
-            "port": 27647,
+            "address": "dl.v001sssv.pw",
+            "port": 80,
             "users": [
               {
-                "id": "b3482779-80a6-4b7f-c53d-0df58a1fe5c7",
+                "id": "a4bb7f93-cee6-43d7-b2dd-fa9c70b88233",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "dl.v001sssv.pw"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
