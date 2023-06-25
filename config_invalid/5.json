@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cz.hug1013.me",
-            "port": 8880,
+            "address": "sg2.f163ab0f2c75.sanfen004.me",
+            "port": 443,
             "users": [
               {
-                "id": "8075ec18-25ca-4677-930a-867898c4cf9f",
+                "id": "3e309172-9f20-4e18-b42e-5c635ed4fa7c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/kyoma?ed=2048",
-          "headers": {
-            "Host": "cz.hug1013.me"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
