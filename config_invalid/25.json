@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-dx-dns.sharecentre.online",
-            "port": 80,
+            "address": "104.18.127.153",
+            "port": 2096,
             "users": [
               {
-                "id": "2d5d8b9c-8ec4-4a37-b610-78e71e13eaef",
+                "id": "f387a0af-4b70-4a40-e2c3-2f22472df0cb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "x1.ylks01.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/blue01",
           "headers": {
-            "Host": "dp1.scproxy.top"
+            "Host": "x1.ylks01.eu.org"
           }
         },
         "httpSettings": null,

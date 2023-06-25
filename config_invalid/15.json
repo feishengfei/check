@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "datacenter.cujp.01.biqibao.site",
-            "port": 2052,
+            "address": "162.159.243.233",
+            "port": 443,
             "users": [
               {
-                "id": "187953c7-3973-4a4b-84a9-c5cf22d73c68",
+                "id": "06a28663-4320-4a31-ab98-0ef8c1ef546b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ttk.731808.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public",
+          "path": "/cec6f2",
           "headers": {
-            "Host": "gcore.japan.biqibao.site"
+            "Host": "ttk.731808.tk"
           }
         },
         "httpSettings": null,
