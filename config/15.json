@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "smt.ircf.space",
+            "address": "akrab2.v-pn.my.id",
             "port": 443,
             "users": [
               {
-                "id": "3bcbd5cd-e791-4770-8bc7-7b1d941c9513",
+                "id": "b07a349b-5e3c-4b17-aabe-d1dc63376ecf",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "wfi.sahnama.com"
+          "serverName": "idc8.vpn-akcelluler.my.id"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/S4PSg9xqUClN2kJ4SOPKqC6",
+          "path": "/v2ray",
           "headers": {
-            "Host": "wfi.sahnama.com"
+            "Host": "idc8.vpn-akcelluler.my.id"
           }
         },
         "httpSettings": null,
