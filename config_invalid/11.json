@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "xt.ylks01.eu.org",
-            "port": 2095,
+            "address": "ger.digitalres.shop",
+            "port": 443,
             "users": [
               {
-                "id": "b710770a-fdaf-41fb-bbe4-68a6c41e2605",
+                "id": "f502f04c-9530-4a61-835b-4af1f3cd1ce4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ger.digitalres.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue",
+          "path": "/19458",
           "headers": {
-            "Host": ""
+            "Host": "ger.digitalres.shop"
           }
         },
         "httpSettings": null,
