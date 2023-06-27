@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v23.jiedian.stream",
-            "port": 80,
+            "address": "109.74.201.20",
+            "port": 443,
             "users": [
               {
-                "id": "b73f3f7e-b8c1-46f7-8afb-047bd7aaac26",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/chat",
           "headers": {
-            "Host": "v23.jiedian.stream"
+            "Host": ""
           }
         },
         "httpSettings": null,
