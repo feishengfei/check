@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg4.zingfast.vn",
-            "port": 80,
+            "address": "tw99-hinet.mynodes001.one",
+            "port": 445,
             "users": [
               {
-                "id": "533724ad-58ef-4147-88dc-9da523c15fc4",
+                "id": "5f04de84-6b7e-3564-82c2-d2a998002629",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/anti13.zingfast.vn",
-          "headers": {
-            "Host": "sg4.zingfast.vn"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

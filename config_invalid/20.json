@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "bluehost.com",
+            "address": "cn-to-hk-443.db-link.in",
             "port": 443,
             "users": [
               {
-                "id": "be74ca03-6a7c-4c88-edc2-c6434ead0cfa",
-                "alterId": 0,
+                "id": "40cbc750-a182-3fe2-8832-9fa6006354cf",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "cdnca1.digisport.shop"
+          "serverName": "free-to-us-01.db-link.in"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/16575",
+          "path": "/db",
           "headers": {
-            "Host": "cdnca1.digisport.shop"
+            "Host": "free-to-us-01.db-link.in"
           }
         },
         "httpSettings": null,

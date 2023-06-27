@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp.ssvpn.ru",
-            "port": 443,
+            "address": "ns1.v2-vip.fun",
+            "port": 80,
             "users": [
               {
-                "id": "f1d918ef-e160-4d0e-a48a-89ee1891ef46",
+                "id": "4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jp.ssvpn.ru"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ozX9aUPiJVtoLavjTW",
           "headers": {
-            "Host": "jp.ssvpn.ru"
+            "Host": "de14.irteh.fun"
           }
         },
         "httpSettings": null,
