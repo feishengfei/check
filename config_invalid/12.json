@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.181.183",
-            "port": 8080,
+            "address": "23.227.38.99",
+            "port": 443,
             "users": [
               {
-                "id": "a1bed870-013d-4555-becd-584b00249f3c",
+                "id": "86d37526-5758-4cec-862f-df404b313086",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "1.freek1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/3G6WPDL7",
           "headers": {
-            "Host": "xx.ylks01.eu.org"
+            "Host": "1.freek1.xyz"
           }
         },
         "httpSettings": null,
