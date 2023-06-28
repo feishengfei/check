@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp.ssvpn.ru",
+            "address": "v2ray.online",
             "port": 443,
             "users": [
               {
-                "id": "f1d918ef-e160-4d0e-a48a-89ee1891ef46",
+                "id": "00BBF5B8-173E-6818-9927-5AD1AA073C7D",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "jp.ssvpn.ru"
+          "serverName": "Kansas.v2ray.online"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "jp.ssvpn.ru"
+            "Host": "Kansas.v2ray.online"
           }
         },
         "httpSettings": null,
