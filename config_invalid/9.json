@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.100",
-            "port": 2082,
+            "address": "cn-to-hk-443.db-link.in",
+            "port": 443,
             "users": [
               {
-                "id": "80837af3-1ed8-4686-fa8a-6bf9214d5351",
-                "alterId": 0,
+                "id": "40cbc750-a182-3fe2-8832-9fa6006354cf",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "free-to-us-01.db-link.in"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries",
+          "path": "/db",
           "headers": {
-            "Host": "UK.CLOUDFLARE.QUEST"
+            "Host": "free-to-us-01.db-link.in"
           }
         },
         "httpSettings": null,
