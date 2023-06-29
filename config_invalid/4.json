@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.74.201.20",
-            "port": 443,
+            "address": "kr1.quickerlink.xyz",
+            "port": 3002,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "3853a2ab-6bec-4503-89b9-d3cbcc6b69c9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "kr1.quickerlink.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/h6jr23x9h3lqiitg",
           "headers": {
-            "Host": ""
+            "Host": "kr1.quickerlink.xyz"
           }
         },
         "httpSettings": null,
