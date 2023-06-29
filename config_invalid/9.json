@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cn-to-hk-443.db-link.in",
+            "address": "203.28.8.199",
             "port": 443,
             "users": [
               {
-                "id": "40cbc750-a182-3fe2-8832-9fa6006354cf",
-                "alterId": 1,
+                "id": "3bcbd5cd-e791-4770-8bc7-7b1d941c9513",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "free-to-us-01.db-link.in"
+          "serverName": "wfi.sahnama.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/db",
+          "path": "/S4PSg9xqUClN2kJ4SOPKqC6",
           "headers": {
-            "Host": "free-to-us-01.db-link.in"
+            "Host": "wfi.sahnama.com"
           }
         },
         "httpSettings": null,

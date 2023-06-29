@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.100",
-            "port": 2082,
+            "address": "lon01.freenode.pro",
+            "port": 443,
             "users": [
               {
-                "id": "80837af3-1ed8-4686-fa8a-6bf9214d5351",
+                "id": "7b3be020-f917-483f-b926-f4eb07db7a46",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lon01.freenode.pro"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries",
+          "path": "/update.microsoft.com",
           "headers": {
-            "Host": "UK.CLOUDFLARE.QUEST"
+            "Host": "lon01.freenode.pro"
           }
         },
         "httpSettings": null,
