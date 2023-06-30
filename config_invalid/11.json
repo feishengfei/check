@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.192.218",
-            "port": 2087,
+            "address": "cf.yxjnode.com",
+            "port": 80,
             "users": [
               {
-                "id": "56236188-c4e3-4933-e0d5-0fe5c0c579ac",
+                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "uxx.vtcss.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/yxzbp",
           "headers": {
-            "Host": "uxx.vtcss.top"
+            "Host": "dp3.yxjnode.com"
           }
         },
         "httpSettings": null,
