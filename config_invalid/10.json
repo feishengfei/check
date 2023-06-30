@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lon01.freenode.pro",
-            "port": 443,
+            "address": "namer-us-sea-01-edgecast.qdns.live",
+            "port": 2053,
             "users": [
               {
-                "id": "7b3be020-f917-483f-b926-f4eb07db7a46",
+                "id": "94898122-6f57-3272-8ccf-87ab366b29ed",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "lon01.freenode.pro"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/update.microsoft.com",
+          "path": "/",
           "headers": {
-            "Host": "lon01.freenode.pro"
+            "Host": ""
           }
         },
         "httpSettings": null,
