@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "datacenter.cujp.01.biqibao.site",
+            "address": "104.24.226.79",
             "port": 443,
             "users": [
               {
-                "id": "dacf49ab-3bf9-4d27-a351-345b0ded0824",
+                "id": "9ffbb816-b4bb-493f-b558-df527b767456",
                 "alterId": 0,
                 "email": "",
-                "security": "zero",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "jp1.biqibao.site"
+          "serverName": "star-one.cfd"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public?ed=4096",
+          "path": "/ports/10178",
           "headers": {
-            "Host": "jp1.biqibao.site"
+            "Host": "star-one.cfd"
           }
         },
         "httpSettings": null,

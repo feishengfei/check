@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10905,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.199.138.76",
-            "port": 49598,
+            "address": "in06.my1188.org",
+            "port": 63003,
             "users": [
               {
-                "id": "37c29f42-b7c7-40c7-9da9-743dcc4895bc",
-                "alterId": 64,
+                "id": "f9d5690c-08e9-302a-9654-f7cfee9215ba",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "au01-rich.tencent.best"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
