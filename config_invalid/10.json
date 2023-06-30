@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "namer-us-sea-01-edgecast.qdns.live",
-            "port": 2053,
+            "address": "datacenter.cujp.01.biqibao.site",
+            "port": 443,
             "users": [
               {
-                "id": "94898122-6f57-3272-8ccf-87ab366b29ed",
+                "id": "dacf49ab-3bf9-4d27-a351-345b0ded0824",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "zero",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "jp1.biqibao.site"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/public?ed=4096",
           "headers": {
-            "Host": ""
+            "Host": "jp1.biqibao.site"
           }
         },
         "httpSettings": null,

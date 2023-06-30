@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf3.992688.xyz",
-            "port": 8080,
+            "address": "104.24.226.79",
+            "port": 443,
             "users": [
               {
-                "id": "6b056a2c-b821-44b2-cf66-59a1126f6c94",
+                "id": "9ffbb816-b4bb-493f-b558-df527b767456",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "star-one.cfd"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ports/10178",
           "headers": {
-            "Host": "o1.992688.xyz"
+            "Host": "star-one.cfd"
           }
         },
         "httpSettings": null,
