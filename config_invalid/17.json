@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "franc.digires.shop",
-            "port": 443,
+            "address": "datacenter.cm.01.biqibao.site",
+            "port": 2052,
             "users": [
               {
-                "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+                "id": "dbb2b9c8-9cf7-4791-9cbc-db480c7e2dbd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "franc.digires.shop"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/11201",
+          "path": "/public",
           "headers": {
-            "Host": "franc.digires.shop"
+            "Host": "detacenter.01.biqibao.site"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "69.nrz.biz.id",
-            "port": 80,
+            "address": "franc.digires.shop",
+            "port": 443,
             "users": [
               {
-                "id": "91e2689d-4722-49ba-a285-a092f3f8dc04",
+                "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "franc.digires.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/11201",
           "headers": {
-            "Host": "69.nrz.biz.id"
+            "Host": "franc.digires.shop"
           }
         },
         "httpSettings": null,

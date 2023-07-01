@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp01-alt-vm0.entry.srthdw.art",
-            "port": 21583,
+            "address": "visa.com",
+            "port": 2082,
             "users": [
               {
-                "id": "c4b2e7ea-1a0e-316f-8e28-0717cc087534",
-                "alterId": 1,
+                "id": "33f3e136-ccda-4959-a9cb-c09eea4cda77",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "c.ghhymua.tk"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
