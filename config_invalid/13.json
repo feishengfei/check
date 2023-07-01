@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf5.vpn66.eu.org",
-            "port": 8080,
+            "address": "cdn.aikun.online",
+            "port": 443,
             "users": [
               {
-                "id": "5f098028-ea22-42ea-abfd-9222cb298b74",
+                "id": "8eddf617-8b05-4221-add9-9487dbdfa92d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "li-us.aikun.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/lius",
           "headers": {
-            "Host": "vceu.vpn66.eu.org"
+            "Host": "li-us.aikun.online"
           }
         },
         "httpSettings": null,

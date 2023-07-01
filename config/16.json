@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10920,
+      "port": 10916,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "173.245.58.66",
-            "port": 2087,
+            "address": "104.24.169.238",
+            "port": 443,
             "users": [
               {
-                "id": "56236188-c4e3-4933-e0d5-0fe5c0c579ac",
+                "id": "1a25dce4-9d27-4e8d-e46e-16199be54f81",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "uxx.vtcss.top"
+          "serverName": "star-one.cfd"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/ports/45314",
           "headers": {
-            "Host": "uxx.vtcss.top"
+            "Host": "star-one.cfd"
           }
         },
         "httpSettings": null,
