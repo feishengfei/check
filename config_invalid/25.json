@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.127.153",
-            "port": 2096,
+            "address": "cf5.vpn66.eu.org",
+            "port": 8080,
             "users": [
               {
-                "id": "f387a0af-4b70-4a40-e2c3-2f22472df0cb",
+                "id": "5f098028-ea22-42ea-abfd-9222cb298b74",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "x1.ylks01.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue01",
+          "path": "/",
           "headers": {
-            "Host": "x1.ylks01.eu.org"
+            "Host": "vceu.vpn66.eu.org"
           }
         },
         "httpSettings": null,

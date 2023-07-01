@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.v2-vip.fun",
-            "port": 80,
+            "address": "162.159.243.21",
+            "port": 443,
             "users": [
               {
-                "id": "4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c",
+                "id": "20c08a8d-85d6-47c6-bbb0-c8389a578b71",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tk.731808.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ozX9aUPiJVtoLavjTW",
+          "path": "/7803f1",
           "headers": {
-            "Host": "de14.irteh.fun"
+            "Host": "tk.731808.tk"
           }
         },
         "httpSettings": null,

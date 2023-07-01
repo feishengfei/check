@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.yxjnode.com",
-            "port": 80,
+            "address": "cf-lt.sharecentre.online",
+            "port": 8080,
             "users": [
               {
-                "id": "09c1d32d-4458-4ebf-b36d-4dd732bae3aa",
+                "id": "3d8274d3-a977-4bc2-a461-8086963aafc0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/yxzbp",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "dp3.yxjnode.com"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
