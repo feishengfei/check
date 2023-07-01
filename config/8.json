@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.142.203",
-            "port": 80,
+            "address": "173.245.58.66",
+            "port": 2087,
             "users": [
               {
-                "id": "6e1fdc12-214b-427f-88bb-599c536407ea",
+                "id": "56236188-c4e3-4933-e0d5-0fe5c0c579ac",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "uxx.vtcss.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/1654431",
+          "path": "/qwer",
           "headers": {
-            "Host": "de3.mybestjj.com"
+            "Host": "uxx.vtcss.top"
           }
         },
         "httpSettings": null,
