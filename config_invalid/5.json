@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "14.sanfen001.top",
-            "port": 80,
+            "address": "cdn.aikun.online",
+            "port": 443,
             "users": [
               {
-                "id": "6196e8eb-4d60-433c-a82b-19b5930c0fd5",
+                "id": "8eddf617-8b05-4221-add9-9487dbdfa92d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "li-us.aikun.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/lius",
           "headers": {
-            "Host": "us.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top"
+            "Host": "li-us.aikun.online"
           }
         },
         "httpSettings": null,
