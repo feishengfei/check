@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.74.201.20",
-            "port": 443,
+            "address": "visa.com",
+            "port": 8080,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "722f07be-43a1-482c-c200-7a4f8076c588",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "c.ghhymua.tk"
           }
         },
         "httpSettings": null,

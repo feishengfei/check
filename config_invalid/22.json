@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.28",
-            "port": 80,
+            "address": "sooya.biz.id",
+            "port": 443,
             "users": [
               {
-                "id": "58fe1542-5290-40ad-815a-77707a81afe5",
+                "id": "c7169000-13f9-11ee-b432-205c6d5f5d78",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "asia1.oceis.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+          "path": "/vmws",
           "headers": {
-            "Host": "ca4.tehme2.fun"
+            "Host": "asia1.oceis.net"
           }
         },
         "httpSettings": null,
