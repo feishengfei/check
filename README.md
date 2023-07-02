@@ -6,14 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr           | cn            | cc   | isp       | ip           | chatgpt          |
-|---:|:---------------------|:---------------|:--------------|:-----|:----------|:-------------|:-----------------|
-|  0 | [8](config/8.json)   | 23.227.38.99   | United States | US   | CNSERVERS | 23.225.9.234 | Yes (Region: US) |
-|  1 | [17](config/17.json) | dl.v001sssv.pw | France        | FR   | OVH SAS   | 51.77.213.73 | Yes (Region: FR) |
+|    | id                 | addr          | cn            | cc   | isp       | ip           | chatgpt          |
+|---:|:-------------------|:--------------|:--------------|:-----|:----------|:-------------|:-----------------|
+|  0 | [8](config/8.json) | 107.167.16.85 | United States | US   | CNSERVERS | 23.225.9.234 | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiMjMuMjI3LjM4Ljk5IiwgInYiOiAiMiIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTUxNmNcdTUzZjhDRE5cdTgyODJcdTcwYjkoc2hvcGlmeSkgOCIsICJwb3J0IjogNDQzLCAiaWQiOiAiODZkMzc1MjYtNTc1OC00Y2VjLTg2MmYtZGY0MDRiMzEzMDg2IiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJob3N0IjogIjEuZnJlZWsxLnh5eiIsICJwYXRoIjogIi8zRzZXUERMNyIsICJ0bHMiOiAidGxzIn0=
-vmess://eyJhZGQiOiAiZGwudjAwMXNzc3YucHciLCAidiI6ICIyIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkQ2xvdWRGbGFyZVx1ODI4Mlx1NzBiOSAxNyIsICJwb3J0IjogODAsICJpZCI6ICJhNGJiN2Y5My1jZWU2LTQzZDctYjJkZC1mYTljNzBiODgyMzMiLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInR5cGUiOiAiIiwgImhvc3QiOiAiZGwudjAwMXNzc3YucHciLCAicGF0aCI6ICIvIiwgInRscyI6ICIifQ==
+vmess://eyJhZGQiOiAiMTA3LjE2Ny4xNi44NSIsICJhaWQiOiAiNjQiLCAiYWxwbiI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiNzY0MGExZTctOTcwMS00MjhlLWE0YjItMTliM2U3ZGQ2ZjlmIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiNDU2ODkiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTZkMWJcdTY3NDlcdTc3ZjZcdTVlMDJTaGFya1RlY2hcdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgOCIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
 ```
 

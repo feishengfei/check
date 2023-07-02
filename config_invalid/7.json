@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.aikun.online",
+            "address": "104.24.226.79",
             "port": 443,
             "users": [
               {
-                "id": "8eddf617-8b05-4221-add9-9487dbdfa92d",
+                "id": "9ffbb816-b4bb-493f-b558-df527b767456",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "li-us.aikun.online"
+          "serverName": "star-one.cfd"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/lius",
+          "path": "/ports/10178",
           "headers": {
-            "Host": "li-us.aikun.online"
+            "Host": "star-one.cfd"
           }
         },
         "httpSettings": null,
