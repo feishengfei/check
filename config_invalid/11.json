@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "frsadubibb.76898102.xyz",
-            "port": 2095,
+            "address": "173.245.58.66",
+            "port": 2087,
             "users": [
               {
-                "id": "d264f990-a6a5-3832-bf37-1fccaed298dd",
+                "id": "56236188-c4e3-4933-e0d5-0fe5c0c579ac",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "uxx.vtcss.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/funsdfrh",
+          "path": "/qwer",
           "headers": {
-            "Host": "frsadubib.76898102.xyz"
+            "Host": "uxx.vtcss.top"
           }
         },
         "httpSettings": null,
