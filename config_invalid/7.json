@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "cdn.aikun.online",
+            "port": 443,
             "users": [
               {
-                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
+                "id": "8eddf617-8b05-4221-add9-9487dbdfa92d",
                 "alterId": 0,
                 "email": "",
-                "security": "aes-128-gcm",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "li-us.aikun.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/lius",
           "headers": {
-            "Host": "ca.ilovescp.com"
+            "Host": "li-us.aikun.online"
           }
         },
         "httpSettings": null,

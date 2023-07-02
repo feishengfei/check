@@ -8,12 +8,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
 ## Table valid
 |    | id                   | addr           | cn            | cc   | isp       | ip           | chatgpt          |
 |---:|:---------------------|:---------------|:--------------|:-----|:----------|:-------------|:-----------------|
-|  0 | [8](config/8.json)   | 104.24.169.238 | United States | US   | CNSERVERS | 23.225.9.234 | Yes (Region: US) |
-|  1 | [14](config/14.json) | dl.v001sssv.pw | France        | FR   | OVH SAS   | 51.77.213.73 | Yes (Region: FR) |
+|  0 | [8](config/8.json)   | 23.227.38.99   | United States | US   | CNSERVERS | 23.225.9.234 | Yes (Region: US) |
+|  1 | [17](config/17.json) | dl.v001sssv.pw | France        | FR   | OVH SAS   | 51.77.213.73 | Yes (Region: FR) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDgiLCAiYWRkIjogIjEwNC4yNC4xNjkuMjM4IiwgInBvcnQiOiA0NDMsICJpZCI6ICIxYTI1ZGNlNC05ZDI3LTRlOGQtZTQ2ZS0xNjE5OWJlNTRmODEiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogInN0YXItb25lLmNmZCIsICJwYXRoIjogIi9wb3J0cy80NTMxNCIsICJ0bHMiOiAidGxzIn0=
-vmess://eyJhZGQiOiAiZGwudjAwMXNzc3YucHciLCAidiI6ICIyIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkQ2xvdWRGbGFyZVx1NTE2Y1x1NTNmOENETlx1ODI4Mlx1NzBiOSAxNCIsICJwb3J0IjogODAsICJpZCI6ICJhNGJiN2Y5My1jZWU2LTQzZDctYjJkZC1mYTljNzBiODgyMzMiLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInR5cGUiOiAiIiwgImhvc3QiOiAiZGwudjAwMXNzc3YucHciLCAicGF0aCI6ICIvIiwgInRscyI6ICIifQ==
+vmess://eyJhZGQiOiAiMjMuMjI3LjM4Ljk5IiwgInYiOiAiMiIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTUxNmNcdTUzZjhDRE5cdTgyODJcdTcwYjkoc2hvcGlmeSkgOCIsICJwb3J0IjogNDQzLCAiaWQiOiAiODZkMzc1MjYtNTc1OC00Y2VjLTg2MmYtZGY0MDRiMzEzMDg2IiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJob3N0IjogIjEuZnJlZWsxLnh5eiIsICJwYXRoIjogIi8zRzZXUERMNyIsICJ0bHMiOiAidGxzIn0=
+vmess://eyJhZGQiOiAiZGwudjAwMXNzc3YucHciLCAidiI6ICIyIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkQ2xvdWRGbGFyZVx1ODI4Mlx1NzBiOSAxNyIsICJwb3J0IjogODAsICJpZCI6ICJhNGJiN2Y5My1jZWU2LTQzZDctYjJkZC1mYTljNzBiODgyMzMiLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInR5cGUiOiAiIiwgImhvc3QiOiAiZGwudjAwMXNzc3YucHciLCAicGF0aCI6ICIvIiwgInRscyI6ICIifQ==
 ```
 
