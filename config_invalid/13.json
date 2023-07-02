@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Lille.kotick.site",
-            "port": 443,
+            "address": "datacenter.cm.01.biqibao.site",
+            "port": 2052,
             "users": [
               {
-                "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+                "id": "dbb2b9c8-9cf7-4791-9cbc-db480c7e2dbd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Lille.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/public",
           "headers": {
-            "Host": "Lille.kotick.site"
+            "Host": "detacenter.01.biqibao.site"
           }
         },
         "httpSettings": null,
