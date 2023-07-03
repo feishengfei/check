@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "visa.com",
-            "port": 8080,
+            "address": "bluehost.com",
+            "port": 443,
             "users": [
               {
-                "id": "722f07be-43a1-482c-c200-7a4f8076c588",
+                "id": "be74ca03-6a7c-4c88-edc2-c6434ead0cfa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdnca1.digisport.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/16575",
           "headers": {
-            "Host": "c.ghhymua.tk"
+            "Host": "cdnca1.digisport.shop"
           }
         },
         "httpSettings": null,
