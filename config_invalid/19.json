@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.225.67.206",
-            "port": 40939,
+            "address": "104.31.16.197",
+            "port": 443,
             "users": [
               {
-                "id": "d7735058-1dac-4618-99ff-0aa0441ec2d7",
-                "alterId": 64,
+                "id": "b13581ab-736b-4221-faca-c1782f956e50",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Mci-Rightel-talia-mokhaberat.irancell-irancell.website"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/@SeyyedMT @SeyyedMT",
+          "headers": {
+            "Host": "Mci-Rightel-talia-mokhaberat.irancell-irancell.website"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

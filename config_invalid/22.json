@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v33.emovpn.life",
-            "port": 443,
+            "address": "104.31.16.28",
+            "port": 80,
             "users": [
               {
-                "id": "19ed5288-d27d-43c4-b560-07e7579fb4fd",
+                "id": "58fe1542-5290-40ad-815a-77707a81afe5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "v33.emovpn.life"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/IOebhLMhl1CTbFHbL95myfRX2",
           "headers": {
-            "Host": "v33.emovpn.life"
+            "Host": "ca4.tehme2.fun"
           }
         },
         "httpSettings": null,
