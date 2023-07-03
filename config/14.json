@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10914,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "142.4.99.77",
-            "port": 43379,
+            "address": "cdn.yuntujisu.ml",
+            "port": 2095,
             "users": [
               {
-                "id": "b65da4af-a12a-4a59-9316-4549e12ba62c",
-                "alterId": 64,
+                "id": "d59b24b1-b475-4d44-be46-a18563a87711",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "nanous.ytjs114514.ml"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

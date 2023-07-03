@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf5.vpn66.eu.org",
-            "port": 8080,
+            "address": "v33.emovpn.life",
+            "port": 443,
             "users": [
               {
-                "id": "c3b11744-2b20-46af-f0d4-69122be36e74",
+                "id": "19ed5288-d27d-43c4-b560-07e7579fb4fd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v33.emovpn.life"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "vcus.vpn66.eu.org"
+            "Host": "v33.emovpn.life"
           }
         },
         "httpSettings": null,
