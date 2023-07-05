@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10912,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf2.992688.xyz",
-            "port": 8080,
+            "address": "south-connect.zhihuu.top",
+            "port": 443,
             "users": [
               {
-                "id": "6b056a2c-b821-44b2-cf66-59a1126f6c95",
+                "id": "7596fac1-ee72-4590-9fd8-92f762e9faaf",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n439.zhihuu.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ws439",
           "headers": {
-            "Host": "o1.992688.xyz"
+            "Host": "n439.zhihuu.top"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dallas.starsea.vip",
-            "port": 443,
+            "address": "cf2.992688.xyz",
+            "port": 8080,
             "users": [
               {
-                "id": "10735fe6-6c8f-498b-b22e-8e98a57e033d",
+                "id": "b0b12ae2-346c-488b-8d1e-9f3afb8fead5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dallas.starsea.vip"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "dallas.starsea.vip"
+            "Host": "hax.992688.xyz"
           }
         },
         "httpSettings": null,

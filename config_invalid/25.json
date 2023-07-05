@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.v2-vip.fun",
-            "port": 80,
+            "address": "nl-connect.zhihuu.top",
+            "port": 443,
             "users": [
               {
-                "id": "8abe9496-5e24-4e49-b566-dcf86116017d",
+                "id": "7596fac1-ee72-4590-9fd8-92f762e9faaf",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nl.zhihuu.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/i99LgvSaslbsPLLQQ7j6Z",
+          "path": "/ws406",
           "headers": {
-            "Host": "de5.irteh.fun"
+            "Host": "nl.zhihuu.top"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.226.79",
-            "port": 443,
+            "address": "sgtippos.76898102.xyz",
+            "port": 2052,
             "users": [
               {
-                "id": "9ffbb816-b4bb-493f-b558-df527b767456",
+                "id": "0ee79445-85a0-38fe-be38-58035ad10530",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "star-one.cfd"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ports/10178",
+          "path": "/miao",
           "headers": {
-            "Host": "star-one.cfd"
+            "Host": "sgtippos.76898102.xyz"
           }
         },
         "httpSettings": null,
