@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hotel2.expressedu.online",
-            "port": 443,
+            "address": "cf2.992688.xyz",
+            "port": 8080,
             "users": [
               {
-                "id": "7f061d39-2670-4355-8590-fef2acd927ed",
+                "id": "bbfa65cf-236e-4e4f-eb3d-a9e159d3f945",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/9b08c0d789",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "eu2.992688.xyz"
           }
         },
         "httpSettings": null,

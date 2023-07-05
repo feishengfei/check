@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.165.254.175",
-            "port": 14332,
+            "address": "armus.114514782.xyz",
+            "port": 2052,
             "users": [
               {
-                "id": "2a222c15-3aa4-40bd-94c9-8f55bf69e468",
+                "id": "2f6109ba-0268-36f6-9338-62fe00ec6fbf",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/miao",
+          "headers": {
+            "Host": "armus.114514782.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aaaa.wxx.gay",
-            "port": 443,
+            "address": "104.18.1.196",
+            "port": 80,
             "users": [
               {
-                "id": "6a9ac0d8-1ae8-11ee-82c6-000017022008",
+                "id": "0dfa89a7-fe08-454e-817b-374097be358f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/look",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "sg2-mlb.securev2ray.com"
           }
         },
         "httpSettings": null,
