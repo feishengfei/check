@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.242.66",
-            "port": 443,
+            "address": "cf5.vpn66.eu.org",
+            "port": 8080,
             "users": [
               {
-                "id": "1a25dce4-9d27-4e8d-e46e-16199be54f81",
+                "id": "c3b11744-2b20-46af-f0d4-69122be36e74",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "star-one.cfd"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ports/45314",
+          "path": "/",
           "headers": {
-            "Host": "star-one.cfd"
+            "Host": "vcus.vpn66.eu.org"
           }
         },
         "httpSettings": null,
