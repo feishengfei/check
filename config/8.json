@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10907,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.1.196",
-            "port": 80,
+            "address": "104.17.3.81",
+            "port": 443,
             "users": [
               {
-                "id": "0425d010-19f6-11ee-8be4-1577c1651679",
+                "id": "132633a9-b53e-4352-82a6-93eae114482e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dynamic-sg1b.obfs.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/files",
+          "path": "/worryfree",
           "headers": {
-            "Host": "sg.xmbb.net"
+            "Host": "dynamic-sg1b.obfs.xyz"
           }
         },
         "httpSettings": null,
