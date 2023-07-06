@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "trky.digires.shop",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "bc329892-2028-49ba-b594-aa14c0ee8f92",
+                "id": "a5756853-4a80-468a-af62-10565918f58f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "trky.digires.shop"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/20861",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "trky.digires.shop"
+            "Host": "ssrsub.v02.ssrsub.com"
           }
         },
         "httpSettings": null,

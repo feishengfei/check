@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf2.992688.xyz",
-            "port": 8080,
+            "address": "trky.digires.shop",
+            "port": 443,
             "users": [
               {
-                "id": "bbfa65cf-236e-4e4f-eb3d-a9e159d3f945",
+                "id": "bc329892-2028-49ba-b594-aa14c0ee8f92",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "trky.digires.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/20861",
           "headers": {
-            "Host": "eu2.992688.xyz"
+            "Host": "trky.digires.shop"
           }
         },
         "httpSettings": null,
