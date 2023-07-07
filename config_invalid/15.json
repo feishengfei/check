@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.226.79",
-            "port": 443,
+            "address": "cdn.noice.id",
+            "port": 80,
             "users": [
               {
-                "id": "9ffbb816-b4bb-493f-b558-df527b767456",
+                "id": "b236aba4-7f35-4ef8-b978-ed451608b8b6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "star-one.cfd"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ports/10178",
+          "path": "/tunnelvmess",
           "headers": {
-            "Host": "star-one.cfd"
+            "Host": "nusa1.hijinetwork.cloud"
           }
         },
         "httpSettings": null,

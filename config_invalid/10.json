@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.226.79",
-            "port": 443,
+            "address": "p1.09vpn.com",
+            "port": 80,
             "users": [
               {
-                "id": "9ffbb816-b4bb-493f-b558-df527b767456",
+                "id": "e2feaff7-3ab3-4144-a31e-6bbce47bd353",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "star-one.cfd"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ports/10178",
+          "path": "/vmess/",
           "headers": {
-            "Host": "star-one.cfd"
+            "Host": "p1.09vpn.com"
           }
         },
         "httpSettings": null,

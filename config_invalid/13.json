@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "franc.digires.shop",
-            "port": 443,
+            "address": "104.24.142.6",
+            "port": 80,
             "users": [
               {
-                "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+                "id": "9572d691-e27a-4f54-ef4d-57600a785b55",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/11201",
+          "path": "/qwer00",
           "headers": {
-            "Host": ""
+            "Host": "txx.vtcss.top"
           }
         },
         "httpSettings": null,
