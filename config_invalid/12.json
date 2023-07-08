@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "23.247.137.71",
+            "port": 3331,
             "users": [
               {
-                "id": "a5756853-4a80-468a-af62-10565918f58f",
+                "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/s/f1f3227.fm.apple.com:111548",
           "headers": {
-            "Host": "ssrsub.v03.ssrsub.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
