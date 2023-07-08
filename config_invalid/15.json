@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.1.196",
-            "port": 80,
+            "address": "104.22.45.103",
+            "port": 443,
             "users": [
               {
-                "id": "b3b3b680-19f5-11ee-bf9a-1577c1651679",
+                "id": "9F858CE1-7E02-4863-AA24-D90F8D3437D7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cool-field-4b5b.walidfree18.workers.dev"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/files",
+          "path": "/speedtest/Amsterdam.kotick.site",
           "headers": {
-            "Host": "2.lowh.net"
+            "Host": "cool-field-4b5b.walidfree18.workers.dev"
           }
         },
         "httpSettings": null,
