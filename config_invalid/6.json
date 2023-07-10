@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.23.154",
-            "port": 443,
+            "address": "cf4.992688.xyz",
+            "port": 8080,
             "users": [
               {
-                "id": "02DD674F-898E-4835-9958-97670C4CCA71",
+                "id": "6b056a2c-b821-44b2-cf66-59a1126f6c95",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sweet-darkness-7d26.sourgalmc3532.workers.dev"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest/Amsterdam.kotick.site",
+          "path": "/",
           "headers": {
-            "Host": "sweet-darkness-7d26.sourgalmc3532.workers.dev"
+            "Host": "o1.992688.xyz"
           }
         },
         "httpSettings": null,
