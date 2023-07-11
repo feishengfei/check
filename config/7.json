@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10907,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.247.37",
-            "port": 80,
+            "address": "cfcdn2.sanfencdn.net",
+            "port": 443,
             "users": [
               {
-                "id": "298530df-8418-4bc6-bff2-eeee595bf5cd",
+                "id": "2270f448-38f0-4eef-a903-0e0bef747a84",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us6.sanfencdn1.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "ylks.vtcss.top"
+            "Host": "us6.sanfencdn1.com"
           }
         },
         "httpSettings": null,
