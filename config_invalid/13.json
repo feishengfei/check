@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.14.174.152",
-            "port": 80,
+            "address": "vpsmc.vorzeit.net",
+            "port": 443,
             "users": [
               {
-                "id": "71cecc3f-e274-43f5-81a7-af37b1e3b185",
+                "id": "06d7ea1e-ea46-4a62-a6e7-f047ac23ee71",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vpsmc.vorzeit.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vps",
           "headers": {
-            "Host": "fr.66.now.cc"
+            "Host": "vpsmc.vorzeit.net"
           }
         },
         "httpSettings": null,
