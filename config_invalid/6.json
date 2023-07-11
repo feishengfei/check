@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sgp.sharktec.co",
-            "port": 30080,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "3853a2ab-6bec-4503-89b9-d3cbcc6b69c9",
+                "id": "a5756853-4a80-468a-af62-10565918f58f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ihhp0ducs1394dyo",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": ""
+            "Host": "ssrsub.v03.ssrsub.com"
           }
         },
         "httpSettings": null,
