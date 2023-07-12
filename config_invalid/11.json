@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf5.992688.xyz",
-            "port": 8080,
+            "address": "zendesk1.shopee.sg",
+            "port": 443,
             "users": [
               {
-                "id": "b0b12ae2-346c-488b-8d1e-9f3afb8fead5",
+                "id": "0b3b165f-ba8f-4cb5-8d3c-ad6e2f9216f6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "idmws.mainssh.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": "hax.992688.xyz"
+            "Host": "idmws.mainssh.xyz"
           }
         },
         "httpSettings": null,
