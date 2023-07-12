@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp.mlxg.org",
-            "port": 80,
+            "address": "36.156.198.43",
+            "port": 30052,
             "users": [
               {
-                "id": "ea382c86-60ec-47c0-86ba-4f74b53761b4",
+                "id": "87d54579-a1eb-4875-b288-afe25f726228",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "jp2.mlxg.org"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
