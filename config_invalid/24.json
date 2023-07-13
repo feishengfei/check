@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "linkedin.disnet.gq",
+            "address": "203.28.8.207",
             "port": 443,
             "users": [
               {
-                "id": "a869c557-5c7d-426f-9039-0279c16352bc",
+                "id": "a128a5af-518a-4bc8-851e-b1f68b2c49d2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "linkedin.disnet.gq"
+          "serverName": "4.saintink.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmessws",
+          "path": "ro2.v2rayserv.com/vmess",
           "headers": {
-            "Host": "linkedin.disnet.gq"
+            "Host": "4.saintink.eu.org"
           }
         },
         "httpSettings": null,

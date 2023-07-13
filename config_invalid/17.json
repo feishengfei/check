@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.247.37",
-            "port": 80,
+            "address": "us44.encrypted.my.id",
+            "port": 443,
             "users": [
               {
-                "id": "298530df-8418-4bc6-bff2-eeee595bf5cd",
+                "id": "dd92e2b3-03f3-4899-a34e-797ff6a0cea8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us44.encrypted.my.id"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/MqINN7CF6UeFSASP4LNTFNn",
           "headers": {
-            "Host": "ylks.vtcss.top"
+            "Host": "us44.encrypted.my.id"
           }
         },
         "httpSettings": null,
