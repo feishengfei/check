@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "173.245.58.237",
-            "port": 2053,
+            "address": "tw.henyo.us",
+            "port": 31235,
             "users": [
               {
-                "id": "3a73acf2-c7e3-43b9-fca9-bdd2eb886186",
+                "id": "56edb80c-4e0b-3668-9de5-3be62bcb59d7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ylks.vtcss.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/maohk3",
           "headers": {
-            "Host": "ylks.vtcss.top"
+            "Host": "tw.henyo.us"
           }
         },
         "httpSettings": null,
