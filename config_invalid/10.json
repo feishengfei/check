@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw.henyo.us",
-            "port": 31235,
+            "address": "64.64.232.237",
+            "port": 26785,
             "users": [
               {
-                "id": "56edb80c-4e0b-3668-9de5-3be62bcb59d7",
+                "id": "d0c53c5a-d76d-4406-a80b-0b5381db87a9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/maohk3",
-          "headers": {
-            "Host": "tw.henyo.us"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
