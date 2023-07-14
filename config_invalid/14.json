@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aaaa.wxx.gay",
-            "port": 443,
+            "address": "us-west.lnaspiring.com",
+            "port": 80,
             "users": [
               {
-                "id": "5311f0e4-2196-11ee-9105-000017022008",
+                "id": "15ffede6-52fc-4336-9a14-fadfd36f192f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/look",
+          "path": "/coco/15",
           "headers": {
-            "Host": ""
+            "Host": "dh6o13fm1a0bv.cloudfront.net"
           }
         },
         "httpSettings": null,
