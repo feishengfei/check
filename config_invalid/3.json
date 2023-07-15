@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.227.38.111",
+            "address": "0kxedm1x8q8lksmj15.xingbayun.buzz",
             "port": 443,
             "users": [
               {
-                "id": "012c4549-17d2-475e-b1c1-a3b19cf36622",
+                "id": "9dba1b81-e6e3-4a75-bdde-597c4d21fbe1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "2.freek1.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dongtaiwang.com",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "2.freek1.xyz"
+            "Host": "www.microsoft.com"
           }
         },
         "httpSettings": null,
