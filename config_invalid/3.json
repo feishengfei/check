@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "south-connect.zhihuu.top",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "33161335-654d-3fd4-8199-2ca8fcee48bf",
+                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jp.zhihuu.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/n475",
+          "path": "/shirker",
           "headers": {
-            "Host": "jp.zhihuu.top"
+            "Host": "dp3.scproxy.top"
           }
         },
         "httpSettings": null,

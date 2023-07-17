@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw1.kidcc.xyz",
-            "port": 8443,
+            "address": "104.27.96.113",
+            "port": 2053,
             "users": [
               {
-                "id": "a8974bec-526d-4b4e-a46f-f0d6626ca576",
+                "id": "3a73acf2-c7e3-43b9-fca9-bdd2eb886186",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ylks.vtcss.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/qwer",
           "headers": {
-            "Host": ""
+            "Host": "ylks.vtcss.top"
           }
         },
         "httpSettings": null,
