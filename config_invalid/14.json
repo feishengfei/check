@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "uk2-vmess.greenssh.xyz",
+            "address": "p1.09vpn.com",
             "port": 80,
             "users": [
               {
-                "id": "2076df30-81e3-4312-840b-3e1462c0b85e",
+                "id": "7e0a3887-1239-4581-bab7-90b575321b3c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/vmess/",
           "headers": {
-            "Host": ""
+            "Host": "p1.09vpn.com"
           }
         },
         "httpSettings": null,

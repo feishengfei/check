@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nl-connect.zhihuu.top",
-            "port": 443,
+            "address": "fr1.09vpn.com",
+            "port": 80,
             "users": [
               {
-                "id": "33161335-654d-3fd4-8199-2ca8fcee48bf",
+                "id": "40c97977-060f-4ff0-a6a1-558872598d6e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nl-11401.zhihuu.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ws401",
+          "path": "/vmess/",
           "headers": {
-            "Host": "nl-11401.zhihuu.top"
+            "Host": "fr1.09vpn.com"
           }
         },
         "httpSettings": null,
