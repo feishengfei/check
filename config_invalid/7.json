@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn-yx.syjd.xyz",
-            "port": 443,
+            "address": "adobe2.fmmmz1.com",
+            "port": 80,
             "users": [
               {
-                "id": "aba9389e-21b7-45f5-a82d-0c2b8b989bb4",
+                "id": "ccc4e1eb-e85b-3b9f-b5f4-6c44826b0c65",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdn-us.syjd.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cdn",
+          "path": "/adobe",
           "headers": {
-            "Host": "cdn-us.syjd.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

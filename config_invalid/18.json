@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "149.28.94.183",
-            "port": 10002,
+            "address": "speedip.eu.org",
+            "port": 8080,
             "users": [
               {
-                "id": "e0b715cd-4058-4cf4-b67e-d37063294b75",
-                "alterId": 64,
+                "id": "dd87d362-dba1-49aa-9c73-87c828f372d6",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/api/v3/download.getFile",
+          "headers": {
+            "Host": "ssrsub.v03.ssrsub.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
