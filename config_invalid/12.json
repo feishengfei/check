@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.ielaina.com",
-            "port": 80,
+            "address": "104.17.20.55",
+            "port": 443,
             "users": [
               {
-                "id": "e52d79bb-b26e-4416-ac8a-7755176299a6",
+                "id": "495FAF9E-9775-4DC5-91F0-C4341B789B4F",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/9SCqOah8/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "jp1.ielaina.com"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,

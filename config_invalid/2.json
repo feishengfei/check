@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "weo-sg-2.laowufly.cf",
-            "port": 1234,
+            "address": "47.89.192.94",
+            "port": 80,
             "users": [
               {
-                "id": "2a65adbd-112c-4a16-8988-4a2b9e02d4f3",
+                "id": "301d815f-a02a-4c2c-a424-b16cf0a241ae",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/4a5yXsGODBM1cvl9TzyF0SHR3v",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
