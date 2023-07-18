@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "au1.09vpn.com",
-            "port": 80,
+            "address": "cloudconeaaa.gorgorchicken.one",
+            "port": 8443,
             "users": [
               {
-                "id": "25189e28-c867-4a06-816b-6b2c27bcc4ef",
+                "id": "1cec1ebc-b489-4769-f2d9-e079b5832a60",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cloudconeaaa.gorgorchicken.one"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess/",
+          "path": "/cloudconeaaa",
           "headers": {
-            "Host": "au1.09vpn.com"
+            "Host": "cloudconeaaa.gorgorchicken.one"
           }
         },
         "httpSettings": null,
