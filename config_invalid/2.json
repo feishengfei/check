@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "t.cccao.cyou",
-            "port": 16627,
+            "address": "45.199.138.136",
+            "port": 48344,
             "users": [
               {
-                "id": "188cfb6d-c19e-46c0-a462-7e49bb12bb32",
-                "alterId": 0,
+                "id": "743bdc87-1dea-41bf-aa0b-51dfbbfec8aa",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

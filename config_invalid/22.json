@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.106.74",
-            "port": 8080,
+            "address": "linkedin.disnet.gq",
+            "port": 443,
             "users": [
               {
-                "id": "524efff4-bfb1-4b67-89ab-f327ca8e096e",
+                "id": "a869c557-5c7d-426f-9039-0279c16352bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "linkedin.disnet.gq"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "/vmessws",
           "headers": {
-            "Host": "eeo.wang66.homes"
+            "Host": "linkedin.disnet.gq"
           }
         },
         "httpSettings": null,
