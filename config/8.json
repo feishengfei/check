@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg.669990.xyz",
-            "port": 44044,
+            "address": "vm.uk.serverfast.pw",
+            "port": 80,
             "users": [
               {
-                "id": "8904e378-f667-41ed-9087-0081e9ac446e",
+                "id": "115bfb39-c16c-4474-9d06-4500efef6d72",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/v2ray-vmess/ntls",
+          "headers": {
+            "Host": "vm.uk.serverfast.pw"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
