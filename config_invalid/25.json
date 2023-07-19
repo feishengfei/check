@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "speedip.eu.org",
-            "port": 8080,
+            "address": "linkedin.disnet.gq",
+            "port": 443,
             "users": [
               {
-                "id": "dd87d362-dba1-49aa-9c73-87c828f372d6",
+                "id": "a869c557-5c7d-426f-9039-0279c16352bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "linkedin.disnet.gq"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/vmessws",
           "headers": {
-            "Host": "ssrsub.v03.ssrsub.com"
+            "Host": "linkedin.disnet.gq"
           }
         },
         "httpSettings": null,
