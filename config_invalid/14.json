@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.96.113",
-            "port": 2053,
+            "address": "104.27.106.74",
+            "port": 8080,
             "users": [
               {
-                "id": "3a73acf2-c7e3-43b9-fca9-bdd2eb886186",
+                "id": "524efff4-bfb1-4b67-89ab-f327ca8e096e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ylks.vtcss.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/qwer",
           "headers": {
-            "Host": "ylks.vtcss.top"
+            "Host": "eeo.wang66.homes"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "speedip.eu.org",
-            "port": 8080,
+            "address": "104.27.96.113",
+            "port": 2053,
             "users": [
               {
-                "id": "dd87d362-dba1-49aa-9c73-87c828f372d6",
+                "id": "3a73acf2-c7e3-43b9-fca9-bdd2eb886186",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ylks.vtcss.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/qwer",
           "headers": {
-            "Host": "ssrsub.v03.ssrsub.com"
+            "Host": "ylks.vtcss.top"
           }
         },
         "httpSettings": null,
