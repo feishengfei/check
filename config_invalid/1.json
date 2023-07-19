@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "digitalocean.com",
-            "port": 8080,
+            "address": "67.21.64.84",
+            "port": 43123,
             "users": [
               {
-                "id": "5f098028-ea22-42ea-abfd-9222cb298b74",
-                "alterId": 0,
+                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "vceu.vpn66.eu.org"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

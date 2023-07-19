@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf2.992688.xyz",
-            "port": 8080,
+            "address": "www.noice.id",
+            "port": 443,
             "users": [
               {
-                "id": "0d9a0392-e0a1-4bad-e877-3721def40f11",
+                "id": "7816384f-5d56-4b11-8446-eb9b1306bfd5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sgmws.mainssh.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": "hax2.992688.xyz"
+            "Host": "sgmws.mainssh.xyz"
           }
         },
         "httpSettings": null,
