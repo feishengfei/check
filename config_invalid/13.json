@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aaaa.wxx.gay",
-            "port": 443,
+            "address": "us4g2.jeidian.xyz",
+            "port": 8080,
             "users": [
               {
-                "id": "51ad4756-264d-11ee-b946-000017022008",
+                "id": "9a8e24f4-5142-4282-845d-22bffefa1c1b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/look",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "tms.dingtalk.com"
           }
         },
         "httpSettings": null,
