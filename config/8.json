@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.1.196",
-            "port": 80,
+            "address": "cdn.ikuan.dev",
+            "port": 2052,
             "users": [
               {
-                "id": "75ff8b3f-0172-4599-b984-2a1221b77d26",
+                "id": "3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/whatever/vmess",
+          "path": "/FreeForGFW",
           "headers": {
-            "Host": "ppk.arnold-store.com"
+            "Host": "freeforgfw.ikuan.dev"
           }
         },
         "httpSettings": null,
