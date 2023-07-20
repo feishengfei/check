@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us4g2.jeidian.xyz",
-            "port": 8080,
+            "address": "104.17.20.55",
+            "port": 443,
             "users": [
               {
-                "id": "9a8e24f4-5142-4282-845d-22bffefa1c1b",
+                "id": "495FAF9E-9775-4DC5-91F0-C4341B789B4F",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "tms.dingtalk.com"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,
