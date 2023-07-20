@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10913,
+      "port": 10917,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn3.sanfencdn.net",
-            "port": 2052,
+            "address": "edu1.v-pn.my.id",
+            "port": 443,
             "users": [
               {
-                "id": "2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e",
+                "id": "98476c2f-2971-4326-93c4-896a85124845",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ikd2.vpn-akcelluler.my.id"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/v2ray",
           "headers": {
-            "Host": "sg3.sanfencdn2.com"
+            "Host": "ikd2.vpn-akcelluler.my.id"
           }
         },
         "httpSettings": null,
