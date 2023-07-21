@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "edu1.ak-celluler.com",
+            "address": "104.25.167.88",
             "port": 443,
             "users": [
               {
-                "id": "61a1b50a-9085-4385-840d-10b23b6da3b0",
+                "id": "a2284cc1-20d8-4c78-a622-3e3cca767a70",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "msa1.ak-celluler.com"
+          "serverName": "dedi2.1808.cf"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/v2ray",
+          "path": "a2284cc1",
           "headers": {
-            "Host": "msa1.ak-celluler.com"
+            "Host": "dedi2.1808.cf"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us.mlxg.org",
-            "port": 80,
+            "address": "franc.digires.shop",
+            "port": 443,
             "users": [
               {
-                "id": "c7442852-5a48-4456-8783-b7b8eebbca6c",
+                "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "franc.digires.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/11201",
           "headers": {
-            "Host": "us1.mlxg.org"
+            "Host": "franc.digires.shop"
           }
         },
         "httpSettings": null,
