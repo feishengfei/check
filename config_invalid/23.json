@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aaaa.wxx.gay",
-            "port": 443,
+            "address": "cdn.anycast.eu.org",
+            "port": 80,
             "users": [
               {
-                "id": "1137d05e-277b-11ee-b03d-000017022008",
+                "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,14 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/look",
           "headers": {
-            "Host": ""
+            "Host": "week-permalink-samsung-omissions.trycloudflare.com"
           }
         },
         "httpSettings": null,
