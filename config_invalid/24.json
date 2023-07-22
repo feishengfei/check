@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us.mlxg.org",
-            "port": 80,
+            "address": "104.25.167.88",
+            "port": 443,
             "users": [
               {
-                "id": "c7442852-5a48-4456-8783-b7b8eebbca6c",
+                "id": "a2284cc1-20d8-4c78-a622-3e3cca767a70",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dedi2.1808.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "a2284cc1",
           "headers": {
-            "Host": "us1.mlxg.org"
+            "Host": "dedi2.1808.cf"
           }
         },
         "httpSettings": null,

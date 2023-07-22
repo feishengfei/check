@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn3.sanfencdn.net",
-            "port": 2052,
+            "address": "ns1.v2-vip.fun",
+            "port": 8080,
             "users": [
               {
-                "id": "aa2c8122-d188-489f-88b9-b4af51b9ab9b",
+                "id": "dd87d362-dba1-49aa-9c73-87c828f372d6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "sg3.sanfencdn2.com"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
