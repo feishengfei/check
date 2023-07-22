@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn3.sanfencdn.net",
-            "port": 2052,
+            "address": "cf.dalazhi.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "aa2c8122-d188-489f-88b9-b4af51b9ab9b",
+                "id": "64480f4c-61c2-4d88-89c3-fc0045229bfc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us.dalazhi.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/kplxvws",
           "headers": {
-            "Host": "sg3.sanfencdn2.com"
+            "Host": "us.dalazhi.eu.org"
           }
         },
         "httpSettings": null,

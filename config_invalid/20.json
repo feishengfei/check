@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "edu1.v-pn.my.id",
-            "port": 443,
+            "address": "104.25.177.236",
+            "port": 8080,
             "users": [
               {
-                "id": "98476c2f-2971-4326-93c4-896a85124845",
+                "id": "20670d72-d0ab-469e-81f4-1564f03955b0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ikd2.vpn-akcelluler.my.id"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/v2ray",
+          "path": "/qwer",
           "headers": {
-            "Host": "ikd2.vpn-akcelluler.my.id"
+            "Host": "uxx.vtcss.top"
           }
         },
         "httpSettings": null,
