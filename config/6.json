@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10912,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "cfcdn3.sanfencdn.net",
-            "port": 2052,
-            "users": [
-              {
-                "id": "aa2c8122-d188-489f-88b9-b4af51b9ab9b",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "139.59.1.39",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "MWiIVYCyO8FfybKWhjt9Sz",
+            "port": 443,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/zh-cn",
-          "headers": {
-            "Host": "sg3.sanfencdn2.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

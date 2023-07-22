@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10912,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn3.sanfencdn.net",
-            "port": 2052,
+            "address": "www.codepen.io",
+            "port": 443,
             "users": [
               {
-                "id": "aa2c8122-d188-489f-88b9-b4af51b9ab9b",
+                "id": "2cd39102-0799-4c61-abb6-2e7a258f0397",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us-v.sshmax.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/vmess",
           "headers": {
-            "Host": "sg3.sanfencdn2.com"
+            "Host": "us-v.sshmax.xyz"
           }
         },
         "httpSettings": null,
