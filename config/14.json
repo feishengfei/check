@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10910,
+      "port": 10914,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.167.88",
+            "address": "scaleway.696960.xyz",
             "port": 443,
             "users": [
               {
-                "id": "a2284cc1-20d8-4c78-a622-3e3cca767a70",
+                "id": "e357cd63-f1a5-4c8e-c42e-26da11207fee",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "a2284cc1",
+          "path": "/root/",
           "headers": {
-            "Host": "dedi2.1808.cf"
+            "Host": ""
           }
         },
         "httpSettings": null,

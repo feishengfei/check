@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10910,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.167.88",
+            "address": "edu1.v-pn.my.id",
             "port": 443,
             "users": [
               {
-                "id": "a2284cc1-20d8-4c78-a622-3e3cca767a70",
+                "id": "98476c2f-2971-4326-93c4-896a85124845",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
+          "serverName": "ikd2.vpn-akcelluler.my.id"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "a2284cc1",
+          "path": "/v2ray",
           "headers": {
-            "Host": "dedi2.1808.cf"
+            "Host": "ikd2.vpn-akcelluler.my.id"
           }
         },
         "httpSettings": null,
