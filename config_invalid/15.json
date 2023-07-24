@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.241.246",
-            "port": 8880,
+            "address": "mci.ircf.space",
+            "port": 443,
             "users": [
               {
-                "id": "006023f6-6d17-4ec6-af24-bcc5f7c44e35",
+                "id": "0a02bab7-393c-4bb7-b4fd-8404f3bc72c3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "4.saintink.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/qwer",
+          "path": "ua1.v2rayserv.com/vmess",
           "headers": {
-            "Host": "ecc.vtcss.top"
+            "Host": "4.saintink.eu.org"
           }
         },
         "httpSettings": null,
