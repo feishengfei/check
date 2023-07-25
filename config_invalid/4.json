@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "kr.2022app.xyz",
-            "port": 443,
+            "address": "108.166.203.181",
+            "port": 44945,
             "users": [
               {
-                "id": "2e361419-b3fd-4a2a-bb65-27c171bf2540",
-                "alterId": 0,
+                "id": "268a491b-764c-44d1-81a4-30de16130867",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "kr.2022app.xyz"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/rws5ebqzpmmqm6v2",
-          "headers": {
-            "Host": "kr.2022app.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
