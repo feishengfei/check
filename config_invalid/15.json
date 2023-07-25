@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.dalazhi.eu.org",
-            "port": 443,
+            "address": "Shopify.com",
+            "port": 2086,
             "users": [
               {
-                "id": "64480f4c-61c2-4d88-89c3-fc0045229bfc",
+                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us.dalazhi.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/kplxvws",
+          "path": "/aries",
           "headers": {
-            "Host": "us.dalazhi.eu.org"
+            "Host": "Fr.cloudflare.quest"
           }
         },
         "httpSettings": null,

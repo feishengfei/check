@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.20.55",
-            "port": 443,
+            "address": "cdn.chigua.tk",
+            "port": 80,
             "users": [
               {
-                "id": "495FAF9E-9775-4DC5-91F0-C4341B789B4F",
+                "id": "e52d79bb-b26e-4416-ac8a-7755176299a6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/9SCqOah8/",
           "headers": {
-            "Host": "Dusseldorf.kotick.site"
+            "Host": "jp1.ielaina.com"
           }
         },
         "httpSettings": null,
