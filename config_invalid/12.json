@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bluehost.com",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "be74ca03-6a7c-4c88-edc2-c6434ead0cfa",
+                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdnca1.digisport.shop"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/16575",
+          "path": "/shirker",
           "headers": {
-            "Host": "cdnca1.digisport.shop"
+            "Host": "dp3.scproxy.top"
           }
         },
         "httpSettings": null,
