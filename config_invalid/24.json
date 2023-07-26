@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.160.204.12",
-            "port": 443,
+            "address": "au1.09vpn.com",
+            "port": 80,
             "users": [
               {
-                "id": "a2284cc1-20d8-4c78-a622-3e3cca767a70",
+                "id": "53960289-1648-4b28-97e1-2fd832464df1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "a2284cc1",
+          "path": "/vmess/",
           "headers": {
-            "Host": "dedi2.1808.cf"
+            "Host": "au1.09vpn.com"
           }
         },
         "httpSettings": null,
