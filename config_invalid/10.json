@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf3.992688.xyz",
-            "port": 8080,
+            "address": "shm.ircf.space",
+            "port": 443,
             "users": [
               {
-                "id": "c3b11744-2b20-46af-f0d4-69122be36e74",
+                "id": "79770a32-9607-4919-9483-0f1794559390",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hiddis2.freelines.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/juYLyvNBpY0LBOAommy2aJE",
           "headers": {
-            "Host": "vcus.vpn66.eu.org"
+            "Host": "hiddis2.freelines.net"
           }
         },
         "httpSettings": null,

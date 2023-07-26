@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.ircf.space",
-            "port": 443,
+            "address": "ns1.v2-vip.fun",
+            "port": 80,
             "users": [
               {
-                "id": "79770a32-9607-4919-9483-0f1794559390",
+                "id": "789dfa0d-2028-4d53-a4db-252ea75d863e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nika3hdfy2.foriran.trade"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/juYLyvNBpY0LBOAommy2aJE",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "nika3hdfy2.foriran.trade"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
