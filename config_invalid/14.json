@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "203.28.8.207",
-            "port": 443,
+            "address": "vm-sg1.fbi-warning.cfd",
+            "port": 80,
             "users": [
               {
-                "id": "a128a5af-518a-4bc8-851e-b1f68b2c49d2",
+                "id": "4b15f0cb-932f-426f-e80b-8b12d5871a98",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "4.saintink.eu.org"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "ro2.v2rayserv.com/vmess",
-          "headers": {
-            "Host": "4.saintink.eu.org"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
