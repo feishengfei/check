@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "amszxc.66666654.xyz",
-            "port": 2095,
+            "address": "vm-sg1.fbi-warning.cfd",
+            "port": 80,
             "users": [
               {
-                "id": "417d27fb-cb93-3bd8-9bf7-71cd91319821",
+                "id": "4b15f0cb-932f-426f-e80b-8b12d5871a98",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/hgcefomn",
-          "headers": {
-            "Host": "amszx.66666654.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

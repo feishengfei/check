@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10919,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.18.54",
-            "port": 2095,
+            "address": "vuk2.0bad.com",
+            "port": 443,
             "users": [
               {
-                "id": "8c4e5e83-8be2-4638-e3f6-a098ee484193",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@hkaa0",
+          "path": "/chat",
           "headers": {
-            "Host": "hk.wyhkaa0.tk"
+            "Host": ""
           }
         },
         "httpSettings": null,
