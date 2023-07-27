@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10907,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "173.82.55.92",
-            "port": 34412,
+            "address": "sw-94.131.10.5.nip.io",
+            "port": 443,
             "users": [
               {
-                "id": "82620a6e-dbfd-4d57-8a59-9004a4bb9e92",
-                "alterId": 64,
+                "id": "88d476c1-48f7-4d3d-a0e6-acccbff02db6",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "internet.life.com.by"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
