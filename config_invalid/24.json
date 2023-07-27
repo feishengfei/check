@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "scaleway.696960.xyz",
-            "port": 443,
+            "address": "cf3.992688.xyz",
+            "port": 8080,
             "users": [
               {
-                "id": "e357cd63-f1a5-4c8e-c42e-26da11207fee",
+                "id": "c3b11744-2b20-46af-f0d4-69122be36e74",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/root/",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "vcus.vpn66.eu.org"
           }
         },
         "httpSettings": null,
