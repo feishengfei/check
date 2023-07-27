@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "au1.09vpn.com",
-            "port": 80,
+            "address": "scaleway.696960.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "53960289-1648-4b28-97e1-2fd832464df1",
+                "id": "e357cd63-f1a5-4c8e-c42e-26da11207fee",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess/",
+          "path": "/root/",
           "headers": {
-            "Host": "au1.09vpn.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
