@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10920,
+      "port": 10913,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "203.28.8.207",
-            "port": 443,
+            "address": "cfcdn5.sanfencdn.net",
+            "port": 2052,
             "users": [
               {
-                "id": "a128a5af-518a-4bc8-851e-b1f68b2c49d2",
+                "id": "85c359bc-2247-4d83-a294-5d7752db567f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "4.saintink.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "ro2.v2rayserv.com/vmess",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "4.saintink.eu.org"
+            "Host": "jp6.sanfencdn2.com"
           }
         },
         "httpSettings": null,
