@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.199.138.160",
-            "port": 51204,
+            "address": "mykksdcx.uk",
+            "port": 43219,
             "users": [
               {
-                "id": "9549a2cf-129b-43a1-88db-ef7f648de74a",
-                "alterId": 64,
+                "id": "61895299-b6b3-4508-add9-4a8b39ae5087",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mykksdcx.uk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/UYTnSHdNYsdg",
+          "headers": {
+            "Host": "mykksdcx.uk"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

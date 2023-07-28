@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.v2-vip.fun",
-            "port": 80,
+            "address": "51.75.74.253",
+            "port": 10000,
             "users": [
               {
-                "id": "789dfa0d-2028-4d53-a4db-252ea75d863e",
+                "id": "cc0737c6-291a-11ee-ac64-9b2f790d3567",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/vpnjantit",
           "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
+            "Host": "51.75.74.253"
           }
         },
         "httpSettings": null,
