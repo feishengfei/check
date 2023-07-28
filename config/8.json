@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mykksdcx.uk",
-            "port": 43219,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "61895299-b6b3-4508-add9-4a8b39ae5087",
+                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "mykksdcx.uk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/UYTnSHdNYsdg",
+          "path": "/shirker",
           "headers": {
-            "Host": "mykksdcx.uk"
+            "Host": "dp3.scproxy.top"
           }
         },
         "httpSettings": null,
