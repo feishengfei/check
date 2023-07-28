@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.160.204.23",
-            "port": 443,
+            "address": "cdn.narutos.top",
+            "port": 8880,
             "users": [
               {
-                "id": "a2284cc1-20d8-4c78-a622-3e3cca767a70",
+                "id": "4b5e4565-322f-4223-a891-78a84f189726",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dedi2.1808.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "a2284cc1",
+          "path": "/GdtYWlsLmNvbSJ9LCJjb3V",
           "headers": {
-            "Host": "dedi2.1808.cf"
+            "Host": "newyork.yj2022.gq"
           }
         },
         "httpSettings": null,
