@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.narutos.top",
-            "port": 8880,
+            "address": "aaaa.wxx.gay",
+            "port": 443,
             "users": [
               {
-                "id": "4b5e4565-322f-4223-a891-78a84f189726",
+                "id": "a4dd15b0-2c96-11ee-a060-000017022008",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/GdtYWlsLmNvbSJ9LCJjb3V",
+          "path": "/look",
           "headers": {
-            "Host": "newyork.yj2022.gq"
+            "Host": ""
           }
         },
         "httpSettings": null,
