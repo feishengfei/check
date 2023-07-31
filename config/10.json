@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10926,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.narutos.top",
-            "port": 8880,
+            "address": "23.234.198.83",
+            "port": 34888,
             "users": [
               {
-                "id": "4b5e4565-322f-4223-a891-78a84f189726",
-                "alterId": 0,
+                "id": "a9abf3e7-87f4-473d-8d03-2f26ca4b3583",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/RpT6kZjkw45EenmTcDYWs",
-          "headers": {
-            "Host": "eu.jh.yj2022.gq"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
