@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.saintink.eu.org",
+            "address": "uk23.ulifeai.com",
             "port": 443,
             "users": [
               {
-                "id": "c226d9fa-b5a7-4f6e-9532-50137c89311d",
+                "id": "3e9165fe-9145-4ff2-a058-56678d85ca6b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "4.saintink.eu.org"
+          "serverName": "uk23.ulifeai.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "nl1.v2rayserv.com/vmess",
+          "path": "/swoole",
           "headers": {
-            "Host": "4.saintink.eu.org"
+            "Host": "uk23.ulifeai.com"
           }
         },
         "httpSettings": null,

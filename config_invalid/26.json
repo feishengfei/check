@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.narutos.top",
-            "port": 8880,
+            "address": "cdn-yx.syjd.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "4b5e4565-322f-4223-a891-78a84f189726",
+                "id": "aba9389e-21b7-45f5-a82d-0c2b8b989bb4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdn-us.syjd.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/RpT6kZjkw45EenmTcDYWs",
+          "path": "/cdn",
           "headers": {
-            "Host": "eu.jh.yj2022.gq"
+            "Host": "cdn-us.syjd.xyz"
           }
         },
         "httpSettings": null,

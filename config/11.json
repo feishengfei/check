@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10929,
+      "port": 10911,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.ircf.space",
+            "address": "us-west.lnaspiring.com",
             "port": 80,
             "users": [
               {
-                "id": "c88c576d-6ec8-48e9-ad0c-120a761c7eb5",
+                "id": "b7b1732a-6e3f-4b17-b2ab-08565894cf20",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/aln/18",
           "headers": {
-            "Host": "amstd.shabijichang.com"
+            "Host": "d3fw11t3zrp89a.cloudfront.net"
           }
         },
         "httpSettings": null,

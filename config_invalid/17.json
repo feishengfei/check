@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf3.992688.xyz",
-            "port": 8080,
+            "address": "8.219.150.28",
+            "port": 443,
             "users": [
               {
-                "id": "0ea60ebb-632d-4226-893a-cccc2053dbf5",
+                "id": "1d4379ed-27c2-4f12-9f69-25b8ca8b084c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "haxus3.vpn66.eu.org"
+            "Host": ""
           }
         },
         "httpSettings": null,
