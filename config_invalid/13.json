@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "aaaa.wxx.gay",
+            "port": 443,
             "users": [
               {
-                "id": "4a47e680-d860-4e63-9fa6-813857fb0f42",
+                "id": "b9571eec-2f56-11ee-af9f-000017022008",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "4a47e680",
+          "path": "/look",
           "headers": {
-            "Host": "ddp2.1808.cf"
+            "Host": ""
           }
         },
         "httpSettings": null,
