@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ask.ircf.space",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "79770a32-9607-4919-9483-0f1794559390",
+                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nika3hdfy2.foriran.trade"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/juYLyvNBpY0LBOAommy2aJE",
+          "path": "/shirker",
           "headers": {
-            "Host": "nika3hdfy2.foriran.trade"
+            "Host": "dp3.scproxy.top"
           }
         },
         "httpSettings": null,
