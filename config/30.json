@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10916,
+      "port": 10930,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "xjp.shabijichang.com",
-            "port": 80,
+            "address": "Shopify.com",
+            "port": 2086,
             "users": [
               {
-                "id": "f8d42c46-8b15-483f-a630-4546bf9f4f39",
+                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/aries",
           "headers": {
-            "Host": "xjp.shabijichang.com"
+            "Host": "Fr.cloudflare.quest"
           }
         },
         "httpSettings": null,
