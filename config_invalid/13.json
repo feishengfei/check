@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.58.38",
-            "port": 443,
+            "address": "dld.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "4fe1a9ad-6db8-4dc2-acda-1221bcff9c1a",
+                "id": "2123d4f5-0e8f-4641-a45f-0c8ec799b380",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cftokyo1.tnetvpn.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/relay",
+          "path": "/",
           "headers": {
-            "Host": "cftokyo1.tnetvpn.com"
+            "Host": "dld.shabijichang.com"
           }
         },
         "httpSettings": null,

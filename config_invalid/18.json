@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "icook.tw",
-            "port": 8443,
+            "address": "172.64.106.104",
+            "port": 2095,
             "users": [
               {
-                "id": "a38f88f1-3104-4eb9-9de1-3dd88e6377e3",
+                "id": "417d27fb-cb93-3bd8-9bf7-71cd91319821",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "haxeu1.freevps.uw.to"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/rabfshvm?ed=2048",
+          "path": "/hgcefomn",
           "headers": {
-            "Host": "haxeu1.freevps.uw.to"
+            "Host": "amszx.66666654.xyz"
           }
         },
         "httpSettings": null,
