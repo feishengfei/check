@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "Amsterdam.kotick.site",
-            "port": 443,
+            "address": "45.199.138.183",
+            "port": 44144,
             "users": [
               {
-                "id": "9F858CE1-7E02-4863-AA24-D90F8D3437D7",
-                "alterId": 0,
+                "id": "078eb24d-8d1d-4fbd-b914-ee58a897a35e",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Amsterdam.kotick.site"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "speedtest",
-          "headers": {
-            "Host": "Amsterdam.kotick.site"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

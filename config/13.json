@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10913,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Amsterdam.kotick.site",
-            "port": 443,
+            "address": "Shopify.com",
+            "port": 2086,
             "users": [
               {
-                "id": "9F858CE1-7E02-4863-AA24-D90F8D3437D7",
+                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Amsterdam.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "speedtest",
+          "path": "/aries",
           "headers": {
-            "Host": "Amsterdam.kotick.site"
+            "Host": "Fr.cloudflare.quest"
           }
         },
         "httpSettings": null,
