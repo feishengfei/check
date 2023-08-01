@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "shs.shabijichang.com",
-            "port": 80,
+            "address": "cdn-yx.syjd.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "b6a0dc8f-da5d-42c8-815c-3dbb97f0601c",
+                "id": "aba9389e-21b7-45f5-a82d-0c2b8b989bb4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdn-us.syjd.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/cdn",
           "headers": {
-            "Host": "shs.shabijichang.com"
+            "Host": "cdn-us.syjd.xyz"
           }
         },
         "httpSettings": null,

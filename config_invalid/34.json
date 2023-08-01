@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ap-east.lnaspiring.com",
-            "port": 443,
+            "address": "Shopify.com",
+            "port": 2086,
             "users": [
               {
-                "id": "b7b1732a-6e3f-4b17-b2ab-08565894cf20",
+                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dwkkjsobgvi09.cloudfront.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aln/11",
+          "path": "/aries",
           "headers": {
-            "Host": "dwkkjsobgvi09.cloudfront.net"
+            "Host": "Fr.cloudflare.quest"
           }
         },
         "httpSettings": null,
