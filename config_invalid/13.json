@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.v2-vip.fun",
-            "port": 8080,
+            "address": "162.159.58.38",
+            "port": 443,
             "users": [
               {
-                "id": "44c48fbe-cfbf-40ee-b0e4-12a1cec4da69",
+                "id": "4fe1a9ad-6db8-4dc2-acda-1221bcff9c1a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cftokyo1.tnetvpn.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/relay",
           "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
+            "Host": "cftokyo1.tnetvpn.com"
           }
         },
         "httpSettings": null,
