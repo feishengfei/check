@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.106.104",
-            "port": 2095,
+            "address": "kkisme.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "417d27fb-cb93-3bd8-9bf7-71cd91319821",
+                "id": "d3deeb17-18b4-4ea0-a68e-f6b3a6a42297",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hgcefomn",
+          "path": "/v2ray",
           "headers": {
-            "Host": "amszx.66666654.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

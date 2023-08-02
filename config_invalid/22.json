@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mrb.shabijichang.com",
-            "port": 80,
+            "address": "icook.tw",
+            "port": 8443,
             "users": [
               {
-                "id": "abe2c9db-717d-4e27-af3b-50a8bccdfdff",
+                "id": "a38f88f1-3104-4eb9-9de1-3dd88e6377e3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "haxus1.freevps.uw.to"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/rabfshvm?ed=2048",
           "headers": {
-            "Host": "mrb.shabijichang.com"
+            "Host": "haxus1.freevps.uw.to"
           }
         },
         "httpSettings": null,

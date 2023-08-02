@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk2.amazonwebservicesss.com",
-            "port": 80,
+            "address": "Amsterdam.kotick.site",
+            "port": 443,
             "users": [
               {
-                "id": "ebc8ef6e-961d-4315-9258-46fb81605bd7",
+                "id": "9F858CE1-7E02-4863-AA24-D90F8D3437D7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Amsterdam.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aws-china-media/QAcTKp3Ic-M.mp4",
+          "path": "speedtest",
           "headers": {
-            "Host": "hk2.amazonwebservicesss.com"
+            "Host": "Amsterdam.kotick.site"
           }
         },
         "httpSettings": null,
