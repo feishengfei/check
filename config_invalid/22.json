@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "icook.tw",
-            "port": 8443,
+            "address": "Shopify.com",
+            "port": 2086,
             "users": [
               {
-                "id": "a38f88f1-3104-4eb9-9de1-3dd88e6377e3",
+                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "haxus1.freevps.uw.to"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/rabfshvm?ed=2048",
+          "path": "/aries",
           "headers": {
-            "Host": "haxus1.freevps.uw.to"
+            "Host": "Fr.cloudflare.quest"
           }
         },
         "httpSettings": null,
