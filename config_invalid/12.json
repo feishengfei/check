@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "flkf.shabijichang.com",
-            "port": 80,
+            "address": "shm.ircf.space",
+            "port": 443,
             "users": [
               {
-                "id": "8bd3a2e7-58bd-4d89-ad1a-e82bdd9ff128",
+                "id": "79770a32-9607-4919-9483-0f1794559390",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hiddis2.freelines.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/juYLyvNBpY0LBOAommy2aJE",
           "headers": {
-            "Host": "flkf.shabijichang.com"
+            "Host": "hiddis2.freelines.net"
           }
         },
         "httpSettings": null,
