@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "pl2-vmess.greenssh.xyz",
-            "port": 443,
+            "address": "ge1.09vpn.com",
+            "port": 80,
             "users": [
               {
-                "id": "2e68015f-a8b2-4893-a7a3-4edb19b178d9",
+                "id": "5e5fe770-b650-413e-8d5b-e7e2b84a4367",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pl2-vmess.greenssh.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess/",
           "headers": {
-            "Host": "pl2-vmess.greenssh.xyz"
+            "Host": "ge1.09vpn.com"
           }
         },
         "httpSettings": null,

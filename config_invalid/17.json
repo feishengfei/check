@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "racknerd.gorgorchicken.one",
-            "port": 8443,
+            "address": "vm.au.serverfast.pw",
+            "port": 80,
             "users": [
               {
-                "id": "1df0a6ca-5812-4bce-ddb1-9cd5548f4919",
+                "id": "5c828bf0-3ded-4848-8053-f309bcaf7d08",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "racknerd.gorgorchicken.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/racknerd",
+          "path": "/v2ray-vmess/ntls",
           "headers": {
-            "Host": "racknerd.gorgorchicken.one"
+            "Host": "au.serverfast.pw"
           }
         },
         "httpSettings": null,
