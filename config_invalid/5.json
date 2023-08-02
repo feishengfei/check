@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vpslog02jp.freevps.uw.to",
-            "port": 30503,
+            "address": "dongtaiwang3.com",
+            "port": 443,
             "users": [
               {
-                "id": "a38f88f1-3104-4eb9-9de1-3dd88e6377e3",
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "d.freeh1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/rabfshvm?ed=2048",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "vpslog02jp.freevps.uw.to"
+            "Host": "d.freeh1.xyz"
           }
         },
         "httpSettings": null,

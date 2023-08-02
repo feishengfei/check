@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.saintink.eu.org",
-            "port": 443,
+            "address": "racknerd.gorgorchicken.one",
+            "port": 8443,
             "users": [
               {
-                "id": "c226d9fa-b5a7-4f6e-9532-50137c89311d",
+                "id": "1df0a6ca-5812-4bce-ddb1-9cd5548f4919",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "4.saintink.eu.org"
+          "serverName": "racknerd.gorgorchicken.one"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "nl1.v2rayserv.com/vmess",
+          "path": "/racknerd",
           "headers": {
-            "Host": "4.saintink.eu.org"
+            "Host": "racknerd.gorgorchicken.one"
           }
         },
         "httpSettings": null,
