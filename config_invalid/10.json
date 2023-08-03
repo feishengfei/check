@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ca1.09vpn.com",
-            "port": 80,
+            "address": "shm.ircf.space",
+            "port": 443,
             "users": [
               {
-                "id": "1f97aaef-9523-4602-acfa-0518d2640a0c",
+                "id": "79770a32-9607-4919-9483-0f1794559390",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hiddis2.freelines.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess/",
+          "path": "/juYLyvNBpY0LBOAommy2aJE",
           "headers": {
-            "Host": "ca1.09vpn.com"
+            "Host": "hiddis2.freelines.net"
           }
         },
         "httpSettings": null,
