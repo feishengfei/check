@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.131.211.253",
-            "port": 443,
+            "address": "g7z35c66m.ns28bdh90.y2hd6jq1t.soabgo.com",
+            "port": 26001,
             "users": [
               {
-                "id": "79770a32-9607-4919-9483-0f1794559390",
+                "id": "FF5D3BF5-1296-FB0A-4596-B3CD0C884200",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nika3hdfy2.foriran.trade"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/juYLyvNBpY0LBOAommy2aJE",
-          "headers": {
-            "Host": "nika3hdfy2.foriran.trade"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf2.992688.xyz",
-            "port": 8080,
+            "address": "45.131.211.253",
+            "port": 443,
             "users": [
               {
-                "id": "0ea60ebb-632d-4226-893a-cccc2053dbf5",
+                "id": "79770a32-9607-4919-9483-0f1794559390",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nika3hdfy2.foriran.trade"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/juYLyvNBpY0LBOAommy2aJE",
           "headers": {
-            "Host": "haxus3.vpn66.eu.org"
+            "Host": "nika3hdfy2.foriran.trade"
           }
         },
         "httpSettings": null,
