@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "freeiranweb.ddns.net",
-            "port": 80,
+            "address": "cloudflare.piaole.me",
+            "port": 443,
             "users": [
               {
-                "id": "d1fb628c-206e-42a7-837b-4147255fbaeb",
+                "id": "7e7c5d75-1547-4385-a6f9-1a0a5e0ec4f3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cloudflare.piaole.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/huawei",
           "headers": {
-            "Host": "ld.shabijichang.com"
+            "Host": "cloudflare.piaole.me"
           }
         },
         "httpSettings": null,

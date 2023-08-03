@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "si4co.09vpn.com",
-            "port": 80,
+            "address": "qzcn2-01.dajuzi.cc",
+            "port": 15596,
             "users": [
               {
-                "id": "034f7e88-561a-4fb9-b917-4ab3343b6755",
+                "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vmess/",
-          "headers": {
-            "Host": "si4co.09vpn.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
