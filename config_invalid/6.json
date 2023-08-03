@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "g7z35c66m.ns28bdh90.y2hd6jq1t.soabgo.com",
-            "port": 26001,
+            "address": "cf3.992688.xyz",
+            "port": 8080,
             "users": [
               {
-                "id": "FF5D3BF5-1296-FB0A-4596-B3CD0C884200",
+                "id": "f467f4da-2226-448d-a30d-463ef10548ac",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "vcus2.vpn66.eu.org"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
