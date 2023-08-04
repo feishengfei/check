@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.sttlink.cc",
-            "port": 80,
+            "address": "ask.ircf.space",
+            "port": 443,
             "users": [
               {
-                "id": "d3a24be8-c847-4c7f-ba32-8dd6e79e52b2",
+                "id": "79770a32-9607-4919-9483-0f1794559390",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nika3hdfy2.foriran.trade"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ASFHLASHFO",
+          "path": "/juYLyvNBpY0LBOAommy2aJE",
           "headers": {
-            "Host": "nl.44kk7t.tech"
+            "Host": "nika3hdfy2.foriran.trade"
           }
         },
         "httpSettings": null,
