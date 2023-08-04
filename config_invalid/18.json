@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "qzcn2-01.dajuzi.cc",
-            "port": 15596,
+            "address": "cdn.narutos.top",
+            "port": 8880,
             "users": [
               {
-                "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+                "id": "4b5e4565-322f-4223-a891-78a84f189726",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/GdtYWlsLmNvbSJ9LCJjb3V",
+          "headers": {
+            "Host": "newyork.yj2022.gq"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
