@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf3.992688.xyz",
-            "port": 8080,
+            "address": "dongtaiwang3.com",
+            "port": 443,
             "users": [
               {
-                "id": "d3ded505-f89d-4070-dafa-8288ffbabd32",
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "d.freeh1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "vceu3.vpn66.eu.org"
+            "Host": "d.freeh1.xyz"
           }
         },
         "httpSettings": null,

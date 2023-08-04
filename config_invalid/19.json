@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "g7z35c66m.ns28bdh90.y2hd6jq1t.soabgo.com",
-            "port": 26001,
+            "address": "freeiranweb.ddns.net",
+            "port": 80,
             "users": [
               {
-                "id": "FF5D3BF5-1296-FB0A-4596-B3CD0C884200",
+                "id": "d1fb628c-206e-42a7-837b-4147255fbaeb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "ld.shabijichang.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
