@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10911,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "ask.ircf.space",
-            "port": 443,
+            "address": "64.32.24.210",
+            "port": 48659,
             "users": [
               {
-                "id": "79770a32-9607-4919-9483-0f1794559390",
-                "alterId": 0,
+                "id": "cff9d860-7330-4ee1-b072-7142ddf1571d",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nika3hdfy2.foriran.trade"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/juYLyvNBpY0LBOAommy2aJE",
-          "headers": {
-            "Host": "nika3hdfy2.foriran.trade"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
