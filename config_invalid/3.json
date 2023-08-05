@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hinet.guguyun.pw",
-            "port": 36555,
+            "address": "cfcdn2.sanfencdn.net",
+            "port": 443,
             "users": [
               {
-                "id": "b223ac7e-4f14-4ec7-bd9d-7aaedecda32b",
+                "id": "48843232-58e7-429f-90fb-3809074cc0bb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us4.sanfencdn1.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "hinet.guguyun.pw"
+            "Host": "us4.sanfencdn1.com"
           }
         },
         "httpSettings": null,
