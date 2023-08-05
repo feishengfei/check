@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "shm.ircf.space",
-            "port": 443,
+            "address": "104.31.16.46",
+            "port": 2082,
             "users": [
               {
-                "id": "79770a32-9607-4919-9483-0f1794559390",
+                "id": "58fe1542-5290-40ad-815a-77707a81afe5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hiddis2.freelines.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/juYLyvNBpY0LBOAommy2aJE",
+          "path": "/IOebhLMhl1CTbFHbL95myfRX2",
           "headers": {
-            "Host": "hiddis2.freelines.net"
+            "Host": "ca5.tehme100.fun"
           }
         },
         "httpSettings": null,
