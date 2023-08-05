@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ip.saintink.eu.org",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "d4b6f48f-7474-44dc-9492-8fa3f63db887",
+                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "4.saintink.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "ro2.v2rayserv.com/vmess",
+          "path": "/shirker",
           "headers": {
-            "Host": "4.saintink.eu.org"
+            "Host": "dp3.scproxy.top"
           }
         },
         "httpSettings": null,
