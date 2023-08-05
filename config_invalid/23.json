@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.240.218",
-            "port": 80,
+            "address": "qzcn2-01.dajuzi.cc",
+            "port": 15596,
             "users": [
               {
-                "id": "4a47e680-d860-4e63-9fa6-813857fb0f42",
+                "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
                 "alterId": 0,
                 "email": "",
-                "security": "aes-128-gcm",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "4a47e680",
-          "headers": {
-            "Host": "ddp2.1808.cf"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
