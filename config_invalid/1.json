@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jpcdn.bh8189.eu.org",
-            "port": 2082,
+            "address": "qzcn2-01.dajuzi.cc",
+            "port": 15598,
             "users": [
               {
-                "id": "cfa1872c-add9-41b9-890a-b60f5e131fa7",
+                "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/hostodo",
-          "headers": {
-            "Host": "hostodo.galenet.online"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp002.landiannet.link",
-            "port": 10007,
+            "address": "104.21.12.87",
+            "port": 80,
             "users": [
               {
-                "id": "315da76f-8acd-4872-834f-bcffd134f423",
+                "id": "0b65bb06-6b28-487a-8e3c-820dda51e977",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jp002.landiannet.link"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/landian",
+          "path": "/dT9s3HqgZeD3eApzDAfhOHq",
           "headers": {
-            "Host": "jp002.landiannet.link"
+            "Host": "series-v1.samanehha.co"
           }
         },
         "httpSettings": null,
