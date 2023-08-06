@@ -36,8 +36,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk001.landiannet.link",
-            "port": 10001,
+            "address": "jp002.landiannet.link",
+            "port": 10007,
             "users": [
               {
                 "id": "315da76f-8acd-4872-834f-bcffd134f423",
@@ -58,7 +58,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "jp002.landiannet.link"
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -66,7 +66,7 @@
           "connectionReuse": true,
           "path": "/landian",
           "headers": {
-            "Host": ""
+            "Host": "jp002.landiannet.link"
           }
         },
         "httpSettings": null,
