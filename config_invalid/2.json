@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Shopify.com",
-            "port": 2086,
+            "address": "hk001.landiannet.link",
+            "port": 10001,
             "users": [
               {
-                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
+                "id": "315da76f-8acd-4872-834f-bcffd134f423",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries",
+          "path": "/landian",
           "headers": {
-            "Host": "Fr.cloudflare.quest"
+            "Host": ""
           }
         },
         "httpSettings": null,
