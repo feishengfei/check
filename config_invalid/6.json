@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ip.saintink.eu.org",
-            "port": 443,
+            "address": "doadly.e5outllok.me",
+            "port": 80,
             "users": [
               {
-                "id": "d4b6f48f-7474-44dc-9492-8fa3f63db887",
+                "id": "f10f9534-a8ef-4122-af84-905f1eb86139",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "4.saintink.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "ro2.v2rayserv.com/vmess",
+          "path": "/",
           "headers": {
-            "Host": "4.saintink.eu.org"
+            "Host": "doadly.e5outllok.me"
           }
         },
         "httpSettings": null,
