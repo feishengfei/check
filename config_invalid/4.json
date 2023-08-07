@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "franc.digires.shop",
+            "address": "cdn.anycast.eu.org",
             "port": 443,
             "users": [
               {
-                "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+                "id": "e3a37909-487c-4748-8ba4-945290267018",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "dd2.1808.cf"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/11201",
+          "path": "e3a37909",
           "headers": {
-            "Host": ""
+            "Host": "dd2.1808.cf"
           }
         },
         "httpSettings": null,
