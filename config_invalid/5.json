@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bxcc.76898102.xyz",
-            "port": 2052,
+            "address": "www.codepen.io",
+            "port": 443,
             "users": [
               {
-                "id": "f78a8c93-fbd4-38e9-ac8d-5ffc476503d3",
+                "id": "2cd39102-0799-4c61-abb6-2e7a258f0397",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us-v.sshmax.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/bxsmiao",
+          "path": "/vmess",
           "headers": {
-            "Host": "bxc.76898102.xyz"
+            "Host": "us-v.sshmax.xyz"
           }
         },
         "httpSettings": null,

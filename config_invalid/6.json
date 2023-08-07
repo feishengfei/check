@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.codepen.io",
-            "port": 443,
+            "address": "cf1.992688.xyz",
+            "port": 8080,
             "users": [
               {
-                "id": "2cd39102-0799-4c61-abb6-2e7a258f0397",
+                "id": "e6e14e13-359d-4f07-d60a-92533c5c025a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us-v.sshmax.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "us-v.sshmax.xyz"
+            "Host": "vcus1.vpn66.eu.org"
           }
         },
         "httpSettings": null,
