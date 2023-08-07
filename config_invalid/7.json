@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "qzcn2-01.dajuzi.cc",
-            "port": 15598,
+            "address": "cdn.chigua.tk",
+            "port": 80,
             "users": [
               {
-                "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+                "id": "7e7f8398-bd39-49d8-9ce6-e48ffef463dd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/2TokGE9A/",
+          "headers": {
+            "Host": "us6.cachexy.cf"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
