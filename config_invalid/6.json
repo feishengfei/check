@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.184.44.167",
-            "port": 443,
+            "address": "vip.impervasec.info",
+            "port": 2095,
             "users": [
               {
-                "id": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
+                "id": "4bcd63da-c887-4766-d61f-5d4097796abc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ecc.vtcss.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue8",
+          "path": "/",
           "headers": {
-            "Host": "ecc.vtcss.top"
+            "Host": "vip.impervasec.info"
           }
         },
         "httpSettings": null,
