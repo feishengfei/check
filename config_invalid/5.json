@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.184.44.247",
-            "port": 443,
+            "address": "cdn.chigua.tk",
+            "port": 80,
             "users": [
               {
-                "id": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
+                "id": "7e7f8398-bd39-49d8-9ce6-e48ffef463dd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ecc.vtcss.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue8",
+          "path": "/2TokGE9A/",
           "headers": {
-            "Host": "ecc.vtcss.top"
+            "Host": "us6.cachexy.cf"
           }
         },
         "httpSettings": null,
