@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ydarm.e5outllok.me",
-            "port": 80,
+            "address": "cfyd.starsea.vip",
+            "port": 443,
             "users": [
               {
-                "id": "4ab886c7-e6e2-44af-b0e9-a2fdc81bf004",
+                "id": "3238151a-f634-4dcb-be84-7fc096e3674a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dallas.starsea.vip"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "dallas.starsea.vip"
           }
         },
         "httpSettings": null,
