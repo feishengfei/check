@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10923,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Shopify.com",
-            "port": 2086,
+            "address": "blackvpn4.anghezi.me",
+            "port": 39759,
             "users": [
               {
-                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
+                "id": "9e648fa9-06c9-4f31-9129-4c397797babf",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/aries",
-          "headers": {
-            "Host": "Fr.cloudflare.quest"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
