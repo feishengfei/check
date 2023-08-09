@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cjmahdi.online",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "D8813DCB-426C-4952-B384-8951B0444EC1",
+                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "green-water-bb30.walidfree23.workers.dev"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest/Amsterdam.kotick.site",
+          "path": "/shirker",
           "headers": {
-            "Host": "green-water-bb30.walidfree23.workers.dev"
+            "Host": "lv3.sharecentrepro.org"
           }
         },
         "httpSettings": null,
