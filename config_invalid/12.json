@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.narutos.top",
-            "port": 8880,
+            "address": "cjmahdi.online",
+            "port": 443,
             "users": [
               {
-                "id": "4b5e4565-322f-4223-a891-78a84f189726",
+                "id": "D8813DCB-426C-4952-B384-8951B0444EC1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "green-water-bb30.walidfree23.workers.dev"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/SMNxcwVdTTzcou9yQftDyZcCGQui9a",
+          "path": "/speedtest/Amsterdam.kotick.site",
           "headers": {
-            "Host": "paris.yj2022.gq"
+            "Host": "green-water-bb30.walidfree23.workers.dev"
           }
         },
         "httpSettings": null,
