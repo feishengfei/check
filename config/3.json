@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10912,
+      "port": 10903,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "hzefss.66666654.xyz",
-            "port": 2095,
+            "address": "108.166.203.181",
+            "port": 44945,
             "users": [
               {
-                "id": "0bb55212-6c02-39d5-8189-e6c5a9f825be",
-                "alterId": 0,
+                "id": "268a491b-764c-44d1-81a4-30de16130867",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/hgcefomn",
-          "headers": {
-            "Host": "hzefs.66666654.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
