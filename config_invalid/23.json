@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.21",
-            "port": 80,
+            "address": "84kr.fr99kt.top",
+            "port": 443,
             "users": [
               {
-                "id": "15b0f307-6df9-4c53-9710-faa7a9dd3af5",
+                "id": "ad13f574-f6b7-427e-bb29-224a07c56d10",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "84kr.fr99kt.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/rdg",
           "headers": {
-            "Host": "rodican08vm.mr-radwan-daoud.de"
+            "Host": "84kr.fr99kt.top"
           }
         },
         "httpSettings": null,

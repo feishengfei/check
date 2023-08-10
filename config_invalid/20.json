@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.dalazhi.eu.org",
+            "address": "uk26.ulifeai.com",
             "port": 443,
             "users": [
               {
-                "id": "64480f4c-61c2-4d88-89c3-fc0045229bfc",
+                "id": "449a7a4e-63db-4979-80de-f6097cfe3178",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us.dalazhi.eu.org"
+          "serverName": "uk26.ulifeai.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/kplxvws",
+          "path": "/swoole",
           "headers": {
-            "Host": "us.dalazhi.eu.org"
+            "Host": "uk26.ulifeai.com"
           }
         },
         "httpSettings": null,

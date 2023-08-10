@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10916,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf1.992688.xyz",
-            "port": 8080,
+            "address": "156.245.8.151",
+            "port": 443,
             "users": [
               {
-                "id": "f467f4da-2226-448d-a30d-463ef10548ac",
-                "alterId": 0,
+                "id": "84d1de11-ce12-4a15-8312-1338356d4ac4",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.57424349.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/path/1691575919722",
           "headers": {
-            "Host": "vcus2.vpn66.eu.org"
+            "Host": "www.57424349.xyz"
           }
         },
         "httpSettings": null,
