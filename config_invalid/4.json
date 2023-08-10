@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "86sgsg.fr99kt.top",
-            "port": 443,
+            "address": "test02.himmma.top",
+            "port": 7888,
             "users": [
               {
-                "id": "ad13f574-f6b7-427e-bb29-224a07c56d10",
+                "id": "149b7e41-c67e-4bf1-9530-a29b21f78ba7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "86sgsg.fr99kt.top"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/fdgg",
-          "headers": {
-            "Host": "86sgsg.fr99kt.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
