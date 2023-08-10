@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.chigua.tk",
-            "port": 80,
+            "address": "95.174.71.96",
+            "port": 3331,
             "users": [
               {
-                "id": "7e7f8398-bd39-49d8-9ce6-e48ffef463dd",
+                "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/2TokGE9A/",
+          "path": "/d/082f26a.fm.apple.com:31859",
           "headers": {
-            "Host": "us6.cachexy.cf"
+            "Host": ""
           }
         },
         "httpSettings": null,
