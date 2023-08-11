@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn3.sanfencdn.net",
-            "port": 2052,
+            "address": "203.23.106.157",
+            "port": 443,
             "users": [
               {
-                "id": "16582759-3d20-4804-9c9c-a58ad7b260a8",
+                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Lille.bobbykotick.rip"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/speedtest",
           "headers": {
-            "Host": "sg3.sanfencdn2.com"
+            "Host": "Lille.bobbykotick.rip"
           }
         },
         "httpSettings": null,

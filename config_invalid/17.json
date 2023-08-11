@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "66.81.247.58",
-            "port": 443,
+            "address": "vip.impervasec.info",
+            "port": 2095,
             "users": [
               {
-                "id": "be74ca03-6a7c-4c88-edc2-c6434ead0cfa",
+                "id": "4bcd63da-c887-4766-d61f-5d4097796abc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdnca1.digisport.shop"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/16575",
+          "path": "/",
           "headers": {
-            "Host": "cdnca1.digisport.shop"
+            "Host": ""
           }
         },
         "httpSettings": null,

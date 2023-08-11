@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.ircf.space",
-            "port": 443,
+            "address": "Shopify.com",
+            "port": 2086,
             "users": [
               {
-                "id": "0a02bab7-393c-4bb7-b4fd-8404f3bc72c3",
+                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "4.saintink.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "ua1.v2rayserv.com/vmess",
+          "path": "/aries",
           "headers": {
-            "Host": "4.saintink.eu.org"
+            "Host": "Fr.cloudflare.quest"
           }
         },
         "httpSettings": null,

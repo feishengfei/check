@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw1.kidcc.xyz",
-            "port": 8443,
+            "address": "cf.dalazhi.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "a8974bec-526d-4b4e-a46f-f0d6626ca576",
+                "id": "64480f4c-61c2-4d88-89c3-fc0045229bfc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us.dalazhi.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/kplxvws",
           "headers": {
-            "Host": "tw1.kidcc.xyz"
+            "Host": "us.dalazhi.eu.org"
           }
         },
         "httpSettings": null,

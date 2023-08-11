@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "microsoftdebug.com",
-            "port": 80,
+            "address": "dongtaiwang3.com",
+            "port": 443,
             "users": [
               {
-                "id": "58a05ba9-3e27-4f15-b534-eac1dd6f4f2a",
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "d.freeh1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/windows7.ios",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "v1.us1.microsoftdebug.com"
+            "Host": "d.freeh1.xyz"
           }
         },
         "httpSettings": null,
