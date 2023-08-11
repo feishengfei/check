@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us.opencc.eu.org",
+            "address": "cdn.anycast.eu.org",
             "port": 443,
             "users": [
               {
-                "id": "5436474d-13a9-47ef-898a-7101c2921be9",
+                "id": "e3a37909-487c-4748-8ba4-945290267018",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us.opencc.eu.org"
+          "serverName": "dd2.1808.cf"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/re",
+          "path": "e3a37909",
           "headers": {
-            "Host": "us.opencc.eu.org"
+            "Host": "dd2.1808.cf"
           }
         },
         "httpSettings": null,
