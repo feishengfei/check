@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "67.21.64.84",
-            "port": 43123,
+            "address": "tw1.kidcc.xyz",
+            "port": 8443,
             "users": [
               {
-                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
-                "alterId": 64,
+                "id": "a8974bec-526d-4b4e-a46f-f0d6626ca576",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "tw1.kidcc.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
