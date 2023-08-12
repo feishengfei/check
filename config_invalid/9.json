@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.twitter.now.cc",
+            "address": "203.28.8.207",
             "port": 443,
             "users": [
               {
-                "id": "8d2ba456-2f0d-4c13-b8a0-bff99c679709",
+                "id": "a128a5af-518a-4bc8-851e-b1f68b2c49d2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "vceu3e.twittei.me"
+          "serverName": "4.saintink.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ikun",
+          "path": "ro2.v2rayserv.com/vmess",
           "headers": {
-            "Host": "vceu3e.twittei.me"
+            "Host": "4.saintink.eu.org"
           }
         },
         "httpSettings": null,
