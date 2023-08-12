@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dongtaiwang2.com",
-            "port": 443,
+            "address": "cfcdn3.sanfencdn.net",
+            "port": 2052,
             "users": [
               {
-                "id": "25a9f3b9-1e6d-40bd-968b-e0818c1b196f",
+                "id": "16582759-3d20-4804-9c9c-a58ad7b260a8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "2.freek1.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dongtaiwang.com",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "2.freek1.xyz"
+            "Host": "sg3.sanfencdn2.com"
           }
         },
         "httpSettings": null,
