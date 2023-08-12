@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dongtaiwang3.com",
-            "port": 443,
+            "address": "cf2.trojan.tel",
+            "port": 8880,
             "users": [
               {
-                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
+                "id": "fbcf13eb-a12a-4b73-8bff-85ec5a9db9a4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "d.freeh1.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dongtaiwang.com",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "d.freeh1.xyz"
+            "Host": "ssrsub-cf-v3.trojan.tel"
           }
         },
         "httpSettings": null,

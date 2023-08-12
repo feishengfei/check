@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mtn.shargh.shop",
-            "port": 2096,
+            "address": "104.25.232.114",
+            "port": 2082,
             "users": [
               {
-                "id": "b28233ff-92d0-42de-8db7-50e7325615e9",
+                "id": "0ddf0cc4-1487-4ff1-a6a7-d9ab93040606",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "s1.jonoob.shop"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/blue",
           "headers": {
-            "Host": "s1.jonoob.shop"
+            "Host": "tui.vtcss.top"
           }
         },
         "httpSettings": null,
