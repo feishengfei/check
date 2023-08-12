@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "us2.cmbm.link",
-            "port": 443,
+            "address": "45.199.138.161",
+            "port": 46735,
             "users": [
               {
-                "id": "5436474d-13a9-47ef-898a-7101c2921be9",
-                "alterId": 0,
+                "id": "9549a2cf-129b-43a1-88db-ef7f648de74a",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us2.cmbm.link"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/re",
-          "headers": {
-            "Host": "us2.cmbm.link"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
