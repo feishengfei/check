@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10916,
+      "port": 10924,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,7 +36,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "219.76.13.167",
+            "address": "219.76.13.183",
             "port": 443,
             "users": [
               {
@@ -58,7 +58,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "e.cn-db.top"
+          "serverName": "a.db-link.in"
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -66,7 +66,7 @@
           "connectionReuse": true,
           "path": "/db",
           "headers": {
-            "Host": "e.cn-db.top"
+            "Host": "a.db-link.in"
           }
         },
         "httpSettings": null,
