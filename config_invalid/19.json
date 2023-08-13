@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "203.23.106.157",
-            "port": 443,
+            "address": "speedip.eu.org",
+            "port": 8880,
             "users": [
               {
-                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+                "id": "35f07051-8e77-4b44-be56-8979cc25c249",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Lille.bobbykotick.rip"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "Lille.bobbykotick.rip"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,

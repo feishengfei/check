@@ -6,18 +6,20 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                 | cn            | cc   | isp       | ip                  | chatgpt          |
-|---:|:---------------------|:---------------------|:--------------|:-----|:----------|:--------------------|:-----------------|
-|  0 | [2](config/2.json)   | 64.32.4.53           | United States | US   | SHARKTECH | 107.167.13.162      | Yes (Region: US) |
-|  1 | [3](config/3.json)   | 107.167.30.132       | United States | US   | SHARKTECH | 170.178.185.146     | Yes (Region: US) |
-|  2 | [14](config/14.json) | 54.36.174.181        | Poland        | PL   | OVH SAS   | 2001:41d0:602:db5:: | Yes (Region: FR) |
-|  3 | [18](config/18.json) | www.dongtaiwang4.com | United States | US   | AS40676   | 108.181.22.155      | Yes (Region: US) |
+|    | id                   | addr                                 | cn            | cc   | isp                               | ip            | chatgpt          |
+|---:|:---------------------|:-------------------------------------|:--------------|:-----|:----------------------------------|:--------------|:-----------------|
+|  0 | [4](config/4.json)   | 67.21.64.84                          | United States | US   | SHARKTECH                         | 67.21.72.34   | Yes (Region: US) |
+|  1 | [7](config/7.json)   | 74.217.182.119                       | United States | US   | DEDIPATH-LLC                      | 45.15.147.130 | Yes (Region: US) |
+|  2 | [9](config/9.json)   | gamespeed-gateway-1.numastergame.com | Taiwan        | TW   | Data Communication Business Group | 61.219.15.82  | Yes (Region: TW) |
+|  3 | [16](config/16.json) | 156.245.8.145                        | Netherlands   | NL   | YISP B.V.                         | 154.84.1.134  | Yes (Region: NL) |
+|  4 | [26](config/26.json) | 219.76.13.183                        | Singapore     | SG   | Datacamp Limited                  | 5.180.78.163  | Yes (Region: SG) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTZkMWJcdTY3NDlcdTc3ZjZTaGFya3RlY2hcdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgMiIsICJhZGQiOiAiNjQuMzIuNC41MyIsICJwb3J0IjogIjQzNTU2IiwgImlkIjogIjg2NTMwMDRmLWRlNjctNDRjMi05Y2NlLWUwODMwOTMzZmIwMyIsICJhaWQiOiAiNjQiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjhVU1x1N2Y4ZVx1NTZmZCh5b3V0dWJlXHU5NjNmXHU0ZjFmXHU3OWQxXHU2MjgwKSIsICJwYXRoIjogIi8iLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
-vmess://eyJhZGQiOiAiMTA3LjE2Ny4zMC4xMzIiLCAiYWlkIjogNjQsICJob3N0IjogIiIsICJpZCI6ICI1OGU1NjBiNC1iYmE2LTQ4NDMtYmU1Zi04MzMyMTAyMmZhMGQiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogNDM5MDAsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZFx1NTJhMFx1NTIyOVx1Nzk4Zlx1NWMzY1x1NGU5YVx1NWRkZVx1NmQxYlx1Njc0OVx1NzdmNlx1NWUwMlNoYXJrVGVjaFx1NjU3MFx1NjM2ZVx1NGUyZFx1NWZjMyAzIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@54.36.174.181:8119#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2014
-ss://YWVzLTI1Ni1nY206ZG9uZ3RhaXdhbmcuY29t@www.dongtaiwang4.com:22088#github.com/freefq%20-%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20%2018
+vmess://eyJhZGQiOiAiNjcuMjEuNjQuODQiLCAiYWlkIjogIjY0IiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIiIsICJpZCI6ICIyNTY2ZDAwZi0yMThjLTQ4ZjctOWEzNi0xM2QzZDZmMWE3MjQiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogIjQzMTIzIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkXHU1MmEwXHU1MjI5XHU3OThmXHU1YzNjXHU0ZTlhXHU1ZGRlXHU2ZDFiXHU2NzQ5XHU3N2Y2U2hhcmtUZWNoXHU2NTcwXHU2MzZlXHU0ZTJkXHU1ZmMzIDQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmQgIDciLCAiYWRkIjogIjc0LjIxNy4xODIuMTE5IiwgInBvcnQiOiAiNDQzIiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogInd3dy42Mjk3NjE3MS54eXoiLCAicGF0aCI6ICIvcGF0aC8xNjkxNzI4NDg1MjU0IiwgInRscyI6ICJ0bHMiLCAic25pIjogInd3dy42Mjk3NjE3MS54eXoifQ==
+vmess://eyJhZGQiOiAiZ2FtZXNwZWVkLWdhdGV3YXktMS5udW1hc3RlcmdhbWUuY29tIiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICIwOTEzYjFhYy0xZjZjLTQzNmItOTliNC1hNWQ2ZTM0M2QwMjUiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogMTE4NzIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1NTNmMFx1NmU3ZVx1NzcwMVx1NGUyZFx1NTM0ZVx1NzUzNVx1NGZlMSA5IiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk5OTlcdTZlMmYgIDE2IiwgImFkZCI6ICIxNTYuMjQ1LjguMTQ1IiwgInBvcnQiOiAiNDQzIiwgImlkIjogIjYzYjRiODI5LTdmMDEtNGUyNi1iMDM3LWYwNGIxZjA5ODc2NSIsICJhaWQiOiAiNjQiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogInd3dy4zMjE1OTg3Ny54eXoiLCAicGF0aCI6ICIvcGF0aC8xNjkxNzUwMjU5MDEyIiwgInRscyI6ICJ0bHMiLCAic25pIjogInd3dy4zMjE1OTg3Ny54eXoifQ==
+vmess://eyJhZGQiOiAiMjE5Ljc2LjEzLjE4MyIsICJhaWQiOiAxLCAiaG9zdCI6ICJhLmRiLWxpbmsuaW4iLCAiaWQiOiAiN2ZjYjRhMjctZjgxOC0zMzc3LWFmNTYtY2MwOGJjYjQyYjVkIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9kYiIsICJwb3J0IjogNDQzLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk5OTlcdTZlMmZcdTc1MzVcdThiYWZcdTc2YzhcdTc5ZDFcdTY3MDlcdTk2NTBcdTUxNmNcdTUzZjggMjYiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
 ```
 

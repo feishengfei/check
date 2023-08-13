@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "csgo.com",
-            "port": 2052,
+            "address": "dongtaiwang3.com",
+            "port": 443,
             "users": [
               {
-                "id": "84134d90-e4fe-4a86-c8d6-4d7bedb3c333",
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "d.freeh1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "45.144.152.231.cyhmall.eu.org"
+            "Host": "d.freeh1.xyz"
           }
         },
         "httpSettings": null,
