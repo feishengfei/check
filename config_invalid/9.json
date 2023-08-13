@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "wi.saintink.eu.org",
-            "port": 443,
+            "address": "cf.thaseunknown.com",
+            "port": 8080,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "0306fea1-427b-4d08-9b2d-cf8a4078d634",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sub2.saintink.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vuk2.0bad.com/chat",
+          "path": "/vmess",
           "headers": {
-            "Host": "sub2.saintink.eu.org"
+            "Host": "chinam.eu.org"
           }
         },
         "httpSettings": null,

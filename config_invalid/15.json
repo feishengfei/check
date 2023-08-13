@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.120.193.102",
-            "port": 52920,
+            "address": "csgo.com",
+            "port": 2052,
             "users": [
               {
-                "id": "57170ff0-7180-4664-8f61-8debdda345f7",
-                "alterId": 64,
+                "id": "84134d90-e4fe-4a86-c8d6-4d7bedb3c333",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "45.144.152.231.cyhmall.eu.org"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
