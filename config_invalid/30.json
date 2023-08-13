@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "Shopify.com",
-            "port": 2086,
+            "address": "219.76.13.183",
+            "port": 443,
             "users": [
               {
-                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
-                "alterId": 0,
+                "id": "7fcb4a27-f818-3377-af56-cc08bcb42b5d",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "a.db-link.in"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries",
+          "path": "/db",
           "headers": {
-            "Host": "Fr.cloudflare.quest"
+            "Host": "a.db-link.in"
           }
         },
         "httpSettings": null,

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "dj.shabijichang.com",
-            "port": 80,
+            "address": "219.76.13.167",
+            "port": 443,
             "users": [
               {
-                "id": "49d91928-275c-496c-b9f3-0f204a91253c",
-                "alterId": 0,
+                "id": "7fcb4a27-f818-3377-af56-cc08bcb42b5d",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "e.cn-db.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/db",
           "headers": {
-            "Host": "dj.shabijichang.com"
+            "Host": "e.cn-db.top"
           }
         },
         "httpSettings": null,

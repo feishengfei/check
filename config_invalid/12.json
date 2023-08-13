@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aaaa.wxx.gay",
-            "port": 443,
+            "address": "jpcdn.bh8189.eu.org",
+            "port": 2082,
             "users": [
               {
-                "id": "4bbf2f3c-3929-11ee-aedb-000017022008",
+                "id": "db12fdd9-7a51-46cd-9cd0-b8ad23ecd23a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/look",
+          "path": "/hostodo",
           "headers": {
-            "Host": ""
+            "Host": "hostodo.galenet.online"
           }
         },
         "httpSettings": null,
