@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.160.204.63",
+            "address": "vless.wyhkaa0.cf",
             "port": 80,
             "users": [
               {
-                "id": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
+                "id": "87d0aa5d-09df-4785-d95d-6a0deed473be",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vless.wyhkaa0.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue03",
+          "path": "/@hkaa0",
           "headers": {
-            "Host": "ecc.vtcss.top"
+            "Host": "vless.wyhkaa0.cf"
           }
         },
         "httpSettings": null,
