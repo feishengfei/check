@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk.kkpp.online",
-            "port": 443,
+            "address": "103.160.204.112",
+            "port": 80,
             "users": [
               {
-                "id": "78422c74-9a71-4193-8953-a9446dacd782",
+                "id": "185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dksfjeyrbfSGERgrsfgsdfrq/",
+          "path": "/blue",
           "headers": {
-            "Host": ""
+            "Host": "tui.vtcss.top"
           }
         },
         "httpSettings": null,
