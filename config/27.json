@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10927,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gamespeed-gateway-1.numastergame.com",
-            "port": 11872,
+            "address": "Shopify.com",
+            "port": 2086,
             "users": [
               {
-                "id": "0913b1ac-1f6c-436b-99b4-a5d6e343d025",
+                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/aries",
+          "headers": {
+            "Host": "Fr.cloudflare.quest"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
