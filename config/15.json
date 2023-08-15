@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10933,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.anycast.eu.org",
-            "port": 80,
+            "address": "198.2.204.165",
+            "port": 443,
             "users": [
               {
-                "id": "a7ee85f4-2528-412e-994f-ce65f54754e4",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.47722380.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "a7ee85f4",
+          "path": "/path/1691985329194",
           "headers": {
-            "Host": "dd2.1808.cf"
+            "Host": "www.47722380.xyz"
           }
         },
         "httpSettings": null,

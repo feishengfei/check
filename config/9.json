@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10918,
+      "port": 10909,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "pzl.p237875155.buzz",
-            "port": 443,
+            "address": "45.199.138.134",
+            "port": 41393,
             "users": [
               {
-                "id": "9b78b7fe-47a3-41eb-d695-22692ac835a0",
-                "alterId": 0,
+                "id": "1d474f0b-e78d-4af9-bc4a-a467467bc7a7",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pzl.p237875155.buzz"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/pzl237875155",
-          "headers": {
-            "Host": "pzl.p237875155.buzz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

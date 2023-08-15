@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.11.158",
-            "port": 80,
+            "address": "bobbykotick.rip",
+            "port": 443,
             "users": [
               {
-                "id": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
+                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Lille.bobbykotick.rip"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue04",
+          "path": "/speedtest",
           "headers": {
-            "Host": "ecc.vtcss.top"
+            "Host": "Lille.bobbykotick.rip"
           }
         },
         "httpSettings": null,
