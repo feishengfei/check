@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fd.shabijichang.com",
-            "port": 80,
+            "address": "66.81.247.58",
+            "port": 443,
             "users": [
               {
-                "id": "7390f4bc-1bf0-42f4-9c4f-0cbc35217ee3",
+                "id": "be74ca03-6a7c-4c88-edc2-c6434ead0cfa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdnca1.digisport.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/16575",
           "headers": {
-            "Host": "dj.shabijichang.com"
+            "Host": "cdnca1.digisport.shop"
           }
         },
         "httpSettings": null,

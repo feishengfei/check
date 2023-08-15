@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.152",
-            "port": 80,
+            "address": "speedip.eu.org",
+            "port": 8880,
             "users": [
               {
-                "id": "185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79",
+                "id": "35f07051-8e77-4b44-be56-8979cc25c249",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "tui.vtcss.top"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
