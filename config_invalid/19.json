@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bluehost.com",
-            "port": 443,
+            "address": "speedip.jojotu.link",
+            "port": 2052,
             "users": [
               {
-                "id": "12eed507-9a58-4ca5-f7af-2871e9aae684",
+                "id": "964736b7-583d-4e37-b62d-f1c1ca08415d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdntr2.digisport.shop"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/19544",
+          "path": "/jojotuloveyou",
           "headers": {
-            "Host": "cdntr2.digisport.shop"
+            "Host": "us-aa.quinoa.eu.org"
           }
         },
         "httpSettings": null,

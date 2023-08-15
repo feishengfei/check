@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.203.230.184",
-            "port": 443,
+            "address": "cdn.node.user-sub.pddns-usersdk.com",
+            "port": 13003,
             "users": [
               {
-                "id": "f14ff72c-217e-47db-834f-117089e184bb",
+                "id": "5f9f4df4-5398-35d1-9a6a-44a8a575832d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dg1.mlbldzz.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/f14ff72c-217e-47db-834f-117089e184bb",
+          "path": "/ef483582-6269-468c-93af-c511eccb8a69",
           "headers": {
-            "Host": "dg1.mlbldzz.top"
+            "Host": "cdn.node.user-sub.pddns-usersdk.com"
           }
         },
         "httpSettings": null,

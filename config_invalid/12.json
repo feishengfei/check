@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "speedip.jojotu.link",
-            "port": 2052,
+            "address": "116.202.30.76",
+            "port": 42000,
             "users": [
               {
-                "id": "964736b7-583d-4e37-b62d-f1c1ca08415d",
+                "id": "408438b0-fe40-44de-af19-0e5e6bb750ce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/jojotuloveyou",
-          "headers": {
-            "Host": "us-aa.quinoa.eu.org"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
