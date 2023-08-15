@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "speedip.jojotu.link",
-            "port": 2052,
+            "address": "bobbykotick.rip",
+            "port": 443,
             "users": [
               {
-                "id": "964736b7-583d-4e37-b62d-f1c1ca08415d",
+                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Lille.bobbykotick.rip"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jojotuloveyou",
+          "path": "/speedtest",
           "headers": {
-            "Host": "us-aa.quinoa.eu.org"
+            "Host": "Lille.bobbykotick.rip"
           }
         },
         "httpSettings": null,
