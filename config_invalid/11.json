@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudconeaaa.gorgorchicken.one",
-            "port": 8443,
+            "address": "ns1.v2-vip.fun",
+            "port": 8880,
             "users": [
               {
-                "id": "1cec1ebc-b489-4769-f2d9-e079b5832a60",
+                "id": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cloudconeaaa",
+          "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
           "headers": {
-            "Host": ""
+            "Host": "fr7.tehme100.fun"
           }
         },
         "httpSettings": null,
