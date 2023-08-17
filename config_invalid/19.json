@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "speedip.eu.org",
-            "port": 8880,
+            "address": "104.31.16.35",
+            "port": 443,
             "users": [
               {
-                "id": "35f07051-8e77-4b44-be56-8979cc25c249",
+                "id": "479280EB-AD8F-4C31-85B0-5DE66C29C0B4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/speedtest",
           "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,
