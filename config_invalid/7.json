@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.232.34.195",
-            "port": 4531,
+            "address": "172.67.247.81",
+            "port": 80,
             "users": [
               {
-                "id": "947f2396-73e3-4a34-b7f6-93eb13863b31",
+                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/shirker",
+          "headers": {
+            "Host": "nl2.sharecentrepro.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

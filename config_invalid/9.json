@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "86jpjp.fr99kt.top",
-            "port": 38190,
+            "address": "speedip.eu.org",
+            "port": 8880,
             "users": [
               {
-                "id": "ad13f574-f6b7-427e-bb29-224a07c56d10",
+                "id": "35f07051-8e77-4b44-be56-8979cc25c249",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "86jpjp.fr99kt.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/rdg",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "86jpjp.fr99kt.top"
+            "Host": "ssrsub.v01.ssrsub.com"
           }
         },
         "httpSettings": null,
