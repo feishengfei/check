@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dongtaiwang3.com",
+            "address": "cdn-yx.syjd.xyz",
             "port": 443,
             "users": [
               {
-                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
+                "id": "25258af0-ca08-43a8-a638-6c039c33da21",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "d.freeh1.xyz"
+          "serverName": "cdn-us.syjd.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dongtaiwang.com",
+          "path": "/cdn",
           "headers": {
-            "Host": "d.freeh1.xyz"
+            "Host": "cdn-us.syjd.xyz"
           }
         },
         "httpSettings": null,
