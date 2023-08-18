@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.saintink.eu.org",
+            "address": "168.100.6.250",
             "port": 443,
             "users": [
               {
-                "id": "c226d9fa-b5a7-4f6e-9532-50137c89311d",
+                "id": "479280EB-AD8F-4C31-85B0-5DE66C29C0B4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "4.saintink.eu.org"
+          "serverName": "Dusseldorf.kotick.site"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "nl1.v2rayserv.com/vmess",
+          "path": "/speedtest",
           "headers": {
-            "Host": "4.saintink.eu.org"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,
