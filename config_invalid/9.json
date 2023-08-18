@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn-yx.syjd.xyz",
-            "port": 443,
+            "address": "9.wyhkaa0.gq",
+            "port": 2095,
             "users": [
               {
-                "id": "25258af0-ca08-43a8-a638-6c039c33da21",
+                "id": "d838d99a-6806-4be4-c126-7fca613cf6a9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdn-us.syjd.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cdn",
+          "path": "/TG:@hkaa0",
           "headers": {
-            "Host": "cdn-us.syjd.xyz"
+            "Host": "9.wyhkaa0.gq"
           }
         },
         "httpSettings": null,
