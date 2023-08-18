@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp-01.cloudlion.me",
-            "port": 2082,
+            "address": "gamespeed-gateway-1.numastergame.com",
+            "port": 11872,
             "users": [
               {
-                "id": "e32ef032-28aa-4c59-bcdf-18b1a6270f34",
+                "id": "0913b1ac-1f6c-436b-99b4-a5d6e343d025",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
