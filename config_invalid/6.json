@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gamespeed-gateway-1.numastergame.com",
-            "port": 11872,
+            "address": "103.160.204.250",
+            "port": 2082,
             "users": [
               {
-                "id": "0913b1ac-1f6c-436b-99b4-a5d6e343d025",
+                "id": "0afb8b2c-149a-49a8-e90f-d77884ac922f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/blue99",
+          "headers": {
+            "Host": "ecc.vtcss.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

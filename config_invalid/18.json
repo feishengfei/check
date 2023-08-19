@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.160.204.72",
+            "address": "129.150.35.145",
             "port": 80,
             "users": [
               {
-                "id": "185d6ff9-a0a7-4d39-f3e8-783b7a6bbc79",
+                "id": "a7ee85f4-2528-412e-994f-ce65f54754e4",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "aes-128-gcm",
                 "encryption": null,
                 "flow": null
               }
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue",
+          "path": "a7ee85f4",
           "headers": {
-            "Host": "tui.vtcss.top"
+            "Host": "dd2.1808.cf"
           }
         },
         "httpSettings": null,
