@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "129.150.35.145",
-            "port": 80,
+            "address": "bluehost.com",
+            "port": 443,
             "users": [
               {
-                "id": "a7ee85f4-2528-412e-994f-ce65f54754e4",
+                "id": "12eed507-9a58-4ca5-f7af-2871e9aae684",
                 "alterId": 0,
                 "email": "",
-                "security": "aes-128-gcm",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdntr2.digisport.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "a7ee85f4",
+          "path": "/19544",
           "headers": {
-            "Host": "dd2.1808.cf"
+            "Host": "cdntr2.digisport.shop"
           }
         },
         "httpSettings": null,
