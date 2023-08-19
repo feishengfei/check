@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.125.0",
-            "port": 80,
+            "address": "192.99.247.52",
+            "port": 10000,
             "users": [
               {
-                "id": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
+                "id": "d95b12fe-3cf6-11ee-bb73-87e67594af6c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue06",
+          "path": "/vpnjantit",
           "headers": {
-            "Host": "ecc.vtcss.top"
+            "Host": "192.99.247.52"
           }
         },
         "httpSettings": null,
