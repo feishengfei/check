@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.20",
-            "port": 80,
+            "address": "gb-ls03.cn2api.com",
+            "port": 65443,
             "users": [
               {
-                "id": "a51f26e6-7259-4bf7-9dd5-c222a1e43a4d",
-                "alterId": 0,
+                "id": "81ea43a1-7a93-485f-afc8-7496a203b18c",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gb-ls03.cn2api.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/clientarea",
           "headers": {
-            "Host": "france-1vm.mr-radwan-daoud.de"
+            "Host": "gb-ls03.cn2api.com"
           }
         },
         "httpSettings": null,

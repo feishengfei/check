@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.v2-vip.fun",
-            "port": 8880,
+            "address": "de-ls03.cn2api.com",
+            "port": 65443,
             "users": [
               {
-                "id": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-                "alterId": 0,
+                "id": "81ea43a1-7a93-485f-afc8-7496a203b18c",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de-ls03.cn2api.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
+          "path": "/clientarea",
           "headers": {
-            "Host": "fr7.tehme100.fun"
+            "Host": "de-ls03.cn2api.com"
           }
         },
         "httpSettings": null,
