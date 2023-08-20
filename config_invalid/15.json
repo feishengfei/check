@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "20.kccic2pa.xyz",
-            "port": 50020,
+            "address": "sdygarm.e5outllok.me",
+            "port": 80,
             "users": [
               {
-                "id": "d6b5a438-d7a6-4f3e-a1d8-e313392e0098",
+                "id": "58dd4f75-26fd-40b8-80c5-c501d8f71f27",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "sdygarm.e5outllok.me"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
