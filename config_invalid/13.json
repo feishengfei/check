@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.58",
-            "port": 443,
+            "address": "103.160.204.22",
+            "port": 8080,
             "users": [
               {
-                "id": "E4C92B68-B275-4002-A8CA-682D3172E49B",
+                "id": "74a890ab-5c4b-4f35-aea4-5fc2459bebd2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/blue03",
           "headers": {
-            "Host": "Dusseldorf.kotick.site"
+            "Host": "ecc.vtcss.top"
           }
         },
         "httpSettings": null,
