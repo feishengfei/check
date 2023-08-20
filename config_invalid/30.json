@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.v2-vip.fun",
-            "port": 8880,
+            "address": "arvancloud.ir-Uc.snappfood.SO.ddns001.net",
+            "port": 443,
             "users": [
               {
-                "id": "35f07051-8e77-4b44-be56-8979cc25c249",
+                "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
           "headers": {
-            "Host": "ssrsub.v03.ssrsub.com"
+            "Host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster"
           }
         },
         "httpSettings": null,
