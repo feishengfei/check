@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Amsterdam.kotick.site",
+            "address": "cdn.twitter.now.cc",
             "port": 443,
             "users": [
               {
-                "id": "9F858CE1-7E02-4863-AA24-D90F8D3437D7",
+                "id": "8d2ba456-2f0d-4c13-b8a0-bff99c679709",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Amsterdam.kotick.site"
+          "serverName": "us2.twittei.me"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "speedtest",
+          "path": "/ikun",
           "headers": {
-            "Host": "Amsterdam.kotick.site"
+            "Host": "us2.twittei.me"
           }
         },
         "httpSettings": null,
