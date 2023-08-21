@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn5.sanfencdn.net",
-            "port": 2052,
+            "address": "104.31.16.58",
+            "port": 443,
             "users": [
               {
-                "id": "16582759-3d20-4804-9c9c-a58ad7b260a8",
+                "id": "E4C92B68-B275-4002-A8CA-682D3172E49B",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/speedtest",
           "headers": {
-            "Host": "jp6.sanfencdn2.com"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,
