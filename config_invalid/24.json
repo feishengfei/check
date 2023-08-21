@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "51vfly1.win",
-            "port": 443,
+            "address": "103.160.204.223",
+            "port": 8080,
             "users": [
               {
-                "id": "9681f99e-d251-477a-d777-1d01ee550481",
+                "id": "74a890ab-5c4b-4f35-aea4-5fc2459bebd2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "51vfly1.win"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/myblog",
+          "path": "/blue03",
           "headers": {
-            "Host": "51vfly1.win"
+            "Host": "ecc.vtcss.top"
           }
         },
         "httpSettings": null,

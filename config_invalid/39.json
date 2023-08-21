@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fr2.09vpn.com",
-            "port": 80,
+            "address": "wi.saintink.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "eec5cc5c-8c16-44f1-8f75-8c1d5766eab2",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sub2.saintink.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess/",
+          "path": "/vuk2.0bad.com/chat",
           "headers": {
-            "Host": "fr2.09vpn.com"
+            "Host": "sub2.saintink.eu.org"
           }
         },
         "httpSettings": null,
