@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw1-vds1.anyhk.co",
-            "port": 443,
+            "address": "gdcn2.pmxu.link",
+            "port": 14809,
             "users": [
               {
-                "id": "f76f6fc1-9dc3-4e82-b003-ea1c338a6275",
+                "id": "1446b80f-f68a-3f2a-b4b5-118c3ae4f25a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
