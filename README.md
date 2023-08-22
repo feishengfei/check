@@ -6,18 +6,18 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr          | cn            | cc   | isp                   | ip             | chatgpt          |
-|---:|:---------------------|:--------------|:--------------|:-----|:----------------------|:---------------|:-----------------|
-|  0 | [4](config/4.json)   | 64.32.4.54    | United States | US   | SHARKTECH             | 107.167.13.162 | Yes (Region: US) |
-|  1 | [8](config/8.json)   | 172.67.247.81 | Poland        | PL   | OVH SAS               | 54.36.174.181  | Yes (Region: FR) |
-|  2 | [12](config/12.json) | 157.230.47.44 | Singapore     | SG   | GOOGLE-CLOUD-PLATFORM | 35.240.146.255 | Yes (Region: SG) |
-|  3 | [19](config/19.json) | 156.225.67.78 | Netherlands   | NL   | YISP B.V.             | 46.182.107.216 | Yes (Region: US) |
+|    | id                   | addr             | cn          | cc   | isp       | ip             | chatgpt          |
+|---:|:---------------------|:-----------------|:------------|:-----|:----------|:---------------|:-----------------|
+|  0 | [3](config/3.json)   | 156.225.67.78    | Netherlands | NL   | YISP B.V. | 46.182.107.216 | Yes (Region: US) |
+|  1 | [5](config/5.json)   | 156.225.67.243   | Netherlands | NL   | YISP B.V. | 154.84.1.37    | Yes (Region: NL) |
+|  2 | [8](config/8.json)   | speedip.eu.org   | Poland      | PL   | OVH SAS   | 54.36.174.181  | Yes (Region: FR) |
+|  3 | [13](config/13.json) | a26.2e5bf271.win | South Korea | KR   | AMAZON-02 | 52.79.237.220  | Yes (Region: KR) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiNjQuMzIuNC41NCIsICJhaWQiOiAiNjQiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogIjg2NTMwMDRmLWRlNjctNDRjMi05Y2NlLWUwODMwOTMzZmIwMyIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiNDM1NTYiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTZkMWJcdTY3NDlcdTc3ZjZTaGFya3RlY2hcdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgNCIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU4MjgyXHU3MGI5IDgiLCAiYWRkIjogIjE3Mi42Ny4yNDcuODEiLCAicG9ydCI6ICI4MCIsICJpZCI6ICI1Zjc1MWM2ZS01MGIxLTQ3OTctYmE4ZS02ZmZlMzI0YTBiY2UiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIm5sMi5zaGFyZWNlbnRyZXByby5jb20iLCAicGF0aCI6ICIvc2hpcmtlciIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTY1YjBcdTUyYTBcdTU3NjFEaWdpdGFsT2NlYW5cdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgMTIiLCAiYWRkIjogIjE1Ny4yMzAuNDcuNDQiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiYWViZmM1YWUtZmZlYi00OGVlLWIzMTktZjMxOGI2Y2U5MmQ4IiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJ4anBwLm1sYmxkenoudG9wIiwgInBhdGgiOiAiL2FlYmZjNWFlLWZmZWItNDhlZS1iMzE5LWYzMThiNmNlOTJkOCIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNTdcdTk3NWUgIDE5IiwgImFkZCI6ICIxNTYuMjI1LjY3Ljc4IiwgInBvcnQiOiAiNDIyMzkiLCAiaWQiOiAiM2UwMTZjNGQtOTg2ZS00MmRmLTgzOGMtNjA0NmYzZDg5ZWNmIiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIiIsICJ0bHMiOiAiIiwgInNuaSI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNTdcdTk3NWUgIDMiLCAiYWRkIjogIjE1Ni4yMjUuNjcuNzgiLCAicG9ydCI6ICI0MjIzOSIsICJpZCI6ICIzZTAxNmM0ZC05ODZlLTQyZGYtODM4Yy02MDQ2ZjNkODllY2YiLCAiYWlkIjogIjY0IiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiIiwgInRscyI6ICIiLCAic25pIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNTdcdTk3NWUgIDUiLCAiYWRkIjogIjE1Ni4yMjUuNjcuMjQzIiwgInBvcnQiOiAiNDM1ODIiLCAiaWQiOiAiOTkwMDA2YmQtY2IyMC00ODJmLTljOTctZjVmYzY1MzU5NjA1IiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiIsICJzbmkiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDgiLCAiYWRkIjogInNwZWVkaXAuZXUub3JnIiwgInBvcnQiOiAiODAiLCAiaWQiOiAiNzJlODAzMGEtOTZjMi00YmRiLWFjZmItNWJjMDIyNDhmOWYwIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJzc3JzdWIudjA0LnNzcnN1Yi5jb20iLCAicGF0aCI6ICIvYXBpL3YzL2Rvd25sb2FkLmdldEZpbGUiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk3ZTlcdTU2ZmRcdTk5OTZcdTVjMTRBbWF6b25cdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgMTMiLCAiYWRkIjogImEyNi4yZTViZjI3MS53aW4iLCAicG9ydCI6ICI4MCIsICJpZCI6ICIyMTcwMDBiNy1iM2JmLTRlMGUtOWQyYy0xZWMyYmExYmU2ODciLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogImEyNi4yZTViZjI3MS53aW4iLCAicGF0aCI6ICIvIiwgInRscyI6ICIiLCAic25pIjogIiJ9
 ```
 
