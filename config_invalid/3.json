@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "ah-cmi-1000m.ikun666.club",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "bad5fba5-a7bc-4709-882b-e15edad16cef",
-            "port": 64847,
-            "level": 1,
-            "users": null
+            "address": "cloudconeaaa.gorgorchicken.one",
+            "port": 8443,
+            "users": [
+              {
+                "id": "1cec1ebc-b489-4769-f2d9-e079b5832a60",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/cloudconeaaa",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

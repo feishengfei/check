@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru1.mianfenyun012.eu.org",
-            "port": 80,
+            "address": "104.31.16.14",
+            "port": 443,
             "users": [
               {
-                "id": "c5964a63-d67c-4668-cdae-6443a1581e76",
+                "id": "7d5e6501-fb94-42a3-9a61-aa8a300846d1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gb4vm.cdn-03.live"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jdbp606",
+          "path": "/vmesschannel:@hopev2ray",
           "headers": {
-            "Host": ""
+            "Host": "gb4vm.cdn-03.live"
           }
         },
         "httpSettings": null,
