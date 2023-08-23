@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "soap2day.to",
-            "port": 443,
+            "address": "cdn.narutos.top",
+            "port": 8880,
             "users": [
               {
-                "id": "7522A28C-F9A1-40A0-BD92-67CF39AB5D5B",
+                "id": "4b5e4565-322f-4223-a891-78a84f189726",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.bobbykotick.rip"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/GdtYWlsLmNvbSJ9LCJjb3V",
           "headers": {
-            "Host": "Dusseldorf.bobbykotick.rip"
+            "Host": "newyork.yj2022.gq"
           }
         },
         "httpSettings": null,
