@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vsg1.0bad.com",
-            "port": 443,
+            "address": "172.64.130.176",
+            "port": 80,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "f2982db2-23e3-430b-af54-e83ba84205fd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "vsg1.0bad.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chat",
+          "path": "",
           "headers": {
-            "Host": "vsg1.0bad.com"
+            "Host": "xby.daozhang.link"
           }
         },
         "httpSettings": null,
