@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.176.44",
-            "port": 443,
+            "address": "141.193.213.21",
+            "port": 80,
             "users": [
               {
-                "id": "2cd39102-0799-4c61-abb6-2e7a258f0397",
+                "id": "a3673f7b-8146-4cfa-b192-2c96de24ab42",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us-v.sshmax.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/vmess",
           "headers": {
-            "Host": "us-v.sshmax.xyz"
+            "Host": "tr-01vm.mr-radwan-daoud.de"
           }
         },
         "httpSettings": null,

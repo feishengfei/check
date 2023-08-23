@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk2.mianfenyun012.eu.org",
-            "port": 8080,
+            "address": "cloudflare.piaole.me",
+            "port": 443,
             "users": [
               {
-                "id": "5d97b9d9-181c-4741-b70c-781aaa66a25e",
+                "id": "84c3faa1-27c8-4a3e-8ce9-e3edce3a6c6f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cloudflare.piaole.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sdfjv",
+          "path": "/huawei",
           "headers": {
-            "Host": "hk2.mianfenyun012.eu.org"
+            "Host": "cloudflare.piaole.me"
           }
         },
         "httpSettings": null,

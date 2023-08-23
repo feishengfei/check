@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kianoosh.ddns.net",
-            "port": 443,
+            "address": "ns1.v2-vip.fun",
+            "port": 8880,
             "users": [
               {
-                "id": "E97A1F83-B0C6-48E5-82E1-556292153FA7",
+                "id": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fn.mostafago.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
           "headers": {
-            "Host": "fn.mostafago.tk"
+            "Host": "fr7.tehme100.fun"
           }
         },
         "httpSettings": null,
