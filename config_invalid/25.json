@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "am.rainplay.cn",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "ce757f0b-1ecb-4657-b52e-27d4183f23c0",
-            "port": 7902,
-            "level": 1,
-            "users": null
+            "address": "sg1.mianfenyun012.eu.org",
+            "port": 8080,
+            "users": [
+              {
+                "id": "cf35539e-2c06-4016-b2b6-cd6efa1ceb8e",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/djghdk",
+          "headers": {
+            "Host": "sg1.mianfenyun012.eu.org"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

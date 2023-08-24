@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.14",
+            "address": "104.31.16.196",
             "port": 443,
             "users": [
               {
-                "id": "7d5e6501-fb94-42a3-9a61-aa8a300846d1",
+                "id": "6abfe33a-1894-4f62-8879-83b71a35e5fd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "gb4vm.cdn-03.live"
+          "serverName": "us-1.acyun.tk"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmesschannel:@hopev2ray",
+          "path": "/",
           "headers": {
-            "Host": "gb4vm.cdn-03.live"
+            "Host": "us-1.acyun.tk"
           }
         },
         "httpSettings": null,
