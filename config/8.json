@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "private.sky4g.com",
-            "port": 80,
+            "address": "104.31.16.14",
+            "port": 443,
             "users": [
               {
-                "id": "dfb9395d-c872-4bf5-9f6a-7542eeb3c64e",
+                "id": "7d5e6501-fb94-42a3-9a61-aa8a300846d1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gb4vm.cdn-03.live"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sky4g.com",
+          "path": "/vmesschannel:@hopev2ray",
           "headers": {
-            "Host": "private.sky4g.com"
+            "Host": "gb4vm.cdn-03.live"
           }
         },
         "httpSettings": null,
