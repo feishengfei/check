@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
-            "port": 443,
+            "address": "206.237.18.23",
+            "port": 995,
             "users": [
               {
-                "id": "F5A0B71E-85AA-48FF-99D1-9F3B8459DA49",
+                "id": "ce757f0b-1ecb-4657-b52e-27d4183f23c0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.bobbykotick.rip"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/speedtest",
-          "headers": {
-            "Host": "Dusseldorf.bobbykotick.rip"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

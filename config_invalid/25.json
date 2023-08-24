@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.14",
-            "port": 443,
+            "address": "198.41.220.181",
+            "port": 80,
             "users": [
               {
-                "id": "7d5e6501-fb94-42a3-9a61-aa8a300846d1",
+                "id": "a1a676e4-016e-4bf0-96fe-4b6aaf53abc2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gb4vm.cdn-03.live"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmesschannel:@hopev2ray",
+          "path": "/",
           "headers": {
-            "Host": "gb4vm.cdn-03.live"
+            "Host": "sdgrm.shabijichang.com"
           }
         },
         "httpSettings": null,

@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "116.202.30.76",
-            "port": 42000,
+            "address": "141.193.213.21",
+            "port": 80,
             "users": [
               {
-                "id": "408438b0-fe40-44de-af19-0e5e6bb750ce",
+                "id": "9b7281c2-d1ea-4d00-acfe-9301c217f515",
                 "alterId": 0,
                 "email": "",
-                "security": "chacha20-poly1305",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "fast-gvm.mr-radwan-daoud.de"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

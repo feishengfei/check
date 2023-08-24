@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "speedip.eu.org",
-            "port": 80,
+            "address": "185.59.218.177",
+            "port": 443,
             "users": [
               {
-                "id": "72e8030a-96c2-4bdb-acfb-5bc02248f9f0",
+                "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/72d6d25e-1b39-11ee-a5c8-8213fd3be4b9",
           "headers": {
-            "Host": "ssrsub.v04.ssrsub.com"
+            "Host": "72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster"
           }
         },
         "httpSettings": null,
