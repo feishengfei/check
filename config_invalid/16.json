@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg1.mianfenyun012.eu.org",
-            "port": 8080,
+            "address": "speedip.eu.org",
+            "port": 80,
             "users": [
               {
-                "id": "cf35539e-2c06-4016-b2b6-cd6efa1ceb8e",
+                "id": "72e8030a-96c2-4bdb-acfb-5bc02248f9f0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/djghdk",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "sg1.mianfenyun012.eu.org"
+            "Host": "ssrsub.v04.ssrsub.com"
           }
         },
         "httpSettings": null,
