@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ming2.kiwireich.com",
-            "port": 443,
+            "address": "us.freebaipiao.tk",
+            "port": 8443,
             "users": [
               {
-                "id": "18e5f40f-bda6-4c15-9334-e87cda6047af",
+                "id": "03221b25-1a6a-4501-e519-1745b25f6c1f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ming2.kiwireich.com"
+          "serverName": "us.freebaipiao.tk"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ray",
+          "path": "/freebaipiao",
           "headers": {
-            "Host": "ming2.kiwireich.com"
+            "Host": "us.freebaipiao.tk"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "amstd.digires.shop",
-            "port": 443,
+            "address": "ca-01.cloudlion.me",
+            "port": 2082,
             "users": [
               {
-                "id": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+                "id": "55e15a5f-0a15-44fb-b872-0c91b84e7049",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "amstd.digires.shop"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/12796",
+          "path": "/",
           "headers": {
-            "Host": "amstd.digires.shop"
+            "Host": "ca-01.cloudlion.me"
           }
         },
         "httpSettings": null,

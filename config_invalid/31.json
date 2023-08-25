@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "86.38.4.73",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "kDWvXYZoTBcGkC4",
-            "port": 8881,
-            "level": 1,
-            "users": null
+            "address": "vfly3.win",
+            "port": 443,
+            "users": [
+              {
+                "id": "9681f99e-d251-477a-d777-1d01ee550481",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vfly3.win"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/myblog",
+          "headers": {
+            "Host": "vfly3.win"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
