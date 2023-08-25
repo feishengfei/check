@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "speedip.eu.org",
-            "port": 80,
+            "address": "dongtaiwang3.com",
+            "port": 443,
             "users": [
               {
-                "id": "72e8030a-96c2-4bdb-acfb-5bc02248f9f0",
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "d.freeh1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "ssrsub.v04.ssrsub.com"
+            "Host": "d.freeh1.xyz"
           }
         },
         "httpSettings": null,
