@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "scw-fr.iiio.wiki",
-            "port": 2082,
+            "address": "kianoosh.ddns.net",
+            "port": 443,
             "users": [
               {
-                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
+                "id": "E97A1F83-B0C6-48E5-82E1-556292153FA7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fn.mostafago.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries?ed=2048",
+          "path": "/speedtest",
           "headers": {
-            "Host": "scw-fr.iiio.wiki"
+            "Host": "fn.mostafago.tk"
           }
         },
         "httpSettings": null,

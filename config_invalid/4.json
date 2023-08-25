@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fr-01.cloudlion.me",
-            "port": 2082,
+            "address": "104.21.231.123",
+            "port": 443,
             "users": [
               {
-                "id": "4c03971a-6f10-48bb-beab-956806b868dd",
+                "id": "2677D1CA-AF44-493E-96A5-E1B7FB468821",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.kotick.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "fr-01.cloudlion.me"
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,
