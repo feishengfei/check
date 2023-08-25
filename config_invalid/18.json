@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "198.41.220.181",
-            "port": 80,
+            "address": "zfc.windowsupdate1.com",
+            "port": 443,
             "users": [
               {
-                "id": "a1a676e4-016e-4bf0-96fe-4b6aaf53abc2",
+                "id": "6abfe33a-1894-4f62-8879-83b71a35e5fd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us-1.acyun.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "sdgrm.shabijichang.com"
+            "Host": "us-1.acyun.tk"
           }
         },
         "httpSettings": null,

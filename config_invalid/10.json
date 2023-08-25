@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.1",
+            "address": "104.31.16.14",
             "port": 443,
             "users": [
               {
-                "id": "a7ee85f4-2528-412e-994f-ce65f54754e4",
+                "id": "7d5e6501-fb94-42a3-9a61-aa8a300846d1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dd2.1808.cf"
+          "serverName": "gb4vm.cdn-03.live"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "a7ee85f4",
+          "path": "/vmesschannel:@hopev2ray",
           "headers": {
-            "Host": "dd2.1808.cf"
+            "Host": "gb4vm.cdn-03.live"
           }
         },
         "httpSettings": null,
