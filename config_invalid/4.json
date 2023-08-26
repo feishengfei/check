@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg1.mianfenyun012.eu.org",
-            "port": 8080,
+            "address": "cf.fovi.tk",
+            "port": 443,
             "users": [
               {
-                "id": "cf35539e-2c06-4016-b2b6-cd6efa1ceb8e",
+                "id": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "foxlux.fovi.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/djghdk",
+          "path": "/eisasqa",
           "headers": {
-            "Host": "sg1.mianfenyun012.eu.org"
+            "Host": "foxlux.fovi.tk"
           }
         },
         "httpSettings": null,
