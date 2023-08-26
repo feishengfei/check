@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "speedip.eu.org",
-            "port": 80,
+            "address": "scw-fr.iiio.wiki",
+            "port": 2082,
             "users": [
               {
-                "id": "72e8030a-96c2-4bdb-acfb-5bc02248f9f0",
+                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "ssrsub.v04.ssrsub.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
