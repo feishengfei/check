@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.13.12",
-            "port": 80,
+            "address": "104.31.16.196",
+            "port": 443,
             "users": [
               {
-                "id": "a7ee85f4-2528-412e-994f-ce65f54754e4",
+                "id": "6abfe33a-1894-4f62-8879-83b71a35e5fd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us-1.acyun.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "a7ee85f4",
+          "path": "/",
           "headers": {
-            "Host": "dd2.1808.cf"
+            "Host": "us-1.acyun.tk"
           }
         },
         "httpSettings": null,

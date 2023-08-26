@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.199.138.184",
-            "port": 48513,
+            "address": "104.17.137.141",
+            "port": 443,
             "users": [
               {
-                "id": "078eb24d-8d1d-4fbd-b914-ee58a897a35e",
-                "alterId": 64,
+                "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/d84ee332-1284-11ee-a5c8-8213fd3be4b9",
+          "headers": {
+            "Host": "d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

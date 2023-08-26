@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us.freebaipiao.tk",
-            "port": 8443,
+            "address": "103.160.204.162",
+            "port": 80,
             "users": [
               {
-                "id": "03221b25-1a6a-4501-e519-1745b25f6c1f",
+                "id": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us.freebaipiao.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/freebaipiao",
+          "path": "/blue06",
           "headers": {
-            "Host": "us.freebaipiao.tk"
+            "Host": "ecc.vtcss.top"
           }
         },
         "httpSettings": null,

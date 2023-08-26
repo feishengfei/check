@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg1.mianfenyun012.eu.org",
-            "port": 8080,
+            "address": "104.31.16.65",
+            "port": 443,
             "users": [
               {
-                "id": "cf35539e-2c06-4016-b2b6-cd6efa1ceb8e",
+                "id": "ea0259d7-9d3c-45ba-9230-3895ad34034c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de2vm.cdn-03.live"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/djghdk",
+          "path": "/",
           "headers": {
-            "Host": "sg1.mianfenyun012.eu.org"
+            "Host": "de2vm.cdn-03.live"
           }
         },
         "httpSettings": null,
