@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "scw-fr.iiio.wiki",
-            "port": 2082,
+            "address": "cf.fovi.tk",
+            "port": 443,
             "users": [
               {
-                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
+                "id": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "foxlux.fovi.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries?ed=2048",
+          "path": "/eisasqa",
           "headers": {
-            "Host": ""
+            "Host": "foxlux.fovi.tk"
           }
         },
         "httpSettings": null,

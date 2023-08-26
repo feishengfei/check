@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru1.mianfenyun012.eu.org",
-            "port": 80,
+            "address": "ci.outline-vpn.cloud",
+            "port": 43123,
             "users": [
               {
-                "id": "c5964a63-d67c-4668-cdae-6443a1581e76",
-                "alterId": 0,
+                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/jdbp606",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

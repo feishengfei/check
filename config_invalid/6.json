@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.51.152",
-            "port": 443,
+            "address": "173.245.49.236",
+            "port": 80,
             "users": [
               {
-                "id": "8d2ba456-2f0d-4c13-b8a0-bff99c679709",
+                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "vceu3e.twittei.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ikun",
+          "path": "/shirker",
           "headers": {
-            "Host": "vceu3e.twittei.me"
+            "Host": "ca.ilovescp.com"
           }
         },
         "httpSettings": null,
