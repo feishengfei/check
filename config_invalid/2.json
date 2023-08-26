@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "ci.outline-vpn.cloud",
-            "port": 43123,
+            "address": "104.25.80.96",
+            "port": 80,
             "users": [
               {
-                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
-                "alterId": 64,
+                "id": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/blue06",
+          "headers": {
+            "Host": "ecc.vtcss.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

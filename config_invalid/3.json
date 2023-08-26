@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vpnstore.139.my.id",
-            "port": 80,
+            "address": "singapore.com",
+            "port": 443,
             "users": [
               {
-                "id": "4db58626-9301-40eb-8c3b-267e736954ba",
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "d.freeh1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "vpnstore.139.my.id"
+            "Host": "d.freeh1.xyz"
           }
         },
         "httpSettings": null,
