@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.231.123",
-            "port": 443,
+            "address": "sg1.mianfenyun012.eu.org",
+            "port": 8080,
             "users": [
               {
-                "id": "DC91E643-90E9-4358-B742-0960085F874B",
+                "id": "cf35539e-2c06-4016-b2b6-cd6efa1ceb8e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.kotick.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/djghdk",
           "headers": {
-            "Host": "Dusseldorf.kotick.site"
+            "Host": "sg1.mianfenyun012.eu.org"
           }
         },
         "httpSettings": null,
