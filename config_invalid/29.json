@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.137.141",
-            "port": 443,
+            "address": "yd1.992688.xyz",
+            "port": 8880,
             "users": [
               {
-                "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+                "id": "e5f9073b-a23c-487f-b2a8-e5eb6abad21d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/d84ee332-1284-11ee-a5c8-8213fd3be4b9",
+          "path": "/",
           "headers": {
-            "Host": "d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster"
+            "Host": "vcus2.vpn66.eu.org"
           }
         },
         "httpSettings": null,
