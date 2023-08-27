@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10915,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ci.outline-vpn.cloud",
-            "port": 43123,
+            "address": "154.85.1.244",
+            "port": 41453,
             "users": [
               {
-                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+                "id": "1d474f0b-e78d-4af9-bc4a-a467467bc7a7",
                 "alterId": 64,
                 "email": "",
                 "security": "auto",
