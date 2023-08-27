@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudconebbb.gorgorchicken.one",
-            "port": 8443,
+            "address": "104.21.231.123",
+            "port": 443,
             "users": [
               {
-                "id": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+                "id": "DC91E643-90E9-4358-B742-0960085F874B",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "Dusseldorf.kotick.site"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cloudconebbb",
+          "path": "/speedtest",
           "headers": {
-            "Host": ""
+            "Host": "Dusseldorf.kotick.site"
           }
         },
         "httpSettings": null,
