@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yd1.992688.xyz",
-            "port": 8880,
+            "address": "kianoosh.ddns.net",
+            "port": 443,
             "users": [
               {
-                "id": "e5f9073b-a23c-487f-b2a8-e5eb6abad21d",
+                "id": "E97A1F83-B0C6-48E5-82E1-556292153FA7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fn.mostafago.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "vcus2.vpn66.eu.org"
+            "Host": "fn.mostafago.tk"
           }
         },
         "httpSettings": null,
