@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "6.wyhkaa0.gq",
-            "port": 2095,
+            "address": "us.xuanyi.me",
+            "port": 8443,
             "users": [
               {
-                "id": "6bbc9554-07bc-47c6-a088-87aa79fd5ca1",
+                "id": "446c486f-923b-43b0-f864-b831e545ab01",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us.xuanyi.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/TG:@hkaa0",
+          "path": "/e",
           "headers": {
-            "Host": "6.wyhkaa0.gq"
+            "Host": "us.xuanyi.me"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "stock.hostmonit.com",
-            "port": 443,
+            "address": "hk1.mianfenyun012.eu.org",
+            "port": 8080,
             "users": [
               {
-                "id": "cd7f6a89-e86a-47ae-87d3-0277d205286f",
+                "id": "7dccf399-a5e9-4696-d2c9-a831dd5fb1af",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us2.icu2rip.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/nishikata",
+          "path": "/dhjks",
           "headers": {
-            "Host": "us2.icu2rip.eu.org"
+            "Host": "hk1.mianfenyun012.eu.org"
           }
         },
         "httpSettings": null,
