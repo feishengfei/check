@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "173.245.49.236",
-            "port": 80,
+            "address": "time.is",
+            "port": 443,
             "users": [
               {
-                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
+                "id": "58c5a7d4-4c04-4099-8fd8-9ede9773e15d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mg2.531131.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/mg2",
           "headers": {
-            "Host": "ca.ilovescp.com"
+            "Host": "mg2.531131.xyz"
           }
         },
         "httpSettings": null,
