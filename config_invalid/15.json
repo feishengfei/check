@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.130.176",
-            "port": 80,
+            "address": "ru102.lovenao.top",
+            "port": 443,
             "users": [
               {
-                "id": "d4e5ffc1-0142-4bb2-ea61-93519ee94fe8",
+                "id": "e6664514-a38b-4f83-870e-3e4d9df84045",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ru102.lovenao.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "usa.daozhang.link"
+            "Host": "ru102.lovenao.top"
           }
         },
         "httpSettings": null,
