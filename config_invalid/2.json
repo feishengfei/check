@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.130.176",
-            "port": 80,
+            "address": "141.147.153.244",
+            "port": 41545,
             "users": [
               {
-                "id": "d4e5ffc1-0142-4bb2-ea61-93519ee94fe8",
+                "id": "d47d7135-0954-46ab-a190-17b6c8630a85",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "usa.daozhang.link"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
