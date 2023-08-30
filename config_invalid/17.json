@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "wxll.e5outllok.me",
-            "port": 80,
+            "address": "los.620720.xyz",
+            "port": 8443,
             "users": [
               {
-                "id": "f31c0b34-977b-4c2b-acfa-becfdfc1f267",
+                "id": "3a47bbc1-8bb4-4d98-b7be-17129393a651",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "los.620720.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "wxll.e5outllok.me"
+            "Host": "los.620720.xyz"
           }
         },
         "httpSettings": null,

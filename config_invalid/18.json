@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "soap2day.to",
-            "port": 443,
+            "address": "wxll.e5outllok.me",
+            "port": 80,
             "users": [
               {
-                "id": "7522A28C-F9A1-40A0-BD92-67CF39AB5D5B",
+                "id": "f31c0b34-977b-4c2b-acfa-becfdfc1f267",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.bobbykotick.rip"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/",
           "headers": {
-            "Host": "Dusseldorf.bobbykotick.rip"
+            "Host": "wxll.e5outllok.me"
           }
         },
         "httpSettings": null,
