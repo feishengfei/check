@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "amstd.digires.shop",
-            "port": 443,
+            "address": "shs.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+                "id": "f1865e50-2510-46d1-bcb2-e00b4b656305",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/12796",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "shs.shabijichang.com"
           }
         },
         "httpSettings": null,

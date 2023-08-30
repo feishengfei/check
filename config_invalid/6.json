@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "shs.shabijichang.com",
-            "port": 80,
+            "address": "cloudflare.piaole.me",
+            "port": 443,
             "users": [
               {
-                "id": "f1865e50-2510-46d1-bcb2-e00b4b656305",
+                "id": "6d5dae22-5526-43ad-a11a-5d47f83f8c11",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/huawei",
           "headers": {
-            "Host": "shs.shabijichang.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
