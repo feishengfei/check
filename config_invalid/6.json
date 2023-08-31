@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.chigua.tk",
-            "port": 80,
+            "address": "cfcdn2.sanfencdn.net",
+            "port": 443,
             "users": [
               {
-                "id": "7e7f8398-bd39-49d8-9ce6-e48ffef463dd",
+                "id": "48843232-58e7-429f-90fb-3809074cc0bb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us4.sanfencdn1.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/2TokGE9A/",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "us6.cachexy.cf"
+            "Host": "us4.sanfencdn1.com"
           }
         },
         "httpSettings": null,
