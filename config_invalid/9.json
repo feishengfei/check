@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2nodep-hk4.hkss.online",
-            "port": 553,
+            "address": "172.64.130.176",
+            "port": 80,
             "users": [
               {
-                "id": "4664e760-f5f3-3cc2-8bb3-04f85aa7febb",
+                "id": "c53919e6-fed6-4058-a02c-eb3f4452f691",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "csmg.daozhang.link"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
