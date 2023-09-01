@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10916,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.153.211",
+            "address": "cfcdn2.sanfencdn.net",
             "port": 443,
             "users": [
               {
-                "id": "6e751712-9569-5187-86ea-8f585ad99105",
+                "id": "48843232-58e7-429f-90fb-3809074cc0bb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "schereswed.softwarenews.store"
+          "serverName": "us4.sanfencdn1.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api01",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "schereswed.softwarenews.store"
+            "Host": "us4.sanfencdn1.com"
           }
         },
         "httpSettings": null,
