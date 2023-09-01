@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "pkl173131369.top",
-            "port": 45908,
+            "address": "0001.sg.genzpn.com",
+            "port": 80,
             "users": [
               {
-                "id": "76e7cc86-8a8f-461d-e956-a48d251b609c",
+                "id": "c7823733-dfc9-430d-a7cf-c3302f9627d6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "0001.sg.genzpn.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

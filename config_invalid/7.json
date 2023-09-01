@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fbi.gov",
+            "address": "v2node10.bipbupvpn.com",
             "port": 443,
             "users": [
               {
-                "id": "58c5a7d4-4c04-4099-8fd8-9ede9773e15d",
+                "id": "d8aff479-bd38-4275-8da8-3c8509dedab0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "mg4.531131.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/mg4",
+          "path": "/",
           "headers": {
-            "Host": "mg4.531131.xyz"
+            "Host": "v2node10.bipbupvpn.com"
           }
         },
         "httpSettings": null,
