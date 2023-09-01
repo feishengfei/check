@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudflare.piaole.me",
-            "port": 443,
+            "address": "racknerd.gorgorchicken.one",
+            "port": 8443,
             "users": [
               {
-                "id": "7e7c5d75-1547-4385-a6f9-1a0a5e0ec4f3",
+                "id": "1df0a6ca-5812-4bce-ddb1-9cd5548f4919",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "racknerd.gorgorchicken.one"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/huawei",
+          "path": "/racknerd",
           "headers": {
-            "Host": ""
+            "Host": "racknerd.gorgorchicken.one"
           }
         },
         "httpSettings": null,
