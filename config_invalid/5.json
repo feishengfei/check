@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.135.195",
-            "port": 443,
+            "address": "sdygarm.e5outllok.me",
+            "port": 80,
             "users": [
               {
-                "id": "F5A0B71E-85AA-48FF-99D1-9F3B8459DA49",
+                "id": "f31c0b34-977b-4c2b-acfa-becfdfc1f267",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Dusseldorf.bobbykotick.rip"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/",
           "headers": {
-            "Host": "Dusseldorf.bobbykotick.rip"
+            "Host": "sdygarm.e5outllok.me"
           }
         },
         "httpSettings": null,
