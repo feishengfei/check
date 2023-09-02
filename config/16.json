@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10923,
+      "port": 10916,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.wyhkaa0.gq",
-            "port": 2095,
+            "address": "pzl.p237875155.buzz",
+            "port": 443,
             "users": [
               {
-                "id": "2733e8cb-b074-4d66-e7c0-99f1db465e4c",
+                "id": "9b78b7fe-47a3-41eb-d695-22692ac835a0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pzl.p237875155.buzz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/TG:@hkaa0",
+          "path": "/pzl237875155",
           "headers": {
-            "Host": "5.wyhkaa0.gq"
+            "Host": "pzl.p237875155.buzz"
           }
         },
         "httpSettings": null,

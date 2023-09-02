@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.node.user-sub.pddns-usersdk.com",
-            "port": 13003,
+            "address": "us.freebaipiao.tk",
+            "port": 8443,
             "users": [
               {
-                "id": "5f9f4df4-5398-35d1-9a6a-44a8a575832d",
+                "id": "03221b25-1a6a-4501-e519-1745b25f6c1f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us.freebaipiao.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ef483582-6269-468c-93af-c511eccb8a69",
+          "path": "/freebaipiao",
           "headers": {
-            "Host": "cdn.node.user-sub.pddns-usersdk.com"
+            "Host": "us.freebaipiao.tk"
           }
         },
         "httpSettings": null,
