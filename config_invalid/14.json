@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "racknerd.gorgorchicken.one",
-            "port": 8443,
+            "address": "s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "port": 80,
             "users": [
               {
-                "id": "1df0a6ca-5812-4bce-ddb1-9cd5548f4919",
+                "id": "0baaf014-af04-4028-be53-f5c75bb276ae",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "racknerd.gorgorchicken.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/racknerd",
+          "path": "/vmess",
           "headers": {
-            "Host": "racknerd.gorgorchicken.one"
+            "Host": "s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou"
           }
         },
         "httpSettings": null,

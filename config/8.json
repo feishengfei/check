@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn2.sanfencdn.net",
-            "port": 443,
+            "address": "uk2-vmess.greenssh.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "48843232-58e7-429f-90fb-3809074cc0bb",
+                "id": "2076df30-81e3-4312-840b-3e1462c0b85e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us4.sanfencdn1.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/",
           "headers": {
-            "Host": "us4.sanfencdn1.com"
+            "Host": "uk2-vmess.greenssh.xyz"
           }
         },
         "httpSettings": null,
