@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudhost.arcvpn.my.id",
+            "address": "172.64.130.176",
             "port": 80,
             "users": [
               {
-                "id": "3ee555da-7585-4644-8a5d-3512c0132a52",
+                "id": "c53919e6-fed6-4058-a02c-eb3f4452f691",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess/",
+          "path": "/",
           "headers": {
-            "Host": "cloudhost.arcvpn.my.id"
+            "Host": "csmg.daozhang.link"
           }
         },
         "httpSettings": null,
