@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "stock.hostmonit.com",
-            "port": 443,
+            "address": "104.25.13.12",
+            "port": 80,
             "users": [
               {
-                "id": "cd7f6a89-e86a-47ae-87d3-0277d205286f",
+                "id": "a7ee85f4-2528-412e-994f-ce65f54754e4",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "aes-128-gcm",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us2.icu2rip.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/nishikata",
+          "path": "a7ee85f4",
           "headers": {
-            "Host": "us2.icu2rip.eu.org"
+            "Host": "dd2.1808.cf"
           }
         },
         "httpSettings": null,
