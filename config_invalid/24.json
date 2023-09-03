@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "stock.hostmonit.com",
+            "address": "cloudflare.piaole.me",
             "port": 443,
             "users": [
               {
-                "id": "cd7f6a89-e86a-47ae-87d3-0277d205286f",
+                "id": "7e7c5d75-1547-4385-a6f9-1a0a5e0ec4f3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us2.icu2rip.eu.org"
+          "serverName": "cloudflare.piaole.me"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/nishikata",
+          "path": "/huawei",
           "headers": {
-            "Host": "us2.icu2rip.eu.org"
+            "Host": "cloudflare.piaole.me"
           }
         },
         "httpSettings": null,
