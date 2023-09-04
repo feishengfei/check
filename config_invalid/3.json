@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudqwq.cf",
-            "port": 80,
+            "address": "74.217.182.122",
+            "port": 443,
             "users": [
               {
-                "id": "cd0c570f-757c-48d2-a1b6-c0940431cc47",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/path/1693390440063",
           "headers": {
-            "Host": "nl10gbps.6577617.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,
