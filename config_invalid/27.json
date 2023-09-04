@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "port": 80,
+            "address": "23.227.39.109",
+            "port": 443,
             "users": [
               {
-                "id": "00a1da14-d55f-5f75-e346-79b985e1a723",
+                "id": "87a95522-985c-4a17-afea-9b7d7208bce5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "3.freek1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/opt/video/images",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou"
+            "Host": "3.freek1.xyz"
           }
         },
         "httpSettings": null,

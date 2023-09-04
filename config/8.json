@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.25.70",
-            "port": 80,
+            "address": "216.24.57.1",
+            "port": 443,
             "users": [
               {
-                "id": "71dbb55c-78fa-4b57-a6b4-7e4717c6ed84",
+                "id": "a7ee85f4-2528-412e-994f-ce65f54754e4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dd2.1808.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "a7ee85f4",
           "headers": {
-            "Host": "new.softtech.host"
+            "Host": "dd2.1808.cf"
           }
         },
         "httpSettings": null,
