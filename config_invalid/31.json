@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fusion.mlinuu.top",
-            "port": 10008,
+            "address": "103.160.204.65",
+            "port": 2052,
             "users": [
               {
-                "id": "ce6c3ee0-e0bd-39d2-8b49-97c6add325c6",
+                "id": "0afb8b2c-149a-49a8-e90f-d77884ac922f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/blue99",
+          "headers": {
+            "Host": "ecc.vtcss.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

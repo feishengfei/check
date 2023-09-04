@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.v2-vip.fun",
-            "port": 8080,
+            "address": "104.31.16.196",
+            "port": 443,
             "users": [
               {
-                "id": "4a2ee56d-c70a-4c43-b18b-e1e15013a177",
+                "id": "6abfe33a-1894-4f62-8879-83b71a35e5fd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us-1.acyun.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/",
           "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
+            "Host": "us-1.acyun.tk"
           }
         },
         "httpSettings": null,

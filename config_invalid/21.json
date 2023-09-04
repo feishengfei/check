@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfyd.starsea.vip",
-            "port": 80,
+            "address": "amstd.digires.shop",
+            "port": 443,
             "users": [
               {
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+                "id": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "amstd.digires.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sshkit/1736960111/64ee26041efcc/",
+          "path": "/12796",
           "headers": {
-            "Host": "sg1-v2ray.sshkit.org"
+            "Host": "amstd.digires.shop"
           }
         },
         "httpSettings": null,
