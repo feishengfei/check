@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.227.39.109",
-            "port": 443,
+            "address": "cfyd.starsea.vip",
+            "port": 80,
             "users": [
               {
-                "id": "87a95522-985c-4a17-afea-9b7d7208bce5",
+                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "3.freek1.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dongtaiwang.com",
+          "path": "/sshkit/1736960111/64ee26041efcc/",
           "headers": {
-            "Host": "3.freek1.xyz"
+            "Host": "sg1-v2ray.sshkit.org"
           }
         },
         "httpSettings": null,

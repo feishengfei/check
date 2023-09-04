@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10907,
+      "port": 10911,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.node.user-sub.pddns-usersdk.com",
-            "port": 13003,
+            "address": "172.64.153.211",
+            "port": 443,
             "users": [
               {
-                "id": "5f9f4df4-5398-35d1-9a6a-44a8a575832d",
+                "id": "6e751712-9569-5187-86ea-8f585ad99105",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "schereswed.softwarenews.store"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ef483582-6269-468c-93af-c511eccb8a69",
+          "path": "/api01",
           "headers": {
-            "Host": "cdn.node.user-sub.pddns-usersdk.com"
+            "Host": "schereswed.softwarenews.store"
           }
         },
         "httpSettings": null,
