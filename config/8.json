@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10914,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.245.8.244",
+            "address": "23.227.39.109",
             "port": 443,
             "users": [
               {
-                "id": "b8df3ef1-887f-4ee4-855f-4f80416c2464",
-                "alterId": 64,
+                "id": "87a95522-985c-4a17-afea-9b7d7208bce5",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "www.12460158.xyz"
+          "serverName": "3.freek1.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1693130902818",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "www.12460158.xyz"
+            "Host": "3.freek1.xyz"
           }
         },
         "httpSettings": null,
