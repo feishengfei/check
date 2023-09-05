@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.153.211",
+            "address": "104.19.208.207",
             "port": 443,
             "users": [
               {
-                "id": "6e751712-9569-5187-86ea-8f585ad99105",
+                "id": "d256e73b-8259-490a-aeb5-23f6a3636a1a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "schereswed.softwarenews.store"
+          "serverName": "tj1.dalazhi.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api01",
+          "path": "/ezbkvws",
           "headers": {
-            "Host": "schereswed.softwarenews.store"
+            "Host": "tj1.dalazhi.eu.org"
           }
         },
         "httpSettings": null,
