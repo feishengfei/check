@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.65",
-            "port": 80,
+            "address": "172.67.51.152",
+            "port": 443,
             "users": [
               {
-                "id": "59a5cfa0-48b2-11ee-b537-205c6d5f5d78",
+                "id": "8d2ba456-2f0d-4c13-b8a0-bff99c679709",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lo.twittei.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@hopev2ray",
+          "path": "/ikun",
           "headers": {
-            "Host": "us-22.0rd.net"
+            "Host": "lo.twittei.me"
           }
         },
         "httpSettings": null,

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10927,
+      "port": 10931,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.188.127",
-            "port": 80,
+            "address": "172.64.153.211",
+            "port": 443,
             "users": [
               {
-                "id": "00a1da14-d55f-5f75-e346-79b985e1a723",
-                "alterId": 64,
+                "id": "6e751712-9569-5187-86ea-8f585ad99105",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "schereswed.softwarenews.store"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/opt/video/images",
+          "path": "/api01",
           "headers": {
-            "Host": "s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou"
+            "Host": "schereswed.softwarenews.store"
           }
         },
         "httpSettings": null,

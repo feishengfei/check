@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10927,
+      "port": 10918,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.188.127",
-            "port": 80,
+            "address": "odelia.autos",
+            "port": 443,
             "users": [
               {
-                "id": "00a1da14-d55f-5f75-e346-79b985e1a723",
-                "alterId": 64,
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "alterId": 1,
                 "email": "",
-                "security": "auto",
+                "security": "aes-128-gcm",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/opt/video/images",
+          "path": "linkvws",
           "headers": {
-            "Host": "s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou"
+            "Host": ""
           }
         },
         "httpSettings": null,
