@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10913,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "Tokyo.mfa.ee",
-            "port": 2052,
+            "address": "156.225.67.38",
+            "port": 443,
             "users": [
               {
-                "id": "992889a7-296e-4a44-98c2-0eb89af4411d",
-                "alterId": 0,
+                "id": "de491802-233e-47f2-8c6c-d19bcf5bd56b",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.86139317.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/path/1692256902430",
           "headers": {
-            "Host": "vnpt.iiio.wiki"
+            "Host": "www.86139317.xyz"
           }
         },
         "httpSettings": null,
