@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.130.176",
-            "port": 80,
+            "address": "ns80.ddns.net",
+            "port": 2087,
             "users": [
               {
-                "id": "c53919e6-fed6-4058-a02c-eb3f4452f691",
+                "id": "1f85f705-bef4-42c5-a1a4-14be16c2678b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "amovir.virus2023.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/opypvws",
           "headers": {
-            "Host": "csmg.daozhang.link"
+            "Host": "amovir.virus2023.xyz"
           }
         },
         "httpSettings": null,
