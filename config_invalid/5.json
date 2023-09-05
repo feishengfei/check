@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "74.217.182.122",
+            "address": "104.19.208.207",
             "port": 443,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "d256e73b-8259-490a-aeb5-23f6a3636a1a",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "tj1.dalazhi.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1693390440063",
+          "path": "/ezbkvws",
           "headers": {
-            "Host": ""
+            "Host": "tj1.dalazhi.eu.org"
           }
         },
         "httpSettings": null,
