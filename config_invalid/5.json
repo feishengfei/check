@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.142.107",
-            "port": 80,
+            "address": "104.19.208.207",
+            "port": 443,
             "users": [
               {
-                "id": "bbed2cba-ad42-455a-9c0e-127db657156f",
+                "id": "d256e73b-8259-490a-aeb5-23f6a3636a1a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tj1.dalazhi.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/1654431",
+          "path": "/ezbkvws",
           "headers": {
-            "Host": "nl3.mybestjj.com"
+            "Host": "tj1.dalazhi.eu.org"
           }
         },
         "httpSettings": null,
