@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2.wuxianliulianng.xyz",
-            "port": 443,
+            "address": "shs.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1",
+                "id": "54ed5ad0-1d84-4dd2-9dc8-1c6ad9269132",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "2.wuxianliulianng.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sometimesnaive",
+          "path": "/",
           "headers": {
-            "Host": "2.wuxianliulianng.xyz"
+            "Host": "shs.shabijichang.com"
           }
         },
         "httpSettings": null,
