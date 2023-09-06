@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.160.204.65",
-            "port": 2052,
+            "address": "172.64.153.211",
+            "port": 443,
             "users": [
               {
-                "id": "0afb8b2c-149a-49a8-e90f-d77884ac922f",
+                "id": "6e751712-9569-5187-86ea-8f585ad99105",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "schereswed.softwarenews.store"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue99",
+          "path": "/api01",
           "headers": {
-            "Host": "ecc.vtcss.top"
+            "Host": "schereswed.softwarenews.store"
           }
         },
         "httpSettings": null,

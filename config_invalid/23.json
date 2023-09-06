@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "3.wyhkaa0.gq",
-            "port": 2095,
+            "address": "vuk1.0bad.com",
+            "port": 443,
             "users": [
               {
-                "id": "0150eac1-6e49-4329-9c06-50027c0b9ad7",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vuk1.0bad.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/TG:@hkaa0",
+          "path": "/chat",
           "headers": {
-            "Host": "3.wyhkaa0.gq"
+            "Host": "vuk1.0bad.com"
           }
         },
         "httpSettings": null,

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10912,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.58.218",
-            "port": 80,
+            "address": "scw-fr.iiio.wiki",
+            "port": 2082,
             "users": [
               {
-                "id": "cd0c570f-757c-48d2-a1b6-c0940431cc47",
+                "id": "250f4331-8c3e-4b87-a86b-5c5fbf9ddba8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "nl10gbps.6577617.xyz"
+            "Host": "scw-fr.iiio.wiki"
           }
         },
         "httpSettings": null,
