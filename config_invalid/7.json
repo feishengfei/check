@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "198.41.205.114",
-            "port": 2095,
+            "address": "hg-ty.etcjichang.top",
+            "port": 443,
             "users": [
               {
-                "id": "32af4006-0698-4910-806c-b813074f36eb",
+                "id": "77719f4d-8f2a-4928-9b7c-ec01f44d9295",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hg-ty.etcjichang.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/TG:@hkaa0",
+          "path": "/",
           "headers": {
-            "Host": "13.wyhkaa0.gq"
+            "Host": "hg-ty.etcjichang.top"
           }
         },
         "httpSettings": null,
