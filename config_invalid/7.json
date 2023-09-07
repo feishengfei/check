@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hg-ty.etcjichang.top",
-            "port": 443,
+            "address": "ru1.mianfenyun012.eu.org",
+            "port": 8080,
             "users": [
               {
-                "id": "77719f4d-8f2a-4928-9b7c-ec01f44d9295",
+                "id": "12078dc2-69a3-4e56-9250-70c346bcf16e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hg-ty.etcjichang.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/jdbp606",
           "headers": {
-            "Host": "hg-ty.etcjichang.top"
+            "Host": "ru1.mianfenyun012.eu.org"
           }
         },
         "httpSettings": null,
