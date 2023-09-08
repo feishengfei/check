@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.27.27",
-            "port": 443,
+            "address": "fd.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "fd8ef620-48b4-11ee-b336-205c6d5f5d78",
+                "id": "7abd438e-14ee-4d2b-8971-88304941d1dd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us-netflix.0rd.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@hopev2ray",
+          "path": "/",
           "headers": {
-            "Host": "us-netflix.0rd.net"
+            "Host": "db2.shabijichang.com"
           }
         },
         "httpSettings": null,
