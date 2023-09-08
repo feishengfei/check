@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.14",
-            "port": 443,
+            "address": "1496join.outline-vpn.cloud",
+            "port": 44945,
             "users": [
               {
-                "id": "da8a932a-73bc-4782-9958-2c7e018e1054",
-                "alterId": 0,
+                "id": "268a491b-764c-44d1-81a4-30de16130867",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gb1vm.cdn-03.live"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/@hopev2ray\u060c@hopev2ray",
-          "headers": {
-            "Host": "gb1vm.cdn-03.live"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
