@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "pl2-vmess.greenssh.xyz",
-            "port": 80,
+            "address": "172.67.75.194",
+            "port": 443,
             "users": [
               {
-                "id": "a60d4d2f-6a61-4c16-9d63-94a97e65d1f3",
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "d.freeh1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "pl2-vmess.greenssh.xyz"
+            "Host": "d.freeh1.xyz"
           }
         },
         "httpSettings": null,

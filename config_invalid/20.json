@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "amstd.digires.shop",
-            "port": 443,
+            "address": "103.160.204.31",
+            "port": 2052,
             "users": [
               {
-                "id": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+                "id": "0afb8b2c-149a-49a8-e90f-d77884ac922f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "amstd.digires.shop"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/12796",
+          "path": "/blue99",
           "headers": {
-            "Host": "amstd.digires.shop"
+            "Host": "ecc.vtcss.top"
           }
         },
         "httpSettings": null,
