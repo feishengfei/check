@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Tokyo.mfa.ee",
-            "port": 2052,
+            "address": "104.31.16.14",
+            "port": 443,
             "users": [
               {
-                "id": "992889a7-296e-4a44-98c2-0eb89af4411d",
+                "id": "da8a932a-73bc-4782-9958-2c7e018e1054",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gb1vm.cdn-03.live"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@hopev2ray\u060c@hopev2ray",
           "headers": {
-            "Host": "vnpt.iiio.wiki"
+            "Host": "gb1vm.cdn-03.live"
           }
         },
         "httpSettings": null,
