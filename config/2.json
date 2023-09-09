@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10916,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.outline-vpn.cloud",
-            "port": 2083,
+            "address": "45.199.138.180",
+            "port": 54905,
             "users": [
               {
-                "id": "2575cf05-58f0-48be-9605-30a4451af06b",
-                "alterId": 0,
+                "id": "d3133484-f2bf-4b0c-8d38-f8e645b65687",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "de3vm.cdn-03.live"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/@hopev2ray",
-          "headers": {
-            "Host": "de3vm.cdn-03.live"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10916,
+      "port": 10912,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.outline-vpn.cloud",
-            "port": 2083,
+            "address": "wi.saintink.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "2575cf05-58f0-48be-9605-30a4451af06b",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "de3vm.cdn-03.live"
+          "serverName": "sub2.saintink.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@hopev2ray",
+          "path": "/vuk2.0bad.com/chat",
           "headers": {
-            "Host": "de3vm.cdn-03.live"
+            "Host": "sub2.saintink.eu.org"
           }
         },
         "httpSettings": null,
