@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sbl3.shabijichang.com",
-            "port": 80,
+            "address": "103.outline-vpn.cloud",
+            "port": 2083,
             "users": [
               {
-                "id": "f1865e50-2510-46d1-bcb2-e00b4b656305",
+                "id": "2575cf05-58f0-48be-9605-30a4451af06b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de3vm.cdn-03.live"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@hopev2ray",
           "headers": {
-            "Host": "sbl3.shabijichang.com"
+            "Host": "de3vm.cdn-03.live"
           }
         },
         "httpSettings": null,

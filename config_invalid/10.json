@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.65",
-            "port": 80,
+            "address": "51fly99.win",
+            "port": 443,
             "users": [
               {
-                "id": "09973ebb-7f0b-4587-b7f5-96611a9d82be",
+                "id": "9681f99e-d251-477a-d777-1d01ee550481",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "51fly99.win"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@hopev2ray/@hopev2ray/@hopev2ray",
+          "path": "/myblog",
           "headers": {
-            "Host": "fr2vm.cdn-03.live"
+            "Host": "51fly99.win"
           }
         },
         "httpSettings": null,
