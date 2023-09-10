@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.69",
-            "port": 80,
+            "address": "45.199.138.194",
+            "port": 40035,
             "users": [
               {
-                "id": "65b2cf63-a998-417f-88df-8e1c4ff27a98",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/1654431",
-          "headers": {
-            "Host": "us3.mybestjj.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

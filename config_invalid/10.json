@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us2.mianfenyun012.eu.org",
-            "port": 8080,
+            "address": "172.67.75.194",
+            "port": 443,
             "users": [
               {
-                "id": "a8966719-aeaf-4886-d202-72f75f845b83",
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "d.freeh1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jdbp606",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "us2.mianfenyun012.eu.org"
+            "Host": "d.freeh1.xyz"
           }
         },
         "httpSettings": null,
