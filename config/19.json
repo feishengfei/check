@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10919,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn2.sanfencdn.net",
-            "port": 2052,
+            "address": "jhryx-1087-v2-0.d-kcd.tuil.xyz",
+            "port": 888,
             "users": [
               {
-                "id": "cfd43f68-a5be-4c67-b1e9-686e2e1315a2",
+                "id": "ac5be27f-0af3-4a22-bc90-f0cc5fdc2291",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdn.cjhh.lol"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/je5x3pBN1vez3NQudNkB",
           "headers": {
-            "Host": "tw1.sanfencdn2.com"
+            "Host": "cdn.cjhh.lol"
           }
         },
         "httpSettings": null,

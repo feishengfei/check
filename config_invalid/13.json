@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zfc.windowsupdate1.com",
+            "address": "172.64.153.211",
             "port": 443,
             "users": [
               {
-                "id": "e0ca72b2-eb7c-4498-b05e-28a3681bacbf",
+                "id": "6e751712-9569-5187-86ea-8f585ad99105",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "hinet.guolicheng.cyou"
+          "serverName": "schereswed.softwarenews.store"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/guolicheng/hinet?ed=2048",
+          "path": "/api01",
           "headers": {
-            "Host": "hinet.guolicheng.cyou"
+            "Host": "schereswed.softwarenews.store"
           }
         },
         "httpSettings": null,

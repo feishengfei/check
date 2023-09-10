@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aaaa.wxx.gay",
-            "port": 443,
+            "address": "us2.mianfenyun012.eu.org",
+            "port": 8080,
             "users": [
               {
-                "id": "840a89b0-4f8e-11ee-8b3e-000017022008",
+                "id": "a8966719-aeaf-4886-d202-72f75f845b83",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/look",
+          "path": "/jdbp606",
           "headers": {
-            "Host": ""
+            "Host": "us2.mianfenyun012.eu.org"
           }
         },
         "httpSettings": null,

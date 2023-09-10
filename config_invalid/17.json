@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "port": 80,
+            "address": "104.31.16.14",
+            "port": 443,
             "users": [
               {
-                "id": "00a1da14-d55f-5f75-e346-79b985e1a723",
-                "alterId": 64,
+                "id": "da8a932a-73bc-4782-9958-2c7e018e1054",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gb1vm.cdn-03.live"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/opt/video/images",
+          "path": "/@hopev2ray\u060c@hopev2ray",
           "headers": {
-            "Host": "s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou"
+            "Host": "gb1vm.cdn-03.live"
           }
         },
         "httpSettings": null,
