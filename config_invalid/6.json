@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.193.64",
-            "port": 443,
+            "address": "ns1.v2-vip.fun",
+            "port": 8880,
             "users": [
               {
-                "id": "8bb01190-f127-4a5a-9845-e6adf93eccc1",
+                "id": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "avaspeed.jetspeed.fun"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/pDDgT3v8NaAJHFPuEaDfC8t",
+          "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
           "headers": {
-            "Host": "avaspeed.jetspeed.fun"
+            "Host": "fr7.tehme100.fun"
           }
         },
         "httpSettings": null,
