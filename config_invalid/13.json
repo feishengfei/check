@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.181.226",
-            "port": 443,
+            "address": "us.freebaipiao.tk",
+            "port": 8443,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "a9f76e09-24c6-44f3-d140-037e99bf717a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "panel2.hodorauth.com"
+          "serverName": "us.freebaipiao.tk"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vsg1.0bad.com/chat",
+          "path": "/freebaipiao",
           "headers": {
-            "Host": "panel2.hodorauth.com"
+            "Host": "us.freebaipiao.tk"
           }
         },
         "httpSettings": null,
