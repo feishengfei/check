@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "stock.hostmonit.com",
-            "port": 80,
+            "address": "172.67.135.195",
+            "port": 443,
             "users": [
               {
-                "id": "6fea1649-425b-4092-bf53-29792152c925",
+                "id": "AB135628-07F6-4F78-AF4D-E9CD8715143C",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Amsterdam.bobbykotick.rip"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sshkit/@yzcjd/64fb4a7d30294/",
+          "path": "/speedtest?ed=2048",
           "headers": {
-            "Host": "lb.vhax.net"
+            "Host": "Amsterdam.bobbykotick.rip"
           }
         },
         "httpSettings": null,

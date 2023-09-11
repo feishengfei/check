@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "46caadb.f2.gladns.com",
-            "port": 3331,
+            "address": "stock.hostmonit.com",
+            "port": 80,
             "users": [
               {
-                "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+                "id": "6fea1649-425b-4092-bf53-29792152c925",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/s/46caadb.fm.apple.com:60980",
+          "path": "/sshkit/@yzcjd/64fb4a7d30294/",
           "headers": {
-            "Host": ""
+            "Host": "lb.vhax.net"
           }
         },
         "httpSettings": null,
