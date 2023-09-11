@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10924,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp6.lianpi.xyz",
-            "port": 23234,
+            "address": "103.160.204.8",
+            "port": 80,
             "users": [
               {
-                "id": "1f3d67b4-6929-4598-90ca-84a841bf02e4",
+                "id": "65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/TG:@hkaa0",
+          "headers": {
+            "Host": "10.wyhkaa0.gq"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
