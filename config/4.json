@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10913,
+      "port": 10904,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudflare.piaole.me",
-            "port": 443,
+            "address": "103.160.204.36",
+            "port": 80,
             "users": [
               {
-                "id": "3d80e1ff-2e9f-498b-8e13-5230e67b2be9",
+                "id": "f336c0ab-87fb-4f6f-e069-14fbc903b67d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cloudflare.piaole.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/huawei",
+          "path": "/TG:@hkaa0",
           "headers": {
-            "Host": "cloudflare.piaole.me"
+            "Host": "2.wyhkaa0.gq"
           }
         },
         "httpSettings": null,
