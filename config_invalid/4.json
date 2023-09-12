@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "stock.hostmonit.com",
-            "port": 80,
+            "address": "104.21.16.131",
+            "port": 443,
             "users": [
               {
-                "id": "6fea1649-425b-4092-bf53-29792152c925",
+                "id": "F9919381-E43B-40FB-A951-DE98C0785BCF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fn.mostafago.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sshkit/@yzcjd/64fb4a7d30294/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "lb.vhax.net"
+            "Host": "fn.mostafago.tk"
           }
         },
         "httpSettings": null,

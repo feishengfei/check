@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us01.runba.gq",
-            "port": 80,
+            "address": "dongtaiwang2.com",
+            "port": 443,
             "users": [
               {
-                "id": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+                "id": "87a95522-985c-4a17-afea-9b7d7208bce5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "3.freek1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/v1893298323Py",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "us01.runba.gq"
+            "Host": "3.freek1.xyz"
           }
         },
         "httpSettings": null,

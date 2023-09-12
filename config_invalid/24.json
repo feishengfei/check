@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us2.mianfenyun012.eu.org",
-            "port": 8080,
+            "address": "104.27.193.64",
+            "port": 443,
             "users": [
               {
-                "id": "a8966719-aeaf-4886-d202-72f75f845b83",
+                "id": "8bb01190-f127-4a5a-9845-e6adf93eccc1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "avaspeed.jetspeed.fun"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jdbp606",
+          "path": "/pDDgT3v8NaAJHFPuEaDfC8t",
           "headers": {
-            "Host": "us2.mianfenyun012.eu.org"
+            "Host": "avaspeed.jetspeed.fun"
           }
         },
         "httpSettings": null,

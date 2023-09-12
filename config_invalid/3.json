@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "stock.hostmonit.com",
-            "port": 80,
+            "address": "1496join.outline-vpn.cloud",
+            "port": 44945,
             "users": [
               {
-                "id": "6fea1649-425b-4092-bf53-29792152c925",
-                "alterId": 0,
+                "id": "268a491b-764c-44d1-81a4-30de16130867",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/sshkit/@yzcjd/64fb4a7d30294/",
-          "headers": {
-            "Host": "lb.vhax.net"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
