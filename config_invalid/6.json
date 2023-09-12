@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.199.158",
-            "port": 80,
+            "address": "104.21.16.131",
+            "port": 443,
             "users": [
               {
-                "id": "2e495227-58e3-4bea-a273-7a17bd8a804b",
+                "id": "F9919381-E43B-40FB-A951-DE98C0785BCF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fn.mostafago.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": "wnd.shabijichang.com"
+            "Host": "fn.mostafago.tk"
           }
         },
         "httpSettings": null,
