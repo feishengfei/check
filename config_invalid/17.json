@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fhc.shabijichang.com",
-            "port": 80,
+            "address": "104.27.193.64",
+            "port": 443,
             "users": [
               {
-                "id": "4d10e7d8-31ad-4bff-8885-bc87ac942db3",
+                "id": "8bb01190-f127-4a5a-9845-e6adf93eccc1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "avaspeed.jetspeed.fun"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/pDDgT3v8NaAJHFPuEaDfC8t",
           "headers": {
-            "Host": "fhc.shabijichang.com"
+            "Host": "avaspeed.jetspeed.fun"
           }
         },
         "httpSettings": null,
