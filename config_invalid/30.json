@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kvxul-1092-v2-4.r-kcd-b.iote.bond",
-            "port": 39918,
+            "address": "vn5.4gspeed.me",
+            "port": 443,
             "users": [
               {
-                "id": "ac5be27f-0af3-4a22-bc90-f0cc5fdc2291",
+                "id": "4b578713-9b1b-4043-b3ad-67d8f374be48",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdn.cjhh.lol"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/je5x3pBN1vez3NQudNkB",
+          "path": "/4gspeed.me",
           "headers": {
-            "Host": "cdn.cjhh.lol"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,
