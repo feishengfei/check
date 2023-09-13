@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10914,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.193.64",
-            "port": 443,
+            "address": "130.162.158.81",
+            "port": 80,
             "users": [
               {
-                "id": "8bb01190-f127-4a5a-9845-e6adf93eccc1",
+                "id": "21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "avaspeed.jetspeed.fun"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/pDDgT3v8NaAJHFPuEaDfC8t",
+          "path": "/TG:@hkaa0",
           "headers": {
-            "Host": "avaspeed.jetspeed.fun"
+            "Host": "18.wyhkaa0.gq"
           }
         },
         "httpSettings": null,
