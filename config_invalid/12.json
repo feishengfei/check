@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "rbaun-1079-v2-1.r-kcd-c.iote.bond",
-            "port": 29938,
+            "address": "104.31.16.46",
+            "port": 2082,
             "users": [
               {
-                "id": "ac5be27f-0af3-4a22-bc90-f0cc5fdc2291",
+                "id": "58fe1542-5290-40ad-815a-77707a81afe5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdn.cjhh.lol"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/je5x3pBN1vez3NQudNkB",
+          "path": "/IOebhLMhl1CTbFHbL95myfRX2",
           "headers": {
-            "Host": "cdn.cjhh.lol"
+            "Host": "ca5.tehme100.fun"
           }
         },
         "httpSettings": null,
