@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "singapore.com",
-            "port": 443,
+            "address": "ca-01.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
+                "id": "d46d992a-8d80-4586-84fb-f1823757552e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "d.freeh1.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dongtaiwang.com",
+          "path": "/",
           "headers": {
-            "Host": "d.freeh1.xyz"
+            "Host": "ca-01.gujuji.top"
           }
         },
         "httpSettings": null,
