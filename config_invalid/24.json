@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn4.4gspeed.me",
-            "port": 80,
+            "address": "104.31.16.196",
+            "port": 443,
             "users": [
               {
-                "id": "61b61eb0-d7ef-4d93-8822-f8666f31c6b1",
+                "id": "6abfe33a-1894-4f62-8879-83b71a35e5fd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us-1.acyun.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/4gspeed.me",
+          "path": "/",
           "headers": {
-            "Host": "vn4.4gspeed.me"
+            "Host": "us-1.acyun.tk"
           }
         },
         "httpSettings": null,
