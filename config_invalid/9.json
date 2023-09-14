@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.19.105",
-            "port": 2052,
+            "address": "bobbykotick.rip",
+            "port": 443,
             "users": [
               {
-                "id": "345d8dde-084b-478e-aa8d-5fb062652889",
+                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Dusseldorf.bobbykotick.rip"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public?ed=4096",
+          "path": "/speedtest",
           "headers": {
-            "Host": "de2.biqibao.site"
+            "Host": "Dusseldorf.bobbykotick.rip"
           }
         },
         "httpSettings": null,

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10938,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "us1.mianfenyun012.eu.org",
-            "port": 8080,
+            "address": "142.4.99.72",
+            "port": 443,
             "users": [
               {
-                "id": "89e8501d-1a59-4754-cdc2-0e6334b97e3b",
-                "alterId": 0,
+                "id": "b65da4af-a12a-4a59-9316-4549e12ba62c",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.73332463.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jdbp606",
+          "path": "/path/1694604820478",
           "headers": {
-            "Host": "us1.mianfenyun012.eu.org"
+            "Host": "www.73332463.xyz"
           }
         },
         "httpSettings": null,
