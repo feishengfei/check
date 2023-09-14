@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.196",
-            "port": 443,
+            "address": "172.64.199.158",
+            "port": 80,
             "users": [
               {
-                "id": "6abfe33a-1894-4f62-8879-83b71a35e5fd",
+                "id": "28645c6e-8ad9-44c0-8ecd-d76f8a285262",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us-1.acyun.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/?ed=14501",
           "headers": {
-            "Host": "us-1.acyun.tk"
+            "Host": "sdgrm.shabijichang.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg1.wyhkaa0.cf",
-            "port": 80,
+            "address": "mci1.amo2023.club",
+            "port": 2096,
             "users": [
               {
-                "id": "f4575c03-8145-4612-a1b2-7a48117f6fc2",
+                "id": "1f05fe41-c9bf-4b4e-e476-ac58a00da929",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/TG:@hkaa0",
+          "path": "/",
           "headers": {
-            "Host": "sg1.wyhkaa0.cf"
+            "Host": ""
           }
         },
         "httpSettings": null,
