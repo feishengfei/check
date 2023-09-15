@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.227.40",
-            "port": 443,
+            "address": "sg.wyhkaa0.cf",
+            "port": 80,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "0ba28c05-7bd9-4cad-c329-482386a8e7a3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sub.saintink.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vus3.0bad.com/chat",
+          "path": "/TG:@hkaa0",
           "headers": {
-            "Host": "sub.saintink.eu.org"
+            "Host": "sg.wyhkaa0.cf"
           }
         },
         "httpSettings": null,
