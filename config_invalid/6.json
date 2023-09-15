@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v20.emovpn.xyz",
-            "port": 8443,
+            "address": "hdlb2.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "cd23a515-1466-415d-8de3-11dc949736d0",
+                "id": "52cce261-ff53-439a-b97d-f36201842cdb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "v20.emovpn.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "v20.emovpn.xyz"
+            "Host": "hdlb2.shabijichang.com"
           }
         },
         "httpSettings": null,
