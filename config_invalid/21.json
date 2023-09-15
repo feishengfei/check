@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.137.22",
-            "port": 443,
+            "address": "jp.yx.alue.link",
+            "port": 2052,
             "users": [
               {
-                "id": "5b655ae0-9937-4a07-8cd3-9ff50cdb2c48",
+                "id": "de0b9c1c-59f6-4433-bb88-0d7286201d90",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jp.denny.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "jp.denny.cf"
+            "Host": "jp.wx.alue.link"
           }
         },
         "httpSettings": null,

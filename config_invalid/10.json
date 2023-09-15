@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.199.138.135",
-            "port": 43921,
+            "address": "hk2.mianfenyun012.eu.org",
+            "port": 8080,
             "users": [
               {
-                "id": "743bdc87-1dea-41bf-aa0b-51dfbbfec8aa",
-                "alterId": 64,
+                "id": "a04922f6-5766-49ba-d9fb-8aba40f49277",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/jdbp606",
+          "headers": {
+            "Host": "hk2.mianfenyun012.eu.org"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
