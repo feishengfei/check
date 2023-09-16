@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr                     | cn     | cc   | isp     | ip            | chatgpt          |
-|---:|:-------------------|:-------------------------|:-------|:-----|:--------|:--------------|:-----------------|
-|  0 | [8](config/8.json) | cf-lt.sharecentre.online | Poland | PL   | OVH SAS | 54.36.174.181 | Yes (Region: FR) |
+|    | id                 | addr          | cn     | cc   | isp     | ip            | chatgpt          |
+|---:|:-------------------|:--------------|:-------|:-----|:--------|:--------------|:-----------------|
+|  0 | [8](config/8.json) | sg.wyhkaa0.cf | Poland | PL   | OVH SAS | 54.36.174.181 | Yes (Region: FR) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU4MjgyXHU3MGI5IDgiLCAiYWRkIjogImNmLWx0LnNoYXJlY2VudHJlLm9ubGluZSIsICJwb3J0IjogIjgwIiwgImlkIjogIjVmNzUxYzZlLTUwYjEtNDc5Ny1iYThlLTZmZmUzMjRhMGJjZSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAibHYyLnNjcHJveHkudG9wIiwgInBhdGgiOiAiL3NoaXJrZXIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDgiLCAiYWRkIjogInNnLnd5aGthYTAuY2YiLCAicG9ydCI6IDgwLCAiaWQiOiAiMGJhMjhjMDUtN2JkOS00Y2FkLWMzMjktNDgyMzg2YThlN2EzIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAiaG9zdCI6ICJzZy53eWhrYWEwLmNmIiwgInBhdGgiOiAiL1RHOkBoa2FhMCIsICJ0bHMiOiAiIn0=
 ```
 
