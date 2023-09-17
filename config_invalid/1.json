@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "107.167.30.132",
-            "port": 43900,
+            "address": "172.67.135.195",
+            "port": 443,
             "users": [
               {
-                "id": "58e560b4-bba6-4843-be5f-83321022fa0d",
-                "alterId": 64,
+                "id": "AB135628-07F6-4F78-AF4D-E9CD8715143C",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Amsterdam.bobbykotick.rip"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/speedtest?ed=2048",
+          "headers": {
+            "Host": "Amsterdam.bobbykotick.rip"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

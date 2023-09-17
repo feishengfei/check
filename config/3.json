@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.18.158.46",
-            "port": 18424,
+            "address": "104.31.16.69",
+            "port": 2083,
             "users": [
               {
-                "id": "241bc445-af22-490f-d68b-5d92ebf295f8",
+                "id": "15bf0db4-fbff-46d0-a486-b6e4a9e74a91",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "germany-one.port888.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ONHIT",
+          "path": "/",
           "headers": {
-            "Host": "media-exp1.licdn.com"
+            "Host": "germany-one.port888.site"
           }
         },
         "httpSettings": null,
