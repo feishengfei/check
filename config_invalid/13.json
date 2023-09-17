@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.fovi.tk",
-            "port": 443,
+            "address": "datacenter.ct.01.biqibao.site",
+            "port": 2052,
             "users": [
               {
-                "id": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
+                "id": "4931e941-77c6-4144-a8b9-5c252ee36c30",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "foxlux.fovi.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/eisasqa",
+          "path": "/public?ed=4096",
           "headers": {
-            "Host": "foxlux.fovi.tk"
+            "Host": "de.biqibao.site"
           }
         },
         "httpSettings": null,
