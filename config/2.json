@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10918,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "fd.shabijichang.com",
-            "port": 80,
+            "address": "142.4.99.73",
+            "port": 443,
             "users": [
               {
-                "id": "a57c5d7f-ba94-405f-88f0-1828d4fe0c2b",
-                "alterId": 0,
+                "id": "b65da4af-a12a-4a59-9316-4549e12ba62c",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.73332463.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/path/1694859605321",
           "headers": {
-            "Host": "sls.shabijichang.com"
+            "Host": "www.73332463.xyz"
           }
         },
         "httpSettings": null,

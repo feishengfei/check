@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dashboard.autoly.ir",
-            "port": 443,
+            "address": "datacenter.ct.01.biqibao.site",
+            "port": 2052,
             "users": [
               {
-                "id": "927094d3-d678-4763-8591-e240d0bcae87",
+                "id": "4931e941-77c6-4144-a8b9-5c252ee36c30",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "panel2.hodorauth.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vsg1.0bad.com/chat",
+          "path": "/public?ed=4096",
           "headers": {
-            "Host": "panel2.hodorauth.com"
+            "Host": "de.biqibao.site"
           }
         },
         "httpSettings": null,
