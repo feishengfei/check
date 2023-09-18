@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.181.10.17",
-            "port": 2052,
+            "address": "154.85.1.204",
+            "port": 54885,
             "users": [
               {
-                "id": "f37f7ce0-5550-11ee-b133-205c6d5f5d78",
-                "alterId": 0,
+                "id": "d3133484-f2bf-4b0c-8d38-f8e645b65687",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/V2RayyNGvpn",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

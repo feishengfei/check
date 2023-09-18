@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fd.shabijichang.com",
-            "port": 80,
+            "address": "rtl.servermeli.xyz",
+            "port": 2087,
             "users": [
               {
-                "id": "d6352fef-0b2f-4176-8610-8603a5d1f1eb",
+                "id": "1e404e80-6a84-467b-9fe9-8a27794ddc43",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fll6.appmanage5.ir"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "amstd.shabijichang.com"
+            "Host": "fll6.appmanage5.ir"
           }
         },
         "httpSettings": null,

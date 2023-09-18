@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "08.kccic2pa.xyz",
-            "port": 50008,
+            "address": "datacenter.cm.04.biqibao.site",
+            "port": 2052,
             "users": [
               {
-                "id": "569dad3e-46e0-474f-8350-8acc959ff5f7",
+                "id": "cd6f0d1d-8d91-43bd-bf5f-dcabba60a7b3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/public",
+          "headers": {
+            "Host": "us-miami.biqibao.site"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

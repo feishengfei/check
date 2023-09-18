@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.69",
-            "port": 2083,
+            "address": "tia.cityco.buzz",
+            "port": 443,
             "users": [
               {
-                "id": "15bf0db4-fbff-46d0-a486-b6e4a9e74a91",
-                "alterId": 0,
+                "id": "82e7de18-fee0-3132-b8ae-b03d0566f110",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "germany-one.port888.site"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/augp",
           "headers": {
-            "Host": "germany-one.port888.site"
+            "Host": ""
           }
         },
         "httpSettings": null,

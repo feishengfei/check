@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "rtl.servermeli.xyz",
-            "port": 2087,
+            "address": "go.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "1e404e80-6a84-467b-9fe9-8a27794ddc43",
+                "id": "2c5be540-4e90-422d-9202-5a2dd48b44af",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fll6.appmanage5.ir"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/?ed=2067",
           "headers": {
-            "Host": "fll6.appmanage5.ir"
+            "Host": "uk-01.gujuji.top"
           }
         },
         "httpSettings": null,
