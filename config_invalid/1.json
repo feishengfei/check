@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hkt.123ddns.xyz",
-            "port": 55455,
+            "address": "172.67.92.119",
+            "port": 80,
             "users": [
               {
-                "id": "d2ce45e6-9f22-492d-d81d-d639067a7583",
+                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hkt.123ddns.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/shirker",
           "headers": {
-            "Host": "hkt.123ddns.xyz"
+            "Host": "ca.ilovescp.com"
           }
         },
         "httpSettings": null,
