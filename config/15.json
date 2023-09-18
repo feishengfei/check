@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10915,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.203.172",
-            "port": 80,
+            "address": "6q59.cdn.node.a.tddns-ounk.com",
+            "port": 40261,
             "users": [
               {
-                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
+                "id": "72bea5d3-7591-3ca4-9d61-3c89bd6e45a5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8",
           "headers": {
-            "Host": "ca.ilovescp.com"
+            "Host": "6q59.cdn.node.a.tddns-ounk.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "rtl.servermeli.xyz",
-            "port": 2087,
+            "address": "40.kccic2pa.xyz",
+            "port": 50040,
             "users": [
               {
-                "id": "1e404e80-6a84-467b-9fe9-8a27794ddc43",
+                "id": "66a5e5f4-4d18-474a-ad2d-3f11e09058e9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fll6.appmanage5.ir"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "fll6.appmanage5.ir"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
