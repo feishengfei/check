@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.69",
-            "port": 2083,
+            "address": "172.64.203.172",
+            "port": 80,
             "users": [
               {
-                "id": "15bf0db4-fbff-46d0-a486-b6e4a9e74a91",
+                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "germany-one.port888.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/shirker",
           "headers": {
-            "Host": "germany-one.port888.site"
+            "Host": "ca.ilovescp.com"
           }
         },
         "httpSettings": null,
