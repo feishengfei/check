@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10913,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.fovi.tk",
-            "port": 443,
+            "address": "6q59.cdn.node.a.tddns-ounk.com",
+            "port": 40261,
             "users": [
               {
-                "id": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
+                "id": "72bea5d3-7591-3ca4-9d61-3c89bd6e45a5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "foxlux.fovi.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/eisasqa",
+          "path": "/d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8",
           "headers": {
-            "Host": "foxlux.fovi.tk"
+            "Host": "6q59.cdn.node.a.tddns-ounk.com"
           }
         },
         "httpSettings": null,

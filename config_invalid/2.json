@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.fovi.tk",
-            "port": 443,
+            "address": "108.181.10.17",
+            "port": 2052,
             "users": [
               {
-                "id": "bf67437e-6c90-45ca-abc2-c7240a5ce2aa",
+                "id": "f37f7ce0-5550-11ee-b133-205c6d5f5d78",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "foxlux.fovi.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/eisasqa",
+          "path": "/V2RayyNGvpn",
           "headers": {
-            "Host": "foxlux.fovi.tk"
+            "Host": ""
           }
         },
         "httpSettings": null,
