@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zfc.windowsupdate1.com",
-            "port": 443,
+            "address": "104.17.77.6",
+            "port": 2052,
             "users": [
               {
-                "id": "4c2e7f40-3011-4c77-a066-eda17440e985",
+                "id": "23bea995-d5db-4530-85d1-ddb2082e1811",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nl2.yfjc.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/yfjc/nl2?ed=2048",
+          "path": "/public",
           "headers": {
-            "Host": "nl2.yfjc.sbs"
+            "Host": "de.biqibao.site"
           }
         },
         "httpSettings": null,

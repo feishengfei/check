@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "asb3.shabijichang.com",
-            "port": 80,
+            "address": "api.jquery.com",
+            "port": 443,
             "users": [
               {
-                "id": "53701585-591f-48a3-9515-8831ed0524ac",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sub.yifenjichang.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/oliv.beauty:443/linkvws",
           "headers": {
-            "Host": "asb3.shabijichang.com"
+            "Host": "sub.yifenjichang.top"
           }
         },
         "httpSettings": null,

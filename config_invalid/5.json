@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.77.6",
-            "port": 2052,
+            "address": "dongtaiwang3.com",
+            "port": 443,
             "users": [
               {
-                "id": "23bea995-d5db-4530-85d1-ddb2082e1811",
+                "id": "d70c4505-c9d7-44c4-a1ff-98a0bc7ebdd3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "d.freeh1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "de.biqibao.site"
+            "Host": "d.freeh1.xyz"
           }
         },
         "httpSettings": null,
