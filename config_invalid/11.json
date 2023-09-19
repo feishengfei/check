@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fd.shabijichang.com",
-            "port": 80,
+            "address": "zfc.windowsupdate1.com",
+            "port": 443,
             "users": [
               {
-                "id": "70a93fcb-f8c0-4916-96b5-8c54f3394708",
+                "id": "4c2e7f40-3011-4c77-a066-eda17440e985",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nl2.yfjc.sbs"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/yfjc/nl2?ed=2048",
           "headers": {
-            "Host": "sdyg.shabijichang.com"
+            "Host": "nl2.yfjc.sbs"
           }
         },
         "httpSettings": null,

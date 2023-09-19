@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.narutos.top",
-            "port": 8880,
+            "address": "104.31.16.14",
+            "port": 443,
             "users": [
               {
-                "id": "4b5e4565-322f-4223-a891-78a84f189726",
+                "id": "d53cc5f9-b8ff-4cbe-bf10-295956c03276",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de1vm.cdn-03.live"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/SMNxcwVdTTzcou9yQftDyZcCGQui9a",
+          "path": "/@hopev2ray",
           "headers": {
-            "Host": "paris.yj2022.gq"
+            "Host": "de1vm.cdn-03.live"
           }
         },
         "httpSettings": null,
