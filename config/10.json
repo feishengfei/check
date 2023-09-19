@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10914,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mt.servermeli.xyz",
-            "port": 2087,
+            "address": "6q59.cdn.node.a.tddns-ounk.com",
+            "port": 40261,
             "users": [
               {
-                "id": "1e404e80-6a84-467b-9fe9-8a27794ddc43",
+                "id": "72bea5d3-7591-3ca4-9d61-3c89bd6e45a5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fll5.appmanage5.ir"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8",
           "headers": {
-            "Host": "fll5.appmanage5.ir"
+            "Host": "6q59.cdn.node.a.tddns-ounk.com"
           }
         },
         "httpSettings": null,

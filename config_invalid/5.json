@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "40.kccic2pa.xyz",
-            "port": 50040,
+            "address": "104.31.16.14",
+            "port": 443,
             "users": [
               {
-                "id": "66a5e5f4-4d18-474a-ad2d-3f11e09058e9",
+                "id": "d53cc5f9-b8ff-4cbe-bf10-295956c03276",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de1vm.cdn-03.live"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/@hopev2ray",
+          "headers": {
+            "Host": "de1vm.cdn-03.live"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

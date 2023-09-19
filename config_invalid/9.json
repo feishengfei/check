@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg.wyhkaa0.cf",
-            "port": 80,
+            "address": "jp6.lianpi.xyz",
+            "port": 23234,
             "users": [
               {
-                "id": "0ba28c05-7bd9-4cad-c329-482386a8e7a3",
+                "id": "666d382c-d614-4129-aedb-06c63982820a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/TG:@hkaa0",
-          "headers": {
-            "Host": "sg.wyhkaa0.cf"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
