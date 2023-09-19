@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.120",
-            "port": 8443,
+            "address": "104.17.77.6",
+            "port": 2052,
             "users": [
               {
-                "id": "1cec1ebc-b489-4769-f2d9-e079b5832a60",
+                "id": "23bea995-d5db-4530-85d1-ddb2082e1811",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cloudconeaaa.gorgorchicken.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cloudconeaaa",
+          "path": "/public",
           "headers": {
-            "Host": "cloudconeaaa.gorgorchicken.one"
+            "Host": "de.biqibao.site"
           }
         },
         "httpSettings": null,

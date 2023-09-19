@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.128.217",
-            "port": 80,
+            "address": "178.157.63.179",
+            "port": 443,
             "users": [
               {
-                "id": "7bc886b0-8cca-4a53-9d05-3caf146030f8",
+                "id": "a783230b-cd66-4492-9517-7f6cf569e1c9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "jp.kxking.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vm?ed=2048",
           "headers": {
-            "Host": "asb3.shabijichang.com"
+            "Host": "jp.kxking.eu.org"
           }
         },
         "httpSettings": null,
