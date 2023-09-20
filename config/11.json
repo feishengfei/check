@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10908,
+      "port": 10911,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yd1.992688.xyz",
-            "port": 8080,
+            "address": "mci.servermeli.xyz",
+            "port": 2087,
             "users": [
               {
-                "id": "82019216-cf7c-4e46-8206-d37b4d9cb9d7",
+                "id": "1e404e80-6a84-467b-9fe9-8a27794ddc43",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gerr9.appmeli19.sbs"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "eu4.vpn66.eu.org"
+            "Host": "gerr9.appmeli19.sbs"
           }
         },
         "httpSettings": null,

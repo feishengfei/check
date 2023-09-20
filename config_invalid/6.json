@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bwntaz.port888.site",
-            "port": 2083,
+            "address": "sg2.wyhkaa0.cf",
+            "port": 80,
             "users": [
               {
-                "id": "15bf0db4-fbff-46d0-a486-b6e4a9e74a91",
+                "id": "fc426675-5daa-46c0-d998-61f9f5323e3f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "germany-one.port888.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/TG:@hkaa0",
           "headers": {
-            "Host": "germany-one.port888.site"
+            "Host": "sg2.wyhkaa0.cf"
           }
         },
         "httpSettings": null,
