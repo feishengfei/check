@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg2.wyhkaa0.cf",
-            "port": 80,
+            "address": "mci.servermeli.xyz",
+            "port": 2087,
             "users": [
               {
-                "id": "fc426675-5daa-46c0-d998-61f9f5323e3f",
+                "id": "1e404e80-6a84-467b-9fe9-8a27794ddc43",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gerr9.appmeli19.sbs"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/TG:@hkaa0",
+          "path": "/",
           "headers": {
-            "Host": "sg2.wyhkaa0.cf"
+            "Host": "gerr9.appmeli19.sbs"
           }
         },
         "httpSettings": null,

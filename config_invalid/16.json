@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fd.shabijichang.com",
-            "port": 80,
+            "address": "upghr-1082-v2-6.r-kcd-a.tuil.xyz",
+            "port": 39908,
             "users": [
               {
-                "id": "28645c6e-8ad9-44c0-8ecd-d76f8a285262",
+                "id": "a590e692-4c8d-42dd-ba80-b1765a34f699",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s3.cjhh.beauty"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=14501",
+          "path": "/je5x3pBN1vez3NQudNkB",
           "headers": {
-            "Host": "sls.shabijichang.com"
+            "Host": "s3.cjhh.beauty"
           }
         },
         "httpSettings": null,

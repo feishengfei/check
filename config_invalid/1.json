@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "api.jquery.com",
-            "port": 443,
+            "address": "162.159.130.115",
+            "port": 2052,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "id": "23bea995-d5db-4530-85d1-ddb2082e1811",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sub.yifenjichang.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/oliv.beauty:443/linkvws",
+          "path": "/public",
           "headers": {
-            "Host": "sub.yifenjichang.top"
+            "Host": "us-miami.biqibao.site"
           }
         },
         "httpSettings": null,

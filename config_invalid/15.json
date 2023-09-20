@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfyd.starsea.vip",
-            "port": 80,
+            "address": "12.kccic2pa.xyz",
+            "port": 50012,
             "users": [
               {
-                "id": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+                "id": "f6602bb3-d438-4f7c-9cf5-5fd548bc76dd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/sshkit/1736960111/64ee26041efcc/",
-          "headers": {
-            "Host": "sg1-v2ray.sshkit.org"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
