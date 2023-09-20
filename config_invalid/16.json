@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bwntaz.port888.site",
-            "port": 2083,
+            "address": "172.67.99.73",
+            "port": 80,
             "users": [
               {
-                "id": "15bf0db4-fbff-46d0-a486-b6e4a9e74a91",
+                "id": "6278dc83-1389-4d16-8ebb-0b8590b03582",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "germany-one.port888.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "germany-one.port888.site"
+            "Host": "sls.shabijichang.com"
           }
         },
         "httpSettings": null,
