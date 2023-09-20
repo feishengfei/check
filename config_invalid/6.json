@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.servermeli.xyz",
-            "port": 2087,
+            "address": "yd1.992688.xyz",
+            "port": 8080,
             "users": [
               {
-                "id": "1e404e80-6a84-467b-9fe9-8a27794ddc43",
+                "id": "82019216-cf7c-4e46-8206-d37b4d9cb9d7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gerr9.appmeli19.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "gerr9.appmeli19.sbs"
+            "Host": "eu4.vpn66.eu.org"
           }
         },
         "httpSettings": null,
