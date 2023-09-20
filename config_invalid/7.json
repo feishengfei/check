@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.servermeli.xyz",
-            "port": 2087,
+            "address": "fd.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "1e404e80-6a84-467b-9fe9-8a27794ddc43",
+                "id": "beaa0ee8-1ff6-4ee5-982d-258f0d830018",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gerr9.appmeli19.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "gerr9.appmeli19.sbs"
+            "Host": "mm.shabijichang.com"
           }
         },
         "httpSettings": null,

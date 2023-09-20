@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.245.8",
-            "port": 443,
+            "address": "162.159.130.115",
+            "port": 2052,
             "users": [
               {
-                "id": "99357805-2332-4548-95d7-73bf03c24599",
+                "id": "23bea995-d5db-4530-85d1-ddb2082e1811",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jp.denny.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/public",
           "headers": {
-            "Host": "jp.denny.cf"
+            "Host": "us-miami.biqibao.site"
           }
         },
         "httpSettings": null,

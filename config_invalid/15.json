@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "173.245.49.236",
-            "port": 80,
+            "address": "upghr-1082-v2-6.r-kcd-a.tuil.xyz",
+            "port": 39908,
             "users": [
               {
-                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
+                "id": "a590e692-4c8d-42dd-ba80-b1765a34f699",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s3.cjhh.beauty"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/shirker",
+          "path": "/je5x3pBN1vez3NQudNkB",
           "headers": {
-            "Host": "ca.ilovescp.com"
+            "Host": "s3.cjhh.beauty"
           }
         },
         "httpSettings": null,
