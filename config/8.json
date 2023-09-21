@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Tokyo.mfa.ee",
-            "port": 2052,
+            "address": "190.93.245.8",
+            "port": 443,
             "users": [
               {
-                "id": "992889a7-296e-4a44-98c2-0eb89af4411d",
+                "id": "99357805-2332-4548-95d7-73bf03c24599",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "jp.denny.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "vnpt.iiio.wiki"
+            "Host": "jp.denny.cf"
           }
         },
         "httpSettings": null,
