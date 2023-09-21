@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "aobre-1092-v2-7.r-kcd-b.iote.bond",
-            "port": 39918,
+            "address": "104.18.12.192",
+            "port": 80,
             "users": [
               {
-                "id": "a590e692-4c8d-42dd-ba80-b1765a34f699",
+                "id": "60492148-7815-4259-acdc-92bd15afa81c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdn.cjhh.lol"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/je5x3pBN1vez3NQudNkB",
+          "path": "/vmess",
           "headers": {
-            "Host": "cdn.cjhh.lol"
+            "Host": "france-1vm.mr-radwan-daoud.de"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg1.wyhkaa0.cf",
-            "port": 80,
+            "address": "api.jquery.com",
+            "port": 443,
             "users": [
               {
-                "id": "f4575c03-8145-4612-a1b2-7a48117f6fc2",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sub.yifenjichang.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/TG:@hkaa0",
+          "path": "/oliv.beauty:443/linkvws",
           "headers": {
-            "Host": "sg1.wyhkaa0.cf"
+            "Host": "sub.yifenjichang.top"
           }
         },
         "httpSettings": null,
