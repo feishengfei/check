@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.225.67.78",
-            "port": 443,
+            "address": "speedip.eu.org",
+            "port": 80,
             "users": [
               {
-                "id": "3e016c4d-986e-42df-838c-6046f3d89ecf",
-                "alterId": 64,
+                "id": "99b97dd5-54a5-4156-bd20-bfdaa35baabc",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.56427994.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1695204567237",
+          "path": "/xingsuyun",
           "headers": {
-            "Host": "www.56427994.xyz"
+            "Host": "sg11.xingsu.fun"
           }
         },
         "httpSettings": null,
