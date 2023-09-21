@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudconebbb.gorgorchicken.one",
-            "port": 8443,
+            "address": "104.25.255.254",
+            "port": 443,
             "users": [
               {
-                "id": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "cloudconebbb.gorgorchicken.one"
+          "serverName": "sub2.saintink.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cloudconebbb",
+          "path": "/vuk2.0bad.com/chat",
           "headers": {
-            "Host": "cloudconebbb.gorgorchicken.one"
+            "Host": "sub2.saintink.eu.org"
           }
         },
         "httpSettings": null,
