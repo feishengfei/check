@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.71",
-            "port": 2083,
+            "address": "api.jquery.com",
+            "port": 443,
             "users": [
               {
-                "id": "15bf0db4-fbff-46d0-a486-b6e4a9e74a91",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "germany-one.port888.site"
+          "serverName": "sub.yifenjichang.top"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/oliv.beauty:443/linkvws",
           "headers": {
-            "Host": "germany-one.port888.site"
+            "Host": "sub.yifenjichang.top"
           }
         },
         "httpSettings": null,
