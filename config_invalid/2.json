@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg2.wyhkaa0.cf",
-            "port": 80,
+            "address": "199.15.77.128",
+            "port": 10001,
             "users": [
               {
-                "id": "fc426675-5daa-46c0-d998-61f9f5323e3f",
+                "id": "a783230b-cd66-4492-9517-7f6cf569e1c9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "do1.kxking.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/TG:@hkaa0",
+          "path": "/vm?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "do1.kxking.eu.org"
           }
         },
         "httpSettings": null,

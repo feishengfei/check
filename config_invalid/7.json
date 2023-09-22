@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fd.shabijichang.com",
-            "port": 80,
+            "address": "104.25.255.254",
+            "port": 443,
             "users": [
               {
-                "id": "70a93fcb-f8c0-4916-96b5-8c54f3394708",
+                "id": "927094d3-d678-4763-8591-e240d0bcae87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sub2.saintink.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vuk2.0bad.com/chat",
           "headers": {
-            "Host": "sdyg.shabijichang.com"
+            "Host": "sub2.saintink.eu.org"
           }
         },
         "httpSettings": null,
