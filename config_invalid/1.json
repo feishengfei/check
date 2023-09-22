@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.88.47.185",
-            "port": 443,
+            "address": "hkt.123ddns.xyz",
+            "port": 55455,
             "users": [
               {
-                "id": "a783230b-cd66-4492-9517-7f6cf569e1c9",
+                "id": "d2ce45e6-9f22-492d-d81d-d639067a7583",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "jp.kxking.eu.org"
+          "serverName": "hkt.123ddns.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vm?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "jp.kxking.eu.org"
+            "Host": "hkt.123ddns.xyz"
           }
         },
         "httpSettings": null,
