@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "199.15.77.128",
-            "port": 10001,
+            "address": "104.31.16.120",
+            "port": 443,
             "users": [
               {
-                "id": "a783230b-cd66-4492-9517-7f6cf569e1c9",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "nm.kxking.eu.org"
+          "serverName": "edeen.makeup"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vm?ed=2048",
+          "path": "linkvws",
           "headers": {
-            "Host": "nm.kxking.eu.org"
+            "Host": "edeen.makeup"
           }
         },
         "httpSettings": null,
