@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "photo.myfate.buzz",
-            "port": 28507,
+            "address": "cf.yx.alue.link",
+            "port": 2052,
             "users": [
               {
-                "id": "c2a12b2e-93ba-402d-c47d-dd18788afc95",
+                "id": "fe5edf04-c2af-4ac5-84ee-16d43024decb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "lu.wx.alue.link"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
