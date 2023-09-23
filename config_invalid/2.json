@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.yx.alue.link",
-            "port": 2052,
+            "address": "hkt.123ddns.xyz",
+            "port": 55455,
             "users": [
               {
-                "id": "fe5edf04-c2af-4ac5-84ee-16d43024decb",
+                "id": "d2ce45e6-9f22-492d-d81d-d639067a7583",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hkt.123ddns.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "lu.wx.alue.link"
+            "Host": "hkt.123ddns.xyz"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "free4.6114514.xyz",
-            "port": 2052,
+            "address": "aobre-1092-v2-7.r-kcd-b.iote.bond",
+            "port": 39918,
             "users": [
               {
-                "id": "8204f631-8a71-4f6a-821d-6c117edaf0fa",
+                "id": "a590e692-4c8d-42dd-ba80-b1765a34f699",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdn.cjhh.lol"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/je5x3pBN1vez3NQudNkB",
           "headers": {
-            "Host": "downloads2.6114514.xyz"
+            "Host": "cdn.cjhh.lol"
           }
         },
         "httpSettings": null,
