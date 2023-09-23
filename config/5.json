@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.40.89",
-            "port": 80,
+            "address": "laravel.com",
+            "port": 443,
             "users": [
               {
-                "id": "12357ee8-39c0-4256-ad1a-155ea72235d9",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sub.yifenjichang.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/octavi.cfd:443/linkvws",
           "headers": {
-            "Host": "dk1.xv2ray.net"
+            "Host": "sub.yifenjichang.top"
           }
         },
         "httpSettings": null,

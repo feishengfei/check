@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hkt.123ddns.xyz",
-            "port": 55455,
+            "address": "fx4-108.181.10.17.nip.io",
+            "port": 8080,
             "users": [
               {
-                "id": "d2ce45e6-9f22-492d-d81d-d639067a7583",
+                "id": "b2e93e40-5553-11ee-b033-205c6d5f5d78",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hkt.123ddns.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "hkt.123ddns.xyz"
+            "Host": "internet.life.com.by"
           }
         },
         "httpSettings": null,
