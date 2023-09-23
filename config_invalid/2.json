@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fx4-108.181.10.17.nip.io",
-            "port": 8080,
+            "address": "199.115.229.12",
+            "port": 29080,
             "users": [
               {
-                "id": "b2e93e40-5553-11ee-b033-205c6d5f5d78",
+                "id": "7e7c5056-ac2b-49e4-fbce-a47b09003e37",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "internet.life.com.by"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

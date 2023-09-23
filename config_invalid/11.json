@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "wnd.shabijichang.com",
-            "port": 80,
+            "address": "f.6446xtsy.buzz",
+            "port": 443,
             "users": [
               {
-                "id": "53701585-591f-48a3-9515-8831ed0524ac",
+                "id": "f7aea457-b58a-4e2c-aba0-20019dd89fff",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "f.6446xtsy.buzz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ask6446888",
           "headers": {
-            "Host": "wnd.shabijichang.com"
+            "Host": "f.6446xtsy.buzz"
           }
         },
         "httpSettings": null,
