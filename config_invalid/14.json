@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "facet.x31416.top",
-            "port": 443,
+            "address": "vxyfa-1080-v2-2.d-kcd.tuil.xyz",
+            "port": 39928,
             "users": [
               {
-                "id": "c090fe2c-442b-4643-ef5e-98d53a5d72ac",
+                "id": "a590e692-4c8d-42dd-ba80-b1765a34f699",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "edge.cjhh.mom"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/je5x3pBN1vez3NQudNkB",
+          "headers": {
+            "Host": "edge.cjhh.mom"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
