@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fhc.shabijichang.com",
-            "port": 80,
+            "address": "mci1.amo2023.club",
+            "port": 2096,
             "users": [
               {
-                "id": "5e48a497-f4ae-4129-afd6-ba26d75b792a",
+                "id": "1f05fe41-c9bf-4b4e-e476-ac58a00da929",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mci1.amo2023.club"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "mci1.amo2023.club"
           }
         },
         "httpSettings": null,
