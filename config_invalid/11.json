@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "free2.6114514.xyz",
-            "port": 2052,
+            "address": "64.32.24.222",
+            "port": 443,
             "users": [
               {
-                "id": "8204f631-8a71-4f6a-821d-6c117edaf0fa",
-                "alterId": 0,
+                "id": "cff9d860-7330-4ee1-b072-7142ddf1571d",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/path/080822272914",
           "headers": {
-            "Host": "downloads3.6114514.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,
