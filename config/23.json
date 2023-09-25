@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10923,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.199.138.180",
-            "port": 54885,
+            "address": "vxyfa-1080-v2-2.d-kcd.tuil.xyz",
+            "port": 39928,
             "users": [
               {
-                "id": "d3133484-f2bf-4b0c-8d38-f8e645b65687",
-                "alterId": 64,
+                "id": "a590e692-4c8d-42dd-ba80-b1765a34f699",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "edge.cjhh.mom"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/je5x3pBN1vez3NQudNkB",
+          "headers": {
+            "Host": "edge.cjhh.mom"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

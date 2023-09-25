@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw22.tutu4.one",
-            "port": 443,
+            "address": "156.225.67.25",
+            "port": 51381,
             "users": [
               {
-                "id": "8569a016-24e9-34cd-a9d2-9de42c6ca245",
-                "alterId": 0,
+                "id": "375e70f0-5d46-476f-8d69-0fb35c5548a9",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tw22.tutu4.one"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/tu",
-          "headers": {
-            "Host": "tw22.tutu4.one"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
