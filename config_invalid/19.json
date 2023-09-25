@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "Tokyo.mfa.ee",
-            "port": 2052,
+            "address": "67.21.64.84",
+            "port": 43123,
             "users": [
               {
-                "id": "992889a7-296e-4a44-98c2-0eb89af4411d",
-                "alterId": 0,
+                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "vnpt.iiio.wiki"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

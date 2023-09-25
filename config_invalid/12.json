@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.184.134",
-            "port": 80,
+            "address": "cc1.clare88.tk",
+            "port": 12653,
             "users": [
               {
-                "id": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+                "id": "fce96161-0c58-4ba9-8430-660d84083888",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/phosphorylative.aurorainiceland.com/nimvws",
-          "headers": {
-            "Host": "erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
