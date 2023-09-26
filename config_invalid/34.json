@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fhc.shabijichang.com",
-            "port": 80,
+            "address": "vxyfa-1080-v2-2.d-kcd.tuil.xyz",
+            "port": 39928,
             "users": [
               {
-                "id": "5e48a497-f4ae-4129-afd6-ba26d75b792a",
+                "id": "a590e692-4c8d-42dd-ba80-b1765a34f699",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "edge.cjhh.mom"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/je5x3pBN1vez3NQudNkB",
           "headers": {
-            "Host": ""
+            "Host": "edge.cjhh.mom"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.224.95",
-            "port": 80,
+            "address": "ming2.kiwireich.com",
+            "port": 443,
             "users": [
               {
-                "id": "e6be60d7-8b79-4bd3-86ba-6291b1ead2f7",
+                "id": "18e5f40f-bda6-4c15-9334-e87cda6047af",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ming2.kiwireich.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ray",
           "headers": {
-            "Host": "ld.shabijichang.com"
+            "Host": "ming2.kiwireich.com"
           }
         },
         "httpSettings": null,

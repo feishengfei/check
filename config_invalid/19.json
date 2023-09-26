@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Tokyo.mfa.ee",
-            "port": 2052,
+            "address": "51fly99.win",
+            "port": 443,
             "users": [
               {
-                "id": "992889a7-296e-4a44-98c2-0eb89af4411d",
+                "id": "9681f99e-d251-477a-d777-1d01ee550481",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "51fly99.win"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/myblog",
           "headers": {
-            "Host": "vnpt.iiio.wiki"
+            "Host": "51fly99.win"
           }
         },
         "httpSettings": null,
