@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "107.167.16.85",
-            "port": 443,
+            "address": "cfzzo.starnetcn.top",
+            "port": 81,
             "users": [
               {
-                "id": "7640a1e7-9701-428e-a4b2-19b3e7dd6f9f",
-                "alterId": 64,
+                "id": "e4e9c59c-8444-4f6e-882b-123ce6d16c8d",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.51109057.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/080822272914",
+          "path": "/1c1123",
           "headers": {
-            "Host": "www.51109057.xyz"
+            "Host": "cfzzs.starnetcn.top"
           }
         },
         "httpSettings": null,

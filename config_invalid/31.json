@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "upghr-1082-v2-6.r-kcd-a.tuil.xyz",
-            "port": 39908,
+            "address": "ci.outline-vpn.cloud",
+            "port": 43123,
             "users": [
               {
-                "id": "a590e692-4c8d-42dd-ba80-b1765a34f699",
-                "alterId": 0,
+                "id": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "upghr-1082-v2-6.r-kcd-a.tuil.xyz"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/je5x3pBN1vez3NQudNkB",
-          "headers": {
-            "Host": "upghr-1082-v2-6.r-kcd-a.tuil.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
