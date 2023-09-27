@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ahsorathiyaa.fly.dev",
-            "port": 443,
+            "address": "cfzzb.starnetcn.top",
+            "port": 81,
             "users": [
               {
-                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                "id": "e4e9c59c-8444-4f6e-882b-123ce6d16c8d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ahsorathiyaa.fly.dev"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/1c1123",
           "headers": {
-            "Host": "ahsorathiyaa.fly.dev"
+            "Host": "141.147.156.33"
           }
         },
         "httpSettings": null,

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "64.32.24.222",
+            "port": 443,
             "users": [
               {
-                "id": "5f751c6e-50b1-4797-ba8e-6ffe324a0bce",
-                "alterId": 0,
+                "id": "cff9d860-7330-4ee1-b072-7142ddf1571d",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/scp",
+          "path": "/path/080822272914",
           "headers": {
-            "Host": "usgt.fastfrog.online"
+            "Host": ""
           }
         },
         "httpSettings": null,
