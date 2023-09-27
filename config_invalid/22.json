@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.249.18.2",
-            "port": 443,
+            "address": "fhc.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "84d1de11-ce12-4a15-8312-1338356d4ac4",
-                "alterId": 64,
+                "id": "ef591064-640a-48e0-a511-623d5c0e67e9",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.57424349.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1695652618025",
+          "path": "/",
           "headers": {
-            "Host": "www.57424349.xyz"
+            "Host": "fhc.shabijichang.com"
           }
         },
         "httpSettings": null,
