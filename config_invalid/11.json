@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "142.0.137.12",
+            "address": "gw04.ipv6wifi.com",
             "port": 443,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "29652e15-ce1e-4eb5-9df5-90b65adc425a",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.70814184.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1695724315810",
+          "path": "/",
           "headers": {
-            "Host": "www.70814184.xyz"
+            "Host": "gw04.ipv6wifi.com"
           }
         },
         "httpSettings": null,
