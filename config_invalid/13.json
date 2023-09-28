@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "dongtaiwang3.com",
-            "port": 8080,
+            "address": "38.26.135.20",
+            "port": 443,
             "users": [
               {
-                "id": "c5f81634-cd34-47fa-ace6-69300539e051",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.39838266.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/oX7MJ0Fj/",
+          "path": "/path/1694859605321",
           "headers": {
-            "Host": "dongtaiwang.dtku47.xyz"
+            "Host": "www.39838266.xyz"
           }
         },
         "httpSettings": null,

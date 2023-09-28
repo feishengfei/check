@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "64.32.24.222",
-            "port": 443,
+            "address": "104.17.88.252",
+            "port": 2082,
             "users": [
               {
-                "id": "cff9d860-7330-4ee1-b072-7142ddf1571d",
-                "alterId": 64,
+                "id": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/080822272914",
+          "path": "/phosphorylative.aurorainiceland.com/nimvws",
           "headers": {
-            "Host": ""
+            "Host": "erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"
           }
         },
         "httpSettings": null,

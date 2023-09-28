@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "854.outline-vpn.cloud",
-            "port": 80,
+            "address": "103.149.144.45",
+            "port": 19482,
             "users": [
               {
-                "id": "a1a676e4-016e-4bf0-96fe-4b6aaf53abc2",
+                "id": "50a170b7-1198-4603-e51a-0da28605d9e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "amstd.shabijichang.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

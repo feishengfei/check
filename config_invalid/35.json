@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.62.42.77",
-            "port": 80,
+            "address": "speed.cloudflare.com",
+            "port": 8080,
             "users": [
               {
-                "id": "14665d49-17ee-4fd7-b1de-19d98e4b8e27",
+                "id": "cafbdf1c-5812-492f-92ac-330650c6ecf0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "eu1.vpn66.eu.org"
           }
         },
         "httpSettings": null,
