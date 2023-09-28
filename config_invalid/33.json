@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cold-dawn-9246.fly.dev",
-            "port": 443,
+            "address": "www.speedtest.net",
+            "port": 80,
             "users": [
               {
-                "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+                "id": "bf75108e-7bec-4fe0-8db9-3d4985dd3bd6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cold-dawn-9246.fly.dev"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+          "path": "/",
           "headers": {
-            "Host": "cold-dawn-9246.fly.dev"
+            "Host": "it1.xv2ray.net"
           }
         },
         "httpSettings": null,
