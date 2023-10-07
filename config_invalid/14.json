@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hkt.123ddns.xyz",
-            "port": 55455,
+            "address": "104.16.117.47",
+            "port": 80,
             "users": [
               {
-                "id": "d2ce45e6-9f22-492d-d81d-d639067a7583",
+                "id": "e8cc06f6-0eff-4c07-9038-8c640650a2ce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "jdf.shabijichang.com"
           }
         },
         "httpSettings": null,

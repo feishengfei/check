@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hkt.123ddns.xyz",
-            "port": 55455,
+            "address": "www.speedtest.net",
+            "port": 80,
             "users": [
               {
-                "id": "d2ce45e6-9f22-492d-d81d-d639067a7583",
+                "id": "62515af2-1dd9-467b-9dd3-774abefb6a62",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hkt.123ddns.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "hkt.123ddns.xyz"
+            "Host": "hu1.xv2ray.net"
           }
         },
         "httpSettings": null,
