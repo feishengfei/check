@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hdlb.shabijichang.com",
-            "port": 80,
+            "address": "ns1.v2-vip.fun",
+            "port": 443,
             "users": [
               {
-                "id": "53701585-591f-48a3-9515-8831ed0524ac",
+                "id": "14f34189-d67a-4c28-833b-418e60084a91",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "xjp11.xl88.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/aAXxcw3",
           "headers": {
-            "Host": "hdlb.shabijichang.com"
+            "Host": "xjp11.xl88.eu.org"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tanz-board.kunlun-one.com",
-            "port": 35107,
+            "address": "fd.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "d9961c41-a491-3bfd-91a5-41d5a7f79915",
+                "id": "0c3a3cc8-aff3-475c-8d8a-87c3ca3cb37b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "fhc.shabijichang.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
