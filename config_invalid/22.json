@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.v2-vip.fun",
-            "port": 443,
+            "address": "www.speedtest.net",
+            "port": 80,
             "users": [
               {
-                "id": "14f34189-d67a-4c28-833b-418e60084a91",
+                "id": "62515af2-1dd9-467b-9dd3-774abefb6a62",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xjp11.xl88.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aAXxcw3",
+          "path": "/",
           "headers": {
-            "Host": "xjp11.xl88.eu.org"
+            "Host": "hu1.xv2ray.net"
           }
         },
         "httpSettings": null,

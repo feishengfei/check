@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "91.107.132.160",
-            "port": 8080,
+            "address": "b5.wuxianliulianng.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "30b6d3a0-9c7e-4865-a0b0-2a6a006d95c6",
+                "id": "3b86c4fa-bc53-4067-8d1c-275cff02d91b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "5.wuxianliulianng.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/mp4",
           "headers": {
-            "Host": "91.107.132.160"
+            "Host": "5.wuxianliulianng.xyz"
           }
         },
         "httpSettings": null,
