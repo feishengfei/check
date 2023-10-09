@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10918,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg4.gophers.gay",
-            "port": 23202,
+            "address": "45.199.138.152",
+            "port": 30000,
             "users": [
               {
-                "id": "171979a2-037a-44bc-8ab0-b6d7aa431b0c",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca4690dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.32522178.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "/path/1696598013851",
           "headers": {
-            "Host": "microsoft.com"
+            "Host": "www.32522178.xyz"
           }
         },
         "httpSettings": null,

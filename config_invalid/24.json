@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "oci.donpau.com",
-            "port": 443,
+            "address": "92.118.149.115",
+            "port": 25131,
             "users": [
               {
-                "id": "3C02DC15-56AE-7889-8936-9A2EA8FF8666",
+                "id": "ece8262a-141f-42f6-8dcf-e9b7a2028086",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "oci.donpau.com"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/cone",
-          "headers": {
-            "Host": "oci.donpau.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
