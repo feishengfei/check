@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fhc.shabijichang.com",
-            "port": 80,
+            "address": "oci.donpau.com",
+            "port": 443,
             "users": [
               {
-                "id": "5e48a497-f4ae-4129-afd6-ba26d75b792a",
+                "id": "3C02DC15-56AE-7889-8936-9A2EA8FF8666",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "oci.donpau.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/cone",
           "headers": {
-            "Host": "fhc.shabijichang.com"
+            "Host": "oci.donpau.com"
           }
         },
         "httpSettings": null,
