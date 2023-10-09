@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b3.wuxianliulianng.xyz",
-            "port": 443,
+            "address": "hktddns.aikun.online",
+            "port": 80,
             "users": [
               {
-                "id": "3b86c4fa-bc53-4067-8d1c-275cff02d91b",
+                "id": "8eddf617-8b05-4221-add9-9487dbdfa92d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "3.wuxianliulianng.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sometimesnaive",
+          "path": "/hkbn",
           "headers": {
-            "Host": "3.wuxianliulianng.xyz"
+            "Host": "sanmao17.hkbn.n.optage.moe"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b5.wuxianliulianng.xyz",
-            "port": 443,
+            "address": "krcc6.gophers.gay",
+            "port": 21453,
             "users": [
               {
-                "id": "3b86c4fa-bc53-4067-8d1c-275cff02d91b",
+                "id": "4b445dc7-3db7-4476-978a-1fb2a4d5c2b0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "5.wuxianliulianng.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/mp4",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "5.wuxianliulianng.xyz"
+            "Host": "microsoft.com"
           }
         },
         "httpSettings": null,

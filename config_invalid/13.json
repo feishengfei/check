@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn3.4gspeed.me",
-            "port": 80,
+            "address": "183.238.202.173",
+            "port": 51904,
             "users": [
               {
-                "id": "93bbb190-beb1-46e2-94e3-cf92e8b42ee4",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/4gspeed.me",
-          "headers": {
-            "Host": "dl.kgvn.garenanow.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
