@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "auxn2.gophers.gay",
-            "port": 20653,
+            "address": "pl1-vmess.greenssh.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "4b445dc7-3db7-4476-978a-1fb2a4d5c2b0",
+                "id": "26cd2459-4f68-4e56-b19c-b0b26f6ff843",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "microsoft.com"
+            "Host": "pl1-vmess.greenssh.xyz"
           }
         },
         "httpSettings": null,

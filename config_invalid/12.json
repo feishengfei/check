@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "krcc3.gophers.gay",
-            "port": 22203,
+            "address": "cc1.clare88.tk",
+            "port": 12653,
             "users": [
               {
-                "id": "3f34ab32-c38e-4fb2-93b6-8582f1c4797f",
+                "id": "fce96161-0c58-4ba9-8430-660d84083888",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "baidu.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
