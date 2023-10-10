@@ -32,25 +32,21 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "92.118.149.115",
-            "port": 25131,
-            "users": [
-              {
-                "id": "ece8262a-141f-42f6-8dcf-e9b7a2028086",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "jscm01.celerlink.one",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "2739ce85d3b9e145",
+            "port": 41021,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
