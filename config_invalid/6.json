@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "de.opencc.eu.org",
-            "port": 80,
+            "address": "130.162.47.123",
+            "port": 6854,
             "users": [
               {
-                "id": "175533cf-ccb3-4af7-aac0-357e8d02d640",
+                "id": "b5f7e932-f730-4ad2-b425-40977b9db332",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/h2102",
+          "path": "/zBLPou",
           "headers": {
-            "Host": "de.opencc.eu.org"
+            "Host": ""
           }
         },
         "httpSettings": null,

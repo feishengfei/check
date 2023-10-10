@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "24.199.111.70",
-            "port": 22222,
+            "address": "46caadb.f2.gladns.com",
+            "port": 3331,
             "users": [
               {
-                "id": "2ef8e4ba-187d-4d50-d1eb-99ae641e3df8",
+                "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/s/46caadb.fm.apple.com:60980",
           "headers": {
             "Host": ""
           }
