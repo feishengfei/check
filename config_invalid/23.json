@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 80,
+            "address": "51vfly1.win",
+            "port": 443,
             "users": [
               {
-                "id": "4d868558-0166-4083-baf0-720daf24f6e6",
+                "id": "9681f99e-d251-477a-d777-1d01ee550481",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "51vfly1.win"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/myblog",
           "headers": {
-            "Host": "fi1.xv2ray.net"
+            "Host": "51vfly1.win"
           }
         },
         "httpSettings": null,
