@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "datacenter.ct.01.biqibao.site",
-            "port": 2052,
+            "address": "ns1.v2-vip.fun",
+            "port": 8080,
             "users": [
               {
-                "id": "d9e00d61-60aa-4da5-856f-a2aba235a14e",
+                "id": "d3f830a2-205a-4bba-a7ca-5e87899ac04d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "de.biqibao.site"
+            "Host": "ssrsub.v005.ssrsub.com"
           }
         },
         "httpSettings": null,
