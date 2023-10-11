@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "us01.shawbrothersstudio.com",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "Lam6mgI0ZnIqT459CTTOJR",
-            "port": 19922,
-            "level": 1,
-            "users": null
+            "address": "kr-cdn-6273819.starnetcn.top",
+            "port": 31235,
+            "users": [
+              {
+                "id": "95e3c4c4-5540-4b2e-ac07-a7505f4a9313",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/315d825893fc34aca0231ab967157986",
+          "headers": {
+            "Host": "jxhoisldy718922.starnetcn.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

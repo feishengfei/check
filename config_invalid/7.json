@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "46caadb.f2.gladns.com",
-            "port": 3331,
+            "address": "ns1.v2-vip.fun",
+            "port": 8080,
             "users": [
               {
-                "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+                "id": "d3f830a2-205a-4bba-a7ca-5e87899ac04d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/s/46caadb.fm.apple.com:60980",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": ""
+            "Host": "ssrsub.v001.ssrsub.com"
           }
         },
         "httpSettings": null,
