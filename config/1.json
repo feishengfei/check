@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10901,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.75409854.xyz",
-            "port": 443,
+            "address": "146.190.113.141",
+            "port": 39543,
             "users": [
               {
-                "id": "28dd6c26-05a5-4bba-8a5d-052b70ac13b2",
-                "alterId": 64,
+                "id": "605fbfb5-07ec-47be-ebbe-cc5397b81864",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.75409854.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1694429908748",
+          "path": "/SHALANA",
           "headers": {
-            "Host": "www.75409854.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,
