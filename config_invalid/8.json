@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "uk.shawbrothersstudio.com",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "yCf03vE7phaImZaVjeAF3L",
-            "port": 19923,
-            "level": 1,
-            "users": null
+            "address": "46caadb.f2.gladns.com",
+            "port": 3331,
+            "users": [
+              {
+                "id": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/s/46caadb.fm.apple.com:60980",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
