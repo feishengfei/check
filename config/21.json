@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10921,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,7 +36,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "198.2.202.88",
+            "address": "198.2.202.85",
             "port": 443,
             "users": [
               {
@@ -64,7 +64,7 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1695993071029",
+          "path": "/path/1695032909164",
           "headers": {
             "Host": "www.65825524.xyz"
           }

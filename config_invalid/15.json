@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jpdj5.gophers.gay",
-            "port": 22053,
+            "address": "bobbykotick.rip",
+            "port": 443,
             "users": [
               {
-                "id": "171979a2-037a-44bc-8ab0-b6d7aa431b0c",
+                "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Lille.bobbykotick.rip"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "/speedtest",
           "headers": {
-            "Host": "microsoft.com"
+            "Host": "Lille.bobbykotick.rip"
           }
         },
         "httpSettings": null,
