@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cold-dawn-9246.fly.dev",
-            "port": 443,
+            "address": "singapore.com",
+            "port": 8080,
             "users": [
               {
-                "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+                "id": "d3f830a2-205a-4bba-a7ca-5e87899ac04d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": ""
+            "Host": "ssrsub.v002.ssrsub.com"
           }
         },
         "httpSettings": null,
