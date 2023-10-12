@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "kr-cdn-6273819.starnetcn.top",
-            "port": 31235,
-            "users": [
-              {
-                "id": "95e3c4c4-5540-4b2e-ac07-a7505f4a9313",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "jscm01.celerlink.one",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "a6692a28fdebb4e5",
+            "port": 41026,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/315d825893fc34aca0231ab967157986",
-          "headers": {
-            "Host": "jxhoisldy718922.starnetcn.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

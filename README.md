@@ -6,14 +6,16 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                 | cn            | cc   | isp       | ip                                    | chatgpt          |
-|---:|:---------------------|:---------------------|:--------------|:-----|:----------|:--------------------------------------|:-----------------|
-|  0 | [21](config/21.json) | jscm01.celerlink.one | United States | US   | NATOLAB   | 2602:feda:30:ae86:34d1:b7ff:fe01:814e | Yes (Region: US) |
-|  1 | [33](config/33.json) | 156.225.67.104       | Netherlands   | NL   | YISP B.V. | 154.84.1.44                           | Yes (Region: NL) |
+|    | id                   | addr                        | cn            | cc   | isp       | ip             | chatgpt          |
+|---:|:---------------------|:----------------------------|:--------------|:-----|:----------|:---------------|:-----------------|
+|  0 | [6](config/6.json)   | us01.shawbrothersstudio.com | United States | US   | HVC-AS    | 38.180.5.0     | Yes (Region: US) |
+|  1 | [7](config/7.json)   | 156.225.67.104              | Netherlands   | NL   | YISP B.V. | 154.84.1.44    | Yes (Region: NL) |
+|  2 | [17](config/17.json) | 183.238.202.173             | Hong Kong     | HK   | CNSERVERS | 156.227.19.218 | Yes (Region: US) |
 
 ## Valid
 ```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNjY5MmEyOGZkZWJiNGU1@jscm01.celerlink.one:41026#github.com/freefq%20-%20%E6%B1%9F%E8%8B%8F%E7%9C%81%E7%9B%90%E5%9F%8E%E5%B8%82%E7%A7%BB%E5%8A%A8%2021
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNTdcdTk3NWUgIDMzIiwgImFkZCI6ICIxNTYuMjI1LjY3LjEwNCIsICJwb3J0IjogMzAwMDAsICJpZCI6ICIyOWE1ZDQ4ZS0yNGYxLTQ4ZmQtYTVlMS05YTQ2Y2IzMTAzMmYiLCAiYWlkIjogNjQsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAiaG9zdCI6ICJ3d3cuNDE3NTgxMTIueHl6IiwgInBhdGgiOiAiL3BhdGgvMTY5Njk0NDgwNjk2MSIsICJ0bHMiOiAidGxzIn0=
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMYW02bWdJMFpuSXFUNDU5Q1RUT0pS@us01.shawbrothersstudio.com:19922#github.com/freefq%20-%20%E5%8C%97%E4%BA%AC%E5%B8%82%E7%A7%BB%E5%8A%A8%206
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNTdcdTk3NWUgIDciLCAiYWRkIjogIjE1Ni4yMjUuNjcuMTA0IiwgInBvcnQiOiAzMDAwMCwgImlkIjogIjI5YTVkNDhlLTI0ZjEtNDhmZC1hNWUxLTlhNDZjYjMxMDMyZiIsICJhaWQiOiA2NCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogInd3dy40MTc1ODExMi54eXoiLCAicGF0aCI6ICIvcGF0aC8xNjk2OTQ0ODA2OTYxIiwgInRscyI6ICJ0bHMifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTciLCAiYWRkIjogIjE4My4yMzguMjAyLjE3MyIsICJwb3J0IjogIjUxOTA0IiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIvIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
 ```
 
