@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "111.67.201.33",
-            "port": 10052,
+            "address": "b.baozinet.top",
+            "port": 25002,
             "users": [
               {
-                "id": "3097c8db-70a5-4b3f-a54d-54685a00d086",
+                "id": "50b479e6-888d-42bb-b0dd-0ea9935f7a7e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/neimenggu001",
-          "headers": {
-            "Host": "tms.dingtalk.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 80,
+            "address": "singapore.com",
+            "port": 8080,
             "users": [
               {
-                "id": "4d868558-0166-4083-baf0-720daf24f6e6",
+                "id": "d3f830a2-205a-4bba-a7ca-5e87899ac04d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "fi1.xv2ray.net"
+            "Host": "ssrsub.v002.ssrsub.com"
           }
         },
         "httpSettings": null,
