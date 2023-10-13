@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.128",
-            "port": 80,
+            "address": "83.229.70.215",
+            "port": 13337,
             "users": [
               {
-                "id": "270c301a-7db6-4164-a0fd-d124ab6a94da",
+                "id": "bdd22841-c4d2-4aa8-acf2-95aa9125f159",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@hopev2ray,@hopev2ray,@hopev2ray",
+          "path": "/",
           "headers": {
-            "Host": "gb2vm.cdn-03.live"
+            "Host": ""
           }
         },
         "httpSettings": null,
