@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10921,
+      "port": 10918,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,43 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "51vfly1.win",
-            "port": 443,
-            "users": [
-              {
-                "id": "9681f99e-d251-477a-d777-1d01ee550481",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "us02.shawbrothersstudio.com",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "hg9h5KpMmJLli6W6Qjd2yi",
+            "port": 43642,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "51vfly1.win"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/myblog",
-          "headers": {
-            "Host": "51vfly1.win"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

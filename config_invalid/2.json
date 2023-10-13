@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 80,
+            "address": "www.75409854.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "6bf1b342-2bf0-4608-b288-8ee515e2d594",
-                "alterId": 0,
+                "id": "28dd6c26-05a5-4bba-8a5d-052b70ac13b2",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.75409854.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@hopev2ray\u060c@hopev2ray",
+          "path": "/path/1694429908748",
           "headers": {
-            "Host": "de1vm.cdn-03.live"
+            "Host": "www.75409854.xyz"
           }
         },
         "httpSettings": null,
