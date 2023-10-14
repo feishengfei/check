@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "us02.shawbrothersstudio.com",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "hg9h5KpMmJLli6W6Qjd2yi",
-            "port": 43642,
-            "level": 1,
-            "users": null
+            "address": "146.190.110.92",
+            "port": 22118,
+            "users": [
+              {
+                "id": "b800fba6-2835-4b44-83c2-5275fdbb24ba",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "media-exp1.licdn.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "media-exp1.licdn.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

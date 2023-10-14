@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "67.21.90.5",
-            "port": 443,
+            "address": "mix.alidns.moe233.org",
+            "port": 80,
             "users": [
               {
-                "id": "28dd6c26-05a5-4bba-8a5d-052b70ac13b2",
-                "alterId": 64,
+                "id": "9f3559d7-5531-450c-afe3-ca5467d35fcf",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1694429908748",
+          "path": "/coco/43",
           "headers": {
-            "Host": ""
+            "Host": "sgli.edge.233.tw"
           }
         },
         "httpSettings": null,
