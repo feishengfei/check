@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "120.233.43.31",
-            "port": 26021,
+            "address": "ap-east-cht.lnaspiring.com",
+            "port": 80,
             "users": [
               {
-                "id": "d40d976d-d569-3e7d-9396-132dea60cf28",
+                "id": "e1b82442-c4fa-4fce-801e-5f5836c0e866",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/coco/13",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

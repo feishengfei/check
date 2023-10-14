@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "67.21.90.5",
-            "port": 443,
+            "address": "kr-cdn-6273819.starnetcn.top",
+            "port": 31235,
             "users": [
               {
-                "id": "28dd6c26-05a5-4bba-8a5d-052b70ac13b2",
-                "alterId": 64,
+                "id": "8e73f50a-35cd-4235-9c18-a3e061e7bc9f",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1694429908748",
+          "path": "/315d825893fc34aca0231ab967157986",
           "headers": {
-            "Host": ""
+            "Host": "jxhoisldy718922.starnetcn.top"
           }
         },
         "httpSettings": null,
