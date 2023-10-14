@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.99.190.109",
-            "port": 443,
+            "address": "sfmomastore.com",
+            "port": 80,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "id": "0580abe6-9aaf-40e2-ba33-0bc9f3b6ef2b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "linkvws",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "ee1.xv2ray.net"
           }
         },
         "httpSettings": null,
