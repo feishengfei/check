@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ld2.shabijichang.com",
-            "port": 80,
+            "address": "cf-lt.sharecentre.online",
+            "port": 8080,
             "users": [
               {
-                "id": "c458695d-6908-45c3-9512-e0c46418454c",
+                "id": "d3f830a2-205a-4bba-a7ca-5e87899ac04d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "ld2.shabijichang.com"
+            "Host": "ssrsub.v003.ssrsub.com"
           }
         },
         "httpSettings": null,
