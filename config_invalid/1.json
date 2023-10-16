@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.231.210",
-            "port": 80,
+            "address": "142.4.110.142",
+            "port": 30000,
             "users": [
               {
-                "id": "72d46152-ee0b-4610-efb1-ffb0f786b848",
-                "alterId": 0,
+                "id": "68d238ce-3ca1-46dc-b833-a0916c829ad3",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.28251658.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "/path/1697376782879",
           "headers": {
-            "Host": "my.designlion.buzz"
+            "Host": "www.28251658.xyz"
           }
         },
         "httpSettings": null,
