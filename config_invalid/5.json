@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.yx.alue.link",
-            "port": 2052,
+            "address": "107.167.16.85",
+            "port": 443,
             "users": [
               {
-                "id": "fe5edf04-c2af-4ac5-84ee-16d43024decb",
-                "alterId": 0,
+                "id": "7640a1e7-9701-428e-a4b2-19b3e7dd6f9f",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.51109057.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/path/080822272914",
           "headers": {
-            "Host": "us.wx.alue.link"
+            "Host": "www.51109057.xyz"
           }
         },
         "httpSettings": null,

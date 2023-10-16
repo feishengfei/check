@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vpsnew.berimcafe.com",
-            "port": 30633,
+            "address": "104.31.16.28",
+            "port": 80,
             "users": [
               {
-                "id": "b0cd158e-65ee-41b3-a932-48695eb33ac6",
+                "id": "58fe1542-5290-40ad-815a-77707a81afe5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+          "headers": {
+            "Host": "ca4.tehme2.fun"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
