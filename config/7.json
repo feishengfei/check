@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "146.190.96.141",
-            "port": 55599,
+            "address": "156.225.67.104",
+            "port": 30000,
             "users": [
               {
-                "id": "cdbca266-10d9-4018-e99e-c561497d6542",
-                "alterId": 0,
+                "id": "29a5d48e-24f1-48fd-a5e1-9a46cb31032f",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.41758112.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/isuru",
+          "path": "/path/1696944806961",
           "headers": {
-            "Host": "media-exp1.licdn.com"
+            "Host": "www.41758112.xyz"
           }
         },
         "httpSettings": null,
