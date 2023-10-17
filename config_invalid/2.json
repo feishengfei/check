@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.91.78",
-            "port": 443,
+            "address": "tg_mfbpn_d4.52vpn.eu.org",
+            "port": 11002,
             "users": [
               {
-                "id": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+                "id": "14538fc3-08d1-36b5-8fa2-d5557efe01ce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Kansas.bobbykotick.rip"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/speedtest",
-          "headers": {
-            "Host": "Kansas.bobbykotick.rip"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

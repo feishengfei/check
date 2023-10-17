@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.196",
-            "port": 2053,
+            "address": "104.18.202.232",
+            "port": 80,
             "users": [
               {
-                "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+                "id": "6bf1b342-2bf0-4608-b288-8ee515e2d594",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b5.iraniancp.click"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@hopev2ray\u060c@hopev2ray",
           "headers": {
-            "Host": "b5.iraniancp.click"
+            "Host": "de1vm.cdn-03.live"
           }
         },
         "httpSettings": null,
