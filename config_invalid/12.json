@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cc3.shabijichang.com",
-            "port": 80,
+            "address": "104.31.16.196",
+            "port": 2053,
             "users": [
               {
-                "id": "c458695d-6908-45c3-9512-e0c46418454c",
+                "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b5.iraniancp.click"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "cc3.shabijichang.com"
+            "Host": "b5.iraniancp.click"
           }
         },
         "httpSettings": null,
