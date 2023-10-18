@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "168.75.76.226",
-            "port": 20492,
+            "address": "104.31.16.14",
+            "port": 80,
             "users": [
               {
-                "id": "259e1c70-fa0f-4759-b959-1e5630eac8de",
+                "id": "755840b0-6c4e-11ee-b132-205c6d5f5d78",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/@hopev2ray",
+          "headers": {
+            "Host": "lu.0rd.net"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

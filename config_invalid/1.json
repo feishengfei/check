@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tg_mfbpn_d4.52vpn.eu.org",
-            "port": 11002,
+            "address": "172.67.192.114",
+            "port": 2052,
             "users": [
               {
-                "id": "14538fc3-08d1-36b5-8fa2-d5557efe01ce",
+                "id": "c94dabd2-f8e8-4021-fd57-402239ed650a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/TG:@dns68",
+          "headers": {
+            "Host": "uk.putata.tk"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

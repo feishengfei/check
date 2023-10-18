@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "83.229.70.215",
-            "port": 13337,
+            "address": "tg_mfbpn_d1.52vpn.eu.org",
+            "port": 49044,
             "users": [
               {
-                "id": "bdd22841-c4d2-4aa8-acf2-95aa9125f159",
-                "alterId": 0,
+                "id": "07981f7e-d4c6-3bcc-93a7-ec0228325236",
+                "alterId": 2,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
