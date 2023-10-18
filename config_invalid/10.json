@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.93.238",
-            "port": 443,
+            "address": "mm2.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "64203121-39f5-4f05-b842-a7697ef379a1",
+                "id": "10ea3b2a-b615-45f1-b1b7-c62bafe8c80c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "s3.folow-r18.cfd"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/okeyvws",
+          "path": "/",
           "headers": {
-            "Host": "s3.folow-r18.cfd"
+            "Host": "mm2.shabijichang.com"
           }
         },
         "httpSettings": null,

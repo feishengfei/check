@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "198.41.217.5",
-            "port": 2087,
+            "address": "146.190.96.141",
+            "port": 55599,
             "users": [
               {
-                "id": "9c7de3e8-c2aa-4fe0-b689-9b26d21e9786",
+                "id": "cdbca266-10d9-4018-e99e-c561497d6542",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "docs2.obneh247.ir"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/2v2rayTEAM",
+          "path": "/isuru",
           "headers": {
-            "Host": "docs2.obneh247.ir"
+            "Host": "media-exp1.licdn.com"
           }
         },
         "httpSettings": null,
