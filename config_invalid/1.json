@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.192.114",
-            "port": 2052,
+            "address": "156.225.67.104",
+            "port": 30000,
             "users": [
               {
-                "id": "c94dabd2-f8e8-4021-fd57-402239ed650a",
-                "alterId": 0,
+                "id": "29a5d48e-24f1-48fd-a5e1-9a46cb31032f",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.41758112.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/TG:@dns68",
+          "path": "/path/1696944806961",
           "headers": {
-            "Host": "uk.putata.tk"
+            "Host": "www.41758112.xyz"
           }
         },
         "httpSettings": null,
