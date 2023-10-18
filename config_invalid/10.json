@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tg_mfbpn_d4.52vpn.eu.org",
-            "port": 11002,
+            "address": "kr-cdn-6273819.starnetcn.top",
+            "port": 31235,
             "users": [
               {
-                "id": "14538fc3-08d1-36b5-8fa2-d5557efe01ce",
+                "id": "8e73f50a-35cd-4235-9c18-a3e061e7bc9f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/315d825893fc34aca0231ab967157986",
+          "headers": {
+            "Host": "jxhoisldy718922.starnetcn.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
