@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-new03.gujuji.top",
+            "address": "172.67.229.17",
             "port": 8080,
             "users": [
               {
-                "id": "8f7948ce-2314-42c6-825a-035f0a3291fa",
+                "id": "d3f830a2-205a-4bba-a7ca-5e87899ac04d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": ""
+            "Host": "ssrsub.v002.ssrsub.com"
           }
         },
         "httpSettings": null,

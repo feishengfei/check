@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.yx.alue.link",
-            "port": 2052,
+            "address": "tg_mfbpn_d4.52vpn.eu.org",
+            "port": 11002,
             "users": [
               {
-                "id": "fe5edf04-c2af-4ac5-84ee-16d43024decb",
+                "id": "14538fc3-08d1-36b5-8fa2-d5557efe01ce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "lu.wx.alue.link"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

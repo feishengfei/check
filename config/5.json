@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.120",
-            "port": 443,
+            "address": "146.190.108.6",
+            "port": 26448,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "id": "72cc1029-b304-44ab-d181-5582aea3ab43",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "edeen.makeup"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "linkvws",
+          "path": "/Shalana",
           "headers": {
-            "Host": "edeen.makeup"
+            "Host": "media-exp1.licdn.com"
           }
         },
         "httpSettings": null,

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "camtlebb.76898102.xyz",
-            "port": 2095,
+            "address": "112.29.94.22",
+            "port": 53300,
             "users": [
               {
-                "id": "0e8f0867-85a0-39af-a5eb-3685d26f8413",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/funsdfrh",
-          "headers": {
-            "Host": "camtleb.76898102.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
