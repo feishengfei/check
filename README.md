@@ -6,16 +6,18 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr           | cn          | cc   | isp              | ip                                  | chatgpt          |
-|---:|:-------------------|:---------------|:------------|:-----|:-----------------|:------------------------------------|:-----------------|
-|  0 | [5](config/5.json) | 156.225.67.104 | Netherlands | NL   | YISP B.V.        | 154.84.1.44                         | Yes (Region: NL) |
-|  1 | [7](config/7.json) | 45.199.138.191 | Netherlands | NL   | YISP B.V.        | 2a02:2a38:1:2796:ec4:7aff:fe81:77ba | Yes (Region: NL) |
-|  2 | [9](config/9.json) | 146.190.108.6  | Singapore   | SG   | DIGITALOCEAN-ASN | 146.190.108.6                       | Yes (Region: SG) |
+|    | id                   | addr           | cn            | cc   | isp               | ip                                  | chatgpt          |
+|---:|:---------------------|:---------------|:--------------|:-----|:------------------|:------------------------------------|:-----------------|
+|  0 | [3](config/3.json)   | 38.121.43.51   | United States | US   | AS-GLOBALTELEHOST | 38.121.43.51                        | Yes (Region: US) |
+|  1 | [8](config/8.json)   | 45.199.138.191 | Netherlands   | NL   | YISP B.V.         | 2a02:2a38:1:2796:ec4:7aff:fe81:77ba | Yes (Region: NL) |
+|  2 | [10](config/10.json) | 156.225.67.104 | Netherlands   | NL   | YISP B.V.         | 154.84.1.44                         | Yes (Region: NL) |
+|  3 | [12](config/12.json) | 45.199.138.186 | Netherlands   | NL   | YISP B.V.         | 154.84.1.122                        | Yes (Region: NL) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNTdcdTk3NWUgIDUiLCAiYWRkIjogIjE1Ni4yMjUuNjcuMTA0IiwgInBvcnQiOiAiMzAwMDAiLCAiaWQiOiAiMjlhNWQ0OGUtMjRmMS00OGZkLWE1ZTEtOWE0NmNiMzEwMzJmIiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAid3d3LjQxNzU4MTEyLnh5eiIsICJwYXRoIjogIi9wYXRoLzE2OTY5NDQ4MDY5NjEiLCAidGxzIjogInRscyIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTU3MjNcdTRmNTVcdTU4NWVNVUxUQUNPTVx1NjczYVx1NjIzZiA3IiwgImFkZCI6ICI0NS4xOTkuMTM4LjE5MSIsICJwb3J0IjogMzAwMDAsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAiYWlkIjogNjQsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAiaG9zdCI6ICJ3d3cuNDIwNzcyMzAueHl6IiwgInBhdGgiOiAiL3BhdGgvMTY5NjI1MTUyMjQzOCIsICJ0bHMiOiAidGxzIn0=
-vmess://eyJhZGQiOiAiMTQ2LjE5MC4xMDguNiIsICJhaWQiOiAwLCAiaG9zdCI6ICJtZWRpYS1leHAxLmxpY2RuLmNvbSIsICJpZCI6ICI3MmNjMTAyOS1iMzA0LTQ0YWItZDE4MS01NTgyYWVhM2FiNDMiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL1NoYWxhbmEiLCAicG9ydCI6IDI2NDQ4LCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmQgIDkiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.121.43.51:2376#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8%203
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTU3MjNcdTRmNTVcdTU4NWVNVUxUQUNPTVx1NjczYVx1NjIzZiA4IiwgImFkZCI6ICI0NS4xOTkuMTM4LjE5MSIsICJwb3J0IjogMzAwMDAsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAiYWlkIjogNjQsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAiaG9zdCI6ICJ3d3cuNDIwNzcyMzAueHl6IiwgInBhdGgiOiAiL3BhdGgvMTY5NjI1MTUyMjQzOCIsICJ0bHMiOiAidGxzIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNTdcdTk3NWUgIDEwIiwgImFkZCI6ICIxNTYuMjI1LjY3LjEwNCIsICJwb3J0IjogIjMwMDAwIiwgImlkIjogIjI5YTVkNDhlLTI0ZjEtNDhmZC1hNWUxLTlhNDZjYjMxMDMyZiIsICJhaWQiOiAiNjQiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogInd3dy40MTc1ODExMi54eXoiLCAicGF0aCI6ICIvcGF0aC8xNjk2OTQ0ODA2OTYxIiwgInRscyI6ICJ0bHMiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTU3MjNcdTRmNTVcdTU4NWVNVUxUQUNPTVx1NjczYVx1NjIzZiAxMiIsICJhZGQiOiAiNDUuMTk5LjEzOC4xODYiLCAicG9ydCI6IDMwMDAwLCAiaWQiOiAiNGVjMGFlNjItZGUwOS00MDI5LTkwNGEtMDMxM2Q0NjI4ZWNmIiwgImFpZCI6IDY0LCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAid3d3LjE5MjI5MzYyLnh5eiIsICJwYXRoIjogIi9wYXRoLzE2OTczNzY3ODI4NzkiLCAidGxzIjogInRscyJ9
 ```
 

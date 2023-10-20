@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b.baozinet.top",
-            "port": 25002,
+            "address": "172.67.187.109",
+            "port": 80,
             "users": [
               {
-                "id": "50b479e6-888d-42bb-b0dd-0ea9935f7a7e",
+                "id": "2e87cebc-977b-4fec-b079-b1ddc55b19c8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "ee1.xv2ray.net"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

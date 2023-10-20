@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yd1.992688.xyz",
-            "port": 2052,
+            "address": "bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "6963920a-8bb3-4f87-b231-56ccb9f9b3a7",
+                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/acetaffy",
           "headers": {
-            "Host": "vceu3.vpn66.eu.org"
+            "Host": "bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz"
           }
         },
         "httpSettings": null,
