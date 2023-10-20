@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.249",
+            "address": "us1.socifiles.com",
             "port": 443,
             "users": [
               {
-                "id": "1f4460b3-745c-4527-cc17-9072b295fea1",
+                "id": "45521be0-6e84-11ee-8290-1239d0255272",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "gus.turbo021.link"
+          "serverName": "us1.socifiles.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/1f4460b3-745c-4527-cc17-9072b295fea1",
+          "path": "/vmws",
           "headers": {
-            "Host": "gus.turbo021.link"
+            "Host": "us1.socifiles.com"
           }
         },
         "httpSettings": null,

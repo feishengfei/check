@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b.baozinet.top",
-            "port": 25002,
+            "address": "yhnsb2.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "50b479e6-888d-42bb-b0dd-0ea9935f7a7e",
+                "id": "56278a1a-c7cc-459f-b00c-3037e4f99590",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "yhnsb2.shabijichang.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
