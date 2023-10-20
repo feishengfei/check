@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.218.105.223",
-            "port": 2095,
+            "address": "b.baozinet.top",
+            "port": 25002,
             "users": [
               {
-                "id": "701a0cda-32c5-4c63-9bea-9e8dcc4a8541",
+                "id": "50b479e6-888d-42bb-b0dd-0ea9935f7a7e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vm?ed=2048",
-          "headers": {
-            "Host": "jp.kxking.eu.org"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
