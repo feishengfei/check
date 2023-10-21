@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ca-000.xiaoxiaobujidao.xyz",
-            "port": 56301,
+            "address": "freeyx.cloudflare88.eu.org",
+            "port": 2082,
             "users": [
               {
-                "id": "ffbd4a77-297b-3ec8-8631-b592334aafac",
+                "id": "8a6fb1b7-d939-4030-a4da-1c0b2637c865",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ca-000.xiaoxiaobujidao.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/xiaodao?ed=2048",
+          "path": "/\u670d\u52a1\u56684\u5143\u6708\uff0c\u8282\u70b92.5\u5143\u6708@natdcibot",
           "headers": {
-            "Host": "ca-000.xiaoxiaobujidao.xyz"
+            "Host": "jd2kuai5yuan.cloudflare88.eu.org"
           }
         },
         "httpSettings": null,

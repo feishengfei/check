@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.249",
-            "port": 443,
+            "address": "xjp3.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "1f4460b3-745c-4527-cc17-9072b295fea1",
+                "id": "56278a1a-c7cc-459f-b00c-3037e4f99590",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gus.turbo021.link"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/1f4460b3-745c-4527-cc17-9072b295fea1",
+          "path": "/",
           "headers": {
-            "Host": "gus.turbo021.link"
+            "Host": "xjp3.shabijichang.com"
           }
         },
         "httpSettings": null,

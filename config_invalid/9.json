@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 8080,
             "users": [
               {
-                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+                "id": "d3f830a2-205a-4bba-a7ca-5e87899ac04d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/acetaffy",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz"
+            "Host": "ssrsub.v004.ssrsub.com"
           }
         },
         "httpSettings": null,
