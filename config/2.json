@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.199.138.186",
-            "port": 30000,
+            "address": "146.190.90.54",
+            "port": 39749,
             "users": [
               {
-                "id": "4ec0ae62-de09-4029-904a-0313d4628ecf",
-                "alterId": 64,
+                "id": "cbe7755b-0190-4d6d-eaf7-cf746e6288b6",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.19229362.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1697376782879",
+          "path": "/",
           "headers": {
-            "Host": "www.19229362.xyz"
+            "Host": "m.linkedin.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.134.52",
-            "port": 2082,
+            "address": "ca-000.xiaoxiaobujidao.xyz",
+            "port": 56301,
             "users": [
               {
-                "id": "26726b2c-a280-356a-a452-4be0bd46ec1e",
+                "id": "ffbd4a77-297b-3ec8-8631-b592334aafac",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ca-000.xiaoxiaobujidao.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dabai.in",
+          "path": "/xiaodao?ed=2048",
           "headers": {
-            "Host": "a.cn-db.top"
+            "Host": "ca-000.xiaoxiaobujidao.xyz"
           }
         },
         "httpSettings": null,
