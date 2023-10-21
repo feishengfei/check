@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "freeyx.cloudflare88.eu.org",
-            "port": 2082,
+            "address": "45.199.138.191",
+            "port": 30000,
             "users": [
               {
-                "id": "8a6fb1b7-d939-4030-a4da-1c0b2637c865",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.42077230.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/\u670d\u52a1\u56684\u5143\u6708\uff0c\u8282\u70b92.5\u5143\u6708@natdcibot",
+          "path": "/path/1696251522438",
           "headers": {
-            "Host": "jd2kuai5yuan.cloudflare88.eu.org"
+            "Host": "www.42077230.xyz"
           }
         },
         "httpSettings": null,
