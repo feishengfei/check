@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ca-000.xiaoxiaobujidao.xyz",
-            "port": 56301,
+            "address": "xjp2.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "ffbd4a77-297b-3ec8-8631-b592334aafac",
+                "id": "10ea3b2a-b615-45f1-b1b7-c62bafe8c80c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ca-000.xiaoxiaobujidao.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/xiaodao?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "ca-000.xiaoxiaobujidao.xyz"
+            "Host": "xjp2.shabijichang.com"
           }
         },
         "httpSettings": null,
