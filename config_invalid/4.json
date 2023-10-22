@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ora-kr4.cou.gay",
-            "port": 24602,
+            "address": "cloudflare.binghe.design",
+            "port": 443,
             "users": [
               {
-                "id": "0a667875-565a-4377-a684-ad0528d3979e",
+                "id": "4548b8de-c6f5-41f2-8cb6-723c8db8ed03",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us.binghe.design"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "us.binghe.design"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

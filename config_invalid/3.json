@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.153.179",
-            "port": 8443,
+            "address": "104.26.0.2",
+            "port": 80,
             "users": [
               {
-                "id": "874a60cd-f099-499a-8aee-e4606ccf3e86",
+                "id": "541ea7b0-23c1-4590-ad1b-18e6f58758d7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nomore.hideip.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@daozhang6666",
           "headers": {
-            "Host": "nomore.hideip.tk"
+            "Host": "usa.daozhang.link"
           }
         },
         "httpSettings": null,
