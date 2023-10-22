@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "204.44.109.33",
-            "port": 80,
+            "address": "91.107.176.106",
+            "port": 8080,
             "users": [
               {
-                "id": "354b9dd6-9495-4fa5-8c75-337bedd7d53f",
+                "id": "1ad6e3a3-9c8a-494d-a828-d93f57b7afad",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "xiaoxiaoqwerty3_begin_suiji_dhwisbxjebgeidgeuuwxushwgwihwhxjdbejwjvekxbwbwkqjjqksbxjeksbjsdhegejdhdhhdhdgehwiwkznhdkwvkshhwkbwiakdguekbxhshhwjbwhzkdbwhkdhdjsjwhhshshshshdhdhdhdhshsbdbhwhshdhhshdhshhdbdhdhahkwhhzpmqbxkkdgqkbtxjalpoqppqzmjdyiskhahsjwuwjshhdgaudchxehwovxyodwxohqxowduequodddyowgugoeqougeqssr36726186bj_end",
-          "headers": {
-            "Host": "xiaoxiao3.cloudflare88.eu.org"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
