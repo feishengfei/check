@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b.baozinet.top",
-            "port": 25002,
+            "address": "104.26.1.116",
+            "port": 2052,
             "users": [
               {
-                "id": "50b479e6-888d-42bb-b0dd-0ea9935f7a7e",
+                "id": "8a6fb1b7-d939-4030-a4da-1c0b2637c865",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/\u670d\u52a1\u56684\u5143\u6708\uff0c\u8282\u70b92.5\u5143\u6708@natdcibot",
+          "headers": {
+            "Host": "jd2kuai5yuan.cloudflare88.eu.org"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

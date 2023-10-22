@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.1.116",
-            "port": 2052,
+            "address": "172.67.229.17",
+            "port": 8080,
             "users": [
               {
-                "id": "8a6fb1b7-d939-4030-a4da-1c0b2637c865",
+                "id": "d3f830a2-205a-4bba-a7ca-5e87899ac04d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/\u670d\u52a1\u56684\u5143\u6708\uff0c\u8282\u70b92.5\u5143\u6708@natdcibot",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "jd2kuai5yuan.cloudflare88.eu.org"
+            "Host": "ssrsub.v002.ssrsub.com"
           }
         },
         "httpSettings": null,
