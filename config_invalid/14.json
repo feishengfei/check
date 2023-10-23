@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 80,
+            "address": "rontall.com",
+            "port": 13856,
             "users": [
               {
-                "id": "4d868558-0166-4083-baf0-720daf24f6e6",
+                "id": "20be612e-3fcb-491e-85fb-477bca86a652",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "fi1.xv2ray.net"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.120",
-            "port": 443,
+            "address": "www.speedtest.net",
+            "port": 80,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "id": "4d868558-0166-4083-baf0-720daf24f6e6",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "edeen.makeup"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "linkvws",
+          "path": "/",
           "headers": {
-            "Host": "edeen.makeup"
+            "Host": "fi1.xv2ray.net"
           }
         },
         "httpSettings": null,
