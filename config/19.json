@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10919,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.233.249.242",
+            "address": "51vfly1.win",
             "port": 443,
             "users": [
               {
-                "id": "b65da4af-a12a-4a59-9316-4549e12ba62c",
-                "alterId": 64,
+                "id": "9681f99e-d251-477a-d777-1d01ee550481",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "www.73332463.xyz"
+          "serverName": "51vfly1.win"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1697980101249",
+          "path": "/myblog",
           "headers": {
-            "Host": "www.73332463.xyz"
+            "Host": "51vfly1.win"
           }
         },
         "httpSettings": null,

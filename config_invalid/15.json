@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b.baozinet.top",
-            "port": 25002,
+            "address": "104.31.16.120",
+            "port": 443,
             "users": [
               {
-                "id": "50b479e6-888d-42bb-b0dd-0ea9935f7a7e",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "edeen.makeup"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "linkvws",
+          "headers": {
+            "Host": "edeen.makeup"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
