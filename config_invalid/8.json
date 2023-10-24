@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hktddns.aikunapp.com",
-            "port": 80,
+            "address": "sg4.vincent-lyu.top",
+            "port": 8443,
             "users": [
               {
-                "id": "1e63f999-7553-46c0-93eb-65b6553e1bde",
+                "id": "2bcce276-3828-11ed-9c7a-2767bb49e39f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/hkbn",
+          "path": "/odIhzxrK/",
           "headers": {
-            "Host": "sanmao17.hkbn.n.optage.moe"
+            "Host": ""
           }
         },
         "httpSettings": null,

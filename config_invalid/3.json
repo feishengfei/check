@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "206.168.190.219",
-            "port": 2082,
+            "address": "www.speedtest.net",
+            "port": 80,
             "users": [
               {
-                "id": "e31ca750-71f7-11ee-b920-1239d0255272",
+                "id": "62515af2-1dd9-467b-9dd3-774abefb6a62",
                 "alterId": 0,
                 "email": "",
-                "security": "none",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmws",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "hu1.xv2ray.net"
           }
         },
         "httpSettings": null,
