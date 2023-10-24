@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg4.vincent-lyu.top",
-            "port": 8443,
+            "address": "cc3.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "2bcce276-3828-11ed-9c7a-2767bb49e39f",
+                "id": "c458695d-6908-45c3-9512-e0c46418454c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/odIhzxrK/",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "cc3.shabijichang.com"
           }
         },
         "httpSettings": null,
