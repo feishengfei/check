@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "rontall.com",
-            "port": 55655,
+            "address": "hktddns.aikunapp.com",
+            "port": 80,
             "users": [
               {
-                "id": "81a5a508-a6b4-48b5-c92c-df95c2654544",
+                "id": "1e63f999-7553-46c0-93eb-65b6553e1bde",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/hkbn",
+          "headers": {
+            "Host": "sanmao17.hkbn.n.optage.moe"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
