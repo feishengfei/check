@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1697765772.izwhvan.cn",
-            "port": 443,
+            "address": "150.230.97.54",
+            "port": 80,
             "users": [
               {
-                "id": "ba984678-ca81-4443-a9da-58adea43d5b0",
+                "id": "a6824d8a-3112-4123-9344-798112b1a1c3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1697765772.izwhvan.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/dsabhdsa",
           "headers": {
-            "Host": "n1697765772.izwhvan.cn"
+            "Host": "tms.dingtalk.com"
           }
         },
         "httpSettings": null,
