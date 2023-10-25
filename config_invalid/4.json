@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fra.mahdivps.tk",
-            "port": 2053,
+            "address": "104.16.14.35",
+            "port": 80,
             "users": [
               {
-                "id": "bf922ee1-c3e2-4229-af39-ed63c6aa09f7",
+                "id": "5fa438be-1845-4f7d-9abf-2ceba5319f2a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fra.mahdivps.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/tvc",
+          "path": "/",
           "headers": {
-            "Host": "fra.mahdivps.tk"
+            "Host": "c.109420.xyz"
           }
         },
         "httpSettings": null,
