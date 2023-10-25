@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.203.230.226",
-            "port": 2052,
+            "address": "fra.mahdivps.tk",
+            "port": 2053,
             "users": [
               {
-                "id": "3b55416f-25d8-44a1-9751-44fc7282af30",
+                "id": "bf922ee1-c3e2-4229-af39-ed63c6aa09f7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fra.mahdivps.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public?ed=2048",
+          "path": "/tvc",
           "headers": {
-            "Host": "de3.biqibao.site"
+            "Host": "fra.mahdivps.tk"
           }
         },
         "httpSettings": null,
