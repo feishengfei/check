@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "iran02.biqibao.site",
-            "port": 2052,
+            "address": "laravel.com",
+            "port": 443,
             "users": [
               {
-                "id": "2899c689-1d5f-4b38-ba5e-eb5918df0e33",
+                "id": "4548b8de-c6f5-41f2-8cb6-723c8db8ed03",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sub.xn--9kq89d4y0g.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public?ed=4096",
+          "path": "/us.binghe.design:443/",
           "headers": {
-            "Host": "de5.biqibao.site"
+            "Host": "sub.xn--9kq89d4y0g.top"
           }
         },
         "httpSettings": null,

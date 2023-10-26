@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ora-jp5.cou.gay",
-            "port": 20402,
+            "address": "104.16.67.38",
+            "port": 80,
             "users": [
               {
-                "id": "03079eb8-2dab-4e18-981d-6dcb47560909",
+                "id": "56278a1a-c7cc-459f-b00c-3037e4f99590",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "se5.shabijichang.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
