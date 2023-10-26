@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "crownv2.ddns.net",
-            "port": 443,
+            "address": "45.199.138.186",
+            "port": 30000,
             "users": [
               {
-                "id": "4B4DEFCD-2505-45E9-B1B8-753EEC644F1B",
-                "alterId": 0,
+                "id": "4ec0ae62-de09-4029-904a-0313d4628ecf",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "Lille.bobbykotick.rip"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest",
+          "path": "/path/1697376782879",
           "headers": {
-            "Host": "Lille.bobbykotick.rip"
+            "Host": ""
           }
         },
         "httpSettings": null,

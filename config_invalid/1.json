@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "shct.pmxu.link",
-            "port": 16682,
+            "address": "104.19.168.117",
+            "port": 443,
             "users": [
               {
-                "id": "87cb41c3-67e3-36e2-ae08-71411af27b6b",
+                "id": "946915f4-b72d-4193-9c4f-1efeda1c0c21",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us2.wxgqlfx883.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/946915f4-b72d-4193-9c4f-1efeda1c0c21",
+          "headers": {
+            "Host": "us2.wxgqlfx883.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
