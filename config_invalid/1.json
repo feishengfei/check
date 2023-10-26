@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ora-kr4.cou.gay",
-            "port": 24602,
+            "address": "162.159.134.52",
+            "port": 2086,
             "users": [
               {
-                "id": "03079eb8-2dab-4e18-981d-6dcb47560909",
+                "id": "865897ad-8d07-4021-b7c3-d8eb4a29ee8d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/xtsmol",
+          "headers": {
+            "Host": "x.36d.gay"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
