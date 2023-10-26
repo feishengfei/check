@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.72.68.228",
-            "port": 80,
+            "address": "Jolimolilap.com",
+            "port": 443,
             "users": [
               {
-                "id": "831596b2-fed1-4239-af88-e0630394545a",
+                "id": "e7ecdfa4-3e09-44a6-91e9-0e34c140be3b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s4.folow-r18.cfd"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vpngiare.net",
+          "path": "/jkypvws",
           "headers": {
-            "Host": ""
+            "Host": "s4.folow-r18.cfd"
           }
         },
         "httpSettings": null,

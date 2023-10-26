@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.67.38",
-            "port": 80,
+            "address": "cold-dawn-9246.fly.dev",
+            "port": 443,
             "users": [
               {
-                "id": "56278a1a-c7cc-459f-b00c-3037e4f99590",
+                "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
           "headers": {
-            "Host": "se5.shabijichang.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

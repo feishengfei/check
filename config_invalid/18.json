@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 80,
+            "address": "104.31.16.120",
+            "port": 8443,
             "users": [
               {
-                "id": "62515af2-1dd9-467b-9dd3-774abefb6a62",
+                "id": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cloudconebbb.gorgorchicken.one"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/cloudconebbb",
           "headers": {
-            "Host": "hu1.xv2ray.net"
+            "Host": "cloudconebbb.gorgorchicken.one"
           }
         },
         "httpSettings": null,
