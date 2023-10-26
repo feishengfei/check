@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "Jolimolilap.com",
+            "address": "104.233.249.242",
             "port": 443,
             "users": [
               {
-                "id": "e7ecdfa4-3e09-44a6-91e9-0e34c140be3b",
-                "alterId": 0,
+                "id": "b65da4af-a12a-4a59-9316-4549e12ba62c",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "s4.folow-r18.cfd"
+          "serverName": "www.73332463.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jkypvws",
+          "path": "/path/1698239888914",
           "headers": {
-            "Host": "s4.folow-r18.cfd"
+            "Host": "www.73332463.xyz"
           }
         },
         "httpSettings": null,
