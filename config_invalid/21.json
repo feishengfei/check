@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cold-dawn-9246.fly.dev",
-            "port": 443,
+            "address": "104.18.202.232",
+            "port": 80,
             "users": [
               {
-                "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+                "id": "4d868558-0166-4083-baf0-720daf24f6e6",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "fi1.xv2ray.net"
           }
         },
         "httpSettings": null,
