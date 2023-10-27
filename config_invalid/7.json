@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "laravel.com",
-            "port": 443,
+            "address": "103.57.131.61",
+            "port": 80,
             "users": [
               {
-                "id": "4548b8de-c6f5-41f2-8cb6-723c8db8ed03",
+                "id": "831596b2-fed1-4239-af88-e0630394545a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sub.xn--9kq89d4y0g.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/us.binghe.design:443/",
+          "path": "/vpngiare.net",
           "headers": {
-            "Host": "sub.xn--9kq89d4y0g.top"
+            "Host": ""
           }
         },
         "httpSettings": null,
