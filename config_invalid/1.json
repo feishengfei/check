@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.168.117",
-            "port": 443,
+            "address": "cfcdn1.sanfencdn9.com",
+            "port": 2052,
             "users": [
               {
-                "id": "946915f4-b72d-4193-9c4f-1efeda1c0c21",
+                "id": "ece26ec7-bcfe-4845-8cf1-3d93abc19ce1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us2.wxgqlfx883.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/946915f4-b72d-4193-9c4f-1efeda1c0c21",
+          "path": "/video/nYAwpBbW",
           "headers": {
-            "Host": "us2.wxgqlfx883.xyz"
+            "Host": "us5a3a71b5c.pkmkwvxqnn.xyz"
           }
         },
         "httpSettings": null,
