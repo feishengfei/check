@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v14.583182.xyz",
-            "port": 8443,
+            "address": "103.57.131.61",
+            "port": 80,
             "users": [
               {
-                "id": "93a70290-0c55-46ec-bc69-2f357a48d8c5",
+                "id": "831596b2-fed1-4239-af88-e0630394545a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "v14.583181.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vpngiare.net",
           "headers": {
-            "Host": "v14.583181.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,
