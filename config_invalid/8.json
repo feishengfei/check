@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1697765772.izwhvan.cn",
-            "port": 443,
+            "address": "103.122.140.137",
+            "port": 80,
             "users": [
               {
-                "id": "ba984678-ca81-4443-a9da-58adea43d5b0",
+                "id": "d3f12779-0523-4064-bc6f-b870cdb1dd48",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1697765772.izwhvan.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/viefast.vn",
           "headers": {
-            "Host": "n1697765772.izwhvan.cn"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,
