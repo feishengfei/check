@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.ahdark.gay",
-            "port": 80,
+            "address": "zfd-twv2.kunlun-one.com",
+            "port": 16132,
             "users": [
               {
-                "id": "caa995ed-86a9-4968-a332-9c11e7e13107",
+                "id": "f2dc204c-c78a-3a8d-9bcc-a3f13a22c171",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "hytron.aresboot.io"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

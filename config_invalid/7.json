@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-cdn.tiktokcloud.top",
-            "port": 2052,
+            "address": "192.74.228.182",
+            "port": 443,
             "users": [
               {
-                "id": "0029b03a-54dc-47f1-b601-3278a9131fbf",
-                "alterId": 0,
+                "id": "051b844f-efe3-4847-92aa-66b5de0b6d4e",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jntm=2048",
+          "path": "/path/173300203323",
           "headers": {
-            "Host": "kp-warp.azurecloud.top"
+            "Host": ""
           }
         },
         "httpSettings": null,
