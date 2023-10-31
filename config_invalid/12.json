@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-v.sshmax.xyz",
-            "port": 80,
+            "address": "cf3.txrui.top",
+            "port": 443,
             "users": [
               {
-                "id": "fd4fa030-b8f1-424b-a780-578dbb59f950",
+                "id": "f8ef7c47-9735-439c-a42b-355bae224656",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ger.txrui.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "ger.txrui.top"
           }
         },
         "httpSettings": null,

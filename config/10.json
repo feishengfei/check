@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10908,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "49.13.115.8",
-            "port": 46818,
+            "address": "n1698119642.izwhvan.cn",
+            "port": 443,
             "users": [
               {
-                "id": "42776ed6-aac6-4f94-daa5-c6bd198d09b2",
+                "id": "fe57e1f2-704b-4896-92b6-c256737e9739",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1698119642.izwhvan.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vpnv2rayspeed",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "n1698119642.izwhvan.cn"
           }
         },
         "httpSettings": null,

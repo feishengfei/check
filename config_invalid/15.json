@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "xjp3.shabijichang.com",
-            "port": 80,
+            "address": "ger.zerodisk.site",
+            "port": 54326,
             "users": [
               {
-                "id": "10ea3b2a-b615-45f1-b1b7-c62bafe8c80c",
+                "id": "f8ef7c47-9735-439c-a42b-355bae224656",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ger.zerodisk.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "xjp3.shabijichang.com"
+            "Host": "ger.zerodisk.site"
           }
         },
         "httpSettings": null,
