@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.69.44",
-            "port": 443,
+            "address": "sbl4.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "f4d5191f-db80-4591-83f1-979efc882b7f",
+                "id": "c458695d-6908-45c3-9512-e0c46418454c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "45-3.benchmarktehran.cfd"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aqbyvws",
+          "path": "/",
           "headers": {
-            "Host": "45-3.benchmarktehran.cfd"
+            "Host": "sbl4.shabijichang.com"
           }
         },
         "httpSettings": null,

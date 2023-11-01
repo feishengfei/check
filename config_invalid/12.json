@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nl1.cou.gay",
-            "port": 443,
+            "address": "cm.doinbtimes.cf",
+            "port": 80,
             "users": [
               {
-                "id": "e425baef-f6b0-42be-a0c8-0368bf6bd5e6",
+                "id": "59890038-18a7-4b81-b043-a1fe474bc656",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/nl1?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "fr1.doinb.tk"
           }
         },
         "httpSettings": null,

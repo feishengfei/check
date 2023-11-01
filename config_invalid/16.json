@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zfd-twv2.kunlun-one.com",
-            "port": 16132,
+            "address": "GAMEVIP1.5GTOCDOCAO.COM",
+            "port": 80,
             "users": [
               {
-                "id": "f2dc204c-c78a-3a8d-9bcc-a3f13a22c171",
+                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/5gtocdocao.com",
+          "headers": {
+            "Host": "dl.ops.kgvn.garenanow.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
