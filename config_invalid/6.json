@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "welfare.kk-proxy.pro",
-            "port": 443,
+            "address": "31.14.114.56",
+            "port": 18317,
             "users": [
               {
-                "id": "3190f0de-ef9f-416d-89e7-502a0f276f91",
+                "id": "f51a58b4-b2e8-4008-ab08-f386547626fb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sgfree01.mikuproxy.pro"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ec3a017507e0/",
+          "path": "/",
           "headers": {
-            "Host": "sgfree01.mikuproxy.pro"
+            "Host": ""
           }
         },
         "httpSettings": null,
