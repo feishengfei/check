@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-v.sshmax.xyz",
+            "address": "ml2.shabijichang.com",
             "port": 80,
             "users": [
               {
-                "id": "fd4fa030-b8f1-424b-a780-578dbb59f950",
+                "id": "10ea3b2a-b615-45f1-b1b7-c62bafe8c80c",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "ml2.shabijichang.com"
           }
         },
         "httpSettings": null,
