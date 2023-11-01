@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "GAMEVIP1.5GTOCDOCAO.COM",
-            "port": 80,
+            "address": "n1697555560.aaigefm.cn",
+            "port": 443,
             "users": [
               {
-                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
+                "id": "56691c3c-b9a5-440f-a678-478618854e75",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1697555560.aaigefm.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gtocdocao.com",
+          "path": "/",
           "headers": {
-            "Host": "dl.ops.kgvn.garenanow.com"
+            "Host": "n1697555560.aaigefm.cn"
           }
         },
         "httpSettings": null,
