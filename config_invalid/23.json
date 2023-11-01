@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sbl4.shabijichang.com",
-            "port": 80,
+            "address": "dosg1.cou.gay",
+            "port": 443,
             "users": [
               {
-                "id": "c458695d-6908-45c3-9512-e0c46418454c",
+                "id": "63a29a21-d0db-48ad-94e2-98908d75bcfc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/dosg1?ed=2048",
           "headers": {
-            "Host": "sbl4.shabijichang.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

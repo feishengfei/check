@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.69.44",
-            "port": 443,
+            "address": "154.85.1.245",
+            "port": 30000,
             "users": [
               {
-                "id": "04b7c369-2f9f-485d-989c-6656ec3514b8",
-                "alterId": 0,
+                "id": "1d474f0b-e78d-4af9-bc4a-a467467bc7a7",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "45-4.benchmarktehran.cfd"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ldgkvws",
+          "path": "/path/1698498185718",
           "headers": {
-            "Host": "45-4.benchmarktehran.cfd"
+            "Host": ""
           }
         },
         "httpSettings": null,

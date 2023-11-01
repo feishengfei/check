@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.yifenjichang.top",
-            "port": 80,
+            "address": "dosg1.cou.gay",
+            "port": 443,
             "users": [
               {
-                "id": "62b024bb-3e45-41eb-e8ff-60502a4e791d",
+                "id": "1cb3afd1-59b9-4b5e-8b7b-8bc98531f546",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vui2",
+          "path": "/dosg1?ed=2048",
           "headers": {
-            "Host": "a3.mianfenyun012.eu.org"
+            "Host": ""
           }
         },
         "httpSettings": null,
