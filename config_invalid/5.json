@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.99.0",
-            "port": 8443,
+            "address": "cfcdn3.sanfencdn9.com",
+            "port": 2052,
             "users": [
               {
-                "id": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+                "id": "845e6289-3efb-4ce8-ad8d-a18a4c7af0ef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cloudconebbb.gorgorchicken.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cloudconebbb",
+          "path": "/video/bDRAqynF",
           "headers": {
-            "Host": "cloudconebbb.gorgorchicken.one"
+            "Host": "jp5accf5c6e.chvsifetrj.xyz"
           }
         },
         "httpSettings": null,
