@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10905,
+      "port": 10912,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dl3.doushimeng.com",
-            "port": 2082,
+            "address": "n1697765772.izwhvan.cn",
+            "port": 443,
             "users": [
               {
-                "id": "8832f86b-a265-48a7-85ea-4e4c663e1a66",
+                "id": "ba984678-ca81-4443-a9da-58adea43d5b0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1697765772.izwhvan.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/asdas",
+          "path": "/",
           "headers": {
-            "Host": "cf-de2.doushimeng.com"
+            "Host": "n1697765772.izwhvan.cn"
           }
         },
         "httpSettings": null,
