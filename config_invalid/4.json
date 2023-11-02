@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "UK99.5GTOCDOCAO.COM",
-            "port": 80,
+            "address": "n1698119642.izwhvan.cn",
+            "port": 443,
             "users": [
               {
-                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
+                "id": "fe57e1f2-704b-4896-92b6-c256737e9739",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1698119642.izwhvan.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gtocdocao.com",
+          "path": "/",
           "headers": {
-            "Host": "dl.ops.kgvn.garenanow.com"
+            "Host": "n1698119642.izwhvan.cn"
           }
         },
         "httpSettings": null,
