@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10901,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "74.48.98.249",
-            "port": 8080,
+            "address": "146.190.94.141",
+            "port": 42358,
             "users": [
               {
-                "id": "7878acaf-f555-4bad-b1fa-a8c94272d4dd",
+                "id": "6e4edbd8-7854-4ef5-c9c6-49e95822e4fc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/quanstring?ed=2048",
+          "path": "/@ONHIT_EHI",
           "headers": {
-            "Host": "us.quanstring.top"
+            "Host": "media-exp1.licdn.com"
           }
         },
         "httpSettings": null,
