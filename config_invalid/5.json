@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz",
-            "port": 443,
+            "address": "singapore.com",
+            "port": 80,
             "users": [
               {
-                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+                "id": "3d761afc-6dfd-49d9-9d0f-b79341391f26",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/acetaffy.top",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz"
+            "Host": "ssrsub.v004.ssrsub.com"
           }
         },
         "httpSettings": null,
