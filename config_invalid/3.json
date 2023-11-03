@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.137.249.110",
-            "port": 8080,
+            "address": "gamevip2.5gtocdocao.com",
+            "port": 80,
             "users": [
               {
-                "id": "874403c8-2d30-598f-abe3-c88ed477ad41",
+                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
                 "alterId": 0,
                 "email": "",
-                "security": "chacha20-poly1305",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/5gtocdocao.com",
+          "headers": {
+            "Host": "gamevip2.5gtocdocao.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
