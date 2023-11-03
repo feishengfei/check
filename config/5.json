@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gamevip2.5gtocdocao.com",
-            "port": 80,
+            "address": "146.190.94.141",
+            "port": 42358,
             "users": [
               {
-                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
+                "id": "6e4edbd8-7854-4ef5-c9c6-49e95822e4fc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gtocdocao.com",
+          "path": "/@ONHIT_EHI",
           "headers": {
-            "Host": "gamevip2.5gtocdocao.com"
+            "Host": "media-exp1.licdn.com"
           }
         },
         "httpSettings": null,

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gamevip2.5gtocdocao.com",
-            "port": 80,
+            "address": "kr01.host.csznet.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
+                "id": "888ad13a-2e0d-4f6e-b5cf-6b06356f20c6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gtocdocao.com",
+          "path": "/admin",
           "headers": {
-            "Host": "gamevip2.5gtocdocao.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
