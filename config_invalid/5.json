@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dl3.doushimeng.com",
-            "port": 2082,
+            "address": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "8832f86b-a265-48a7-85ea-4e4c663e1a66",
+                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/asdas",
+          "path": "/acetaffy.top",
           "headers": {
-            "Host": "cf-de2.doushimeng.com"
+            "Host": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz"
           }
         },
         "httpSettings": null,
