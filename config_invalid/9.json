@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gamevip2.5gtocdocao.com",
-            "port": 80,
+            "address": "206.168.190.218",
+            "port": 2096,
             "users": [
               {
-                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
+                "id": "3103dae0-79be-11ee-b735-205c6d5f5d78",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ba24.ir"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gtocdocao.com",
+          "path": "/V2RayyNGvpn",
           "headers": {
-            "Host": "gamevip2.5gtocdocao.com"
+            "Host": "ba24.ir"
           }
         },
         "httpSettings": null,
