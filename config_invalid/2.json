@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.26.135.25",
-            "port": 30000,
+            "address": "us-1.8080.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "03bad296-8170-4756-a6be-760198f13413",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "www.39838266.xyz"
+          "serverName": "us-1.8080.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1697980101249",
+          "path": "/xwdn8sj2aw",
           "headers": {
-            "Host": "www.39838266.xyz"
+            "Host": "us-1.8080.eu.org"
           }
         },
         "httpSettings": null,

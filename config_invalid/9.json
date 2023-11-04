@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "time.is",
-            "port": 443,
+            "address": "188.114.99.0",
+            "port": 8443,
             "users": [
               {
-                "id": "ef9914f8-c692-4f9f-aad2-08e0cb46eef9",
+                "id": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "au1.cou.gay"
+          "serverName": "cloudconebbb.gorgorchicken.one"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/au1?ed=2048",
+          "path": "/cloudconebbb",
           "headers": {
-            "Host": "au1.cou.gay"
+            "Host": "cloudconebbb.gorgorchicken.one"
           }
         },
         "httpSettings": null,
