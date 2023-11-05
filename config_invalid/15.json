@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vip20.5gtocdocao.com",
-            "port": 80,
+            "address": "43.153.13.129",
+            "port": 443,
             "users": [
               {
-                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
+                "id": "62b024bb-3e45-41eb-e8ff-60502a4e791d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "a5.mianfenyun012.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gtocdocao.com",
+          "path": "/vui2",
           "headers": {
-            "Host": "vip20.5gtocdocao.com"
+            "Host": "a5.mianfenyun012.eu.org"
           }
         },
         "httpSettings": null,
