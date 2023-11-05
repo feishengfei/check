@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.153.13.129",
-            "port": 443,
+            "address": "ns1.v2-vip.fun",
+            "port": 80,
             "users": [
               {
-                "id": "62b024bb-3e45-41eb-e8ff-60502a4e791d",
+                "id": "3d761afc-6dfd-49d9-9d0f-b79341391f26",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "a5.mianfenyun012.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vui2",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "a5.mianfenyun012.eu.org"
+            "Host": "ssrsub.v004.ssrsub.com"
           }
         },
         "httpSettings": null,

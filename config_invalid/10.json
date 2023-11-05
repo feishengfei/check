@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.72.238",
-            "port": 443,
+            "address": "183.240.232.65",
+            "port": 35013,
             "users": [
               {
-                "id": "85ab721f-0d0d-301e-b4c1-a3098e9f0a9b",
+                "id": "942fa1bb-a34f-35a9-9ef6-af8a023eb67f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "uk-cf-gy.115cloud.link"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/E6QkCpqXGX5EUZJdAACD",
-          "headers": {
-            "Host": "uk-cf-gy.115cloud.link"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
