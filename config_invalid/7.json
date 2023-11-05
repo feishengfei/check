@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vip20.5gtocdocao.com",
-            "port": 80,
+            "address": "120.233.43.54",
+            "port": 35009,
             "users": [
               {
-                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
+                "id": "942fa1bb-a34f-35a9-9ef6-af8a023eb67f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/5gtocdocao.com",
-          "headers": {
-            "Host": "vip20.5gtocdocao.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

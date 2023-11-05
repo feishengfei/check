@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1698119642.izwhvan.cn",
-            "port": 443,
+            "address": "vip20.5gtocdocao.com",
+            "port": 80,
             "users": [
               {
-                "id": "fe57e1f2-704b-4896-92b6-c256737e9739",
+                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1698119642.izwhvan.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/5gtocdocao.com",
           "headers": {
-            "Host": "n1698119642.izwhvan.cn"
+            "Host": "vip20.5gtocdocao.com"
           }
         },
         "httpSettings": null,
