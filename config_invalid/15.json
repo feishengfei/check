@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ns1.v2-vip.fun",
-            "port": 80,
+            "address": "104.26.0.26",
+            "port": 8080,
             "users": [
               {
-                "id": "3d761afc-6dfd-49d9-9d0f-b79341391f26",
+                "id": "010c265f-5455-4141-ca23-4d69357ded0d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/",
           "headers": {
-            "Host": "ssrsub.v004.ssrsub.com"
+            "Host": "aktw.daozhang.love"
           }
         },
         "httpSettings": null,
