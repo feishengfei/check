@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "183.240.232.65",
-            "port": 35013,
+            "address": "162.159.25.25",
+            "port": 2082,
             "users": [
               {
-                "id": "942fa1bb-a34f-35a9-9ef6-af8a023eb67f",
+                "id": "1F7C900A-6AD7-41CF-A37E-85873E566C40",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/surfboardv2ray.jilino2325.workers.dev/speedtest/Lille.Kotick.site",
+          "headers": {
+            "Host": "erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
