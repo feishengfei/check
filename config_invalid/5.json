@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ANTI555.5GTOCDOCAO.COM",
-            "port": 80,
+            "address": "162.159.136.232",
+            "port": 2096,
             "users": [
               {
-                "id": "e9882e7b-c7bc-4c13-ab4d-bc127d39925c",
+                "id": "49dc7300-1fc1-4c93-866f-aa493c4a3e5b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "yuxORu6Ljohicef9.pouriya.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gtocdocao.com",
+          "path": "/Amsterdam",
           "headers": {
-            "Host": "dl.ops.kgvn.garenanow.com"
+            "Host": "yuxORu6Ljohicef9.pouriya.cf"
           }
         },
         "httpSettings": null,
