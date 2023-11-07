@@ -6,18 +6,15 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr           | cn            | cc   | isp                                      | ip             | chatgpt          |
-|---:|:---------------------|:---------------|:--------------|:-----|:-----------------------------------------|:---------------|:-----------------|
-|  0 | [1](config/1.json)   | 38.95.232.241  | United States | US   | Zhejiang Aiyun Network Technology Co Ltd | 38.95.232.241  | Yes (Region: US) |
-|  1 | [9](config/9.json)   | 156.225.67.106 |               |      |                                          | 154.84.1.44    | Yes (Region: NL) |
-|  2 | [12](config/12.json) | 120.233.43.47  |               |      |                                          | 211.20.157.213 | Yes (Region: TW) |
-|  3 | [14](config/14.json) | 64.64.229.96   | United States | US   | FIBER-LOGIC                              | 64.64.229.96   | Yes (Region: US) |
+|    | id                   | addr          | cn     | cc   | isp               | ip             | chatgpt          |
+|---:|:---------------------|:--------------|:-------|:-----|:------------------|:---------------|:-----------------|
+|  0 | [3](config/3.json)   | 64.68.192.77  | Canada | CA   | AS-GLOBALTELEHOST | 158.51.121.194 | Yes (Region: CA) |
+|  1 | [10](config/10.json) | 104.21.31.183 | Canada | CA   | AS-GLOBALTELEHOST | 158.51.120.24  | Yes (Region: CA) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiMzguOTUuMjMyLjI0MSIsICJhaWQiOiAwLCAiaG9zdCI6ICJ0bXMuZGluZ3RhbGsuY29tIiwgImlkIjogIjEzZTdjMmM0LWU4NTktNDA5NC04NDRlLTdlZjg1OWRiNjgzYSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiA4MCwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU4M2YyXHU1ZjhiXHU1YmJlICAxIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNTdcdTk3NWUgIDkiLCAiYWRkIjogIjE1Ni4yMjUuNjcuMTA2IiwgInBvcnQiOiAzMDAwMCwgImlkIjogIjI5YTVkNDhlLTI0ZjEtNDhmZC1hNWUxLTlhNDZjYjMxMDMyZiIsICJhaWQiOiA2NCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogInd3dy40MTc1ODExMi54eXoiLCAicGF0aCI6ICIvcGF0aC8xNjk4NjcxNjAwOTg2IiwgInRscyI6ICJ0bHMifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTIiLCAiYWRkIjogIjEyMC4yMzMuNDMuNDciLCAicG9ydCI6ICIxMTAxMyIsICJpZCI6ICI4NWRiNjY1Mi1hNzQ3LTNhMGEtYTE3MC00MjI3MzYwNzY0MTAiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
-vmess://eyJhZGQiOiAiNjQuNjQuMjI5Ljk2IiwgImFpZCI6IDAsICJob3N0IjogIiIsICJpZCI6ICI4ODgxNmUwYy1kYjk3LTQ4NmMtOTAyOS05NjkzZDE0ZTRjMzQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODAsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZFx1NTJhMFx1NTIyOVx1Nzk4Zlx1NWMzY1x1NGU5YVx1NWRkZVx1NmQxYlx1Njc0OVx1NzdmNklUN1x1N2Y1MVx1N2VkYyAxNCIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRFYXN5RE5TIEFueWNhc3RcdTgyODJcdTcwYjkoQ2xvdWRmbGFyZVx1ODI4Mlx1NzBiOSkgMyIsICJhZGQiOiAiNjQuNjguMTkyLjc3IiwgInBvcnQiOiA0NDMsICJpZCI6ICIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCAiYWlkIjogMSwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogIm9waGVsaWEubW9tIiwgInBhdGgiOiAibGlua3Z3cyIsICJ0bHMiOiAidGxzIn0=
+vmess://eyJhZGQiOiAiMTA0LjIxLjMxLjE4MyIsICJhaWQiOiAxLCAiaG9zdCI6ICJvY3RhdmkuY2ZkIiwgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICJsaW5rdndzIiwgInBvcnQiOiA0NDMsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTUxNmNcdTUzZjhDRE5cdTgyODJcdTcwYjkgMTAiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk5OTlcdTZlMmZcdTk2M2ZcdTkxY2NcdTRlOTEgMTUiLCAiYWRkIjogIm4xNjk3NTU1NTYwLmFhaWdlZm0uY24iLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiNTY2OTFjM2MtYjlhNS00NDBmLWE2NzgtNDc4NjE4ODU0ZTc1IiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJuMTY5NzU1NTU2MC5hYWlnZWZtLmNuIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
 ```
 

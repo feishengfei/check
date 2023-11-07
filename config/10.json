@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.225.67.106",
-            "port": 30000,
+            "address": "104.21.31.183",
+            "port": 443,
             "users": [
               {
-                "id": "29a5d48e-24f1-48fd-a5e1-9a46cb31032f",
-                "alterId": 64,
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "www.41758112.xyz"
+          "serverName": "octavi.cfd"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1698671600986",
+          "path": "linkvws",
           "headers": {
-            "Host": "www.41758112.xyz"
+            "Host": "octavi.cfd"
           }
         },
         "httpSettings": null,

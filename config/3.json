@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10914,
+      "port": 10903,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "64.64.229.96",
-            "port": 80,
+            "address": "64.68.192.77",
+            "port": 443,
             "users": [
               {
-                "id": "88816e0c-db97-486c-9029-9693d14e4c34",
-                "alterId": 0,
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ophelia.mom"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "linkvws",
           "headers": {
-            "Host": ""
+            "Host": "ophelia.mom"
           }
         },
         "httpSettings": null,
