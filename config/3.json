@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10911,
+      "port": 10903,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz",
-            "port": 443,
+            "address": "45.77.167.137",
+            "port": 80,
             "users": [
               {
-                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+                "id": "ff85a2eb-5cef-49a3-e969-f527ff8f4167",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/acetaffy.top",
+          "path": "/",
           "headers": {
-            "Host": "bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz"
+            "Host": "tms.dingtalk.com"
           }
         },
         "httpSettings": null,

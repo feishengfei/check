@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mtnc.ircf.space",
-            "port": 443,
+            "address": "104.21.75.246",
+            "port": 80,
             "users": [
               {
-                "id": "02DD674F-898E-4835-9958-97670C4CCA71",
+                "id": "c458695d-6908-45c3-9512-e0c46418454c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "red-leaf-2332.walidfree20.workers.dev"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/speedtest/Kansas.kotick.site",
+          "path": "/",
           "headers": {
-            "Host": "red-leaf-2332.walidfree20.workers.dev"
+            "Host": "sbl2.shabijichang.com"
           }
         },
         "httpSettings": null,

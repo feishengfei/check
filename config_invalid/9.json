@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tg_mfbpn_d4.52vpn.eu.org",
-            "port": 11002,
+            "address": "cloudconebbb.gorgorchicken.one",
+            "port": 8443,
             "users": [
               {
-                "id": "85db6652-a747-3a0a-a170-422736076410",
+                "id": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cloudconebbb.gorgorchicken.one"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/cloudconebbb",
+          "headers": {
+            "Host": "cloudconebbb.gorgorchicken.one"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
