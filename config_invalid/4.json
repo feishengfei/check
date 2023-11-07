@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.85.1.129",
-            "port": 30000,
+            "address": "104.31.16.164",
+            "port": 2082,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1698579913173",
+          "path": "/franc.digires.shop/11201",
           "headers": {
-            "Host": ""
+            "Host": "erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"
           }
         },
         "httpSettings": null,

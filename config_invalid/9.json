@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.25.25",
-            "port": 2082,
+            "address": "tg_mfbpn_d4.52vpn.eu.org",
+            "port": 11002,
             "users": [
               {
-                "id": "1F7C900A-6AD7-41CF-A37E-85873E566C40",
+                "id": "85db6652-a747-3a0a-a170-422736076410",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/surfboardv2ray.jilino2325.workers.dev/speedtest/Lille.Kotick.site",
-          "headers": {
-            "Host": "erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
