@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10912,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.233.134",
-            "port": 443,
+            "address": "156.249.18.195",
+            "port": 30000,
             "users": [
               {
-                "id": "3129dc41-cc7b-4379-aebf-2841f7385ff0",
-                "alterId": 0,
+                "id": "9549a2cf-129b-43a1-88db-ef7f648de74a",
+                "alterId": 64,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "xsgdo.rcvpn.net"
+          "serverName": "www.13553832.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/bugpath/Izul1/vmess",
+          "path": "/path/1699193100388",
           "headers": {
-            "Host": "xsgdo.rcvpn.net"
+            "Host": "www.13553832.xyz"
           }
         },
         "httpSettings": null,
