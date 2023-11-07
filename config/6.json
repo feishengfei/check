@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10910,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.31.183",
-            "port": 443,
+            "address": "198.41.217.5",
+            "port": 2087,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
-                "alterId": 1,
+                "id": "b5f3c2a3-2177-4f1f-81bc-96fa23abe92f",
+                "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "octavi.cfd"
+          "serverName": "docs2.obneh247.ir"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "linkvws",
+          "path": "/2v2rayTEAM",
           "headers": {
-            "Host": "octavi.cfd"
+            "Host": "docs2.obneh247.ir"
           }
         },
         "httpSettings": null,
