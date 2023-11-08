@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.235.171",
-            "port": 80,
+            "address": "de-1.8080.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "f11815ce-b69c-4380-a7b1-e62d3171217c",
+                "id": "03bad296-8170-4756-a6be-760198f13413",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de-1.8080.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/bugpath/Alhafiz0/vmess",
+          "path": "/xwdn8sj2aw",
           "headers": {
-            "Host": "64lvfm.aioscr.my.id"
+            "Host": "de-1.8080.eu.org"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hknat.xyz",
-            "port": 40024,
+            "address": "104.25.77.185",
+            "port": 2082,
             "users": [
               {
-                "id": "b26c28ee-25ba-4767-a7e7-39bcc0aaa7a2",
+                "id": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/Lille.kotick.site:443/speedtest",
+          "headers": {
+            "Host": "bold-mud-c089.owotaa.workers.dev"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
