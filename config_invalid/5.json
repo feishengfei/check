@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.235.171",
-            "port": 80,
+            "address": "de-1.8080.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "1b501de2-99e1-4d9a-ba46-a6cdc8ae61a3",
+                "id": "03bad296-8170-4756-a6be-760198f13413",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de-1.8080.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/bugpath/Deri0/vmess",
+          "path": "/xwdn8sj2aw",
           "headers": {
-            "Host": "xsgdo.rcvpn.net"
+            "Host": "de-1.8080.eu.org"
           }
         },
         "httpSettings": null,
