@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.138.232",
-            "port": 2096,
+            "address": "104.26.0.26",
+            "port": 8080,
             "users": [
               {
-                "id": "c58c0655-d722-4ad1-8ad5-2452c77a753a",
+                "id": "010c265f-5455-4141-ca23-4d69357ded0d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "stiyUs6usw.pouriya.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Amsterdam",
+          "path": "/",
           "headers": {
-            "Host": "stiyUs6usw.pouriya.cf"
+            "Host": "aktw.daozhang.love"
           }
         },
         "httpSettings": null,
