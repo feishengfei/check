@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "de-1.8080.eu.org",
+            "address": "104.17.14.48",
             "port": 443,
             "users": [
               {
-                "id": "03bad296-8170-4756-a6be-760198f13413",
+                "id": "5c46bc3a-a2f1-4b3c-904b-2b5731f0403b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "de-1.8080.eu.org"
+          "serverName": "fr-v.sshmax.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/xwdn8sj2aw",
+          "path": "/vmess",
           "headers": {
-            "Host": "de-1.8080.eu.org"
+            "Host": "fr-v.sshmax.xyz"
           }
         },
         "httpSettings": null,
