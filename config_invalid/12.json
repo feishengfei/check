@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "freeyx.cloudflare88.eu.org",
-            "port": 80,
+            "address": "main.doctorweb.sbs",
+            "port": 2082,
             "users": [
               {
-                "id": "08b2ceb1-5917-42da-b02c-0f942754aac6",
+                "id": "137b3288-0fbe-4ac1-b73e-a2de0c543635",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "buyvm.iiio.wiki"
+            "Host": "main.doctorweb.sbs"
           }
         },
         "httpSettings": null,
