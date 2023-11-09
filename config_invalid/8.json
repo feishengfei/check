@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfyx2.freeapp.buzz",
-            "port": 80,
+            "address": "us-1.8080.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "88dba589-f983-4d36-b5f7-6f1ade160097",
+                "id": "03bad296-8170-4756-a6be-760198f13413",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us-1.8080.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/gd3245vd2S32cr",
+          "path": "/xwdn8sj2aw",
           "headers": {
-            "Host": "cfus.freeapp.buzz"
+            "Host": "us-1.8080.eu.org"
           }
         },
         "httpSettings": null,

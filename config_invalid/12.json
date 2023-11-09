@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.99.0",
-            "port": 8443,
+            "address": "freeyx.cloudflare88.eu.org",
+            "port": 80,
             "users": [
               {
-                "id": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+                "id": "08b2ceb1-5917-42da-b02c-0f942754aac6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cloudconebbb.gorgorchicken.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cloudconebbb",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "cloudconebbb.gorgorchicken.one"
+            "Host": "buyvm.iiio.wiki"
           }
         },
         "httpSettings": null,

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10910,
+      "port": 10921,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "main.doctorweb.sbs",
-            "port": 2082,
+            "address": "pzl.p237875155.buzz",
+            "port": 443,
             "users": [
               {
-                "id": "137b3288-0fbe-4ac1-b73e-a2de0c543635",
+                "id": "9b78b7fe-47a3-41eb-d695-22692ac835a0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pzl.p237875155.buzz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/pzl237875155",
           "headers": {
-            "Host": "main.doctorweb.sbs"
+            "Host": "pzl.p237875155.buzz"
           }
         },
         "httpSettings": null,

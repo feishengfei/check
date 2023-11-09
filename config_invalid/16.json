@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.187.30",
-            "port": 8443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "865897ad-8d07-4021-b7c3-d8eb4a29ee8d",
+                "id": "3d761afc-6dfd-49d9-9d0f-b79341391f26",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "brcf.duaaoped.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/xtsmol",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "brcf.duaaoped.xyz"
+            "Host": "ssrsub.v005.ssrsub.com"
           }
         },
         "httpSettings": null,
