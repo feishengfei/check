@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-diana.xyz",
-            "port": 443,
+            "address": "main.doctorweb.sbs",
+            "port": 2082,
             "users": [
               {
-                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+                "id": "137b3288-0fbe-4ac1-b73e-a2de0c543635",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-diana.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/acetaffy.top",
+          "path": "/",
           "headers": {
-            "Host": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-diana.xyz"
+            "Host": "main.doctorweb.sbs"
           }
         },
         "httpSettings": null,

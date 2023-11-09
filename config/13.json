@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10924,
+      "port": 10913,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.222.198.105",
-            "port": 80,
+            "address": "45.199.138.146",
+            "port": 30000,
             "users": [
               {
-                "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
-                "alterId": 0,
+                "id": "4ec0ae62-de09-4029-904a-0313d4628ecf",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.19229362.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/path/1699193100388",
           "headers": {
-            "Host": "warp.chigua.tk"
+            "Host": "www.19229362.xyz"
           }
         },
         "httpSettings": null,

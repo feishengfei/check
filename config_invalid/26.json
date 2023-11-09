@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.215.230",
-            "port": 2095,
+            "address": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-diana.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "1F7C900A-6AD7-41CF-A37E-85873E566C40",
+                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-diana.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/surfboardv2ray.jilino2325.workers.dev/speedtest/Lille.Kotick.site",
+          "path": "/acetaffy.top",
           "headers": {
-            "Host": "erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"
+            "Host": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-diana.xyz"
           }
         },
         "httpSettings": null,

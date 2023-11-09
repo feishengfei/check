@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hknat.site",
-            "port": 40024,
+            "address": "5.42.75.176",
+            "port": 8080,
             "users": [
               {
-                "id": "b26c28ee-25ba-4767-a7e7-39bcc0aaa7a2",
+                "id": "4080ef66-31f7-4cf5-b0a4-c031a8450783",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
