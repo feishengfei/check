@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.123.175",
-            "port": 8443,
+            "address": "sgp-2.888401.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "c6448d50-7e65-11ee-b630-205c6d5f5d78",
+                "id": "fb512649-3738-493c-887b-a93eb5fc1f60",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "uk1.0rd.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ylfr043p",
+          "path": "/",
           "headers": {
-            "Host": "uk1.0rd.net"
+            "Host": ""
           }
         },
         "httpSettings": null,
