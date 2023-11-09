@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.222.198.105",
-            "port": 80,
+            "address": "120.233.43.47",
+            "port": 11013,
             "users": [
               {
-                "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+                "id": "85db6652-a747-3a0a-a170-422736076410",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "warp.chigua.tk"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

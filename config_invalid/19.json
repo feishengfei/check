@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "google.efnten.top",
-            "port": 443,
+            "address": "hytron.io",
+            "port": 8080,
             "users": [
               {
-                "id": "5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
+                "id": "010c265f-5455-4141-ca23-4d69357ded0d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "king.turbo021.link"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
+          "path": "/",
           "headers": {
-            "Host": "king.turbo021.link"
+            "Host": "aktw.daozhang.love"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "main.doctorweb.sbs",
-            "port": 2082,
+            "address": "104.16.123.175",
+            "port": 8443,
             "users": [
               {
-                "id": "137b3288-0fbe-4ac1-b73e-a2de0c543635",
+                "id": "c6448d50-7e65-11ee-b630-205c6d5f5d78",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "uk1.0rd.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ylfr043p",
           "headers": {
-            "Host": "main.doctorweb.sbs"
+            "Host": "uk1.0rd.net"
           }
         },
         "httpSettings": null,
