@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "f01.bzshare.com",
-            "port": 443,
+            "address": "sgp.zxv.biz.id",
+            "port": 80,
             "users": [
               {
-                "id": "1fc0b8ae-a9dc-43ec-9304-7ea04d447411",
+                "id": "e0e09477-10ed-4d4a-98ad-67c2afb995d8",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fs.appls.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/D26xvdqUdCpvvPTz4R",
+          "path": "/vmess-ws",
           "headers": {
-            "Host": "fs.appls.eu.org"
+            "Host": "sgp.zxv.biz.id"
           }
         },
         "httpSettings": null,
