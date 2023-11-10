@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "77.91.103.47",
-            "port": 80,
+            "address": "jpd.zerodisk.site",
+            "port": 48493,
             "users": [
               {
-                "id": "09e35fe0-2efd-44c1-96fb-46b7b3cc28eb",
+                "id": "f8ef7c47-9735-439c-a42b-355bae224656",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "fi1.xv2ray.net"
+            "Host": ""
           }
         },
         "httpSettings": null,

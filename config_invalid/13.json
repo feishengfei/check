@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1698814076.izwhvan.cn",
-            "port": 443,
+            "address": "172.67.123.23",
+            "port": 8080,
             "users": [
               {
-                "id": "2484ab4b-e997-45f3-9f0d-456640d967ef",
+                "id": "62b024bb-3e45-41eb-e8ff-60502a4e791d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1698814076.izwhvan.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/a5.mianfenyun012.eu.org/vui2",
           "headers": {
-            "Host": "n1698814076.izwhvan.cn"
+            "Host": "erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"
           }
         },
         "httpSettings": null,
