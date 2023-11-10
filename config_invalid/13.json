@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.123.23",
-            "port": 8080,
+            "address": "tg_mfbpn_d4.52vpn.eu.org",
+            "port": 11005,
             "users": [
               {
-                "id": "62b024bb-3e45-41eb-e8ff-60502a4e791d",
+                "id": "85db6652-a747-3a0a-a170-422736076410",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/a5.mianfenyun012.eu.org/vui2",
-          "headers": {
-            "Host": "erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
