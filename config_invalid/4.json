@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "docs.digitalocean.com",
-            "port": 443,
+            "address": "jpd.zerodisk.site",
+            "port": 48493,
             "users": [
               {
-                "id": "d8d3482e-6d58-4e86-b870-e7fbe893d8b9",
+                "id": "f8ef7c47-9735-439c-a42b-355bae224656",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -58,7 +58,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dIGIkAlA.ONlINeviSioNsTore.sITE"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -66,7 +66,7 @@
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "dIGIkAlA.ONlINeviSioNsTore.sITE"
+            "Host": ""
           }
         },
         "httpSettings": null,

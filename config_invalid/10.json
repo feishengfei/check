@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf2.openxai.link",
-            "port": 8080,
+            "address": "f01.bzshare.com",
+            "port": 443,
             "users": [
               {
-                "id": "f440527e-5243-4ca8-890c-5e05e4b3bb41",
+                "id": "1fc0b8ae-a9dc-43ec-9304-7ea04d447411",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fs.appls.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/D26xvdqUdCpvvPTz4R",
           "headers": {
-            "Host": "eu1.openxai.link"
+            "Host": "fs.appls.eu.org"
           }
         },
         "httpSettings": null,
