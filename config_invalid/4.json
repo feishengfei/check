@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "q8.star-one.cfd",
-            "port": 2095,
+            "address": "docs.digitalocean.com",
+            "port": 443,
             "users": [
               {
-                "id": "26ffc94a-e138-495a-8196-70472934e033",
+                "id": "d8d3482e-6d58-4e86-b870-e7fbe893d8b9",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dIGIkAlA.ONlINeviSioNsTore.sITE"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/forwardv2ray",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "dIGIkAlA.ONlINeviSioNsTore.sITE"
           }
         },
         "httpSettings": null,
