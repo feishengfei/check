@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.222.198.105",
-            "port": 80,
+            "address": "162.159.128.233",
+            "port": 2096,
             "users": [
               {
-                "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+                "id": "c58c0655-d722-4ad1-8ad5-2452c77a753a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "stiyUs6usw.pouriya.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/Amsterdam",
           "headers": {
-            "Host": "warp.chigua.tk"
+            "Host": "stiyUs6usw.pouriya.cf"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "162.159.192.144",
+            "port": 443,
             "users": [
               {
-                "id": "3d761afc-6dfd-49d9-9d0f-b79341391f26",
+                "id": "5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "king.turbo021.link"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
           "headers": {
-            "Host": "ssrsub.v006.ssrsub.com"
+            "Host": "king.turbo021.link"
           }
         },
         "httpSettings": null,

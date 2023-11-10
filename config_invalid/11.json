@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "120.233.43.47",
-            "port": 11013,
+            "address": "cdn.yifenjichang.top",
+            "port": 80,
             "users": [
               {
-                "id": "85db6652-a747-3a0a-a170-422736076410",
+                "id": "ffde06d3-f952-4ee7-f09f-e587b7fb1558",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/fsasdsad",
+          "headers": {
+            "Host": "ca1.mianfenyun012.eu.org"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
