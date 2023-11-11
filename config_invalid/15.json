@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.73.158.35",
-            "port": 443,
+            "address": "sgp.zxv.biz.id",
+            "port": 80,
             "users": [
               {
-                "id": "186b8bd9-6f05-48bc-80dc-f36e84ffa601",
+                "id": "e0e09477-10ed-4d4a-98ad-67c2afb995d8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/vmess-ws",
           "headers": {
-            "Host": ""
+            "Host": "sgp.zxv.biz.id"
           }
         },
         "httpSettings": null,
