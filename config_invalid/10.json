@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdnjs.com",
-            "port": 2096,
+            "address": "jp6.lianpi.xyz",
+            "port": 23234,
             "users": [
               {
-                "id": "0809f6b2-f5d8-472e-831e-48c2e61e461f",
+                "id": "a0043275-5033-4923-9f22-b2f466a8794a",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "frab.carfin.tech"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/Frankfurt",
-          "headers": {
-            "Host": "frab.carfin.tech"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
