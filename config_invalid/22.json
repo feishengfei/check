@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hytron.io",
-            "port": 8080,
+            "address": "tg_mfbpn_d4.52vpn.eu.org",
+            "port": 11005,
             "users": [
               {
-                "id": "010c265f-5455-4141-ca23-4d69357ded0d",
+                "id": "85db6652-a747-3a0a-a170-422736076410",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "aktw.daozhang.love"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

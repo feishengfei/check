@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp6.lianpi.xyz",
-            "port": 23234,
+            "address": "google.efnten.top",
+            "port": 443,
             "users": [
               {
-                "id": "a0043275-5033-4923-9f22-b2f466a8794a",
+                "id": "5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "king.turbo021.link"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
+          "headers": {
+            "Host": "king.turbo021.link"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

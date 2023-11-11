@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudconebbb.gorgorchicken.one",
-            "port": 8443,
+            "address": "shop.app",
+            "port": 8080,
             "users": [
               {
-                "id": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+                "id": "dea35652-2439-426a-86a7-5b2e535e934d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cloudconebbb.gorgorchicken.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cloudconebbb",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "cloudconebbb.gorgorchicken.one"
+            "Host": "azstutr.iiio.wiki"
           }
         },
         "httpSettings": null,
