@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "95.164.62.204",
-            "port": 80,
+            "address": "104.24.177.7",
+            "port": 2096,
             "users": [
               {
-                "id": "2ba1c86f-789f-4dd8-b52a-17d21164f2ba",
+                "id": "c58c0655-d722-4ad1-8ad5-2452c77a753a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "amsb.carfin.tech"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/Amsterdam",
           "headers": {
-            "Host": "be1.xv2ray.net"
+            "Host": "amsb.carfin.tech"
           }
         },
         "httpSettings": null,

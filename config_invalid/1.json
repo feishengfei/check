@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp6.lianpi.xyz",
-            "port": 23234,
+            "address": "95.164.62.204",
+            "port": 80,
             "users": [
               {
-                "id": "a0043275-5033-4923-9f22-b2f466a8794a",
+                "id": "2ba1c86f-789f-4dd8-b52a-17d21164f2ba",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "be1.xv2ray.net"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

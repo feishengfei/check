@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "sfmomastore.com",
-            "port": 80,
+            "address": "cdnjs.com",
+            "port": 2096,
             "users": [
               {
-                "id": "0580abe6-9aaf-40e2-ba33-0bc9f3b6ef2b",
+                "id": "0809f6b2-f5d8-472e-831e-48c2e61e461f",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "frab.carfin.tech"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/Frankfurt",
           "headers": {
-            "Host": "ee1.xv2ray.net"
+            "Host": "frab.carfin.tech"
           }
         },
         "httpSettings": null,

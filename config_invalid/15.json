@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sgp.zxv.biz.id",
-            "port": 80,
+            "address": "jpd.zerodisk.site",
+            "port": 48493,
             "users": [
               {
-                "id": "e0e09477-10ed-4d4a-98ad-67c2afb995d8",
+                "id": "f8ef7c47-9735-439c-a42b-355bae224656",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess-ws",
+          "path": "/",
           "headers": {
-            "Host": "sgp.zxv.biz.id"
+            "Host": ""
           }
         },
         "httpSettings": null,
