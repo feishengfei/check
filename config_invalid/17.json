@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cc3.shabijichang.com",
-            "port": 80,
+            "address": "104.24.177.7",
+            "port": 2096,
             "users": [
               {
-                "id": "c458695d-6908-45c3-9512-e0c46418454c",
+                "id": "c58c0655-d722-4ad1-8ad5-2452c77a753a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "amsb.carfin.tech"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/Amsterdam",
           "headers": {
-            "Host": "cc3.shabijichang.com"
+            "Host": "amsb.carfin.tech"
           }
         },
         "httpSettings": null,

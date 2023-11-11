@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "google.efnten.top",
-            "port": 443,
+            "address": "uk1.0rd.net",
+            "port": 80,
             "users": [
               {
-                "id": "5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
+                "id": "8c1845b0-7ff5-11ee-b839-205c6d5f5d78",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "king.turbo021.link"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
+          "path": "/xqevo2dn",
           "headers": {
-            "Host": "king.turbo021.link"
+            "Host": "teams.microsoft.com"
           }
         },
         "httpSettings": null,
