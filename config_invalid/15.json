@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "120.233.43.47",
-            "port": 11013,
+            "address": "shop.app",
+            "port": 8080,
             "users": [
               {
-                "id": "85db6652-a747-3a0a-a170-422736076410",
+                "id": "dea35652-2439-426a-86a7-5b2e535e934d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/aries?ed=2048",
+          "headers": {
+            "Host": "azstutr.iiio.wiki"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

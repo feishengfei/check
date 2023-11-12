@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.199.138.191",
-            "port": 30000,
+            "address": "b23.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "6b2e0602-bc1a-4ec3-88da-4238a6955ddd",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "www.42077230.xyz"
+          "serverName": "b23.ntbq.dynu.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1699280099138",
+          "path": "/b23",
           "headers": {
-            "Host": "www.42077230.xyz"
+            "Host": "b23.ntbq.dynu.net"
           }
         },
         "httpSettings": null,
