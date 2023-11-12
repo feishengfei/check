@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq11.ntbq.dynu.net",
-            "port": 443,
+            "address": "hytron.io",
+            "port": 8080,
             "users": [
               {
-                "id": "6b2e0602-bc1a-4ec3-88da-4238a6955ddd",
+                "id": "010c265f-5455-4141-ca23-4d69357ded0d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nbq11.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b11",
+          "path": "/",
           "headers": {
-            "Host": "nbq11.ntbq.dynu.net"
+            "Host": "aktw.daozhang.love"
           }
         },
         "httpSettings": null,
