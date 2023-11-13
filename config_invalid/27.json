@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "live.kozoom.net",
-            "port": 80,
+            "address": "nbq11.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "6e7911ef-e064-44ca-e5f6-c76c0d7db288",
+                "id": "b3d43a0b-9ef8-4f87-a5c6-8da062e02620",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "krshouer.com"
+          "serverName": "nbq11.ntbq.dynu.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@blue-Youtube",
+          "path": "/b11",
           "headers": {
-            "Host": "krshouer.com"
+            "Host": "nbq11.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

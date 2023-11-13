@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.wto.org",
-            "port": 443,
+            "address": "cname.ispeed.tk",
+            "port": 80,
             "users": [
               {
-                "id": "16cf6364-868e-46f1-a741-24f3c840559f",
+                "id": "ebc8ef6e-961d-4315-9258-46fb81605bd7",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "savings-describing-slow-advocacy.trycloudflare.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "16cf6364-868e-46f1-a741-24f3c840559f-vm",
+          "path": "/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso",
           "headers": {
-            "Host": "savings-describing-slow-advocacy.trycloudflare.com"
+            "Host": "sg3-amazonwebservices.ispeed.tk"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gz3.kiki789.com",
-            "port": 45211,
+            "address": "nbq13.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "a4280cc8-83e3-3a8d-a12a-56259ad4ac1b",
+                "id": "6bd47438-d696-499a-bcd5-134e4145135a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nbq13.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8",
+          "path": "/b13",
           "headers": {
-            "Host": "cmihk.bilibili.com"
+            "Host": "nbq13.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

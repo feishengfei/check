@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "91.107.147.51",
-            "port": 19469,
+            "address": "172.66.45.34",
+            "port": 443,
             "users": [
               {
-                "id": "761a5e16-5c5e-4d73-9f01-cbd4f6b4b239",
+                "id": "c2e7a0c6-6034-49c2-8e25-4aa592afd719",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "idc.kmoljklj.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/9iqvy4a0bZ",
+          "headers": {
+            "Host": "idc.kmoljklj.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
