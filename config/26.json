@@ -32,21 +32,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "cdBIDV42DCwnfIN",
-            "port": 8119,
-            "level": 1,
-            "users": null
+            "address": "tg_mfbpn_d4.52vpn.eu.org",
+            "port": 11002,
+            "users": [
+              {
+                "id": "85db6652-a747-3a0a-a170-422736076410",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
