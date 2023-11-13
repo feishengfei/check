@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b24.ntbq.dynu.net",
-            "port": 443,
+            "address": "cdnjs.com",
+            "port": 2096,
             "users": [
               {
-                "id": "6bbe3014-9fce-4700-9b39-adc2bd657f63",
+                "id": "0809f6b2-f5d8-472e-831e-48c2e61e461f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "b24.ntbq.dynu.net"
+          "serverName": "frab.carfin.tech"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b24",
+          "path": "/Frankfurt",
           "headers": {
-            "Host": "b24.ntbq.dynu.net"
+            "Host": "frab.carfin.tech"
           }
         },
         "httpSettings": null,

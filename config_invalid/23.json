@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "it1.cou.gay",
-            "port": 443,
+            "address": "95.164.61.27",
+            "port": 80,
             "users": [
               {
-                "id": "f6834a99-0c72-49f9-83bf-d43bada934e7",
+                "id": "73f51947-ce77-4d19-a652-467863492634",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/it1?ed=2048",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "il1.xv2ray.net"
           }
         },
         "httpSettings": null,
