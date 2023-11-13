@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "198.41.192.4",
-            "port": 8080,
+            "address": "tc12.kq1.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "f440527e-5243-4ca8-890c-5e05e4b3bb41",
+                "id": "ffe4a0e2-65d0-4492-a2d4-f5955986fe89",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tc12.kq1.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vbub2",
           "headers": {
-            "Host": "eu1.openxai.link"
+            "Host": "tc12.kq1.dynu.net"
           }
         },
         "httpSettings": null,

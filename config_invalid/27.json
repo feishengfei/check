@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zz.easylink.work",
+            "address": "live.kozoom.net",
             "port": 80,
             "users": [
               {
-                "id": "eb9ddbdd-5923-422e-a4dd-5efb4fbf9dda",
+                "id": "6e7911ef-e064-44ca-e5f6-c76c0d7db288",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "krshouer.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/easylink",
+          "path": "/@blue-Youtube",
           "headers": {
-            "Host": "hkyd2.easylink.work"
+            "Host": "krshouer.com"
           }
         },
         "httpSettings": null,

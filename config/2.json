@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10901,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1698814075.aaigefm.cn",
-            "port": 443,
+            "address": "gz3.kiki789.com",
+            "port": 45211,
             "users": [
               {
-                "id": "f5d1e638-f78d-4e1b-90af-cc7944ea2de0",
+                "id": "a4280cc8-83e3-3a8d-a12a-56259ad4ac1b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1698814075.aaigefm.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8",
           "headers": {
-            "Host": "n1698814075.aaigefm.cn"
+            "Host": "cmihk.bilibili.com"
           }
         },
         "httpSettings": null,
