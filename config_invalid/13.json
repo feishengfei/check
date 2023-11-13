@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.68.136",
-            "port": 80,
+            "address": "nbq12.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "08b2ceb1-5917-42da-b02c-0f942754aac6",
+                "id": "b3d43a0b-9ef8-4f87-a5c6-8da062e02620",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nbq12.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries?ed=2048",
+          "path": "/b12",
           "headers": {
-            "Host": "buyvm.iiio.wiki"
+            "Host": "nbq12.ntbq.dynu.net"
           }
         },
         "httpSettings": null,
