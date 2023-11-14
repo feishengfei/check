@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.156.98.179",
+            "address": "cname.ispeed.tk",
             "port": 80,
             "users": [
               {
-                "id": "0855b410-0e96-4d0a-9b6e-80830edec462",
+                "id": "ebc8ef6e-961d-4315-9258-46fb81605bd7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso",
+          "headers": {
+            "Host": "sg3-amazonwebservices.ispeed.tk"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

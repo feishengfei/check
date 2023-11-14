@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq11.ntbq.dynu.net",
-            "port": 443,
+            "address": "sfmomastore.com",
+            "port": 80,
             "users": [
               {
-                "id": "b3d43a0b-9ef8-4f87-a5c6-8da062e02620",
+                "id": "0580abe6-9aaf-40e2-ba33-0bc9f3b6ef2b",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nbq11.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b11",
+          "path": "/vmess",
           "headers": {
-            "Host": "nbq11.ntbq.dynu.net"
+            "Host": "ee1.xv2ray.net"
           }
         },
         "httpSettings": null,
