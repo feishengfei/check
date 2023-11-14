@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "a7.wxlljc520.com",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "50e10abd-3920-42a6-ad0c-6ec731d8c826",
+                "id": "3d761afc-6dfd-49d9-9d0f-b79341391f26",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "77.golinkwuxian.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/bing",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "77.golinkwuxian.top"
+            "Host": "ssrsub.v006.ssrsub.com"
           }
         },
         "httpSettings": null,

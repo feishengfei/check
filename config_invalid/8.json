@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cname.ispeed.tk",
-            "port": 80,
+            "address": "google.efnten.top",
+            "port": 443,
             "users": [
               {
-                "id": "ebc8ef6e-961d-4315-9258-46fb81605bd7",
+                "id": "5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "king.turbo021.link"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso",
+          "path": "/5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
           "headers": {
-            "Host": "sg3-amazonwebservices.ispeed.tk"
+            "Host": "king.turbo021.link"
           }
         },
         "httpSettings": null,
