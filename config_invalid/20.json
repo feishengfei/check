@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.62.248",
-            "port": 2052,
+            "address": "n1697555560.aaigefm.cn",
+            "port": 443,
             "users": [
               {
-                "id": "86ac36c1-fa17-42f8-9218-c9ec30eca2b8",
+                "id": "56691c3c-b9a5-440f-a678-478618854e75",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1697555560.aaigefm.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "de6.biqibao.site"
+            "Host": "n1697555560.aaigefm.cn"
           }
         },
         "httpSettings": null,
