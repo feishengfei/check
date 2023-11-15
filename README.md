@@ -6,14 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr           | cn        | cc   | isp       | ip            | chatgpt          |
-|---:|:-------------------|:---------------|:----------|:-----|:----------|:--------------|:-----------------|
-|  0 | [1](config/1.json) | 183.237.20.154 | Hong Kong | HK   | CNSERVERS | 172.247.27.10 | Yes (Region: US) |
-|  1 | [7](config/7.json) | 188.114.98.0   |           |      |           | 149.7.16.213  | Yes (Region: GB) |
+|    | id                 | addr                | cn             | cc   | isp     | ip            | chatgpt          |
+|---:|:-------------------|:--------------------|:---------------|:-----|:--------|:--------------|:-----------------|
+|  0 | [4](config/4.json) | 120.210.205.220     | United Kingdom | GB   | OVH SAS | 51.89.40.141  | Yes (Region: GB) |
+|  1 | [6](config/6.json) | bjcu.xzyunjiasu.icu | United States  | US   | PONYNET | 209.141.58.10 | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMSIsICJhZGQiOiAiMTgzLjIzNy4yMC4xNTQiLCAicG9ydCI6ICI0MDA5NSIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAiYWlkIjogIjY0IiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
-vmess://eyJhZGQiOiAiMTg4LjExNC45OC4wIiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIm9kZWxpYS5hdXRvcyIsICJpZCI6ICIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCAibmV0IjogIndzIiwgInBhdGgiOiAibGlua3Z3cyIsICJwb3J0IjogIjQ0MyIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1NWRmNFx1ODk3Zlx1NTcyM1x1NGZkZFx1N2Y1N0Nsb3VkRmxhcmVcdTgyODJcdTcwYjkgNyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAib2RlbGlhLmF1dG9zIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTViODlcdTVmYmRcdTc3MDFcdTU0MDhcdTgwYTVcdTVlMDJcdTc5ZmJcdTUyYTggNCIsICJhZGQiOiAiMTIwLjIxMC4yMDUuMjIwIiwgInBvcnQiOiAiNDcwMDkiLCAiaWQiOiAiODNhNDI0ZDgtNGJjYi00Y2VlLWIwMTYtMmM4ZjFkYjRhOTIxIiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIiIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
+ss://YWVzLTI1Ni1nY206NWM4YjIxMGEtMmYwMC00MjkyLTk2NGItMDUyODFjN2FkNWQx@bjcu.xzyunjiasu.icu:33952#github.com/freefq%20-%20%E6%B9%96%E5%8D%97%E7%9C%81%E8%81%94%E9%80%9A%206
 ```
 
