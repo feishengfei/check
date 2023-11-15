@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ml3.shabijichang.com",
-            "port": 80,
+            "address": "104.17.45.51",
+            "port": 443,
             "users": [
               {
-                "id": "c458695d-6908-45c3-9512-e0c46418454c",
+                "id": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Kansas.bobbykotick.rip"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speedtest",
           "headers": {
-            "Host": ""
+            "Host": "Kansas.bobbykotick.rip"
           }
         },
         "httpSettings": null,

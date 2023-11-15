@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b23.ntbq.dynu.net",
-            "port": 443,
+            "address": "hkcn23m.jdkfcom.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "18a4f80a-e6ba-4763-80da-7188fdee9abb",
+                "id": "63096863-6fd7-4d7e-cf53-a59341312b9c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b23.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b23",
+          "path": "/",
           "headers": {
-            "Host": "b23.ntbq.dynu.net"
+            "Host": ""
           }
         },
         "httpSettings": null,

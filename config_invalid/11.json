@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ml2.shabijichang.com",
-            "port": 80,
+            "address": "docs.digitalocean.com",
+            "port": 443,
             "users": [
               {
-                "id": "10ea3b2a-b615-45f1-b1b7-c62bafe8c80c",
+                "id": "d8d3482e-6d58-4e86-b870-e7fbe893d8b9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dIGIkAlA.ONlINeviSioNsTore.sITE"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "dIGIkAlA.ONlINeviSioNsTore.sITE"
           }
         },
         "httpSettings": null,
