@@ -6,16 +6,18 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                   | cn            | cc   | isp                             | ip            | chatgpt          |
-|---:|:---------------------|:-----------------------|:--------------|:-----|:--------------------------------|:--------------|:-----------------|
-|  0 | [13](config/13.json) | bjcu.xzyunjiasu.icu    | United States | US   | PONYNET                         | 209.141.58.10 | Yes (Region: US) |
-|  1 | [15](config/15.json) | n1697685464.aaigefm.cn | United States | US   | Alibaba US Technology Co., Ltd. | 47.76.44.192  | Yes (Region: US) |
-|  2 | [16](config/16.json) | n1699253769.aaigefm.cn | United States | US   | Alibaba US Technology Co., Ltd. | 47.76.34.124  | Yes (Region: US) |
+|    | id                   | addr                | cn            | cc   | isp                    | ip              | chatgpt          |
+|---:|:---------------------|:--------------------|:--------------|:-----|:-----------------------|:----------------|:-----------------|
+|  0 | [2](config/2.json)   | www.speedtest.net   | France        | FR   | AS-GLOBALTELEHOST      | 172.99.189.86   | Yes (Region: FR) |
+|  1 | [5](config/5.json)   | 162.247.153.108     | United States | US   | Melbikomas UAB         | 162.247.153.108 | Yes (Region: US) |
+|  2 | [6](config/6.json)   | 5.35.34.107         | Netherlands   | NL   | Hosting technology LTD | 5.35.34.107     | Yes (Region: NL) |
+|  3 | [12](config/12.json) | bjcu.xzyunjiasu.icu | United States | US   | PONYNET                | 209.141.58.10   | Yes (Region: US) |
 
 ## Valid
 ```
-ss://YWVzLTI1Ni1nY206NWM4YjIxMGEtMmYwMC00MjkyLTk2NGItMDUyODFjN2FkNWQx@bjcu.xzyunjiasu.icu:33952#github.com/freefq%20-%20%E6%B9%96%E5%8D%97%E7%9C%81%E8%81%94%E9%80%9A%2013
-vmess://eyJhZGQiOiAibjE2OTc2ODU0NjQuYWFpZ2VmbS5jbiIsICJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk5OTlcdTZlMmZcdTk2M2ZcdTkxY2NcdTRlOTEgMTUiLCAicG9ydCI6IDQ0MywgImlkIjogIjE4NzAwMmZkLWI4YWQtNGQzNi1iNGZiLTFhMzIyNGNjOTllMiIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAidHlwZSI6ICIiLCAiaG9zdCI6ICJuMTY5NzY4NTQ2NC5hYWlnZWZtLmNuIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAidGxzIn0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk5OTlcdTZlMmZcdTk2M2ZcdTkxY2NcdTRlOTEgMTYiLCAiYWRkIjogIm4xNjk5MjUzNzY5LmFhaWdlZm0uY24iLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiOTgyZmFkZDEtM2U1Zi00YWEzLTg1NTItZWQ2ZmRhMjM0MTRhIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJuMTY5OTI1Mzc2OS5hYWlnZWZtLmNuIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
+vmess://eyJhZGQiOiAid3d3LnNwZWVkdGVzdC5uZXQiLCAiYWlkIjogMCwgImhvc3QiOiAiZWRlZW4ubWFrZXVwIiwgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICJsaW5rdndzIiwgInBvcnQiOiA0NDMsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTUxNmNcdTUzZjhDRE5cdTgyODJcdTcwYjkgMiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqRkRwVW9LVURaUEVHVEJKUmlMWmdv@162.247.153.108:28896#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%205
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0T3dPeXZsWGlZNUFUSkFVT3BYTlBO@5.35.34.107:55990#github.com/freefq%20-%20%E4%BF%84%E7%BD%97%E6%96%AF%20%206
+ss://YWVzLTI1Ni1nY206NWM4YjIxMGEtMmYwMC00MjkyLTk2NGItMDUyODFjN2FkNWQx@bjcu.xzyunjiasu.icu:33952#github.com/freefq%20-%20%E6%B9%96%E5%8D%97%E7%9C%81%E8%81%94%E9%80%9A%2012
 ```
 

@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "uk-new01.gujuji.top",
-            "port": 8080,
+            "address": "tc11.kq1.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "dba20da9-40e7-48ba-8c99-e24ec84836a0",
+                "id": "18a4f80a-e6ba-4763-80da-7188fdee9abb",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tc11.kq1.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vbub1",
           "headers": {
-            "Host": "uk-new01.gujuji.top"
+            "Host": "tc11.kq1.dynu.net"
           }
         },
         "httpSettings": null,

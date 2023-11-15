@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "ip.nofiltering2.sbs",
-            "port": 80,
+            "address": "n1698814075.aaigefm.cn",
+            "port": 443,
             "users": [
               {
-                "id": "0239b1ce-468c-45b3-8d2a-85b1c0b274d9",
+                "id": "f5d1e638-f78d-4e1b-90af-cc7944ea2de0",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1698814075.aaigefm.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "ca2.xv2ray.net"
+            "Host": "n1698814075.aaigefm.cn"
           }
         },
         "httpSettings": null,

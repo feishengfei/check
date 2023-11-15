@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq13.ntbq.dynu.net",
-            "port": 443,
+            "address": "v2node15.bipbupvpn.com",
+            "port": 10100,
             "users": [
               {
-                "id": "d6bc538d-2496-4818-b160-2d5875ba9a91",
+                "id": "75b28ee0-1c81-4130-8206-eb96e2305b03",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b13",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "v2node15.bipbupvpn.com"
           }
         },
         "httpSettings": null,
