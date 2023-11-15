@@ -6,16 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr           | cn              | cc   | isp                    | ip            | chatgpt          |
-|---:|:---------------------|:---------------|:----------------|:-----|:-----------------------|:--------------|:-----------------|
-|  0 | [2](config/2.json)   | 142.202.48.45  | United States   | US   | AS-GLOBALTELEHOST      | 142.202.48.45 | Yes (Region: US) |
-|  1 | [3](config/3.json)   | 5.35.34.107    | The Netherlands | NL   | Hosting technology LTD | 5.35.34.107   | Yes (Region: NL) |
-|  2 | [14](config/14.json) | 183.237.20.154 | Hong Kong       | HK   | CNSERVERS              | 172.247.27.10 | Yes (Region: US) |
+|    | id                 | addr           | cn        | cc   | isp       | ip            | chatgpt          |
+|---:|:-------------------|:---------------|:----------|:-----|:----------|:--------------|:-----------------|
+|  0 | [1](config/1.json) | 183.237.20.154 | Hong Kong | HK   | CNSERVERS | 172.247.27.10 | Yes (Region: US) |
+|  1 | [7](config/7.json) | 188.114.98.0   |           |      |           | 149.7.16.213  | Yes (Region: GB) |
 
 ## Valid
 ```
-ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@142.202.48.45:8091#github.com/freefq%20-%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20%202
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0T3dPeXZsWGlZNUFUSkFVT3BYTlBO@5.35.34.107:55990#github.com/freefq%20-%20%E4%BF%84%E7%BD%97%E6%96%AF%20%203
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTQiLCAiYWRkIjogIjE4My4yMzcuMjAuMTU0IiwgInBvcnQiOiAiNDAwOTUiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIi8iLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMSIsICJhZGQiOiAiMTgzLjIzNy4yMC4xNTQiLCAicG9ydCI6ICI0MDA5NSIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAiYWlkIjogIjY0IiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
+vmess://eyJhZGQiOiAiMTg4LjExNC45OC4wIiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIm9kZWxpYS5hdXRvcyIsICJpZCI6ICIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCAibmV0IjogIndzIiwgInBhdGgiOiAibGlua3Z3cyIsICJwb3J0IjogIjQ0MyIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1NWRmNFx1ODk3Zlx1NTcyM1x1NGZkZFx1N2Y1N0Nsb3VkRmxhcmVcdTgyODJcdTcwYjkgNyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAib2RlbGlhLmF1dG9zIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
 ```
 
