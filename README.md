@@ -6,14 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr                | cn            | cc   | isp       | ip            | chatgpt          |
-|---:|:-------------------|:--------------------|:--------------|:-----|:----------|:--------------|:-----------------|
-|  0 | [4](config/4.json) | bjcu.xzyunjiasu.icu | United States | US   | PONYNET   | 209.141.58.10 | Yes (Region: US) |
-|  1 | [6](config/6.json) | 183.237.20.154      | Hong Kong     | HK   | CNSERVERS | 172.247.27.10 | Yes (Region: US) |
+|    | id                 | addr           | cn              | cc   | isp                    | ip                | chatgpt          |
+|---:|:-------------------|:---------------|:----------------|:-----|:-----------------------|:------------------|:-----------------|
+|  0 | [2](config/2.json) | 104.18.202.232 | The Netherlands | NL   | Aeza International Ltd | 2a12:5940:f1d9::2 | Yes (Region: NL) |
 
 ## Valid
 ```
-ss://YWVzLTI1Ni1nY206NWM4YjIxMGEtMmYwMC00MjkyLTk2NGItMDUyODFjN2FkNWQx@bjcu.xzyunjiasu.icu:33952#github.com/freefq%20-%20%E6%B9%96%E5%8D%97%E7%9C%81%E8%81%94%E9%80%9A%204
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggNiIsICJhZGQiOiAiMTgzLjIzNy4yMC4xNTQiLCAicG9ydCI6ICI0MDA5NSIsICJpZCI6ICI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCAiYWlkIjogIjY0IiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
+vmess://eyJhZGQiOiAiMTA0LjE4LjIwMi4yMzIiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICJoMixodHRwLzEuMSIsICJmcCI6ICJjaHJvbWUiLCAiaG9zdCI6ICJkb2NzMi5vYm5laDI0Ny5pciIsICJpZCI6ICI2N2Q2NDg5Ny04ODBkLTQxNDctYTA1YS04YzczNzYyYzdkZmMiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLzJ2MnJheVRFQU0iLCAicG9ydCI6ICIyMDg3IiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkQ2xvdWRGbGFyZVx1NTE2Y1x1NTNmOENETlx1ODI4Mlx1NzBiOSAyIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICJkb2NzMi5vYm5laDI0Ny5pciIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
 ```
 
