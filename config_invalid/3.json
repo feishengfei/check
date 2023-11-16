@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "de-new01.gujuji.top",
-            "port": 8080,
+            "address": "docs.digitalocean.com",
+            "port": 443,
             "users": [
               {
-                "id": "b8a7bce5-6284-4611-a87c-cf7ceedfa6cc",
+                "id": "d8d3482e-6d58-4e86-b870-e7fbe893d8b9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dIGIkAlA.ONlINeviSioNsTore.sITE"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "de-new01.gujuji.top"
+            "Host": "dIGIkAlA.ONlINeviSioNsTore.sITE"
           }
         },
         "httpSettings": null,
