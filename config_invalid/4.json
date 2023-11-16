@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us1.cou.gay",
-            "port": 443,
+            "address": "family.mgtajhiz.ir",
+            "port": 2052,
             "users": [
               {
-                "id": "edc2025e-cf29-42ff-a3ff-5ce463cc6865",
+                "id": "544f2e93-51b0-4d47-fd72-e7d858021bbd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us1.cou.gay"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/us1?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "us1.cou.gay"
+            "Host": ""
           }
         },
         "httpSettings": null,
