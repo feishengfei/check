@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "de-1.8080.eu.org",
-            "port": 443,
+            "address": "ml2.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "03bad296-8170-4756-a6be-760198f13413",
+                "id": "10ea3b2a-b615-45f1-b1b7-c62bafe8c80c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "de-1.8080.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/xwdn8sj2aw",
+          "path": "/",
           "headers": {
-            "Host": "de-1.8080.eu.org"
+            "Host": ""
           }
         },
         "httpSettings": null,

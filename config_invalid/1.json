@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.239.202",
-            "port": 2052,
+            "address": "162.159.192.133",
+            "port": 443,
             "users": [
               {
-                "id": "375ae503-faca-4bc6-a1d5-50c23b083768",
+                "id": "5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "king.turbo021.link"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public",
+          "path": "/5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
           "headers": {
-            "Host": "uk1.vvv123.store"
+            "Host": "king.turbo021.link"
           }
         },
         "httpSettings": null,
