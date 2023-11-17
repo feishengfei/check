@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.yifenjichang.top",
-            "port": 443,
+            "address": "198.41.217.5",
+            "port": 2087,
             "users": [
               {
-                "id": "ffde06d3-f952-4ee7-f09f-e587b7fb1558",
+                "id": "33d2c99c-81ea-4262-9a61-4a6544cccd00",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ca3.mianfenyun012.eu.org"
+          "serverName": "docs2.obneh247.ir"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/fsasdsad",
+          "path": "/2v2rayTEAM",
           "headers": {
-            "Host": "ca3.mianfenyun012.eu.org"
+            "Host": "docs2.obneh247.ir"
           }
         },
         "httpSettings": null,
