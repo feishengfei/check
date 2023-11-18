@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10918,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "hytron.io",
-            "port": 8080,
+            "address": "37.120.236.251",
+            "port": 443,
             "users": [
               {
-                "id": "010c265f-5455-4141-ca23-4d69357ded0d",
-                "alterId": 0,
+                "id": "ed162daa-ee20-44ed-830f-b522c501387a",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.42088326.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/path/143013092425",
           "headers": {
-            "Host": "aktw.daozhang.love"
+            "Host": "www.42088326.xyz"
           }
         },
         "httpSettings": null,
