@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b24.ntbq.dynu.net",
-            "port": 443,
+            "address": "188.114.99.0",
+            "port": 8443,
             "users": [
               {
-                "id": "d201923c-daa9-4459-8e98-9b3ea0435926",
+                "id": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "b24.ntbq.dynu.net"
+          "serverName": "cloudconebbb.gorgorchicken.one"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b24",
+          "path": "/cloudconebbb",
           "headers": {
-            "Host": "b24.ntbq.dynu.net"
+            "Host": "cloudconebbb.gorgorchicken.one"
           }
         },
         "httpSettings": null,

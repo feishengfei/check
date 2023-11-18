@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1698814075.aaigefm.cn",
-            "port": 443,
+            "address": "dnspsdhaitun.ncsuwei.top",
+            "port": 13002,
             "users": [
               {
-                "id": "f5d1e638-f78d-4e1b-90af-cc7944ea2de0",
+                "id": "3d45b481-71d2-34ec-b8b1-5306cc7a1acf",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1698814075.aaigefm.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ef483582-6269-468c-93af-c511eccb8a69",
           "headers": {
-            "Host": "n1698814075.aaigefm.cn"
+            "Host": "dnspsdhaitun.ncsuwei.top"
           }
         },
         "httpSettings": null,

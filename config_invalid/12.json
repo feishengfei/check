@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.75.33",
-            "port": 80,
+            "address": "47.kccic2pa.xyz",
+            "port": 50047,
             "users": [
               {
-                "id": "372adebd-d2ba-4266-a7b4-62a6a7759542",
+                "id": "0e9179c8-abbe-4e5b-aaa4-6e1f4f528eb0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "freewhoringinkoreasg01.360ddns.online"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
