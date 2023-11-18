@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "google.efnten.top",
-            "port": 443,
+            "address": "cc2.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
+                "id": "56278a1a-c7cc-459f-b00c-3037e4f99590",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "king.turbo021.link"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5f2ea531-29e4-4836-c60a-a739b8e6b0a3",
+          "path": "/",
           "headers": {
-            "Host": "king.turbo021.link"
+            "Host": "cc2.shabijichang.com"
           }
         },
         "httpSettings": null,
