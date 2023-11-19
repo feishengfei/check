@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq12.ntbq.dynu.net",
+            "address": "172.67.132.15",
             "port": 443,
             "users": [
               {
-                "id": "bf5eb8e2-462c-4c21-9df2-b5b990b12636",
+                "id": "18e5f40f-bda6-4c15-9334-e87cda6047af",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "nbq12.ntbq.dynu.net"
+          "serverName": "ming2.kiwireich.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b12",
+          "path": "/ray",
           "headers": {
-            "Host": "nbq12.ntbq.dynu.net"
+            "Host": "ming2.kiwireich.com"
           }
         },
         "httpSettings": null,
