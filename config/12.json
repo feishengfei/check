@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10912,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "b23.ntbq.dynu.net",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
-                "id": "b4224a4d-6754-47e5-99ef-124697d24b4e",
-                "alterId": 0,
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "b23.ntbq.dynu.net"
+          "serverName": "octavi.cfd"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b23",
+          "path": "linkvws",
           "headers": {
-            "Host": "b23.ntbq.dynu.net"
+            "Host": "octavi.cfd"
           }
         },
         "httpSettings": null,

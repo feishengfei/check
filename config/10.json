@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b23.ntbq.dynu.net",
-            "port": 443,
+            "address": "146.190.202.39",
+            "port": 29530,
             "users": [
               {
-                "id": "b4224a4d-6754-47e5-99ef-124697d24b4e",
+                "id": "46e1c59b-1b5a-48c6-b4e3-38c97aaec1fa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b23.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b23",
+          "path": "/",
           "headers": {
-            "Host": "b23.ntbq.dynu.net"
+            "Host": "media-exp1.licdn.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf1.openxai.link",
-            "port": 8080,
+            "address": "b23.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "218996e0-5a6e-4806-8106-6b7b42e6d0d6",
+                "id": "6b2e0602-bc1a-4ec3-88da-4238a6955ddd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b23.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/b23",
           "headers": {
-            "Host": "eu4.openxai.link"
+            "Host": "b23.ntbq.dynu.net"
           }
         },
         "httpSettings": null,
