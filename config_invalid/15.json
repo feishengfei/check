@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dnspsdhaitun.ncsuwei.top",
-            "port": 13002,
+            "address": "web.parspack.com",
+            "port": 2096,
             "users": [
               {
-                "id": "3d45b481-71d2-34ec-b8b1-5306cc7a1acf",
+                "id": "a98626c1-88ee-47db-ad1d-a8bd15910a83",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tElEWebIOn.onlIneVIsioNStorE.sITE"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ef483582-6269-468c-93af-c511eccb8a69",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "dnspsdhaitun.ncsuwei.top"
+            "Host": "tElEWebIOn.onlIneVIsioNStorE.sITE"
           }
         },
         "httpSettings": null,
