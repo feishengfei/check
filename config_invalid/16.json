@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mm3.shabijichang.com",
-            "port": 80,
+            "address": "b23.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "c458695d-6908-45c3-9512-e0c46418454c",
+                "id": "b4224a4d-6754-47e5-99ef-124697d24b4e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b23.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/b23",
           "headers": {
-            "Host": "mm3.shabijichang.com"
+            "Host": "b23.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "c2.wuxianliulianng.xyz",
-            "port": 443,
+            "address": "cf2.openxai.link",
+            "port": 8080,
             "users": [
               {
-                "id": "b0e43362-72b7-49ac-8eb6-fff69e07cfae",
+                "id": "f440527e-5243-4ca8-890c-5e05e4b3bb41",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "222.golinkwuxian.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/apple",
+          "path": "/",
           "headers": {
-            "Host": "222.golinkwuxian.top"
+            "Host": "eu1.openxai.link"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.13.8",
-            "port": 2053,
+            "address": "104.238.158.152",
+            "port": 2083,
             "users": [
               {
-                "id": "a4089f68-2bb1-4734-d77a-8b049a80ae8c",
+                "id": "ce03a832-d6bb-45a3-9121-f7bd6f189469",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "BAmIlo.ONlINeviSioNsTore.sITE"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "BAmIlo.ONlINeviSioNsTore.sITE"
+            "Host": ""
           }
         },
         "httpSettings": null,
