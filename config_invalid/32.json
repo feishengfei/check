@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "live.kozoom.net",
-            "port": 80,
+            "address": "ca-new01.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "6e7911ef-e064-44ca-e5f6-c76c0d7db288",
+                "id": "7fdbc047-438c-4c65-9859-101aaa60b6b6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "krshouer.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@blue-Youtube",
+          "path": "/",
           "headers": {
-            "Host": "krshouer.com"
+            "Host": "ca-new01.gujuji.top"
           }
         },
         "httpSettings": null,
