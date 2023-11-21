@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.46.56.210",
-            "port": 8443,
+            "address": "cc2.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "b72694db-ed21-46c1-8923-325305fa787f",
+                "id": "56278a1a-c7cc-459f-b00c-3037e4f99590",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "cc2.shabijichang.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
