@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "95.164.37.15",
-            "port": 80,
+            "address": "194.36.55.48",
+            "port": 2087,
             "users": [
               {
-                "id": "b5aafe8c-3527-4502-8add-9ca7417cfc88",
+                "id": "450d1764-72f7-4c17-acc4-f6bb346633eb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdnn.smaz170.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/elQE8lear6opOLOIC58Ln",
           "headers": {
-            "Host": "uk1-vmess.greenssh.xyz"
+            "Host": "cdnn.smaz170.top"
           }
         },
         "httpSettings": null,

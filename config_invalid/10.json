@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.85.1.130",
-            "port": 30000,
+            "address": "104.21.40.162",
+            "port": 443,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "d196ccc9-db42-475d-a7e4-7c27a6a326d1",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "be1.xv2ray.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1698843555400",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "be1.xv2ray.net"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq13.ntbq.dynu.net",
-            "port": 443,
+            "address": "199.15.77.157",
+            "port": 24336,
             "users": [
               {
-                "id": "38ff99d8-dbaf-430a-867e-200b89f4c70a",
+                "id": "eb0632c0-3aa3-40d7-aa7f-d5a4e436af1f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "hk-hy.changding.tech"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b13",
+          "path": "/changding-tls1?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "hk-hy.changding.tech"
           }
         },
         "httpSettings": null,
