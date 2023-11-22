@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq13.ntbq.dynu.net",
-            "port": 443,
+            "address": "95.164.37.15",
+            "port": 80,
             "users": [
               {
-                "id": "b3d43a0b-9ef8-4f87-a5c6-8da062e02620",
+                "id": "b5aafe8c-3527-4502-8add-9ca7417cfc88",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nbq13.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b13",
+          "path": "/vmess",
           "headers": {
-            "Host": "nbq13.ntbq.dynu.net"
+            "Host": "uk1-vmess.greenssh.xyz"
           }
         },
         "httpSettings": null,

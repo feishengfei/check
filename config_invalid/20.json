@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "95.164.37.15",
-            "port": 80,
+            "address": "b24.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "b5aafe8c-3527-4502-8add-9ca7417cfc88",
+                "id": "b1fd7844-4c95-4316-9a15-c7b415e9d84c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b24.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/b24",
           "headers": {
-            "Host": "uk1-vmess.greenssh.xyz"
+            "Host": "b24.ntbq.dynu.net"
           }
         },
         "httpSettings": null,
