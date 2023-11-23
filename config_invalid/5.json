@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "199.15.77.157",
-            "port": 24336,
+            "address": "146.190.87.59",
+            "port": 48022,
             "users": [
               {
-                "id": "eb0632c0-3aa3-40d7-aa7f-d5a4e436af1f",
+                "id": "ebb0ca35-4379-485a-a46f-02df666ac96b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hk-hy.changding.tech"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/changding-tls1?ed=2048",
+          "path": "/ADMIN_SHALANA",
           "headers": {
-            "Host": "hk-hy.changding.tech"
+            "Host": "media-exp1.licdn.com"
           }
         },
         "httpSettings": null,
