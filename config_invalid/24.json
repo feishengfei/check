@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq12.ntbq.dynu.net",
-            "port": 443,
+            "address": "api.lp-airdrop.top",
+            "port": 8443,
             "users": [
               {
-                "id": "6152dab2-5a09-44fe-9c14-3ece9dbbc4b8",
+                "id": "35be0dcf-0b1b-427d-e5e7-b85e7693df58",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "api.lp-airdrop.top"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b12",
+          "path": "/login",
           "headers": {
-            "Host": ""
+            "Host": "api.lp-airdrop.top"
           }
         },
         "httpSettings": null,

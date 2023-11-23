@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq13.ntbq.dynu.net",
-            "port": 443,
+            "address": "47.245.3.226",
+            "port": 8080,
             "users": [
               {
-                "id": "d6bc538d-2496-4818-b160-2d5875ba9a91",
+                "id": "1dc297e1-30e8-4a55-bb15-aded94b6f70c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b13",
+          "path": "/argox-vm?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "regarding-sharing-performances-heel.trycloudflare.com"
           }
         },
         "httpSettings": null,

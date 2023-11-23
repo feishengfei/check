@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "4jsx69.scwilll.my.id",
-            "port": 443,
+            "address": "112.29.94.23",
+            "port": 59137,
             "users": [
               {
-                "id": "6450acaa-dd3f-4fa4-acdc-f127db528e8b",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "4jsx69.scwilll.my.id"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vmessws",
-          "headers": {
-            "Host": "4jsx69.scwilll.my.id"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
