@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "95.164.89.142",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "5UyVcx4jYrcbFwmhPkhzim",
-            "port": 58603,
-            "level": 1,
-            "users": null
+            "address": "nbq13.ntbq.dynu.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "f2f304d9-cb53-4d7f-a76c-3f396f1f5512",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nbq13.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/b13",
+          "headers": {
+            "Host": "nbq13.ntbq.dynu.net"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
