@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq11.ntbq.dynu.net",
-            "port": 443,
+            "address": "family.mgtajhiz.ir",
+            "port": 2052,
             "users": [
               {
-                "id": "c0adcb77-692a-4122-983a-ec0f8f964ba1",
+                "id": "544f2e93-51b0-4d47-fd72-e7d858021bbd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b11",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "family.mgtajhiz.ir"
           }
         },
         "httpSettings": null,
