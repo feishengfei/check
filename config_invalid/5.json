@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq12.ntbq.dynu.net",
-            "port": 443,
+            "address": "146.190.93.32",
+            "port": 25467,
             "users": [
               {
-                "id": "f2f304d9-cb53-4d7f-a76c-3f396f1f5512",
+                "id": "95a4b306-097f-4d07-a615-df74f8220f15",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nbq12.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b12",
+          "path": "/",
           "headers": {
-            "Host": "nbq12.ntbq.dynu.net"
+            "Host": "SG.linkedin.com"
           }
         },
         "httpSettings": null,

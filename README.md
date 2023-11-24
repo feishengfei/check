@@ -6,13 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr         | cn      | cc   | isp     | ip                   | chatgpt          |
-|---:|:---------------------|:-------------|:--------|:-----|:--------|:---------------------|:-----------------|
-|  0 | [10](config/10.json) | 112.29.94.23 | Germany | DE   | OVH SAS | 2001:41d0:700:2c84:: | Yes (Region: FR) |
+|    | id                   | addr                   | cn            | cc   | isp                             | ip            | chatgpt          |
+|---:|:---------------------|:-----------------------|:--------------|:-----|:--------------------------------|:--------------|:-----------------|
+|  0 | [14](config/14.json) | n1700303374.aaigefm.cn | United States | US   | Alibaba US Technology Co., Ltd. | 47.76.167.200 | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk5OTlcdTZlMmZcdTk2M2ZcdTkxY2NcdTRlOTEgNSIsICJhZGQiOiAibjE3MDAzMDMzNzQuYWFpZ2VmbS5jbiIsICJwb3J0IjogNDQzLCAiaWQiOiAiMDcxMjFiNmMtZmZmZS00NmE2LWE5NTEtYmFhMzc3NmZlNDZmIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAiaG9zdCI6ICJuMTcwMDMwMzM3NC5hYWlnZWZtLmNuIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAidGxzIn0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTViODlcdTVmYmRcdTc3MDFcdTU0MDhcdTgwYTVcdTVlMDJcdTc5ZmJcdTUyYTggMTAiLCAiYWRkIjogIjExMi4yOS45NC4yMyIsICJwb3J0IjogIjQzNTI2IiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICIyMWE5YmZmMi03MmRlLTRlNjItOTNmZi04YjE1OWY2NmQ4NzUiLCAiYWlkIjogIjY0IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgImhvc3QiOiAiIiwgInRscyI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk5OTlcdTZlMmZcdTk2M2ZcdTkxY2NcdTRlOTEgMTQiLCAiYWRkIjogIm4xNzAwMzAzMzc0LmFhaWdlZm0uY24iLCAicG9ydCI6IDQ0MywgImlkIjogIjA3MTIxYjZjLWZmZmUtNDZhNi1hOTUxLWJhYTM3NzZmZTQ2ZiIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAibjE3MDAzMDMzNzQuYWFpZ2VmbS5jbiIsICJwYXRoIjogIi8iLCAidGxzIjogInRscyJ9
 ```
 

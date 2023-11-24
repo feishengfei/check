@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ukmws.mainssh.xyz",
-            "port": 443,
+            "address": "alter.ssfree.ru",
+            "port": 9000,
             "users": [
               {
-                "id": "59341904-14e4-47e0-b89b-077795482ee2",
+                "id": "e7d954e8-8aea-11ee-9b0c-00163e49219e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pmsc.pubgmobile.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/search",
           "headers": {
-            "Host": "pmsc.pubgmobile.com"
+            "Host": "www.baidu.com"
           }
         },
         "httpSettings": null,

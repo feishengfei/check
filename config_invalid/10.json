@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.85.1.130",
-            "port": 30000,
+            "address": "cp1.colacloud.site",
+            "port": 2086,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "7ba18d11-d98c-4a8d-85fd-61cff82441ce",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1698843555400",
+          "path": "/sssddd",
           "headers": {
-            "Host": ""
+            "Host": "cf-bx.colacloud.site"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cp1.colacloud.site",
-            "port": 2086,
+            "address": "ukmws.mainssh.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "7ba18d11-d98c-4a8d-85fd-61cff82441ce",
+                "id": "59341904-14e4-47e0-b89b-077795482ee2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pmsc.pubgmobile.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sssddd",
+          "path": "/vmess",
           "headers": {
-            "Host": "cf-bx.colacloud.site"
+            "Host": "pmsc.pubgmobile.com"
           }
         },
         "httpSettings": null,
