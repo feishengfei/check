@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq13.ntbq.dynu.net",
-            "port": 443,
+            "address": "154.198.224.38",
+            "port": 56120,
             "users": [
               {
-                "id": "f2f304d9-cb53-4d7f-a76c-3f396f1f5512",
+                "id": "97bb9103-3a5e-4104-a93d-003b6a85e997",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "nbq13.ntbq.dynu.net"
+          "serverName": "dci-sg.changding.me"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b13",
+          "path": "/vm-tls0?ed=2048",
           "headers": {
-            "Host": "nbq13.ntbq.dynu.net"
+            "Host": "dci-sg.changding.me"
           }
         },
         "httpSettings": null,

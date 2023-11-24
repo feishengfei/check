@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.85.1.130",
-            "port": 30000,
+            "address": "dl1.fanqiecloud.top",
+            "port": 2052,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "0e16258f-fe39-478c-8638-75d8b549839d",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1698843555400",
+          "path": "/sssddd",
           "headers": {
-            "Host": ""
+            "Host": "cf-hk.fanqiecloud.top"
           }
         },
         "httpSettings": null,

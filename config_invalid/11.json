@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.129.28",
-            "port": 8080,
+            "address": "ukmws.mainssh.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "94242109-0930-427f-f899-15d34021130c",
+                "id": "59341904-14e4-47e0-b89b-077795482ee2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pmsc.pubgmobile.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": "eu2.openxai.link"
+            "Host": "pmsc.pubgmobile.com"
           }
         },
         "httpSettings": null,

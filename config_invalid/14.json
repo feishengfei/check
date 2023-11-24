@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1700303374.aaigefm.cn",
-            "port": 443,
+            "address": "ld2.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "07121b6c-fffe-46a6-a951-baa3776fe46f",
+                "id": "c458695d-6908-45c3-9512-e0c46418454c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1700303374.aaigefm.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "n1700303374.aaigefm.cn"
+            "Host": "ld2.shabijichang.com"
           }
         },
         "httpSettings": null,
