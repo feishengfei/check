@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "176.120.74.142",
+            "address": "www.unpkg.com",
             "port": 443,
             "users": [
               {
-                "id": "75695f5a-b6af-44f4-9983-ae250b53ff9c",
+                "id": "1f1aa854-f237-4c00-adf1-803df276ce65",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "zUla.eSMaIlkOrEa.sHOp"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "176.120.74.142"
+            "Host": "zUla.eSMaIlkOrEa.sHOp"
           }
         },
         "httpSettings": null,
