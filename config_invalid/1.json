@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.20.222.182",
-            "port": 35235,
+            "address": "n1700303374.aaigefm.cn",
+            "port": 443,
             "users": [
               {
-                "id": "82ccffa8-85bd-4728-b24d-93783df46c25",
+                "id": "07121b6c-fffe-46a6-a951-baa3776fe46f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "hk-300.changding.tech"
+          "serverName": "n1700303374.aaigefm.cn"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/changding-tls1?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "hk-300.changding.tech"
+            "Host": "n1700303374.aaigefm.cn"
           }
         },
         "httpSettings": null,

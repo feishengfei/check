@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq11.ntbq.dynu.net",
-            "port": 443,
+            "address": "upload.ir",
+            "port": 80,
             "users": [
               {
-                "id": "b91e2e5c-47cd-4cb1-bff3-f4a063c2bfd7",
+                "id": "085f6281-5c4c-4a34-8b44-d65bc2e2b069",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b11",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "is3-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,
