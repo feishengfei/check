@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "family.mgtajhiz.ir",
-            "port": 2052,
+            "address": "104.24.137.186",
+            "port": 2087,
             "users": [
               {
-                "id": "544f2e93-51b0-4d47-fd72-e7d858021bbd",
+                "id": "579f31a4-634e-485c-cef3-e83c3b6babe7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us.kapacloud.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/blue",
           "headers": {
-            "Host": "family.mgtajhiz.ir"
+            "Host": "us.kapacloud.eu.org"
           }
         },
         "httpSettings": null,

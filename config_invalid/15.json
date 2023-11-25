@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.129.28",
-            "port": 8080,
+            "address": "ip.pitbull8585.top",
+            "port": 443,
             "users": [
               {
-                "id": "94242109-0930-427f-f899-15d34021130c",
+                "id": "ecad2a38-a9f3-40a9-f7e7-caa91ee4869c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "id.pitbull8585.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/downloader/58598",
           "headers": {
-            "Host": "eu2.openxai.link"
+            "Host": "id.pitbull8585.top"
           }
         },
         "httpSettings": null,

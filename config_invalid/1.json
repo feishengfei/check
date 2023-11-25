@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "112.29.94.23",
-            "port": 43526,
+            "address": "103.20.222.182",
+            "port": 35235,
             "users": [
               {
-                "id": "21a9bff2-72de-4e62-93ff-8b159f66d875",
-                "alterId": 64,
+                "id": "82ccffa8-85bd-4728-b24d-93783df46c25",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hk-300.changding.tech"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/changding-tls1?ed=2048",
+          "headers": {
+            "Host": "hk-300.changding.tech"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

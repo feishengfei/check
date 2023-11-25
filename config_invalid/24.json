@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "api.lp-airdrop.top",
-            "port": 8443,
+            "address": "tttt.ssfree.ru",
+            "port": 443,
             "users": [
               {
-                "id": "35be0dcf-0b1b-427d-e5e7-b85e7693df58",
+                "id": "ab0a1d4a-8b30-11ee-8fe5-00163e49219e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "api.lp-airdrop.top"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/login",
+          "path": "/search",
           "headers": {
-            "Host": "api.lp-airdrop.top"
+            "Host": ""
           }
         },
         "httpSettings": null,

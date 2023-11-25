@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "family.mgtajhiz.ir",
-            "port": 2052,
+            "address": "cn.azhz.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "544f2e93-51b0-4d47-fd72-e7d858021bbd",
+                "id": "622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "professional-psi-runtime-in.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8-vm",
           "headers": {
-            "Host": "family.mgtajhiz.ir"
+            "Host": "professional-psi-runtime-in.trycloudflare.com"
           }
         },
         "httpSettings": null,

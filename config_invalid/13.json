@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "142.4.97.65",
-            "port": 30000,
+            "address": "sg1.jidexufei.top",
+            "port": 443,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "8ab61f8b-2d9f-4105-90ad-9ab1540bbdda",
+                "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.39838266.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1699624723213",
+          "path": "/cctv13/hd.m3u8",
           "headers": {
-            "Host": "www.39838266.xyz"
+            "Host": "sg1.jidexufei.top"
           }
         },
         "httpSettings": null,
