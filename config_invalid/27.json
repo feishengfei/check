@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "upload.ir",
+            "address": "202.81.231.150",
             "port": 80,
             "users": [
               {
-                "id": "085f6281-5c4c-4a34-8b44-d65bc2e2b069",
+                "id": "82ccffa8-85bd-4728-b24d-93783df46c25",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/vm-tls0?ed=2048",
           "headers": {
-            "Host": "is3-vmess.sshmax.xyz"
+            "Host": "nm.changding.tech"
           }
         },
         "httpSettings": null,

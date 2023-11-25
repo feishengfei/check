@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.wto.org",
+            "address": "103.35.190.65",
             "port": 443,
             "users": [
               {
-                "id": "a41d48bb-578d-49a2-94e8-f3b97d892c1e",
+                "id": "ed531ebe-4971-47f9-a881-636d0b101a45",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tray-rapid-emacs-perfume.trycloudflare.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "a41d48bb-578d-49a2-94e8-f3b97d892c1e-vm",
+          "path": "/",
           "headers": {
-            "Host": "tray-rapid-emacs-perfume.trycloudflare.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

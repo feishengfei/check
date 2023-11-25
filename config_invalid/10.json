@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "zula.ir",
-            "port": 80,
+            "address": "198.2.202.23",
+            "port": 30000,
             "users": [
               {
-                "id": "3fd9190e-a132-42ca-a33b-4a37b4b3e0cd",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.94231160.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/path/1700571207277",
           "headers": {
-            "Host": "pl2-vmess.sshmax.xyz"
+            "Host": "www.94231160.xyz"
           }
         },
         "httpSettings": null,

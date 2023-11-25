@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ip.pitbull8585.top",
-            "port": 443,
+            "address": "dl3.fanqiecloud.top",
+            "port": 2086,
             "users": [
               {
-                "id": "ecad2a38-a9f3-40a9-f7e7-caa91ee4869c",
+                "id": "ee81193c-807a-46de-9525-f3a4ff4f17ac",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "id.pitbull8585.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/downloader/58598",
+          "path": "/sssddd",
           "headers": {
-            "Host": "id.pitbull8585.top"
+            "Host": "cf-fr2.fanqiecloud.top"
           }
         },
         "httpSettings": null,

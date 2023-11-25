@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1699974613.aaigefm.cn",
-            "port": 443,
+            "address": "mf805f.micloud.buzz",
+            "port": 46005,
             "users": [
               {
-                "id": "98e145b7-35ff-4309-aa5e-fd6107f199eb",
+                "id": "a824a85c-4bb0-4ab3-9d8a-bf9b02d9b20c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1699974613.aaigefm.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "n1699974613.aaigefm.cn"
+            "Host": "mf805f.micloud.buzz"
           }
         },
         "httpSettings": null,
