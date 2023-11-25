@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10903,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "146.190.93.32",
-            "port": 25467,
+            "address": "146.190.202.39",
+            "port": 19668,
             "users": [
               {
-                "id": "95a4b306-097f-4d07-a615-df74f8220f15",
+                "id": "2c34e996-14c5-4c79-9a36-487b692f2706",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -63,7 +63,7 @@
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "SG.linkedin.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
