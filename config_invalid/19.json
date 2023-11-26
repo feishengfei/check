@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ukmws.mainssh.xyz",
-            "port": 443,
+            "address": "103.74.105.236",
+            "port": 80,
             "users": [
               {
-                "id": "59341904-14e4-47e0-b89b-077795482ee2",
+                "id": "057177db-f003-40dc-a14b-488e8ceefcaa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pmsc.pubgmobile.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/zingfast.vn",
           "headers": {
-            "Host": "pmsc.pubgmobile.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

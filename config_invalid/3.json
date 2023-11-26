@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "indec.qkhbyf.tech",
-            "port": 2052,
+            "address": "198.2.202.23",
+            "port": 30000,
             "users": [
               {
-                "id": "6da3e574-52f1-4690-a53b-2847ce756456",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.94231160.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/lonan",
+          "path": "/path/1700571207277",
           "headers": {
-            "Host": "uswu.1145114.me"
+            "Host": "www.94231160.xyz"
           }
         },
         "httpSettings": null,

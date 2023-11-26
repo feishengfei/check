@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tttt.ssfree.ru",
-            "port": 443,
+            "address": "cmcu.1145114.me",
+            "port": 2052,
             "users": [
               {
-                "id": "12797f4c-8bb4-11ee-8458-00163e49219e",
+                "id": "6da3e574-52f1-4690-a53b-2847ce756456",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/lonan",
           "headers": {
-            "Host": ""
+            "Host": "ausy.1145114.me"
           }
         },
         "httpSettings": null,

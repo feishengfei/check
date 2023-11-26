@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mf805f.micloud.buzz",
-            "port": 46005,
+            "address": "nbq13.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "a824a85c-4bb0-4ab3-9d8a-bf9b02d9b20c",
+                "id": "2af2770b-0a8c-42bc-ac2b-331bba84e7eb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nbq13.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/b13",
           "headers": {
-            "Host": "mf805f.micloud.buzz"
+            "Host": "nbq13.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

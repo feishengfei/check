@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "docs.digitalocean.com",
-            "port": 2096,
+            "address": "cf2.openxai.link",
+            "port": 8080,
             "users": [
               {
-                "id": "039b72cc-14e1-4c06-985e-59e3f3f30050",
+                "id": "f440527e-5243-4ca8-890c-5e05e4b3bb41",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tElEWebIOn.hAsMAIlkOrEa.sTORe"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "tElEWebIOn.hAsMAIlkOrEa.sTORe"
+            "Host": "eu1.openxai.link"
           }
         },
         "httpSettings": null,

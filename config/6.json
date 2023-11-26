@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10932,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -38,11 +38,11 @@
         "servers": [
           {
             "email": null,
-            "address": "www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "method": "aes-256-gcm",
+            "address": "5.182.36.245",
+            "method": "chacha20-ietf-poly1305",
             "ota": false,
-            "password": "RexnBgU7EV5ADxG",
-            "port": 7001,
+            "password": "ndJuPjq7WbFDjB4oacljGw",
+            "port": 10141,
             "level": 1,
             "users": null
           }

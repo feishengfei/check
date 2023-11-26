@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.74.102.192",
-            "port": 80,
+            "address": "tttt.ssfree.ru",
+            "port": 443,
             "users": [
               {
-                "id": "057177db-f003-40dc-a14b-488e8ceefcaa",
+                "id": "12797f4c-8bb4-11ee-8458-00163e49219e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zingfast.vn",
+          "path": "/search",
           "headers": {
             "Host": ""
           }
