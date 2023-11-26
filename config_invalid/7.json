@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "112.29.94.23",
-            "port": 43526,
+            "address": "104.31.16.92",
+            "port": 80,
             "users": [
               {
-                "id": "21a9bff2-72de-4e62-93ff-8b159f66d875",
-                "alterId": 64,
+                "id": "4d5de50f-1e63-4535-b81b-e8abe8a1bf5a",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "lashi.mihanbaran.online"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

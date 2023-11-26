@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "laxuskfa.qkhbyf.tech",
-            "port": 2052,
+            "address": "v14.583182.xyz",
+            "port": 8443,
             "users": [
               {
-                "id": "6da3e574-52f1-4690-a53b-2847ce756456",
+                "id": "82004657-f231-4be9-8923-e152eca22e57",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v14.583181.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/lonan",
+          "path": "/",
           "headers": {
-            "Host": "usiorc.qkhbyf.tech"
+            "Host": "v14.583181.xyz"
           }
         },
         "httpSettings": null,

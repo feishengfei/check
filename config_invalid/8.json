@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ynone.yunjisuan.cf",
-            "port": 80,
+            "address": "google.efnten.top",
+            "port": 443,
             "users": [
               {
-                "id": "c75b345e-bb05-4a44-88e1-ca026ffe965d",
+                "id": "1bca0e3c-9c32-49af-87da-80f18c8a5086",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vslshm.turbo021.link"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/1bca0e3c-9c32-49af-87da-80f18c8a5086",
           "headers": {
-            "Host": "tms.dingtalk.com"
+            "Host": "vslshm.turbo021.link"
           }
         },
         "httpSettings": null,
