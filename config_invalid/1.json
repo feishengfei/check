@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b21.ntbq.dynu.net",
-            "port": 443,
+            "address": "xgthree.yunjisuan.cf",
+            "port": 80,
             "users": [
               {
-                "id": "2af2770b-0a8c-42bc-ac2b-331bba84e7eb",
+                "id": "c75b345e-bb05-4a44-88e1-ca026ffe965d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b21.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b21",
+          "path": "/",
           "headers": {
-            "Host": "b21.ntbq.dynu.net"
+            "Host": "tms.dingtalk.com"
           }
         },
         "httpSettings": null,
