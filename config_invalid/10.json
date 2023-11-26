@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.129.28",
-            "port": 8080,
+            "address": "104.18.154.42",
+            "port": 2087,
             "users": [
               {
-                "id": "94242109-0930-427f-f899-15d34021130c",
+                "id": "b04ceabb-bc4a-467a-f33d-37f9f177fa52",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "bAmIlO.ESmaIlKoReA.sHOp"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "eu2.openxai.link"
+            "Host": "bAmIlO.ESmaIlKoReA.sHOp"
           }
         },
         "httpSettings": null,

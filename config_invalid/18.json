@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cc2.shabijichang.com",
-            "port": 80,
+            "address": "tttt.ssfree.ru",
+            "port": 443,
             "users": [
               {
-                "id": "56278a1a-c7cc-459f-b00c-3037e4f99590",
+                "id": "2b54fddc-8c42-11ee-b132-00163e49219e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/search",
           "headers": {
-            "Host": "cc2.shabijichang.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

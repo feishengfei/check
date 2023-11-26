@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "47.242.109.138",
-            "port": 443,
+            "address": "us1.bot-hosting.net",
+            "port": 20616,
             "users": [
               {
-                "id": "9dc41e4b-53a8-a442-e911-4bc5f490f2cd",
+                "id": "8c94dfd8-52dd-451c-8c85-26770cd41768",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/myblog",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "us1.bot-hosting.net"
           }
         },
         "httpSettings": null,

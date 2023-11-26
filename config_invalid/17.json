@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "217.196.101.125",
-            "port": 8080,
+            "address": "xg_cdntow.yunjisuan.cf",
+            "port": 2083,
             "users": [
               {
-                "id": "752a3159-bf37-487e-b6c0-b6b206e8ee9e",
+                "id": "c75b345e-bb05-4a44-88e1-ca026ffe965d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "xg_cdntow.yunjisuan.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "xg_cdntow.yunjisuan.cf"
           }
         },
         "httpSettings": null,
