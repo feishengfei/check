@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-fsl.jikuai.xyz",
-            "port": 8443,
+            "address": "103.57.131.169",
+            "port": 80,
             "users": [
               {
-                "id": "3463f953-a603-4316-ac6d-642c8680d66e",
+                "id": "057177db-f003-40dc-a14b-488e8ceefcaa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/user",
+          "path": "/zingfast.vn",
           "headers": {
             "Host": ""
           }

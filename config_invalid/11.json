@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dl4.fanqiecloud.top",
-            "port": 2086,
+            "address": "nbq12.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "2821ce09-2e52-4a9b-b8b6-942405498ef3",
+                "id": "b979cbad-64a2-4d71-9244-ff3b78557f2b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nbq12.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sssddd",
+          "path": "/b12",
           "headers": {
-            "Host": "cf-tw.fanqiecloud.top"
+            "Host": "nbq12.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

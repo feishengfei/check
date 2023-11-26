@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cn.azhz.eu.org",
-            "port": 443,
+            "address": "cc2.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8",
+                "id": "56278a1a-c7cc-459f-b00c-3037e4f99590",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sig-tt-yemen-swedish.trycloudflare.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8-vm",
+          "path": "/",
           "headers": {
-            "Host": "sig-tt-yemen-swedish.trycloudflare.com"
+            "Host": "cc2.shabijichang.com"
           }
         },
         "httpSettings": null,
