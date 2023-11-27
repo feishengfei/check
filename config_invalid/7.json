@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.92",
-            "port": 80,
+            "address": "b21.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "4d5de50f-1e63-4535-b81b-e8abe8a1bf5a",
+                "id": "b979cbad-64a2-4d71-9244-ff3b78557f2b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b21.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/b21",
           "headers": {
-            "Host": "lashi.mihanbaran.online"
+            "Host": "b21.ntbq.dynu.net"
           }
         },
         "httpSettings": null,
