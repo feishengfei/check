@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq11.ntbq.dynu.net",
-            "port": 443,
+            "address": "104.24.254.169",
+            "port": 80,
             "users": [
               {
-                "id": "b979cbad-64a2-4d71-9244-ff3b78557f2b",
+                "id": "86fde1f5-8dc0-4f73-a0dc-ec047dd42213",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
+        "security": "none",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "nbq11.ntbq.dynu.net"
+          "serverName": "us.kapacloud.eu.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b11",
+          "path": "/blue",
           "headers": {
-            "Host": "nbq11.ntbq.dynu.net"
+            "Host": "us.kapacloud.eu.org"
           }
         },
         "httpSettings": null,

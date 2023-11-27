@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf2.openxai.link",
-            "port": 8080,
+            "address": "v13.583182.xyz",
+            "port": 2053,
             "users": [
               {
-                "id": "f440527e-5243-4ca8-890c-5e05e4b3bb41",
+                "id": "daa1dbbe-e0aa-4ee9-ae29-438e84667e1f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v13.583181.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "eu1.openxai.link"
+            "Host": "v13.583181.xyz"
           }
         },
         "httpSettings": null,

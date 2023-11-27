@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b21.ntbq.dynu.net",
-            "port": 443,
+            "address": "zula.ir",
+            "port": 80,
             "users": [
               {
-                "id": "b979cbad-64a2-4d71-9244-ff3b78557f2b",
+                "id": "753d0d83-3f5b-4821-860e-082f0b3db609",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b21.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b21",
+          "path": "/vmess",
           "headers": {
-            "Host": "b21.ntbq.dynu.net"
+            "Host": "no1-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,
