@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v14.583182.xyz",
-            "port": 8443,
+            "address": "cn.azhz.eu.org",
+            "port": 2096,
             "users": [
               {
-                "id": "82004657-f231-4be9-8923-e152eca22e57",
+                "id": "622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "v14.583181.xyz"
+          "serverName": "organizing-knife-newbie-ict.trycloudflare.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8-vm",
           "headers": {
-            "Host": "v14.583181.xyz"
+            "Host": "organizing-knife-newbie-ict.trycloudflare.com"
           }
         },
         "httpSettings": null,
