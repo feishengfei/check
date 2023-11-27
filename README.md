@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr                  | cn            | cc   | isp                    | ip            | chatgpt          |
-|---:|:-------------------|:----------------------|:--------------|:-----|:-----------------------|:--------------|:-----------------|
-|  0 | [8](config/8.json) | cfcdn1.sanfencdn9.com | United States | US   | Akamai Connected Cloud | 50.116.12.114 | Yes (Region: US) |
+|    | id                 | addr                                                                                            | cn     | cc   | isp     | ip            | chatgpt          |
+|---:|:-------------------|:------------------------------------------------------------------------------------------------|:-------|:-----|:--------|:--------------|:-----------------|
+|  0 | [5](config/5.json) | ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou | Poland | PL   | OVH SAS | 54.36.174.181 | Yes (Region: FR) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiY2ZjZG4xLnNhbmZlbmNkbjkuY29tIiwgImFpZCI6IDAsICJob3N0IjogInVzMTJjMmViZTliLnZqZnZ5emZoaGYueHl6IiwgImlkIjogImM5MzNkNTE1LWFjMmItNDBkYi1iYzdjLTEyNzUzYzUzNWJlNyIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvdmlkZW8vUUtFWU1mRXcvIiwgInBvcnQiOiAyMDUyLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDgiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8119#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%205
 ```
 
