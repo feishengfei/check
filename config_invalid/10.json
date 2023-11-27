@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn3.sanfencdn9.com",
-            "port": 80,
+            "address": "b22.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "da8f15b8-badb-4501-b5ef-debcaf7fe294",
+                "id": "3feeacfc-dee3-47a1-8f0c-4079220f4bc2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b22.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/video/hJdpbDKj",
+          "path": "/b22",
           "headers": {
-            "Host": "jp441fd46a7.chvsifetrj.xyz"
+            "Host": "b22.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

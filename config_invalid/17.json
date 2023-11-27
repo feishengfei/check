@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.unpkg.com",
-            "port": 2053,
+            "address": "cc3.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "26ce2cda-b12a-469b-e066-a6503f635dcb",
+                "id": "c458695d-6908-45c3-9512-e0c46418454c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "zUla.eSMaIlkOrEa.sHOp"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "zUla.eSMaIlkOrEa.sHOp"
+            "Host": "cc3.shabijichang.com"
           }
         },
         "httpSettings": null,
