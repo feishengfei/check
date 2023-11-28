@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "f01.bzshare.com",
-            "port": 443,
+            "address": "fr-01.jikuai.xyz",
+            "port": 2082,
             "users": [
               {
-                "id": "ab2121d8-e3b4-4df5-bf53-e08ff631a417",
+                "id": "70666776-4e9f-4350-b3f0-afaff6a70db0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fs.appls.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/D26xvdqUdCpvvPTz4R",
+          "path": "/",
           "headers": {
-            "Host": "fs.appls.eu.org"
+            "Host": "fr-01.jikuai.xyz"
           }
         },
         "httpSettings": null,
