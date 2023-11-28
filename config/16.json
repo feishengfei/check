@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10916,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cz1-vmess.sshmax.xyz",
-            "port": 80,
+            "address": "n1700373161.aaigefm.cn",
+            "port": 443,
             "users": [
               {
-                "id": "ef7cfdf6-63e1-4307-bb61-40eb81acb5bd",
+                "id": "ac897b22-58ae-447d-b323-f837c1d5e75f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1700373161.aaigefm.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "n1700373161.aaigefm.cn"
           }
         },
         "httpSettings": null,
