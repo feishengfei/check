@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bx.lonan.qkhbyf.tech",
-            "port": 443,
+            "address": "172.67.68.136",
+            "port": 80,
             "users": [
               {
-                "id": "6da3e574-52f1-4690-a53b-2847ce756456",
+                "id": "08b2ceb1-5917-42da-b02c-0f942754aac6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "haxus1126.cxzntq.tech"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/lonan",
+          "path": "/aries?ed=2048",
           "headers": {
-            "Host": "haxus1126.cxzntq.tech"
+            "Host": "buyvm.iiio.wiki"
           }
         },
         "httpSettings": null,

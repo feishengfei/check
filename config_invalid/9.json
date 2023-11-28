@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "95.179.128.114",
-            "port": 80,
+            "address": "f01.bzshare.com",
+            "port": 443,
             "users": [
               {
-                "id": "a6292090-afe1-4640-97a7-4f1d1d877cf1",
+                "id": "ab2121d8-e3b4-4df5-bf53-e08ff631a417",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fs.appls.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Av8czorIlYicU6D349brWUw6a",
+          "path": "/D26xvdqUdCpvvPTz4R",
           "headers": {
-            "Host": "95.179.128.114"
+            "Host": "fs.appls.eu.org"
           }
         },
         "httpSettings": null,
