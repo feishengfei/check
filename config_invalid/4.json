@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.68.136",
-            "port": 80,
+            "address": "n1700303376.izwhvan.cn",
+            "port": 443,
             "users": [
               {
-                "id": "08b2ceb1-5917-42da-b02c-0f942754aac6",
+                "id": "ee65c32d-afc8-4d54-b91e-b334354fa5c2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1700303376.izwhvan.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aries?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "buyvm.iiio.wiki"
+            "Host": "n1700303376.izwhvan.cn"
           }
         },
         "httpSettings": null,
