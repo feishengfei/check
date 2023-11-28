@@ -6,12 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr                   | cn            | cc   | isp                             | ip            | chatgpt          |
-|---:|:-------------------|:-----------------------|:--------------|:-----|:--------------------------------|:--------------|:-----------------|
-|  0 | [7](config/7.json) | n1700303374.aaigefm.cn | United States | US   | Alibaba US Technology Co., Ltd. | 47.76.167.200 | Yes (Region: US) |
+|    | id                   | addr           | cn        | cc   | isp                                                            | ip             | chatgpt          |
+|---:|:---------------------|:---------------|:----------|:-----|:---------------------------------------------------------------|:---------------|:-----------------|
+|  0 | [8](config/8.json)   | 183.232.238.77 | Hong Kong | HK   | Zhipinshang Hongkong Electron Communication Technology Limited | 104.251.224.35 | Yes (Region: US) |
+|  1 | [13](config/13.json) | 185.218.20.4   | Turkey    | TR   | DEDICATED-FIBER-COMMUNICATIONS                                 | 185.218.20.4   | Yes (Region: TR) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAibjE3MDAzMDMzNzQuYWFpZ2VmbS5jbiIsICJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk5OTlcdTZlMmZcdTk2M2ZcdTkxY2NcdTRlOTEgNyIsICJwb3J0IjogNDQzLCAiaWQiOiAiMDcxMjFiNmMtZmZmZS00NmE2LWE5NTEtYmFhMzc3NmZlNDZmIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJob3N0IjogIm4xNzAwMzAzMzc0LmFhaWdlZm0uY24iLCAicGF0aCI6ICIvIiwgInRscyI6ICJ0bHMifQ==
+vmess://eyJhZGQiOiAiMTgzLjIzMi4yMzguNzciLCAiYWlkIjogMCwgImhvc3QiOiAiIiwgImlkIjogImFiNTM3MTk1LWI3NGMtM2RmNS1hM2ExLWQ1MDQzNDVlODBiYiIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAzNTA0LCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTRlMWNcdTgzOWVcdTVlMDJcdTc5ZmJcdTUyYTggOCIsICJ0bHMiOiAiIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjQmdoVHhvMnM4Y3M4R1duZVhsUmV0@185.218.20.4:443#github.com/freefq%20-%20%E8%A5%BF%E7%8F%AD%E7%89%99%20%2013
 ```
 

@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "54.36.174.181",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "cdBIDV42DCwnfIN",
-            "port": 8118,
-            "level": 1,
-            "users": null
+            "address": "vpro11.win",
+            "port": 443,
+            "users": [
+              {
+                "id": "9DC41E4B-53A8-A442-E911-4BC5F490F2CD",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vpro11.win"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/myblog",
+          "headers": {
+            "Host": "vpro11.win"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

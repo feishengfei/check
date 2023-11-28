@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-01.jikuai.xyz",
-            "port": 2082,
+            "address": "bx.lonan.qkhbyf.tech",
+            "port": 443,
             "users": [
               {
-                "id": "70666776-4e9f-4350-b3f0-afaff6a70db0",
+                "id": "6da3e574-52f1-4690-a53b-2847ce756456",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "haxus1126.cxzntq.tech"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/lonan",
           "headers": {
-            "Host": ""
+            "Host": "haxus1126.cxzntq.tech"
           }
         },
         "httpSettings": null,
