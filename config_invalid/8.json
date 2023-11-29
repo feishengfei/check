@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 8080,
+            "address": "b24.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "dfcdd618-cc97-4654-bbad-212050a916e7",
+                "id": "03b47562-d220-4bdb-bfda-2f08ec20e5fa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b24.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/b24",
           "headers": {
-            "Host": "gr-cl.whaleproject.tech"
+            "Host": "b24.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

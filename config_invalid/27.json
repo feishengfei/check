@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.254.169",
-            "port": 80,
+            "address": "cf2.openxai.link",
+            "port": 8080,
             "users": [
               {
-                "id": "86fde1f5-8dc0-4f73-a0dc-ec047dd42213",
+                "id": "47396f9c-365d-4b99-ad1f-f7927164b4c5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us.kapacloud.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue",
+          "path": "/",
           "headers": {
-            "Host": "us.kapacloud.eu.org"
+            "Host": "eu3.openxai.link"
           }
         },
         "httpSettings": null,

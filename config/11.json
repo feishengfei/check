@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10913,
+      "port": 10911,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1700303374.aaigefm.cn",
-            "port": 443,
+            "address": "172.64.88.169",
+            "port": 80,
             "users": [
               {
-                "id": "07121b6c-fffe-46a6-a951-baa3776fe46f",
+                "id": "ffbfc19a-6495-4d14-c95c-06a09d013309",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1700303374.aaigefm.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ffbfc19a-6495-4d14-c95c-06a09d013309",
           "headers": {
-            "Host": "n1700303374.aaigefm.cn"
+            "Host": "tgdns68.9669.link"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "singapore.com",
-            "port": 8880,
+            "address": "xyz29.forwardv2raytelegramchannel.fun",
+            "port": 2096,
             "users": [
               {
-                "id": "2a683a54-f098-4d98-92fc-762b85d907b9",
+                "id": "819f16dc-5632-42dd-8427-09a702867016",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/FORWARDV2RAY",
           "headers": {
-            "Host": "ssrsub.v001.ssrsub.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
