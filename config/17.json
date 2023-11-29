@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10924,
+      "port": 10917,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1700303376.izwhvan.cn",
+            "address": "188.114.96.3",
             "port": 443,
             "users": [
               {
-                "id": "ee65c32d-afc8-4d54-b91e-b334354fa5c2",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "n1700303376.izwhvan.cn"
+          "serverName": "oliv.beauty"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "linkvws",
           "headers": {
-            "Host": "n1700303376.izwhvan.cn"
+            "Host": "oliv.beauty"
           }
         },
         "httpSettings": null,

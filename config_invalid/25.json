@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v94.topman8846.cc",
-            "port": 41332,
+            "address": "a8.wxlljc520.com",
+            "port": 443,
             "users": [
               {
-                "id": "d2a1cd29-9ac2-3165-a082-cf09cdd3bf50",
+                "id": "4d7732ee-986a-4c25-8443-d6fefa8d2190",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "777.golinkwuxian.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/apple",
+          "headers": {
+            "Host": "777.golinkwuxian.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
