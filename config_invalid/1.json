@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1699974613.aaigefm.cn",
-            "port": 443,
+            "address": "183.232.159.153",
+            "port": 30007,
             "users": [
               {
-                "id": "98e145b7-35ff-4309-aa5e-fd6107f199eb",
+                "id": "2567bed8-e47a-4a8b-a336-244fdd203e9b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "n1699974613.aaigefm.cn"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/aceamedv",
           "headers": {
-            "Host": "n1699974613.aaigefm.cn"
+            "Host": "v01.gutingting.com"
           }
         },
         "httpSettings": null,

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.74.244.1",
-            "port": 30000,
+            "address": "tg_mfbpn_oz1.52vpn.eu.org",
+            "port": 40002,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "60bb96f2-f0dc-32dc-8dc3-e80fb07694c6",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.54146999.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1700403634984",
+          "path": "/chat",
           "headers": {
-            "Host": "www.54146999.xyz"
+            "Host": "microsoft.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.yifenjichang.top",
-            "port": 2087,
+            "address": "b24.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8",
+                "id": "03b47562-d220-4bdb-bfda-2f08ec20e5fa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "swap-signature-acne-lookup.trycloudflare.com"
+          "serverName": "b24.ntbq.dynu.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8-vm",
+          "path": "/b24",
           "headers": {
-            "Host": "swap-signature-acne-lookup.trycloudflare.com"
+            "Host": "b24.ntbq.dynu.net"
           }
         },
         "httpSettings": null,
