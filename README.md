@@ -6,16 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                                                                                            | cn     | cc   | isp     | ip                  | chatgpt          |
-|---:|:---------------------|:------------------------------------------------------------------------------------------------|:-------|:-----|:--------|:--------------------|:-----------------|
-|  0 | [4](config/4.json)   | 54.36.174.181                                                                                   | Poland | PL   | OVH SAS | 54.36.174.181       | Yes (Region: FR) |
-|  1 | [14](config/14.json) | www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou | Poland | PL   | OVH SAS | 2001:41d0:602:db5:: | Yes (Region: FR) |
-|  2 | [19](config/19.json) | 54.36.174.181                                                                                   | Poland | PL   | OVH SAS | 54.36.174.181       | Yes (Region: FR) |
+|    | id                   | addr            | cn        | cc   | isp                                                            | ip              | chatgpt          |
+|---:|:---------------------|:----------------|:----------|:-----|:---------------------------------------------------------------|:----------------|:-----------------|
+|  0 | [13](config/13.json) | 146.190.106.191 | Singapore | SG   | DIGITALOCEAN-ASN                                               | 146.190.106.191 | Yes (Region: SG) |
+|  1 | [16](config/16.json) | 183.232.238.77  | Hong Kong | HK   | Zhipinshang Hongkong Electron Communication Technology Limited | 104.251.224.35  | Yes (Region: US) |
 
 ## Valid
 ```
-ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@54.36.174.181:2376#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%204
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:7001#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2014
-ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@54.36.174.181:5003#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2019
+vmess://eyJhZGQiOiAiMTQ2LjE5MC4xMDYuMTkxIiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIm0ubGlua2VkaW4uY29tIiwgImlkIjogImEzYTM1ZGJmLThhNTgtNGVhOS1kMzIxLTM5Yjc2YzNiZWRhMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvYWxwaGEiLCAicG9ydCI6ICIyOTA0NSIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZCAgMTMiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTRlMWNcdTgzOWVcdTVlMDJcdTc5ZmJcdTUyYTggMTYiLCAiYWRkIjogIjE4My4yMzIuMjM4Ljc3IiwgInBvcnQiOiAiMzUwNCIsICJpZCI6ICJhYjUzNzE5NS1iNzRjLTNkZjUtYTNhMS1kNTA0MzQ1ZTgwYmIiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIiLCAicGF0aCI6ICIiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
 ```
 

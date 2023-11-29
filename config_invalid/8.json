@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v02.gutingting.com",
-            "port": 30000,
+            "address": "xyz23.forwardv2raytelegramchannel.fun",
+            "port": 2096,
             "users": [
               {
-                "id": "2567bed8-e47a-4a8b-a336-244fdd203e9b",
+                "id": "819f16dc-5632-42dd-8427-09a702867016",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/aceamedv",
+          "path": "/FORWARDV2RAY",
           "headers": {
-            "Host": "gz.fastcloud.club"
+            "Host": ""
           }
         },
         "httpSettings": null,
