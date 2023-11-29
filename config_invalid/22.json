@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tc12.kq1.dynu.net",
-            "port": 443,
+            "address": "183.232.159.153",
+            "port": 30007,
             "users": [
               {
-                "id": "f5450865-78a2-4157-a5b1-55ee50170aaa",
+                "id": "2567bed8-e47a-4a8b-a336-244fdd203e9b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tc12.kq1.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vbub2",
+          "path": "/aceamedv",
           "headers": {
-            "Host": "tc12.kq1.dynu.net"
+            "Host": "v01.gutingting.com"
           }
         },
         "httpSettings": null,

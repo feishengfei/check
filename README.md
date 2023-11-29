@@ -6,16 +6,16 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr              | cn            | cc   | isp                         | ip                   | chatgpt          |
-|---:|:---------------------|:------------------|:--------------|:-----|:----------------------------|:---------------------|:-----------------|
-|  0 | [2](config/2.json)   | 38.75.136.49      | United States | US   | AS-GLOBALTELEHOST           | 38.75.136.49         | Yes (Region: US) |
-|  1 | [10](config/10.json) | 4.229.41.114      | Canada        | CA   | MICROSOFT-CORP-MSN-AS-BLOCK | 4.229.41.114         | Yes (Region: CA) |
-|  2 | [36](config/36.json) | www.speedtest.net | Germany       | DE   | Hetzner Online GmbH         | 2a01:4f8:c17:b589::1 | Yes (Region: DE) |
+|    | id                   | addr                                                                                            | cn     | cc   | isp     | ip                  | chatgpt          |
+|---:|:---------------------|:------------------------------------------------------------------------------------------------|:-------|:-----|:--------|:--------------------|:-----------------|
+|  0 | [4](config/4.json)   | 54.36.174.181                                                                                   | Poland | PL   | OVH SAS | 54.36.174.181       | Yes (Region: FR) |
+|  1 | [14](config/14.json) | www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou | Poland | PL   | OVH SAS | 2001:41d0:602:db5:: | Yes (Region: FR) |
+|  2 | [19](config/19.json) | 54.36.174.181                                                                                   | Poland | PL   | OVH SAS | 54.36.174.181       | Yes (Region: FR) |
 
 ## Valid
 ```
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.75.136.49:7306#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%E5%8D%8E%E7%9B%9B%E9%A1%BFCogent%E9%80%9A%E4%BF%A1%E5%85%AC%E5%8F%B8%202
-vmess://eyJhZGQiOiAiNC4yMjkuNDEuMTE0IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIiIsICJpZCI6ICI4YWY4NWQ3NC1kZmE4LTQ3ZjgtZWEyZi01NGZiZDE4OGVjNWEiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogIjE5OTk4IiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkXHU1MmEwXHU1MjI5XHU3OThmXHU1YzNjXHU0ZTlhXHU1ZGRlXHU2ZDFiXHU2NzQ5XHU3N2Y2TGV2ZWwzXHU5MDFhXHU0ZmUxKERJQSkgMTAiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
-vmess://eyJhZGQiOiAid3d3LnNwZWVkdGVzdC5uZXQiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiZ3ItY2wud2hhbGVwcm9qZWN0LnRlY2giLCAiaWQiOiAiZGZjZGQ2MTgtY2M5Ny00NjU0LWJiYWQtMjEyMDUwYTkxNmU3IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6ICI4MDgwIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkQ2xvdWRGbGFyZVx1NTE2Y1x1NTNmOENETlx1ODI4Mlx1NzBiOSAzNiIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@54.36.174.181:2376#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%204
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:7001#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2014
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@54.36.174.181:5003#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2019
 ```
 
