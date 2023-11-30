@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.54.185.111",
-            "port": 30000,
+            "address": "cdn.yifenjichang.top",
+            "port": 2087,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "www.73664999.xyz"
+          "serverName": "contracts-customs-lloyd-reynolds.trycloudflare.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1700571207277",
+          "path": "/622dc2d0-b3ca-41d3-8e16-c2ce10d2f5c8-vm",
           "headers": {
-            "Host": "www.73664999.xyz"
+            "Host": "contracts-customs-lloyd-reynolds.trycloudflare.com"
           }
         },
         "httpSettings": null,
