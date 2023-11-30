@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hytron.io",
-            "port": 8080,
+            "address": "it1.cou.gay",
+            "port": 443,
             "users": [
               {
-                "id": "010c265f-5455-4141-ca23-4d69357ded0d",
+                "id": "564ee758-abeb-4950-b13f-e4edba2f0254",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "it1.cou.gay"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/it1?ed=2048",
           "headers": {
-            "Host": "aktw.daozhang.love"
+            "Host": "it1.cou.gay"
           }
         },
         "httpSettings": null,

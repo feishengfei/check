@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.120",
-            "port": 8443,
+            "address": "dl2.fanqiecloud.top",
+            "port": 2086,
             "users": [
               {
-                "id": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+                "id": "c2c77753-55e1-45fc-8806-23b77f08f349",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cloudconebbb.gorgorchicken.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cloudconebbb",
+          "path": "/sssddd",
           "headers": {
-            "Host": "cloudconebbb.gorgorchicken.one"
+            "Host": "cf-nl.fanqiecloud.top"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn1.chiencloud.fun",
-            "port": 80,
+            "address": "nbq13.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "ef69c32d-f28f-4188-aa46-71f8a853f355",
+                "id": "d4d569d6-dbae-4ea3-bd7b-80f857b82f98",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nbq13.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/chiencloud.fun",
+          "path": "/b13",
           "headers": {
-            "Host": ""
+            "Host": "nbq13.ntbq.dynu.net"
           }
         },
         "httpSettings": null,
