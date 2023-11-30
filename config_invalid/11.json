@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "a1.forwardv2raytelegramchannel.fun",
-            "port": 2095,
+            "address": "185.238.228.253",
+            "port": 443,
             "users": [
               {
-                "id": "19529d4e-8c0e-47d0-93de-bd9a31b476d2",
+                "id": "93f1de92-bb07-43de-bfa6-a754b21f7768",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sub1.ipsycho.pro"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/FORWARDV2RAY",
+          "path": "/Rasa90YNN0UMn08ptOW19FvL",
           "headers": {
-            "Host": ""
+            "Host": "sub1.ipsycho.pro"
           }
         },
         "httpSettings": null,

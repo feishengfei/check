@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq11.ntbq.dynu.net",
-            "port": 443,
+            "address": "xyz18.forwardv2raytelegramchannel.fun",
+            "port": 2052,
             "users": [
               {
-                "id": "03b47562-d220-4bdb-bfda-2f08ec20e5fa",
+                "id": "d62e72b0-14a2-439a-9912-c133bf89237b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nbq11.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b11",
+          "path": "/FORWARDV2RAY",
           "headers": {
-            "Host": "nbq11.ntbq.dynu.net"
+            "Host": ""
           }
         },
         "httpSettings": null,
