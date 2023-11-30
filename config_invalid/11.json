@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.238.228.253",
-            "port": 443,
+            "address": "14.225.252.43",
+            "port": 80,
             "users": [
               {
-                "id": "93f1de92-bb07-43de-bfa6-a754b21f7768",
+                "id": "cd039512-e335-44ba-bef5-4c70c70f5786",
                 "alterId": 0,
                 "email": "",
-                "security": "chacha20-poly1305",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sub1.ipsycho.pro"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Rasa90YNN0UMn08ptOW19FvL",
+          "path": "/",
           "headers": {
-            "Host": "sub1.ipsycho.pro"
+            "Host": ""
           }
         },
         "httpSettings": null,

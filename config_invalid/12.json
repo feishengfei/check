@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2u2.ntbq.dynu.net",
-            "port": 443,
+            "address": "103.245.237.126",
+            "port": 80,
             "users": [
               {
-                "id": "7bcd1b11-ac49-40f7-9197-4df867192564",
+                "id": "cd039512-e335-44ba-bef5-4c70c70f5786",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b22",
+          "path": "",
           "headers": {
-            "Host": ""
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,
