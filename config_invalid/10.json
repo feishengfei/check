@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "146.75.24.176",
-            "port": 80,
+            "address": "b24.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "33e11326-a83d-439a-8036-42a5bb3d664b",
+                "id": "f5450865-78a2-4157-a5b1-55ee50170aaa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b24.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13/hd.m3u8",
+          "path": "/b24",
           "headers": {
-            "Host": "nihaoyasg11.com"
+            "Host": "b24.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

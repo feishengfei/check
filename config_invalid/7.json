@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dl2.fanqiecloud.top",
-            "port": 2086,
+            "address": "198.41.223.215",
+            "port": 80,
             "users": [
               {
-                "id": "20ff385b-12f4-4bea-bd43-329d293af65b",
+                "id": "2a683a54-f098-4d98-92fc-762b85d907b9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sssddd",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "cf-nl.fanqiecloud.top"
+            "Host": "ssrsub.v004.ssrsub.com"
           }
         },
         "httpSettings": null,
