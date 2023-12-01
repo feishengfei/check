@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tttt.ssfree.ru",
-            "port": 443,
+            "address": "vn1.chiencloud.fun",
+            "port": 80,
             "users": [
               {
-                "id": "8537f35e-8f99-11ee-8c61-00163e49219e",
+                "id": "ef69c32d-f28f-4188-aa46-71f8a853f355",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/chiencloud.fun",
           "headers": {
             "Host": ""
           }

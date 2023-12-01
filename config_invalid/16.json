@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "198.41.223.215",
-            "port": 80,
+            "address": "b2u2.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "2a683a54-f098-4d98-92fc-762b85d907b9",
+                "id": "7bcd1b11-ac49-40f7-9197-4df867192564",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/b22",
           "headers": {
-            "Host": "ssrsub.v004.ssrsub.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
