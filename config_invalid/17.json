@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tttt.ssfree.ru",
-            "port": 443,
+            "address": "ee1-vmess.sshmax.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "1a38eb16-8ffe-11ee-9db7-00163e49219e",
+                "id": "34d4f393-ead9-48df-9370-ca8b52e6aabd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "ee1-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,
