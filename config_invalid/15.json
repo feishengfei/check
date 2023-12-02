@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hytron.io",
-            "port": 8080,
+            "address": "skk.moe",
+            "port": 443,
             "users": [
               {
-                "id": "010c265f-5455-4141-ca23-4d69357ded0d",
+                "id": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "icu2.mac2win.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd-vm",
           "headers": {
-            "Host": "aktw.daozhang.love"
+            "Host": "icu2.mac2win.top"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yyzgdv6.cdn.node.a.yddns-ounk.com",
-            "port": 20632,
+            "address": "krse10.ip8.shop",
+            "port": 25361,
             "users": [
               {
-                "id": "0d998148-9578-3ed0-9bc2-42bd111bf22d",
+                "id": "a5de5eb3-5760-488a-9211-e5fbd9388905",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8",
-          "headers": {
-            "Host": "yyzgdv6.cdn.node.a.yddns-ounk.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
