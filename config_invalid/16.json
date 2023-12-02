@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "167.82.86.194",
-            "port": 80,
+            "address": "tttt.ssfree.ru",
+            "port": 443,
             "users": [
               {
-                "id": "33e11326-a83d-439a-8036-42a5bb3d664b",
+                "id": "4490060a-90c7-11ee-905a-00163e49219e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13/hd.m3u8",
+          "path": "/search",
           "headers": {
-            "Host": "nihaoyaus3.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
