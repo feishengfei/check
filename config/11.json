@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10927,
+      "port": 10911,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn2.sanfencdn9.com",
-            "port": 2052,
+            "address": "eeee.ednovas.cloud",
+            "port": 21949,
             "users": [
               {
-                "id": "d1f7a92a-6927-467b-902c-c5b7b6213bf6",
+                "id": "52d6cfd5-98d4-4e4b-88b7-9c1348b4ea2f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/video/bFVDnAyn",
-          "headers": {
-            "Host": "sg36c9974e4.qcryechvqw.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

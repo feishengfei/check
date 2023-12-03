@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2line.telegram.channel.1321.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "port": 80,
+            "address": "skk.moe",
+            "port": 443,
             "users": [
               {
-                "id": "9d5e69d2-46cf-4865-95fe-a2ee8c52a013",
+                "id": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "icu2.mac2win.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd-vm",
           "headers": {
-            "Host": "internet.life.com.by"
+            "Host": "icu2.mac2win.top"
           }
         },
         "httpSettings": null,

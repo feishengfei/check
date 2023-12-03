@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cp2.colacloud.site",
-            "port": 2086,
+            "address": "hexsen.com",
+            "port": 443,
             "users": [
               {
-                "id": "6474b779-e57a-4d50-b61e-1d8d00b696de",
+                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "armor-productivity-horse-spain.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sssddd",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": "cf-nls.colacloud.site"
+            "Host": "armor-productivity-horse-spain.trycloudflare.com"
           }
         },
         "httpSettings": null,

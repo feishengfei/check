@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-new03.gujuji.top",
-            "port": 8080,
+            "address": "jp02.nttkk.com",
+            "port": 443,
             "users": [
               {
-                "id": "e2832880-8423-4c6e-9f92-b5b627a6e144",
+                "id": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "icu2.mac2win.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd-vm",
           "headers": {
-            "Host": ""
+            "Host": "icu2.mac2win.top"
           }
         },
         "httpSettings": null,

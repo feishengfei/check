@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "skk.moe",
-            "port": 443,
+            "address": "jp.takeshi.wiki",
+            "port": 80,
             "users": [
               {
-                "id": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd",
+                "id": "59517e0b-ae1c-41d3-9c44-c44cea6f7546",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "icu2.mac2win.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd-vm",
+          "path": "/takeshi.wiki",
           "headers": {
-            "Host": "icu2.mac2win.top"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,
