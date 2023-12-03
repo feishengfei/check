@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "uuu.ednovas.cloud",
-            "port": 21432,
+            "address": "38.54.185.111",
+            "port": 30000,
             "users": [
               {
-                "id": "52d6cfd5-98d4-4e4b-88b7-9c1348b4ea2f",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.73664999.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/path/1700571207277",
+          "headers": {
+            "Host": "www.73664999.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

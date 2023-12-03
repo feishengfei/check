@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "hdfy4s2d1.foriran.trade",
-            "port": 443,
+            "address": "fr1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com",
+            "port": 80,
             "users": [
               {
-                "id": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
+                "id": "da89a49f-3a20-4de1-94b9-06690121e926",
                 "alterId": 0,
                 "email": "",
-                "security": "chacha20-poly1305",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "hdfy4s2d1.foriran.trade"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/WgCmp8pxRWBtLTlTL",
+          "path": "",
           "headers": {
-            "Host": "hdfy4s2d1.foriran.trade"
+            "Host": ""
           }
         },
         "httpSettings": null,
