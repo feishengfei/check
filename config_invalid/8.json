@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dl1.colacloud.free.hr",
-            "port": 80,
+            "address": "hexsen.com",
+            "port": 443,
             "users": [
               {
-                "id": "baf83181-4633-4749-9e45-14edde7ef462",
+                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hebrew-stretch-testimonials-athletes.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sssddd",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": "cf-hk.colacloud.free.hr"
+            "Host": "hebrew-stretch-testimonials-athletes.trycloudflare.com"
           }
         },
         "httpSettings": null,
