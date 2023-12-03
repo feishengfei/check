@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b24.ntbq.dynu.net",
-            "port": 443,
+            "address": "v2line.telegram.channel.1344.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "port": 80,
             "users": [
               {
-                "id": "54f3bbea-3524-40db-b576-7cf02aea4562",
+                "id": "9d5e69d2-46cf-4865-95fe-a2ee8c52a013",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b24.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b24",
+          "path": "/",
           "headers": {
-            "Host": "b24.ntbq.dynu.net"
+            "Host": "v2line.telegram.channel.1344.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou"
           }
         },
         "httpSettings": null,

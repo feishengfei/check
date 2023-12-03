@@ -36,7 +36,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tc11.twtc.dynu.net",
+            "address": "b24.ntbq.dynu.net",
             "port": 443,
             "users": [
               {
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tc11.twtc.dynu.net"
+          "serverName": "b24.ntbq.dynu.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vbub1",
+          "path": "/b24",
           "headers": {
-            "Host": "tc11.twtc.dynu.net"
+            "Host": "b24.ntbq.dynu.net"
           }
         },
         "httpSettings": null,
