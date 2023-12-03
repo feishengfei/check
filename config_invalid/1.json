@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b.mac2win.top",
-            "port": 8080,
+            "address": "8.217.93.104",
+            "port": 443,
             "users": [
               {
-                "id": "65ae35d1-01b8-42e4-8373-00d01623c6ed",
+                "id": "dcd70249-06fa-4fe7-aaed-cbba86ac125b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sptufp5n3o19imic.iwebsocket.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/stream",
           "headers": {
-            "Host": "icu.mac2win.top"
+            "Host": "sptufp5n3o19imic.iwebsocket.com"
           }
         },
         "httpSettings": null,

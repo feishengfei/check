@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "tttt.ssfree.ru",
+            "address": "hdfy4s2d1.foriran.trade",
             "port": 443,
             "users": [
               {
-                "id": "d98080fa-912b-11ee-bc78-00163e49219e",
+                "id": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "hdfy4s2d1.foriran.trade"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/WgCmp8pxRWBtLTlTL",
           "headers": {
-            "Host": ""
+            "Host": "hdfy4s2d1.foriran.trade"
           }
         },
         "httpSettings": null,
