@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp02.nttkk.com",
-            "port": 443,
+            "address": "cfzl1.freeapp.buzz",
+            "port": 8080,
             "users": [
               {
-                "id": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd",
+                "id": "3ce4d20b-4374-42a2-a75e-24626b141ea2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "icu2.mac2win.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd-vm",
+          "path": "/",
           "headers": {
             "Host": "icu2.mac2win.top"
           }

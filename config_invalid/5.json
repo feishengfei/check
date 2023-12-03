@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b.mac2win.top",
-            "port": 8080,
+            "address": "nbq11.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "65ae35d1-01b8-42e4-8373-00d01623c6ed",
+                "id": "4727ad0a-4b52-4b01-bb36-8b43ef15d11c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nbq11.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/b11",
           "headers": {
-            "Host": "icu.mac2win.top"
+            "Host": "nbq11.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

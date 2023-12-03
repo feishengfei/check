@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hexsen.com",
-            "port": 443,
+            "address": "v1.583182.xyz",
+            "port": 2096,
             "users": [
               {
-                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                "id": "c5027ed5-33cd-42d5-9894-d5c6160b3987",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "armor-productivity-horse-spain.trycloudflare.com"
+          "serverName": "v1.583181.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/argo-vmess?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "armor-productivity-horse-spain.trycloudflare.com"
+            "Host": "v1.583181.xyz"
           }
         },
         "httpSettings": null,

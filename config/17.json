@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10919,
+      "port": 10917,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.203.232",
-            "port": 8880,
+            "address": "n1700892179.izwhvan.cn",
+            "port": 443,
             "users": [
               {
-                "id": "687ed8be-62d2-4a08-aabb-b896f964a657",
+                "id": "80c15b28-6e4f-4b32-a330-1cc19f287361",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n1700892179.izwhvan.cn"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@vpn_whal",
+          "path": "/",
           "headers": {
-            "Host": "gr-allnetwork.whaleproject.tech"
+            "Host": "n1700892179.izwhvan.cn"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nice2.xn-w1yu8o.xyz",
-            "port": 80,
+            "address": "tttt.ssfree.ru",
+            "port": 443,
             "users": [
               {
-                "id": "a5319baa-e846-43c7-91c2-d67a1e307c8b",
+                "id": "d98080fa-912b-11ee-bc78-00163e49219e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/search",
           "headers": {
-            "Host": "icu2.mac2win.top"
+            "Host": ""
           }
         },
         "httpSettings": null,
