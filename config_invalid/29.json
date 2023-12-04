@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cover.mac2win.top",
-            "port": 8080,
+            "address": "104.17.230.90",
+            "port": 2096,
             "users": [
               {
-                "id": "9f44252b-9f4d-4820-d8e8-cc9aeea0aa7e",
+                "id": "7cfb1bf7-76e9-45fa-9084-2d5b5a34657a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ygt.smaz170.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "icu3.mac2win.top"
+            "Host": "ygt.smaz170.top"
           }
         },
         "httpSettings": null,

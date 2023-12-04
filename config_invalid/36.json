@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.91.107",
-            "port": 443,
+            "address": "api.lp-airdrop.top",
+            "port": 2096,
             "users": [
               {
-                "id": "9b78b7fe-47a3-41eb-d695-22692ac835a0",
-                "alterId": 1,
+                "id": "e36c98f2-bb76-45f6-d545-61393522027d",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "pzl.p237875155.buzz"
+          "serverName": "api.lp-airdrop.top"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/pzl237875155",
+          "path": "/login",
           "headers": {
-            "Host": "pzl.p237875155.buzz"
+            "Host": "api.lp-airdrop.top"
           }
         },
         "httpSettings": null,

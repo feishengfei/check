@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "api.lp-airdrop.top",
-            "port": 2096,
+            "address": "dl1.colacloud.free.hr",
+            "port": 80,
             "users": [
               {
-                "id": "e36c98f2-bb76-45f6-d545-61393522027d",
+                "id": "efd56da6-e897-45b7-a6d7-01a912f99dc9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "api.lp-airdrop.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/login",
+          "path": "/sssddd",
           "headers": {
-            "Host": "api.lp-airdrop.top"
+            "Host": "cf-hk.colacloud.free.hr"
           }
         },
         "httpSettings": null,
