@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zfc.windowsupdate1.com",
-            "port": 8080,
+            "address": "tc11.twtc.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "9edb5c77-8818-4780-9cef-d81b7e2d932b",
+                "id": "54f3bbea-3524-40db-b576-7cf02aea4562",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tc11.twtc.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vbub1",
           "headers": {
-            "Host": "kryx.651568.xyz"
+            "Host": "tc11.twtc.dynu.net"
           }
         },
         "httpSettings": null,

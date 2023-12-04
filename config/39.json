@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10906,
+      "port": 10939,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.235.33.29",
-            "port": 80,
+            "address": "183.232.238.77",
+            "port": 3504,
             "users": [
               {
-                "id": "417df789-074f-4d97-b00d-83b266c3724b",
+                "id": "ab537195-b74c-3df5-a3a1-d504345e80bb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/cctv13/hd.m3u8",
-          "headers": {
-            "Host": "nihaoyasg2.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

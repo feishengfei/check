@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.40.162",
-            "port": 443,
+            "address": "fra.yj2022.gq",
+            "port": 8880,
             "users": [
               {
-                "id": "d196ccc9-db42-475d-a7e4-7c27a6a326d1",
+                "id": "4b5e4565-322f-4223-a891-78a84f189726",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "be1.xv2ray.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b",
           "headers": {
-            "Host": "be1.xv2ray.net"
+            "Host": "fra.yj2022.gq"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "130.162.47.123",
-            "port": 6854,
+            "address": "45.87.155.70",
+            "port": 80,
             "users": [
               {
-                "id": "b5f7e932-f730-4ad2-b425-40977b9db332",
+                "id": "88c0a1fb-fc4d-4eab-85c7-4dd84407e9a5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dengpao.de"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zBLPou",
+          "path": "/vmess",
           "headers": {
-            "Host": "dengpao.de"
+            "Host": "45.87.155.70"
           }
         },
         "httpSettings": null,

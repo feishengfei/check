@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "158.58.188.19",
-            "port": 39833,
+            "address": "api.lp-airdrop.top",
+            "port": 2096,
             "users": [
               {
-                "id": "fafcfd85-ed8c-406b-f71a-bebe799a3db1",
+                "id": "e36c98f2-bb76-45f6-d545-61393522027d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "api.lp-airdrop.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/login",
           "headers": {
-            "Host": ""
+            "Host": "api.lp-airdrop.top"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "158.58.188.19",
-            "port": 16025,
+            "address": "hexsen.com",
+            "port": 443,
             "users": [
               {
-                "id": "08a5d12a-f4cb-43d6-b771-b6b902d14620",
+                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hebrew-stretch-testimonials-athletes.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "hebrew-stretch-testimonials-athletes.trycloudflare.com"
           }
         },
         "httpSettings": null,

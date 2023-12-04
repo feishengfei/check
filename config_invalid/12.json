@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "a.mac2win.top",
-            "port": 8080,
+            "address": "104.21.40.162",
+            "port": 443,
             "users": [
               {
-                "id": "65ae35d1-01b8-42e4-8373-00d01623c6ed",
+                "id": "d196ccc9-db42-475d-a7e4-7c27a6a326d1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "be1.xv2ray.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": "icu.mac2win.top"
+            "Host": "be1.xv2ray.net"
           }
         },
         "httpSettings": null,

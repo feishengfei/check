@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf2.openxai.link",
-            "port": 8080,
+            "address": "5500tl.com",
+            "port": 443,
             "users": [
               {
-                "id": "47396f9c-365d-4b99-ad1f-f7927164b4c5",
+                "id": "48d97439-2bd0-40e5-bc14-8eb4ee846653",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "h353-fr2.kxnn.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/D26xvdqUdCpvvPTz4R",
           "headers": {
-            "Host": "eu3.openxai.link"
+            "Host": "h353-fr2.kxnn.eu.org"
           }
         },
         "httpSettings": null,
