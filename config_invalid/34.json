@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "iran01.biqibao.site",
-            "port": 2052,
+            "address": "hexsen.com",
+            "port": 443,
             "users": [
               {
-                "id": "e6967d17-f3db-4e25-8e6f-2db8a8149f73",
+                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "hebrew-stretch-testimonials-athletes.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/public",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": "de6.biqibao.site"
+            "Host": "hebrew-stretch-testimonials-athletes.trycloudflare.com"
           }
         },
         "httpSettings": null,

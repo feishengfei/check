@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "api.lp-airdrop.top",
+            "port": 2096,
             "users": [
               {
-                "id": "2a683a54-f098-4d98-92fc-762b85d907b9",
+                "id": "e36c98f2-bb76-45f6-d545-61393522027d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "api.lp-airdrop.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/login",
           "headers": {
-            "Host": "ssrsub.v006.ssrsub.com"
+            "Host": "api.lp-airdrop.top"
           }
         },
         "httpSettings": null,

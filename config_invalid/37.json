@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.44.52",
-            "port": 443,
+            "address": "cover.mac2win.top",
+            "port": 8080,
             "users": [
               {
-                "id": "e778fdab-34ca-4ba2-a51f-f757d8ae1aa9",
+                "id": "9f44252b-9f4d-4820-d8e8-cc9aeea0aa7e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ovh.kmoljklj.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/0TxtG?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "ovh.kmoljklj.top"
+            "Host": "icu3.mac2win.top"
           }
         },
         "httpSettings": null,

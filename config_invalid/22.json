@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "baystateparent.com",
-            "port": 80,
+            "address": "tc11.twtc.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "417df789-074f-4d97-b00d-83b266c3724b",
+                "id": "b0912b17-b2d2-4c53-9d53-710f6c88251a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tc11.twtc.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13/hd.m3u8",
+          "path": "/vbub1",
           "headers": {
-            "Host": "nihaoyaus11.com"
+            "Host": "tc11.twtc.dynu.net"
           }
         },
         "httpSettings": null,
