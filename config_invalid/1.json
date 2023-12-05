@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq13.ntbq.dynu.net",
-            "port": 443,
+            "address": "104.21.11.169",
+            "port": 2052,
             "users": [
               {
-                "id": "11d30e65-0c7f-43cc-b3cb-2fdac267696e",
+                "id": "cd5c880a-adff-4c09-b939-e72b4ab7bf19",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nbq13.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b13",
+          "path": "/public",
           "headers": {
-            "Host": "nbq13.ntbq.dynu.net"
+            "Host": "de5.biqibao.site"
           }
         },
         "httpSettings": null,

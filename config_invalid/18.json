@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.40.162",
-            "port": 443,
+            "address": "api.lp-airdrop.top",
+            "port": 2096,
             "users": [
               {
-                "id": "d196ccc9-db42-475d-a7e4-7c27a6a326d1",
+                "id": "e36c98f2-bb76-45f6-d545-61393522027d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "be1.xv2ray.net"
+          "serverName": "api.lp-airdrop.top"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/login",
           "headers": {
-            "Host": "be1.xv2ray.net"
+            "Host": "api.lp-airdrop.top"
           }
         },
         "httpSettings": null,
