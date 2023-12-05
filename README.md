@@ -6,16 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                                                                                            | cn        | cc   | isp                                                            | ip             | chatgpt          |
-|---:|:---------------------|:------------------------------------------------------------------------------------------------|:----------|:-----|:---------------------------------------------------------------|:---------------|:-----------------|
-|  0 | [9](config/9.json)   | ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou | Poland    | PL   | OVH SAS                                                        | 54.36.174.181  | Yes (Region: FR) |
-|  1 | [19](config/19.json) | 54.36.174.181                                                                                   | Poland    | PL   | OVH SAS                                                        | 54.36.174.181  | Yes (Region: FR) |
-|  2 | [22](config/22.json) | 183.232.238.77                                                                                  | Hong Kong | HK   | Zhipinshang Hongkong Electron Communication Technology Limited | 104.251.224.35 | Yes (Region: US) |
+|    | id                   | addr         | cn     | cc   | isp               | ip             | chatgpt          |
+|---:|:---------------------|:-------------|:-------|:-----|:------------------|:---------------|:-----------------|
+|  0 | [10](config/10.json) | 188.114.99.0 | Canada | CA   | AS-GLOBALTELEHOST | 158.51.121.194 | Yes (Region: CA) |
 
 ## Valid
 ```
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8119#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%209
-ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@54.36.174.181:8090#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2019
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTRlMWNcdTgzOWVcdTVlMDJcdTc5ZmJcdTUyYTggMjIiLCAiYWRkIjogIjE4My4yMzIuMjM4Ljc3IiwgInBvcnQiOiAiMzUwNCIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiYWI1MzcxOTUtYjc0Yy0zZGY1LWEzYTEtZDUwNDM0NWU4MGJiIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgImhvc3QiOiAiIiwgInRscyI6ICIifQ==
+vmess://eyJhZGQiOiAiMTg4LjExNC45OS4wIiwgImFpZCI6ICIxIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIm9waGVsaWEubW9tIiwgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICJsaW5rdndzIiwgInBvcnQiOiAiNDQzIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU1ZGY0XHU4OTdmXHU1NzIzXHU0ZmRkXHU3ZjU3Q2xvdWRGbGFyZVx1ODI4Mlx1NzBiOSAxMCIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAib3BoZWxpYS5tb20iLCAidGxzIjogInRscyIsICJ0eXBlIjogIiIsICJ2IjogIjIifQ==
 ```
 

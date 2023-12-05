@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tttt.ssfree.ru",
-            "port": 443,
+            "address": "2.58.203.173",
+            "port": 43842,
             "users": [
               {
-                "id": "c3fa8796-9322-11ee-9903-00163e49219e",
+                "id": "ccf98b05-7c39-4460-df79-9993007350ed",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/?ed=2048",
           "headers": {
             "Host": ""
           }

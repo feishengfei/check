@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cover.mac2win.top",
-            "port": 8080,
+            "address": "183.232.238.77",
+            "port": 3504,
             "users": [
               {
-                "id": "9f44252b-9f4d-4820-d8e8-cc9aeea0aa7e",
+                "id": "ab537195-b74c-3df5-a3a1-d504345e80bb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "icu3.mac2win.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
