@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "rb.yongdong.xyz",
-            "port": 20007,
+            "address": "tttt.ssfree.ru",
+            "port": 443,
             "users": [
               {
-                "id": "c79461a6-86dd-4465-a1b5-842c020d2af6",
+                "id": "2e9c065c-92be-11ee-8580-00163e49219e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/yongdong",
+          "path": "/search",
           "headers": {
-            "Host": "yongdong.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

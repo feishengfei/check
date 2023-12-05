@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10913,
+      "port": 10928,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.75.207.123",
-            "port": 37138,
+            "address": "183.232.238.77",
+            "port": 3504,
             "users": [
               {
-                "id": "d56fd71b-f819-43fd-a61d-3593d742d682",
+                "id": "ab537195-b74c-3df5-a3a1-d504345e80bb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/BIA-Telegram-V2ray_Alpha",
-          "headers": {
-            "Host": "trojan-panel.alphav.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

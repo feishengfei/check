@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.40.162",
-            "port": 443,
+            "address": "104.18.202.232",
+            "port": 8880,
             "users": [
               {
-                "id": "d196ccc9-db42-475d-a7e4-7c27a6a326d1",
+                "id": "e4831af7-c578-45b5-b9b6-a8bbd6d019c9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "be1.xv2ray.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/@vpn_whal,@vpn_whal",
           "headers": {
-            "Host": "be1.xv2ray.net"
+            "Host": "gr-allnetwork.whaleproject.tech"
           }
         },
         "httpSettings": null,
