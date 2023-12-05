@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "muran-kr.qrfly.me",
-            "port": 20254,
+            "address": "b21.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "007be9ad-8db6-4164-fc49-49989bbcba96",
+                "id": "d607492b-9880-4788-8ace-f6c066e3e3c4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b21.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/b21",
           "headers": {
-            "Host": "muran-kr.qrfly.me"
+            "Host": "b21.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

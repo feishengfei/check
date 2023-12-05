@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top",
-            "port": 443,
+            "address": "dnspsdhaitun.ncsuwei.top",
+            "port": 14099,
             "users": [
               {
-                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+                "id": "4c60080a-2e0a-3177-acf4-10f6a5e3ef26",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/azumase.ren",
+          "path": "/ef483582-6269-468c-93af-c511eccb8a69",
           "headers": {
-            "Host": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"
+            "Host": "dnspsdhaitun.ncsuwei.top"
           }
         },
         "httpSettings": null,

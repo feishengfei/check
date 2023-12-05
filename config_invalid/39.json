@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "uuu.ednovas.cloud",
-            "port": 21432,
+            "address": "ip.nofiltering2.sbs",
+            "port": 80,
             "users": [
               {
-                "id": "52d6cfd5-98d4-4e4b-88b7-9c1348b4ea2f",
+                "id": "7300c5af-8657-48ea-ba35-4cc1176c5220",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/RO4vpgRqVSLPRRQi97uOJujdeO",
+          "headers": {
+            "Host": "de5.v2-teh.fun"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

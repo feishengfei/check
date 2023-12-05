@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr         | cn     | cc   | isp               | ip             | chatgpt          |
-|---:|:---------------------|:-------------|:-------|:-----|:------------------|:---------------|:-----------------|
-|  0 | [10](config/10.json) | 188.114.99.0 | Canada | CA   | AS-GLOBALTELEHOST | 158.51.121.194 | Yes (Region: CA) |
+|    | id                   | addr           | cn        | cc   | isp                                                            | ip             | chatgpt          |
+|---:|:---------------------|:---------------|:----------|:-----|:---------------------------------------------------------------|:---------------|:-----------------|
+|  0 | [31](config/31.json) | 183.232.238.77 | Hong Kong | HK   | Zhipinshang Hongkong Electron Communication Technology Limited | 104.251.224.35 | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiMTg4LjExNC45OS4wIiwgImFpZCI6ICIxIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIm9waGVsaWEubW9tIiwgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICJsaW5rdndzIiwgInBvcnQiOiAiNDQzIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU1ZGY0XHU4OTdmXHU1NzIzXHU0ZmRkXHU3ZjU3Q2xvdWRGbGFyZVx1ODI4Mlx1NzBiOSAxMCIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAib3BoZWxpYS5tb20iLCAidGxzIjogInRscyIsICJ0eXBlIjogIiIsICJ2IjogIjIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTRlMWNcdTgzOWVcdTVlMDJcdTc5ZmJcdTUyYTggMzEiLCAiYWRkIjogIjE4My4yMzIuMjM4Ljc3IiwgInBvcnQiOiAiMzUwNCIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiYWI1MzcxOTUtYjc0Yy0zZGY1LWEzYTEtZDUwNDM0NWU4MGJiIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgImhvc3QiOiAiIiwgInRscyI6ICIifQ==
 ```
 
