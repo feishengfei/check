@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.131.98.90",
-            "port": 80,
+            "address": "s1.19kala.co",
+            "port": 443,
             "users": [
               {
-                "id": "0814badf-f3fc-4f15-b400-4ae8cdce610e",
+                "id": "5775de7e-0c2e-4e7c-8b9c-c48704d8facb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s1.19kala.co"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/OWTu4RMkF9V12oO5NLlQk",
           "headers": {
-            "Host": "94.131.98.90"
+            "Host": "s1.19kala.co"
           }
         },
         "httpSettings": null,
