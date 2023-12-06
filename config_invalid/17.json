@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b22.ntbq.dynu.net",
-            "port": 443,
+            "address": "104.18.202.232",
+            "port": 8880,
             "users": [
               {
-                "id": "d607492b-9880-4788-8ace-f6c066e3e3c4",
+                "id": "231c0c6a-93f9-4205-ba9c-3a4dac98c4c8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b22.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b22",
+          "path": "/https://t.me/free_v2ray_confing",
           "headers": {
-            "Host": "b22.ntbq.dynu.net"
+            "Host": "free_v2ray_confing.megaazarakhsh.site"
           }
         },
         "httpSettings": null,

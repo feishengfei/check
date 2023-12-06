@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ip.nofiltering2.sbs",
-            "port": 80,
+            "address": "jpdj6.ip8.shop",
+            "port": 20202,
             "users": [
               {
-                "id": "7300c5af-8657-48ea-ba35-4cc1176c5220",
+                "id": "a5de5eb3-5760-488a-9211-e5fbd9388905",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/RO4vpgRqVSLPRRQi97uOJujdeO",
-          "headers": {
-            "Host": "de5.v2-teh.fun"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
