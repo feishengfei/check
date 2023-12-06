@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top",
-            "port": 443,
+            "address": "cfzl2.freeapp.buzz",
+            "port": 8080,
             "users": [
               {
-                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+                "id": "3ce4d20b-4374-42a2-a75e-24626b141ea2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/azumase.ren",
+          "path": "/",
           "headers": {
-            "Host": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"
+            "Host": "icu2.mac2win.top"
           }
         },
         "httpSettings": null,

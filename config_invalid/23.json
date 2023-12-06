@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cover.mac2win.top",
-            "port": 8080,
+            "address": "s1.19kala.co",
+            "port": 443,
             "users": [
               {
-                "id": "65ae35d1-01b8-42e4-8373-00d01623c6ed",
+                "id": "5775de7e-0c2e-4e7c-8b9c-c48704d8facb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s1.19kala.co"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/OWTu4RMkF9V12oO5NLlQk",
           "headers": {
-            "Host": "icu.mac2win.top"
+            "Host": "s1.19kala.co"
           }
         },
         "httpSettings": null,
