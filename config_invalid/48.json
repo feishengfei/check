@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "158.58.188.21",
-            "port": 20440,
+            "address": "cname.ispeed.tk",
+            "port": 2096,
             "users": [
               {
-                "id": "13f80f39-4724-473d-aed0-8331b133ae2c",
+                "id": "900ceafc-30b8-4581-a305-31854f563e4f",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "none",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fairy-latitude-explains-sister.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
           "headers": {
-            "Host": ""
+            "Host": "fairy-latitude-explains-sister.trycloudflare.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "muran-kr.qrfly.me",
-            "port": 20254,
+            "address": "142.171.8.13",
+            "port": 20007,
             "users": [
               {
-                "id": "007be9ad-8db6-4164-fc49-49989bbcba96",
+                "id": "20d790b7-e59e-4f8d-e1a5-e3938f293a89",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "muran-kr.qrfly.me"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

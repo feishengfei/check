@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "speedip.eu.org",
-            "port": 8880,
+            "address": "b21.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "35f07051-8e77-4b44-be56-8979cc25c249",
+                "id": "e854e7dd-350e-43d2-bdf2-95d839d8dd46",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b21.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/b21",
           "headers": {
-            "Host": "ssrsub.v01.ssrsub.com"
+            "Host": "b21.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

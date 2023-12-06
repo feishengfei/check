@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10950,
+      "port": 10962,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b22.ntbq.dynu.net",
+            "address": "nbq12.ntbq.dynu.net",
             "port": 443,
             "users": [
               {
-                "id": "d607492b-9880-4788-8ace-f6c066e3e3c4",
+                "id": "28e08966-170c-4b59-8756-14dfad41157a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "b22.ntbq.dynu.net"
+          "serverName": "nbq12.ntbq.dynu.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b22",
+          "path": "/b12",
           "headers": {
-            "Host": "b22.ntbq.dynu.net"
+            "Host": "nbq12.ntbq.dynu.net"
           }
         },
         "httpSettings": null,
