@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cp2.colacloud.site",
-            "port": 2086,
+            "address": "nbq12.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "44a05463-181b-4fc7-b324-1fe6b37247f7",
+                "id": "e5640ff5-eef4-443c-9608-d4397ba5320e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nbq12.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/sssddd",
+          "path": "/b12",
           "headers": {
-            "Host": "cf-nls.colacloud.site"
+            "Host": "nbq12.ntbq.dynu.net"
           }
         },
         "httpSettings": null,
