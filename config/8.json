@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10923,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.142.214",
-            "port": 80,
+            "address": "146.190.35.214",
+            "port": 53676,
             "users": [
               {
-                "id": "c0b72149-1064-400f-acb4-ec9fa76c78aa",
+                "id": "5128dfc4-aba3-4e8a-e863-6ddd4c226466",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "media-exp1.licdn.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "ca3.889611.com"
+            "Host": "media-exp1.licdn.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cover.mac2win.top",
-            "port": 8080,
+            "address": "amini2.ddns.net",
+            "port": 2087,
             "users": [
               {
-                "id": "65ae35d1-01b8-42e4-8373-00d01623c6ed",
+                "id": "6daf51e6-145f-404a-a697-8f2940186f1b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pANeL168.MOoKoMeilz.homes"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/qolskaql",
           "headers": {
-            "Host": "icu.mac2win.top"
+            "Host": "pANeL168.MOoKoMeilz.homes"
           }
         },
         "httpSettings": null,

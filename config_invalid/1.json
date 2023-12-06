@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "142.171.8.13",
-            "port": 20007,
+            "address": "123.58.220.84",
+            "port": 20003,
             "users": [
               {
-                "id": "20d790b7-e59e-4f8d-e1a5-e3938f293a89",
+                "id": "2d9bdfc5-95ba-4e2c-b680-db96e2affee5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/yongdong",
+          "headers": {
+            "Host": "yongdong.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

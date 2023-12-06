@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zula.ir",
-            "port": 80,
+            "address": "X187.STAR-ONE.CFD",
+            "port": 443,
             "users": [
               {
-                "id": "244e4b2c-535f-4820-99bd-c1c903b2bc6b",
+                "id": "e994f477-4b11-4d96-90f7-c8668d1c5f7f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "X187.STAR-ONE.CFD"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/59755/MEHDI",
           "headers": {
-            "Host": "tr2-vmess.sshmax.xyz"
+            "Host": "X187.STAR-ONE.CFD"
           }
         },
         "httpSettings": null,

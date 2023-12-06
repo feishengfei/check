@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.252.23.133",
-            "port": 80,
+            "address": "X188.STAR-ONE.CFD",
+            "port": 443,
             "users": [
               {
-                "id": "34b71805-2692-45e4-861d-0818954940e2",
+                "id": "62e4e083-cb24-4483-b8aa-ded599755297",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "X188.STAR-ONE.CFD"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/39514/MEHDI",
           "headers": {
-            "Host": ""
+            "Host": "X188.STAR-ONE.CFD"
           }
         },
         "httpSettings": null,

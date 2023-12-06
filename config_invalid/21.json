@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nbq12.ntbq.dynu.net",
-            "port": 443,
+            "address": "sk1-vmess.sshmax.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "28e08966-170c-4b59-8756-14dfad41157a",
+                "id": "06c2b568-b7df-4e80-9031-c83569397db4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nbq12.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b12",
+          "path": "/vmess",
           "headers": {
-            "Host": "nbq12.ntbq.dynu.net"
+            "Host": "sk1-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,
