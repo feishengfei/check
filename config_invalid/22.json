@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.142.214",
-            "port": 80,
+            "address": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top",
+            "port": 443,
             "users": [
               {
-                "id": "c0b72149-1064-400f-acb4-ec9fa76c78aa",
+                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/azumase.ren",
           "headers": {
-            "Host": "ca3.889611.com"
+            "Host": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top"
           }
         },
         "httpSettings": null,

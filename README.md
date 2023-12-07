@@ -6,12 +6,16 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr          | cn     | cc   | isp     | ip            | chatgpt          |
-|---:|:---------------------|:--------------|:-------|:-----|:--------|:--------------|:-----------------|
-|  0 | [12](config/12.json) | 54.36.174.181 | Poland | PL   | OVH SAS | 54.36.174.181 | Yes (Region: FR) |
+|    | id                   | addr            | cn            | cc   | isp             | ip              | chatgpt          |
+|---:|:---------------------|:----------------|:--------------|:-----|:----------------|:----------------|:-----------------|
+|  0 | [3](config/3.json)   | 168.235.72.245  | United States | US   | RAMNODE         | 2604:180:f4::c3 | Yes (Region: US) |
+|  1 | [5](config/5.json)   | 37.120.193.102  | Serbia        | RS   | M247 Europe SRL | 146.70.111.194  | Yes (Region: RS) |
+|  2 | [13](config/13.json) | 199.188.111.232 | United States | US   | PEG-SV          | 199.188.111.225 | Yes (Region: US) |
 
 ## Valid
 ```
-ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@54.36.174.181:4444#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2012
+vmess://eyJhZGQiOiAiMTY4LjIzNS43Mi4yNDUiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogImMyNzE5MTAzLWYxMzgtNGRjYS04ZTYzLTU1NTNmYzllMzMwYyIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiNTAzNzciLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWFcdTVkZGVcdTZkMWJcdTY3NDlcdTc3ZjZSYW1Ob2RlXHU2NTcwXHU2MzZlXHU0ZTJkXHU1ZmMzIDMiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
+vmess://eyJhZGQiOiAiMzcuMTIwLjE5My4xMDIiLCAiYWlkIjogIjY0IiwgImhvc3QiOiAiIiwgImlkIjogIjU3MTcwZmYwLTcxODAtNDY2NC04ZjYxLThkZWJkZGEzNDVmNyIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiNTI5MjAiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmNTdcdTlhNmNcdTVjM2NcdTRlOWEgIDUiLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmQgIDEzIiwgImFkZCI6ICIxOTkuMTg4LjExMS4yMzIiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAid3d3LjUxMzYwODE4Lnh5eiIsICJwYXRoIjogIi9wYXRoLzE3MDA5MTY3NDkwMTgiLCAidGxzIjogInRscyIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
 ```
 

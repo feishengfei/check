@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sk1-vmess.sshmax.xyz",
-            "port": 80,
+            "address": "92.223.124.23",
+            "port": 443,
             "users": [
               {
-                "id": "06c2b568-b7df-4e80-9031-c83569397db4",
+                "id": "71617e43-2715-4f7c-8db3-a5c854e2f188",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "teletv.onthewifi.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/MEHDI",
           "headers": {
-            "Host": "sk1-vmess.sshmax.xyz"
+            "Host": "teletv.onthewifi.com"
           }
         },
         "httpSettings": null,
