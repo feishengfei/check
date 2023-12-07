@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.223.124.23",
-            "port": 443,
+            "address": "141.11.211.17",
+            "port": 32615,
             "users": [
               {
-                "id": "71617e43-2715-4f7c-8db3-a5c854e2f188",
+                "id": "28b0fbe9-3712-4daa-e52c-55f2f59841e9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "teletv.onthewifi.com"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/MEHDI",
-          "headers": {
-            "Host": "teletv.onthewifi.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
