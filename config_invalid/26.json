@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "s1.19kala.co",
-            "port": 443,
+            "address": "us-new03.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "5775de7e-0c2e-4e7c-8b9c-c48704d8facb",
+                "id": "56844bb5-d5a3-49a3-965c-451223736b87",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "s1.19kala.co"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/OWTu4RMkF9V12oO5NLlQk",
+          "path": "/",
           "headers": {
-            "Host": "s1.19kala.co"
+            "Host": "us-new03.gujuji.top"
           }
         },
         "httpSettings": null,

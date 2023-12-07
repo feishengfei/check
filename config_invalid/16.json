@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.131.117.159",
-            "port": 80,
+            "address": "cdn.lzcard.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "72b3b89a-30c5-4dc7-8b6e-f61218b95eda",
+                "id": "4777d0db-7a9d-42b2-b594-1765e59f5a81",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "h204-fr2.kxnn.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/D26xvdqUdCpvvPTz4R",
           "headers": {
-            "Host": "94.131.117.159"
+            "Host": "h204-fr2.kxnn.eu.org"
           }
         },
         "httpSettings": null,
