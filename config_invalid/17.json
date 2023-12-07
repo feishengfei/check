@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.36.162.35",
-            "port": 47333,
+            "address": "104.17.230.90",
+            "port": 2096,
             "users": [
               {
-                "id": "7e3e6c91-90fa-4321-ad74-db00f2442134",
+                "id": "f231f953-6e84-4e33-a3b6-df19ddc0ec36",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ygt.smaz170.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "ygt.smaz170.top"
           }
         },
         "httpSettings": null,

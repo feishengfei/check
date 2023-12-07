@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jpdj6.ip8.shop",
-            "port": 20202,
+            "address": "sefarat24.com",
+            "port": 443,
             "users": [
               {
-                "id": "a5de5eb3-5760-488a-9211-e5fbd9388905",
+                "id": "c6539ccf-08ff-4ce9-8659-df89190c99bf",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pt2-vmess.sshmax.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "pt2-vmess.sshmax.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
