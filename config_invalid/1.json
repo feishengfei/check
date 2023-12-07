@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "123.58.220.84",
-            "port": 20003,
+            "address": "nbq13.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "2d9bdfc5-95ba-4e2c-b680-db96e2affee5",
+                "id": "d607492b-9880-4788-8ace-f6c066e3e3c4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nbq13.ntbq.dynu.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/yongdong",
+          "path": "/b13",
           "headers": {
-            "Host": "yongdong.xyz"
+            "Host": "nbq13.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

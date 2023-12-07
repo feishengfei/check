@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "X188.STAR-ONE.CFD",
-            "port": 443,
+            "address": "kr-01.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "62e4e083-cb24-4483-b8aa-ded599755297",
+                "id": "e5f9efb9-c377-4d7d-8c7e-05f37a837627",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "X188.STAR-ONE.CFD"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/39514/MEHDI",
+          "path": "/",
           "headers": {
-            "Host": "X188.STAR-ONE.CFD"
+            "Host": "kr-01.gujuji.top"
           }
         },
         "httpSettings": null,
