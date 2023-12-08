@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10915,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "199.232.234.36",
-            "port": 80,
+            "address": "146.190.97.8",
+            "port": 20552,
             "users": [
               {
-                "id": "417df789-074f-4d97-b00d-83b266c3724b",
+                "id": "48cbd108-fd2a-4fb7-b46d-9982b9de9c6e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13/hd.m3u8",
+          "path": "/",
           "headers": {
-            "Host": "nihaoyasgsg1.com"
+            "Host": "m.linkedin.com"
           }
         },
         "httpSettings": null,

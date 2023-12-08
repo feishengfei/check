@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "c.mac2win.top",
-            "port": 8080,
+            "address": "upload.ir",
+            "port": 443,
             "users": [
               {
-                "id": "65ae35d1-01b8-42e4-8373-00d01623c6ed",
+                "id": "33653184-91f3-4f3f-b707-2fc21e9adeb8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pl1-vmess.sshmax.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": "icu.mac2win.top"
+            "Host": "pl1-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,

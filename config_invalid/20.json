@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-new03.gujuji.top",
-            "port": 8080,
+            "address": "sefarat24.com",
+            "port": 443,
             "users": [
               {
-                "id": "56844bb5-d5a3-49a3-965c-451223736b87",
+                "id": "61211881-121d-4880-b61f-f8fd2cb1872e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "is2.xv2ray.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": "us-new03.gujuji.top"
+            "Host": "is2.xv2ray.net"
           }
         },
         "httpSettings": null,

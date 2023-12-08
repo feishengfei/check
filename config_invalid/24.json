@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.36.162.35",
-            "port": 47333,
+            "address": "92.38.170.10",
+            "port": 443,
             "users": [
               {
-                "id": "7e3e6c91-90fa-4321-ad74-db00f2442134",
+                "id": "5f4a46c4-6f92-4892-b880-c64e42bcca89",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "software.myftp.biz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "",
+          "path": "/MEHDI",
           "headers": {
-            "Host": ""
+            "Host": "software.myftp.biz"
           }
         },
         "httpSettings": null,

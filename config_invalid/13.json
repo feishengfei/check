@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.131.14.177",
-            "port": 80,
+            "address": "fardabourse.ir",
+            "port": 443,
             "users": [
               {
-                "id": "2c5fee13-f08b-4ba8-86db-27dd51cb9781",
+                "id": "472749fc-958c-41cc-9be4-3717a083ab80",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ua1-vmess.sshmax.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/vmess",
           "headers": {
-            "Host": "lt2-vmess.sshmax.xyz"
+            "Host": "ua1-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,

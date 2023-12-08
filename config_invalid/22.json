@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "77.75.230.125",
-            "port": 2082,
+            "address": "cname.ispeed.tk",
+            "port": 2096,
             "users": [
               {
-                "id": "d466dd36-8b86-48b7-b0f0-67e7d128de6c",
+                "id": "900ceafc-30b8-4581-a305-31854f563e4f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "blocking-quarterly-specs-passage.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
           "headers": {
-            "Host": "cz1-vmess.sshmax.xyz"
+            "Host": "blocking-quarterly-specs-passage.trycloudflare.com"
           }
         },
         "httpSettings": null,

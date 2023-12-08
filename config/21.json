@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10915,
+      "port": 10921,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "199.232.234.36",
-            "port": 80,
+            "address": "188.114.99.0",
+            "port": 443,
             "users": [
               {
-                "id": "417df789-074f-4d97-b00d-83b266c3724b",
-                "alterId": 0,
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "alterId": 1,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ophelia.mom"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv13/hd.m3u8",
+          "path": "linkvws",
           "headers": {
-            "Host": "nihaoyasgsg1.com"
+            "Host": "ophelia.mom"
           }
         },
         "httpSettings": null,
