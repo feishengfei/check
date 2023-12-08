@@ -6,18 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr            | cn             | cc   | isp               | ip              | chatgpt          |
-|---:|:---------------------|:----------------|:---------------|:-----|:------------------|:----------------|:-----------------|
-|  0 | [8](config/8.json)   | 146.190.97.8    | Singapore      | SG   | DIGITALOCEAN-ASN  | 146.190.97.8    | Yes (Region: SG) |
-|  1 | [10](config/10.json) | 199.188.111.232 | United States  | US   | PEG-SV            | 199.188.111.225 | Yes (Region: US) |
-|  2 | [16](config/16.json) | femiafmr.site   | United States  | US   | G-Core Labs S.A.  | 5.8.41.65       | Yes (Region: US) |
-|  3 | [21](config/21.json) | 188.114.99.0    | United Kingdom | GB   | AS-GLOBALTELEHOST | 172.99.190.109  | Yes (Region: GB) |
+|    | id                 | addr       | cn            | cc   | isp               | ip         | chatgpt          |
+|---:|:-------------------|:-----------|:--------------|:-----|:------------------|:-----------|:-----------------|
+|  0 | [1](config/1.json) | 64.31.55.5 | United States | US   | LIMESTONENETWORKS | 64.31.55.5 | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiMTQ2LjE5MC45Ny44IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIm0ubGlua2VkaW4uY29tIiwgImlkIjogIjQ4Y2JkMTA4LWZkMmEtNGZiNy1iNDZkLTk5ODJiOWRlOWM2ZSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiMjA1NTIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmQgIDgiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiIiwgInYiOiAiMiJ9
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmQgIDEwIiwgImFkZCI6ICIxOTkuMTg4LjExMS4yMzIiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgImFpZCI6ICI2NCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAid3d3LjUxMzYwODE4Lnh5eiIsICJwYXRoIjogIi9wYXRoLzE3MDA5MTY3NDkwMTgiLCAidGxzIjogInRscyIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU4MjgyXHU3MGI5IDE2IiwgImFkZCI6ICJmZW1pYWZtci5zaXRlIiwgInBvcnQiOiA0NDMsICJpZCI6ICI0ZmEzNWVhNC02NjhlLTRkN2ItOWJiYy1iODM2ODEwNjA2MTciLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogImZlbWlhZm1yLnNpdGUiLCAicGF0aCI6ICIva3dobXZ3cyIsICJ0bHMiOiAidGxzIn0=
-vmess://eyJhZGQiOiAiMTg4LjExNC45OS4wIiwgImFpZCI6IDEsICJob3N0IjogIm9waGVsaWEubW9tIiwgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICJsaW5rdndzIiwgInBvcnQiOiA0NDMsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1NWRmNFx1ODk3Zlx1NTcyM1x1NGZkZFx1N2Y1N0Nsb3VkRmxhcmVcdTgyODJcdTcwYjkgMjEiLCAidGxzIjogInRscyIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+ss://YWVzLTI1Ni1nY206ZG9uZ3RhaXdhbmcuY29t@64.31.55.5:11223#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%E5%BE%97%E5%85%8B%E8%90%A8%E6%96%AF%E5%B7%9E%E8%BE%BE%E6%8B%89%E6%96%AFLimestone%E7%BD%91%E7%BB%9C%E5%85%AC%E5%8F%B8%201
 ```
 
