@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "57.129.7.139",
-            "port": 60240,
+            "address": "167.82.89.32",
+            "port": 80,
             "users": [
               {
-                "id": "84e92b93-93d0-40e4-8b2b-123801eeda44",
+                "id": "417df789-074f-4d97-b00d-83b266c3724b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/cctv13/hd.m3u8",
+          "headers": {
+            "Host": "nihaoyahk111.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

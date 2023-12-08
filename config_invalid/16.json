@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cz1-vmess.sshmax.xyz",
-            "port": 2082,
+            "address": "nl1.cou.gay",
+            "port": 443,
             "users": [
               {
-                "id": "d466dd36-8b86-48b7-b0f0-67e7d128de6c",
+                "id": "2d0a99ec-2979-4f6a-bcb4-4f887f14b0d4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nl1.cou.gay"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/nl1?ed=2048",
           "headers": {
-            "Host": "cz1-vmess.sshmax.xyz"
+            "Host": "nl1.cou.gay"
           }
         },
         "httpSettings": null,
