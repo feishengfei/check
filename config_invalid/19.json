@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "eeee.ssfree.ru",
-            "port": 443,
+            "address": "us-new03.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "ada2b2fe-9519-11ee-9dcf-00163e49219e",
+                "id": "e3e1fecd-1921-4efa-9ece-103c5f76f9e3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "us-new03.gujuji.top"
           }
         },
         "httpSettings": null,
