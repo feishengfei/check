@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "moon.chanell.mci.v-x4ssd.space",
-            "port": 8080,
+            "address": "210.61.206.229",
+            "port": 21433,
             "users": [
               {
-                "id": "6ad7afd7-6958-478e-9fff-88f16f9a2008",
+                "id": "39d39017-f955-4b10-b269-d166ec6b17c9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

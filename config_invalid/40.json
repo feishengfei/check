@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.106.230.153",
-            "port": 32732,
+            "address": "hexsen.com",
+            "port": 443,
             "users": [
               {
-                "id": "eb931108-646b-4ceb-a741-d32490cb00f4",
+                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "wicked-delaware-hotels-hit.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "wicked-delaware-hotels-hit.trycloudflare.com"
           }
         },
         "httpSettings": null,
