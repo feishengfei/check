@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b22.ntbq.dynu.net",
-            "port": 443,
+            "address": "64.176.47.69",
+            "port": 58703,
             "users": [
               {
-                "id": "445405e7-8cb2-4a0f-be48-7714c8f233e2",
+                "id": "3a79de33-bfa0-4d5a-d681-3bffb3ea0e62",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b22.ntbq.dynu.net"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/b22",
-          "headers": {
-            "Host": "b22.ntbq.dynu.net"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

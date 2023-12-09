@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "singapore.com",
-            "port": 8880,
+            "address": "43.132.164.99",
+            "port": 8002,
             "users": [
               {
-                "id": "b1e30339-a603-47d1-b31c-1d0ceb59952e",
+                "id": "75ed6c0d-cd32-4b10-f71f-cd0b9c6efa3f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
-          "headers": {
-            "Host": "ssrsub.v001.ssrsub.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
