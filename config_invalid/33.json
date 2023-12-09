@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudflare-cmi1.shaniugpt.top",
-            "port": 8080,
+            "address": "46.29.166.237",
+            "port": 47555,
             "users": [
               {
-                "id": "12108a85-b442-4197-bec0-9bed9b7345e2",
+                "id": "0c49cd19-2758-4d38-e6a8-11f2d6635860",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "yyjc-uk1.shaniugpt.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

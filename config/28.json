@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10912,
+      "port": 10928,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,21 +32,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "64.31.55.5",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "dongtaiwang.com",
-            "port": 11223,
-            "level": 1,
-            "users": null
+            "address": "8.222.187.112",
+            "port": 44574,
+            "users": [
+              {
+                "id": "b18dc5ba-62b7-4423-aacc-f184da15c033",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {

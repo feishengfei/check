@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "176.119.203.233",
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "123456789",
-            "port": 1111,
-            "level": 1,
-            "users": null
+            "address": "www.wuda.cf",
+            "port": 443,
+            "users": [
+              {
+                "id": "472f6769-ba21-4e93-852e-9e57e470b533",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "h449-fr2.kxnn.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/D26xvdqUdCpvvPTz4R",
+          "headers": {
+            "Host": "h449-fr2.kxnn.eu.org"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -32,21 +32,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "64.31.55.5",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "dongtaiwang.com",
-            "port": 11223,
-            "level": 1,
-            "users": null
+            "address": "103.179.142.117",
+            "port": 24640,
+            "users": [
+              {
+                "id": "119a25bf-e35e-44c2-8b81-287ea8b2cac0",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {

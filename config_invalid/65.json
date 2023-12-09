@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10926,
+      "port": 10965,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "183.181.36.194",
-            "port": 41597,
+            "address": "hytron.io",
+            "port": 8080,
             "users": [
               {
-                "id": "4a6eaa2d-5603-4c05-d967-fb6f42250a5a",
+                "id": "010c265f-5455-4141-ca23-4d69357ded0d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -63,7 +63,7 @@
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "aktw.daozhang.love"
           }
         },
         "httpSettings": null,
