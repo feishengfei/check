@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "210.61.206.229",
-            "port": 21433,
+            "address": "104.21.33.130",
+            "port": 2052,
             "users": [
               {
-                "id": "39d39017-f955-4b10-b269-d166ec6b17c9",
+                "id": "544f2e93-51b0-4d47-fd72-e7d858021bbd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "family.mgtajhiz.ir"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

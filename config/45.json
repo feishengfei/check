@@ -32,21 +32,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "54.36.174.181",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "PCnnH6SQSnfoS27",
-            "port": 8091,
-            "level": 1,
-            "users": null
+            "address": "64.176.58.7",
+            "port": 14431,
+            "users": [
+              {
+                "id": "ff681ba6-55f5-4e79-8f40-ad6bbdf14044",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
