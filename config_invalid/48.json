@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.mlcat.tk",
-            "port": 443,
+            "address": "115.126.50.111",
+            "port": 16399,
             "users": [
               {
-                "id": "8c269947-2d6f-45f6-8f58-921b52b79820",
+                "id": "0a824660-8b17-4665-d2b4-a86c7f15d32a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "h48-fr.kxnn.eu.org"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/D26xvdqUdCpvvPTz4R",
-          "headers": {
-            "Host": "h48-fr.kxnn.eu.org"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
