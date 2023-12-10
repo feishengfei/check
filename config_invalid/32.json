@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfzl1.freeapp.buzz",
-            "port": 8080,
+            "address": "7lq.com",
+            "port": 443,
             "users": [
               {
-                "id": "3ce4d20b-4374-42a2-a75e-24626b141ea2",
+                "id": "f2dbfe1b-6b91-4765-a9a2-5b18d8cb8c33",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "h377-fr2.kxnn.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/D26xvdqUdCpvvPTz4R",
           "headers": {
-            "Host": "icu2.mac2win.top"
+            "Host": "h377-fr2.kxnn.eu.org"
           }
         },
         "httpSettings": null,

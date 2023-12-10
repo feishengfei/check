@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.151.151.227",
-            "port": 18904,
+            "address": "cfzl1.freeapp.buzz",
+            "port": 8080,
             "users": [
               {
-                "id": "270ce474-6850-4102-85af-5a77fc660350",
+                "id": "3ce4d20b-4374-42a2-a75e-24626b141ea2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "icu2.mac2win.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

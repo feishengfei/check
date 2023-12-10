@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "115.126.50.111",
-            "port": 16399,
+            "address": "cf-jpc.handboy.top",
+            "port": 2086,
             "users": [
               {
-                "id": "0a824660-8b17-4665-d2b4-a86c7f15d32a",
+                "id": "22425357-dc2f-4001-afe2-7f56a7210fca",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/asdas",
+          "headers": {
+            "Host": "cf-jp.handboy.site"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com",
-            "port": 80,
+            "address": "v2ray.ibgfw.top",
+            "port": 2053,
             "users": [
               {
-                "id": "71d5d969-1c58-4bc9-b36c-111616f03c03",
+                "id": "5a5aadc2-8834-4e7b-895b-74ad155fbf24",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vVNUJOgb/",
           "headers": {
-            "Host": "dl.delivery.mp.microsoft.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
