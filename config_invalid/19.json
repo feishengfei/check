@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.101.219.6",
-            "port": 443,
+            "address": "62.133.60.134",
+            "port": 10001,
             "users": [
               {
-                "id": "15eaa579-cf84-4792-8612-3f76fb1b6315",
+                "id": "998d0aea-9540-11ee-9111-3fe7c1d34d71",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "software.myftp.biz"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@FORWARDV2RAY",
+          "path": "/vpnjantit",
           "headers": {
-            "Host": "software.myftp.biz"
+            "Host": ""
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ser52.gsmxssh.com",
-            "port": 16688,
+            "address": "singapore.com",
+            "port": 80,
             "users": [
               {
-                "id": "5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623",
+                "id": "b1e30339-a603-47d1-b31c-1d0ceb59952e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/api/v3/download.getFile",
+          "headers": {
+            "Host": "ssrsub.v004.ssrsub.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

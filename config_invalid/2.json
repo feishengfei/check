@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.13.183",
-            "port": 2082,
+            "address": "b22.ntbq.dynu.net",
+            "port": 443,
             "users": [
               {
-                "id": "78495b73-3633-4831-aa99-36e739a0c386",
+                "id": "445405e7-8cb2-4a0f-be48-7714c8f233e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tf.nikishop13.online"
+          "serverName": "b22.ntbq.dynu.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/online",
+          "path": "/b22",
           "headers": {
-            "Host": "tf.nikishop13.online"
+            "Host": "b22.ntbq.dynu.net"
           }
         },
         "httpSettings": null,

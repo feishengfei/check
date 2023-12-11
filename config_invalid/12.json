@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.142.243",
-            "port": 80,
+            "address": "45.65.8.4",
+            "port": 443,
             "users": [
               {
-                "id": "81fc910b-5aa9-454b-bbee-fceac9a43c2f",
+                "id": "d6d76607-603b-450f-b156-b3367f1b4558",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "teletv.onthewifi.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@FORWARDV2RAY",
           "headers": {
-            "Host": "uk3.889611.com"
+            "Host": "teletv.onthewifi.com"
           }
         },
         "httpSettings": null,

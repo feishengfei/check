@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.131.14.177",
-            "port": 80,
+            "address": "cf.openxai.link",
+            "port": 8080,
             "users": [
               {
-                "id": "2c5fee13-f08b-4ba8-86db-27dd51cb9781",
+                "id": "e2695bd0-945f-4476-aac5-0e37bcdbd7fc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "94.131.14.177"
+            "Host": "eu5.openxai.link"
           }
         },
         "httpSettings": null,
