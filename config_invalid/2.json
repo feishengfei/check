@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "n1701761456.gxpnmtg.cn",
-            "port": 443,
+            "address": "104.21.13.183",
+            "port": 2082,
             "users": [
               {
-                "id": "bce406ed-1435-4afd-bb81-54ee21b696a7",
+                "id": "78495b73-3633-4831-aa99-36e739a0c386",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
+        "security": "none",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "tf.nikishop13.online"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/online",
           "headers": {
-            "Host": ""
+            "Host": "tf.nikishop13.online"
           }
         },
         "httpSettings": null,
