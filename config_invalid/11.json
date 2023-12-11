@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.202.232",
+            "address": "singapore.com",
             "port": 80,
             "users": [
               {
-                "id": "239d61bb-fd16-4b53-85a5-f4c12c0d3d94",
+                "id": "b1e30339-a603-47d1-b31c-1d0ceb59952e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "us8vm.cdn-03.live"
+            "Host": "ssrsub.v004.ssrsub.com"
           }
         },
         "httpSettings": null,
