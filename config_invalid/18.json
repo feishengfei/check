@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.wto.org",
-            "port": 443,
+            "address": "ca-new01.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "539d1f3c-619c-4180-9603-d23e2b4db62f",
+                "id": "6bed5b06-432c-425f-bc6e-028ff4298872",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "copies-bandwidth-harold-tops.trycloudflare.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "539d1f3c-619c-4180-9603-d23e2b4db62f-vm",
+          "path": "/",
           "headers": {
-            "Host": "copies-bandwidth-harold-tops.trycloudflare.com"
+            "Host": "ca-new01.gujuji.top"
           }
         },
         "httpSettings": null,

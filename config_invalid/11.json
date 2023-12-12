@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "fuqiang.misaeng.top",
-            "port": 443,
+            "address": "104.31.16.28",
+            "port": 80,
             "users": [
               {
-                "id": "1cff37e2-6e16-4722-ca87-0054c9276a54",
+                "id": "58fe1542-5290-40ad-815a-77707a81afe5",
                 "alterId": 0,
                 "email": "",
-                "security": "none",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/1cff37e2",
+          "path": "/IOebhLMhl1CTbFHbL95myfRX2",
           "headers": {
-            "Host": ""
+            "Host": "ca4.tehme2.fun"
           }
         },
         "httpSettings": null,

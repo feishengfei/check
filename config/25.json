@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10925,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "134.209.182.149",
-            "port": 80,
-            "users": [
-              {
-                "id": "fc5fcc6d-7fc5-46b1-9a6e-4eb270b9dcab",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "94.131.12.58",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "B0ry56X2AxfFgcgI7sHDWD",
+            "port": 26669,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/v2ray-vmess/ntls",
-          "headers": {
-            "Host": "internet.life.com.by"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
