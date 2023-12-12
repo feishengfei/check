@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "94.131.12.58",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "B0ry56X2AxfFgcgI7sHDWD",
-            "port": 26669,
-            "level": 1,
-            "users": null
+            "address": "207.148.77.215",
+            "port": 2,
+            "users": [
+              {
+                "id": "6e2080bc-07b0-4046-8c6a-bb5a18e12f7c",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "SG.linkedin.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

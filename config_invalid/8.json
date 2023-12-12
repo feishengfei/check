@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cz1-vmess.sshmax.xyz",
-            "port": 80,
+            "address": "104.20.92.214",
+            "port": 2096,
             "users": [
               {
-                "id": "ef7cfdf6-63e1-4307-bb61-40eb81acb5bd",
+                "id": "0223876a-3d69-4d3b-b968-12c909f6f888",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "azadi.Darkmood.cfd"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "Woman-Life-FreedomWoman-Life-FreedomWoman-Life-FreedomWoman-Life-FreedomWoman-Life-FreedomWoman-Life-Freedom",
           "headers": {
-            "Host": "cz1-vmess.sshmax.xyz"
+            "Host": "azadi.Darkmood.cfd"
           }
         },
         "httpSettings": null,
