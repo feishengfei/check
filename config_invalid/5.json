@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.99.190.109",
+            "address": "tc12.twtc.dynu.net",
             "port": 443,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "id": "a879c622-37bf-4f3e-a8bf-a7f4a0daf465",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "None"
+          "serverName": "tc12.twtc.dynu.net"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "linkvws",
+          "path": "/vbub2",
           "headers": {
-            "Host": "None"
+            "Host": "tc12.twtc.dynu.net"
           }
         },
         "httpSettings": null,

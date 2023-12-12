@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.133.60.134",
-            "port": 10001,
+            "address": "de-new01.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "998d0aea-9540-11ee-9111-3fe7c1d34d71",
+                "id": "96e353d5-2794-4e2b-96dc-973de876d711",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vpnjantit",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "de-new01.gujuji.top"
           }
         },
         "httpSettings": null,
