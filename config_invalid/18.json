@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ld2.shabijichang.com",
-            "port": 80,
+            "address": "www.wto.org",
+            "port": 443,
             "users": [
               {
-                "id": "c458695d-6908-45c3-9512-e0c46418454c",
+                "id": "539d1f3c-619c-4180-9603-d23e2b4db62f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "copies-bandwidth-harold-tops.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "539d1f3c-619c-4180-9603-d23e2b4db62f-vm",
           "headers": {
-            "Host": "ld2.shabijichang.com"
+            "Host": "copies-bandwidth-harold-tops.trycloudflare.com"
           }
         },
         "httpSettings": null,
