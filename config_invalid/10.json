@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray.ibgfw.top",
-            "port": 2053,
+            "address": "cz1-vmess.sshmax.xyz",
+            "port": 2082,
             "users": [
               {
-                "id": "5a5aadc2-8834-4e7b-895b-74ad155fbf24",
+                "id": "d466dd36-8b86-48b7-b0f0-67e7d128de6c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "v2ray.ibgfw.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vVNUJOgb/",
+          "path": "/vmess",
           "headers": {
-            "Host": "v2ray.ibgfw.top"
+            "Host": "cz1-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,
