@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.wto.org",
-            "port": 443,
+            "address": "us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com",
+            "port": 80,
             "users": [
               {
-                "id": "539d1f3c-619c-4180-9603-d23e2b4db62f",
+                "id": "71d5d969-1c58-4bc9-b36c-111616f03c03",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "copies-bandwidth-harold-tops.trycloudflare.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "539d1f3c-619c-4180-9603-d23e2b4db62f-vm",
+          "path": "/",
           "headers": {
-            "Host": "copies-bandwidth-harold-tops.trycloudflare.com"
+            "Host": "dl.delivery.mp.microsoft.com"
           }
         },
         "httpSettings": null,

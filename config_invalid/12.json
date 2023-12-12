@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.81.75",
-            "port": 2087,
+            "address": "cz1-vmess.sshmax.xyz",
+            "port": 2082,
             "users": [
               {
-                "id": "31bf0c56-583e-4471-a752-fff3c8a6be07",
+                "id": "d466dd36-8b86-48b7-b0f0-67e7d128de6c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "points2.irantls.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/IranxTLS",
+          "path": "/vmess",
           "headers": {
-            "Host": "points2.irantls.com"
+            "Host": "cz1-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,
