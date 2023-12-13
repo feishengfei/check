@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "scadn.yydsii.com",
-            "port": 8080,
+            "address": "xxx.star-one.cfd",
+            "port": 443,
             "users": [
               {
-                "id": "f32fb637-67eb-48be-9f29-4523c4720de7",
+                "id": "0a28a72b-09fd-4b79-a603-112fb8c0d414",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/23910/@FORWADV2RAY",
           "headers": {
-            "Host": "kryx.651568.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,
