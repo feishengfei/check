@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "xxx.star-one.cfd",
-            "port": 443,
+            "address": "singapore.com",
+            "port": 80,
             "users": [
               {
-                "id": "69308ca0-c45f-42a3-b86c-8c5412295fc0",
+                "id": "b1e30339-a603-47d1-b31c-1d0ceb59952e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/21392/@FORWADV2RAY",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": ""
+            "Host": "ssrsub.v005.ssrsub.com"
           }
         },
         "httpSettings": null,
