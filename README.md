@@ -6,14 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                | cn   | cc   | isp   | ip             | chatgpt          |
-|---:|:---------------------|:--------------------|:-----|:-----|:------|:---------------|:-----------------|
-|  0 | [10](config/10.json) | cdn0.host-speed.net |      |      |       | 146.19.233.202 | Yes (Region: DE) |
-|  1 | [12](config/12.json) | 45.159.249.231      |      |      |       | 45.159.249.231 | Yes (Region: FI) |
+|    | id                   | addr                | cn      | cc   | isp                            | ip             | chatgpt          |
+|---:|:---------------------|:--------------------|:--------|:-----|:-------------------------------|:---------------|:-----------------|
+|  0 | [6](config/6.json)   | cdn0.host-speed.net | Germany | DE   | Stark Industries Solutions Ltd | 146.19.233.202 | Yes (Region: DE) |
+|  1 | [15](config/15.json) | 54.36.174.181       | Poland  | PL   | OVH SAS                        | 54.36.174.181  | Yes (Region: FR) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDEwIiwgImFkZCI6ICJjZG4wLmhvc3Qtc3BlZWQubmV0IiwgInBvcnQiOiAiODAiLCAiaWQiOiAiZmQ2NDcxMGEtMzVlYS00YjkwLTlmZGQtOTA3MmU2YzJiYTcxIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJjZG4udnBuc2VsbC5iZWF1dHkiLCAicGF0aCI6ICIvIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6SVBqeW5LTlZWYUJuS0swVVo1enUy@45.159.249.231:38584#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2012
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDYiLCAiYWRkIjogImNkbjAuaG9zdC1zcGVlZC5uZXQiLCAicG9ydCI6ICI4MCIsICJpZCI6ICJmZDY0NzEwYS0zNWVhLTRiOTAtOWZkZC05MDcyZTZjMmJhNzEiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogImNkbi52cG5zZWxsLmJlYXV0eSIsICJwYXRoIjogIi8iLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIn0=
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@54.36.174.181:6679#github.com/freefq%20-%20%E6%B3%95%E5%9B%BD%E6%A0%BC%E6%8B%89%E6%B2%83%E5%88%A9%E8%AE%B7OVH%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2015
 ```
 
