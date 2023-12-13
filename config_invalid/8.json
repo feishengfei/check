@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.133.60.134",
-            "port": 10001,
+            "address": "scadn.yydsii.com",
+            "port": 8080,
             "users": [
               {
-                "id": "998d0aea-9540-11ee-9111-3fe7c1d34d71",
+                "id": "f32fb637-67eb-48be-9f29-4523c4720de7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vpnjantit",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "kryx.651568.xyz"
           }
         },
         "httpSettings": null,
