@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.133.60.134",
-            "port": 10001,
+            "address": "146.190.99.71",
+            "port": 21378,
             "users": [
               {
-                "id": "998d0aea-9540-11ee-9111-3fe7c1d34d71",
+                "id": "f9819b76-b627-4635-a9c5-c54c46a9db10",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vpnjantit",
+          "path": "/Shalana",
           "headers": {
-            "Host": ""
+            "Host": "media-exp1.licdn.com"
           }
         },
         "httpSettings": null,
