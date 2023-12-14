@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b22.ntbq.dynu.net",
-            "port": 443,
+            "address": "cf-hk.handboy.top",
+            "port": 80,
             "users": [
               {
-                "id": "44c8ddcc-5d3c-44b1-9250-eff4c8e2b903",
+                "id": "22425357-dc2f-4001-afe2-7f56a7210fca",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b22.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b22",
+          "path": "/asdas",
           "headers": {
-            "Host": "b22.ntbq.dynu.net"
+            "Host": "cf-hk5.handboy.top"
           }
         },
         "httpSettings": null,

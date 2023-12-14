@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "XXX147.FORWARDV2RAYTELEGRAMCHANNEL.FUN",
-            "port": 2087,
+            "address": "cloudflare.cfgo.cc",
+            "port": 8080,
             "users": [
               {
-                "id": "67ad5b2f-831e-43f5-9128-cf468903f454",
+                "id": "579fd6f1-7618-4fff-8635-9dba4a61df96",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "XXX63.FORWARDV2RAYTELEGRAMCHANNEL.FUN"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@FORWARDV2RAY",
+          "path": "/",
           "headers": {
-            "Host": "XXX63.FORWARDV2RAYTELEGRAMCHANNEL.FUN"
+            "Host": "cc.992688.xyz"
           }
         },
         "httpSettings": null,

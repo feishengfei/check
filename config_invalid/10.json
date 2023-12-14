@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.yifenjichang.top",
-            "port": 2086,
+            "address": "183.240.232.93",
+            "port": 34001,
             "users": [
               {
-                "id": "900ceafc-30b8-4581-a305-31854f563e4f",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
-          "headers": {
-            "Host": "pmid-mask-albums-heights.trycloudflare.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

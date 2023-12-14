@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10911,
+      "port": 10904,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
+            "address": "146.190.108.95",
+            "port": 30997,
             "users": [
               {
-                "id": "b1e30339-a603-47d1-b31c-1d0ceb59952e",
+                "id": "d2a14469-8e8e-44da-8001-7864bd3f7121",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "m.licdn.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/",
           "headers": {
-            "Host": "ssrsub.v005.ssrsub.com"
+            "Host": "m.licdn.com"
           }
         },
         "httpSettings": null,
