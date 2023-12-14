@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.16.201",
-            "port": 2083,
+            "address": "cloudflare.cfgo.cc",
+            "port": 8080,
             "users": [
               {
-                "id": "da37a316-d17b-493f-bd6e-b58a23e31823",
+                "id": "579fd6f1-7618-4fff-8635-9dba4a61df96",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "foryourtestmyfriends.hesam5a.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/foryourtestmyfriends2083",
+          "path": "/",
           "headers": {
-            "Host": "foryourtestmyfriends.hesam5a.tk"
+            "Host": "cc.992688.xyz"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kkyx.yydsii.com",
-            "port": 80,
+            "address": "hexsen.com",
+            "port": 443,
             "users": [
               {
-                "id": "f32fb637-67eb-48be-9f29-4523c4720de7",
+                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "arthur-experienced-hate-maiden.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": "yxtw.651568.xyz"
+            "Host": "arthur-experienced-hate-maiden.trycloudflare.com"
           }
         },
         "httpSettings": null,
