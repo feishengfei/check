@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "scadn.yydsii.com",
-            "port": 8080,
+            "address": "XXX112.FORWARDV2RAYTELEGRAMCHANNEL.FUN",
+            "port": 2096,
             "users": [
               {
-                "id": "f32fb637-67eb-48be-9f29-4523c4720de7",
+                "id": "1797383f-0203-40a4-a213-95403b2f7794",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@FORWARDV2RAY",
           "headers": {
-            "Host": "kryx.651568.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

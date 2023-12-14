@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.16.201",
-            "port": 2083,
+            "address": "sg1.awslcn.info",
+            "port": 25246,
             "users": [
               {
-                "id": "da37a316-d17b-493f-bd6e-b58a23e31823",
+                "id": "b50cfa49-c0d7-4e52-b489-364d7955aae9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "foryourtestmyfriends.hesam5a.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/foryourtestmyfriends2083",
+          "path": "",
           "headers": {
-            "Host": "foryourtestmyfriends.hesam5a.tk"
+            "Host": ""
           }
         },
         "httpSettings": null,
