@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kkyx.yydsii.com",
-            "port": 80,
+            "address": "104.19.154.92",
+            "port": 2087,
             "users": [
               {
-                "id": "f32fb637-67eb-48be-9f29-4523c4720de7",
+                "id": "8fada9c0-c348-4465-aade-ff0311454178",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pAnel159.moOkomeILz.homes"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/kqlqqv",
           "headers": {
-            "Host": "yxtw.651568.xyz"
+            "Host": "pAnel159.moOkomeILz.homes"
           }
         },
         "httpSettings": null,
