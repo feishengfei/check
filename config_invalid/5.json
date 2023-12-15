@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-02.jikuai.xyz",
-            "port": 2082,
+            "address": "b13.spwvpn.link",
+            "port": 443,
             "users": [
               {
-                "id": "70666776-4e9f-4350-b3f0-afaff6a70db0",
+                "id": "44c8ddcc-5d3c-44b1-9250-eff4c8e2b903",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b13.spwvpn.link"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/b13",
           "headers": {
-            "Host": "us-02.jikuai.xyz"
+            "Host": "b13.spwvpn.link"
           }
         },
         "httpSettings": null,
