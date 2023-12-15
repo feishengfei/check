@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.223.124.23",
-            "port": 443,
+            "address": "us-new03.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "9e9ab319-ab9d-4d71-8640-118cf0b49b8a",
+                "id": "0f762387-a32d-4482-a4f4-9968489a6dbe",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "forwardv2ray.serveminecraft.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@M3HDIO1",
+          "path": "/",
           "headers": {
-            "Host": "forwardv2ray.serveminecraft.net"
+            "Host": "us-new03.gujuji.top"
           }
         },
         "httpSettings": null,

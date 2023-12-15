@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-new03.gujuji.top",
-            "port": 8080,
+            "address": "104.19.155.92",
+            "port": 2096,
             "users": [
               {
-                "id": "71cbc2d9-b4c2-4cd9-ac3e-ff5f1b85c466",
+                "id": "35669f6c-2329-4969-a0fa-d3eabc74e500",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sNAppfoOD2.EsMAIlkoREa.sHOp"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "us-new03.gujuji.top"
+            "Host": "sNAppfoOD2.EsMAIlkoREa.sHOp"
           }
         },
         "httpSettings": null,
