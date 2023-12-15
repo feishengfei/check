@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hexsen.com",
-            "port": 443,
+            "address": "cp2.colacloud.site",
+            "port": 2086,
             "users": [
               {
-                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                "id": "4cf07258-8a36-4cf0-9d66-ee9cdc2a98b7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "arthur-experienced-hate-maiden.trycloudflare.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/argo-vmess?ed=2048",
+          "path": "/sssddd",
           "headers": {
-            "Host": "arthur-experienced-hate-maiden.trycloudflare.com"
+            "Host": "cf-nls.colacloud.site"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.229.33",
-            "port": 8880,
+            "address": "amini2.ddns.net",
+            "port": 2087,
             "users": [
               {
-                "id": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
+                "id": "5cd723e8-6f2b-45fc-bb07-07af31a106eb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "paNeL168.MOoKoMeilz.homes"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
+          "path": "/wlwowo",
           "headers": {
-            "Host": "fr7.tehme100.fun"
+            "Host": "paNeL168.MOoKoMeilz.homes"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-02.jikuai.xyz",
-            "port": 2082,
+            "address": "mkh.nimserver.top",
+            "port": 443,
             "users": [
               {
-                "id": "70666776-4e9f-4350-b3f0-afaff6a70db0",
+                "id": "1887abb3-2c28-4c54-9b3f-d776b3c31662",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us1-vmess.greenssh.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess",
           "headers": {
-            "Host": "us-02.jikuai.xyz"
+            "Host": "us1-vmess.greenssh.xyz"
           }
         },
         "httpSettings": null,

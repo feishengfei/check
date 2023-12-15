@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudflare.cfgo.cc",
-            "port": 8080,
+            "address": "156.225.67.66",
+            "port": 30000,
             "users": [
               {
-                "id": "579fd6f1-7618-4fff-8635-9dba4a61df96",
-                "alterId": 0,
+                "id": "ebec2adf-e940-446f-bed4-d8c91143b54a",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.92128675.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/path/1702301098557",
           "headers": {
-            "Host": "cc.992688.xyz"
+            "Host": "www.92128675.xyz"
           }
         },
         "httpSettings": null,

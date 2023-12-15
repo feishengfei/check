@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10917,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "93.123.17.134",
-            "port": 443,
+            "address": "45.199.138.185",
+            "port": 31000,
             "users": [
               {
-                "id": "9e9ab319-ab9d-4d71-8640-118cf0b49b8a",
-                "alterId": 0,
+                "id": "078eb24d-8d1d-4fbd-b914-ee58a897a35e",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "forwardv2ray.serveminecraft.net"
+          "serverName": "www.15697065.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@M3HDIO1",
+          "path": "/path/1702301098557",
           "headers": {
-            "Host": "forwardv2ray.serveminecraft.net"
+            "Host": "www.15697065.xyz"
           }
         },
         "httpSettings": null,
