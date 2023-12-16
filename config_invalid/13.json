@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.155.92",
-            "port": 2096,
+            "address": "us-02.jikuai.xyz",
+            "port": 2082,
             "users": [
               {
-                "id": "35669f6c-2329-4969-a0fa-d3eabc74e500",
+                "id": "70666776-4e9f-4350-b3f0-afaff6a70db0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sNAppfoOD2.EsMAIlkoREa.sHOp"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "sNAppfoOD2.EsMAIlkoREa.sHOp"
+            "Host": "us-02.jikuai.xyz"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "93.123.17.140",
-            "port": 443,
+            "address": "t.cnmjcn.cyou",
+            "port": 16616,
             "users": [
               {
-                "id": "9e9ab319-ab9d-4d71-8640-118cf0b49b8a",
+                "id": "c2c76420-257f-492a-b20f-6560f3bfa78d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "forwardv2ray.serveminecraft.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@M3HDIO1",
+          "path": "/",
           "headers": {
-            "Host": "forwardv2ray.serveminecraft.net"
+            "Host": "d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"
           }
         },
         "httpSettings": null,
