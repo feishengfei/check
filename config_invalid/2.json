@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b36.ntbq.dynu.net",
-            "port": 443,
+            "address": "t.cnmjcn.cyou",
+            "port": 16616,
             "users": [
               {
-                "id": "cd8fd89b-096f-49a0-afe4-908734e32a99",
+                "id": "c2c76420-257f-492a-b20f-6560f3bfa78d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b36.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b36",
+          "path": "/",
           "headers": {
-            "Host": "b36.ntbq.dynu.net"
+            "Host": "d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"
           }
         },
         "httpSettings": null,
