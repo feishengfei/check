@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10920,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yes.cnmjcn.net",
-            "port": 16616,
+            "address": "us4.36routes.online",
+            "port": 80,
             "users": [
               {
-                "id": "c2c76420-257f-492a-b20f-6560f3bfa78d",
+                "id": "8efc7e9d-716e-440c-8573-5c52e8c503e3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -63,7 +63,7 @@
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
