@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "amini2.ddns.net",
-            "port": 2083,
+            "address": "us-02.jikuai.xyz",
+            "port": 2082,
             "users": [
               {
-                "id": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
+                "id": "70666776-4e9f-4350-b3f0-afaff6a70db0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "PAneljadid.mookoMEilz.homes"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/snsk",
+          "path": "/",
           "headers": {
-            "Host": "PAneljadid.mookoMEilz.homes"
+            "Host": "us-02.jikuai.xyz"
           }
         },
         "httpSettings": null,

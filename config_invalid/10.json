@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.shaniugpt.top",
-            "port": 443,
+            "address": "104.17.129.28",
+            "port": 8080,
             "users": [
               {
-                "id": "4c60116a-6586-403c-b51a-765f389da936",
+                "id": "218996e0-5a6e-4806-8106-6b7b42e6d0d6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "yyjc-uk1.shaniugpt.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/yyjc-uk1",
+          "path": "/",
           "headers": {
-            "Host": "yyjc-uk1.shaniugpt.top"
+            "Host": "eu4.openxai.link"
           }
         },
         "httpSettings": null,
