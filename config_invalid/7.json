@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "21.openiisee.monster",
-            "port": 443,
+            "address": "us-new04.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "ba5122f9-308e-360a-a149-a599d2f65e88",
+                "id": "b0853364-fb92-4fcb-9717-16cb093ca379",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "outofthisworld.dropyourlove.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/every44",
+          "path": "/",
           "headers": {
-            "Host": "outofthisworld.dropyourlove.top"
+            "Host": "us-new04.gujuji.top"
           }
         },
         "httpSettings": null,
