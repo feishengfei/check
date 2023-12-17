@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b23.ntbq.dynu.net",
-            "port": 443,
+            "address": "fr-new01.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "cd8fd89b-096f-49a0-afe4-908734e32a99",
+                "id": "2909ec15-27f7-4ce2-87d6-35d078d927f8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b23.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b23",
+          "path": "/",
           "headers": {
-            "Host": "b23.ntbq.dynu.net"
+            "Host": "fr-new01.gujuji.top"
           }
         },
         "httpSettings": null,
