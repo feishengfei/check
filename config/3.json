@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us3.36routes.online",
-            "port": 80,
+            "address": "cctv.iepl01.yuntiair365.top",
+            "port": 53003,
             "users": [
               {
-                "id": "8efc7e9d-716e-440c-8573-5c52e8c503e3",
+                "id": "40db85f1-223f-374f-a49a-dbc9736c430f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
