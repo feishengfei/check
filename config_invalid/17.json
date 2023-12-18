@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nb36.ntbq.dynu.net",
-            "port": 443,
+            "address": "104.16.3.189",
+            "port": 8080,
             "users": [
               {
-                "id": "14327f86-7734-4d5b-9561-b58ad95cbcfb",
+                "id": "a60e5632-3069-415b-9ddc-cb0b3fabdafa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nb36.ntbq.dynu.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/b36",
+          "path": "/@vpn_whal",
           "headers": {
-            "Host": "nb36.ntbq.dynu.net"
+            "Host": "p.l.vpn.whal.whaleproject.tech"
           }
         },
         "httpSettings": null,

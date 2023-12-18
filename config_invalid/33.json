@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "181.174.80.182",
-            "port": 443,
+            "address": "muran-kr.qrfly.me",
+            "port": 20254,
             "users": [
               {
-                "id": "d6d76607-603b-450f-b156-b3367f1b4558",
+                "id": "007be9ad-8db6-4164-fc49-49989bbcba96",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "teletv.onthewifi.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@FORWARDV2RAY",
+          "path": "/",
           "headers": {
-            "Host": "teletv.onthewifi.com"
+            "Host": "muran-kr.qrfly.me"
           }
         },
         "httpSettings": null,
