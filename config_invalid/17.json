@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.3.189",
-            "port": 8080,
+            "address": "scp.baiyunxray.top",
+            "port": 443,
             "users": [
               {
-                "id": "a60e5632-3069-415b-9ddc-cb0b3fabdafa",
+                "id": "7d04b6ca-939a-4ac1-bec4-34706a9cc68f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "scp.baiyunxray.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@vpn_whal",
+          "path": "/",
           "headers": {
-            "Host": "p.l.vpn.whal.whaleproject.tech"
+            "Host": "scp.baiyunxray.top"
           }
         },
         "httpSettings": null,
