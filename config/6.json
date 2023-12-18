@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cctv.iepl01.yuntiair365.top",
-            "port": 53003,
+            "address": "adenc35.fixedlfoat.top",
+            "port": 443,
             "users": [
               {
-                "id": "40db85f1-223f-374f-a49a-dbc9736c430f",
+                "id": "45f63e92-f782-4cac-84b8-e61cb5a5bfd0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "adenc35.fixedlfoat.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/linkws",
+          "headers": {
+            "Host": "adenc35.fixedlfoat.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
