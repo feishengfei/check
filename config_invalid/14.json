@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.8.92.5",
-            "port": 443,
+            "address": "mehdi23.forwardv2raytelegramchannel.fun",
+            "port": 2095,
             "users": [
               {
-                "id": "9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f",
+                "id": "12741de7-7601-4985-980e-67a80f20e1c2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "m3hdio1.zapto.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/@FORWARDV2RAY",
           "headers": {
-            "Host": "m3hdio1.zapto.org"
+            "Host": ""
           }
         },
         "httpSettings": null,

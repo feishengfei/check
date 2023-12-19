@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fr-new01.gujuji.top",
-            "port": 8080,
+            "address": "nb36.ntbq.dynu.net",
+            "port": 3643,
             "users": [
               {
-                "id": "ed82c5d8-9983-4620-9614-83b7d1958d54",
+                "id": "99e39047-9298-404e-b632-1867f7ed1b37",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "fr-new01.gujuji.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

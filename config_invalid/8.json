@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "linde06.indiavideo.sbs",
-            "port": 443,
+            "address": "fr-new01.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+                "id": "ed82c5d8-9983-4620-9614-83b7d1958d54",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "linde06.indiavideo.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/linkws",
+          "path": "/",
           "headers": {
-            "Host": "linde06.indiavideo.sbs"
+            "Host": "fr-new01.gujuji.top"
           }
         },
         "httpSettings": null,
