@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10905,
+      "port": 10904,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cm.awslcn.info",
-            "port": 25218,
+            "address": "104.21.14.6",
+            "port": 2082,
             "users": [
               {
-                "id": "93ec7261-1c92-4149-848a-26b6fb9fc4ce",
+                "id": "3fc4081e-7054-470d-d483-94e92448fe14",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/Galaxy_Vpns",
           "headers": {
-            "Host": "cm.awslcn.info"
+            "Host": "king.fox-is.monster"
           }
         },
         "httpSettings": null,

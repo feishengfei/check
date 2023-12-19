@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1208.ssfree.ru",
-            "port": 443,
+            "address": "kr123.yydsii.com",
+            "port": 22050,
             "users": [
               {
-                "id": "800c9064-9dbe-11ee-b41b-00163e49219e",
+                "id": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "kr123.yydsii.com"
           }
         },
         "httpSettings": null,

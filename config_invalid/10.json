@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.131.97.10",
-            "port": 8880,
+            "address": "mehdi1.forwardv2raytelegramchannel.fun",
+            "port": 443,
             "users": [
               {
-                "id": "13c4fa1d-c558-4cd0-8108-c1f64cd399ff",
+                "id": "c2cb6d93-316f-48de-b36f-fd61e6f4ed47",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/@FORWARDV2RAY",
           "headers": {
-            "Host": "internet.life.com.by"
+            "Host": ""
           }
         },
         "httpSettings": null,
