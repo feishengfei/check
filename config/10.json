@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp03.xpoti.online",
-            "port": 80,
+            "address": "120.233.43.37",
+            "port": 52629,
             "users": [
               {
-                "id": "e3d42691-56ee-4ee5-ab1d-2f0f105d2f30",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "jp03.xpoti.online"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
