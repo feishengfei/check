@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10902,
+      "port": 10913,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cu.awslcn.info",
-            "port": 25280,
+            "address": "198.41.202.5",
+            "port": 2087,
             "users": [
               {
-                "id": "93ec7261-1c92-4149-848a-26b6fb9fc4ce",
+                "id": "7eb055b2-c1c1-450a-8199-be7553fdc108",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "docs2.obneh247.ir"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/2v2rayTEAM",
           "headers": {
-            "Host": "cu.awslcn.info"
+            "Host": "docs2.obneh247.ir"
           }
         },
         "httpSettings": null,
