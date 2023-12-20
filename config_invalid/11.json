@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.17kty.com",
-            "port": 443,
+            "address": "m.cnmjcn.com",
+            "port": 16616,
             "users": [
               {
-                "id": "53e4ab61-151f-46f2-83fd-28a5f24e74d4",
+                "id": "c2c76420-257f-492a-b20f-6560f3bfa78d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "h149-fr.kxnn.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/D26xvdqUdCpvvPTz4R",
+          "path": "/",
           "headers": {
-            "Host": "h149-fr.kxnn.eu.org"
+            "Host": "d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"
           }
         },
         "httpSettings": null,
