@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "95.164.44.203",
-            "port": 2082,
+            "address": "92.223.118.19",
+            "port": 443,
             "users": [
               {
-                "id": "6f0cca5e-cf21-4279-871e-ca26d9c955a0",
+                "id": "9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "m3hdio1.zapto.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/@FORWARDV2RAY",
           "headers": {
-            "Host": "95.164.44.203"
+            "Host": "m3hdio1.zapto.org"
           }
         },
         "httpSettings": null,
