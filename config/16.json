@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.77.248.94",
-            "port": 38938,
+            "address": "120.233.43.37",
+            "port": 52629,
             "users": [
               {
-                "id": "f08de967-1f69-48a7-d39c-86d141cefa43",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "m.facebook.net"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "m.facebook.net"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

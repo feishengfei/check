@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.81.238",
-            "port": 2083,
+            "address": "104.31.16.0",
+            "port": 2086,
             "users": [
               {
-                "id": "055079b7-84cb-4619-8b46-f21e642232ef",
+                "id": "de9b2f5b-f81b-4b1b-b754-f666a65ba54c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fracukayi0pixif.carfin.tech"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@apt_mahdi",
+          "path": "/wss2086?ed=2048",
           "headers": {
-            "Host": "fracukayi0pixif.carfin.tech"
+            "Host": "www.irayanconfig.ir"
           }
         },
         "httpSettings": null,

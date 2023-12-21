@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.189.207.4",
-            "port": 443,
+            "address": "cp2.colacloud.site",
+            "port": 80,
             "users": [
               {
-                "id": "56bb54b0-5cfc-4b35-bc81-0b300a08b46b",
+                "id": "b9bb8b7d-188a-444a-ba12-6b9f61958b23",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "m3hdio1.servehalflife.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@FORWARDV2RAY",
+          "path": "/sssddd",
           "headers": {
-            "Host": "m3hdio1.servehalflife.com"
+            "Host": "cf-krrs.colacloud.site"
           }
         },
         "httpSettings": null,
