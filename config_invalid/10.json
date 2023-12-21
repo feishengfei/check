@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.91.52",
-            "port": 80,
+            "address": "rf.rafalion.ir",
+            "port": 8443,
             "users": [
               {
-                "id": "cf9277a9-7661-4b06-865d-b7c239deb26b",
+                "id": "0198fa0c-221c-427c-8ab0-3a4829e73078",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "ee2.xv2ray.net"
+            "Host": ""
           }
         },
         "httpSettings": null,

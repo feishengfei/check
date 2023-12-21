@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10916,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tl.iranray.online",
-            "port": 8080,
+            "address": "45.77.248.94",
+            "port": 38938,
             "users": [
               {
-                "id": "b3c20911-126d-4c30-bd32-10152bf0b593",
+                "id": "f08de967-1f69-48a7-d39c-86d141cefa43",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "m.facebook.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "tl.iranray.online"
+            "Host": "m.facebook.net"
           }
         },
         "httpSettings": null,

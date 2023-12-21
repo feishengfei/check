@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf.openxai.link",
-            "port": 8080,
+            "address": "172.67.81.238",
+            "port": 2083,
             "users": [
               {
-                "id": "e2695bd0-945f-4476-aac5-0e37bcdbd7fc",
+                "id": "055079b7-84cb-4619-8b46-f21e642232ef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "fracukayi0pixif.carfin.tech"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@apt_mahdi",
           "headers": {
-            "Host": "eu5.openxai.link"
+            "Host": "fracukayi0pixif.carfin.tech"
           }
         },
         "httpSettings": null,
