@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.0",
-            "port": 2086,
+            "address": "172.99.190.109",
+            "port": 443,
             "users": [
               {
-                "id": "de9b2f5b-f81b-4b1b-b754-f666a65ba54c",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/wss2086?ed=2048",
+          "path": "linkvws",
           "headers": {
-            "Host": "www.irayanconfig.ir"
+            "Host": ""
           }
         },
         "httpSettings": null,
