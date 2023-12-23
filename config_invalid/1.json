@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp.xn--3iqt7ev49axf4a.shop",
-            "port": 50202,
+            "address": "nb24.ntbq.dynu.net",
+            "port": 4443,
             "users": [
               {
-                "id": "16cf94ca-92be-4433-a01d-469159516190",
+                "id": "7b039abd-ad30-4ce4-a876-0a97a3ccaf74",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "microsoft.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.58.153.25",
-            "port": 30000,
+            "address": "us-new01.gujuji.top",
+            "port": 8080,
             "users": [
               {
-                "id": "4242f9e0-6b7e-4257-9e93-7ad38015c46a",
-                "alterId": 64,
+                "id": "8a3d3f2c-3563-4543-bf8f-0f5a97ffff51",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1702961716738",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "us-new01.gujuji.top"
           }
         },
         "httpSettings": null,

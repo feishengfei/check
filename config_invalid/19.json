@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.227.38.86",
-            "port": 8080,
+            "address": "v32.emovpn.xyz",
+            "port": 8443,
             "users": [
               {
-                "id": "969f1909-c0d3-4c30-813d-3aec5c838b7d",
+                "id": "07f137c7-ca40-424f-b3a8-ab2d7c588228",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v32.emovpn.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/1IKYjV0r/",
+          "path": "/",
           "headers": {
-            "Host": "dongtaiwang13.dtku47.xyz"
+            "Host": "v32.emovpn.xyz"
           }
         },
         "httpSettings": null,
