@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "kr123.yydsii.com",
-            "port": 22050,
+            "address": "45.58.153.25",
+            "port": 30000,
             "users": [
               {
-                "id": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
-                "alterId": 0,
+                "id": "4242f9e0-6b7e-4257-9e93-7ad38015c46a",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/path/1702961716738",
           "headers": {
-            "Host": "kr123.yydsii.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
