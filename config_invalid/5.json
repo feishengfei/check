@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "45.87.153.246",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "f7EI0dGWQM42T8gwN9CZIj",
-            "port": 6199,
-            "level": 1,
-            "users": null
+            "address": "uk-new01.gujuji.top",
+            "port": 8080,
+            "users": [
+              {
+                "id": "f3a36387-755b-466b-b211-3cf76efa56a4",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "uk-new01.gujuji.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
