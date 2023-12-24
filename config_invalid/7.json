@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.223.124.23",
-            "port": 443,
+            "address": "yes.cnmjcn.net",
+            "port": 16616,
             "users": [
               {
-                "id": "56bb54b0-5cfc-4b35-bc81-0b300a08b46b",
+                "id": "c2c76420-257f-492a-b20f-6560f3bfa78d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "m3hdio1.servehalflife.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@FORWARDV2RAY",
+          "path": "/",
           "headers": {
-            "Host": "m3hdio1.servehalflife.com"
+            "Host": "d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"
           }
         },
         "httpSettings": null,
