@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hdbest.net",
-            "port": 443,
+            "address": "193.238.153.14",
+            "port": 8443,
             "users": [
               {
-                "id": "919e1a72-9720-3ea5-a9f8-80146afea7f7",
+                "id": "159693e0-5146-482d-9e46-8c4f2fc865b1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tk-007.xiaoxiaobujidao.xyz"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/xiaodao?ed=2048",
-          "headers": {
-            "Host": "tk-007.xiaoxiaobujidao.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

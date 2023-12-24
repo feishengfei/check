@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.238.153.14",
-            "port": 8443,
+            "address": "21.openiisee.monster",
+            "port": 443,
             "users": [
               {
-                "id": "159693e0-5146-482d-9e46-8c4f2fc865b1",
+                "id": "112ede46-9880-3721-864b-b3ea0dac5cd2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cloudreve.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/every23",
+          "headers": {
+            "Host": "cloudreve.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

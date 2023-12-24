@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v32.emovpn.xyz",
-            "port": 8443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "07f137c7-ca40-424f-b3a8-ab2d7c588228",
+                "id": "b1e30339-a603-47d1-b31c-1d0ceb59952e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "v32.emovpn.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "v32.emovpn.xyz"
+            "Host": "ssrsub.v004.ssrsub.com"
           }
         },
         "httpSettings": null,
