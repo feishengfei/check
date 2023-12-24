@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hexsen.com",
-            "port": 443,
+            "address": "45.77.35.241",
+            "port": 30349,
             "users": [
               {
-                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                "id": "62124706-e21c-46fa-cfd1-314861461656",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
+        "security": "none",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "hug.king361.cf"
+          "serverName": "m.linkedin.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/argo-vmess?ed=2048",
+          "path": "/gagenema",
           "headers": {
-            "Host": "hug.king361.cf"
+            "Host": "m.linkedin.com"
           }
         },
         "httpSettings": null,

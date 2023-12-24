@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hdbest.net",
-            "port": 443,
+            "address": "104.21.75.246",
+            "port": 80,
             "users": [
               {
-                "id": "919e1a72-9720-3ea5-a9f8-80146afea7f7",
+                "id": "c458695d-6908-45c3-9512-e0c46418454c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tk-007.xiaoxiaobujidao.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/xiaodao?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "tk-007.xiaoxiaobujidao.xyz"
+            "Host": "sbl2.shabijichang.com"
           }
         },
         "httpSettings": null,
