@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yes.cnmjcn.net",
-            "port": 16616,
+            "address": "64.176.82.171",
+            "port": 10867,
             "users": [
               {
-                "id": "c2c76420-257f-492a-b20f-6560f3bfa78d",
+                "id": "e7d3319a-2a29-46f5-cf78-f5152f89a56b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "m.linkedin.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/alexdevil",
           "headers": {
-            "Host": "d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"
+            "Host": "m.linkedin.com"
           }
         },
         "httpSettings": null,

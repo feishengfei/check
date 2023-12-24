@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.77.35.241",
-            "port": 30349,
+            "address": "58.187.206.121",
+            "port": 80,
             "users": [
               {
-                "id": "62124706-e21c-46fa-cfd1-314861461656",
+                "id": "a2893b4e-e6f8-40cb-bae5-8b3cb8937dae",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "m.linkedin.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/gagenema",
+          "path": "/",
           "headers": {
-            "Host": "m.linkedin.com"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "usa-lsj-chuzuyong-001.izzydesign.uk",
-            "port": 57881,
+            "address": "103.67.197.195",
+            "port": 80,
             "users": [
               {
-                "id": "962c8b58-87ed-43bd-be62-c48d9c0d036a",
+                "id": "bfb9f927-eef3-4dfd-adbe-05bcc8279b41",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "usa-lsj-chuzuyong-001.izzydesign.uk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/962c8b58-87ed-43bd-be62-c48d9c0d036a",
+          "path": "/ongtrumdata.com",
           "headers": {
-            "Host": "usa-lsj-chuzuyong-001.izzydesign.uk"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,
