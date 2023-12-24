@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-02.jikuai.xyz",
-            "port": 2082,
+            "address": "21.openiisee.monster",
+            "port": 443,
             "users": [
               {
-                "id": "70666776-4e9f-4350-b3f0-afaff6a70db0",
+                "id": "112ede46-9880-3721-864b-b3ea0dac5cd2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cloudreve.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/every23",
           "headers": {
-            "Host": "us-02.jikuai.xyz"
+            "Host": "cloudreve.top"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "m.cnmjcn.com",
-            "port": 16616,
+            "address": "104.21.69.44",
+            "port": 2087,
             "users": [
               {
-                "id": "c2c76420-257f-492a-b20f-6560f3bfa78d",
+                "id": "8fada9c0-c348-4465-aade-ff0311454178",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pAnel159.moOkomeILz.homes"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@FreeVPNHomes@FreeVPNHomes",
           "headers": {
-            "Host": "d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"
+            "Host": "pAnel159.moOkomeILz.homes"
           }
         },
         "httpSettings": null,
