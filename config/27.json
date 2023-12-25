@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10921,
+      "port": 10927,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cm1.awslcn.info",
-            "port": 25258,
+            "address": "cm-cdn.kfcvme50.life",
+            "port": 2095,
             "users": [
               {
-                "id": "93ec7261-1c92-4149-848a-26b6fb9fc4ce",
+                "id": "7b529a8b-d306-4744-b4e5-c29aaa42ec0b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -63,7 +63,7 @@
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "cm1.awslcn.info"
+            "Host": "uk.kfcvme50.life"
           }
         },
         "httpSettings": null,

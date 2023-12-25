@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.225.199.15",
-            "port": 53331,
+            "address": "c12.twtc.dynu.net",
+            "port": 6122,
             "users": [
               {
-                "id": "ceb30839-9bee-40c4-a8af-5ae1f9d980be",
+                "id": "27c6999b-58aa-48b4-b065-786d2badc074",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dj.changding.tech"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vm-tls1?ed=2048",
-          "headers": {
-            "Host": "dj.changding.tech"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
