@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.251.248.176",
-            "port": 38011,
+            "address": "www.speedtest.net",
+            "port": 80,
             "users": [
               {
-                "id": "4c6eb00b-5b7e-4832-86ae-f3c6ad892e24",
+                "id": "0145ec5a-fa39-4471-e94c-ca641a756d1f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dci-sg.changding.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vm-tls0?ed=2048",
+          "path": "/@vpn_whal,@vpn_whal",
           "headers": {
-            "Host": "dci-sg.changding.me"
+            "Host": "d.pl1.vpn.whal.whaleproject.tech"
           }
         },
         "httpSettings": null,

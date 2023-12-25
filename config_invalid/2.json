@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "muran-kr.qrfly.me",
-            "port": 20254,
+            "address": "103.225.199.15",
+            "port": 53331,
             "users": [
               {
-                "id": "007be9ad-8db6-4164-fc49-49989bbcba96",
+                "id": "ceb30839-9bee-40c4-a8af-5ae1f9d980be",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dj.changding.tech"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vm-tls1?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "dj.changding.tech"
           }
         },
         "httpSettings": null,

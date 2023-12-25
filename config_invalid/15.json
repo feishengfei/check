@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.67.197.195",
-            "port": 80,
+            "address": "172.67.161.145",
+            "port": 2053,
             "users": [
               {
-                "id": "bfb9f927-eef3-4dfd-adbe-05bcc8279b41",
+                "id": "61e20c1b-0e0a-42d1-8b43-6a487571221d",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mehdi6.goodbyefilteringchannel.space"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ongtrumdata.com",
+          "path": "/forwardv2ray_no1forwardv2ray_no4",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "mehdi6.goodbyefilteringchannel.space"
           }
         },
         "httpSettings": null,
