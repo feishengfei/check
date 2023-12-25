@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hytron.io",
-            "port": 8080,
+            "address": "vn1.network.io.vn",
+            "port": 80,
             "users": [
               {
-                "id": "010c265f-5455-4141-ca23-4d69357ded0d",
+                "id": "a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/network",
           "headers": {
-            "Host": "aktw.daozhang.love"
+            "Host": "vn1.network.io.vn"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray.ibgfw.top",
-            "port": 2053,
+            "address": "38.54.36.70",
+            "port": 58300,
             "users": [
               {
-                "id": "5a5aadc2-8834-4e7b-895b-74ad155fbf24",
+                "id": "0c1e5254-eab9-4c47-f749-a467019cf2ba",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vVNUJOgb/",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "internet.life.com.by"
           }
         },
         "httpSettings": null,
