@@ -6,12 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr          | cn        | cc   | isp       | ip            | chatgpt          |
-|---:|:-------------------|:--------------|:----------|:-----|:----------|:--------------|:-----------------|
-|  0 | [5](config/5.json) | 64.176.82.171 | Singapore | SG   | AS-CHOOPA | 64.176.82.171 | Yes (Region: SG) |
+|    | id                   | addr            | cn       | cc   | isp                              | ip              | chatgpt          |
+|---:|:---------------------|:----------------|:---------|:-----|:---------------------------------|:----------------|:-----------------|
+|  0 | [5](config/5.json)   | cm.awslcn.info  | Taiwan   | TW   | ByteVirt LLC                     | 108.165.144.166 | Yes (Region: US) |
+|  1 | [10](config/10.json) | cm1.awslcn.info | Malaysia | MY   | TM TECHNOLOGY SERVICES SDN. BHD. | 58.26.140.91    | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJhZGQiOiAiNjQuMTc2LjgyLjE3MSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJob3N0IjogIm0ubGlua2VkaW4uY29tIiwgImlkIjogImU3ZDMzMTlhLTJhMjktNDZmNS1jZjc4LWY1MTUyZjg5YTU2YiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvYWxleGRldmlsIiwgInBvcnQiOiAiMTA4NjciLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWEgNSIsICJ0bHMiOiAibm9uZSIsICJzbmkiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTVlN2ZcdTVkZGVcdTVlMDJcdTc5ZmJcdTUyYTggNSIsICJhZGQiOiAiY20uYXdzbGNuLmluZm8iLCAicG9ydCI6ICIyNTIzMyIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiOTNlYzcyNjEtMWM5Mi00MTQ5LTg0OGEtMjZiNmZiOWZjNGNlIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAiaG9zdCI6ICJjbS5hd3NsY24uaW5mbyIsICJ0bHMiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTVlN2ZcdTVkZGVcdTVlMDJcdTc5ZmJcdTUyYTggMTAiLCAiYWRkIjogImNtMS5hd3NsY24uaW5mbyIsICJwb3J0IjogIjI1MjU4IiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICI5M2VjNzI2MS0xYzkyLTQxNDktODQ4YS0yNmI2ZmI5ZmM0Y2UiLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJob3N0IjogImNtMS5hd3NsY24uaW5mbyIsICJ0bHMiOiAiIn0=
 ```
 
