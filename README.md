@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr          | cn   | cc   | isp   | ip            | chatgpt          |
-|---:|:-------------------|:--------------|:-----|:-----|:------|:--------------|:-----------------|
-|  0 | [3](config/3.json) | 142.202.48.43 |      |      |       | 142.202.48.43 | Yes (Region: US) |
+|    | id                 | addr          | cn        | cc   | isp       | ip            | chatgpt          |
+|---:|:-------------------|:--------------|:----------|:-----|:----------|:--------------|:-----------------|
+|  0 | [5](config/5.json) | 64.176.82.171 | Singapore | SG   | AS-CHOOPA | 64.176.82.171 | Yes (Region: SG) |
 
 ## Valid
 ```
-ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@142.202.48.43:8090#github.com/freefq%20-%20%E5%8A%A0%E6%8B%BF%E5%A4%A7%20%203
+vmess://eyJhZGQiOiAiNjQuMTc2LjgyLjE3MSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJob3N0IjogIm0ubGlua2VkaW4uY29tIiwgImlkIjogImU3ZDMzMTlhLTJhMjktNDZmNS1jZjc4LWY1MTUyZjg5YTU2YiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvYWxleGRldmlsIiwgInBvcnQiOiAiMTA4NjciLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRcdTUyYTBcdTUyMjlcdTc5OGZcdTVjM2NcdTRlOWEgNSIsICJ0bHMiOiAibm9uZSIsICJzbmkiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
 ```
 
