@@ -6,20 +6,22 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                 | cn              | cc   | isp                              | ip              | chatgpt          |
-|---:|:---------------------|:---------------------|:----------------|:-----|:---------------------------------|:----------------|:-----------------|
-|  0 | [3](config/3.json)   | cm1.awslcn.info      | Malaysia        | MY   | TM TECHNOLOGY SERVICES SDN. BHD. | 58.26.140.91    | Yes (Region: US) |
-|  1 | [13](config/13.json) | hk1.awslcn.info      | Hong Kong       | HK   | Hong Kong Broadband Network Ltd. | 124.244.178.235 | Yes (Region: US) |
-|  2 | [27](config/27.json) | cm-cdn.kfcvme50.life | United Kingdom  | GB   | CLOUDFLARENET                    | 104.28.224.64   | Yes (Region: GB) |
-|  3 | [32](config/32.json) | 156.249.18.65        | The Netherlands | NL   | YISP B.V.                        | 154.84.1.122    | Yes (Region: NL) |
-|  4 | [43](config/43.json) | 45.121.48.196        | Taiwan          | TW   | EMGINECONCEPT-01                 | 45.121.48.196   | Yes (Region: TW) |
+|    | id                   | addr            | cn            | cc   | isp                              | ip                                     | chatgpt          |
+|---:|:---------------------|:----------------|:--------------|:-----|:---------------------------------|:---------------------------------------|:-----------------|
+|  0 | [13](config/13.json) | 45.77.176.217   | Japan         | JP   | AS-CHOOPA                        | 2001:19f0:7001:21ad:5400:4ff:feaa:a43d | Yes (Region: JP) |
+|  1 | [14](config/14.json) | 104.238.182.29  | United States | US   | AS-CHOOPA                        | 2001:19f0:ac00:4abc:5400:4ff:feaa:4caf | Yes (Region: US) |
+|  2 | [24](config/24.json) | hk1.awslcn.info | Hong Kong     | HK   | Hong Kong Broadband Network Ltd. | 124.244.178.235                        | Yes (Region: US) |
+|  3 | [25](config/25.json) | cm.awslcn.info  | Taiwan        | TW   | ByteVirt LLC                     | 108.165.144.166                        | Yes (Region: US) |
+|  4 | [29](config/29.json) | 113.20.28.102   | Indonesia     | ID   | ARDH GLOBAL INDONESIA, PT        | 113.20.28.102                          | Yes (Region: ID) |
+|  5 | [45](config/45.json) | 45.121.48.196   | Taiwan        | TW   | EMGINECONCEPT-01                 | 45.121.48.196                          | Yes (Region: TW) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTVlN2ZcdTVkZGVcdTVlMDJcdTc5ZmJcdTUyYTggMyIsICJhZGQiOiAiY20xLmF3c2xjbi5pbmZvIiwgInBvcnQiOiAiMjUyNTgiLCAidHlwZSI6ICJub25lIiwgImlkIjogIjkzZWM3MjYxLTFjOTItNDE0OS04NDhhLTI2YjZmYjlmYzRjZSIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgImhvc3QiOiAiY20xLmF3c2xjbi5pbmZvIiwgInRscyI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTVlN2ZcdTVkZGVcdTVlMDJcdTc5ZmJcdTUyYTggMTMiLCAiYWRkIjogImhrMS5hd3NsY24uaW5mbyIsICJwb3J0IjogIjI1MjQyIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICI5M2VjNzI2MS0xYzkyLTQxNDktODQ4YS0yNmI2ZmI5ZmM0Y2UiLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJob3N0IjogImhrMS5hd3NsY24uaW5mbyIsICJ0bHMiOiAiIn0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzMTdcdTdmOGVcdTU3MzBcdTUzM2EgIDI3IiwgImFkZCI6ICJjbS1jZG4ua2Zjdm1lNTAubGlmZSIsICJwb3J0IjogIjIwOTUiLCAiaWQiOiAiN2I1MjlhOGItZDMwNi00NzQ0LWI0ZTUtYzI5YWFhNDJlYzBiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJ1ay5rZmN2bWU1MC5saWZlIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIiwgInNuaSI6ICIifQ==
-vmess://eyJhZGQiOiAiMTU2LjI0OS4xOC42NSIsICJhaWQiOiA2NCwgImhvc3QiOiAid3d3LjcyMjgxMTQ5Lnh5eiIsICJpZCI6ICI0ZWMwYWU2Mi1kZTA5LTQwMjktOTA0YS0wMzEzZDQ2MjhlY2YiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3BhdGgvMTcwMzIzMTI2Mjg3NSIsICJwb3J0IjogMzAwMDAsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1NTM1N1x1OTc1ZVx1OGM2YVx1NzY3Ylx1NzcwMVx1N2VhNlx1N2ZmMFx1NTE4NVx1NjVhZlx1NTgyMUNsb3VkaW5ub3ZhdGlvblx1NjU3MFx1NjM2ZVx1NGUyZFx1NWZjMyAzMiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiYXV0byIsICJzZWN1cml0eSI6ICJhdXRvIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLCAic25pIjogIiJ9
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzZjBcdTZlN2VcdTc3MDEgIDQzIiwgImFkZCI6ICI0NS4xMjEuNDguMTk2IiwgInBvcnQiOiAiMTAwMDEiLCAiaWQiOiAiMGVkMzU2MjktOTE5YS00ODkxLWJhMGYtMTNjZDE5OGY4NjNiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
+vmess://eyJhZGQiOiAiNDUuNzcuMTc2LjIxNyIsICJhaWQiOiAiMCIsICJob3N0IjogIiIsICJpZCI6ICIxZjU3YTFjYy1kMzk1LTRiZGUtYmZjZi1mNjJhOGE0Zjk1NTkiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogIjE2MTQyIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU2NWU1XHU2NzJjXHU0ZTFjXHU0ZWFjQ2hvb3BhXHU2NTcwXHU2MzZlXHU0ZTJkXHU1ZmMzIDEzIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
+vmess://eyJhZGQiOiAiMTA0LjIzOC4xODIuMjkiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiNzRjYzgyZmYtZTM5OC00YTBlLWRmOTQtZTVlOWQ2NmFiYmIzIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiNTA3MDYiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDaG9vcGFcdTUxNmNcdTUzZjhcdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgMTQiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTVlN2ZcdTVkZGVcdTVlMDJcdTc5ZmJcdTUyYTggMjQiLCAiYWRkIjogImhrMS5hd3NsY24uaW5mbyIsICJwb3J0IjogIjI1MjQyIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICI5M2VjNzI2MS0xYzkyLTQxNDktODQ4YS0yNmI2ZmI5ZmM0Y2UiLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJob3N0IjogImhrMS5hd3NsY24uaW5mbyIsICJ0bHMiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTVlN2ZcdTVkZGVcdTVlMDJcdTc5ZmJcdTUyYTggMjUiLCAiYWRkIjogImNtLmF3c2xjbi5pbmZvIiwgInBvcnQiOiAiMjUyMzMiLCAidHlwZSI6ICJub25lIiwgImlkIjogIjkzZWM3MjYxLTFjOTItNDE0OS04NDhhLTI2YjZmYjlmYzRjZSIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgImhvc3QiOiAiY20uYXdzbGNuLmluZm8iLCAidGxzIjogIiJ9
+vmess://eyJhZGQiOiAiMTEzLjIwLjI4LjEwMiIsICJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzNzBcdTVlYTZcdTVjM2NcdTg5N2ZcdTRlOWEgIDI5IiwgInBvcnQiOiAyMjE4OCwgImlkIjogIjAwNjc3ZWI0LTkxYzItNDFmMS1lNzkwLTk2M2I5YTA5M2ZkNSIsICJhaWQiOiAiMCIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzZjBcdTZlN2VcdTc3MDEgIDQ1IiwgImFkZCI6ICI0NS4xMjEuNDguMTk2IiwgInBvcnQiOiAiMTAwMDEiLCAiaWQiOiAiMGVkMzU2MjktOTE5YS00ODkxLWJhMGYtMTNjZDE5OGY4NjNiIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiLyIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
 ```
 

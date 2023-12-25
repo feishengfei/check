@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bs2.loadingip.com",
-            "port": 80,
+            "address": "c12.twtc.dynu.net",
+            "port": 6122,
             "users": [
               {
-                "id": "5278f5d3-f001-4459-94b6-7e0915238998",
+                "id": "d9e103fc-741d-459f-9a92-4f59bfb083ef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/bs",
-          "headers": {
-            "Host": "bs2.loadingip.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

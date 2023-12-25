@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10903,
+      "port": 10925,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,8 +36,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "cm1.awslcn.info",
-            "port": 25258,
+            "address": "cm.awslcn.info",
+            "port": 25233,
             "users": [
               {
                 "id": "93ec7261-1c92-4149-848a-26b6fb9fc4ce",
@@ -63,7 +63,7 @@
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "cm1.awslcn.info"
+            "Host": "cm.awslcn.info"
           }
         },
         "httpSettings": null,
