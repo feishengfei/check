@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.251.248.176",
-            "port": 38011,
+            "address": "t.cnmjcn.cyou",
+            "port": 16648,
             "users": [
               {
-                "id": "4c6eb00b-5b7e-4832-86ae-f3c6ad892e24",
+                "id": "c2c76420-257f-492a-b20f-6560f3bfa78d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dci-sg.changding.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vm-tls0?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "dci-sg.changding.me"
+            "Host": "d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"
           }
         },
         "httpSettings": null,
