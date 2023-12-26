@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.15.90.199",
-            "port": 80,
+            "address": "146.59.147.250",
+            "port": 29776,
             "users": [
               {
-                "id": "baa85f59-844b-4aa6-95e6-1747d9b78e8a",
+                "id": "82447abf-dcb9-408a-9ca6-79e0a7698d08",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vpngiangon.com",
-          "headers": {
-            "Host": "dl.kgvn.garenanow.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
