@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cm-cdn.kfcvme50.life",
-            "port": 2095,
+            "address": "146.59.147.250",
+            "port": 29776,
             "users": [
               {
-                "id": "7b529a8b-d306-4744-b4e5-c29aaa42ec0b",
+                "id": "82447abf-dcb9-408a-9ca6-79e0a7698d08",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "hytron.kfcvme50.life"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
