@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.245.135",
+            "address": "103.82.21.6",
             "port": 80,
             "users": [
               {
-                "id": "7a65ec09-3b47-418d-d9d3-b10b26e562ea",
+                "id": "bfb9f927-eef3-4dfd-adbe-05bcc8279b41",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tw.kapacloud.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/blue",
+          "path": "/ongtrumdata.com",
           "headers": {
-            "Host": "tw.kapacloud.eu.org"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,
