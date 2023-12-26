@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us-02.jikuai.xyz",
-            "port": 2082,
+            "address": "103.177.94.138",
+            "port": 22843,
             "users": [
               {
-                "id": "70666776-4e9f-4350-b3f0-afaff6a70db0",
+                "id": "009bae05-80bb-4e27-d2c1-efea629e95ae",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "us-02.jikuai.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

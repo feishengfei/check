@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "upload.ir",
-            "port": 443,
+            "address": "vn2.network.io.vn",
+            "port": 80,
             "users": [
               {
-                "id": "33653184-91f3-4f3f-b707-2fc21e9adeb8",
+                "id": "a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pl1-vmess.sshmax.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/network",
           "headers": {
-            "Host": "pl1-vmess.sshmax.xyz"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,
