@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn6.5gsieutocdo.com",
-            "port": 80,
+            "address": "hexsen.com",
+            "port": 443,
             "users": [
               {
-                "id": "c95357eb-2869-4511-8940-f0dc5e1ec9b1",
+                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "log-hammer-fill-conversations.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gsieutocdo.club",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": "vn6.5gsieutocdo.com"
+            "Host": "log-hammer-fill-conversations.trycloudflare.com"
           }
         },
         "httpSettings": null,

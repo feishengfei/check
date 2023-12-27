@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp1.s2fjeyeeyafe.bond",
-            "port": 80,
+            "address": "104.17.62.27",
+            "port": 2082,
             "users": [
               {
-                "id": "65d79be3-7327-45f8-86fc-bd7f27948eec",
+                "id": "83befb0c-5b64-4c59-9806-a0903e645649",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zh-cn",
+          "path": "/asdas",
           "headers": {
-            "Host": ""
+            "Host": "cf-de2ss2.doushimeng.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.209.2",
-            "port": 8443,
+            "address": "vn2.network.io.vn",
+            "port": 80,
             "users": [
               {
-                "id": "acbfb851-b923-4616-fa8b-614623eb7150",
+                "id": "a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "avali.vipconnected.cfd"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+          "path": "/network",
           "headers": {
-            "Host": "avali.vipconnected.cfd"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,

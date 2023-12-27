@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.113.68.233",
-            "port": 8880,
+            "address": "jp-v2ray.ipracevpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "fddb3781-7e15-4731-a933-94db110b4bbc",
+                "id": "48a70784-86ca-4639-97b5-0fdc82026877",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vmess",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

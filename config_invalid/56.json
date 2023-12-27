@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru1-vmess.sshmax.xyz",
-            "port": 80,
+            "address": "103.114.201.44",
+            "port": 45233,
             "users": [
               {
-                "id": "61cf7313-1503-4bab-beeb-ba69fd5843ae",
+                "id": "8e87821e-c22a-44c6-c741-43ab791f47b6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "ru1-vmess.sshmax.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

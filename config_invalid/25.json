@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hanoi4.5gsieutocdo.com",
+            "address": "jp1.s2fjeyeeyafe.bond",
             "port": 80,
             "users": [
               {
-                "id": "c95357eb-2869-4511-8940-f0dc5e1ec9b1",
+                "id": "65d79be3-7327-45f8-86fc-bd7f27948eec",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gsieutocdo.club",
+          "path": "/zh-cn",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
