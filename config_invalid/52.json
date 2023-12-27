@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "singapore.com",
-            "port": 80,
+            "address": "2024my.top",
+            "port": 443,
             "users": [
               {
-                "id": "b1e30339-a603-47d1-b31c-1d0ceb59952e",
+                "id": "957d7e0b-2789-4649-8c2c-eeb50ea66bdd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "h244-fr.kxnn.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
+          "path": "/D26xvdqUdCpvvPTz4R",
           "headers": {
-            "Host": "ssrsub.v03.ssrsub.com"
+            "Host": "h244-fr.kxnn.eu.org"
           }
         },
         "httpSettings": null,

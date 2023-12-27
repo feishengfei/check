@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10955,
+      "port": 10971,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "443.cfff.eu.org",
-            "port": 443,
+            "address": "45.58.153.24",
+            "port": 30000,
             "users": [
               {
-                "id": "3baf855c-db94-4417-9892-a69c050392a5",
-                "alterId": 0,
+                "id": "4242f9e0-6b7e-4257-9e93-7ad38015c46a",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "h134-fr.kxnn.eu.org"
+          "serverName": "www.77935707.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/D26xvdqUdCpvvPTz4R",
+          "path": "/path/1702392255355",
           "headers": {
-            "Host": "h134-fr.kxnn.eu.org"
+            "Host": "www.77935707.xyz"
           }
         },
         "httpSettings": null,

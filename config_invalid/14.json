@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hanoi4.speed4g.click",
-            "port": 80,
+            "address": "103.114.201.143",
+            "port": 59487,
             "users": [
               {
-                "id": "b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa",
+                "id": "51fb562e-0a9b-4c27-e4d8-6f4883bb5165",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/speed4g.click",
-          "headers": {
-            "Host": "hanoi4.speed4g.click"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
