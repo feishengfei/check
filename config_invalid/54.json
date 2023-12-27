@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.181.23.67",
-            "port": 2082,
+            "address": "84.32.231.244",
+            "port": 3001,
             "users": [
               {
-                "id": "e342ac69-9671-4b47-bd62-64002ac97d8b",
+                "id": "8efe48f5-22e2-4f0c-93da-665a4bc64ab1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vmess",
-          "headers": {
-            "Host": "ee1-vmess.sshmax.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
