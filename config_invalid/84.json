@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.238.153.14",
-            "port": 8443,
+            "address": "108.165.113.99",
+            "port": 443,
             "users": [
               {
-                "id": "159693e0-5146-482d-9e46-8c4f2fc865b1",
+                "id": "ef22fad3-652a-48fc-e80a-46faa3a6a787",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

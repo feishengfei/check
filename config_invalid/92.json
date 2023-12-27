@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.232.54.160",
-            "port": 80,
+            "address": "mehdi2.goodbyefilteringchannel.space",
+            "port": 2096,
             "users": [
               {
-                "id": "d95cded2-816a-4b5d-bb21-6180bd6d4d3a",
+                "id": "819aa317-b82f-45a4-8226-c1de31361f97",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "chacha20-poly1305",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mehdi2.goodbyefilteringchannel.space"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zenpn.com",
+          "path": "/forwardv2ray1forwardv2ray4",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "mehdi2.goodbyefilteringchannel.space"
           }
         },
         "httpSettings": null,

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "142.171.122.68",
-            "port": 443,
+            "address": "sg.vpndata.vn",
+            "port": 80,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "a2c7eeea-53f9-480a-be9d-536518b4fb0b",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1703231262875",
+          "path": "/VPNDATA.xYx",
           "headers": {
-            "Host": ""
+            "Host": "sg.vpndata.vn"
           }
         },
         "httpSettings": null,
