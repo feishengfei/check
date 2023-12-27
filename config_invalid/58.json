@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.232.54.160",
-            "port": 80,
+            "address": "172.99.190.109",
+            "port": 443,
             "users": [
               {
-                "id": "d95cded2-816a-4b5d-bb21-6180bd6d4d3a",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/zenpn.com",
+          "path": "linkvws",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
