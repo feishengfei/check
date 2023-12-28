@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10968,
+      "port": 11019,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn1.network.io.vn",
+            "address": "jp.takeshi.wiki",
             "port": 80,
             "users": [
               {
-                "id": "a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c",
+                "id": "a19f357b-c836-4cf6-9e43-72390e6a00df",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/network",
+          "path": "/takeshi.wiki",
           "headers": {
-            "Host": "vn1.network.io.vn"
+            "Host": ""
           }
         },
         "httpSettings": null,

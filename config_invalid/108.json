@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cold-dawn-9246.fly.dev",
-            "port": 443,
+            "address": "cf-lt.sharecentre.online",
+            "port": 80,
             "users": [
               {
-                "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+                "id": "b1e30339-a603-47d1-b31c-1d0ceb59952e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cold-dawn-9246.fly.dev"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+          "path": "/api/v3/download.getFile",
           "headers": {
-            "Host": "cold-dawn-9246.fly.dev"
+            "Host": "ssrsub.v005.ssrsub.com"
           }
         },
         "httpSettings": null,

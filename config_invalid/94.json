@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.54.36.70",
-            "port": 58300,
+            "address": "443.cfff.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "0c1e5254-eab9-4c47-f749-a467019cf2ba",
+                "id": "e2809c14-8b08-4b2d-b08e-f10936ccd93c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "h439-fr.kxnn.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/D26xvdqUdCpvvPTz4R",
           "headers": {
-            "Host": "internet.life.com.by"
+            "Host": "h439-fr.kxnn.eu.org"
           }
         },
         "httpSettings": null,

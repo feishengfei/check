@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10902,
+      "port": 11025,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "139.162.125.97",
-            "port": 49499,
+            "address": "104.25.38.74",
+            "port": 2096,
             "users": [
               {
-                "id": "3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6",
+                "id": "12009e57-6fd8-46d6-94af-539514a7e7c7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s1.shargh.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "s1.shargh.shop"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

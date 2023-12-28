@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "154.194.2.28",
+            "port": 80,
             "users": [
               {
-                "id": "6b65926e-110d-4728-a807-5670d8829e09",
+                "id": "0ece175a-58bb-4062-ec92-74e34f33f9e2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/0ece175a",
+          "headers": {
+            "Host": "buyvm.nagisa.cyou"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

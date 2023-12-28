@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.54.86.217",
-            "port": 56502,
+            "address": "103.82.134.110",
+            "port": 80,
             "users": [
               {
-                "id": "d20747ad-e689-4111-a46e-d5cf21ff4827",
+                "id": "bfb9f927-eef3-4dfd-adbe-05bcc8279b41",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/ongtrumdata.com",
+          "headers": {
+            "Host": "103.82.134.110"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

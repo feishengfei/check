@@ -32,21 +32,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "45.144.30.202",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "yZdRgske85Hou96z2dRdtH",
-            "port": 28490,
-            "level": 1,
-            "users": null
+            "address": "zz101.maikcloud.com",
+            "port": 24868,
+            "users": [
+              {
+                "id": "d81a4bd4-ba86-49ad-b6bd-6d57e6b07577",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {

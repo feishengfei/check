@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.67.197.195",
-            "port": 80,
+            "address": "de2-v2ray.ipracevpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "bfb9f927-eef3-4dfd-adbe-05bcc8279b41",
+                "id": "380d6ba2-11f1-43c9-9145-fb279f4e53bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/ongtrumdata.com",
-          "headers": {
-            "Host": "dl.kgvn.garenanow.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
