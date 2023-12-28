@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Telegram-Channel.hkaa0_shop.66688888.xyz",
-            "port": 2092,
+            "address": "hdfy7c1.cpionline.co",
+            "port": 443,
             "users": [
               {
-                "id": "038e2714-5cbf-4812-fcfb-8726665c63b6",
+                "id": "01596265-168b-46a7-bcb7-25662c7a9546",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/telegram:@hkaa0",
+          "path": "/mrX5XBSsE4fQALebvMmvby47",
           "headers": {
             "Host": ""
           }

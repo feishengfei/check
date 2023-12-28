@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.54.36.99",
-            "port": 14163,
+            "address": "curious-splashy-green.glitch.me",
+            "port": 443,
             "users": [
               {
-                "id": "482a7849-2557-45de-e85c-95519c1b88e0",
+                "id": "dac61bb8-461c-4a4a-b14b-5a5ff6991fee",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "curious-splashy-green.glitch.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess",
           "headers": {
-            "Host": ""
+            "Host": "curious-splashy-green.glitch.me"
           }
         },
         "httpSettings": null,

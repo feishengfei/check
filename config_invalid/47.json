@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "curious-splashy-green.glitch.me",
-            "port": 443,
+            "address": "au.takeshi.wiki",
+            "port": 80,
             "users": [
               {
-                "id": "dac61bb8-461c-4a4a-b14b-5a5ff6991fee",
+                "id": "a19f357b-c836-4cf6-9e43-72390e6a00df",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "curious-splashy-green.glitch.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess",
+          "path": "/takeshi.wiki",
           "headers": {
-            "Host": "curious-splashy-green.glitch.me"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.70.115.114",
-            "port": 80,
+            "address": "jp6.5gdatavip.dichvutop1.pro.vn",
+            "port": 443,
             "users": [
               {
-                "id": "baa85f59-844b-4aa6-95e6-1747d9b78e8a",
+                "id": "ea35e803-7ec0-4bad-aa9e-f1c787325bcd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vpngiangon.com",
+          "path": "/5gdatavipDVtop1",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

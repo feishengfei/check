@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mehdi26.goodbyefilteringchannel.space",
-            "port": 2087,
+            "address": "64.176.47.200",
+            "port": 29414,
             "users": [
               {
-                "id": "819aa317-b82f-45a4-8226-c1de31361f97",
+                "id": "4d5e8aa2-0641-4323-e92c-2c061cdc8e34",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "mehdi26.goodbyefilteringchannel.space"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/forwardv2ray1forwardv2ray4",
-          "headers": {
-            "Host": "mehdi26.goodbyefilteringchannel.space"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
