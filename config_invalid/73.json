@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.60.131.238",
-            "port": 12888,
+            "address": "vn6.5gsieutocdo.com",
+            "port": 80,
             "users": [
               {
-                "id": "66214d78-b33c-459a-a7b9-e50ab19d16b9",
+                "id": "c95357eb-2869-4511-8940-f0dc5e1ec9b1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/5gsieutocdo.club",
+          "headers": {
+            "Host": "vn6.5gsieutocdo.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

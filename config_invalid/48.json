@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru1-vmess.sshmax.xyz",
-            "port": 80,
+            "address": "orchid-lucky-chicory.glitch.me",
+            "port": 443,
             "users": [
               {
-                "id": "61cf7313-1503-4bab-beeb-ba69fd5843ae",
+                "id": "1d5fb496-19fb-48fb-9880-a147326dee62",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "orchid-lucky-chicory.glitch.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/1d5fb496-19fb-48fb-9880-a147326dee62-vmess",
           "headers": {
-            "Host": "ru1-vmess.sshmax.xyz"
+            "Host": "orchid-lucky-chicory.glitch.me"
           }
         },
         "httpSettings": null,

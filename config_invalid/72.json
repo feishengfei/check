@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn1.network.io.vn",
-            "port": 80,
+            "address": "77.75.230.125",
+            "port": 2082,
             "users": [
               {
-                "id": "a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c",
+                "id": "d466dd36-8b86-48b7-b0f0-67e7d128de6c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/network",
+          "path": "/vmess",
           "headers": {
-            "Host": "vn1.network.io.vn"
+            "Host": "77.75.230.125"
           }
         },
         "httpSettings": null,
