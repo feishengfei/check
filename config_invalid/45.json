@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mcvl1.vpndata.vn",
-            "port": 80,
+            "address": "c11.twtc.dynu.net",
+            "port": 6899,
             "users": [
               {
-                "id": "a2c7eeea-53f9-480a-be9d-536518b4fb0b",
+                "id": "88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/VPNDATA.xYx",
-          "headers": {
-            "Host": "dl.kgvn.garenanow.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

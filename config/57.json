@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10998,
+      "port": 10957,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ee1-vmess.sshmax.xyz",
-            "port": 80,
+            "address": "afrhms16v.bestxray.buzz",
+            "port": 443,
             "users": [
               {
-                "id": "34d4f393-ead9-48df-9370-ca8b52e6aabd",
+                "id": "f584de15-2034-4170-a723-f48c2bae5e0f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/linkws",
           "headers": {
-            "Host": "ee1-vmess.sshmax.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hanoi4.speed4g.click",
-            "port": 80,
+            "address": "193.238.153.14",
+            "port": 8443,
             "users": [
               {
-                "id": "b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa",
+                "id": "159693e0-5146-482d-9e46-8c4f2fc865b1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/speed4g.click",
-          "headers": {
-            "Host": "dl.kgvn.garenanow.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
