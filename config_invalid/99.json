@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.54.36.70",
-            "port": 58300,
+            "address": "jp6.5gdatavip.dichvutop1.pro.vn",
+            "port": 443,
             "users": [
               {
-                "id": "0c1e5254-eab9-4c47-f749-a467019cf2ba",
+                "id": "ea35e803-7ec0-4bad-aa9e-f1c787325bcd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/5gdatavipDVtop1",
           "headers": {
-            "Host": "internet.life.com.by"
+            "Host": ""
           }
         },
         "httpSettings": null,

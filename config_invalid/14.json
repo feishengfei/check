@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vps-837611db.vps.ovh.us",
-            "port": 443,
+            "address": "free-relay.themars.top",
+            "port": 32205,
             "users": [
               {
-                "id": "3e1c1355-ffb5-48c3-8e7d-f6be7b8fece4",
+                "id": "4b05ea31-f4bd-44a7-873f-94ebbe1ee941",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/cctv1.m3u8",
+          "headers": {
+            "Host": "www.cctv.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

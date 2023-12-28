@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "64.176.47.200",
-            "port": 29414,
+            "address": "v2vietnam03.csadata4g.me",
+            "port": 80,
             "users": [
               {
-                "id": "4d5e8aa2-0641-4323-e92c-2c061cdc8e34",
+                "id": "b197f270-b86c-4df2-9d37-771968e980f7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "dl.kgvn.garenanow.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
