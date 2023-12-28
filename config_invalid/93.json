@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.166.184.124",
-            "port": 80,
+            "address": "81.12.27.4",
+            "port": 20554,
             "users": [
               {
-                "id": "bed15443-6b23-445b-870f-92cc2547b076",
+                "id": "5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/trieublack4g",
-          "headers": {
-            "Host": "dl.kgvn.garenanow.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
