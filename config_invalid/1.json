@@ -32,25 +32,21 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "nb36.ntbq.dynu.net",
-            "port": 4211,
-            "users": [
-              {
-                "id": "be59c6eb-baf9-4bb5-aac0-a17f31c4d486",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "38.75.136.49",
+            "method": "aes-256-gcm",
+            "ota": false,
+            "password": "FoOiGlkAA9yPEGP",
+            "port": 7306,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {

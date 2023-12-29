@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.168.77",
-            "port": 443,
+            "address": "38.54.86.217",
+            "port": 56502,
             "users": [
               {
-                "id": "f81447b2-5466-483c-bf86-ef9832b389dd",
+                "id": "d20747ad-e689-4111-a46e-d5cf21ff4827",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.applefoods.gay"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/f81447b2-5466-483c-bf86-ef9832b389dd-vmess",
-          "headers": {
-            "Host": "www.applefoods.gay"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

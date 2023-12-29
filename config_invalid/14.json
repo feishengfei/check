@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "free-relay.themars.top",
-            "port": 32205,
+            "address": "hkaz.takeshi.wiki",
+            "port": 443,
             "users": [
               {
-                "id": "4b05ea31-f4bd-44a7-873f-94ebbe1ee941",
+                "id": "a19f357b-c836-4cf6-9e43-72390e6a00df",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cctv1.m3u8",
+          "path": "/takeshi.wiki",
           "headers": {
-            "Host": "www.cctv.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn1.network.io.vn",
-            "port": 80,
+            "address": "103.114.201.44",
+            "port": 45233,
             "users": [
               {
-                "id": "a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c",
+                "id": "8e87821e-c22a-44c6-c741-43ab791f47b6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/network",
+          "path": "/",
           "headers": {
-            "Host": "vn1.network.io.vn"
+            "Host": "103.114.201.44"
           }
         },
         "httpSettings": null,

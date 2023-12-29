@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "81.12.27.6",
-            "port": 31295,
+            "address": "157.245.52.0",
+            "port": 2092,
             "users": [
               {
-                "id": "dfcc1500-70c4-410b-b5fe-2052a011014e",
+                "id": "26b592f4-b447-4de8-cbef-d517d17dfd76",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/telegram:@hkaa0",
+          "headers": {
+            "Host": "Telegram-Channel.hkaa0.66688888.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

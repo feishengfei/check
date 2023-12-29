@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru1-vmess.sshmax.xyz",
-            "port": 80,
+            "address": "45.131.209.25",
+            "port": 8443,
             "users": [
               {
-                "id": "61cf7313-1503-4bab-beeb-ba69fd5843ae",
+                "id": "9c6aa738-d07d-4b38-9e39-2a9c9ee4c70f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vfffddfh.onlineshop8177.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "ru1-vmess.sshmax.xyz"
+            "Host": "vfffddfh.onlineshop8177.shop"
           }
         },
         "httpSettings": null,

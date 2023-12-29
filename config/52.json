@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.32.122.135",
-            "port": 46943,
+            "address": "cu.awslcn.info",
+            "port": 25286,
             "users": [
               {
-                "id": "8ce5953c-cf3a-4c82-b761-d5e83ee22607",
+                "id": "93ec7261-1c92-4149-848a-26b6fb9fc4ce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "m.zoom.us"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "m.zoom.us"
+            "Host": "cu.awslcn.info"
           }
         },
         "httpSettings": null,
