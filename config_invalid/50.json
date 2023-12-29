@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.131.209.25",
-            "port": 8443,
+            "address": "hanoi4.speed4g.click",
+            "port": 80,
             "users": [
               {
-                "id": "9c6aa738-d07d-4b38-9e39-2a9c9ee4c70f",
+                "id": "b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "vfffddfh.onlineshop8177.shop"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/speed4g.click",
           "headers": {
-            "Host": "vfffddfh.onlineshop8177.shop"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,

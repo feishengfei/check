@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2japanvip01.csadata4g.me",
-            "port": 80,
+            "address": "lld.chixixchi.com",
+            "port": 2096,
             "users": [
               {
-                "id": "b197f270-b86c-4df2-9d37-771968e980f7",
+                "id": "51de6b9d-9935-4e47-8541-a476d06a2383",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cupV2ray.tradeasan.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "cupV2ray.tradeasan.online"
           }
         },
         "httpSettings": null,

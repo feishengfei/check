@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zula.ir",
-            "port": 8080,
+            "address": "103.177.94.138",
+            "port": 22843,
             "users": [
               {
-                "id": "7b9c828a-27fe-4d61-9174-c138fce3da09",
+                "id": "009bae05-80bb-4e27-d2c1-efea629e95ae",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT",
-          "headers": {
-            "Host": "free.seyyedmt.shop"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
