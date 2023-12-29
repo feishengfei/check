@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp6.5gdatavip.dichvutop1.pro.vn",
-            "port": 443,
+            "address": "154.26.157.244",
+            "port": 80,
             "users": [
               {
-                "id": "ea35e803-7ec0-4bad-aa9e-f1c787325bcd",
+                "id": "877aa2a8-5854-4cb2-9aba-4a1413a6b2de",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gdatavipDVtop1",
+          "path": "/takeshi.wiki",
           "headers": {
-            "Host": ""
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,
