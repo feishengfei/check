@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.47.204.198",
-            "port": 42394,
+            "address": "hdfy7c1.cpionline.co",
+            "port": 443,
             "users": [
               {
-                "id": "3addde91-5635-477b-e411-0622de69d89b",
+                "id": "01596265-168b-46a7-bcb7-25662c7a9546",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/mrX5XBSsE4fQALebvMmvby47",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
