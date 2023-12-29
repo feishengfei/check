@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.38.74",
-            "port": 2096,
+            "address": "38.180.98.215",
+            "port": 8080,
             "users": [
               {
-                "id": "12009e57-6fd8-46d6-94af-539514a7e7c7",
+                "id": "773ac60d-36d7-45b5-c99e-a0e3903e2e3a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "s1.shargh.shop"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "s1.shargh.shop"
+            "Host": ""
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "duss.celebjared.pk",
-            "port": 80,
+            "address": "64.176.42.137",
+            "port": 20886,
             "users": [
               {
-                "id": "781dfd50-3d2f-4d5b-99ef-47fa111bddb8",
+                "id": "f574b237-3ebf-405c-d540-541530fe5ed7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/Y07GAOt43udo1xvoAgfajHtB",
-          "headers": {
-            "Host": "duss.celebjared.pk"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

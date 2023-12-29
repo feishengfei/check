@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10985,
+      "port": 11017,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "afrhms16v.bestxray.buzz",
-            "port": 443,
+            "address": "198.2.202.81",
+            "port": 30000,
             "users": [
               {
-                "id": "f584de15-2034-4170-a723-f48c2bae5e0f",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "www.65825524.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/linkws",
+          "path": "/path/1702961716738",
           "headers": {
-            "Host": ""
+            "Host": "www.65825524.xyz"
           }
         },
         "httpSettings": null,
