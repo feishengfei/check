@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "slime-rhinestone-spy.glitch.me",
-            "port": 443,
+            "address": "103.166.184.124",
+            "port": 80,
             "users": [
               {
-                "id": "83a5c82d-a047-418e-9ad9-6ce8c5aaba59",
+                "id": "bed15443-6b23-445b-870f-92cc2547b076",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "slime-rhinestone-spy.glitch.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess",
+          "path": "/trieublack4g",
           "headers": {
-            "Host": "slime-rhinestone-spy.glitch.me"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,

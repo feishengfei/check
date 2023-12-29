@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.32.231.244",
-            "port": 3001,
+            "address": "58.187.206.121",
+            "port": 80,
             "users": [
               {
-                "id": "8efe48f5-22e2-4f0c-93da-665a4bc64ab1",
+                "id": "a2893b4e-e6f8-40cb-bae5-8b3cb8937dae",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "aes-128-gcm",
                 "encryption": null,
                 "flow": null
               }
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dl.kgvn.garenanow.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "dl.kgvn.garenanow.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
