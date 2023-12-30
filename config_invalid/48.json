@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sg3-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "nl2-vmess.sshmax.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "c090b5f3-e003-4328-a5f7-08af73d07ea0",
+                "id": "9712dedb-7ed8-4a68-8cfa-e772efeefa40",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "nl2-vmess.sshmax.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
