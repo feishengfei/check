@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.181.23.67",
-            "port": 8080,
+            "address": "www.visa.com",
+            "port": 2096,
             "users": [
               {
-                "id": "e1b896aa-bb87-4804-b5ba-c34493e9296b",
+                "id": "3bf17c76-20ec-4769-d02b-caed1c005c2c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "n.mahilu.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "5.181.23.67"
+            "Host": "n.mahilu.site"
           }
         },
         "httpSettings": null,

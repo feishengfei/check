@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "443.cfff.eu.org",
-            "port": 443,
+            "address": "38.54.86.217",
+            "port": 56502,
             "users": [
               {
-                "id": "175678e9-46f3-48dc-81d7-199edbf3e4a1",
+                "id": "d20747ad-e689-4111-a46e-d5cf21ff4827",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "h74-fr.kxnn.eu.org"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/D26xvdqUdCpvvPTz4R",
-          "headers": {
-            "Host": "h74-fr.kxnn.eu.org"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

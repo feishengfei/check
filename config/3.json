@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10940,
+      "port": 10903,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -38,11 +38,11 @@
         "servers": [
           {
             "email": null,
-            "address": "38.91.107.37",
-            "method": "aes-256-gcm",
+            "address": "51.141.100.85",
+            "method": "chacha20-ietf-poly1305",
             "ota": false,
-            "password": "cdBIDV42DCwnfIN",
-            "port": 8118,
+            "password": "NK4KTpH4GbWznkJywV7VmA",
+            "port": 28521,
             "level": 1,
             "users": null
           }
