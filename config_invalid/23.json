@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.181.23.67",
-            "port": 8080,
+            "address": "sg1.awslcn.info",
+            "port": 25282,
             "users": [
               {
-                "id": "e1b896aa-bb87-4804-b5ba-c34493e9296b",
+                "id": "93ec7261-1c92-4149-848a-26b6fb9fc4ce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": "5.181.23.67"
+            "Host": "sg1.awslcn.info"
           }
         },
         "httpSettings": null,

@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "cf-lt.sharecentre.online",
-            "port": 80,
-            "users": [
-              {
-                "id": "b1e30339-a603-47d1-b31c-1d0ceb59952e",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "45.8.146.35",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "U1EYRQpU8rLGRKvDMfR6Fv",
+            "port": 47413,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/api/v3/download.getFile",
-          "headers": {
-            "Host": "ssrsub.v004.ssrsub.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

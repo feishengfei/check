@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "79.143.84.117",
-            "port": 24141,
+            "address": "104.19.155.92",
+            "port": 2087,
             "users": [
               {
-                "id": "46465bbe-628a-4988-ae3c-0c164237a039",
+                "id": "712772c2-f7d7-4d33-bf02-b7a7e5f729c4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "snaPPfood1.eSMaIlkorEa.sHoP"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "snaPPfood1.eSMaIlkorEa.sHoP"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

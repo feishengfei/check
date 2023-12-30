@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "afrhms16v.bestxray.buzz",
-            "port": 443,
+            "address": "132.145.132.227",
+            "port": 37121,
             "users": [
               {
-                "id": "f584de15-2034-4170-a723-f48c2bae5e0f",
+                "id": "93845b50-26f6-4203-f5ad-4d231d4e8f45",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/linkws",
+          "path": "/",
           "headers": {
             "Host": ""
           }

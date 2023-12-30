@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.58.153.24",
-            "port": 30000,
+            "address": "ser80.gsmxssh.com",
+            "port": 37975,
             "users": [
               {
-                "id": "4242f9e0-6b7e-4257-9e93-7ad38015c46a",
-                "alterId": 64,
+                "id": "b3c49b53-2d5d-4d13-d195-76d48aeccd11",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/path/1702392255355",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
