@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "45.8.146.35",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "U1EYRQpU8rLGRKvDMfR6Fv",
-            "port": 47413,
-            "level": 1,
-            "users": null
+            "address": "103.67.197.195",
+            "port": 80,
+            "users": [
+              {
+                "id": "bfb9f927-eef3-4dfd-adbe-05bcc8279b41",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/ongtrumdata.com",
+          "headers": {
+            "Host": "dl.kgvn.garenanow.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
