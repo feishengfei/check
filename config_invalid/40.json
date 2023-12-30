@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bs4.loadingip.com",
-            "port": 80,
+            "address": "best-charm-pediatrician.glitch.me",
+            "port": 443,
             "users": [
               {
-                "id": "9e5999ba-870a-46b1-8500-37c640371ec6",
+                "id": "1d5fb496-19fb-48fb-9880-a147326dee62",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "best-charm-pediatrician.glitch.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/bs",
+          "path": "/1d5fb496-19fb-48fb-9880-a147326dee62-vmess",
           "headers": {
-            "Host": ""
+            "Host": "best-charm-pediatrician.glitch.me"
           }
         },
         "httpSettings": null,

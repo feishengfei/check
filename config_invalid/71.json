@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn3.network.io.vn",
-            "port": 80,
+            "address": "bolder-metal-comma.glitch.me",
+            "port": 443,
             "users": [
               {
-                "id": "a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c",
+                "id": "dac61bb8-461c-4a4a-b14b-5a5ff6991fee",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "bolder-metal-comma.glitch.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/network",
+          "path": "/dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess",
           "headers": {
-            "Host": "vn3.network.io.vn"
+            "Host": "bolder-metal-comma.glitch.me"
           }
         },
         "httpSettings": null,

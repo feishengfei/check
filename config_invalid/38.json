@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "18.openiisee.monster",
-            "port": 443,
+            "address": "ru-v2ray.ipracevpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "112ede46-9880-3721-864b-b3ea0dac5cd2",
+                "id": "6b65926e-110d-4728-a807-5670d8829e09",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "lovemylive.top"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/dkmfjfkmd239wq20",
-          "headers": {
-            "Host": "lovemylive.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

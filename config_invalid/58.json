@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.155.92",
-            "port": 2087,
+            "address": "de2-v2ray.ipracevpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "712772c2-f7d7-4d33-bf02-b7a7e5f729c4",
+                "id": "380d6ba2-11f1-43c9-9145-fb279f4e53bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "snaPPfood1.eSMaIlkorEa.sHoP"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "snaPPfood1.eSMaIlkorEa.sHoP"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

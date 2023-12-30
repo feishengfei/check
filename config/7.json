@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10925,
+      "port": 10907,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -38,11 +38,11 @@
         "servers": [
           {
             "email": null,
-            "address": "sg.qrfly.link",
-            "method": "aes-128-gcm",
+            "address": "51.141.100.112",
+            "method": "chacha20-ietf-poly1305",
             "ota": false,
-            "password": "b264e44a-578c-4ce6-bb8d-cd31ae33201f",
-            "port": 20702,
+            "password": "kYlKGnPRNwVk4RQEi7oqQs",
+            "port": 24007,
             "level": 1,
             "users": null
           }

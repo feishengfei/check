@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10970,
+      "port": 10926,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.121.48.172",
-            "port": 10001,
+            "address": "45.77.245.47",
+            "port": 52990,
             "users": [
               {
-                "id": "dba51a2e-a788-43b7-9ac4-9f7cc1255f15",
+                "id": "370f8dfc-73b2-4d13-a3ea-7330f0333a69",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/Dialog zoom",
+          "headers": {
+            "Host": "m.zoom.us"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
