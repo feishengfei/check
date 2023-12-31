@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.82.26.152",
-            "port": 80,
+            "address": "443.cfff.eu.org",
+            "port": 443,
             "users": [
               {
-                "id": "bfb9f927-eef3-4dfd-adbe-05bcc8279b41",
+                "id": "6a7715e8-e8a8-4f51-bdea-e9b6e0ca54de",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "h76-fr.kxnn.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ongtrumdata.com",
+          "path": "/D26xvdqUdCpvvPTz4R",
           "headers": {
-            "Host": "103.82.26.152"
+            "Host": "h76-fr.kxnn.eu.org"
           }
         },
         "httpSettings": null,

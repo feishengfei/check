@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "it-full.privateip.net",
-            "port": 443,
+            "address": "us-02.jikuai.xyz",
+            "port": 2082,
             "users": [
               {
-                "id": "1ec7a09f-76aa-47b1-a381-549523089949",
+                "id": "70666776-4e9f-4350-b3f0-afaff6a70db0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/RACEVPN",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "us-02.jikuai.xyz"
           }
         },
         "httpSettings": null,

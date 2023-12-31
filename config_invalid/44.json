@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "170.64.136.174",
-            "port": 16894,
+            "address": "ser80.gsmxssh.com",
+            "port": 37975,
             "users": [
               {
-                "id": "82f04297-6f40-43e0-afb8-52a34574a3c8",
+                "id": "b3c49b53-2d5d-4d13-d195-76d48aeccd11",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/SHALANA",
-          "headers": {
-            "Host": "media-exp1.licdn.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
