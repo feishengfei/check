@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "de2-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "us-02.jikuai.xyz",
+            "port": 2082,
             "users": [
               {
-                "id": "380d6ba2-11f1-43c9-9145-fb279f4e53bc",
+                "id": "70666776-4e9f-4350-b3f0-afaff6a70db0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "us-02.jikuai.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
