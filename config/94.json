@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10961,
+      "port": 10994,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "139.162.125.97",
+            "port": 49499,
             "users": [
               {
-                "id": "6b65926e-110d-4728-a807-5670d8829e09",
+                "id": "3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",

@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "45.144.30.202",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "yZdRgske85Hou96z2dRdtH",
-            "port": 28490,
-            "level": 1,
-            "users": null
+            "address": "dnspsdhaitun.ncsuwei.top",
+            "port": 14000,
+            "users": [
+              {
+                "id": "dd0727f4-cd9b-3a7a-8247-2eba45073271",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/ef483582-6269-468c-93af-c511eccb8a69",
+          "headers": {
+            "Host": "dnspsdhaitun.ncsuwei.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

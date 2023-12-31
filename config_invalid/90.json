@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.180.98.215",
-            "port": 8080,
+            "address": "it-full.privateip.net",
+            "port": 443,
             "users": [
               {
-                "id": "773ac60d-36d7-45b5-c99e-a0e3903e2e3a",
+                "id": "1ec7a09f-76aa-47b1-a381-549523089949",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/RACEVPN",
           "headers": {
             "Host": ""
           }

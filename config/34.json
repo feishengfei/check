@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10961,
+      "port": 10934,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "usc.kalaa.online",
+            "port": 80,
             "users": [
               {
-                "id": "6b65926e-110d-4728-a807-5670d8829e09",
+                "id": "1c546e40-3d23-48d0-98e6-c8c81b1f3501",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "usc.kalaa.online"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

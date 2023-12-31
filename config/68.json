@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10975,
+      "port": 10968,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.121.48.172",
-            "port": 10001,
+            "address": "45.77.246.27",
+            "port": 28433,
             "users": [
               {
-                "id": "dba51a2e-a788-43b7-9ac4-9f7cc1255f15",
+                "id": "d1528cbb-fa06-4659-cc25-c40387e7347e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/boonvpnzone",
+          "headers": {
+            "Host": "media-exp1.licdn.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn5.network.io.vn",
-            "port": 80,
+            "address": "de2-v2ray.ipracevpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "a3467009-2d14-4dfe-98e8-ad5bb4ddbe4c",
+                "id": "380d6ba2-11f1-43c9-9145-fb279f4e53bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/network",
-          "headers": {
-            "Host": "vn5.network.io.vn"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

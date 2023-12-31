@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bs1.loadingip.com",
-            "port": 80,
+            "address": "cm1.awslcn.info",
+            "port": 25275,
             "users": [
               {
-                "id": "9e5999ba-870a-46b1-8500-37c640371ec6",
+                "id": "93ec7261-1c92-4149-848a-26b6fb9fc4ce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/bs",
+          "path": "/",
           "headers": {
-            "Host": "bs1.loadingip.com"
+            "Host": "cm1.awslcn.info"
           }
         },
         "httpSettings": null,
