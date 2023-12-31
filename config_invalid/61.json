@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1208.ssfree.ru",
+            "address": "www.gov.ua",
             "port": 443,
             "users": [
               {
-                "id": "7d0a0cc6-a72c-11ee-b047-00163e49219e",
+                "id": "1af25c0f-2eca-4f8d-9ea4-738b2ed690f7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "usfree.supernike.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "usfree.supernike.com"
           }
         },
         "httpSettings": null,

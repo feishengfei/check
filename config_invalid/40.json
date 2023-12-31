@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "best-charm-pediatrician.glitch.me",
-            "port": 443,
+            "address": "jp.takeshi.wiki",
+            "port": 80,
             "users": [
               {
-                "id": "1d5fb496-19fb-48fb-9880-a147326dee62",
+                "id": "a19f357b-c836-4cf6-9e43-72390e6a00df",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "best-charm-pediatrician.glitch.me"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/1d5fb496-19fb-48fb-9880-a147326dee62-vmess",
+          "path": "/takeshi.wiki",
           "headers": {
-            "Host": "best-charm-pediatrician.glitch.me"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,

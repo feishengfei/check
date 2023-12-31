@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bs1.loadingip.com",
-            "port": 80,
+            "address": "139.180.202.213",
+            "port": 42434,
             "users": [
               {
-                "id": "9e5999ba-870a-46b1-8500-37c640371ec6",
+                "id": "d9a7c529-f98b-429b-eb26-c90979c910a3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/bs",
-          "headers": {
-            "Host": "bs1.loadingip.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

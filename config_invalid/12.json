@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.31.16.120",
-            "port": 8443,
+            "address": "68.183.159.199",
+            "port": 2092,
             "users": [
               {
-                "id": "1cec1ebc-b489-4769-f2d9-e079b5832a60",
+                "id": "038e2714-5cbf-4812-fcfb-8726665c63b6",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cloudconeaaa.gorgorchicken.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/cloudconeaaa",
+          "path": "/telegram:@hkaa0",
           "headers": {
-            "Host": "cloudconeaaa.gorgorchicken.one"
+            "Host": ""
           }
         },
         "httpSettings": null,
