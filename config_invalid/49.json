@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zfc.windowsupdate1.com",
-            "port": 80,
+            "address": "bolder-metal-comma.glitch.me",
+            "port": 443,
             "users": [
               {
-                "id": "cef51002-47b0-4e48-9d91-850e15ff95e8",
+                "id": "dac61bb8-461c-4a4a-b14b-5a5ff6991fee",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "bolder-metal-comma.glitch.me"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess",
           "headers": {
-            "Host": "yxtw.651568.xyz"
+            "Host": "bolder-metal-comma.glitch.me"
           }
         },
         "httpSettings": null,
