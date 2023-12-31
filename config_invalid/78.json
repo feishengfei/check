@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "443.cfff.eu.org",
-            "port": 443,
+            "address": "platinum.ht4gvpn.com",
+            "port": 80,
             "users": [
               {
-                "id": "6a7715e8-e8a8-4f51-bdea-e9b6e0ca54de",
+                "id": "111f6f0c-eea8-4089-bddb-b2eaaae19bfb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "h76-fr.kxnn.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/D26xvdqUdCpvvPTz4R",
+          "path": "/ht4gvpn.com",
           "headers": {
-            "Host": "h76-fr.kxnn.eu.org"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,
