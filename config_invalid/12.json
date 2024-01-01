@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "51.141.100.112",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "kYlKGnPRNwVk4RQEi7oqQs",
-            "port": 24007,
-            "level": 1,
-            "users": null
+            "address": "Telegram-Channel.hkaa0_shop.66688888.xyz",
+            "port": 2092,
+            "users": [
+              {
+                "id": "038e2714-5cbf-4812-fcfb-8726665c63b6",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/telegram:@hkaa0",
+          "headers": {
+            "Host": "Telegram-Channel.hkaa0_shop.66688888.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

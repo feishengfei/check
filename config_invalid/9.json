@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.77.176.217",
-            "port": 16142,
+            "address": "hkaz.takeshi.wiki",
+            "port": 443,
             "users": [
               {
-                "id": "1f57a1cc-d395-4bde-bfcf-f62a8a4f9559",
+                "id": "b6ede839-a472-4b75-9961-1b5a82c38a6a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dl.kgvn.garenanow.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/takeshi.wiki",
+          "headers": {
+            "Host": "dl.kgvn.garenanow.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

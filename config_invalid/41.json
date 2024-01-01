@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "mehdi26.forwardv2raytelegramchannel.site",
-            "port": 2052,
+            "address": "38.54.86.217",
+            "port": 56502,
             "users": [
               {
-                "id": "75a6bbc8-458a-4f31-827e-029d89718352",
+                "id": "d20747ad-e689-4111-a46e-d5cf21ff4827",
                 "alterId": 0,
                 "email": "",
-                "security": "chacha20-poly1305",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/forwardv2raytelegramchannel1forwardv2raytelegramchannel4",
-          "headers": {
-            "Host": "mehdi26.forwardv2raytelegramchannel.site"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

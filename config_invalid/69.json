@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "diamond.ht4gvpn.com",
-            "port": 80,
+            "address": "46.29.166.237",
+            "port": 47555,
             "users": [
               {
-                "id": "106ac14b-8b8b-4ce7-a549-a814d8a94b49",
+                "id": "0c49cd19-2758-4d38-e6a8-11f2d6635860",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/ht4gvpn.com",
-          "headers": {
-            "Host": "dl.kgvn.garenanow.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
