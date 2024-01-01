@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "168.119.185.94",
-            "port": 8880,
+            "address": "142.171.202.130",
+            "port": 443,
             "users": [
               {
-                "id": "aaaa66c4-8c2e-49ac-97d9-2d7f1d364703",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.87981532.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@vpn_whal",
+          "path": "/path/1702650992491",
           "headers": {
-            "Host": "internet.life.com.by"
+            "Host": "www.87981532.xyz"
           }
         },
         "httpSettings": null,

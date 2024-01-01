@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.82.21.6",
-            "port": 80,
+            "address": "104.19.54.50",
+            "port": 2096,
             "users": [
               {
-                "id": "bfb9f927-eef3-4dfd-adbe-05bcc8279b41",
+                "id": "e9324568-1255-43a3-8852-687b6e118d24",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "b2yu2boo2nm.mobile-lavazemjanebi.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ongtrumdata.com",
+          "path": "/",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "b2yu2boo2nm.mobile-lavazemjanebi.online"
           }
         },
         "httpSettings": null,

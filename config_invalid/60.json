@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ser52.gsmxssh.com",
-            "port": 20554,
+            "address": "Telegram-Channel.hkbb0.66688888.xyz",
+            "port": 2092,
             "users": [
               {
-                "id": "5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623",
+                "id": "7b4680c5-222f-4a29-84c0-226d16dab9ab",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/telegram:@hkaa0",
+          "headers": {
+            "Host": "Telegram-Channel.hkbb0.66688888.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
