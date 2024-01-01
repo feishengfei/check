@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "platinum.ht4gvpn.com",
-            "port": 80,
+            "address": "tes2.shrektm.top",
+            "port": 8443,
             "users": [
               {
-                "id": "111f6f0c-eea8-4089-bddb-b2eaaae19bfb",
+                "id": "02c4e4af-07ce-444d-b501-f75cd482cc11",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ht4gvpn.com",
+          "path": "/@ATOVPN",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

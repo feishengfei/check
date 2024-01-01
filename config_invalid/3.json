@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "52.142.146.57",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "zpgPBiYXEhOwgwpCTaoTui",
-            "port": 50395,
-            "level": 1,
-            "users": null
+            "address": "20.188.112.173",
+            "port": 8080,
+            "users": [
+              {
+                "id": "55ffbabb-ae7b-4d9a-80a0-99ac071ec6e0",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "m.zoom.us"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

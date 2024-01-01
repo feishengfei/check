@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hcm2.genzpvpt.com",
-            "port": 80,
+            "address": "jp6.5gdatavip.dichvutop1.pro.vn",
+            "port": 443,
             "users": [
               {
-                "id": "a841d5a5-e904-45df-af51-092051117008",
+                "id": "9ddd71dd-69cd-4faa-bbc5-961c3ba83ada",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,13 +55,16 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/GenzPVPT.Com",
+          "path": "/5gdatavipDVtop1",
           "headers": {
             "Host": ""
           }

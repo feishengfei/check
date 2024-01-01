@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tes2.shrektm.top",
-            "port": 8443,
+            "address": "vn.xpro.5gdatavip.dichvutop1.pro.vn",
+            "port": 80,
             "users": [
               {
-                "id": "02c4e4af-07ce-444d-b501-f75cd482cc11",
+                "id": "e20c501a-ccc0-47cc-b38a-91684f842dd1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,16 +55,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@ATOVPN",
+          "path": "/5gdatavipDVTop1",
           "headers": {
             "Host": ""
           }
