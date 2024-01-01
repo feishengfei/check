@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "81.12.27.7",
-            "port": 37975,
+            "address": "beon.jawaadalahkunci.my.id",
+            "port": 80,
             "users": [
               {
-                "id": "b3c49b53-2d5d-4d13-d195-76d48aeccd11",
+                "id": "48838e51-4576-4870-9838-7c85dcf94c82",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "beon.jawaadalahkunci.my.id"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

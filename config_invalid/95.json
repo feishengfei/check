@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.shopify.com",
-            "port": 2082,
+            "address": "79.143.84.117",
+            "port": 24141,
             "users": [
               {
-                "id": "bf3d038a-93a2-4e24-886c-6bc64e3c3a90",
+                "id": "46465bbe-628a-4988-ae3c-0c164237a039",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "els_cdnone.yunjisuan.cf"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

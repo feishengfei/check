@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "64.176.39.31",
-            "port": 56262,
+            "address": "hcm2.genzpvpt.com",
+            "port": 80,
             "users": [
               {
-                "id": "590f2744-e9d1-4f2c-a384-d35b736bca41",
+                "id": "a841d5a5-e904-45df-af51-092051117008",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/GenzPVPT.Com",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

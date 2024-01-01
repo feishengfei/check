@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fr-new01.gujuji.top",
-            "port": 8080,
+            "address": "jp6.5gdatavip.dichvutop1.pro.vn",
+            "port": 443,
             "users": [
               {
-                "id": "f0088ccf-9a9a-431f-995e-ef9cc175ffe9",
+                "id": "9ddd71dd-69cd-4faa-bbc5-961c3ba83ada",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/5gdatavipDVtop1",
           "headers": {
-            "Host": "fr-new01.gujuji.top"
+            "Host": ""
           }
         },
         "httpSettings": null,

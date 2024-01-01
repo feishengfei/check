@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Telegram-Channel.hkaa0_shop.66688888.xyz",
-            "port": 2092,
+            "address": "jp-v2ray.ipracevpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "038e2714-5cbf-4812-fcfb-8726665c63b6",
+                "id": "48a70784-86ca-4639-97b5-0fdc82026877",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/telegram:@hkaa0",
-          "headers": {
-            "Host": "Telegram-Channel.hkaa0_shop.66688888.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

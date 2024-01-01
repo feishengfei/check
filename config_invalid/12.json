@@ -32,25 +32,21 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "nat22.xg-node.com",
-            "port": 33302,
-            "users": [
-              {
-                "id": "83a348a5-c711-4b43-a365-c4ecb94c005c",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "51.141.100.112",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "kYlKGnPRNwVk4RQEi7oqQs",
+            "port": 24007,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {

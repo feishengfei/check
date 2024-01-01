@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "maxvip.ht4gvpn.com",
-            "port": 80,
+            "address": "ser80.gsmxssh.com",
+            "port": 37975,
             "users": [
               {
-                "id": "a0fd6d4e-854f-4e82-a2da-ac0b9a9cb49d",
+                "id": "b3c49b53-2d5d-4d13-d195-76d48aeccd11",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/ht4gvpn.com",
-          "headers": {
-            "Host": "dl.kgvn.garenanow.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
