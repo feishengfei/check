@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bs2.loadingip.com",
-            "port": 80,
+            "address": "ser80.gsmxssh.com",
+            "port": 37975,
             "users": [
               {
-                "id": "5278f5d3-f001-4459-94b6-7e0915238998",
+                "id": "b3c49b53-2d5d-4d13-d195-76d48aeccd11",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/bs",
-          "headers": {
-            "Host": "bs2.loadingip.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

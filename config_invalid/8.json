@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hkaz.takeshi.wiki",
+            "address": "20.239.80.27",
             "port": 443,
             "users": [
               {
-                "id": "803b8c6b-192e-4500-a919-485566f8e058",
+                "id": "877aa2a8-5854-4cb2-9aba-4a1413a6b2de",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,7 +58,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "hkaz.takeshi.wiki"
+          "serverName": "20.239.80.27"
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -66,7 +66,7 @@
           "connectionReuse": true,
           "path": "/takeshi.wiki",
           "headers": {
-            "Host": "hkaz.takeshi.wiki"
+            "Host": "20.239.80.27"
           }
         },
         "httpSettings": null,
