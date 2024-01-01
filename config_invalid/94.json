@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "81.12.27.4",
-            "port": 20554,
+            "address": "jp6.5gdatavip.dichvutop1.pro.vn",
+            "port": 443,
             "users": [
               {
-                "id": "5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623",
+                "id": "9ddd71dd-69cd-4faa-bbc5-961c3ba83ada",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/5gdatavipDVtop1",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

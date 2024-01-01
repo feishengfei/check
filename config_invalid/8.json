@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "20.239.80.27",
-            "port": 443,
+            "address": "nb22.ntbq.dynu.net",
+            "port": 12002,
             "users": [
               {
-                "id": "877aa2a8-5854-4cb2-9aba-4a1413a6b2de",
+                "id": "e6967991-7b0a-4d1a-a37b-5eb3b78d4c15",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "20.239.80.27"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/takeshi.wiki",
-          "headers": {
-            "Host": "20.239.80.27"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

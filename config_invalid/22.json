@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.131.97.10",
-            "port": 8080,
+            "address": "20.239.80.27",
+            "port": 443,
             "users": [
               {
-                "id": "13c4fa1d-c558-4cd0-8108-c1f64cd399ff",
+                "id": "877aa2a8-5854-4cb2-9aba-4a1413a6b2de",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "20.239.80.27"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/takeshi.wiki",
           "headers": {
-            "Host": "94.131.97.10"
+            "Host": "20.239.80.27"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ser80.gsmxssh.com",
-            "port": 37975,
+            "address": "103.131.57.203",
+            "port": 80,
             "users": [
               {
-                "id": "b3c49b53-2d5d-4d13-d195-76d48aeccd11",
+                "id": "a2f64274-749e-4036-b69b-3a6285563464",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/tenvpndata.io.vn",
+          "headers": {
+            "Host": "dl.kgvn.garenanow.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

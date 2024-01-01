@@ -32,21 +32,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "45.144.30.202",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "yZdRgske85Hou96z2dRdtH",
-            "port": 28490,
-            "level": 1,
-            "users": null
+            "address": "ser80.gsmxssh.com",
+            "port": 37975,
+            "users": [
+              {
+                "id": "b3c49b53-2d5d-4d13-d195-76d48aeccd11",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {

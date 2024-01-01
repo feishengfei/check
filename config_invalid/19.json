@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hkaz.takeshi.wiki",
-            "port": 443,
+            "address": "Telegram-Channel.hkaa0_shop.66688888.xyz",
+            "port": 2092,
             "users": [
               {
-                "id": "b6ede839-a472-4b75-9961-1b5a82c38a6a",
+                "id": "038e2714-5cbf-4812-fcfb-8726665c63b6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dl.kgvn.garenanow.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/takeshi.wiki",
+          "path": "/telegram:@hkaa0",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "Telegram-Channel.hkaa0_shop.66688888.xyz"
           }
         },
         "httpSettings": null,

@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "51.141.100.85",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "NK4KTpH4GbWznkJywV7VmA",
-            "port": 28521,
-            "level": 1,
-            "users": null
+            "address": "68.183.50.67",
+            "port": 80,
+            "users": [
+              {
+                "id": "e8dac0d3-9158-49ff-8201-00bb8263893b",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/tenvpndata.io.vn",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
