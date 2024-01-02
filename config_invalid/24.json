@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "45.8.147.80",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "Q5CEiebSuSl2qFkfE4ztG2",
-            "port": 5741,
-            "level": 1,
-            "users": null
+            "address": "bs4.loadingip.com",
+            "port": 80,
+            "users": [
+              {
+                "id": "9e5999ba-870a-46b1-8500-37c640371ec6",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/bs",
+          "headers": {
+            "Host": "bs4.loadingip.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

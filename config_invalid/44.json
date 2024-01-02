@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "racknerd.gorgorchicken.one",
-            "port": 8443,
+            "address": "45.58.153.24",
+            "port": 30000,
             "users": [
               {
-                "id": "1df0a6ca-5812-4bce-ddb1-9cd5548f4919",
-                "alterId": 0,
+                "id": "4242f9e0-6b7e-4257-9e93-7ad38015c46a",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "racknerd.gorgorchicken.one"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/racknerd",
+          "path": "/path/1702392255355",
           "headers": {
-            "Host": "racknerd.gorgorchicken.one"
+            "Host": ""
           }
         },
         "httpSettings": null,

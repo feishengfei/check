@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.20",
-            "port": 443,
+            "address": "103.116.52.187",
+            "port": 80,
             "users": [
               {
-                "id": "200ea676-464d-4ccf-bb5b-c50fd216c61b",
+                "id": "a2f64274-749e-4036-b69b-3a6285563464",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nl1.xv2ray.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/tenvpndata.io.vn",
           "headers": {
-            "Host": "nl1.xv2ray.net"
+            "Host": "103.116.52.187"
           }
         },
         "httpSettings": null,
