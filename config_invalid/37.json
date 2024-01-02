@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tes2.shrektm.top",
-            "port": 8443,
+            "address": "cz1-vmess.sshmax.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "02c4e4af-07ce-444d-b501-f75cd482cc11",
+                "id": "ef7cfdf6-63e1-4307-bb61-40eb81acb5bd",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@ATOVPN",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "cz1-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,

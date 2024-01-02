@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.82.21.6",
-            "port": 80,
+            "address": "bs1.loadingip.com",
+            "port": 443,
             "users": [
               {
-                "id": "bfb9f927-eef3-4dfd-adbe-05bcc8279b41",
+                "id": "625f767f-6d74-4f70-8ef4-fdee09bcc171",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ongtrumdata.com",
+          "path": "bs",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

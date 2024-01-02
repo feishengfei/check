@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "168.119.185.94",
+            "port": 8880,
             "users": [
               {
-                "id": "6b65926e-110d-4728-a807-5670d8829e09",
+                "id": "aaaa66c4-8c2e-49ac-97d9-2d7f1d364703",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/@vpn_whal",
+          "headers": {
+            "Host": "internet.life.com.by"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

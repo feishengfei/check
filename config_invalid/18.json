@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.131.57.203",
-            "port": 80,
+            "address": "38.180.33.136",
+            "port": 50104,
             "users": [
               {
-                "id": "a2f64274-749e-4036-b69b-3a6285563464",
+                "id": "790f6802-7535-4109-de6d-15f676d5e3f7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/tenvpndata.io.vn",
-          "headers": {
-            "Host": "dl.kgvn.garenanow.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

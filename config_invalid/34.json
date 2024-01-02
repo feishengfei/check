@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tes2.shrektm.top",
-            "port": 8443,
+            "address": "81.12.27.4",
+            "port": 20554,
             "users": [
               {
-                "id": "02c4e4af-07ce-444d-b501-f75cd482cc11",
+                "id": "5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/@ATOVPN",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

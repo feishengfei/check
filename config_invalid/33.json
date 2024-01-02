@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.54.50",
-            "port": 2096,
+            "address": "158.178.227.16",
+            "port": 30839,
             "users": [
               {
-                "id": "e9324568-1255-43a3-8852-687b6e118d24",
+                "id": "19bf4866-54ce-4fc9-8903-db7e160c5b81",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "b2yu2boo2nm.mobile-lavazemjanebi.online"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "b2yu2boo2nm.mobile-lavazemjanebi.online"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
