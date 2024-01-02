@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "bs5.loadingip.com",
-            "port": 80,
+            "address": "jp-v2ray.ipracevpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "9e5999ba-870a-46b1-8500-37c640371ec6",
+                "id": "48a70784-86ca-4639-97b5-0fdc82026877",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/bs",
-          "headers": {
-            "Host": "bs5.loadingip.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

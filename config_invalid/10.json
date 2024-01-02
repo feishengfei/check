@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "95.164.44.203",
-            "port": 80,
-            "users": [
-              {
-                "id": "6f0cca5e-cf21-4279-871e-ca26d9c955a0",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "45.144.30.202",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "yZdRgske85Hou96z2dRdtH",
+            "port": 28490,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/vmess",
-          "headers": {
-            "Host": "internet.life.com.by"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
