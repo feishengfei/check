@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "c11.twtc.dynu.net",
-            "port": 6899,
+            "address": "dnspsdhaitun.ncsuwei.top",
+            "port": 13004,
             "users": [
               {
-                "id": "e6967991-7b0a-4d1a-a37b-5eb3b78d4c15",
+                "id": "10cd1271-bc13-3ad8-bcce-70f94aca55ae",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/ef483582-6269-468c-93af-c511eccb8a69",
+          "headers": {
+            "Host": "dnspsdhaitun.ncsuwei.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

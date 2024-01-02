@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "103.154.63.95",
+            "port": 80,
             "users": [
               {
-                "id": "6b65926e-110d-4728-a807-5670d8829e09",
+                "id": "2b69324d-5fe2-48c2-923f-049c3093cd56",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/ht4gvpn.com",
+          "headers": {
+            "Host": "dl.kgvn.garenanow.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

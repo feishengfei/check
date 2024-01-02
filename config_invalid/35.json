@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.193.145",
-            "port": 8080,
+            "address": "jp-v2ray.ipracevpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "e2695bd0-945f-4476-aac5-0e37bcdbd7fc",
+                "id": "48a70784-86ca-4639-97b5-0fdc82026877",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "eu5.openxai.link"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

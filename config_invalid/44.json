@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.154.63.95",
-            "port": 80,
+            "address": "racknerd.gorgorchicken.one",
+            "port": 8443,
             "users": [
               {
-                "id": "2b69324d-5fe2-48c2-923f-049c3093cd56",
+                "id": "1df0a6ca-5812-4bce-ddb1-9cd5548f4919",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "racknerd.gorgorchicken.one"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ht4gvpn.com",
+          "path": "/racknerd",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "racknerd.gorgorchicken.one"
           }
         },
         "httpSettings": null,
