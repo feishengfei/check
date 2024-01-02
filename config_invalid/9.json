@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "Telegram-Channel.hkaa0_shop.66688888.xyz",
-            "port": 2092,
+            "address": "lt2-vmess.sshmax.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "038e2714-5cbf-4812-fcfb-8726665c63b6",
+                "id": "ea2928cb-f9cc-4747-ab60-d23abe3ba1e6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/telegram:@hkaa0",
+          "path": "/vmess",
           "headers": {
-            "Host": "Telegram-Channel.hkaa0_shop.66688888.xyz"
+            "Host": "lt2-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,

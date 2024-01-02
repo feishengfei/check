@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "21.namesilo123.top",
-            "port": 8880,
+            "address": "154.90.39.63",
+            "port": 45343,
             "users": [
               {
-                "id": "40e71b6a-00cf-437d-8232-4e83e6437286",
+                "id": "08aa8499-d616-4ff1-d6ab-ce0c522824aa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "uspp.sanfen002.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

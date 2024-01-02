@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tes2.shrektm.top",
-            "port": 8443,
+            "address": "103.82.26.152",
+            "port": 80,
             "users": [
               {
-                "id": "02c4e4af-07ce-444d-b501-f75cd482cc11",
+                "id": "bfb9f927-eef3-4dfd-adbe-05bcc8279b41",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@ATOVPN",
+          "path": "/ongtrumdata.com",
           "headers": {
-            "Host": ""
+            "Host": "internet.life.com.by"
           }
         },
         "httpSettings": null,
