@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.204.84",
-            "port": 8880,
+            "address": "47.91.28.15",
+            "port": 80,
             "users": [
               {
-                "id": "dc24ff42-30af-4dc4-8a7e-69d59e09d533",
+                "id": "5f1363f8-eaee-42c5-9b77-7fd08350a529",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "psnsisnsidbbh.libraryriazi.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/?ed=2048",
           "headers": {
-            "Host": "psnsisnsidbbh.libraryriazi.sbs"
+            "Host": "elcjp01.tgyujcchannel.site"
           }
         },
         "httpSettings": null,

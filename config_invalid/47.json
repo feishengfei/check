@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.121.48.196",
-            "port": 10001,
+            "address": "47.245.38.149",
+            "port": 80,
             "users": [
               {
-                "id": "0ed35629-919a-4891-ba0f-13cd198f863b",
+                "id": "5f1363f8-eaee-42c5-9b77-7fd08350a529",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/?ed=2048",
+          "headers": {
+            "Host": "elcjp01.tgyujcchannel.site"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

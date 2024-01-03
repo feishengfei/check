@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cu.awslcn.info",
-            "port": 25276,
+            "address": "162.159.135.232",
+            "port": 443,
             "users": [
               {
-                "id": "93ec7261-1c92-4149-848a-26b6fb9fc4ce",
+                "id": "f986224d-76f2-4239-97a4-4932750d1c26",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s32-xacj-cf.hello-everybody.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ahbfvws",
           "headers": {
-            "Host": "cu.awslcn.info"
+            "Host": "s32-xacj-cf.hello-everybody.online"
           }
         },
         "httpSettings": null,

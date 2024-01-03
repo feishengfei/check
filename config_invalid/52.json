@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "au.takeshi.wiki",
-            "port": 80,
+            "address": "cdn.yifenjichang.top",
+            "port": 2086,
             "users": [
               {
-                "id": "a19f357b-c836-4cf6-9e43-72390e6a00df",
+                "id": "900ceafc-30b8-4581-a305-31854f563e4f",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "none",
                 "encryption": null,
                 "flow": null
               }
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/takeshi.wiki",
+          "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "thesis-grande-residence-landscapes.trycloudflare.com"
           }
         },
         "httpSettings": null,
