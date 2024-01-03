@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "47.91.28.15",
-            "port": 80,
+            "address": "de2-v2ray.ipracevpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "5f1363f8-eaee-42c5-9b77-7fd08350a529",
+                "id": "380d6ba2-11f1-43c9-9145-fb279f4e53bc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "elcjp01.tgyujcchannel.site"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.144.2.113",
-            "port": 80,
+            "address": "103.113.68.57",
+            "port": 8443,
             "users": [
               {
-                "id": "451133d6-2b65-4d6b-b41f-4d4fd43e51c6",
+                "id": "6b65926e-110d-4728-a807-5670d8829e09",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "www.apple.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
