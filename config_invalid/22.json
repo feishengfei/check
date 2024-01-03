@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.69.44",
-            "port": 2087,
+            "address": "vn6.5gsieutocdo.com",
+            "port": 80,
             "users": [
               {
-                "id": "8fada9c0-c348-4465-aade-ff0311454178",
+                "id": "c95357eb-2869-4511-8940-f0dc5e1ec9b1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pAnel159.moOkomeILz.homes"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@FreeVPNHomes@FreeVPNHomes",
+          "path": "/5gsieutocdo.club",
           "headers": {
-            "Host": "pAnel159.moOkomeILz.homes"
+            "Host": "vn6.5gsieutocdo.com"
           }
         },
         "httpSettings": null,

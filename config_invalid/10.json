@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.204.84",
-            "port": 8880,
+            "address": "ru-v2ray.ipracevpn.com",
+            "port": 8443,
             "users": [
               {
-                "id": "dc24ff42-30af-4dc4-8a7e-69d59e09d533",
+                "id": "6b65926e-110d-4728-a807-5670d8829e09",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "psnsisnsidbbh.libraryriazi.sbs"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "psnsisnsidbbh.libraryriazi.sbs"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
