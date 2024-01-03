@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.82.27.129",
-            "port": 80,
+            "address": "104.21.69.44",
+            "port": 2087,
             "users": [
               {
-                "id": "c95357eb-2869-4511-8940-f0dc5e1ec9b1",
+                "id": "8fada9c0-c348-4465-aade-ff0311454178",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pAnel159.moOkomeILz.homes"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gsieutocdo.com",
+          "path": "/@FreeVPNHomes@FreeVPNHomes",
           "headers": {
-            "Host": "internet.life.com.by"
+            "Host": "pAnel159.moOkomeILz.homes"
           }
         },
         "httpSettings": null,
