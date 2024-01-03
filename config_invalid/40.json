@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp.takeshi.wiki",
-            "port": 80,
+            "address": "cold-dawn-9246.fly.dev",
+            "port": 443,
             "users": [
               {
-                "id": "a19f357b-c836-4cf6-9e43-72390e6a00df",
+                "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cold-dawn-9246.fly.dev"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/takeshi.wiki",
+          "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "cold-dawn-9246.fly.dev"
           }
         },
         "httpSettings": null,
