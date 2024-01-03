@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "racknerd.gorgorchicken.one",
-            "port": 8443,
+            "address": "hanoivip1.5gsieutocdo.com",
+            "port": 80,
             "users": [
               {
-                "id": "1df0a6ca-5812-4bce-ddb1-9cd5548f4919",
+                "id": "c95357eb-2869-4511-8940-f0dc5e1ec9b1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "racknerd.gorgorchicken.one"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/racknerd",
+          "path": "/5gsieutocdo.com",
           "headers": {
-            "Host": "racknerd.gorgorchicken.one"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,

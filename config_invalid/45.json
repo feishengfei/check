@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.58.153.25",
-            "port": 30000,
+            "address": "bs2.loadingip.com",
+            "port": 443,
             "users": [
               {
-                "id": "4242f9e0-6b7e-4257-9e93-7ad38015c46a",
-                "alterId": 64,
+                "id": "625f767f-6d74-4f70-8ef4-fdee09bcc171",
+                "alterId": 0,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "bs2.loadingip.com"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/path/1702961716738",
+          "path": "bs",
           "headers": {
-            "Host": ""
+            "Host": "bs2.loadingip.com"
           }
         },
         "httpSettings": null,
