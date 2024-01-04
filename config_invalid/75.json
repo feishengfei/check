@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.yifenjichang.top",
-            "port": 2086,
+            "address": "ser52.gsmxssh.com",
+            "port": 20554,
             "users": [
               {
-                "id": "900ceafc-30b8-4581-a305-31854f563e4f",
+                "id": "5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623",
                 "alterId": 0,
                 "email": "",
-                "security": "none",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
-          "headers": {
-            "Host": "thesis-grande-residence-landscapes.trycloudflare.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

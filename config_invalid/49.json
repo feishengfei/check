@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp.takeshi.wiki",
-            "port": 80,
+            "address": "104.19.154.92",
+            "port": 2083,
             "users": [
               {
-                "id": "a19f357b-c836-4cf6-9e43-72390e6a00df",
+                "id": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "PAneljadid.mookoMEilz.homes"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/takeshi.wiki",
+          "path": "/snsk",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "PAneljadid.mookoMEilz.homes"
           }
         },
         "httpSettings": null,

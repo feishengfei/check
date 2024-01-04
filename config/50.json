@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10929,
+      "port": 10950,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "77.246.101.245",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "yx-P9aygNM-V-boO1UGQeg",
-            "port": 1165,
-            "level": 1,
-            "users": null
+            "address": "162.159.129.87",
+            "port": 2096,
+            "users": [
+              {
+                "id": "12009e57-6fd8-46d6-94af-539514a7e7c7",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s1.shargh.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "s1.shargh.shop"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
