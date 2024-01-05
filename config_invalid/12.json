@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nb-03.v2fei.co",
-            "port": 14500,
+            "address": "ru1-vmess.sshmax.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "6F954C1E-B6D1-F450-6013-1BDACA6267C5",
+                "id": "fddb3781-7e15-4731-a933-94db110b4bbc",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/video",
+          "path": "/vmess",
           "headers": {
-            "Host": "nb-03.v2fei.co"
+            "Host": "ru1-vmess.sshmax.xyz"
           }
         },
         "httpSettings": null,
