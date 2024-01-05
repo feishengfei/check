@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kz-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "web.parspack.com",
+            "port": 80,
             "users": [
               {
-                "id": "48b10b02-2c60-4323-bc65-a11b15144745",
+                "id": "5f797b91-c7ec-4178-d19e-9b069b70b446",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "zUlA9.eSmAIlkORea.sHop"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
