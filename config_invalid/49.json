@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.154.92",
-            "port": 2083,
+            "address": "38.180.98.215",
+            "port": 8080,
             "users": [
               {
-                "id": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
+                "id": "773ac60d-36d7-45b5-c99e-a0e3903e2e3a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "PAneljadid.mookoMEilz.homes"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/snsk",
+          "path": "/",
           "headers": {
-            "Host": "PAneljadid.mookoMEilz.homes"
+            "Host": ""
           }
         },
         "httpSettings": null,
