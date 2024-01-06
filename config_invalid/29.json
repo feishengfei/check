@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.101.136.9",
-            "port": 443,
+            "address": "104.31.16.28",
+            "port": 80,
             "users": [
               {
-                "id": "f5c137d1-ca89-42c0-b604-db39aef60a73",
+                "id": "58fe1542-5290-40ad-815a-77707a81afe5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tabyan777.sytes.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/IOebhLMhl1CTbFHbL95myfRX2",
           "headers": {
-            "Host": "tabyan777.sytes.net"
+            "Host": "ca4.tehme2.fun"
           }
         },
         "httpSettings": null,
