@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.159.206.35",
-            "port": 31945,
+            "address": "mizban888.servecounterstrike.com",
+            "port": 443,
             "users": [
               {
-                "id": "e2e511b0-7def-4e1b-d238-6cb5391b2e3f",
+                "id": "22aa72b1-605b-4807-8a81-fb414cbb409c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mizban888.servecounterstrike.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": ""
+            "Host": "mizban888.servecounterstrike.com"
           }
         },
         "httpSettings": null,

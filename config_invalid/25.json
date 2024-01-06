@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zfc.windowsupdate1.com",
-            "port": 8080,
+            "address": "185.101.136.8",
+            "port": 443,
             "users": [
               {
-                "id": "2dbeeb76-a71f-493f-bd92-33f0193291c5",
+                "id": "4abdf58e-0516-468d-9571-fe25cb4897ef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "skuone.serveminecraft.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "sgyx.651568.xyz"
+            "Host": "skuone.serveminecraft.net"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.visa.com.sg",
-            "port": 8080,
+            "address": "185.101.136.9",
+            "port": 443,
             "users": [
               {
-                "id": "54d4d640-731c-4572-d0d4-e8a617816470",
+                "id": "f5c137d1-ca89-42c0-b604-db39aef60a73",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tabyan777.sytes.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "icu4.mac2win.top"
+            "Host": "tabyan777.sytes.net"
           }
         },
         "httpSettings": null,

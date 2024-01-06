@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp.takeshi.wiki",
-            "port": 80,
+            "address": "92.223.124.33",
+            "port": 443,
             "users": [
               {
-                "id": "a19f357b-c836-4cf6-9e43-72390e6a00df",
+                "id": "932e7399-2e7b-4642-b7d5-d2af283c7f86",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "arvancloud.servehttp.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/takeshi.wiki",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "arvancloud.servehttp.com"
           }
         },
         "httpSettings": null,

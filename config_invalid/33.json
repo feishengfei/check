@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sk1-vmess.sshmax.xyz",
-            "port": 80,
+            "address": "sazgar22.zapto.org",
+            "port": 443,
             "users": [
               {
-                "id": "06c2b568-b7df-4e80-9031-c83569397db4",
+                "id": "14bb927f-a4ec-4de7-90fb-388c1f69dbc1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sazgar22.zapto.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "sk1-vmess.sshmax.xyz"
+            "Host": "sazgar22.zapto.org"
           }
         },
         "httpSettings": null,
