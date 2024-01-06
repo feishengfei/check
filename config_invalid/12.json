@@ -36,8 +36,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru1-vmess.sshmax.xyz",
-            "port": 80,
+            "address": "103.113.68.233",
+            "port": 8880,
             "users": [
               {
                 "id": "fddb3781-7e15-4731-a933-94db110b4bbc",
@@ -63,7 +63,7 @@
           "connectionReuse": true,
           "path": "/vmess",
           "headers": {
-            "Host": "ru1-vmess.sshmax.xyz"
+            "Host": "103.113.68.233"
           }
         },
         "httpSettings": null,
