@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "173.245.58.102",
-            "port": 443,
+            "address": "146.190.105.66",
+            "port": 2024,
             "users": [
               {
-                "id": "9eda6b9e-29a4-4aef-a22f-a2619ced197d",
+                "id": "2c28a9de-395c-42e5-9303-969294441cbc",
                 "alterId": 0,
                 "email": "",
-                "security": "chacha20-poly1305",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "germanhidify.followerarzon.ir"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/k8yA49onGCnrh4UqmCDpdpb2cJ",
+          "path": "/",
           "headers": {
-            "Host": "germanhidify.followerarzon.ir"
+            "Host": "imo.im"
           }
         },
         "httpSettings": null,

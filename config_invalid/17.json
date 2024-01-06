@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.101.136.8",
-            "port": 443,
+            "address": "vn7.5gsieutocdo.com",
+            "port": 80,
             "users": [
               {
-                "id": "f5c137d1-ca89-42c0-b604-db39aef60a73",
+                "id": "c95357eb-2869-4511-8940-f0dc5e1ec9b1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tabyan777.sytes.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/5gsieutocdo.club",
           "headers": {
-            "Host": "tabyan777.sytes.net"
+            "Host": "vn7.5gsieutocdo.com"
           }
         },
         "httpSettings": null,

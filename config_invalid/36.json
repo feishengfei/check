@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mizban888.servecounterstrike.com",
-            "port": 443,
+            "address": "www.visa.com.sg",
+            "port": 8080,
             "users": [
               {
-                "id": "22aa72b1-605b-4807-8a81-fb414cbb409c",
+                "id": "54d4d640-731c-4572-d0d4-e8a617816470",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "mizban888.servecounterstrike.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/",
           "headers": {
-            "Host": "mizban888.servecounterstrike.com"
+            "Host": "icu4.mac2win.top"
           }
         },
         "httpSettings": null,

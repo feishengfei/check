@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sazgar22.zapto.org",
-            "port": 443,
+            "address": "95.179.128.114",
+            "port": 80,
             "users": [
               {
-                "id": "14bb927f-a4ec-4de7-90fb-388c1f69dbc1",
+                "id": "a6292090-afe1-4640-97a7-4f1d1d877cf1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sazgar22.zapto.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/Av8czorIlYicU6D349brWUw6a",
           "headers": {
-            "Host": "sazgar22.zapto.org"
+            "Host": "95.179.128.114"
           }
         },
         "httpSettings": null,
