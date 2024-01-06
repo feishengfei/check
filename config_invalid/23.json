@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn7.5gsieutocdo.com",
-            "port": 80,
+            "address": "104.17.2.183",
+            "port": 8443,
             "users": [
               {
-                "id": "c95357eb-2869-4511-8940-f0dc5e1ec9b1",
+                "id": "8ec71bc2-d056-48bc-ab99-ef3692c740fb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v2ra2yy.posht3bani.shop"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gsieutocdo.club",
+          "path": "/",
           "headers": {
-            "Host": "vn7.5gsieutocdo.com"
+            "Host": "v2ra2yy.posht3bani.shop"
           }
         },
         "httpSettings": null,
