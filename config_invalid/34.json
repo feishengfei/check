@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v4.cfnode.eu.org",
-            "port": 8080,
+            "address": "23.openiisee.monster",
+            "port": 443,
             "users": [
               {
-                "id": "2dbeeb76-a71f-493f-bd92-33f0193291c5",
+                "id": "4eeb166e-8813-364c-bf0a-57346a44e766",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lovemylive.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/rfeded1bn2iuyt5671ss25",
           "headers": {
-            "Host": "kryx.651568.xyz"
+            "Host": "lovemylive.top"
           }
         },
         "httpSettings": null,
