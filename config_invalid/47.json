@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tabyan777.sytes.net",
-            "port": 443,
+            "address": "154.26.157.244",
+            "port": 80,
             "users": [
               {
-                "id": "f5c137d1-ca89-42c0-b604-db39aef60a73",
+                "id": "877aa2a8-5854-4cb2-9aba-4a1413a6b2de",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tabyan777.sytes.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/takeshi.wiki",
           "headers": {
-            "Host": "tabyan777.sytes.net"
+            "Host": "dl.kgvn.garenanow.com"
           }
         },
         "httpSettings": null,

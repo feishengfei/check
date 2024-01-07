@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.154.42",
-            "port": 80,
+            "address": "ser52.gsmxssh.com",
+            "port": 20554,
             "users": [
               {
-                "id": "a2f27205-5b59-4a1d-e9ed-c78f7ab4b633",
+                "id": "5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "Quran14.eSmAIlkORea.sHop"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
