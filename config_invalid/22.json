@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "vn7.5gsieutocdo.com",
-            "port": 80,
-            "users": [
-              {
-                "id": "c95357eb-2869-4511-8940-f0dc5e1ec9b1",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "series-a2.samanehha.co",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "mps3FwmDjLrWaOVg",
+            "port": 443,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/5gsieutocdo.club",
-          "headers": {
-            "Host": "vn7.5gsieutocdo.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
