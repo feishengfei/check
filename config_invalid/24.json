@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "139.162.125.97",
-            "port": 49499,
+            "address": "a3.bcbot.in",
+            "port": 8880,
             "users": [
               {
-                "id": "3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6",
+                "id": "ce9aadc8-8c6e-4867-d247-9a84b469ac27",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "a3.bcbot.in"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

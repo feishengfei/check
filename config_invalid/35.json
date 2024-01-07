@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.123.230.157",
-            "port": 80,
+            "address": "2bbiozh7wbc.servecounterstrike.com",
+            "port": 2087,
             "users": [
               {
-                "id": "877aa2a8-5854-4cb2-9aba-4a1413a6b2de",
+                "id": "5cd723e8-6f2b-45fc-bb07-07af31a106eb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "paNeL168.MOoKoMeilz.homes"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/takeshi.wiki",
+          "path": "/@FreeVPNHomes@FreeVPNHomes",
           "headers": {
-            "Host": "dl.kgvn.garenanow.com"
+            "Host": "paNeL168.MOoKoMeilz.homes"
           }
         },
         "httpSettings": null,
