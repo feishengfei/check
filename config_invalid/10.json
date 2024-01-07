@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.131.14.177",
-            "port": 2082,
+            "address": "104.16.39.184",
+            "port": 8080,
             "users": [
               {
-                "id": "2c5fee13-f08b-4ba8-86db-27dd51cb9781",
+                "id": "d612bbf3-14d0-4d1d-a21c-166e98a3b49c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "FR.ircf.eu.ORG"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/@x2rayn_vpn@x2rayn_vpn@x2rayn_vpn",
           "headers": {
-            "Host": "94.131.14.177"
+            "Host": "FR.ircf.eu.ORG"
           }
         },
         "httpSettings": null,

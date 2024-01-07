@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "82.213.5.50",
-            "port": 80,
+            "address": "nb22.ntbq.dynu.net",
+            "port": 12002,
             "users": [
               {
-                "id": "22aa72b1-605b-4807-8a81-fb414cbb409c",
+                "id": "4c3ea3ee-2e5e-420b-b81b-8e66f6726003",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/@forwardv2ray",
-          "headers": {
-            "Host": "mizban888.servecounterstrike.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
