@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "95.164.69.27",
-            "port": 80,
+            "address": "hexsen.com",
+            "port": 443,
             "users": [
               {
-                "id": "cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a",
+                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cup-without-disappointed-objects.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": "internet.life.com.by"
+            "Host": "cup-without-disappointed-objects.trycloudflare.com"
           }
         },
         "httpSettings": null,
