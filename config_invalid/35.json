@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "2bbiozh7wbc.servecounterstrike.com",
-            "port": 2087,
+            "address": "38.180.98.215",
+            "port": 8080,
             "users": [
               {
-                "id": "5cd723e8-6f2b-45fc-bb07-07af31a106eb",
+                "id": "773ac60d-36d7-45b5-c99e-a0e3903e2e3a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "paNeL168.MOoKoMeilz.homes"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@FreeVPNHomes@FreeVPNHomes",
+          "path": "/",
           "headers": {
-            "Host": "paNeL168.MOoKoMeilz.homes"
+            "Host": ""
           }
         },
         "httpSettings": null,

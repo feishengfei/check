@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b23.ntbq.dynu.net",
-            "port": 2024,
+            "address": "104.17.184.241",
+            "port": 80,
             "users": [
               {
-                "id": "d3f5c39d-610c-4b98-9b01-d5b847033cf9",
+                "id": "bf3d038a-93a2-4e24-886c-6bc64e3c3a90",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "mg_cdn.yunjisuan.cf"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

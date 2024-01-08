@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v4.cfnode.eu.org",
-            "port": 8080,
+            "address": "ser52.gsmxssh.com",
+            "port": 20554,
             "users": [
               {
-                "id": "2dbeeb76-a71f-493f-bd92-33f0193291c5",
+                "id": "5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "kryx.651568.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "zula.ir",
-            "port": 443,
+            "address": "v4.cfnode.eu.org",
+            "port": 8080,
             "users": [
               {
-                "id": "9293c5f9-2f94-46b4-a424-ce980761398d",
+                "id": "2dbeeb76-a71f-493f-bd92-33f0193291c5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "profile-westminster-illinois-routing.trycloudflare.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "9293c5f9-2f94-46b4-a424-ce980761398d",
+          "path": "/",
           "headers": {
-            "Host": "profile-westminster-illinois-routing.trycloudflare.com"
+            "Host": "kryx.651568.xyz"
           }
         },
         "httpSettings": null,
