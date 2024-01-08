@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nb36.ntbq.dynu.net",
-            "port": 4211,
+            "address": "mehdi14.mehdimoghaddam.fun",
+            "port": 8080,
             "users": [
               {
-                "id": "d3f5c39d-610c-4b98-9b01-d5b847033cf9",
+                "id": "69ec0fdb-b959-43d0-9004-45e310147b5a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/@forwardv2ray",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
