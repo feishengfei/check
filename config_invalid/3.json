@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "112.26.46.141",
-            "port": 63001,
+            "address": "20.2.89.180",
+            "port": 41365,
             "users": [
               {
-                "id": "f6af82ce-fda6-31d2-86b9-db2eaec6b19e",
+                "id": "872caf99-bf5a-4f62-9bc9-57c047048141",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.netflix.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/db00",
+          "path": "/",
           "headers": {
-            "Host": "data-hk-1.cn-db.top"
+            "Host": "www.netflix.com"
           }
         },
         "httpSettings": null,

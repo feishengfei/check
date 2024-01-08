@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mehdi15.mehdimoghaddam.fun",
-            "port": 2095,
+            "address": "mtnc.nimserver.top",
+            "port": 443,
             "users": [
               {
-                "id": "f14b7672-1272-437d-8ce1-e9dfff517e47",
+                "id": "2a456600-5611-4d90-964a-8eb6fcd6048b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "rs2.nimserver.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/vmess",
           "headers": {
-            "Host": ""
+            "Host": "rs2.nimserver.top"
           }
         },
         "httpSettings": null,

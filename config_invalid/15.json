@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "mehdi7.mehdimoghaddam.fun",
-            "port": 2052,
+            "address": "162.159.135.232",
+            "port": 2087,
             "users": [
               {
-                "id": "f4b9203b-78df-425b-ab70-5ab006405884",
+                "id": "1523c9d0-5e35-4dcb-b652-0bda0c2f7d04",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "new.alooo.site"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "new.alooo.site"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.visa.com.tw",
-            "port": 8880,
+            "address": "ir2.sibdoni.com",
+            "port": 2083,
             "users": [
               {
-                "id": "bf3d038a-93a2-4e24-886c-6bc64e3c3a90",
+                "id": "69c7a7f2-fdd3-421b-ab02-50f0c7d6fe2c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "loyuxkrwtz_o-g-g_g-g-g-g-g-g-g-g-g--0-xn-fg-g-g-_-g-g-g-g-g1r-.monisor.info"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/graphql",
           "headers": {
-            "Host": "mgthree_cdn.yunjisuan.cf"
+            "Host": "loyuxkrwtz_o-g-g_g-g-g-g-g-g-g-g-g--0-xn-fg-g-g-_-g-g-g-g-g1r-.monisor.info"
           }
         },
         "httpSettings": null,
