@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10909,
+      "port": 10907,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.visa.com.tw",
-            "port": 8880,
+            "address": "www.bleefaweb.gay",
+            "port": 443,
             "users": [
               {
-                "id": "bf3d038a-93a2-4e24-886c-6bc64e3c3a90",
+                "id": "bed28faf-5801-4e35-bbbd-9fad2c4c4898",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/bed28faf-5801-4e35-bbbd-9fad2c4c4898-vmess",
           "headers": {
-            "Host": "mgthree_cdn.yunjisuan.cf"
+            "Host": ""
           }
         },
         "httpSettings": null,

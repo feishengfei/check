@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.23.86.189",
-            "port": 59492,
+            "address": "cname.volcengine.eu.org",
+            "port": 80,
             "users": [
               {
-                "id": "3cd1a2f0-499f-4eb0-862a-cdd0ecd821c7",
+                "id": "ebc8ef6e-961d-4315-9258-46fb81605bd7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/imzcc",
+          "path": "/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso",
           "headers": {
-            "Host": "dm.imzcc.com"
+            "Host": "ca2-amazonwebservices.volcengine.eu.org"
           }
         },
         "httpSettings": null,

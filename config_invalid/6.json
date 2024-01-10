@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.32.215",
-            "port": 8880,
+            "address": "free1.node-01-run-api.online",
+            "port": 443,
             "users": [
               {
-                "id": "ce9aadc8-8c6e-4867-d247-9a84b469ac27",
+                "id": "21f2a889-7bc4-491f-9f2d-3e72e2f85ae1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "free1.node-01-run-api.online"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/texpn?ed=2048",
           "headers": {
-            "Host": "a3.bcbot.in"
+            "Host": "free1.node-01-run-api.online"
           }
         },
         "httpSettings": null,
