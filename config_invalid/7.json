@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hexsen.com",
-            "port": 443,
+            "address": "172.67.217.144",
+            "port": 80,
             "users": [
               {
-                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                "id": "85674552-ce41-44d9-bb2a-50f76450b3d8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "us.king361.cf"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/argo-vmess?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "us.king361.cf"
+            "Host": "lv1.xv2ray.net"
           }
         },
         "httpSettings": null,

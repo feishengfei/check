@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "scadn.yydsii.com",
-            "port": 80,
+            "address": "nb24.ntbq.dynu.net",
+            "port": 4443,
             "users": [
               {
-                "id": "2b0c5996-216f-4933-9aed-92458ff4988f",
+                "id": "d3f5c39d-610c-4b98-9b01-d5b847033cf9",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "oiictw.yydsii.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
