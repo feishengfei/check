@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.223.124.15",
-            "port": 443,
+            "address": "dm.imzcc.com",
+            "port": 59492,
             "users": [
               {
-                "id": "b82493e3-07b4-4cf2-b585-965575cfeb32",
+                "id": "3cd1a2f0-499f-4eb0-862a-cdd0ecd821c7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "softiri.serveirc.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/imzcc",
           "headers": {
-            "Host": "softiri.serveirc.com"
+            "Host": "dm.imzcc.com"
           }
         },
         "httpSettings": null,
