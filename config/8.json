@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10913,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.223.124.15",
+            "address": "138.201.184.34",
             "port": 443,
             "users": [
               {
-                "id": "b82493e3-07b4-4cf2-b585-965575cfeb32",
+                "id": "4edffbd4-cac3-40bc-ca2a-0329c7494346",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "softiri.serveirc.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/@VPNLime",
           "headers": {
-            "Host": "softiri.serveirc.com"
+            "Host": "fast.com"
           }
         },
         "httpSettings": null,

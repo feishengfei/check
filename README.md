@@ -6,12 +6,16 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr                   | cn             | cc   | isp       | ip             | chatgpt          |
-|---:|:-------------------|:-----------------------|:---------------|:-----|:----------|:---------------|:-----------------|
-|  0 | [2](config/2.json) | series-a1.samanehha.co | United Kingdom | GB   | AMAZON-02 | 18.132.198.231 | Yes (Region: GB) |
+|    | id                   | addr                  | cn   | cc   | isp   | ip                    | chatgpt          |
+|---:|:---------------------|:----------------------|:-----|:-----|:------|:----------------------|:-----------------|
+|  0 | [2](config/2.json)   | 20.70.181.212         |      |      |       | 20.70.181.212         | Yes (Region: AU) |
+|  1 | [8](config/8.json)   | 138.201.184.34        |      |      |       | 2a01:4f8:c012:7938::1 | Yes (Region: DE) |
+|  2 | [19](config/19.json) | data-us-v1.shwjfkw.cn |      |      |       | 104.249.174.138       | Yes (Region: US) |
 
 ## Valid
 ```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#github.com/freefq%20-%20%E8%8B%B1%E5%9B%BD%E4%BC%A6%E6%95%A6Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%202
+vmess://eyJhZGQiOiAiMjAuNzAuMTgxLjIxMiIsICJhaWQiOiAwLCAiaG9zdCI6ICIiLCAiaWQiOiAiMjk0ZGRlMDYtNjAzYi00YmQzLWFmZGMtOWU0ZGUxNGNhMTgzIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi8iLCAicG9ydCI6IDI5NTQ4LCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmREWEMgVGVjaG5vbG9neSAyIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
+vmess://eyJhZGQiOiAiMTM4LjIwMS4xODQuMzQiLCAiYWlkIjogMCwgImhvc3QiOiAiZmFzdC5jb20iLCAiaWQiOiAiNGVkZmZiZDQtY2FjMy00MGJjLWNhMmEtMDMyOWM3NDk0MzQ2IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9AVlBOTGltZSIsICJwb3J0IjogNDQzLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVmYjdcdTU2ZmRIZXR6bmVyIDgiLCAidGxzIjogIiIsICJ0eXBlIjogImF1dG8iLCAic2VjdXJpdHkiOiAiYXV0byIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwgInNuaSI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTkiLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiYjE0NzhlMjQtNDkxNi0zYWJlLThmMTctMTU5MzEwMTJlY2JlIiwgInNuaSI6ICIiLCAiaG9zdCI6ICJkYXRhLXVzLXYxLnNod2pma3cuY24iLCAicGF0aCI6ICIvZGViaWFuIn0=
 ```
 

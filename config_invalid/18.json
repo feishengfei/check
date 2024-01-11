@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ir2.sibdoni.com",
-            "port": 2083,
+            "address": "172.67.217.144",
+            "port": 80,
             "users": [
               {
-                "id": "69c7a7f2-fdd3-421b-ab02-50f0c7d6fe2c",
+                "id": "85674552-ce41-44d9-bb2a-50f76450b3d8",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "loyuxkrwtz_o-g-g_g-g-g-g-g-g-g-g-g--0-xn-fg-g-g-_-g-g-g-g-g1r-.monisor.info"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/graphql",
+          "path": "/",
           "headers": {
-            "Host": "loyuxkrwtz_o-g-g_g-g-g-g-g-g-g-g-g--0-xn-fg-g-g-_-g-g-g-g-g1r-.monisor.info"
+            "Host": "lv1.xv2ray.net"
           }
         },
         "httpSettings": null,

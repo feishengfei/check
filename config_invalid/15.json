@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.135.232",
-            "port": 2087,
+            "address": "104.17.2.183",
+            "port": 80,
             "users": [
               {
-                "id": "1523c9d0-5e35-4dcb-b652-0bda0c2f7d04",
+                "id": "f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "new.alooo.site"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "new.alooo.site"
+            "Host": "v3ra3do.wakeuptimerap.shop"
           }
         },
         "httpSettings": null,

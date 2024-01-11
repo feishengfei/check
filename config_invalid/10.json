@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.23.86.189",
-            "port": 59492,
+            "address": "94.176.183.12",
+            "port": 443,
             "users": [
               {
-                "id": "3cd1a2f0-499f-4eb0-862a-cdd0ecd821c7",
+                "id": "f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tabyan205.serveftp.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/imzcc",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "dm.imzcc.com"
+            "Host": "tabyan205.serveftp.com"
           }
         },
         "httpSettings": null,
