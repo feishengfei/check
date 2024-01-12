@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.99.190.109",
-            "port": 443,
+            "address": "185.146.173.27",
+            "port": 8880,
             "users": [
               {
-                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "id": "8ec29f7f-edee-4065-bec5-b31d10c2d7e4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "linkvws",
+          "path": "/main",
           "headers": {
-            "Host": ""
+            "Host": "telegram.shadowbrowse.online"
           }
         },
         "httpSettings": null,

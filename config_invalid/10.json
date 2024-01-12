@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "172.232.129.44",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "Di1cc1MFfYdc9aBOYW_W9A",
-            "port": 1080,
-            "level": 1,
-            "users": null
+            "address": "a3.bcbot.in",
+            "port": 8880,
+            "users": [
+              {
+                "id": "ce9aadc8-8c6e-4867-d247-9a84b469ac27",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "a3.bcbot.in"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

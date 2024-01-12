@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "146.190.111.121",
-            "port": 54642,
+            "address": "nb22.ntbq.dynu.net",
+            "port": 12002,
             "users": [
               {
-                "id": "97e9c42a-69fe-44ef-917c-80d941d1114a",
+                "id": "bbbf3acb-bfaa-4545-9d2c-dcac332b71ac",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "www.xbox.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

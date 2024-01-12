@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "192.151.255.13",
-            "port": 41698,
-            "users": [
-              {
-                "id": "a3dfbdd6-7e01-4735-9973-e3dd056c129e",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "172.232.129.44",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "Di1cc1MFfYdc9aBOYW_W9A",
+            "port": 1080,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/changding-tls0?ed=2048",
-          "headers": {
-            "Host": "hk-hy.changding.tech"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
