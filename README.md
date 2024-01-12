@@ -6,14 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                   | cn             | cc   | isp                    | ip                             | chatgpt          |
-|---:|:---------------------|:-----------------------|:---------------|:-----|:-----------------------|:-------------------------------|:-----------------|
-|  0 | [16](config/16.json) | series-a2.samanehha.co | United Kingdom | GB   | AMAZON-02              | 18.132.198.231                 | Yes (Region: GB) |
-|  1 | [30](config/30.json) | 172.232.129.44         | Sweden         | SE   | Akamai Connected Cloud | 2600:3c09::f03c:94ff:fe92:f77f | Yes (Region: SE) |
+|    | id                 | addr                   | cn     | cc   | isp                    | ip             | chatgpt          |
+|---:|:-------------------|:-----------------------|:-------|:-----|:-----------------------|:---------------|:-----------------|
+|  0 | [2](config/2.json) | 104.21.73.14           | France | FR   | Akamai Connected Cloud | 172.234.63.43  | Yes (Region: DE) |
+|  1 | [4](config/4.json) | series-a1.samanehha.co |        |      |                        | 18.132.198.231 | Yes (Region: GB) |
 
 ## Valid
 ```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.samanehha.co:443#github.com/freefq%20-%20%E8%8B%B1%E5%9B%BD%E4%BC%A6%E6%95%A6Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2016
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEaTFjYzFNRmZZZGM5YUJPWVdfVzlB@172.232.129.44:1080#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAkamai%E7%A7%91%E6%8A%80%E5%85%AC%E5%8F%B8CDN%E7%BD%91%E7%BB%9C%E8%8A%82%E7%82%B9%2030
+vmess://eyJhZGQiOiAiMTA0LjIxLjczLjE0IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogInlhZ2hvb2I1NWZyZWVub2Rlcy5yZXBhY282OTQzNzQwMy53b3JrZXJzLmRldiIsICJpZCI6ICI0NWY2M2U5Mi1mNzgyLTRjYWMtODRiOC1lNjFjYjVhNWJmZDAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL2FkZW5jMzUuZml4ZWRsZm9hdC50b3AvbGlua3dzIiwgInBvcnQiOiAiODg4MCIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTUxNmNcdTUzZjhDRE5cdTgyODJcdTcwYjkgMiIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIn0=
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2%204
 ```
 

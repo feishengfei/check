@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "202.139.228.198",
-            "port": 8080,
+            "address": "us-west-anycast.lnaspiring.com",
+            "port": 80,
             "users": [
               {
-                "id": "a3dfbdd6-7e01-4735-9973-e3dd056c129e",
+                "id": "07daf48b-1cca-4a96-98f5-2607a7d67e40",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xn.changding.tech"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vm-tls1-tls1?ed=2048",
+          "path": "/geg/44?ed=2048",
           "headers": {
-            "Host": "xn.changding.tech"
+            "Host": "uspz.edge.233.tw"
           }
         },
         "httpSettings": null,
