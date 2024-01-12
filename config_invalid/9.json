@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "93.123.11.11",
-            "port": 443,
+            "address": "yhnsb3.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "7282d494-b506-4f34-9950-fb0c18820439",
+                "id": "c458695d-6908-45c3-9512-e0c46418454c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "yasoft8889.zapto.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/",
           "headers": {
-            "Host": "yasoft8889.zapto.org"
+            "Host": "yhnsb3.shabijichang.com"
           }
         },
         "httpSettings": null,

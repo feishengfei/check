@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "93.123.11.11",
-            "port": 443,
+            "address": "104.21.32.215",
+            "port": 8880,
             "users": [
               {
-                "id": "8dbd3db3-c530-4ec0-a929-be4da535f663",
+                "id": "ce9aadc8-8c6e-4867-d247-9a84b469ac27",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "soft99.gotdns.ch"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/",
           "headers": {
-            "Host": "soft99.gotdns.ch"
+            "Host": "a3.bcbot.in"
           }
         },
         "httpSettings": null,
