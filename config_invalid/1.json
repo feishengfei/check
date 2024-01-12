@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.217.144",
-            "port": 80,
+            "address": "202.139.228.198",
+            "port": 8080,
             "users": [
               {
-                "id": "85674552-ce41-44d9-bb2a-50f76450b3d8",
+                "id": "a3dfbdd6-7e01-4735-9973-e3dd056c129e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "xn.changding.tech"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vm-tls1-tls1?ed=2048",
           "headers": {
-            "Host": "lv1.xv2ray.net"
+            "Host": "xn.changding.tech"
           }
         },
         "httpSettings": null,
