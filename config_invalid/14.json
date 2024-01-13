@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kz-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "a3.bcbot.in",
+            "port": 8880,
             "users": [
               {
-                "id": "48b10b02-2c60-4323-bc65-a11b15144745",
+                "id": "ce9aadc8-8c6e-4867-d247-9a84b469ac27",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "a3.bcbot.in"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
