@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.146.173.27",
-            "port": 8880,
+            "address": "b23.ntbq.dynu.net",
+            "port": 2024,
             "users": [
               {
-                "id": "8ec29f7f-edee-4065-bec5-b31d10c2d7e4",
+                "id": "a36db716-c6d0-4bc2-bd76-69e278215124",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/main",
-          "headers": {
-            "Host": "telegram.shadowbrowse.online"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
