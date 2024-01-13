@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10912,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "data-us-v1.shwjfkw.cn",
-            "port": 20401,
+            "address": "cfcdn1.sanfencdn9.com",
+            "port": 8880,
             "users": [
               {
-                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
+                "id": "ae16d5a4-9a22-4177-8884-77aa3b309d30",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "aes-128-gcm",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us6gzxQRrE4.fzbqfrse.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/debian",
+          "path": "/video/bYdJ7Vc2We",
           "headers": {
-            "Host": "data-us-v1.shwjfkw.cn"
+            "Host": "us6gzxQRrE4.fzbqfrse.xyz"
           }
         },
         "httpSettings": null,

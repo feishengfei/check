@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.2.183",
-            "port": 80,
+            "address": "c12.twtc.dynu.net",
+            "port": 6122,
             "users": [
               {
-                "id": "3c59b3ca-def3-4d3a-9ef4-c32f797803a2",
+                "id": "a36db716-c6d0-4bc2-bd76-69e278215124",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "holloll32.adanademirspor.eu"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
