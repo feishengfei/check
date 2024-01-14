@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "stackoverflow.com",
-            "port": 80,
+            "address": "94.131.99.8",
+            "port": 47182,
             "users": [
               {
-                "id": "45ce0dfa-fb29-3c65-b761-f585965f6302",
+                "id": "81b2b630-8b6a-404f-b996-b12f13db5786",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/xiaodao?ed=2048",
-          "headers": {
-            "Host": "px-000.xiaoxiaobujidao.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
