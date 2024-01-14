@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "197.215.140.234",
-            "port": 80,
+            "address": "81.12.27.7",
+            "port": 21975,
             "users": [
               {
-                "id": "b82493e3-07b4-4cf2-b585-965575cfeb32",
+                "id": "b3c49b53-2d5d-4d13-d195-76d48aeccd11",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/@forwardv2ray",
-          "headers": {
-            "Host": "softiri.serveirc.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

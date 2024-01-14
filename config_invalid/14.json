@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.131.10.135",
-            "port": 80,
+            "address": "92.223.107.40",
+            "port": 443,
             "users": [
               {
-                "id": "099b5b7a-9d71-43cd-80e3-b8fbe1cc2695",
+                "id": "932e7399-2e7b-4642-b7d5-d2af283c7f86",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "arvancloud.servehttp.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": ""
+            "Host": "arvancloud.servehttp.com"
           }
         },
         "httpSettings": null,
