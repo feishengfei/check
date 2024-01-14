@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kz-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "185.146.173.27",
+            "port": 8880,
             "users": [
               {
-                "id": "48b10b02-2c60-4323-bc65-a11b15144745",
+                "id": "8ec29f7f-edee-4065-bec5-b31d10c2d7e4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/main",
+          "headers": {
+            "Host": "telegram.shadowbrowse.online"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

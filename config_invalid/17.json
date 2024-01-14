@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kz-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "glasco.fx-trader.shop",
+            "port": 80,
             "users": [
               {
-                "id": "48b10b02-2c60-4323-bc65-a11b15144745",
+                "id": "f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "v3ra3do.wakeuptimerap.shop"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

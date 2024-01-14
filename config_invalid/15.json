@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kz-v2ray.ipracevpn.com",
-            "port": 8443,
+            "address": "jp1.t1csyun.shop",
+            "port": 443,
             "users": [
               {
-                "id": "48b10b02-2c60-4323-bc65-a11b15144745",
+                "id": "4048f0d2-8ae6-4efa-9e0f-d0c0c0da9103",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/jp1",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
