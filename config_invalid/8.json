@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "glaSco.fx-trAder.shop",
-            "port": 80,
+            "address": "c12.twtc.dynu.net",
+            "port": 6122,
             "users": [
               {
-                "id": "cdbb0899-7113-4d4e-f868-31339c75ad3c",
+                "id": "a36db716-c6d0-4bc2-bd76-69e278215124",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "vvv2vayo2.everythingisreve.shop"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
