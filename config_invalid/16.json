@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "130.193.166.2",
-            "port": 443,
+            "address": "81.12.27.7",
+            "port": 21975,
             "users": [
               {
-                "id": "7682b778-b64b-408b-8fb2-61d7c7fc43e5",
+                "id": "b3c49b53-2d5d-4d13-d195-76d48aeccd11",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "soft8989.redirectme.net"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/@forwardv2ray",
-          "headers": {
-            "Host": "soft8989.redirectme.net"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

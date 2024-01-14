@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.146.173.27",
-            "port": 8880,
+            "address": "94.131.10.135",
+            "port": 80,
             "users": [
               {
-                "id": "8ec29f7f-edee-4065-bec5-b31d10c2d7e4",
+                "id": "099b5b7a-9d71-43cd-80e3-b8fbe1cc2695",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/main",
+          "path": "/vmess",
           "headers": {
-            "Host": "telegram.shadowbrowse.online"
+            "Host": ""
           }
         },
         "httpSettings": null,
