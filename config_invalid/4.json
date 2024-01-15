@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nb22.ntbq.dynu.net",
-            "port": 12002,
+            "address": "hamrahaval.asan3a.shop",
+            "port": 8080,
             "users": [
               {
-                "id": "35916fe2-8dbe-4a8c-870c-123edabcb414",
+                "id": "d72227c8-3ce1-4f24-a9fb-36fcd918f96f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "asan3.azad2.tech"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b23.ntbq.dynu.net",
-            "port": 2024,
+            "address": "188.114.97.1",
+            "port": 80,
             "users": [
               {
-                "id": "35916fe2-8dbe-4a8c-870c-123edabcb414",
+                "id": "3f74cb04-65d4-4d7f-90e0-ef7d29c30304",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "1138a55af46e?ed=2048",
+          "headers": {
+            "Host": "combat-disappointed-nine-inc.trycloudflare.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

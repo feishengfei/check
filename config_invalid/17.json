@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "79.143.84.117",
-            "port": 25477,
+            "address": "104.21.79.143",
+            "port": 80,
             "users": [
               {
-                "id": "9b788fa7-9e35-4ed5-e0e9-7d788b26ec07",
+                "id": "8b745f74-c322-48c0-b27c-cb6a1d871e86",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "ae8e857abf1d?ed=2048",
+          "headers": {
+            "Host": "periodically-microwave-firms-abc.trycloudflare.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
