@@ -6,12 +6,13 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr                  | cn    | cc   | isp                              | ip             | chatgpt          |
-|---:|:-------------------|:----------------------|:------|:-----|:---------------------------------|:---------------|:-----------------|
-|  0 | [4](config/4.json) | cfcdn3.sanfencdn9.com | Japan | JP   | Eons Data Communications Limited | 38.207.152.143 | Yes (Region: US) |
+|    | id                 | addr                       | cn             | cc   | isp       | ip            | chatgpt          |
+|---:|:-------------------|:---------------------------|:---------------|:-----|:----------|:--------------|:-----------------|
+|  0 | [3](config/3.json) | series-a2-mec.samanehha.co | United Kingdom | GB   | AMAZON-02 | 13.40.181.177 | Yes (Region: GB) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDQiLCAiYWRkIjogImNmY2RuMy5zYW5mZW5jZG45LmNvbSIsICJwb3J0IjogMjA1MiwgImlkIjogImNkMmUwYmM3LWIyNWQtNGE5OS1iOGQ2LWE4MDU3MGRiOTk0YSIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAid3R5d3djcnpqcDUueW9mbmhrZmMueHl6IiwgInBhdGgiOiAiL3ZpZGVvLzlUZlZFeWt1IiwgInRscyI6ICIifQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%203
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggOSIsICJhZGQiOiAiZGF0YS11cy12MS5zaHdqZmt3LmNuIiwgInBvcnQiOiAiMjA0MDEiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJiMTQ3OGUyNC00OTE2LTNhYmUtOGYxNy0xNTkzMTAxMmVjYmUiLCAic25pIjogIiIsICJob3N0IjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwYXRoIjogIi9kZWJpYW4ifQ==
 ```
 

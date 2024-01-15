@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.20.16",
-            "port": 443,
+            "address": "82.213.5.50",
+            "port": 80,
             "users": [
               {
-                "id": "802c1068-ee2b-4c87-b49d-e7f3043e75d2",
+                "id": "368ee843-d2a3-425c-be57-135b9ec6b81f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "se2-vmess.sshmax.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "se2-vmess.sshmax.xyz"
+            "Host": "best.servecounterstrike.com"
           }
         },
         "httpSettings": null,
