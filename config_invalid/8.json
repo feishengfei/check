@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b23.ntbq.dynu.net",
-            "port": 2024,
+            "address": "glasco.fx-trader.shop",
+            "port": 80,
             "users": [
               {
-                "id": "14327f86-7734-4d5b-9561-b58ad95cbcfb",
+                "id": "f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "v3ra3do.wakeuptimerap.shop"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
