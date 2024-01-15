@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1208.ssfree.ru",
-            "port": 443,
+            "address": "hk02.duckulaolga.online",
+            "port": 80,
             "users": [
               {
-                "id": "f9b56b74-b2f5-11ee-be75-00163e49219e",
+                "id": "5f373214-b955-4467-a582-62be14c59bce",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "hk02.xpoti.online"
           }
         },
         "httpSettings": null,
