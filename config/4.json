@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10901,
+      "port": 10904,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.20.16",
-            "port": 443,
+            "address": "cfcdn3.sanfencdn9.com",
+            "port": 2052,
             "users": [
               {
-                "id": "802c1068-ee2b-4c87-b49d-e7f3043e75d2",
+                "id": "cd2e0bc7-b25d-4a99-b8d6-a80570db994a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "se2-vmess.sshmax.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/video/9TfVEyku",
           "headers": {
-            "Host": "se2-vmess.sshmax.xyz"
+            "Host": "wtywwcrzjp5.yofnhkfc.xyz"
           }
         },
         "httpSettings": null,
