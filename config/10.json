@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10902,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "13.87.82.188",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "sdXEwtFoS5cAhg1ZBZqRBQ",
-            "port": 49603,
-            "level": 1,
-            "users": null
+            "address": "cfcdn3.sanfencdn9.com",
+            "port": 2052,
+            "users": [
+              {
+                "id": "cd2e0bc7-b25d-4a99-b8d6-a80570db994a",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/video/9TfVEyku",
+          "headers": {
+            "Host": "wtywwcrzjp5.yofnhkfc.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
