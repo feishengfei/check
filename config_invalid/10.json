@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk02.duckulaolga.online",
-            "port": 80,
+            "address": "173.245.59.209",
+            "port": 443,
             "users": [
               {
-                "id": "5f373214-b955-4467-a582-62be14c59bce",
+                "id": "a0eb42f5-eed2-41ce-c574-1896a5388021",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "toll-named-executive-doctor.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/uptime",
           "headers": {
-            "Host": "hk02.xpoti.online"
+            "Host": "toll-named-executive-doctor.trycloudflare.com"
           }
         },
         "httpSettings": null,
