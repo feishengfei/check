@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "skyht2.vpndata.vn",
-            "port": 80,
+            "address": "114.37.130.69",
+            "port": 2024,
             "users": [
               {
-                "id": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
+                "id": "2e2a2655-0ac1-4b1d-a777-de98bea4aa0a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/VPNDATA.VPN",
-          "headers": {
-            "Host": "lienquan.garena.vn"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

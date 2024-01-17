@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "114.37.130.69",
-            "port": 2024,
+            "address": "world14.freedomisnear.fun",
+            "port": 8880,
             "users": [
               {
-                "id": "2e2a2655-0ac1-4b1d-a777-de98bea4aa0a",
+                "id": "fde70c8f-02ba-4386-9fcb-0a0aa1458d25",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/@forwardv2ray",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
