@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.224.52.104",
-            "port": 38632,
+            "address": "202.78.162.6",
+            "port": 80,
             "users": [
               {
-                "id": "4bd467aa-ae27-43cc-b1fa-6666d54b0666",
+                "id": "66fef53b-1b57-466d-89a4-bd99b90f6473",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "testray1.zanylee.uk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/4jPzm2QK/",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "testray1.zanylee.uk"
+            "Host": "irisoft.servecounterstrike.com"
           }
         },
         "httpSettings": null,
