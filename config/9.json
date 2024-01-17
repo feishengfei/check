@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10907,
+      "port": 10909,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "data-us-v1.shwjfkw.cn",
-            "port": 20401,
+            "address": "112.28.208.14",
+            "port": 40702,
             "users": [
               {
-                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/debian",
-          "headers": {
-            "Host": "data-us-v1.shwjfkw.cn"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

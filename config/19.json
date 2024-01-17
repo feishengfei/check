@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10905,
+      "port": 10919,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "165.232.91.222",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "PMSUTsMDg37brzfahzqnlR",
-            "port": 4432,
-            "level": 1,
-            "users": null
+            "address": "27.124.8.132",
+            "port": 443,
+            "users": [
+              {
+                "id": "9e338965-6a07-4a5f-ad97-d57f4a6e6fd3",
+                "alterId": 64,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.98355923.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/path/143534141104",
+          "headers": {
+            "Host": "www.98355923.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10912,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "series-a1.samanehha.co",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "W74XFALLLuw6m5IA",
+            "address": "kellie.makeup",
             "port": 443,
-            "level": 1,
-            "users": null
+            "users": [
+              {
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "kellie.makeup"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/linkvws",
+          "headers": {
+            "Host": "kellie.makeup"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -6,22 +6,20 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr                   | cn              | cc   | isp                                  | ip              | chatgpt          |
-|---:|:-------------------|:-----------------------|:----------------|:-----|:-------------------------------------|:----------------|:-----------------|
-|  0 | [2](config/2.json) | series-a2.samanehha.co | United Kingdom  | GB   | AMAZON-02                            | 18.132.198.231  | Yes (Region: GB) |
-|  1 | [3](config/3.json) | cfcdn3.sanfencdn9.com  | Japan           | JP   | Eons Data Communications Limited     | 38.207.152.133  | Yes (Region: US) |
-|  2 | [4](config/4.json) | series-a1.samanehha.co | United Kingdom  | GB   | AMAZON-02                            | 18.132.198.231  | Yes (Region: GB) |
-|  3 | [5](config/5.json) | 165.232.91.222         | The Netherlands | NL   | DIGITALOCEAN-ASN                     | 165.232.91.222  | Yes (Region: NL) |
-|  4 | [7](config/7.json) | data-us-v1.shwjfkw.cn  | United States   | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138 | Yes (Region: US) |
-|  5 | [8](config/8.json) | 45.77.240.25           | Singapore       | SG   | AS-CHOOPA                            | 45.77.240.25    | Yes (Region: SG) |
+|    | id                   | addr                  | cn              | cc   | isp                                  | ip              | chatgpt          |
+|---:|:---------------------|:----------------------|:----------------|:-----|:-------------------------------------|:----------------|:-----------------|
+|  0 | [2](config/2.json)   | 165.232.91.222        | The Netherlands | NL   | DIGITALOCEAN-ASN                     | 165.232.91.222  | Yes (Region: NL) |
+|  1 | [9](config/9.json)   | 112.28.208.14         | Hong Kong       | HK   | BGPNET Global ASN                    | 14.128.63.133   | Yes (Region: AU) |
+|  2 | [12](config/12.json) | kellie.makeup         | Germany         | DE   | AS-GLOBALTELEHOST                    | 23.158.56.52    | Yes (Region: DE) |
+|  3 | [13](config/13.json) | data-us-v1.shwjfkw.cn | United States   | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138 | Yes (Region: US) |
+|  4 | [19](config/19.json) | 27.124.8.132          | South Korea     | KR   | BGPNET Global ASN                    | 27.124.8.131    | Yes (Region: KR) |
 
 ## Valid
 ```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.samanehha.co:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%202
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDMiLCAiYWRkIjogImNmY2RuMy5zYW5mZW5jZG45LmNvbSIsICJwb3J0IjogODAsICJpZCI6ICJkYWI4NjU3OS1kMTk3LTQzMWItOGU3Mi0zZDhhNzU5NjgwNDAiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogIm9BNUZTejlUanAxLnlvZm5oa2ZjLnh5eiIsICJwYXRoIjogIi92aWRlby9QN0VFeG9FMiIsICJ0bHMiOiAiIn0=
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%204
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQTVNVVHNNRGczN2JyemZhaHpxbmxS@165.232.91.222:4432#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%205
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggNyIsICJhZGQiOiAiZGF0YS11cy12MS5zaHdqZmt3LmNuIiwgInBvcnQiOiAiMjA0MDEiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJiMTQ3OGUyNC00OTE2LTNhYmUtOGYxNy0xNTkzMTAxMmVjYmUiLCAic25pIjogIiIsICJob3N0IjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwYXRoIjogIi9kZWJpYW4ifQ==
-vmess://eyJhZGQiOiAiNDUuNzcuMjQwLjI1IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIm0uem9vbS51cyIsICJpZCI6ICIwYTIzMDIxMy1lZGY3LTQ0YzAtOTkwMC0zNmJjNzQwNGQyMDgiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL2FsZXhkZXZpbGwiLCAicG9ydCI6ICIxMDA2NyIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1NjViMFx1NTJhMFx1NTc2MUNob29wYVx1NjU3MFx1NjM2ZVx1NGUyZFx1NWZjMyA4IiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIiIsICJ2IjogIjIifQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQTVNVVHNNRGczN2JyemZhaHpxbmxS@165.232.91.222:4432#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%202
+vmess://eyJhZGQiOiAiMTEyLjI4LjIwOC4xNCIsICJhaWQiOiAiNjQiLCAiYWxwbiI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiNDA3MDIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTViODlcdTVmYmRcdTc3MDFcdTU0MDhcdTgwYTVcdTVlMDJcdTc5ZmJcdTUyYTggOSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU4MjgyXHU3MGI5IDEyIiwgImFkZCI6ICJrZWxsaWUubWFrZXVwIiwgInBvcnQiOiAiNDQzIiwgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAia2VsbGllLm1ha2V1cCIsICJwYXRoIjogIi9saW5rdndzIiwgInRscyI6ICJ0bHMiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTMiLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiYjE0NzhlMjQtNDkxNi0zYWJlLThmMTctMTU5MzEwMTJlY2JlIiwgInNuaSI6ICIiLCAiaG9zdCI6ICJkYXRhLXVzLXYxLnNod2pma3cuY24iLCAicGF0aCI6ICIvZGViaWFuIn0=
+vmess://eyJhZGQiOiAiMjcuMTI0LjguMTMyIiwgImFpZCI6ICI2NCIsICJhbHBuIjogIiIsICJob3N0IjogInd3dy45ODM1NTkyMy54eXoiLCAiaWQiOiAiOWUzMzg5NjUtNmEwNy00YTVmLWFkOTctZDU3ZjRhNmU2ZmQzIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9wYXRoLzE0MzUzNDE0MTEwNCIsICJwb3J0IjogIjQ0MyIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1OTdlOVx1NTZmZEJHUC5ORVRcdTY1NzBcdTYzNmVcdTRlMmRcdTVmYzMgMTkiLCAic2N5IjogImF1dG8iLCAic25pIjogInd3dy45ODM1NTkyMy54eXoiLCAidGxzIjogInRscyIsICJ0eXBlIjogIiIsICJ2IjogIjIifQ==
 ```
 
