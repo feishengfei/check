@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "47.243.185.186",
-            "port": 43336,
+            "address": "92.38.142.21",
+            "port": 80,
             "users": [
               {
-                "id": "597d19df-de7f-4d27-ec94-a80ab3cb9626",
+                "id": "66fef53b-1b57-466d-89a4-bd99b90f6473",
                 "alterId": 0,
                 "email": "",
-                "security": "",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/@forwardv2ray",
+          "headers": {
+            "Host": "irisoft.servecounterstrike.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
