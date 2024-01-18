@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com",
-            "port": 80,
+            "address": "tls40.gsmxreality.com",
+            "port": 19661,
             "users": [
               {
-                "id": "71d5d969-1c58-4bc9-b36c-111616f03c03",
+                "id": "82e6520c-74b7-407a-c14f-6fe1388f8c5c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
