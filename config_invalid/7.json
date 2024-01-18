@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "82.213.5.50",
-            "port": 80,
+            "address": "199.15.76.35",
+            "port": 443,
             "users": [
               {
-                "id": "f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4",
+                "id": "1a3765c8-790f-4bb5-bf3d-c1fa19afd98c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sometimes-able-imported-drainage.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "1a3765c8-790f-4bb5-bf3d-c1fa19afd98c-vm",
           "headers": {
-            "Host": "tabyan205.serveftp.com"
+            "Host": "sometimes-able-imported-drainage.trycloudflare.com"
           }
         },
         "httpSettings": null,
