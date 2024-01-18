@@ -6,14 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr            | cn             | cc   | isp            | ip              | chatgpt          |
-|---:|:-------------------|:----------------|:---------------|:-----|:---------------|:----------------|:-----------------|
-|  0 | [2](config/2.json) | 18.168.48.36    | United Kingdom | GB   | AMAZON-02      | 13.40.181.177   | Yes (Region: GB) |
-|  1 | [4](config/4.json) | 195.238.126.248 | Lithuania      | LT   | Melbikomas UAB | 195.238.126.248 | Yes (Region: LT) |
+|    | id                 | addr                  | cn            | cc   | isp                                  | ip              | chatgpt          |
+|---:|:-------------------|:----------------------|:--------------|:-----|:-------------------------------------|:----------------|:-----------------|
+|  0 | [5](config/5.json) | cfcdn3.sanfencdn9.com | Japan         | JP   | Eons Data Communications Limited     | 38.207.152.143  | Yes (Region: US) |
+|  1 | [7](config/7.json) | data-us-v1.shwjfkw.cn | United States | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138 | Yes (Region: US) |
 
 ## Valid
 ```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@18.168.48.36:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%202
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCYUVPT0FwWnBEc1lQQ3AzaXdNYVgy@195.238.126.248:63022#github.com/freefq%20-%20%E4%BC%8A%E6%9C%97%20%204
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDUiLCAiYWRkIjogImNmY2RuMy5zYW5mZW5jZG45LmNvbSIsICJwb3J0IjogMjA1MiwgImlkIjogIjI3YzdlMTgyLTg4YmYtNGZjNi1iYmRkLTgzNDUzMDYxZjQ3ZiIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAid3R5d3djcnpqcDUueW9mbmhrZmMueHl6IiwgInBhdGgiOiAiL3ZpZGVvLzlUZlZFeWt1IiwgInRscyI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggNyIsICJhZGQiOiAiZGF0YS11cy12MS5zaHdqZmt3LmNuIiwgInBvcnQiOiAiMjA0MDEiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJiMTQ3OGUyNC00OTE2LTNhYmUtOGYxNy0xNTkzMTAxMmVjYmUiLCAic25pIjogIiIsICJob3N0IjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwYXRoIjogIi9kZWJpYW4ifQ==
 ```
 
