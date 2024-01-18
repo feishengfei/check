@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "199.15.76.35",
+            "address": "172.99.190.109",
             "port": 443,
             "users": [
               {
-                "id": "1a3765c8-790f-4bb5-bf3d-c1fa19afd98c",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "sometimes-able-imported-drainage.trycloudflare.com"
+          "serverName": ""
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "1a3765c8-790f-4bb5-bf3d-c1fa19afd98c-vm",
+          "path": "linkvws",
           "headers": {
-            "Host": "sometimes-able-imported-drainage.trycloudflare.com"
+            "Host": ""
           }
         },
         "httpSettings": null,
