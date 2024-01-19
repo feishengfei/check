@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr          | cn             | cc   | isp                          | ip            | chatgpt          |
-|---:|:-------------------|:--------------|:---------------|:-----|:-----------------------------|:--------------|:-----------------|
-|  0 | [6](config/6.json) | 46.250.237.91 | United Kingdom | GB   | Contabo Asia Private Limited | 46.250.237.91 | Yes (Region: GB) |
+|    | id                   | addr                  | cn   | cc   | isp   | ip             | chatgpt          |
+|---:|:---------------------|:----------------------|:-----|:-----|:------|:---------------|:-----------------|
+|  0 | [12](config/12.json) | cfcdn3.sanfencdn9.com |      |      |       | 38.207.152.143 | Yes (Region: US) |
 
 ## Valid
 ```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFYUQyWFNKZ2tWTmpac3JycWVsUTFz@46.250.237.91:443#github.com/freefq%20-%20%E8%8B%B1%E5%9B%BD%20%206
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDEyIiwgImFkZCI6ICJjZmNkbjMuc2FuZmVuY2RuOS5jb20iLCAicG9ydCI6IDIwNTIsICJpZCI6ICIyN2M3ZTE4Mi04OGJmLTRmYzYtYmJkZC04MzQ1MzA2MWY0N2YiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogInd0eXd3Y3J6anA1LnlvZm5oa2ZjLnh5eiIsICJwYXRoIjogIi92aWRlby85VGZWRXlrdSIsICJ0bHMiOiAiIn0=
 ```
 
