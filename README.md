@@ -6,10 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-
+|    | id                 | addr          | cn             | cc   | isp                          | ip            | chatgpt          |
+|---:|:-------------------|:--------------|:---------------|:-----|:-----------------------------|:--------------|:-----------------|
+|  0 | [6](config/6.json) | 46.250.237.91 | United Kingdom | GB   | Contabo Asia Private Limited | 46.250.237.91 | Yes (Region: GB) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggNiIsICJhZGQiOiAiZGF0YS11cy12MS5zaHdqZmt3LmNuIiwgInBvcnQiOiAiMjA0MDEiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJiMTQ3OGUyNC00OTE2LTNhYmUtOGYxNy0xNTkzMTAxMmVjYmUiLCAic25pIjogIiIsICJob3N0IjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwYXRoIjogIi9kZWJpYW4ifQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFYUQyWFNKZ2tWTmpac3JycWVsUTFz@46.250.237.91:443#github.com/freefq%20-%20%E8%8B%B1%E5%9B%BD%20%206
 ```
 
