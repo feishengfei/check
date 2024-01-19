@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "c12.twtc.dynu.net",
-            "port": 6122,
+            "address": "95.164.69.27",
+            "port": 80,
             "users": [
               {
-                "id": "867b8e57-9355-40dc-a696-9ca2518b091e",
+                "id": "cd4a6d0d-4b26-4ee1-8a42-c2878b5c3b2a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/vmess",
+          "headers": {
+            "Host": "internet.life.com.by"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
