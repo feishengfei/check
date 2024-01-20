@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10901,
+      "port": 10905,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,25 +32,21 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "nb24.ntbq.dynu.net",
-            "port": 4443,
-            "users": [
-              {
-                "id": "8907aeec-189d-48d9-b557-fb242a4d8127",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "Fast_2ray_Telchannelll.fast2rayy.eu.org",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "Bog0ELmMM9DSxDdQ",
+            "port": 443,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
