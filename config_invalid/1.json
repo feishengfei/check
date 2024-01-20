@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "c12.twtc.dynu.net",
-            "port": 6122,
+            "address": "krse11.ip8.shop",
+            "port": 34755,
             "users": [
               {
-                "id": "8907aeec-189d-48d9-b557-fb242a4d8127",
+                "id": "7741626f-9c38-4a89-dfb2-fd95299c65ed",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
