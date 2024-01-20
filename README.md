@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr                                    | cn             | cc   | isp       | ip             | chatgpt          |
-|---:|:-------------------|:----------------------------------------|:---------------|:-----|:----------|:---------------|:-----------------|
-|  0 | [5](config/5.json) | Fast_2ray_Telchannelll.fast2rayy.eu.org | United Kingdom | GB   | AMAZON-02 | 18.134.130.161 | Yes (Region: GB) |
+|    | id                 | addr           | cn             | cc   | isp       | ip            | chatgpt          |
+|---:|:-------------------|:---------------|:---------------|:-----|:----------|:--------------|:-----------------|
+|  0 | [4](config/4.json) | 35.178.252.159 | United Kingdom | GB   | AMAZON-02 | 13.40.181.177 | Yes (Region: GB) |
 
 ## Valid
 ```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@Fast_2ray_Telchannelll.fast2rayy.eu.org:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2%205
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@35.178.252.159:443#github.com/freefq%20-%20%E8%8B%B1%E5%9B%BD%E4%BC%A6%E6%95%A6Amazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%204
 ```
 
