@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.101.222.5",
-            "port": 443,
+            "address": "3SAO.5GTOCDOCAO.COM",
+            "port": 80,
             "users": [
               {
-                "id": "a09e13dc-cbbf-4585-b46b-2d86de0e9d3f",
+                "id": "eb9e8a52-0fec-4a10-8d16-af3b32874933",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sahar2.serveminecraft.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/5gtocdocao.com",
           "headers": {
-            "Host": "sahar2.serveminecraft.net"
+            "Host": "lienquan.garena.vn"
           }
         },
         "httpSettings": null,
