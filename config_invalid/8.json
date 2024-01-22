@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.25.1",
-            "port": 80,
+            "address": "5.101.222.5",
+            "port": 443,
             "users": [
               {
-                "id": "83c19463-f966-4adb-a7d8-b127825ffab2",
+                "id": "a09e13dc-cbbf-4585-b46b-2d86de0e9d3f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sahar2.serveminecraft.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "kr.catnipballs.gay"
+            "Host": "sahar2.serveminecraft.net"
           }
         },
         "httpSettings": null,

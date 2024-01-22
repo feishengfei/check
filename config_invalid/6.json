@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn3.sanfencdn9.com",
-            "port": 80,
+            "address": "1208.ssfree.ru",
+            "port": 443,
             "users": [
               {
-                "id": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+                "id": "b78c53da-b8da-11ee-a758-00163e49219e",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/video/ibCT6z55",
+          "path": "/search",
           "headers": {
-            "Host": "agzbjszujp4.yofnhkfc.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1208.ssfree.ru",
+            "address": "5.101.219.5",
             "port": 443,
             "users": [
               {
-                "id": "22ef2a04-b876-11ee-940a-00163e49219e",
+                "id": "604499ec-89af-45f2-b63b-e3eddc8f6386",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "saman.zapto.org"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": ""
+            "Host": "saman.zapto.org"
           }
         },
         "httpSettings": null,

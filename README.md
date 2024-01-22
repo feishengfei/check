@@ -6,12 +6,5 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr         | cn             | cc   | isp       | ip             | chatgpt          |
-|---:|:-------------------|:-------------|:---------------|:-----|:----------|:---------------|:-----------------|
-|  0 | [1](config/1.json) | 18.171.3.198 | United Kingdom | GB   | AMAZON-02 | 18.134.130.161 | Yes (Region: GB) |
 
-## Valid
-```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@18.171.3.198:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%201
-```
 
