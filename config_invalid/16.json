@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yx.zhke.cf",
-            "port": 443,
+            "address": "82.153.1.40",
+            "port": 80,
             "users": [
               {
-                "id": "3b89f882-0c3f-4144-811d-91fce7ab3c05",
+                "id": "8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "h196-fr.kxnn.eu.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/D26xvdqUdCpvvPTz4R",
+          "path": "/4regrdfvx",
           "headers": {
-            "Host": "h196-fr.kxnn.eu.org"
+            "Host": ""
           }
         },
         "httpSettings": null,
