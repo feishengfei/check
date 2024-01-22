@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.101.219.5",
-            "port": 443,
+            "address": "118.167.73.7",
+            "port": 4443,
             "users": [
               {
-                "id": "604499ec-89af-45f2-b63b-e3eddc8f6386",
+                "id": "ef3841cf-2556-4d9c-ac8d-c0e5e978ab86",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "saman.zapto.org"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/@forwardv2ray",
-          "headers": {
-            "Host": "saman.zapto.org"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
