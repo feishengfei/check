@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.223.124.15",
-            "port": 443,
+            "address": "nb24.ntbq.dynu.net",
+            "port": 4443,
             "users": [
               {
-                "id": "932e7399-2e7b-4642-b7d5-d2af283c7f86",
+                "id": "1cc969d3-1df8-4794-a5cc-9231fe0e4710",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "arvancloud.servehttp.com"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/@forwardv2ray",
-          "headers": {
-            "Host": "arvancloud.servehttp.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

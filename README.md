@@ -6,14 +6,17 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                  | cn              | cc   | isp                    | ip              | chatgpt          |
-|---:|:---------------------|:----------------------|:----------------|:-----|:-----------------------|:----------------|:-----------------|
-|  0 | [6](config/6.json)   | cfcdn2.sanfencdn9.com | Singapore       | SG   | Akamai Connected Cloud | 192.53.173.42   | Yes (Region: US) |
-|  1 | [10](config/10.json) | 146.190.237.193       | The Netherlands | NL   | DIGITALOCEAN-ASN       | 146.190.237.193 | Yes (Region: NL) |
+|    | id                   | addr            | cn              | cc   | isp                               | ip              | chatgpt          |
+|---:|:---------------------|:----------------|:----------------|:-----|:----------------------------------|:----------------|:-----------------|
+|  0 | [2](config/2.json)   | 13.43.178.226   | United Kingdom  | GB   | AMAZON-02                         | 13.40.181.177   | Yes (Region: GB) |
+|  1 | [3](config/3.json)   | 146.190.237.193 | The Netherlands | NL   | DIGITALOCEAN-ASN                  | 146.190.237.193 | Yes (Region: NL) |
+|  2 | [15](config/15.json) | 183.236.48.169  | Taiwan          | TW   | Data Communication Business Group | 1.162.128.38    | Yes (Region: TW) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDYiLCAiYWRkIjogImNmY2RuMi5zYW5mZW5jZG45LmNvbSIsICJwb3J0IjogIjIwNTIiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkMGEzZTA4YS1kMjZmLTQ1YmQtYmEzYy02Mzg3ZjkxODI2MzMiLCAic25pIjogIiIsICJob3N0IjogIjduQWk3NGpKc2cxLnlvZm5oa2ZjLnh5eiIsICJwYXRoIjogIi92aWRlby9jOWVmeFJDaSJ9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEd0I4cUlMMzBaeUY1dGhwbkNFaFN2@146.190.237.193:55362#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2010
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@13.43.178.226:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%202
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEd0I4cUlMMzBaeUY1dGhwbkNFaFN2@146.190.237.193:55362#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%203
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTVlN2ZcdTVkZGVcdTVlMDJcdTc5ZmJcdTUyYTggMTUiLCAiYWRkIjogIjE4My4yMzYuNDguMTY5IiwgInBvcnQiOiAiMTAwMiIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiMjI5Y2NkNDQtYzU2Yy0zOTQ3LTg4ZGUtODQ5ZGQ3MGMxODBkIiwgImFpZCI6ICIyIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgImhvc3QiOiAiIiwgInRscyI6ICIifQ==
+vmess://eyJhZGQiOiAiY2YuMTc4ODIwMjI1Lnh5eiIsICJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDIwIiwgInBvcnQiOiA4MCwgImlkIjogIjhmYTI2MWMwLWFlOGQtNGFlZS04ZjhiLTE2MDRiNmY3OGY0YSIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAidHlwZSI6ICIiLCAiaG9zdCI6ICJhbXMuMTc4ODIwMjI1Lnh5eiIsICJwYXRoIjogIi9oNWU2NWZkIiwgInRscyI6ICIifQ==
 ```
 
