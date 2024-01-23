@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "173.245.58.51",
-            "port": 443,
+            "address": "data-us-v1.shwjfkw.cn",
+            "port": 20401,
             "users": [
               {
-                "id": "12d7e57b-9fc8-41e0-9b32-f503dce10c1c",
+                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
                 "alterId": 0,
                 "email": "",
-                "security": "aes-128-gcm",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "godofwar2020.colocrossing.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/fdczvws",
+          "path": "/debian",
           "headers": {
-            "Host": "godofwar2020.colocrossing.sbs"
+            "Host": "data-us-v1.shwjfkw.cn"
           }
         },
         "httpSettings": null,

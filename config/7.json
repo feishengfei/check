@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10905,
+      "port": 10907,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "zula.ir",
-            "port": 80,
+            "address": "cfcdn2.sanfencdn9.com",
+            "port": 2052,
             "users": [
               {
-                "id": "9d7d97c2-d7a5-41c9-a33c-370caed71287",
+                "id": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "aes-128-gcm",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "7nAi74jJsg1.yofnhkfc.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/video/c9efxRCi",
           "headers": {
-            "Host": "pt1-vmess.sshmax.xyz"
+            "Host": "7nAi74jJsg1.yofnhkfc.xyz"
           }
         },
         "httpSettings": null,

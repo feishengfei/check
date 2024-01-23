@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "13.43.178.226",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "u17T3BvpYaaiuW2c",
-            "port": 443,
-            "level": 1,
-            "users": null
+            "address": "115.79.238.34",
+            "port": 80,
+            "users": [
+              {
+                "id": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/VPNDATA.VPN",
+          "headers": {
+            "Host": "skyht2.vpndata.vn"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
