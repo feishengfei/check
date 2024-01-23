@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "173.245.58.51",
-            "port": 443,
+            "address": "data-us-v1.shwjfkw.cn",
+            "port": 20401,
             "users": [
               {
-                "id": "5c6fb3c8-4f46-4d63-9849-7c76f07f05c4",
+                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
                 "alterId": 0,
                 "email": "",
-                "security": "aes-128-gcm",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "4fungame.colocrossing.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ariuvws",
+          "path": "/debian",
           "headers": {
-            "Host": "4fungame.colocrossing.sbs"
+            "Host": "data-us-v1.shwjfkw.cn"
           }
         },
         "httpSettings": null,
