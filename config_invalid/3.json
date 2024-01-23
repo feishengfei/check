@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "b23.ntbq.dynu.net",
-            "port": 2024,
+            "address": "173.245.58.51",
+            "port": 443,
             "users": [
               {
-                "id": "ef3841cf-2556-4d9c-ac8d-c0e5e978ab86",
+                "id": "5c6fb3c8-4f46-4d63-9849-7c76f07f05c4",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "aes-128-gcm",
                 "encryption": null,
                 "flow": null
               }
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "4fungame.colocrossing.sbs"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/ariuvws",
+          "headers": {
+            "Host": "4fungame.colocrossing.sbs"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
