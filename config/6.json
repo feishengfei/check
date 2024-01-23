@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10904,
+      "port": 10906,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn2.sanfencdn9.com",
+            "address": "cfcdn3.sanfencdn9.com",
             "port": 2052,
             "users": [
               {
-                "id": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+                "id": "357b8d95-af0c-44fe-a406-b6aed810699b",
                 "alterId": 0,
                 "email": "",
-                "security": "aes-128-gcm",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "7nAi74jJsg1.yofnhkfc.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/video/c9efxRCi",
+          "path": "/video/Zo98PYfE",
           "headers": {
-            "Host": "7nAi74jJsg1.yofnhkfc.xyz"
+            "Host": "kvjqqknzjp6.yofnhkfc.xyz"
           }
         },
         "httpSettings": null,

@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "115.79.238.34",
-            "port": 80,
+            "address": "cfcdn2.sanfencdn9.com",
+            "port": 2052,
             "users": [
               {
-                "id": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
+                "id": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "aes-128-gcm",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "none",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "7nAi74jJsg1.yofnhkfc.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/VPNDATA.VPN",
+          "path": "/video/c9efxRCi",
           "headers": {
-            "Host": "skyht2.vpndata.vn"
+            "Host": "7nAi74jJsg1.yofnhkfc.xyz"
           }
         },
         "httpSettings": null,
