@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dm.imzcc.com",
-            "port": 59492,
+            "address": "103.214.68.57",
+            "port": 10001,
             "users": [
               {
-                "id": "3cd1a2f0-499f-4eb0-862a-cdd0ecd821c7",
+                "id": "ebca5f68-bf59-4081-e658-f158839c2f5c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/imzcc",
-          "headers": {
-            "Host": "dm.imzcc.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "world5.star-one.cfd",
-            "port": 2095,
+            "address": "183.236.48.169",
+            "port": 1002,
             "users": [
               {
-                "id": "5e134b97-6c7c-484a-ba6f-4dab146a28fe",
-                "alterId": 0,
+                "id": "229ccd44-c56c-3947-88de-849dd70c180d",
+                "alterId": 2,
                 "email": "",
                 "security": "auto",
                 "encryption": null,
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/@forwardv2ray",
-          "headers": {
-            "Host": ""
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

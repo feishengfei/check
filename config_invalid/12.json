@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.25.1",
-            "port": 80,
+            "address": "173.245.58.51",
+            "port": 443,
             "users": [
               {
-                "id": "d6664518-c8e1-42cf-f2c1-d33dcc01a8a6",
+                "id": "12d7e57b-9fc8-41e0-9b32-f503dce10c1c",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "aes-128-gcm",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "godofwar2020.colocrossing.sbs"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/fdczvws",
           "headers": {
-            "Host": "sgvpn.catnipballs.gay"
+            "Host": "godofwar2020.colocrossing.sbs"
           }
         },
         "httpSettings": null,

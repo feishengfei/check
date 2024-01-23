@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.223.124.15",
-            "port": 443,
+            "address": "104.17.25.1",
+            "port": 80,
             "users": [
               {
-                "id": "f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4",
+                "id": "83c19463-f966-4adb-a7d8-b127825ffab2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tabyan205.serveftp.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/",
           "headers": {
-            "Host": "tabyan205.serveftp.com"
+            "Host": "kr.catnipballs.gay"
           }
         },
         "httpSettings": null,
