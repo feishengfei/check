@@ -6,12 +6,14 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr          | cn     | cc   | isp       | ip                                     | chatgpt          |
-|---:|:---------------------|:--------------|:-------|:-----|:----------|:---------------------------------------|:-----------------|
-|  0 | [10](config/10.json) | 70.34.202.241 | Sweden | SE   | AS-CHOOPA | 2a05:f480:2000:2912:5400:4ff:febc:f114 | Yes (Region: SE) |
+|    | id                   | addr                       | cn             | cc   | isp                                  | ip              | chatgpt          |
+|---:|:---------------------|:---------------------------|:---------------|:-----|:-------------------------------------|:----------------|:-----------------|
+|  0 | [8](config/8.json)   | series-a2-mec.samanehha.co | United Kingdom | GB   | AMAZON-02                            | 13.40.181.177   | Yes (Region: GB) |
+|  1 | [17](config/17.json) | data-us-v1.shwjfkw.cn      | United States  | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138 | Yes (Region: US) |
 
 ## Valid
 ```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotQ253VTJGNnVFZWFWMTkxUDBtLVJn@70.34.202.241:1080#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2010
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2%208
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTciLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImlkIjogImIxNDc4ZTI0LTQ5MTYtM2FiZS04ZjE3LTE1OTMxMDEyZWNiZSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiZGF0YS11cy12MS5zaHdqZmt3LmNuIiwgInBhdGgiOiAiL2RlYmlhbiIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIn0=
 ```
 
