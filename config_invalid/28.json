@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.214.68.57",
-            "port": 10001,
+            "address": "data-us-v1.shwjfkw.cn",
+            "port": 20401,
             "users": [
               {
-                "id": "ebca5f68-bf59-4081-e658-f158839c2f5c",
+                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/debian",
+          "headers": {
+            "Host": "data-us-v1.shwjfkw.cn"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hn5.fuzzypn.me",
-            "port": 80,
+            "address": "nb24.ntbq.dynu.net",
+            "port": 4443,
             "users": [
               {
-                "id": "7a9eab7e-f9be-4b4d-8cbb-eaaee62d9eee",
+                "id": "b6fdc502-3ae5-47a7-9fa4-3fa7febb76c4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "hn5.fuzzypn.me"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
