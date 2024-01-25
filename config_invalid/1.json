@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.156.85.242",
-            "port": 80,
+            "address": "nb22.ntbq.dynu.net",
+            "port": 12002,
             "users": [
               {
-                "id": "d5dc4073-06c1-40d6-96df-2df86f0ad713",
+                "id": "05f1e2ad-1d21-449b-9bbb-97a8b4662934",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "zhejiang2024.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
