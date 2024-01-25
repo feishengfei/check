@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.184.241",
-            "port": 2095,
+            "address": "118.167.76.233",
+            "port": 2024,
             "users": [
               {
-                "id": "0f42a063-315b-4524-8501-469c51838bb6",
+                "id": "d9e103fc-741d-459f-9a92-4f59bfb083ef",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "mgone_cdn.yunjisuan.cf"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
