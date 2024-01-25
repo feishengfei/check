@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "36.232.158.210",
-            "port": 6122,
+            "address": "103.118.29.229",
+            "port": 80,
             "users": [
               {
-                "id": "e27ab70e-7444-470c-a0fc-e49ec09ac02d",
+                "id": "eb9e8a52-0fec-4a10-8d16-af3b32874933",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/5gtocdocao.com",
+          "headers": {
+            "Host": "lienquan.garena.vn"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
