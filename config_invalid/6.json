@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nb22.ntbq.dynu.net",
-            "port": 12002,
+            "address": "130.193.166.2",
+            "port": 443,
             "users": [
               {
-                "id": "d9e103fc-741d-459f-9a92-4f59bfb083ef",
+                "id": "7682b778-b64b-408b-8fb2-61d7c7fc43e5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "soft8989.redirectme.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/@forwardv2ray",
+          "headers": {
+            "Host": "soft8989.redirectme.net"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
