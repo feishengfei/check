@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b23.ntbq.dynu.net",
-            "port": 2024,
+            "address": "104.17.25.1",
+            "port": 80,
             "users": [
               {
-                "id": "4403b75a-24ca-4d06-af15-6e157a0a7361",
+                "id": "d6664518-c8e1-42cf-f2c1-d33dcc01a8a6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "sgvpn.catnipballs.gay"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
