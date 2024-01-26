@@ -6,20 +6,18 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr           | cn             | cc   | isp                    | ip                             | chatgpt          |
-|---:|:---------------------|:---------------|:---------------|:-----|:-----------------------|:-------------------------------|:-----------------|
-|  0 | [1](config/1.json)   | 104.21.73.14   | Canada         | CA   | Akamai Connected Cloud | 2600:3c07::f03c:94ff:fecf:f2dd | Yes (Region: FR) |
-|  1 | [5](config/5.json)   | 172.67.170.103 | United Kingdom | GB   | Akamai Connected Cloud | 176.58.126.236                 | Yes (Region: CA) |
-|  2 | [7](config/7.json)   | 213.183.63.189 | Bulgaria       | BG   | Melbikomas UAB         | 213.183.63.189                 | Yes (Region: BG) |
-|  3 | [10](config/10.json) | 150.230.82.137 | Brazil         | BR   | ORACLE-BMC-31898       | 129.148.24.173                 | Yes (Region: BR) |
-|  4 | [14](config/14.json) | 144.22.175.207 | Brazil         | BR   | ORACLE-BMC-31898       | 144.22.133.34                  | Yes (Region: BR) |
+|    | id                   | addr                  | cn             | cc   | isp                                  | ip                     | chatgpt          |
+|---:|:---------------------|:----------------------|:---------------|:-----|:-------------------------------------|:-----------------------|:-----------------|
+|  0 | [4](config/4.json)   | 85.239.61.132         | United Kingdom | GB   | Clouvider Limited                    | 2a10:1fc0:7::f87a:3cec | Yes (Region: GB) |
+|  1 | [13](config/13.json) | 152.67.55.44          | Brazil         | BR   | ORACLE-BMC-31898                     | 144.22.133.34          | Yes (Region: BR) |
+|  2 | [17](config/17.json) | cfcdn3.sanfencdn9.com | Japan          | JP   | Eons Data Communications Limited     | 38.207.152.144         | Yes (Region: US) |
+|  3 | [21](config/21.json) | data-us-v1.shwjfkw.cn | United States  | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138        | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDEiLCAiYWRkIjogIjEwNC4yMS43My4xNCIsICJwb3J0IjogODg4MCwgImlkIjogIjQ1ZjYzZTkyLWY3ODItNGNhYy04NGI4LWU2MWNiNWE1YmZkMCIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAieWFnaG9vYjU1ZnJlZW5vZGVzLnJlcGFjbzY5NDM3NDAzLndvcmtlcnMuZGV2IiwgInBhdGgiOiAiL2FkZW5jMzUuZml4ZWRsZm9hdC50b3AvbGlua3dzIiwgInRscyI6ICIifQ==
-vmess://eyJhZGQiOiAiMTcyLjY3LjE3MC4xMDMiLCAidiI6ICIyIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkQ2xvdWRGbGFyZVx1ODI4Mlx1NzBiOSA1IiwgInBvcnQiOiAyMDk1LCAiaWQiOiAiNzYyMjFiZmItZTkyZi00ZTgwLTgxYzUtNmZlNDhmNTBhYzBiIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJob3N0IjogInlhZ2hvb2I1NWZyZWVub2Rlcy5yZXBhY282OTQzNzQwMy53b3JrZXJzLmRldiIsICJwYXRoIjogIi9nbHdlaWRmLnNicy9saW5rd3MiLCAidGxzIjogIiJ9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsZ1RHcm10T3RnY0RkdVZQSjFMVTVz@213.183.63.189:16325#github.com/freefq%20-%20%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%E7%B4%A2%E9%9D%9E%E4%BA%9AMelbicom%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%207
-ss://YWVzLTI1Ni1nY206ZjJmMTY1MTYtNTYzNi00MTZmLThiYTQtZDk2ODdlMjc1Mjc2@150.230.82.137:7702#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2010
-ss://YWVzLTI1Ni1nY206ZjJmMTY1MTYtNTYzNi00MTZmLThiYTQtZDk2ODdlMjc1Mjc2@144.22.175.207:7701#github.com/freefq%20-%20%E5%93%A5%E6%96%AF%E8%BE%BE%E9%BB%8E%E5%8A%A0%20%2014
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2U3prN3RvY2psWEZZY2RiRTVpdzVP@85.239.61.132:25380#github.com/freefq%20-%20%E4%BF%84%E7%BD%97%E6%96%AF%20%204
+ss://YWVzLTI1Ni1nY206YTk1MjYzNmEtMDMzNC00OTljLTk3YjYtNzk3OTk1YjZmYTI4@152.67.55.44:7703#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD3COM%E5%85%AC%E5%8F%B8%E4%BC%81%E4%B8%9A%E7%BD%91%2013
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDE3IiwgImFkZCI6ICJjZmNkbjMuc2FuZmVuY2RuOS5jb20iLCAicG9ydCI6ICIyMDUyIiwgImlkIjogIjJiNDg2MjJkLTMwN2MtNDBjZi04OGNhLTk1NGY4M2YzYTlkZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAia3ZqcXFrbnpqcDYueW9mbmhrZmMueHl6IiwgInBhdGgiOiAiL3ZpZGVvL1pvOThQWWZFIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMjEiLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImlkIjogImIxNDc4ZTI0LTQ5MTYtM2FiZS04ZjE3LTE1OTMxMDEyZWNiZSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiZGF0YS11cy12MS5zaHdqZmt3LmNuIiwgInBhdGgiOiAiL2RlYmlhbiIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIn0=
 ```
 

@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "3SAO.5GTOCDOCAO.COM",
-            "port": 80,
-            "users": [
-              {
-                "id": "eb9e8a52-0fec-4a10-8d16-af3b32874933",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "144.22.175.207",
+            "method": "aes-256-gcm",
+            "ota": false,
+            "password": "f2f16516-5636-416f-8ba4-d9687e275276",
+            "port": 7701,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/5gtocdocao.com",
-          "headers": {
-            "Host": "lienquan.garena.vn"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
