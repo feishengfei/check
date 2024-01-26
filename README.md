@@ -6,20 +6,20 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                  | cn       | cc   | isp                              | ip              | chatgpt          |
-|---:|:---------------------|:----------------------|:---------|:-----|:---------------------------------|:----------------|:-----------------|
-|  0 | [1](config/1.json)   | 18.134.81.3           |          |      |                                  | 13.40.181.177   | Yes (Region: GB) |
-|  1 | [7](config/7.json)   | 144.22.175.207        | Brazil   | BR   | ORACLE-BMC-31898                 | 129.148.24.173  | Yes (Region: BR) |
-|  2 | [10](config/10.json) | cfcdn3.sanfencdn9.com | Japan    | JP   | Eons Data Communications Limited | 38.207.152.144  | Yes (Region: US) |
-|  3 | [14](config/14.json) | data-us-v1.shwjfkw.cn |          |      |                                  | 104.249.174.138 | Yes (Region: US) |
-|  4 | [17](config/17.json) | 213.183.63.189        | Bulgaria | BG   | Melbikomas UAB                   | 213.183.63.189  | Yes (Region: BG) |
+|    | id                   | addr           | cn             | cc   | isp                    | ip                             | chatgpt          |
+|---:|:---------------------|:---------------|:---------------|:-----|:-----------------------|:-------------------------------|:-----------------|
+|  0 | [1](config/1.json)   | 104.21.73.14   | Canada         | CA   | Akamai Connected Cloud | 2600:3c07::f03c:94ff:fecf:f2dd | Yes (Region: FR) |
+|  1 | [5](config/5.json)   | 172.67.170.103 | United Kingdom | GB   | Akamai Connected Cloud | 176.58.126.236                 | Yes (Region: CA) |
+|  2 | [7](config/7.json)   | 213.183.63.189 | Bulgaria       | BG   | Melbikomas UAB         | 213.183.63.189                 | Yes (Region: BG) |
+|  3 | [10](config/10.json) | 150.230.82.137 | Brazil         | BR   | ORACLE-BMC-31898       | 129.148.24.173                 | Yes (Region: BR) |
+|  4 | [14](config/14.json) | 144.22.175.207 | Brazil         | BR   | ORACLE-BMC-31898       | 144.22.133.34                  | Yes (Region: BR) |
 
 ## Valid
 ```
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@18.134.81.3:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2%201
-ss://YWVzLTI1Ni1nY206ZjJmMTY1MTYtNTYzNi00MTZmLThiYTQtZDk2ODdlMjc1Mjc2@144.22.175.207:7701#github.com/freefq%20-%20%E5%93%A5%E6%96%AF%E8%BE%BE%E9%BB%8E%E5%8A%A0%20%207
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDEwIiwgImFkZCI6ICJjZmNkbjMuc2FuZmVuY2RuOS5jb20iLCAicG9ydCI6ICIyMDUyIiwgImlkIjogIjJiNDg2MjJkLTMwN2MtNDBjZi04OGNhLTk1NGY4M2YzYTlkZCIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAia3ZqcXFrbnpqcDYueW9mbmhrZmMueHl6IiwgInBhdGgiOiAiL3ZpZGVvL1pvOThQWWZFIiwgInRscyI6ICIiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTQiLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImlkIjogImIxNDc4ZTI0LTQ5MTYtM2FiZS04ZjE3LTE1OTMxMDEyZWNiZSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiZGF0YS11cy12MS5zaHdqZmt3LmNuIiwgInBhdGgiOiAiL2RlYmlhbiIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIn0=
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsZ1RHcm10T3RnY0RkdVZQSjFMVTVz@213.183.63.189:16325#github.com/freefq%20-%20%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%E7%B4%A2%E9%9D%9E%E4%BA%9AMelbicom%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2017
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDEiLCAiYWRkIjogIjEwNC4yMS43My4xNCIsICJwb3J0IjogODg4MCwgImlkIjogIjQ1ZjYzZTkyLWY3ODItNGNhYy04NGI4LWU2MWNiNWE1YmZkMCIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgImhvc3QiOiAieWFnaG9vYjU1ZnJlZW5vZGVzLnJlcGFjbzY5NDM3NDAzLndvcmtlcnMuZGV2IiwgInBhdGgiOiAiL2FkZW5jMzUuZml4ZWRsZm9hdC50b3AvbGlua3dzIiwgInRscyI6ICIifQ==
+vmess://eyJhZGQiOiAiMTcyLjY3LjE3MC4xMDMiLCAidiI6ICIyIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkQ2xvdWRGbGFyZVx1ODI4Mlx1NzBiOSA1IiwgInBvcnQiOiAyMDk1LCAiaWQiOiAiNzYyMjFiZmItZTkyZi00ZTgwLTgxYzUtNmZlNDhmNTBhYzBiIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJob3N0IjogInlhZ2hvb2I1NWZyZWVub2Rlcy5yZXBhY282OTQzNzQwMy53b3JrZXJzLmRldiIsICJwYXRoIjogIi9nbHdlaWRmLnNicy9saW5rd3MiLCAidGxzIjogIiJ9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsZ1RHcm10T3RnY0RkdVZQSjFMVTVz@213.183.63.189:16325#github.com/freefq%20-%20%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A%E7%B4%A2%E9%9D%9E%E4%BA%9AMelbicom%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%207
+ss://YWVzLTI1Ni1nY206ZjJmMTY1MTYtNTYzNi00MTZmLThiYTQtZDk2ODdlMjc1Mjc2@150.230.82.137:7702#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%2010
+ss://YWVzLTI1Ni1nY206ZjJmMTY1MTYtNTYzNi00MTZmLThiYTQtZDk2ODdlMjc1Mjc2@144.22.175.207:7701#github.com/freefq%20-%20%E5%93%A5%E6%96%AF%E8%BE%BE%E9%BB%8E%E5%8A%A0%20%2014
 ```
 
