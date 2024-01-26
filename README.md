@@ -6,5 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
+|    | id                   | addr                       | cn             | cc   | isp       | ip            | chatgpt          |
+|---:|:---------------------|:---------------------------|:---------------|:-----|:----------|:--------------|:-----------------|
+|  0 | [12](config/12.json) | series-a2-mec.samanehha.co | United Kingdom | GB   | AMAZON-02 | 13.40.181.177 | Yes (Region: GB) |
 
+## Valid
+```
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2012
+```
 
