@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.232.49.78",
-            "port": 8443,
+            "address": "104.156.85.242",
+            "port": 80,
             "users": [
               {
-                "id": "887a4a4b-f43c-4bd6-a6f7-85a0654c5000",
+                "id": "d5dc4073-06c1-40d6-96df-2df86f0ad713",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "zhejiang2024.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
