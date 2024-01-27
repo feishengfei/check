@@ -32,30 +32,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "v1.arvancode.eu.org",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "mps3FwmDjLrWaOVg",
-            "port": 443,
-            "level": 1,
-            "users": null
+            "address": "104.31.16.104",
+            "port": 8080,
+            "users": [
+              {
+                "id": "3a6752b4-8353-4172-85b1-32202116714d",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "asan3.azad1.tech"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
