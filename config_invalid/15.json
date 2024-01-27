@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.25.1",
-            "port": 80,
+            "address": "gz.daxun.cyou",
+            "port": 38011,
             "users": [
               {
-                "id": "4e23bd4f-cc11-4ade-fbc1-fcaf245662bf",
+                "id": "ac5852df-8caf-4d86-8c77-93a7092f66f1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "lmnyvpn.catnipballs.gay"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
