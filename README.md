@@ -8,12 +8,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
 ## Table valid
 |    | id                   | addr                  | cn            | cc   | isp                                  | ip              | chatgpt          |
 |---:|:---------------------|:----------------------|:--------------|:-----|:-------------------------------------|:----------------|:-----------------|
-|  0 | [3](config/3.json)   | 168.138.141.222       | Brazil        | BR   | ORACLE-BMC-31898                     | 144.22.152.217  | Yes (Region: BR) |
-|  1 | [12](config/12.json) | data-us-v1.shwjfkw.cn | United States | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138 | Yes (Region: US) |
+|  0 | [5](config/5.json)   | gz.daxun.cyou         | Taiwan        | TW   | Scloud Pte Ltd                       | 165.154.237.68  | Yes (Region: TW) |
+|  1 | [17](config/17.json) | data-us-v1.shwjfkw.cn | United States | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138 | Yes (Region: US) |
 
 ## Valid
 ```
-ss://YWVzLTI1Ni1nY206MGJmYmE2NGUtNjY0MC00Mjg2LTlmYzAtYjk4ODI1M2NjOTRm@168.138.141.222:7704#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%20%203
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTIiLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImlkIjogImIxNDc4ZTI0LTQ5MTYtM2FiZS04ZjE3LTE1OTMxMDEyZWNiZSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiZGF0YS11cy12MS5zaHdqZmt3LmNuIiwgInBhdGgiOiAiL2RlYmlhbiIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTUzMTdcdTRlYWNcdTVlMDJcdTc5ZmJcdTUyYTggNSIsICJhZGQiOiAiZ3ouZGF4dW4uY3lvdSIsICJwb3J0IjogIjM4MDExIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICJhYzU4NTJkZi04Y2FmLTRkODYtOGM3Ny05M2E3MDkyZjY2ZjEiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAiaG9zdCI6ICJnei5kYXh1bi5jeW91IiwgInRscyI6ICIifQ==
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTciLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImlkIjogImIxNDc4ZTI0LTQ5MTYtM2FiZS04ZjE3LTE1OTMxMDEyZWNiZSIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiZGF0YS11cy12MS5zaHdqZmt3LmNuIiwgInBhdGgiOiAiL2RlYmlhbiIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIn0=
 ```
 
