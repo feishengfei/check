@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10905,
+      "port": 10908,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -32,43 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "107.174.241.220",
-            "port": 3443,
-            "users": [
-              {
-                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "fast_2ray_telchannelll.fast2rayy.eu.org",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "Bog0ELmMM9DSxDdQ",
+            "port": 443,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xray1.freeh1.xyz"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/gzogws",
-          "headers": {
-            "Host": "xray1.freeh1.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

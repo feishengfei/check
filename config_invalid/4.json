@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.9.237.174",
-            "port": 20003,
+            "address": "be1-vmess.sshmax.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+                "id": "38df59ec-30e2-45e9-86c7-5a58667e6994",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xray1.freeh1.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/gzogws",
+          "path": "/vmess",
           "headers": {
-            "Host": "xray1.freeh1.xyz"
+            "Host": ""
           }
         },
         "httpSettings": null,

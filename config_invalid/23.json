@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.14.146.81",
-            "port": 80,
+            "address": "114.37.139.157",
+            "port": 2024,
             "users": [
               {
-                "id": "726a0a65-04fd-4531-a96b-5510537737fc",
+                "id": "38ff99d8-dbaf-430a-867e-200b89f4c70a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/@forwardv2ray",
-          "headers": {
-            "Host": "saber.serveirc.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
