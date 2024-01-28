@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "107.174.241.220",
-            "port": 3443,
+            "address": "cdn.yifenjichang.top",
+            "port": 2086,
             "users": [
               {
-                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+                "id": "900ceafc-30b8-4581-a305-31854f563e4f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xray1.freeh1.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/gzogws",
+          "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
           "headers": {
-            "Host": "xray1.freeh1.xyz"
+            "Host": "gc-sql-blast-law.trycloudflare.com"
           }
         },
         "httpSettings": null,
