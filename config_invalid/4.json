@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "193.238.153.21",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "l3JErvHzMILKNIzWIuBk92",
-            "port": 38222,
-            "level": 1,
-            "users": null
+            "address": "154.9.237.174",
+            "port": 20003,
+            "users": [
+              {
+                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "xray1.freeh1.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/gzogws",
+          "headers": {
+            "Host": "xray1.freeh1.xyz"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

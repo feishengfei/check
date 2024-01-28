@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.180.40.86",
-            "port": 8420,
+            "address": "5.101.217.4",
+            "port": 80,
             "users": [
               {
-                "id": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+                "id": "75916879-adcf-45b3-98d8-54a2412470b5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xray1.freeh1.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/gzogws",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "xray1.freeh1.xyz"
+            "Host": "sahar55.serveirc.com"
           }
         },
         "httpSettings": null,
