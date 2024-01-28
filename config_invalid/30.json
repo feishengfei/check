@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cold-dawn-9246.fly.dev",
-            "port": 443,
+            "address": "181.39.11.210",
+            "port": 80,
             "users": [
               {
-                "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+                "id": "9dca0609-a375-4cb4-9641-6246354b8da2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cold-dawn-9246.fly.dev"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "cold-dawn-9246.fly.dev"
+            "Host": "mehdi21.servecounterstrike.com"
           }
         },
         "httpSettings": null,
