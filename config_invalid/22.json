@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "es---join.outline-vpn.cloud",
-            "port": 16767,
+            "address": "185.214.103.249",
+            "port": 8002,
             "users": [
               {
-                "id": "d30a1c51-d37c-4cb8-bee6-8f5cd746f9d7",
+                "id": "e096b14e-b746-3dda-bc95-a435b4b2aceb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/db00",
+          "headers": {
+            "Host": "cache-hk-1.cn-db.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
