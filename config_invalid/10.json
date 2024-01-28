@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.18.250.171",
-            "port": 443,
+            "address": "be1-vmess.sshmax.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "7884d564-5873-4321-9fad-b5f82236d79e",
+                "id": "38df59ec-30e2-45e9-86c7-5a58667e6994",
                 "alterId": 0,
                 "email": "",
-                "security": "chacha20-poly1305",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "1.digikala.sbs"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/c7z8J4SE3QpsmJZmSRZp3WCDd7QY",
+          "path": "/vmess",
           "headers": {
-            "Host": "1.digikala.sbs"
+            "Host": ""
           }
         },
         "httpSettings": null,
