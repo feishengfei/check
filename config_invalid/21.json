@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "114.37.139.157",
-            "port": 2024,
+            "address": "vn18.4gchill.com",
+            "port": 80,
             "users": [
               {
-                "id": "38ff99d8-dbaf-430a-867e-200b89f4c70a",
+                "id": "67d5296e-a2ee-4a9f-89e6-365da540c55d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/4gchill.com",
+          "headers": {
+            "Host": "vn18.4gchill.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
