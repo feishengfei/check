@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "125.224.144.24",
-            "port": 6122,
+            "address": "181.174.80.182",
+            "port": 80,
             "users": [
               {
-                "id": "f4595480-44d4-4d55-a37e-a5b1e0ec64d6",
+                "id": "9dca0609-a375-4cb4-9641-6246354b8da2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/@forwardv2ray",
+          "headers": {
+            "Host": "mehdi21.servecounterstrike.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
