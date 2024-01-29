@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "1208.ssfree.ru",
-            "port": 443,
+            "address": "197.215.140.235",
+            "port": 80,
             "users": [
               {
-                "id": "e07cd834-be5a-11ee-bd1f-00163e49219e",
+                "id": "9dca0609-a375-4cb4-9641-6246354b8da2",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/search",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": ""
+            "Host": "mehdi21.servecounterstrike.com"
           }
         },
         "httpSettings": null,
