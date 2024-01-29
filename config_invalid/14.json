@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "pt2-vmess.sshmax.xyz",
-            "port": 80,
+            "address": "www.darkroom.lol",
+            "port": 8080,
             "users": [
               {
-                "id": "099b5b7a-9d71-43cd-80e3-b8fbe1cc2695",
+                "id": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "www.darkroom.lol"
           }
         },
         "httpSettings": null,
