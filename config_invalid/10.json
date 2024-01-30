@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "3SAO.5GTOCDOCAO.COM",
-            "port": 80,
+            "address": "nb22.ntbq.dynu.net",
+            "port": 12002,
             "users": [
               {
-                "id": "eb9e8a52-0fec-4a10-8d16-af3b32874933",
+                "id": "99e39047-9298-404e-b632-1867f7ed1b37",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/5gtocdocao.com",
-          "headers": {
-            "Host": "3SAO.5GTOCDOCAO.COM"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

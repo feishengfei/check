@@ -6,12 +6,12 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                  | cn            | cc   | isp                                  | ip              | chatgpt          |
-|---:|:---------------------|:----------------------|:--------------|:-----|:-------------------------------------|:----------------|:-----------------|
-|  0 | [19](config/19.json) | data-us-v1.shwjfkw.cn | United States | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138 | Yes (Region: US) |
+|    | id                   | addr                  | cn        | cc   | isp                    | ip             | chatgpt          |
+|---:|:---------------------|:----------------------|:----------|:-----|:-----------------------|:---------------|:-----------------|
+|  0 | [12](config/12.json) | cfcdn2.sanfencdn9.com | Singapore | SG   | Akamai Connected Cloud | 192.46.228.134 | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTkiLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiYjE0NzhlMjQtNDkxNi0zYWJlLThmMTctMTU5MzEwMTJlY2JlIiwgInNuaSI6ICIiLCAiaG9zdCI6ICJkYXRhLXVzLXYxLnNod2pma3cuY24iLCAicGF0aCI6ICIvZGViaWFuIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDEyIiwgImFkZCI6ICJjZmNkbjIuc2FuZmVuY2RuOS5jb20iLCAicG9ydCI6IDIwNTIsICJpZCI6ICI2NTcxNDBlNC1mYjUzLTQ0MDQtODBiNy1mY2JhYzY1MjY3MWYiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogInl2aG5iZXZ4aGsxLnlvZm5oa2ZjLnh5eiIsICJwYXRoIjogIi92aWRlby8zNGtLWGJMTSIsICJ0bHMiOiAiIn0=
 ```
 

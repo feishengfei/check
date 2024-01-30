@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.paizipai.top",
-            "port": 443,
+            "address": "3SAO.5GTOCDOCAO.COM",
+            "port": 80,
             "users": [
               {
-                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                "id": "eb9e8a52-0fec-4a10-8d16-af3b32874933",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "anything-jerusalem-disabled-cloud.trycloudflare.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/argo-vmess?ed=2048",
+          "path": "/5gtocdocao.com",
           "headers": {
-            "Host": "anything-jerusalem-disabled-cloud.trycloudflare.com"
+            "Host": "3SAO.5GTOCDOCAO.COM"
           }
         },
         "httpSettings": null,
