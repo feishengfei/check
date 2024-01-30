@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "vn18.4gchill.com",
-            "port": 80,
+            "address": "c12.twtc.dynu.net",
+            "port": 6122,
             "users": [
               {
-                "id": "67d5296e-a2ee-4a9f-89e6-365da540c55d",
+                "id": "f4595480-44d4-4d55-a37e-a5b1e0ec64d6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/4gchill.com",
-          "headers": {
-            "Host": "vn18.4gchill.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

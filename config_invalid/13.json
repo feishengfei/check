@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.darkroom.lol",
-            "port": 8080,
+            "address": "www.paizipai.top",
+            "port": 443,
             "users": [
               {
-                "id": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "anything-jerusalem-disabled-cloud.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": "www.darkroom.lol"
+            "Host": "anything-jerusalem-disabled-cloud.trycloudflare.com"
           }
         },
         "httpSettings": null,
