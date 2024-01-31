@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "data-us-v1.shwjfkw.cn",
-            "port": 20401,
+            "address": "104.21.56.185",
+            "port": 443,
             "users": [
               {
-                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
+                "id": "38535031-ccc3-4a94-bd54-c68806486406",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ie1-vmess.greenssh.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/debian",
+          "path": "/vmess",
           "headers": {
-            "Host": "data-us-v1.shwjfkw.cn"
+            "Host": "ie1-vmess.greenssh.xyz"
           }
         },
         "httpSettings": null,

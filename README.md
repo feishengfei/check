@@ -6,14 +6,17 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                  | cn            | cc   | isp                                  | ip              | chatgpt          |
-|---:|:---------------------|:----------------------|:--------------|:-----|:-------------------------------------|:----------------|:-----------------|
-|  0 | [13](config/13.json) | cfcdn3.sanfencdn9.com | Japan         | JP   | Eons Data Communications Limited     | 38.207.152.144  | Yes (Region: US) |
-|  1 | [19](config/19.json) | data-us-v1.shwjfkw.cn | United States | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138 | Yes (Region: US) |
+|    | id                   | addr                                                       | cn             | cc   | isp              | ip             | chatgpt          |
+|---:|:---------------------|:-----------------------------------------------------------|:---------------|:-----|:-----------------|:---------------|:-----------------|
+|  0 | [17](config/17.json) | 8db7766f-d893-430e-96fb-ccd20e681145.tg.hkaa0.66688888.xyz | Singapore      | SG   | DIGITALOCEAN-ASN | 167.172.80.198 | Yes (Region: SG) |
+|  1 | [18](config/18.json) | fast_2ray_telchannelll.fast2rayy.eu.org                    | United Kingdom | GB   | AMAZON-02        | 18.134.130.161 | Yes (Region: GB) |
+|  2 | [23](config/23.json) | series-a2-mec.samanehha.co                                 | United Kingdom | GB   | AMAZON-02        | 13.40.181.177  | Yes (Region: GB) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDEzIiwgImFkZCI6ICJjZmNkbjMuc2FuZmVuY2RuOS5jb20iLCAicG9ydCI6IDIwNTIsICJpZCI6ICI4YTQ0NTBkZi03NGNjLTRhNTctYTQwNC00Yjk1NTgzOTAwNDMiLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJob3N0IjogImt2anFxa256anA2LnlvZm5oa2ZjLnh5eiIsICJwYXRoIjogIi92aWRlby9abzk4UFlmRSIsICJ0bHMiOiAiIn0=
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTkiLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiYjE0NzhlMjQtNDkxNi0zYWJlLThmMTctMTU5MzEwMTJlY2JlIiwgInNuaSI6ICIiLCAiaG9zdCI6ICJkYXRhLXVzLXYxLnNod2pma3cuY24iLCAicGF0aCI6ICIvZGViaWFuIn0=
+vmess://eyJhZGQiOiAiOGRiNzc2NmYtZDg5My00MzBlLTk2ZmItY2NkMjBlNjgxMTQ1LnRnLmhrYWEwLjY2Njg4ODg4Lnh5eiIsICJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTgyZjFcdTU2ZmQgIDE3IiwgInBvcnQiOiA4ODgwLCAiaWQiOiAiYWUzZTZhYjctMTQ0YS00ZWNjLTk4MWQtNjAzZWE3M2JjOGFmIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIiIsICJob3N0IjogIjhkYjc3NjZmLWQ4OTMtNDMwZS05NmZiLWNjZDIwZTY4MTE0NS50Zy5oa2FhMC42NjY4ODg4OC54eXoiLCAicGF0aCI6ICIvVGVsZWdyYW06QGhrYWEwIiwgInRscyI6ICIifQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@fast_2ray_telchannelll.fast2rayy.eu.org:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2018
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2023
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@jseyu.arvancode.eu.org:443#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BDAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2026
 ```
 

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "120.233.45.104",
-            "port": 2095,
+            "address": "108.181.2.154",
+            "port": 33445,
             "users": [
               {
-                "id": "8c456efc-67d7-3190-8b75-5c879e133288",
+                "id": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/dabai.in",
-          "headers": {
-            "Host": "data-us-2.db-link02.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
