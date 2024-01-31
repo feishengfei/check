@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10908,
+      "port": 10902,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gz.daxun.cyou",
-            "port": 38011,
+            "address": "104.21.73.14",
+            "port": 8880,
             "users": [
               {
-                "id": "ac5852df-8caf-4d86-8c77-93a7092f66f1",
+                "id": "45f63e92-f782-4cac-84b8-e61cb5a5bfd0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/adenc35.fixedlfoat.top/linkws",
+          "headers": {
+            "Host": "yaghoob55freenodes.repaco69437403.workers.dev"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
