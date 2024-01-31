@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.56.185",
-            "port": 443,
+            "address": "vn18.4gchill.com",
+            "port": 80,
             "users": [
               {
-                "id": "38535031-ccc3-4a94-bd54-c68806486406",
+                "id": "67d5296e-a2ee-4a9f-89e6-365da540c55d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ie1-vmess.greenssh.xyz"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/4gchill.com",
           "headers": {
-            "Host": "ie1-vmess.greenssh.xyz"
+            "Host": "vn18.4gchill.com"
           }
         },
         "httpSettings": null,
