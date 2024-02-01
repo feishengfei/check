@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.25.1",
-            "port": 80,
+            "address": "108.181.2.154",
+            "port": 33445,
             "users": [
               {
-                "id": "3d668cbe-5464-4a79-aab5-e301b4e0f169",
+                "id": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "dg.catnipballs.gay"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

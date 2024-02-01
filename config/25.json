@@ -32,40 +32,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "vnext": null,
+        "servers": [
           {
-            "address": "data-us-v1.shwjfkw.cn",
-            "port": 20401,
-            "users": [
-              {
-                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
-                "alterId": 0,
-                "email": "",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
-              }
-            ]
+            "email": null,
+            "address": "158.69.0.27",
+            "method": "chacha20-ietf-poly1305",
+            "ota": false,
+            "password": "KVcdcsJT6f0OWL5sEyM38A",
+            "port": 1080,
+            "level": 1,
+            "users": null
           }
         ],
-        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/debian",
-          "headers": {
-            "Host": "data-us-v1.shwjfkw.cn"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

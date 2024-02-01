@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.142.209",
-            "port": 80,
+            "address": "173.249.197.176",
+            "port": 443,
             "users": [
               {
-                "id": "3a333291-9bd1-46c5-b9a9-370b5a3d1bd9",
+                "id": "e4c9dc48-f9dc-4d9b-9318-a3933d113736",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "us3.visaapp.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
