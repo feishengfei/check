@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "146.56.108.33",
-            "port": 20326,
+            "address": "jp01-alt-vm0.entry.srthdw.art",
+            "port": 21583,
             "users": [
               {
-                "id": "3b338c13-f975-4e85-b1b5-6ff2fb0f14b3",
-                "alterId": 0,
+                "id": "c4b2e7ea-1a0e-316f-8e28-0717cc087534",
+                "alterId": 1,
                 "email": "",
-                "security": "none",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "youku.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
