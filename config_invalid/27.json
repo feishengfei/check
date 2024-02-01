@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "server12.beheshtbaneh.com",
-            "port": 8880,
+            "address": "197.243.57.239",
+            "port": 22222,
             "users": [
               {
-                "id": "39c03e6d-9efd-4e5a-8851-cd4ed0ec303c",
+                "id": "e4c9dc48-f9dc-4d9b-9318-a3933d113736",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "server12.beheshtbaneh.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

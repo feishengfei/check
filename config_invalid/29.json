@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.99.120.52",
-            "port": 10510,
+            "address": "183.232.170.22",
+            "port": 30128,
             "users": [
               {
-                "id": "619d8b66-469f-4dce-fc71-b74f05810212",
+                "id": "9f41898b-e80d-418d-9ea8-5c51a914722a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,21 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.alipay.com"
-        },
+        "network": "tcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "www.alipay.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.25.1",
-            "port": 80,
+            "address": "pitcairn.ednovas.org",
+            "port": 443,
             "users": [
               {
-                "id": "113a74cc-f13b-48ec-bbb2-2bbab77a2f35",
+                "id": "e4c9dc48-f9dc-4d9b-9318-a3933d113736",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "kr1.ljyyds.top"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

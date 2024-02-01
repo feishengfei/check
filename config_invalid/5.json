@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "114.37.132.46",
-            "port": 2024,
+            "address": "us01.hajimihajimihajimi.online",
+            "port": 80,
             "users": [
               {
-                "id": "847bfa48-992d-4634-904f-be77beb390ce",
+                "id": "dbf67e8f-eca2-4a01-9c87-c8cfea490a51",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
