@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10908,
+      "port": 10912,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.231.30",
-            "port": 80,
+            "address": "104.18.202.250",
+            "port": 2082,
             "users": [
               {
-                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+                "id": "03fcc618-b93d-6796-6aed-8a38c975d581",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/nina.bond/linkvws",
           "headers": {
-            "Host": "my1.tooters.ir"
+            "Host": "erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"
           }
         },
         "httpSettings": null,

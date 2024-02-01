@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10901,
+      "port": 10904,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "pitcairn.ednovas.org",
-            "port": 443,
+            "address": "94.182.129.164",
+            "port": 20636,
             "users": [
               {
-                "id": "e4c9dc48-f9dc-4d9b-9318-a3933d113736",
+                "id": "cb263749-d00c-4919-a79c-a144a71ceceb",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
