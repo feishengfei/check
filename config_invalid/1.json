@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.181.2.154",
-            "port": 33445,
+            "address": "ap-northeast-anycast.lnaspiring.com",
+            "port": 80,
             "users": [
               {
-                "id": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
+                "id": "7b345d07-c713-4418-8148-485dab25854d",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/geg/45?ed=2048",
+          "headers": {
+            "Host": "jpli.edge.233.tw"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
