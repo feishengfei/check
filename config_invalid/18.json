@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.118.29.229",
-            "port": 80,
+            "address": "92.223.112.12",
+            "port": 443,
             "users": [
               {
-                "id": "eb9e8a52-0fec-4a10-8d16-af3b32874933",
+                "id": "7282d494-b506-4f34-9950-fb0c18820439",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "yasoft8889.zapto.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/5gtocdocao.com",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "103.118.29.229"
+            "Host": "yasoft8889.zapto.org"
           }
         },
         "httpSettings": null,
