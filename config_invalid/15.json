@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "es---join.outline-vpn.cloud",
-            "port": 16767,
+            "address": "3SAO.5GTOCDOCAO.COM",
+            "port": 80,
             "users": [
               {
-                "id": "d30a1c51-d37c-4cb8-bee6-8f5cd746f9d7",
+                "id": "eb9e8a52-0fec-4a10-8d16-af3b32874933",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/5gtocdocao.com",
+          "headers": {
+            "Host": ""
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

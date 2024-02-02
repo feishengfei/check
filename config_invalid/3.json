@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.darkroom.lol",
-            "port": 8080,
+            "address": "c12.twtc.dynu.net",
+            "port": 6122,
             "users": [
               {
-                "id": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+                "id": "12c3ce3a-f05c-4e0c-9eec-00a4f70affd4",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "www.darkroom.lol"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
