@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.223.112.12",
-            "port": 443,
+            "address": "server2.beheshtbaneh.com",
+            "port": 8880,
             "users": [
               {
-                "id": "7282d494-b506-4f34-9950-fb0c18820439",
+                "id": "8420ee38-4cf6-4d79-a9ec-2731207cf83a",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "yasoft8889.zapto.org"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/",
           "headers": {
-            "Host": "yasoft8889.zapto.org"
+            "Host": "server2.beheshtbaneh.com"
           }
         },
         "httpSettings": null,

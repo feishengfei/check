@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "server4.beheshtbaneh.com",
-            "port": 8880,
+            "address": "ap-northeast-anycast.lnaspiring.com",
+            "port": 80,
             "users": [
               {
-                "id": "b7e04f2a-2a6a-4b74-a11e-06f658c36391",
+                "id": "43a22093-03b0-4c58-856c-774d0c95b7b7",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/geg/45?ed=2048",
           "headers": {
-            "Host": "server4.beheshtbaneh.com"
+            "Host": "jpli.edge.233.tw"
           }
         },
         "httpSettings": null,
