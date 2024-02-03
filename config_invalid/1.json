@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nb22.ntbq.dynu.net",
-            "port": 12002,
+            "address": "chuncheonarm.yuwan.link",
+            "port": 20326,
             "users": [
               {
-                "id": "12c3ce3a-f05c-4e0c-9eec-00a4f70affd4",
+                "id": "3b338c13-f975-4e85-b1b5-6ff2fb0f14b3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "chuncheonarm.yuwan.link"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
