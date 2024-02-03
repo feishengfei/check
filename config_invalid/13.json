@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.25.1",
-            "port": 80,
+            "address": "94.176.183.12",
+            "port": 443,
             "users": [
               {
-                "id": "4e23bd4f-cc11-4ade-fbc1-fcaf245662bf",
+                "id": "7682b778-b64b-408b-8fb2-61d7c7fc43e5",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "soft8989.redirectme.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "lmnyvpn.catnipballs.gay"
+            "Host": "soft8989.redirectme.net"
           }
         },
         "httpSettings": null,
