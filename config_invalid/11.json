@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "95.164.8.106",
-            "port": 80,
+            "address": "server10.beheshtbaneh.com",
+            "port": 8880,
             "users": [
               {
-                "id": "c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3",
+                "id": "66d4af1c-fcc3-479b-847c-3260253e1faa",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess",
+          "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "server10.beheshtbaneh.com"
           }
         },
         "httpSettings": null,

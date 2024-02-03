@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.231.30",
-            "port": 80,
+            "address": "103.214.68.57",
+            "port": 10001,
             "users": [
               {
-                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+                "id": "ebca5f68-bf59-4081-e658-f158839c2f5c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "my1.tooters.ir"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
