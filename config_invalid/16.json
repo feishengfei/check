@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "pitcairn.ednovas.org",
-            "port": 443,
+            "address": "server4.beheshtbaneh.com",
+            "port": 8880,
             "users": [
               {
-                "id": "e4c9dc48-f9dc-4d9b-9318-a3933d113736",
+                "id": "b7e04f2a-2a6a-4b74-a11e-06f658c36391",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": {
+            "Host": "server4.beheshtbaneh.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "197.243.57.239",
-            "port": 22222,
+            "address": "freesg2.adw1681ddaw.tk",
+            "port": 8080,
             "users": [
               {
-                "id": "e4c9dc48-f9dc-4d9b-9318-a3933d113736",
+                "id": "e5b5da26-c0a5-40a0-ed36-56bf24313754",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/freesg2",
+          "headers": {
+            "Host": "freesg2.adw1681ddaw.tk"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
