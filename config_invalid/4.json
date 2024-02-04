@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cfcdn3.sanfencdn9.com",
-            "port": 80,
+            "address": "wus01.node.onepai.top",
+            "port": 443,
             "users": [
               {
-                "id": "e393dd86-fddc-4bce-8abe-d902cf831670",
+                "id": "ba9a3df5-c103-42e4-bd2d-712dd76db690",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "wus01.node.onepai.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/video/VDXcaM7r",
+          "path": "/",
           "headers": {
-            "Host": "GWYp69Yujp2.yofnhkfc.xyz"
+            "Host": "wus01.node.onepai.top"
           }
         },
         "httpSettings": null,

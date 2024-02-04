@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.25.1",
-            "port": 80,
+            "address": "jpe02.node.onepai.top",
+            "port": 443,
             "users": [
               {
-                "id": "aa8edc9c-978a-4f09-906f-a2668751e935",
+                "id": "ba9a3df5-c103-42e4-bd2d-712dd76db690",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "jpe02.node.onepai.top"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "usnatvpn.catnipballs.gay"
+            "Host": "jpe02.node.onepai.top"
           }
         },
         "httpSettings": null,

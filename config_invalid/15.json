@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gov.uk",
-            "port": 443,
+            "address": "server13.beheshtbaneh.com",
+            "port": 8880,
             "users": [
               {
-                "id": "77848824-93b7-4b89-ffd0-e91afff406ce",
+                "id": "0c0db4fe-6133-4837-9f57-0ce75fb59692",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "zheshiscp.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/77848824",
+          "path": "/",
           "headers": {
-            "Host": "zheshiscp.com"
+            "Host": ""
           }
         },
         "httpSettings": null,

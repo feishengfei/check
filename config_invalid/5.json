@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.82.183",
-            "port": 8880,
+            "address": "jp-tokyo-oracle-03b285.ip1.shop",
+            "port": 31302,
             "users": [
               {
-                "id": "c5626b16-4c57-4d7e-8668-6b1ecda5c8b5",
+                "id": "1ae0f67d-197e-4c80-8d91-a8388821c81b",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,18 +54,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/",
-          "headers": {
-            "Host": "server6.beheshtbaneh.com"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
