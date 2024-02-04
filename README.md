@@ -6,16 +6,16 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                   | addr                  | cn              | cc   | isp                                  | ip              | chatgpt          |
-|---:|:---------------------|:----------------------|:----------------|:-----|:-------------------------------------|:----------------|:-----------------|
-|  0 | [10](config/10.json) | cfcdn3.sanfencdn9.com | Japan           | JP   | Eons Data Communications Limited     | 38.207.152.134  | Yes (Region: US) |
-|  1 | [16](config/16.json) | data-us-v1.shwjfkw.cn | United States   | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138 | Yes (Region: US) |
-|  2 | [18](config/18.json) | 185.216.13.15         | The Netherlands | NL   | Stark Industries Solutions Ltd       | 185.216.13.15   | Yes (Region: NL) |
+|    | id                   | addr                  | cn             | cc   | isp                                  | ip              | chatgpt          |
+|---:|:---------------------|:----------------------|:---------------|:-----|:-------------------------------------|:----------------|:-----------------|
+|  0 | [9](config/9.json)   | cfcdn3.sanfencdn9.com | Japan          | JP   | Eons Data Communications Limited     | 38.207.152.144  | Yes (Region: US) |
+|  1 | [12](config/12.json) | 104.18.202.250        | United Kingdom | GB   | AS-GLOBALTELEHOST                    | 23.134.94.50    | Yes (Region: GB) |
+|  2 | [13](config/13.json) | data-us-v1.shwjfkw.cn | United States  | US   | Brain PEACE Science Foundation, Inc. | 104.249.174.138 | Yes (Region: US) |
 
 ## Valid
 ```
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTdmOGVcdTU2ZmRDbG91ZEZsYXJlXHU1MTZjXHU1M2Y4Q0ROXHU4MjgyXHU3MGI5IDEwIiwgImFkZCI6ICJjZmNkbjMuc2FuZmVuY2RuOS5jb20iLCAicG9ydCI6ICI4MCIsICJpZCI6ICJlMzkzZGQ4Ni1mZGRjLTRiY2UtOGFiZS1kOTAyY2Y4MzE2NzAiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIkdXWXA2OVl1anAyLnlvZm5oa2ZjLnh5eiIsICJwYXRoIjogIi92aWRlby9WRFhjYU03ciIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAiYWxwbiI6ICIifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTYiLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiYjE0NzhlMjQtNDkxNi0zYWJlLThmMTctMTU5MzEwMTJlY2JlIiwgInNuaSI6ICIiLCAiaG9zdCI6ICJkYXRhLXVzLXYxLnNod2pma3cuY24iLCAicGF0aCI6ICIvZGViaWFuIn0=
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYMXp2bWRxZ0lmbTRCNnVBSGFnbHdv@185.216.13.15:8239#github.com/freefq%20-%20%E4%BF%84%E7%BD%97%E6%96%AF%20%2018
+vmess://eyJhZGQiOiAiY2ZjZG4zLnNhbmZlbmNkbjkuY29tIiwgInYiOiAiMiIsICJwcyI6ICJnaXRodWIuY29tL2ZyZWVmcSAtIFx1N2Y4ZVx1NTZmZENsb3VkRmxhcmVcdTUxNmNcdTUzZjhDRE5cdTgyODJcdTcwYjkgOSIsICJwb3J0IjogMjA1MiwgImlkIjogIjM1N2I4ZDk1LWFmMGMtNDRmZS1hNDA2LWI2YWVkODEwNjk5YiIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAidHlwZSI6ICIiLCAiaG9zdCI6ICJrdmpxcWtuempwNi55b2ZuaGtmYy54eXoiLCAicGF0aCI6ICIvdmlkZW8vWm85OFBZZkUiLCAidGxzIjogIiJ9
+vmess://eyJhZGQiOiAiMTA0LjE4LjIwMi4yNTAiLCAidiI6ICIyIiwgInBzIjogImdpdGh1Yi5jb20vZnJlZWZxIC0gXHU3ZjhlXHU1NmZkQ2xvdWRGbGFyZVx1NTE2Y1x1NTNmOENETlx1ODI4Mlx1NzBiOSAxMiIsICJwb3J0IjogMjA4MiwgImlkIjogIjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAidHlwZSI6ICIiLCAiaG9zdCI6ICJlcmZhbm5ld2ZyZWVub2Rlcy52ZG1tc3d5em16aWdvbnZuams0NDMud29ya2Vycy5kZXYiLCAicGF0aCI6ICIvbmluYS5ib25kL2xpbmt2d3MiLCAidGxzIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTVlN2ZcdTRlMWNcdTc3MDFcdTc5ZmJcdTUyYTggMTMiLCAiYWRkIjogImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsICJwb3J0IjogIjIwNDAxIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiYjE0NzhlMjQtNDkxNi0zYWJlLThmMTctMTU5MzEwMTJlY2JlIiwgInNuaSI6ICIiLCAiaG9zdCI6ICJkYXRhLXVzLXYxLnNod2pma3cuY24iLCAicGF0aCI6ICIvZGViaWFuIn0=
 ```
 
