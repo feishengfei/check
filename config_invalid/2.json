@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "20.46.161.134",
-            "port": 443,
+            "address": "chuncheonarm.yuwan.link",
+            "port": 20326,
             "users": [
               {
-                "id": "bcd089f0-92f2-4f46-b2b4-c2031ba49d59",
+                "id": "3b338c13-f975-4e85-b1b5-6ff2fb0f14b3",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "jpe02.node.onepai.top"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "jpe02.node.onepai.top"
+            "Host": "chuncheonarm.yuwan.link"
           }
         },
         "httpSettings": null,

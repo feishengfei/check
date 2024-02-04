@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jp-tokyo-oracle-03b285.ip1.shop",
-            "port": 31302,
+            "address": "104.17.62.27",
+            "port": 2095,
             "users": [
               {
-                "id": "1ae0f67d-197e-4c80-8d91-a8388821c81b",
+                "id": "1b90659c-1f31-4daa-a958-83f58e85d753",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -54,12 +54,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/sssddd",
+          "headers": {
+            "Host": "cf-de.fanqiecloud.top"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null

@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "jpe02.node.onepai.top",
+            "address": "government.se",
             "port": 443,
             "users": [
               {
-                "id": "ba9a3df5-c103-42e4-bd2d-712dd76db690",
+                "id": "42212b21-7dd2-425d-95ff-895a00e5d815",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "none",
                 "encryption": null,
                 "flow": null
               }
@@ -58,15 +58,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "jpe02.node.onepai.top"
+          "serverName": "tt08.77678h.tk"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess?ed=2048",
           "headers": {
-            "Host": "jpe02.node.onepai.top"
+            "Host": "tt08.77678h.tk"
           }
         },
         "httpSettings": null,

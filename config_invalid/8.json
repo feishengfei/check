@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "wus01.node.onepai.top",
-            "port": 443,
+            "address": "server5.beheshtbaneh.com",
+            "port": 8880,
             "users": [
               {
-                "id": "bcd089f0-92f2-4f46-b2b4-c2031ba49d59",
+                "id": "352ecc6f-21f1-4dc8-8177-4ebd52c55b12",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": ""
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": ""
+            "Host": "server5.beheshtbaneh.com"
           }
         },
         "httpSettings": null,

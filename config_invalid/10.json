@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "server8.beheshtbaneh.com",
-            "port": 8880,
+            "address": "104.16.232.76",
+            "port": 443,
             "users": [
               {
-                "id": "f46acc36-5edf-4c5f-8c8f-3520ff46cdd9",
+                "id": "0004add9-5c68-8bab-870c-08cd5320df55",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "none",
                 "encryption": null,
                 "flow": null
               }
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "codespherede.freeargo.eu.org"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess?ed=2048",
           "headers": {
-            "Host": "server8.beheshtbaneh.com"
+            "Host": "codespherede.freeargo.eu.org"
           }
         },
         "httpSettings": null,

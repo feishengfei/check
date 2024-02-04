@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.170.248.137",
-            "port": 2053,
+            "address": "server13.beheshtbaneh.com",
+            "port": 8880,
             "users": [
               {
-                "id": "8b0136d3-148d-4efd-a866-76bd8d3e061e",
+                "id": "0c0db4fe-6133-4837-9f57-0ce75fb59692",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "usacv.universecloud.cloud"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/",
           "headers": {
-            "Host": "usacv.universecloud.cloud"
+            "Host": ""
           }
         },
         "httpSettings": null,
