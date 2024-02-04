@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 10913,
+      "port": 10910,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "server3.beheshtbaneh.com",
-            "port": 8880,
+            "address": "data-us-v1.shwjfkw.cn",
+            "port": 20401,
             "users": [
               {
-                "id": "e305fc57-6153-4650-8c52-9a36865a199d",
+                "id": "b1478e24-4916-3abe-8f17-15931012ecbe",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -61,9 +61,9 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/debian",
           "headers": {
-            "Host": "server3.beheshtbaneh.com"
+            "Host": "data-us-v1.shwjfkw.cn"
           }
         },
         "httpSettings": null,

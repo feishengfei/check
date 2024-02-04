@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "government.se",
-            "port": 443,
+            "address": "server32.beheshtbaneh.com",
+            "port": 8880,
             "users": [
               {
-                "id": "42212b21-7dd2-425d-95ff-895a00e5d815",
+                "id": "044ba8ed-7285-472a-bc14-fb91dc6be4c9",
                 "alterId": 0,
                 "email": "",
-                "security": "none",
+                "security": "auto",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tt08.77678h.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "tt08.77678h.tk"
+            "Host": "server32.beheshtbaneh.com"
           }
         },
         "httpSettings": null,
