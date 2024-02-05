@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "server33.beheshtbaneh.com",
-            "port": 8880,
+            "address": "92.38.168.5",
+            "port": 443,
             "users": [
               {
-                "id": "0873fffc-414f-4140-a155-672129fd9a1d",
+                "id": "29a47c42-6c3a-46d0-a184-2c1a6ea192ac",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "kosar37.sytes.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "server33.beheshtbaneh.com"
+            "Host": "kosar37.sytes.net"
           }
         },
         "httpSettings": null,
