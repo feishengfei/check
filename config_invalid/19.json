@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "server8.beheshtbaneh.com",
-            "port": 8880,
+            "address": "icook.hk",
+            "port": 443,
             "users": [
               {
-                "id": "f46acc36-5edf-4c5f-8c8f-3520ff46cdd9",
+                "id": "475e3bfc-cb14-47fd-b6b8-a6c2d27ea259",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gdsgrenderwestgsg.nihaoaaaa.tk"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess?ed=2048",
           "headers": {
-            "Host": "server8.beheshtbaneh.com"
+            "Host": "gdsgrenderwestgsg.nihaoaaaa.tk"
           }
         },
         "httpSettings": null,

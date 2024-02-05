@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "server4.beheshtbaneh.com",
-            "port": 8880,
+            "address": "dsfaw-testwang.hf.space",
+            "port": 443,
             "users": [
               {
-                "id": "b7e04f2a-2a6a-4b74-a11e-06f658c36391",
+                "id": "2aa34f83-ad7c-4684-9097-fa66a03ff98c",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "dsfaw-testwang.hf.space"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess?ed=2048",
           "headers": {
-            "Host": "server4.beheshtbaneh.com"
+            "Host": "dsfaw-testwang.hf.space"
           }
         },
         "httpSettings": null,
