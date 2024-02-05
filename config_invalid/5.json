@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.38.168.5",
-            "port": 443,
+            "address": "www.darkroom.lol",
+            "port": 8080,
             "users": [
               {
-                "id": "29a47c42-6c3a-46d0-a184-2c1a6ea192ac",
+                "id": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "kosar37.sytes.net"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/",
           "headers": {
-            "Host": "kosar37.sytes.net"
+            "Host": "www.darkroom.lol"
           }
         },
         "httpSettings": null,

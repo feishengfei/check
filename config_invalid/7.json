@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gov.uk",
-            "port": 443,
+            "address": "18arcims.ir",
+            "port": 80,
             "users": [
               {
-                "id": "77848824-93b7-4b89-ffd0-e91afff406ce",
+                "id": "6101f6c5-86a2-46d1-a0b0-3dafdf2a8535",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "zheshiscp.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/77848824",
+          "path": "/vmess",
           "headers": {
-            "Host": "zheshiscp.com"
+            "Host": "dk1.xv2ray.net"
           }
         },
         "httpSettings": null,
