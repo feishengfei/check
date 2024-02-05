@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "server20.beheshtbaneh.com",
-            "port": 8880,
+            "address": "cf1.hz.cz",
+            "port": 2053,
             "users": [
               {
-                "id": "7ee41eb4-0594-4e2d-92a7-5dd3ee513692",
+                "id": "65e5ded5-1e0e-4329-8d62-9e53634312e1",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gfdghglitchnodejsgugu.status-turbojerry.gq"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/vmess?ed=2048",
           "headers": {
-            "Host": ""
+            "Host": "gfdghglitchnodejsgugu.status-turbojerry.gq"
           }
         },
         "httpSettings": null,

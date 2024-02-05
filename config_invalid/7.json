@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.231.30",
-            "port": 80,
+            "address": "154.9.237.174",
+            "port": 20003,
             "users": [
               {
-                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+                "id": "57c3bfd6-09d1-4954-9b67-3a7580adc14f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "wapv62g.gorun.tech"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/ebffd932-3fb9-460e-dc98-700b592bfb9c",
           "headers": {
-            "Host": "my1.tooters.ir"
+            "Host": "wapv62g.gorun.tech"
           }
         },
         "httpSettings": null,

@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.82.183",
-            "port": 8880,
+            "address": "www.paizipai.top",
+            "port": 443,
             "users": [
               {
-                "id": "c5626b16-4c57-4d7e-8668-6b1ecda5c8b5",
+                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "vol-powerful-alive-harassment.trycloudflare.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/argo-vmess?ed=2048",
           "headers": {
-            "Host": "server6.beheshtbaneh.com"
+            "Host": "vol-powerful-alive-harassment.trycloudflare.com"
           }
         },
         "httpSettings": null,

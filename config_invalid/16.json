@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "glitch.speedarrow.tk",
-            "port": 443,
+            "address": "45.144.2.113",
+            "port": 80,
             "users": [
               {
-                "id": "e8309fac-2f74-4bc2-bb72-90d4e4b264f5",
+                "id": "1cb996c8-e5bf-40d2-9a3c-149b3b721c5f",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "glitch.speedarrow.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "glitch.speedarrow.tk"
+            "Host": "45.144.2.113"
           }
         },
         "httpSettings": null,

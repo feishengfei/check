@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "government.se",
-            "port": 443,
+            "address": "ip.sb",
+            "port": 80,
             "users": [
               {
-                "id": "a608ea78-b4dd-4c01-b290-b5ba30fd49d9",
+                "id": "113a74cc-f13b-48ec-bbb2-2bbab77a2f35",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "www.dermartmi.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "www.dermartmi.tk"
+            "Host": "kr1.ljyyds.top"
           }
         },
         "httpSettings": null,

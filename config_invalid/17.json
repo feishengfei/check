@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "chrome.cloudflare-dns.com",
-            "port": 443,
+            "address": "server26.beheshtbaneh.com",
+            "port": 8880,
             "users": [
               {
-                "id": "7f14e42a-f453-4c39-a762-019ee493237d",
+                "id": "5a7021e0-26b4-45d6-b175-fe551601ca97",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "a4.bbbbbbbb.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/argox-vm?ed=2048",
+          "path": "/",
           "headers": {
-            "Host": "a4.bbbbbbbb.tk"
+            "Host": "server26.beheshtbaneh.com"
           }
         },
         "httpSettings": null,
