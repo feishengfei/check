@@ -32,30 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "java.ct.arvancode.eu.Org",
-            "method": "chacha20-ietf-poly1305",
-            "ota": false,
-            "password": "W74XFALLLuw6m5IA",
+            "address": "gov.uk",
             "port": 443,
-            "level": 1,
-            "users": null
+            "users": [
+              {
+                "id": "77848824-93b7-4b89-ffd0-e91afff406ce",
+                "alterId": 0,
+                "email": "",
+                "security": "auto",
+                "encryption": null,
+                "flow": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "zheshiscp.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/77848824",
+          "headers": {
+            "Host": "zheshiscp.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null,
         "xtlsSettings": null
