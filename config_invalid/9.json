@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "gov.uk",
-            "port": 443,
+            "address": "104.17.25.1",
+            "port": 80,
             "users": [
               {
-                "id": "77848824-93b7-4b89-ffd0-e91afff406ce",
+                "id": "113a74cc-f13b-48ec-bbb2-2bbab77a2f35",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "zheshiscp.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/77848824",
+          "path": "/",
           "headers": {
-            "Host": "zheshiscp.com"
+            "Host": "kr1.ljyyds.top"
           }
         },
         "httpSettings": null,

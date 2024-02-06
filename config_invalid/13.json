@@ -36,14 +36,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "cf1.hz.cz",
-            "port": 2053,
+            "address": "172.67.229.14",
+            "port": 80,
             "users": [
               {
-                "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                "id": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
                 "alterId": 0,
                 "email": "",
-                "security": "auto",
+                "security": "",
                 "encryption": null,
                 "flow": null
               }
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ddfgfglitchgood1.githubludouzi.tk"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vmess?ed=2048",
+          "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
           "headers": {
-            "Host": "ddfgfglitchgood1.githubludouzi.tk"
+            "Host": "fr9.tehme100.fun"
           }
         },
         "httpSettings": null,
