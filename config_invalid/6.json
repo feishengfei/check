@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.244.208.71",
-            "port": 10000,
+            "address": "202.78.162.5",
+            "port": 443,
             "users": [
               {
-                "id": "e7093298-c066-11ee-ade9-4b28e1112dca",
+                "id": "118287d2-e968-42e1-80d0-12fa2f5d38d6",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sahand.serveminecraft.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/vpnjantit",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "185.244.208.71"
+            "Host": "sahand.serveminecraft.net"
           }
         },
         "httpSettings": null,

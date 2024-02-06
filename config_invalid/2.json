@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "202.78.162.5",
-            "port": 443,
+            "address": "www.darkroom.lol",
+            "port": 8080,
             "users": [
               {
-                "id": "716eded6-2201-4dbd-9d63-1638c9e8e677",
+                "id": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,18 +55,15 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pendar.onthewifi.com"
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/@forwardv2ray",
+          "path": "/",
           "headers": {
-            "Host": "pendar.onthewifi.com"
+            "Host": "www.darkroom.lol"
           }
         },
         "httpSettings": null,

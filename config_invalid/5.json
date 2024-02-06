@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.25.1",
-            "port": 80,
+            "address": "202.78.162.5",
+            "port": 443,
             "users": [
               {
-                "id": "113a74cc-f13b-48ec-bbb2-2bbab77a2f35",
+                "id": "716eded6-2201-4dbd-9d63-1638c9e8e677",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "pendar.onthewifi.com"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "kr1.ljyyds.top"
+            "Host": "pendar.onthewifi.com"
           }
         },
         "httpSettings": null,

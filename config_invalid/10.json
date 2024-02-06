@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "server31.beheshtbaneh.com",
-            "port": 8880,
+            "address": "202.78.162.5",
+            "port": 443,
             "users": [
               {
-                "id": "4154143c-bbba-47a4-9f79-c2ed087cbcc9",
+                "id": "2ff97c6d-8557-42a4-b43f-19c77c5959ea",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "irsoft.sytes.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "server31.beheshtbaneh.com"
+            "Host": "irsoft.sytes.net"
           }
         },
         "httpSettings": null,
