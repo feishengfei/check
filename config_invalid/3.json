@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.231.30",
-            "port": 80,
+            "address": "202.78.162.5",
+            "port": 443,
             "users": [
               {
-                "id": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+                "id": "2ff97c6d-8557-42a4-b43f-19c77c5959ea",
                 "alterId": 0,
                 "email": "",
                 "security": "auto",
@@ -55,15 +55,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "irsoft.sytes.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/@forwardv2ray",
           "headers": {
-            "Host": "my1.tooters.ir"
+            "Host": "irsoft.sytes.net"
           }
         },
         "httpSettings": null,
