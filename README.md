@@ -6,7 +6,9 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-
+|    | id                 | addr                  | cn   | cc   | isp   | ip              | chatgpt          |
+|---:|:-------------------|:----------------------|:-----|:-----|:------|:----------------|:-----------------|
+|  0 | [7](config/7.json) | data-us-v1.shwjfkw.cn |      |      |       | 104.249.174.138 | Yes (Region: US) |
 
 ## Valid
 ```
