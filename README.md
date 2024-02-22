@@ -6,10 +6,9 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-|    | id                 | addr                  | cn              | cc   | isp                            | ip             | chatgpt          |
-|---:|:-------------------|:----------------------|:----------------|:-----|:-------------------------------|:---------------|:-----------------|
-|  0 | [1](config/1.json) | 185.242.86.156        | The Netherlands | NL   | Stark Industries Solutions Ltd | 185.242.86.156 | Yes (Region: NL) |
-|  1 | [7](config/7.json) | data-us-v1.shwjfkw.cn | United States   | US   | WAP.AC LTD                     | 104.234.0.208  | Yes (Region: US) |
+|    | id                 | addr           | cn              | cc   | isp                            | ip             | chatgpt          |
+|---:|:-------------------|:---------------|:----------------|:-----|:-------------------------------|:---------------|:-----------------|
+|  0 | [1](config/1.json) | 185.242.86.156 | The Netherlands | NL   | Stark Industries Solutions Ltd | 185.242.86.156 | Yes (Region: NL) |
 
 ## Valid
 ```
