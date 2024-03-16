@@ -6,7 +6,9 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-
+|    | id                 | addr                  | cn            | cc   | isp                              | ip            | chatgpt          |
+|---:|:-------------------|:----------------------|:--------------|:-----|:---------------------------------|:--------------|:-----------------|
+|  0 | [7](config/7.json) | data-us-v1.shwjfkw.cn | United States | US   | Eons Data Communications Limited | 65.75.221.156 | Yes (Region: US) |
 
 ## Valid
 ```
