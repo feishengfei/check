@@ -6,7 +6,9 @@ This project is inspired by [free](https://github.com/freefq/free) and [check](h
     
 
 ## Table valid
-
+|    | id                 | addr                  | cn            | cc   | isp        | ip           | chatgpt          |
+|---:|:-------------------|:----------------------|:--------------|:-----|:-----------|:-------------|:-----------------|
+|  0 | [7](config/7.json) | data-us-v1.shwjfkw.cn | United States | US   | Kirino LLC | 38.94.109.54 | Yes (Region: US) |
 
 ## Valid
 ```
